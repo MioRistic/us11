@@ -117,39 +117,39 @@ const blogPosts: Post[] = [
 // Jerseys Blog JSON
 const jerseysBlogPosts: Post[] = [
   {
-      "id": 59,
-      "title": "MLS Third Kit 2025: Retro Jerseys You Need in Your Collection",
-      "author": "Mio Ristić",
-      "date": "September 9, 2025",
-      "excerpt": "Discover the best MLS third kits of 2025 – retro-inspired jerseys from Inter Miami, Seattle Sounders, LAFC, Columbus Crew, and more. Perfect for fans and collectors.",
-      "imageUrl": "https://www.mlsstore.com/content/ws/all/0c171420-bd12-42f9-9806-1480b7ee4367__548X893.jpg?w=548",
-      "link": "/blog/mls-third-kit-2025"
-    },
-     {
-      "id": 41,
-      "title": "Inter Miami 2025 \"Riptide\" Jersey – The Wave You Don’t Want to Miss",
-      "author": "Mio Ristić",
-      "date": "June 14, 2025",
-      "excerpt": "Discover the bold new Inter Miami 2025 Riptide Third Kit inspired by Miami Blue waves and Messi’s magic. Official jersey, gear, and where to buy.",
-      "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls/cw1sc4jlftyqxpshxuk5.jpg",
-      "link": "/blog/inter-blue-kit"
-    },
-    {
-      id: 19,
-      title: 'Top 10 MLS Jerseys of 2024',
-      author: 'Mio Ristic',
-      date: 'April 23, 2025',
-      excerpt: 'Style, Passion & a Bit of Magic',
-      imageUrl: 'https://images.supersport.com/media/0adn4b1p/lionel-messi-24-12-g-1200.jpg?width=1920&quality=90&format=webp',
-      link: '/blog/top-mls-jersey2024',
-    },
+    id: 106,
+    title: "Argentina FIFA World Cup 2026 Kits: Home and Away",
+    author: "Mio Ristić",
+    date: "January 18, 2026",
+    excerpt: "A full overview of Argentina's 2026 World Cup kits, including Messi's final World Cup home jersey, away kit, youth and goalkeeper editions, and fan replicas.",
+    imageUrl: "https://assets.goal.com/images/v3/blt55da43e8f76b4cfc/Argentina%20FIFA%20World%20Cup%2026%20Kit.png?auto=webp&format=pjpg&width=1920&quality=60",
+    link: "blog/argentina-2026-world-cup-kits"
+  },
+  {
+    id: 59,
+    title: "MLS Third Kit 2025: Retro Jerseys You Need in Your Collection",
+    author: "Mio Ristić",
+    date: "September 9, 2025",
+    excerpt: "Discover the best MLS third kits of 2025 – retro-inspired jerseys from Inter Miami, Seattle Sounders, LAFC, Columbus Crew, and more. Perfect for fans and collectors.",
+    imageUrl: "https://www.mlsstore.com/content/ws/all/0c171420-bd12-42f9-9806-1480b7ee4367__548X893.jpg?w=548",
+    link: "/blog/mls-third-kit-2025"
+  },
+  {
+    id: 41,
+    title: "Inter Miami 2025 \"Riptide\" Jersey – The Wave You Don’t Want to Miss",
+    author: "Mio Ristić",
+    date: "June 14, 2025",
+    excerpt: "Discover the bold new Inter Miami 2025 Riptide Third Kit inspired by Miami Blue waves and Messi’s magic. Official jersey, gear, and where to buy.",
+    imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls/cw1sc4jlftyqxpshxuk5.jpg",
+    link: "/blog/inter-blue-kit"
+  },
 ];
 
 // Hall of Fame JSON
 const hallOfFamePosts: Post[] = [
   {
   id: 86,
-  title: "MLS Hall of Fame: David Beckham — The Player Who Changed Football’s Geography",
+  title: "Hall of Fame: David Beckham — The Player Who Changed Football’s Geography",
   author: "Mio Ristić",
   date: "January 6, 2026",
   excerpt: "David Beckham's move to LA Galaxy in 2007 transformed MLS, elevating the league’s global profile and leaving a lasting legacy.",
@@ -381,7 +381,7 @@ export default function Home() {
       {/* MLS Hall of Fame Section */}
 <div className="bg-white py-16">
   <div className="max-w-5xl mx-auto">
-    <h2 className="text-5xl font-bold text-[#020617] mb-8 text-center">MLS Hall of Fame</h2>
+    <h2 className="text-5xl font-bold text-[#020617] mb-8 text-center">Hall of Fame</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {hallOfFamePosts.map((post) => (
         <Link href={post.link} key={post.id} className="h-full">

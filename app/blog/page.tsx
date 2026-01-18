@@ -33,7 +33,7 @@ const items: CategoryItem[] = [
   },
   {
     id: 2,
-    title: 'MLS Hall of Fame',
+    title: 'Hall of Fame',
     imageUrl:
       'https://media.gettyimages.com/id/130977814/photo/harrison-nj-david-beckham-of-the-los-angeles-galaxy-and-thierry-henry-of-the-new-york-red.jpg?s=612x612&w=gi&k=20&c=_FdM-NTasUPlRVjpuF0i6dFh4995HSlyT7QFCkNQ6Fo=',
     slug: 'mls-hall-of-fame',
@@ -48,6 +48,15 @@ const items: CategoryItem[] = [
 ];
 
 const blogPosts: BlogPost[] = [
+  {
+  "id": 106,
+  "title": "Argentina FIFA World Cup 2026 Kits: Home and Away",
+  "author": "Mio Ristić",
+  "date": "January 18, 2026",
+  "excerpt": "A full overview of Argentina's 2026 World Cup kits, including Messi's final World Cup home jersey, away kit, youth and goalkeeper editions, and fan replicas.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt55da43e8f76b4cfc/Argentina%20FIFA%20World%20Cup%2026%20Kit.png?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "argentina-2026-world-cup-kits"
+},
   {
     id: 85,
     title: 'Why Everyone’s Talking About the USMNT vs Paraguay Brawl',

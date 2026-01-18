@@ -11,6 +11,15 @@ import Link from 'next/link';
 
 const Blog = () => {
   const blogPosts = [
+    {
+  "id": 106,
+  "title": "Argentina FIFA World Cup 2026 Kits: Home and Away",
+  "author": "Mio Ristić",
+  "date": "January 18, 2026",
+  "excerpt": "A full overview of Argentina's 2026 World Cup kits, including Messi's final World Cup home jersey, away kit, youth and goalkeeper editions, and fan replicas.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt55da43e8f76b4cfc/Argentina%20FIFA%20World%20Cup%2026%20Kit.png?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "argentina-2026-world-cup-kits"
+},
    
   {
       "id": 59,

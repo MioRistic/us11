@@ -8,7 +8,7 @@ const Blog = () => {
   const blogPosts = [
     {
       id: 86,
-      title: "MLS Hall of Fame: David Beckham — The Player Who Changed Football’s Geography",
+      title: "Hall of Fame: David Beckham — The Player Who Changed Football’s Geography",
       author: "Mio Ristić",
       date: "January 6, 2026",
       excerpt: "David Beckham's move to LA Galaxy in 2007 transformed MLS, elevating the league’s global profile and leaving a lasting legacy.",
@@ -29,7 +29,7 @@ const Blog = () => {
     <>
       <div className="w-full min-h-screen bg-white">
         <div className="max-w-6xl mx-auto py-12 px-4">
-          <h1 className="text-5xl font-bold text-[#020617] mb-12">MLS Hall Of Fame</h1>
+          <h1 className="text-5xl font-bold text-[#020617] mb-12">Hall Of Fame</h1>
 
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {visiblePosts.map((post) => (

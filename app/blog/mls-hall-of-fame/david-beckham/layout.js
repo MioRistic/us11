@@ -5,7 +5,7 @@ export const metadata = {
   description:
     "David Beckham's impact on MLS, LA Galaxy, and global football culture, from his signing in 2007 to his legacy today.",
   openGraph: {
-    title: "MLS Hall of Fame: David Beckham | US11",
+    title: "Hall of Fame: David Beckham | US11",
     description:
       "A deep dive into David Beckham’s MLS career, LA Galaxy influence, and his legacy in global football.",
     url: "https://us11fc.com/blog/mls-hall-of-fame/david-beckham",

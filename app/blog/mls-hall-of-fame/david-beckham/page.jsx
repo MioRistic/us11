@@ -22,7 +22,7 @@ export default function BeckhamHallOfFame() {
 
   const facebookShare = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
   const twitterShare = `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(
-    "MLS Hall of Fame: David Beckham — the player who changed football’s geography"
+    "Hall of Fame: David Beckham — the player who changed football’s geography"
   )}`;
   const whatsappShare = `https://api.whatsapp.com/send?text=${encodeURIComponent(currentUrl)}`;
 
