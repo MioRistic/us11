@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 109,
+  "title": "Hirving “Chucky” Lozano and the 2026 World Cup Dilemma",
+  "author": "Mio Ristić",
+  "date": "January 23, 2026",
+  "excerpt": "Hirving Lozano faces a career crossroads as Javier Aguirre warns: no regular club minutes, no spot in Mexico’s 2026 World Cup squad. San Diego FC exit rumors are mounting.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-1245147268/crop/MM5DIMBQGQ5DEMRVGI5G433XMU5DKMRYHI4DE===/GettyImages-1245147268.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "lozano-and-the-world-cup"
+},
+    {
   "id": 108,
   "title": "Chucky Lozano Will Not Be Part of San Diego FC Sporting Plans",
   "author": "Mio Ristić",
