@@ -90,6 +90,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 110,
+  "title": "What’s Happening with Jovan Mijatović?",
+  "author": "Mio Ristić",
+  "date": "January 24, 2026",
+  "excerpt": "Jovan Mijatović, the 20-year-old Serbian striker, moves from NYCFC and a loan in Belgium to Germany’s Eintracht Braunschweig — a pivotal step for his career.",
+  "imageUrl": "https://i.ibb.co/zhFtcJwh/1769286421690.png",
+  "link": "/news/jovan-mijatovic-new-club"
+},
+  {
   "id": 109,
   "title": "Hirving “Chucky” Lozano and the 2026 World Cup Dilemma",
   "author": "Mio Ristić",
@@ -107,18 +116,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2216178867/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2216178867.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "/news/chucky-lozano-san-diego-fc"
 },
- {
-  "id": 107,
-  "title": "Aaronson Stars for Leeds, but Late Handball Costs the Visitors",
-  "author": "Mio Ristić",
-  "date": "January 5, 2026",
-  "excerpt": "Brenden Aaronson scores twice and dominates the pitch for Leeds United, but a late handball concedes a penalty, allowing Newcastle to secure a dramatic 4-3 win at St James’ Park.",
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ad29YihheEJBbsOdzkp3NkEx0JipAnWdrA&s",
-  "link": "/news/aaronson-leeds-newcastle"
-},
-  
-  
-  
+
   
   
 ];

@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 110,
+  "title": "What’s Happening with Jovan Mijatović?",
+  "author": "Mio Ristić",
+  "date": "January 24, 2026",
+  "excerpt": "Jovan Mijatović, the 20-year-old Serbian striker, moves from NYCFC and a loan in Belgium to Germany’s Eintracht Braunschweig — a pivotal step for his career.",
+  "imageUrl": "https://i.ibb.co/zhFtcJwh/1769286421690.png",
+  "slug": "jovan-mijatovic-new-club"
+},
+    {
   "id": 109,
   "title": "Hirving “Chucky” Lozano and the 2026 World Cup Dilemma",
   "author": "Mio Ristić",
