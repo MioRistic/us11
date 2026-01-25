@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 111,
+  "title": "MLS Winter 2026 Transfer Roundup",
+  "author": "Mio Ristić",
+  "date": "January 25, 2026",
+  "excerpt": "A detailed look at all the moves during the MLS Winter 2026 transfer window: signings, loans, and departures across the league.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt81f8e9ce07a146c0/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU3Q====/IMG_8044.jpeg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "mls-winter-2026-transfers"
+},
+    {
   "id": 110,
   "title": "What’s Happening with Jovan Mijatović?",
   "author": "Mio Ristić",

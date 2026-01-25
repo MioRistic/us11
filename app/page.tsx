@@ -90,6 +90,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 111,
+  "title": "MLS Winter 2026 Transfer Roundup",
+  "author": "Mio Ristić",
+  "date": "January 25, 2026",
+  "excerpt": "A detailed look at all the moves during the MLS Winter 2026 transfer window: signings, loans, and departures across the league.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt81f8e9ce07a146c0/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU3Q====/IMG_8044.jpeg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/mls-winter-2026-transfers"
+},
+  {
   "id": 110,
   "title": "What’s Happening with Jovan Mijatović?",
   "author": "Mio Ristić",
@@ -106,17 +115,7 @@ const blogPosts: Post[] = [
   "excerpt": "Hirving Lozano faces a career crossroads as Javier Aguirre warns: no regular club minutes, no spot in Mexico’s 2026 World Cup squad. San Diego FC exit rumors are mounting.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-1245147268/crop/MM5DIMBQGQ5DEMRVGI5G433XMU5DKMRYHI4DE===/GettyImages-1245147268.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "/news/lozano-and-the-world-cup"
-},
-  {
-  "id": 108,
-  "title": "Chucky Lozano Will Not Be Part of San Diego FC Sporting Plans",
-  "author": "Mio Ristić",
-  "date": "January 10, 2026",
-  "excerpt": "San Diego FC confirms Hirving “Chucky” Lozano will not be included in the club’s sporting plans, despite being the team’s second-leading scorer last season.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2216178867/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2216178867.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/chucky-lozano-san-diego-fc"
-},
-
+}
   
   
 ];
@@ -171,6 +170,12 @@ export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const heroItems = [
+    {
+  "title": "MLS Winter 2026 Transfer Roundup",
+  "subtitle": "All the Moves, Signings, and Loans Across the League",
+  "imageUrl": "https://assets.goal.com/images/v3/blt81f8e9ce07a146c0/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU3Q====/IMG_8044.jpeg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/mls-winter-2026-transfers"
+},
     {
       title: "Top 10 Things We Will Remember",
       subtitle: "From the 2025 MLS Season",
