@@ -90,6 +90,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 112,
+  "title": "Free Agents – US Players (MLS & Abroad) – Winter 2026",
+  "author": "Mio Ristić",
+  "date": "January 25, 2026",
+  "excerpt": "An overview of American players available as free agents for the 2026 MLS season, including veterans, promising talents, and versatile midfielders and defenders.",
+  "imageUrl": "https://i.ibb.co/p6NKtkb4/SN222-H3-NXFGYTHLW34-S2-NBJKEI.webp",
+  "link": "/news/us-free-agents-winter-2026"
+},
+  {
   "id": 111,
   "title": "MLS Winter 2026 Transfer Roundup",
   "author": "Mio Ristić",
@@ -107,15 +116,6 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/zhFtcJwh/1769286421690.png",
   "link": "/news/jovan-mijatovic-new-club"
 },
-  {
-  "id": 109,
-  "title": "Hirving “Chucky” Lozano and the 2026 World Cup Dilemma",
-  "author": "Mio Ristić",
-  "date": "January 23, 2026",
-  "excerpt": "Hirving Lozano faces a career crossroads as Javier Aguirre warns: no regular club minutes, no spot in Mexico’s 2026 World Cup squad. San Diego FC exit rumors are mounting.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-1245147268/crop/MM5DIMBQGQ5DEMRVGI5G433XMU5DKMRYHI4DE===/GettyImages-1245147268.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/lozano-and-the-world-cup"
-}
   
   
 ];

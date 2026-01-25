@@ -11,6 +11,17 @@ import Us11 from '../../public/11.png';
 
 const Blog = () => {
   const blogPosts = [
+   {
+  "id": 112,
+  "title": "Free Agents – US Players (MLS & Abroad) – Winter 2026",
+  "author": "Mio Ristić",
+  "date": "January 25, 2026",
+  "excerpt": "An overview of American players available as free agents for the 2026 MLS season, including veterans, promising talents, and versatile midfielders and defenders.",
+  "imageUrl": "https://i.ibb.co/p6NKtkb4/SN222-H3-NXFGYTHLW34-S2-NBJKEI.webp",
+  "imagePosition": "top", 
+  "slug": "us-free-agents-winter-2026"
+}
+,
     {
   "id": 111,
   "title": "MLS Winter 2026 Transfer Roundup",
