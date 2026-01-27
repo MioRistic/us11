@@ -122,6 +122,15 @@ const blogPosts: Post[] = [
 
 // Jerseys Blog JSON
 const jerseysBlogPosts: Post[] = [
+  {
+  "id": 1000,
+  "title": "Mexico FIFA World Cup 2026 Kit: The Green Jersey",
+  "author": "Mio Ristić",
+  "date": "January 25, 2026",
+  "excerpt": "A full overview of Mexico's 2026 World Cup home kit, featuring the iconic green jersey with Aztec-inspired design, 'SOMOS MÉXICO' detail, and official fan replicas.",
+  "imageUrl": "https://fanatics.frgimages.com/mexico-national-team/mens-adidas-green-mexico-national-team-fifa-x-world-cup-2026-home-replica-jersey_ss5_p-203487748+pv-8+u-ogat4stn1auancckep4s+v-yedw66wzn5jjpmljufio.jpg?_hv=2&w=1018",
+  "link": "blog/mexico-2026-world-cup-kit"
+},
   
   {
     id: 106,
@@ -140,15 +149,6 @@ const jerseysBlogPosts: Post[] = [
     excerpt: "Discover the best MLS third kits of 2025 – retro-inspired jerseys from Inter Miami, Seattle Sounders, LAFC, Columbus Crew, and more. Perfect for fans and collectors.",
     imageUrl: "https://www.mlsstore.com/content/ws/all/0c171420-bd12-42f9-9806-1480b7ee4367__548X893.jpg?w=548",
     link: "/blog/mls-third-kit-2025"
-  },
-  {
-    id: 41,
-    title: "Inter Miami 2025 \"Riptide\" Jersey – The Wave You Don’t Want to Miss",
-    author: "Mio Ristić",
-    date: "June 14, 2025",
-    excerpt: "Discover the bold new Inter Miami 2025 Riptide Third Kit inspired by Miami Blue waves and Messi’s magic. Official jersey, gear, and where to buy.",
-    imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls/cw1sc4jlftyqxpshxuk5.jpg",
-    link: "/blog/inter-blue-kit"
   },
 ];
 
@@ -188,6 +188,12 @@ export default function Home() {
       imageUrl: "https://www.mlsstore.com/content/ws/all/9fde580b-fd2e-4c86-bc02-0dd5c9a5b12f__2400X1176.jpg?w=2400",
       link: "https://mlsstore.i8h2.net/QjBXrY",
     },
+    {
+  "title": "MLS Winter 2026 Transfer Roundup",
+  "subtitle": "All the Moves, Signings, and Loans Across the League",
+  "imageUrl": "https://assets.goal.com/images/v3/blt81f8e9ce07a146c0/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU3Q====/IMG_8044.jpeg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/mls-winter-2026-transfers"
+},
   ];
 
   const staffPicks = [
