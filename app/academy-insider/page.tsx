@@ -23,7 +23,7 @@ const items = [
     title: 'Player Pathways',
     imageUrl:
       'https://images.pexels.com/photos/3886066/pexels-photo-3886066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    link: 'https://amzn.to/3XBDhy7',
+    link: '/academy-insider/player-pathways',
   },
   {
     id: 2,
