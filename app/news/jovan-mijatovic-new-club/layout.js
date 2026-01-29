@@ -8,7 +8,7 @@ export const metadata = {
     title: "What’s Happening with Jovan Mijatović?",
     description:
       "After struggling for minutes at NYCFC and a loan spell in Belgium, Jovan Mijatović takes on a new challenge in Germany with Eintracht Braunschweig. Full story and analysis.",
-    url: "https://www.us11fc.com/jovan-mijatovic-new-club",
+    url: "https://www.us11fc.com/news/jovan-mijatovic-new-club",
     siteName: "US11",
     images: [
       {

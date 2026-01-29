@@ -11,6 +11,16 @@ import Us11 from '../../public/11.png';
 
 const Blog = () => {
   const blogPosts = [
+    {
+  "id": 113,
+  "title": "Timo Werner in San Jose: The Contract, the Context, and Why This Transfer Changes the Direction of the Earthquakes",
+  "author": "Mio Ristić",
+  "date": "January 28, 2026",
+  "excerpt": "Timo Werner, the German international forward, joins San Jose Earthquakes until 2028 as a Designated Player. Full story and analysis of the transfer and its impact.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-1752670823/crop/MM5DEOBXHE5DCNRRHE5G433XMU5DAORRGUYA====/GettyImages-1752670823.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "imagePosition": "top",
+  "slug": "timo-werner-san-jose"
+},
    {
   "id": 112,
   "title": "Free Agents – US Players (MLS & Abroad) – Winter 2026",

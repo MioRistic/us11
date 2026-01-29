@@ -90,6 +90,16 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 113,
+  "title": "Timo Werner in San Jose: The Contract, the Context, and Why This Transfer Changes the Direction of the Earthquakes",
+  "author": "Mio Ristić",
+  "date": "January 28, 2026",
+  "excerpt": "Timo Werner, the German international forward, joins San Jose Earthquakes until 2028 as a Designated Player. Full story and analysis of the transfer and its impact.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-1752670823/crop/MM5DEOBXHE5DCNRRHE5G433XMU5DAORRGUYA====/GettyImages-1752670823.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "imagePosition": "top",
+  "link": "/news/timo-werner-san-jose"
+},
+  {
   "id": 112,
   "title": "Free Agents – US Players (MLS & Abroad) – Winter 2026",
   "author": "Mio Ristić",
@@ -107,15 +117,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/blt81f8e9ce07a146c0/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU3Q====/IMG_8044.jpeg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "/news/mls-winter-2026-transfers"
 },
-  {
-  "id": 110,
-  "title": "What’s Happening with Jovan Mijatović?",
-  "author": "Mio Ristić",
-  "date": "January 24, 2026",
-  "excerpt": "Jovan Mijatović, the 20-year-old Serbian striker, moves from NYCFC and a loan in Belgium to Germany’s Eintracht Braunschweig — a pivotal step for his career.",
-  "imageUrl": "https://i.ibb.co/zhFtcJwh/1769286421690.png",
-  "link": "/news/jovan-mijatovic-new-club"
-},
+
   
   
 ];
@@ -171,10 +173,10 @@ export default function Home() {
 
   const heroItems = [
     {
-  "title": "MLS Winter 2026 Transfer Roundup",
-  "subtitle": "All the Moves, Signings, and Loans Across the League",
-  "imageUrl": "https://assets.goal.com/images/v3/blt81f8e9ce07a146c0/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU3Q====/IMG_8044.jpeg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/mls-winter-2026-transfers"
+  "title": "Timo Werner in San Jose",
+  "subtitle": "The Contract, the Context, and Why This Transfer Changes the Direction of the Earthquakes",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-1752670823/crop/MM5DEOBXHE5DCNRRHE5G433XMU5DAORRGUYA====/GettyImages-1752670823.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/timo-werner-san-jose"
 },
     {
       title: "Top 10 Things We Will Remember",
@@ -188,12 +190,7 @@ export default function Home() {
       imageUrl: "https://www.mlsstore.com/content/ws/all/9fde580b-fd2e-4c86-bc02-0dd5c9a5b12f__2400X1176.jpg?w=2400",
       link: "https://mlsstore.i8h2.net/QjBXrY",
     },
-    {
-  "title": "MLS Winter 2026 Transfer Roundup",
-  "subtitle": "All the Moves, Signings, and Loans Across the League",
-  "imageUrl": "https://assets.goal.com/images/v3/blt81f8e9ce07a146c0/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU3Q====/IMG_8044.jpeg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/mls-winter-2026-transfers"
-},
+    
   ];
 
   const staffPicks = [
