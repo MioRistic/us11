@@ -12,6 +12,17 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 114,
+  "title": "January 2026 MLS Transfers: Complete List of Moves",
+  "author": "Mio Ristić",
+  "date": "January 30, 2026",
+  "excerpt": "A comprehensive look at all MLS transfers completed in January 2026, including signings, loans, and departures across the league.",
+  "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls/nueftpykp5147ajenan0.jpg",
+  "imagePosition": "top",
+  "slug": "mls-transfers-january",
+  "source": "All information sourced from the official MLS website (mlssoccer.com)."
+},
+    {
   "id": 113,
   "title": "Timo Werner in San Jose: The Contract, the Context, and Why This Transfer Changes the Direction of the Earthquakes",
   "author": "Mio Ristić",

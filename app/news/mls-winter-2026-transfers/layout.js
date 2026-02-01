@@ -8,7 +8,7 @@ export const metadata = {
     title: "MLS Winter 2026 Transfer Roundup",
     description:
       "From Atlanta United to Inter Miami, see all the MLS clubs' winter 2026 transfers, including key signings and departures impacting the season.",
-    url: "https://www.us11fc.com/mls-winter-2026-transfers",
+    url: "https://www.us11fc.com/news/mls-winter-2026-transfers",
     siteName: "US11",
     images: [
       {

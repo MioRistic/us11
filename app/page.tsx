@@ -90,6 +90,16 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 114,
+  "title": "January 2026 MLS Transfers: Complete List of Moves",
+  "author": "Mio Ristić",
+  "date": "January 30, 2026",
+  "excerpt": "A comprehensive look at all MLS transfers completed in January 2026, including signings, loans, and departures across the league.",
+  "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls/nueftpykp5147ajenan0.jpg",
+  "imagePosition": "top",
+  "link": "/news/mls-transfers-january",
+},
+  {
   "id": 113,
   "title": "Timo Werner in San Jose: The Contract, the Context, and Why This Transfer Changes the Direction of the Earthquakes",
   "author": "Mio Ristić",
@@ -108,15 +118,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/p6NKtkb4/SN222-H3-NXFGYTHLW34-S2-NBJKEI.webp",
   "link": "/news/us-free-agents-winter-2026"
 },
-  {
-  "id": 111,
-  "title": "MLS Winter 2026 Transfer Roundup",
-  "author": "Mio Ristić",
-  "date": "January 25, 2026",
-  "excerpt": "A detailed look at all the moves during the MLS Winter 2026 transfer window: signings, loans, and departures across the league.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt81f8e9ce07a146c0/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU3Q====/IMG_8044.jpeg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/mls-winter-2026-transfers"
-},
+
 
   
   
@@ -172,11 +174,11 @@ export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const heroItems = [
-    {
-  "title": "Timo Werner in San Jose",
-  "subtitle": "The Contract, the Context, and Why This Transfer Changes the Direction of the Earthquakes",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-1752670823/crop/MM5DEOBXHE5DCNRRHE5G433XMU5DAORRGUYA====/GettyImages-1752670823.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/timo-werner-san-jose"
+   {
+  "title": "January 2026 MLS Transfers",
+  "subtitle": "Complete List of Moves Across the League",
+  "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls/nueftpykp5147ajenan0.jpg",
+  "link": "/news/mls-transfers-january"
 },
     {
       title: "Top 10 Things We Will Remember",
