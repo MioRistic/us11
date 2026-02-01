@@ -259,6 +259,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
+      
       <div className="relative w-full h-[700px]">
         <a
           href={currentItem.link}

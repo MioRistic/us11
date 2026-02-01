@@ -16,6 +16,16 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+  id: 2001,
+  title: "From Portugal to the U.S. – Learning the Hard Way: Exclusive Interview with João Pereira",
+  author: "Mio Ristić",
+  date: "January 31, 2026",
+  excerpt:
+    "João Pereira shares honest insights on adapting from Portugal to the U.S. college and USL2 system, the mental side of football, and what young players must really understand about development.",
+  imageUrl: "https://i.ibb.co/s9hjNbJL/Profile-Pic.jpg",
+  slug: "academy-insider/player-pathways/joao-pereira-interview",
+},
+  {
     id: 2000,
     title: "What No One Tells Young American Soccer Players – Harrison Szep Interview",
     author: "Mio Ristić",
