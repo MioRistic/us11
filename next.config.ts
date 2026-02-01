@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Turbopack konfiguracija sa root-om
   turbopack: {
-    root: __dirname, // ovo osigurava da Turbopack zna gde je koren projekta
+    root: __dirname,
   },
 
-  // Remote images konfiguracija
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'assets.goal.com' },
@@ -61,12 +59,26 @@ const nextConfig = {
     ],
   },
 
-  // Proxy / rewrite konfiguracija umesto middleware
   async rewrites() {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://external-api.com/:path*', // Zameni sa stvarnim API endpointom
+        destination: 'https://external-api.com/:path*',
+      },
+    ];
+  },
+
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'Content-Security-Policy',
+            value:
+              "default-src 'self'; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com; child-src https://www.youtube.com; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline';",
+          },
+        ],
       },
     ];
   },

@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import YouTubeVideo from '@/app/ui/YouTubeVideo';
 import { useEffect, useState } from "react";
 import { FaFacebookF, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { FiCopy } from "react-icons/fi";
@@ -179,17 +180,22 @@ Your content is very educational and it’s clear you’ve put a lot of work int
 
         </section>
 
-        {/* YOUTUBE VIDEO */}
-        <div className="w-full rounded-2xl overflow-hidden shadow-md mb-10" style={{ height: '500px' }}>
-          <iframe
-            className="w-full h-full"
-            src="https://www.youtube.com/embed/uSjUuWcMNac?rel=0"
-            title="Interview with João Pereira"
-            frameBorder="0"
-            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </div>
+      {/* YOUTUBE VIDEO LINK */}
+<div className="my-6 p-4 bg-gray-100 rounded-lg text-center">
+  <p className="mb-2">
+    Watch João Pereira’s video "How College soccer in America ACTUALLY Works", and subscribe to his channel for more content!
+  </p>
+  <a
+    href="https://www.youtube.com/watch?v=uSjUuWcMNac" // <-- stavi pravi kanal link ovde
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 hover:underline font-semibold"
+  >
+    Go to YouTube Channel
+  </a>
+</div>
+
+
 
         {/* FOOTER */}
         <footer className="mt-12 border-t pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
