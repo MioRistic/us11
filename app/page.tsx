@@ -89,6 +89,16 @@ const TrendingPlayers = () => {
 
 // News JSON
 const blogPosts: Post[] = [
+   {
+  "id": 115,
+  "title": "Obed Vargas joins Atlético Madrid from Seattle Sounders",
+  "author": "Mio Ristić",
+  "date": "February 2, 2026",
+  "excerpt": "Obed Vargas, the young Mexican international midfielder, makes the move from Seattle Sounders to Atlético Madrid. Full analysis of the transfer, his potential, and why Simeone sees him as a project.",
+  "imageUrl": "https://sports.mynorthwest.com/wp-content/uploads/2024/04/Obed-Vargas-plays-for-the-Seattle-Sounders-ball-on-ground-Getty-900.jpg",
+  "imagePosition": "top",
+  "link": "/news/obed-vargas-atletico",
+},
   {
   "id": 114,
   "title": "January 2026 MLS Transfers: Complete List of Moves",
@@ -108,15 +118,6 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-1752670823/crop/MM5DEOBXHE5DCNRRHE5G433XMU5DAORRGUYA====/GettyImages-1752670823.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "imagePosition": "top",
   "link": "/news/timo-werner-san-jose"
-},
-  {
-  "id": 112,
-  "title": "Free Agents – US Players (MLS & Abroad) – Winter 2026",
-  "author": "Mio Ristić",
-  "date": "January 25, 2026",
-  "excerpt": "An overview of American players available as free agents for the 2026 MLS season, including veterans, promising talents, and versatile midfielders and defenders.",
-  "imageUrl": "https://i.ibb.co/p6NKtkb4/SN222-H3-NXFGYTHLW34-S2-NBJKEI.webp",
-  "link": "/news/us-free-agents-winter-2026"
 },
 
 

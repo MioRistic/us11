@@ -12,6 +12,16 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 115,
+  "title": "Obed Vargas joins Atlético Madrid from Seattle Sounders",
+  "author": "Mio Ristić",
+  "date": "February 2, 2026",
+  "excerpt": "Obed Vargas, the young Mexican international midfielder, makes the move from Seattle Sounders to Atlético Madrid. Full analysis of the transfer, his potential, and why Simeone sees him as a project.",
+  "imageUrl": "https://sports.mynorthwest.com/wp-content/uploads/2024/04/Obed-Vargas-plays-for-the-Seattle-Sounders-ball-on-ground-Getty-900.jpg",
+  "imagePosition": "top",
+  "slug": "obed-vargas-atletico"
+},
+    {
   "id": 114,
   "title": "January 2026 MLS Transfers: Complete List of Moves",
   "author": "Mio Ristić",
