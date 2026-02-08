@@ -89,6 +89,16 @@ const TrendingPlayers = () => {
 
 // News JSON
 const blogPosts: Post[] = [
+  {
+  "id": 116,
+  "title": "James Rodríguez joins Minnesota United with World Cup in mind",
+  "author": "Mio Ristić",
+  "date": "February 6, 2026",
+  "excerpt": "James Rodríguez, Champions League winner and World Cup Golden Boot winner, joins Minnesota United to prepare for the 2026 World Cup and help redefine the club's identity. Full story and analysis.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2162057999/crop/MM5DEMJTGQ5DCMRQGA5G433XMU5DOMR2GE3TS===/GettyImages-2162057999.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "imagePosition": "top",
+  "link": "/news/james-rodriguez-minnesota"
+},
    {
   "id": 115,
   "title": "Obed Vargas joins Atlético Madrid from Seattle Sounders",
@@ -108,16 +118,6 @@ const blogPosts: Post[] = [
   "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls/nueftpykp5147ajenan0.jpg",
   "imagePosition": "top",
   "link": "/news/mls-transfers-january",
-},
-  {
-  "id": 113,
-  "title": "Timo Werner in San Jose: The Contract, the Context, and Why This Transfer Changes the Direction of the Earthquakes",
-  "author": "Mio Ristić",
-  "date": "January 28, 2026",
-  "excerpt": "Timo Werner, the German international forward, joins San Jose Earthquakes until 2028 as a Designated Player. Full story and analysis of the transfer and its impact.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-1752670823/crop/MM5DEOBXHE5DCNRRHE5G433XMU5DAORRGUYA====/GettyImages-1752670823.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "imagePosition": "top",
-  "link": "/news/timo-werner-san-jose"
 },
 
 
@@ -176,10 +176,10 @@ export default function Home() {
 
   const heroItems = [
    {
-  "title": "January 2026 MLS Transfers",
-  "subtitle": "Complete List of Moves Across the League",
-  "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls/nueftpykp5147ajenan0.jpg",
-  "link": "/news/mls-transfers-january"
+  "title": "James Rodríguez Joins Minnesota United",
+  "subtitle": "A Move Focused on the World Cup and Club Identity",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2162057999/crop/MM5DEMJTGQ5DCMRQGA5G433XMU5DOMR2GE3TS===/GettyImages-2162057999.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/james-rodriguez-minnesota"
 },
     {
       title: "Top 10 Things We Will Remember",

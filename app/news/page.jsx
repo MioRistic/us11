@@ -12,6 +12,16 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 116,
+  "title": "James Rodríguez joins Minnesota United with World Cup in mind",
+  "author": "Mio Ristić",
+  "date": "February 6, 2026",
+  "excerpt": "James Rodríguez, Champions League winner and World Cup Golden Boot winner, joins Minnesota United to prepare for the 2026 World Cup and help redefine the club's identity. Full story and analysis.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2162057999/crop/MM5DEMJTGQ5DCMRQGA5G433XMU5DOMR2GE3TS===/GettyImages-2162057999.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "imagePosition": "top",
+  "slug": "james-rodriguez-minnesota"
+},
+    {
   "id": 115,
   "title": "Obed Vargas joins Atlético Madrid from Seattle Sounders",
   "author": "Mio Ristić",
