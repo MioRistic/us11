@@ -12,6 +12,16 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 117,
+  "title": "Cristiano Ronaldo and Inter Miami: Why a Move to MLS Isn’t So Simple",
+  "author": "Mio Ristić",
+  "date": "February 9, 2026",
+  "excerpt": "Cristiano Ronaldo’s standoff with Al Nassr has sparked speculation about a move to MLS, but high wages, MLS rules, and tactical considerations make a transfer to Inter Miami far from simple.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2167147749/crop/MM5DIOJSHA5DENZXGI5G433XMU5DAORRGM2A====/GettyImages-2167147749.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "imagePosition": "top",
+  "slug": "ronaldo-inter-miami-mls"
+},
+    {
   "id": 116,
   "title": "James Rodríguez joins Minnesota United with World Cup in mind",
   "author": "Mio Ristić",
