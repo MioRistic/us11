@@ -189,10 +189,10 @@ export default function Home() {
       link: "/blog/top-10-mls-2025",
     },
     {
-      title: "2025 Champions",
+      title: "2026 Jerseys",
       subtitle: "Shop Now",
-      imageUrl: "https://www.mlsstore.com/content/ws/all/9fde580b-fd2e-4c86-bc02-0dd5c9a5b12f__2400X1176.jpg?w=2400",
-      link: "https://mlsstore.i8h2.net/QjBXrY",
+      imageUrl: "https://www.mlsstore.com/content/ws/all/26c98c3c-344a-4dca-8419-1decba3953f8__2400X954.jpg?w=2400",
+      link: "https://mlsstore.i8h2.net/rE4gvR",
     },
     
   ];
