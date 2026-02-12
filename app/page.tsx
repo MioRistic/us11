@@ -128,6 +128,16 @@ const blogPosts: Post[] = [
 
 // Jerseys Blog JSON
 const jerseysBlogPosts: Post[] = [
+   {
+  "id": 1001,
+  "title": "MLS Jerseys 2026: Identity, Style, and the Kits Fans Actually Want to Wear",
+  "author": "Mio Ristić",
+  "date": "February 11, 2026",
+  "excerpt": "MLS jerseys in 2026 are more than kits — they’re fashion, identity, and culture. A deep dive into the designs fans love (and hate) the most.",
+  "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/mls/em5hapeppp5zqyphlmlt.jpg",
+  "link": "blog/mls-jerseys-2026"
+},
+
   {
   "id": 1000,
   "title": "Mexico FIFA World Cup 2026 Kit: The Green Jersey",
@@ -146,16 +156,7 @@ const jerseysBlogPosts: Post[] = [
     excerpt: "A full overview of Argentina's 2026 World Cup kits, including Messi's final World Cup home jersey, away kit, youth and goalkeeper editions, and fan replicas.",
     imageUrl: "https://assets.goal.com/images/v3/blt55da43e8f76b4cfc/Argentina%20FIFA%20World%20Cup%2026%20Kit.png?auto=webp&format=pjpg&width=1920&quality=60",
     link: "blog/argentina-2026-world-cup-kits"
-  },
-  {
-    id: 59,
-    title: "MLS Third Kit 2025: Retro Jerseys You Need in Your Collection",
-    author: "Mio Ristić",
-    date: "September 9, 2025",
-    excerpt: "Discover the best MLS third kits of 2025 – retro-inspired jerseys from Inter Miami, Seattle Sounders, LAFC, Columbus Crew, and more. Perfect for fans and collectors.",
-    imageUrl: "https://www.mlsstore.com/content/ws/all/0c171420-bd12-42f9-9806-1480b7ee4367__548X893.jpg?w=548",
-    link: "/blog/mls-third-kit-2025"
-  },
+  }
 ];
 
 // Hall of Fame JSON
@@ -191,7 +192,7 @@ export default function Home() {
     {
       title: "2026 Jerseys",
       subtitle: "Shop Now",
-      imageUrl: "https://www.mlsstore.com/content/ws/all/26c98c3c-344a-4dca-8419-1decba3953f8__2400X954.jpg?w=2400",
+      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/mls/em5hapeppp5zqyphlmlt.jpg",
       link: "https://mlsstore.i8h2.net/rE4gvR",
     },
     

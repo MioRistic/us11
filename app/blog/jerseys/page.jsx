@@ -11,6 +11,15 @@ import Link from 'next/link';
 
 const Blog = () => {
   const blogPosts = [
+     {
+  "id": 1001,
+  "title": "MLS Jerseys 2026: Identity, Style, and the Kits Fans Actually Want to Wear",
+  "author": "Mio Ristić",
+  "date": "February 11, 2026",
+  "excerpt": "MLS jerseys in 2026 are more than kits — they’re fashion, identity, and culture. A deep dive into the designs fans love (and hate) the most.",
+  "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/mls/em5hapeppp5zqyphlmlt.jpg",
+  "slug": "mls-jerseys-2026"
+},
     {
   "id": 1000,
   "title": "Mexico FIFA World Cup 2026 Kit: The Green Jersey",
