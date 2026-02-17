@@ -8,7 +8,7 @@ export const metadata = {
     title: "MLS Jerseys 2026: Identity, Style, and the Kits Fans Actually Want to Wear",
     description:
       "From Inter Miami to Charlotte FC, explore the MLS 2026 jerseys that define style, culture, and club identity. Full analysis and picks by Mio Ristić.",
-    url: "https://www.us11fc.com/blog/mls-jersey-2026",
+    url: "https://www.us11fc.com/blog/mls-jerseys-2026",
     siteName: "US11",
     images: [
       {
