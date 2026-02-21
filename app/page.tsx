@@ -89,6 +89,16 @@ const TrendingPlayers = () => {
 
 // News JSON
 const blogPosts: Post[] = [
+  {
+  "id": 118,
+  "title": "MLS is Back: A New Season Begins",
+  "author": "Mio Ristić",
+  "date": "February 21, 2026",
+  "excerpt": "Major League Soccer returns for the 2026 season with growing global momentum, continued star arrivals, and another unpredictable campaign ahead.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-1247752079/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU3A====/GettyImages-1247752079.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "imagePosition": "top",
+  "link": "/news/mls-is-back-2026"
+},
     {
   "id": 117,
   "title": "Cristiano Ronaldo and Inter Miami: Why a Move to MLS Isn’t So Simple",
@@ -108,18 +118,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2162057999/crop/MM5DEMJTGQ5DCMRQGA5G433XMU5DOMR2GE3TS===/GettyImages-2162057999.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "imagePosition": "top",
   "link": "/news/james-rodriguez-minnesota"
-},
-   {
-  "id": 115,
-  "title": "Obed Vargas joins Atlético Madrid from Seattle Sounders",
-  "author": "Mio Ristić",
-  "date": "February 2, 2026",
-  "excerpt": "Obed Vargas, the young Mexican international midfielder, makes the move from Seattle Sounders to Atlético Madrid. Full analysis of the transfer, his potential, and why Simeone sees him as a project.",
-  "imageUrl": "https://sports.mynorthwest.com/wp-content/uploads/2024/04/Obed-Vargas-plays-for-the-Seattle-Sounders-ball-on-ground-Getty-900.jpg",
-  "imagePosition": "top",
-  "link": "/news/obed-vargas-atletico",
-},
-
+}
 
 
   

@@ -12,6 +12,16 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 118,
+  "title": "MLS is Back: A New Season Begins",
+  "author": "Mio Ristić",
+  "date": "February 21, 2026",
+  "excerpt": "Major League Soccer returns for the 2026 season with growing global momentum, continued star arrivals, and another unpredictable campaign ahead.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-1247752079/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU3A====/GettyImages-1247752079.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "imagePosition": "top",
+  "slug": "mls-is-back-2026"
+},
+    {
   "id": 117,
   "title": "Cristiano Ronaldo and Inter Miami: Why a Move to MLS Isn’t So Simple",
   "author": "Mio Ristić",
