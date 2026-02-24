@@ -12,6 +12,16 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 119,
+  "title": "MLS 2026 Kicks Off in Spectacular Fashion",
+  "author": "Mio Ristić",
+  "date": "February 24, 2026",
+  "excerpt": "Record crowds, teenage breakthroughs, and early contenders headline a thrilling opening weekend of the 2026 MLS season.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt13a6a3cd66e0c26a/GettyImages-2262888870.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "imagePosition": "top",
+  "slug": "mls-2026-kicks-off"
+},
+    {
   "id": 118,
   "title": "MLS is Back: A New Season Begins",
   "author": "Mio Ristić",

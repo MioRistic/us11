@@ -90,6 +90,16 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 119,
+  "title": "MLS 2026 Kicks Off in Spectacular Fashion",
+  "author": "Mio Ristić",
+  "date": "February 24, 2026",
+  "excerpt": "Record crowds, teenage breakthroughs, and early contenders headline a thrilling opening weekend of the 2026 MLS season.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt13a6a3cd66e0c26a/GettyImages-2262888870.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "imagePosition": "top",
+  "link": "news/mls-2026-kicks-off"
+},
+  {
   "id": 118,
   "title": "MLS is Back: A New Season Begins",
   "author": "Mio Ristić",
@@ -109,19 +119,7 @@ const blogPosts: Post[] = [
   "imagePosition": "top",
   "link": "/news/ronaldo-inter-miami-mls"
 },
-  {
-  "id": 116,
-  "title": "James Rodríguez joins Minnesota United with World Cup in mind",
-  "author": "Mio Ristić",
-  "date": "February 6, 2026",
-  "excerpt": "James Rodríguez, Champions League winner and World Cup Golden Boot winner, joins Minnesota United to prepare for the 2026 World Cup and help redefine the club's identity. Full story and analysis.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2162057999/crop/MM5DEMJTGQ5DCMRQGA5G433XMU5DOMR2GE3TS===/GettyImages-2162057999.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "imagePosition": "top",
-  "link": "/news/james-rodriguez-minnesota"
-}
 
-
-  
   
 ];
 
@@ -183,18 +181,17 @@ export default function Home() {
   "link": "/news/james-rodriguez-minnesota"
 },
     {
-      title: "Top 10 Things We Will Remember",
-      subtitle: "From the 2025 MLS Season",
-      imageUrl: "https://assets.goal.com/images/v3/getty-2202000448/crop/MM5DEMJZGI5DCMRTGM5G433XMU5DCMJYHIZDK===/GettyImages-2202000448.jpg",
-      link: "/blog/top-10-mls-2025",
-    },
-    {
-      title: "2026 Jerseys",
-      subtitle: "Shop Now",
-      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/mls/em5hapeppp5zqyphlmlt.jpg",
-      link: "https://mlsstore.i8h2.net/rE4gvR",
-    },
-    
+  "title": "MLS 2026 Jerseys",
+  "subtitle": "Shop Now",
+  "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/mls/em5hapeppp5zqyphlmlt.jpg",
+  "link": "https://mlsstore.i8h2.net/rE4gvR"
+},
+{
+  "title": "MLS 2026 Kicks Off",
+  "subtitle": "Read the Full Recap",
+  "imageUrl": "https://assets.goal.com/images/v3/blt13a6a3cd66e0c26a/GettyImages-2262888870.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/mls-2026-kicks-off"
+},
   ];
 
   const staffPicks = [
