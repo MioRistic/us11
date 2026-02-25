@@ -49,6 +49,15 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 1002,
+  "title": "Top 10 MLS Players to Watch in 2026: From Messi to Rising Stars",
+  "author": "Mio Ristić",
+  "date": "February 24, 2026",
+  "excerpt": "Record crowds, teenage breakthroughs, and early contenders headline a thrilling opening weekend of the 2026 MLS season.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2227792192/crop/MM5DCOBUGA5DCMBTGU5G433XMU5DCMRRGU5DENBX/GettyImages-2227792192.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "mls-players-2026"
+},
+  {
   "id": 1001,
   "title": "MLS Jerseys 2026: Identity, Style, and the Kits Fans Actually Want to Wear",
   "author": "Mio Ristić",

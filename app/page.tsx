@@ -175,10 +175,10 @@ export default function Home() {
 
   const heroItems = [
    {
-  "title": "James Rodríguez Joins Minnesota United",
-  "subtitle": "A Move Focused on the World Cup and Club Identity",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2162057999/crop/MM5DEMJTGQ5DCMRQGA5G433XMU5DOMR2GE3TS===/GettyImages-2162057999.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/james-rodriguez-minnesota"
+  "title": "Top 10 MLS Players to Watch in 2026",
+  "subtitle": "From Messi to Rising Stars",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2227792192/crop/MM5DCOBUGA5DCMBTGU5G433XMU5DCMRRGU5DENBX/GettyImages-2227792192.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/blog/mls-players-2026"
 },
     {
   "title": "MLS 2026 Jerseys",
