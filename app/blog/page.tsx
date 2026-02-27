@@ -49,6 +49,15 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 1003,
+  "title": "Top 10 MLS Prospects to Watch in 2026",
+  "author": "Mio Ristić",
+  "date": "February 24, 2026",
+  "excerpt": "Discover the top 10 MLS prospects set to shine in 2026: Zavier Gozo, Peyton Miller, Luca Bombino, and more rising talents with breakout potential, European transfer buzz, and USMNT upside.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2202625521/crop/MM5DGOBXGQ5DEMJXHE5G433XMU5DQNBSHIYA====/GettyImages-2202625521.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "mls-prospects-2026"
+},
+  {
   "id": 1002,
   "title": "Top 10 MLS Players to Watch in 2026: From Messi to Rising Stars",
   "author": "Mio Ristić",
