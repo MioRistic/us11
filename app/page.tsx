@@ -90,6 +90,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 120,
+  "title": "MLS Matchday 2: Messi's Magic Sparks Miami Comeback, Western Teams Dominate Early",
+  "author": "Mio Ristić",
+  "date": "March 2, 2026",
+  "excerpt": "Lionel Messi's brace fueled Inter Miami's dramatic Florida Derby comeback as Western Conference teams continued their dominant early-season form in MLS 2026.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2264292238/crop/MM5DGNBSGA5DCOJSGQ5G433XMU5DAORSHA======/GettyImages-2264292238.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/mls-matchday-2-recap"
+},
+  {
   "id": 119,
   "title": "MLS 2026 Kicks Off in Spectacular Fashion",
   "author": "Mio Ristić",
@@ -108,17 +117,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-1247752079/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU3A====/GettyImages-1247752079.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "imagePosition": "top",
   "link": "/news/mls-is-back-2026"
-},
-    {
-  "id": 117,
-  "title": "Cristiano Ronaldo and Inter Miami: Why a Move to MLS Isn’t So Simple",
-  "author": "Mio Ristić",
-  "date": "February 9, 2026",
-  "excerpt": "Cristiano Ronaldo’s standoff with Al Nassr has sparked speculation about a move to MLS, but high wages, MLS rules, and tactical considerations make a transfer to Inter Miami far from simple.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2167147749/crop/MM5DIOJSHA5DENZXGI5G433XMU5DAORRGM2A====/GettyImages-2167147749.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "imagePosition": "top",
-  "link": "/news/ronaldo-inter-miami-mls"
-},
+}
 
   
 ];
@@ -187,10 +186,10 @@ export default function Home() {
   "link": "https://mlsstore.i8h2.net/rE4gvR"
 },
 {
-  "title": "MLS 2026 Kicks Off",
-  "subtitle": "Read the Full Recap",
-  "imageUrl": "https://assets.goal.com/images/v3/blt13a6a3cd66e0c26a/GettyImages-2262888870.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/mls-2026-kicks-off"
+  "title": "MLS Matchday 2: Messi's Magic Sparks Miami Comeback",
+  "subtitle": "Western Teams Dominate Early in 2026",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2264292238/crop/MM5DGNBSGA5DCOJSGQ5G433XMU5DAORSHA======/GettyImages-2264292238.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/mls-matchday-2-recap"
 },
   ];
 

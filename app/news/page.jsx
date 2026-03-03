@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 120,
+  "title": "MLS Matchday 2: Messi's Magic Sparks Miami Comeback, Western Teams Dominate Early",
+  "author": "Mio Ristić",
+  "date": "March 2, 2026",
+  "excerpt": "Lionel Messi's brace fueled Inter Miami's dramatic Florida Derby comeback as Western Conference teams continued their dominant early-season form in MLS 2026.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2264292238/crop/MM5DGNBSGA5DCOJSGQ5G433XMU5DAORSHA======/GettyImages-2264292238.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "mls-matchday-2-recap"
+},
+    {
   "id": 119,
   "title": "MLS 2026 Kicks Off in Spectacular Fashion",
   "author": "Mio Ristić",
