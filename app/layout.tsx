@@ -58,23 +58,7 @@ export default function RootLayout({
         <main className="flex-grow pt-[150px]">{children}</main>
 
         {/* Footer sa Privacy i Cookie Policy linkovima */}
-        <Footer>
-          <a
-            href="https://www.iubenda.com/privacy-policy/99498999"
-            className="iubenda-white iubenda-noiframe iubenda-embed"
-            title="Privacy Policy"
-          >
-            Privacy Policy
-          </a>
-          {" | "}
-          <a
-            href="https://www.iubenda.com/privacy-policy/99498999/cookie-policy"
-            className="iubenda-white iubenda-noiframe iubenda-embed"
-            title="Cookie Policy"
-          >
-            Cookie Policy
-          </a>
-        </Footer>
+<Footer />
 
         {/* ================= IUBENDA ================= */}
         <Script id="iub-config" strategy="afterInteractive">

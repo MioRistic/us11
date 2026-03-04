@@ -11,22 +11,22 @@ const Footer = () => {
           </p>
 
           <div className='flex'>
-            <a href='https://www.youtube.com/@us11fc' className='text-sm hover:underline mx-2' aria-label='YouTube'>
+            <a href='https://www.youtube.com/@us11fc' className='text-sm hover:underline mx-2'>
               <FaYoutube size={20} />
             </a>
-            <a href='https://www.instagram.com/us11fc/' className='text-sm hover:underline mx-2' aria-label='Instagram'>
+            <a href='https://www.instagram.com/us11fc/' className='text-sm hover:underline mx-2'>
               <FaInstagram size={20} />
             </a>
-            <a href='https://www.facebook.com/profile.php?id=61565465891580' className='text-sm hover:underline mx-2' aria-label='Facebook'>
+            <a href='https://www.facebook.com/profile.php?id=61565465891580' className='text-sm hover:underline mx-2'>
               <FaFacebook size={20} />
             </a>
-            <a href='https://www.tiktok.com/@us11fc' className='text-sm hover:underline mx-2' aria-label='TikTok'>
+            <a href='https://www.tiktok.com/@us11fc' className='text-sm hover:underline mx-2'>
               <FaTiktok size={20} />
             </a>
-            <a href='https://x.com/US11FC' className='text-sm hover:underline mx-2' aria-label='Twitter'>
+            <a href='https://x.com/US11FC' className='text-sm hover:underline mx-2'>
               <FaTwitter size={20} />
             </a>
-            <a href='https://www.linkedin.com/company/us11' className='text-sm hover:underline mx-2' aria-label='LinkedIn'>
+            <a href='https://www.linkedin.com/company/us11' className='text-sm hover:underline mx-2'>
               <FaLinkedin size={20} />
             </a>
           </div>
@@ -35,27 +35,17 @@ const Footer = () => {
         <div className='text-center text-xs text-gray-400'>
           <p>
             This site is for promoting products available on
-            <a
-              href='https://www.mlsstore.com'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='text-blue-500 hover:underline'
-            >
+            <a href='https://www.mlsstore.com' target='_blank' rel='noopener noreferrer' className='text-blue-500 hover:underline'>
               {' '}MLS Store
             </a>{' '}
-            &
-            <a
-              href='https://www.amazon.com'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='text-blue-500 hover:underline'
-            >
-              {' '}Amazon
+            & 
+            <a href='https://www.fanatics.com' target='_blank' rel='noopener noreferrer' className='text-blue-500 hover:underline'>
+              {' '}Fanatics
             </a>.
-            We are affiliate partners with MLS Store and Fanatics. This site is independently operated and is not officially endorsed by or affiliated with MLS, its clubs, or their subsidiaries. All logos, images, and trademarks belong to their respective owners and are used for promotional purposes only.
+            We are affiliate partners with MLS Store and Fanatics. This site is independently operated and is not officially endorsed by or affiliated with MLS, its clubs, or their subsidiaries.
           </p>
 
-          {/* ✅ IUBENDA LINKOVI — OVO JE BITNO */}
+          {/* ✅ Iubenda linkovi */}
           <div className="mt-3">
             <a
               href="https://www.iubenda.com/privacy-policy/99498999"
