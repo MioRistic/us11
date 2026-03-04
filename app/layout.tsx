@@ -53,12 +53,28 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Navbar />
         <main className="flex-grow pt-[150px]">{children}</main>
-        <Footer />
+
+        {/* Footer sa Privacy i Cookie Policy linkovima */}
+        <Footer>
+          <a
+            href="https://www.iubenda.com/privacy-policy/99498999"
+            className="iubenda-white iubenda-noiframe iubenda-embed"
+            title="Privacy Policy"
+          >
+            Privacy Policy
+          </a>
+          {" | "}
+          <a
+            href="https://www.iubenda.com/privacy-policy/99498999/cookie-policy"
+            className="iubenda-white iubenda-noiframe iubenda-embed"
+            title="Cookie Policy"
+          >
+            Cookie Policy
+          </a>
+        </Footer>
 
         {/* Iubenda Consent Banner Scripts */}
         <Script id="iub-config" strategy="afterInteractive">
@@ -77,10 +93,7 @@ export default function RootLayout({
           src="https://cs.iubenda.com/autoblocking/4323055.js"
           strategy="afterInteractive"
         />
-        <Script
-          src="//cdn.iubenda.com/cs/gpp/stub.js"
-          strategy="afterInteractive"
-        />
+        <Script src="//cdn.iubenda.com/cs/gpp/stub.js" strategy="afterInteractive" />
         <Script
           src="//cdn.iubenda.com/cs/iubenda_cs.js"
           strategy="afterInteractive"
