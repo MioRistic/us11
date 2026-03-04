@@ -1,4 +1,5 @@
 import React from 'react';
+import Script from 'next/script';
 import { FaYoutube, FaInstagram, FaFacebook, FaTiktok, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
@@ -35,6 +36,13 @@ const Footer = () => {
               Cookie Policy
             </a>
           </div>
+
+          {/* loader script for iubenda; it lives in the body alongside the links */}
+          <Script
+            id="iubenda-loader"
+            strategy="afterInteractive"
+            src="https://cdn.iubenda.com/iubenda.js"
+          />
         </div>
       </div>
     </footer>
