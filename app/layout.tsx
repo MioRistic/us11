@@ -76,15 +76,15 @@ export default function RootLayout({
           </a>
         </Footer>
 
-        {/* Iubenda Consent Banner Scripts */}
+        {/* ================= IUBENDA ================= */}
         <Script id="iub-config" strategy="afterInteractive">
           {`
             var _iub = _iub || [];
             _iub.csConfiguration = {
-              "siteId":4323055,
-              "cookiePolicyId":70547526,
-              "lang":"en",
-              "storage":{"useSiteId":true}
+              "siteId": 4323055,
+              "cookiePolicyId": 70547526,
+              "lang": "en",
+              "storage": { "useSiteId": true }
             };
           `}
         </Script>
@@ -93,23 +93,37 @@ export default function RootLayout({
           src="https://cs.iubenda.com/autoblocking/4323055.js"
           strategy="afterInteractive"
         />
-        <Script src="//cdn.iubenda.com/cs/gpp/stub.js" strategy="afterInteractive" />
+        <Script
+          src="//cdn.iubenda.com/cs/gpp/stub.js"
+          strategy="afterInteractive"
+        />
         <Script
           src="//cdn.iubenda.com/cs/iubenda_cs.js"
           strategy="afterInteractive"
           charSet="UTF-8"
         />
 
-        {/* Google Analytics 4 */}
+        {/* ================= GOOGLE ANALYTICS ================= */}
         <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=G-ZCKQ7R7PSQ`}
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZCKQ7R7PSQ"
           strategy="afterInteractive"
         />
+
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
+
+            // ✅ OBAVEZNO ZA IUBENDA / GDPR
+            gtag('consent', 'default', {
+              'ad_storage': 'denied',
+              'analytics_storage': 'denied',
+              'ad_user_data': 'denied',
+              'ad_personalization': 'denied'
+            });
+
             gtag('js', new Date());
+
             gtag('config', 'G-ZCKQ7R7PSQ', {
               page_path: window.location.pathname,
             });
