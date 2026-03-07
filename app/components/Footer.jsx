@@ -26,16 +26,7 @@ const Footer = () => {
             We are affiliate partners with MLS Store and Fanatics. This site is independently operated and is not officially endorsed by or affiliated with MLS, its clubs, or their subsidiaries. All logos, images, and trademarks belong to their respective owners and are used for promotional purposes only.
           </p>
 
-          {/* Iubenda links */}
-          <div className="mt-3">
-            <a href="https://www.iubenda.com/privacy-policy/99498999" className="iubenda-white iubenda-noiframe iubenda-embed hover:underline" title="Privacy Policy">
-              Privacy Policy
-            </a>
-            {" | "}
-            <a href="https://www.iubenda.com/privacy-policy/99498999/cookie-policy" className="iubenda-white iubenda-noiframe iubenda-embed hover:underline" title="Cookie Policy">
-              Cookie Policy
-            </a>
-          </div>
+       
 
           {/* loader script for iubenda; it lives in the body alongside the links */}
           <Script

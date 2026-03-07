@@ -57,34 +57,16 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-grow pt-[150px]">{children}</main>
 
-        {/* Footer sa Privacy i Cookie Policy linkovima */}
-<Footer />
+        <Footer />
 
-        {/* ================= IUBENDA ================= */}
-        <Script id="iub-config" strategy="afterInteractive">
-          {`
-            var _iub = _iub || [];
-            _iub.csConfiguration = {
-              "siteId": 4323055,
-              "cookiePolicyId": 70547526,
-              "lang": "en",
-              "storage": { "useSiteId": true }
-            };
-          `}
-        </Script>
-
+        {/* ================= COOKIEBOT (zamena za IUBENDA) ================= */}
         <Script
-          src="https://cs.iubenda.com/autoblocking/4323055.js"
+          id="cookiebot"
+          src="https://consent.cookiebot.com/uc.js"
+          data-cbid="657a7740-db63-47f1-9448-695eb5cab5a3"
+          data-blockingmode="auto"
           strategy="afterInteractive"
-        />
-        <Script
-          src="//cdn.iubenda.com/cs/gpp/stub.js"
-          strategy="afterInteractive"
-        />
-        <Script
-          src="//cdn.iubenda.com/cs/iubenda_cs.js"
-          strategy="afterInteractive"
-          charSet="UTF-8"
+          async
         />
 
         {/* ================= GOOGLE ANALYTICS ================= */}
@@ -92,22 +74,13 @@ export default function RootLayout({
           src="https://www.googletagmanager.com/gtag/js?id=G-ZCKQ7R7PSQ"
           strategy="afterInteractive"
         />
-
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
 
-            // ✅ OBAVEZNO ZA IUBENDA / GDPR
-            gtag('consent', 'default', {
-              'ad_storage': 'denied',
-              'analytics_storage': 'denied',
-              'ad_user_data': 'denied',
-              'ad_personalization': 'denied'
-            });
-
+            // GA4 konfiguracija
             gtag('js', new Date());
-
             gtag('config', 'G-ZCKQ7R7PSQ', {
               page_path: window.location.pathname,
             });
