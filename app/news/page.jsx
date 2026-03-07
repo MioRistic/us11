@@ -12,6 +12,25 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 123,
+  "title": "Antoine Griezmann to Orlando City: MLS Blockbuster Rumors Hit Pause",
+  "author": "US11 Analysis",
+  "date": "March 7, 2026",
+  "excerpt": "Griezmann's potential move to Orlando City is on hold as Atlético Madrid advances in Copa del Rey. The saga highlights the challenges MLS clubs face in attracting aging European stars mid-season.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2263389556/crop/MM5DEMBRGY5DCMJTGQ5G433XMU5DCMRYHIYTCNQ=/GettyImages-2263389556.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "imagePosition": "top",
+  "slug": "griezmann-orlando-city-mls"
+},
+    {
+  "id": 122,
+  "title": "MLS Transfers 2026: Toronto FC’s Record-Breaking Josh Sargent Gamble, Data-Driven Signings, and Final Moves Before the Window Closes",
+  "author": "US11 Analysis",
+  "date": "March 7, 2026",
+  "excerpt": "The MLS primary transfer window for 2026 closes on March 26, with Toronto FC’s blockbuster investment in Josh Sargent leading the latest wave of moves.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2175991224/crop/MM5DINBUGI5DENBZHE5G433XMU5DAORSGMYQ====/GettyImages-2175991224.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "mls-transfers-2026-mart",
+},
+    {
   "id": 120,
   "title": "MLS Matchday 2: Messi's Magic Sparks Miami Comeback, Western Teams Dominate Early",
   "author": "Mio Ristić",
@@ -21,7 +40,7 @@ const Blog = () => {
   "slug": "mls-matchday-2-recap"
 },
     {
-  "id": 119,
+  "id": 121,
   "title": "MLS 2026 Kicks Off in Spectacular Fashion",
   "author": "Mio Ristić",
   "date": "February 24, 2026",
