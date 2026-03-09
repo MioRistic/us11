@@ -90,6 +90,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 124,
+  "title": "MLS Matchday 3 2026: NYCFC’s Bronx Demolition, Messi Magic in Baltimore, Toronto’s Late Winner – Full Results & Analysis",
+  "author": "US11 Analysis",
+  "date": "March 9, 2026",
+  "excerpt": "Three weeks into the 2026 MLS season, Matchday 3 delivered NYCFC crushing Orlando 5-0, Messi leading Inter Miami to victory, and Toronto FC grabbing their first win. Full results, highlights, standings update, and key analysis.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2224902244/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGY3A====/GettyImages-2224902244.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/mls-matchday-3-2026"
+},
+  {
   "id": 123,
   "title": "Antoine Griezmann to Orlando City: MLS Blockbuster Rumors Hit Pause",
   "author": "US11 Analysis",
@@ -107,16 +116,6 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2175991224/crop/MM5DINBUGI5DENBZHE5G433XMU5DAORSGMYQ====/GettyImages-2175991224.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "news/mls-transfers-2026-mart",
 },
-  {
-  "id": 120,
-  "title": "MLS Matchday 2: Messi's Magic Sparks Miami Comeback, Western Teams Dominate Early",
-  "author": "Mio Ristić",
-  "date": "March 2, 2026",
-  "excerpt": "Lionel Messi's brace fueled Inter Miami's dramatic Florida Derby comeback as Western Conference teams continued their dominant early-season form in MLS 2026.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2264292238/crop/MM5DGNBSGA5DCOJSGQ5G433XMU5DAORSHA======/GettyImages-2264292238.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/mls-matchday-2-recap"
-}
-
 
   
 ];

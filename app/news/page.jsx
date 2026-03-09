@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 124,
+  "title": "MLS Matchday 3 2026: NYCFC’s Bronx Demolition, Messi Magic in Baltimore, Toronto’s Late Winner – Full Results & Analysis",
+  "author": "US11 Analysis",
+  "date": "March 9, 2026",
+  "excerpt": "Three weeks into the 2026 MLS season, Matchday 3 delivered NYCFC crushing Orlando 5-0, Messi leading Inter Miami to victory, and Toronto FC grabbing their first win. Full results, highlights, standings update, and key analysis.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2224902244/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGY3A====/GettyImages-2224902244.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "mls-matchday-3-2026"
+},
+    {
   "id": 123,
   "title": "Antoine Griezmann to Orlando City: MLS Blockbuster Rumors Hit Pause",
   "author": "US11 Analysis",
