@@ -70,7 +70,10 @@ export default function MLSMatchday3Page() {
             priority
           />
           <figcaption className="text-xs text-gray-400 px-3 py-2">
-            MLS Matchday 3 action featuring NYCFC, Inter Miami and Toronto FC
+            Creator: Leonardo Fernandez 
+| 
+Credit: Getty Images
+Copyright: 2025 Getty Images
           </figcaption>
         </figure>
 

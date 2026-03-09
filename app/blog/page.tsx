@@ -49,6 +49,15 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 1004,
+  "title": "Why the New York Cosmos, Once America’s Soccer Giants, Remain Outside MLS",
+  "author": "Mio Ristić",
+  "date": "March 9, 2026",
+  "excerpt": "A deep dive into the history of the New York Cosmos, their golden era, financial missteps, and why this iconic American soccer brand remains outside MLS as of 2026.",
+  "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2022/12/GettyImages-488780302-1.jpg?resize=1200,810&quality=75&strip=all",
+  "slug": "new-york-cosmos-mls-2026"
+},
+  {
   "id": 1003,
   "title": "Top 10 MLS Prospects to Watch in 2026",
   "author": "Mio Ristić",
