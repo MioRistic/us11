@@ -1,18 +1,34 @@
-// app/mls-transfers-2026/layout.js
+// ./app/news/mls-matchday-3/layout.js
+import React from 'react';
 
+// 🟢 Server component – metadata može biti eksportovana
 export const metadata = {
-  title: "MLS Transfers 2026: Toronto FC’s Record-Breaking Josh Sargent Gamble",
-  description: "MLS primary transfer window updates with Toronto FC’s record transfer of Josh Sargent, data-driven signings, and final moves before March 26.",
+  title:
+    "MLS Matchday 3 2026: NYCFC’s Bronx Demolition, Messi Magic in Baltimore, Toronto’s Late Winner – Full Results & Analysis",
+  description:
+    "MLS Matchday 3 2026 delivered fireworks: NYCFC crushed Orlando 5-0, Inter Miami edged DC United behind Lionel Messi, and Toronto FC grabbed their first win. Full results, highlights and analysis.",
+  keywords: [
+    "MLS Matchday 3 2026",
+    "NYCFC vs Orlando 5-0",
+    "Lionel Messi Inter Miami 2026",
+    "Toronto FC first win 2026",
+    "MLS results March 2026",
+    "MLS standings 2026",
+    "US11 MLS analysis"
+  ],
   openGraph: {
-    title: "MLS Transfers 2026: Toronto FC’s Record-Breaking Josh Sargent Gamble",
-    description: "Toronto FC makes a franchise-changing investment in Josh Sargent, while other MLS clubs strengthen their squads ahead of the March 26 transfer deadline.",
-    url: "https://www.us11fc.com/news/mls-transfers-2026-mart",
+    title:
+      "MLS Matchday 3 2026: NYCFC’s Bronx Demolition, Messi Magic & Toronto’s Late Winner",
+    description:
+      "NYCFC destroyed Orlando 5-0, Messi led Inter Miami to victory, and Toronto grabbed their first win. Full MLS Matchday 3 results and analysis.",
+    url: "https://www.us11fc.com/news/mls-matchday-3-2026",
     siteName: "US11",
     images: [
       {
-        url: "https://assets.goal.com/images/v3/getty-2175991224/crop/MM5DINBUGI5DENBZHE5G433XMU5DAORSGMYQ====/GettyImages-2175991224.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+        url: "https://assets.goal.com/images/v3/getty-2224902244/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGY3A====/GettyImages-2224902244.jpg?auto=webp&format=pjpg&width=3840&quality=60",
         width: 1200,
-        height: 800
+        height: 800,
+        alt: "NYCFC 5-0 Orlando City MLS 2026 highlights"
       }
     ],
     locale: "en_US",
@@ -20,19 +36,19 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "MLS Transfers 2026: Toronto FC’s Record-Breaking Josh Sargent Gamble",
-    description: "MLS primary transfer window updates, including Toronto FC’s record investment in Josh Sargent and other notable signings.",
-    images: ["https://assets.goal.com/images/v3/getty-2175991224/crop/MM5DINBUGI5DENBZHE5G433XMU5DAORSGMYQ====/GettyImages-2175991224.jpg?auto=webp&format=pjpg&width=1920&quality=60"],
-    creator: "@US11Analysis"
+    title: "MLS Matchday 3 2026: NYCFC 5-0 Orlando, Messi Leads Inter Miami",
+    description:
+      "Full MLS Matchday 3 breakdown: NYCFC demolition, Messi magic, Toronto's late winner and Western Conference highlights.",
+    images: [
+      "https://assets.goal.com/images/v3/getty-2224902244/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGY3A====/GettyImages-2224902244.jpg?auto=webp&format=pjpg&width=3840&quality=60"
+    ],
+    creator: "@US11FC"
+  },
+  alternates: {
+    canonical: "https://www.us11fc.com/news/mls-matchday-3-2026"
   }
 };
 
-export default function MLSTransfers2026Layout({ children }) {
-  return (
-    <div className="bg-gray-50 min-h-screen">
-      <main className="max-w-5xl mx-auto px-4 md:px-0 py-10">
-        {children}
-      </main>
-    </div>
-  );
+export default function Layout({ children }) {
+  return <div className="min-h-screen bg-white text-[#020617]">{children}</div>;
 }
