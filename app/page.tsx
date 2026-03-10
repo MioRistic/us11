@@ -90,6 +90,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 125,
+  "title": "Concacaf Champions Cup 2026 Round of 16: MLS Makes History",
+  "author": "Mio Ristić",
+  "date": "March 10, 2026",
+  "excerpt": "Nine MLS teams reach the 2026 Concacaf Champions Cup Round of 16. Full breakdown of matchups, key players, and MLS's bid to challenge Liga MX dominance.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2260983710/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2260983710.jpg",
+  "link": "news/concacaf-round-16-2026"
+},
+  {
   "id": 124,
   "title": "MLS Matchday 3 2026: NYCFC’s Bronx Demolition, Messi Magic in Baltimore, Toronto’s Late Winner – Full Results & Analysis",
   "author": "US11 Analysis",
@@ -106,15 +115,6 @@ const blogPosts: Post[] = [
   "excerpt": "Griezmann's potential move to Orlando City is on hold as Atlético Madrid advances in Copa del Rey. The saga highlights the challenges MLS clubs face in attracting aging European stars mid-season.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-2263389556/crop/MM5DEMBRGY5DCMJTGQ5G433XMU5DCMRYHIYTCNQ=/GettyImages-2263389556.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/griezmann-orlando-city-mls"
-},
-  {
-  "id": 122,
-  "title": "MLS Transfers 2026: Toronto FC’s Record-Breaking Josh Sargent Gamble, Data-Driven Signings, and Final Moves Before the Window Closes",
-  "author": "US11 Analysis",
-  "date": "March 7, 2026",
-  "excerpt": "The MLS primary transfer window for 2026 closes on March 26, with Toronto FC’s blockbuster investment in Josh Sargent leading the latest wave of moves.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2175991224/crop/MM5DINBUGI5DENBZHE5G433XMU5DAORSGMYQ====/GettyImages-2175991224.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "news/mls-transfers-2026-mart",
 },
 
   
@@ -184,10 +184,10 @@ export default function Home() {
   "link": "https://mlsstore.i8h2.net/rE4gvR"
 },
 {
-  "title": "MLS Matchday 2: Messi's Magic Sparks Miami Comeback",
-  "subtitle": "Western Teams Dominate Early in 2026",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2264292238/crop/MM5DGNBSGA5DCOJSGQ5G433XMU5DAORSHA======/GettyImages-2264292238.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/mls-matchday-2-recap"
+  "title": "Concacaf Champions Cup 2026 Round of 16: MLS Makes History",
+  "subtitle": "Nine MLS Teams Enter Knockout Stage for the First Time",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2260983710/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2260983710.jpg",
+  "link": "/news/concacaf-round-16-2026"
 },
   ];
 

@@ -49,6 +49,15 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 1005,
+  "title": "MLS Cities That Almost Made It: Sacramento, Detroit, Las Vegas, Phoenix & More",
+  "author": "Mio Ristić",
+  "date": "March 10, 2026",
+  "excerpt": "Explore the MLS cities that came closest to joining the league but never did: failed bids from Sacramento Republic, Detroit, Las Vegas, Phoenix, and others. Why they missed out and what's next for expansion beyond 30 teams in 2026.",
+  "imageUrl": "https://www.sacrepublicfc.com/wp-content/uploads/sites/33/2024/03/03232024_INDvSAC_t6105.jpg",
+  "slug": "mls-expansion-cities-2026"
+},
+  {
   "id": 1004,
   "title": "Why the New York Cosmos, Once America’s Soccer Giants, Remain Outside MLS",
   "author": "Mio Ristić",

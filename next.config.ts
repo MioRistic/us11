@@ -24,7 +24,7 @@ const nextConfig = {
       { protocol: 'https', hostname: 'www.telegram.hr' },
       { protocol: 'https', hostname: 'www.amazon.com' },
       { protocol: 'https', hostname: 'the18.com' },
-      { protocol: 'https', hostname: 'drop-assets.ea.com' },
+      { protocol: 'https', hostname: 'www.sacrepublicfc.com' },
       { protocol: 'https', hostname: 'images.pexels.com' },
       { protocol: 'https', hostname: 'i.ibb.co' },
       { protocol: 'https', hostname: 'encrypted-tbn0.gstatic.com' },

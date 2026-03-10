@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { FaFacebookF, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import { FiCopy } from 'react-icons/fi';
 
-export default function MLSMatchday3Page() {
+export default function MLSExpansionCitiesPage() {
   const [currentUrl, setCurrentUrl] = useState('');
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export default function MLSMatchday3Page() {
   };
 
   const facebookShare = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
-  const twitterShare = `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent('MLS Matchday 3 2026: NYCFC Dominates, Messi Shines for Inter Miami')}`;
+  const twitterShare = `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent('MLS Cities That Almost Made It: Sacramento, Detroit, Las Vegas, Phoenix & More')}`;
   const whatsappShare = `https://api.whatsapp.com/send?text=${encodeURIComponent(currentUrl)}`;
 
   return (
@@ -31,15 +31,15 @@ export default function MLSMatchday3Page() {
       <div className="max-w-4xl mx-auto py-12 px-4 md:px-0">
 
         {/* HEADER */}
-        <header className="mb-8">
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-3">
-            MLS Matchday 3 2026: NYCFC’s Bronx Demolition, Messi Magic in Baltimore, Toronto’s Late Winner
+        <header className="mb-10">
+          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
+            MLS Cities That Almost Made It: The Expansion Dreams That Died – Sacramento, Detroit, Las Vegas, Phoenix & More
           </h1>
 
           <div className="flex items-center gap-4 mt-2 text-sm text-gray-500">
-            <span>By US11 Analysis</span>
+            <span>By US11</span>
             <span>•</span>
-            <time dateTime="2026-03-09">March 9, 2026</time>
+            <time dateTime="2026-03-10">March 10, 2026</time>
           </div>
 
           {/* SHARE BUTTONS */}
@@ -60,117 +60,97 @@ export default function MLSMatchday3Page() {
         </header>
 
         {/* FEATURE IMAGE */}
-        <figure className="w-full rounded-2xl overflow-hidden shadow-md mb-10">
+        <figure className="w-full rounded-2xl overflow-hidden shadow-lg mb-12">
           <Image
-            src="https://assets.goal.com/images/v3/getty-2224902244/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGY3A====/GettyImages-2224902244.jpg?auto=webp&format=pjpg&width=3840&quality=60"
-            alt="NYCFC 5-0 Orlando City MLS 2026 highlights"
+            src="https://upload.wikimedia.org/wikipedia/commons/0/02/Sacramento_skyline.jpg"
+            alt="Sacramento Republic FC MLS expansion failure"
             width={1018}
             height={420}
             className="w-full h-[420px] object-cover object-center"
             priority
           />
-          <figcaption className="text-xs text-gray-400 px-3 py-2">
-            Creator: Leonardo Fernandez 
-| 
-Credit: Getty Images
-Copyright: 2025 Getty Images
-          </figcaption>
         </figure>
 
         {/* ARTICLE */}
-        <section className="prose prose-lg max-w-none leading-relaxed">
-
+        <section className="prose prose-lg max-w-none leading-relaxed text-gray-800">
           <p>
-            Three weeks into the 2026 MLS regular season and Matchday 3 has already produced
-            statement performances, revenge narratives, and early table-shakers. From a
-            five-goal demolition at Yankee Stadium to Lionel Messi inspiring Inter Miami in a
-            sold-out Baltimore, the weekend delivered drama across both conferences.
+            Major League Soccer sits at 30 teams in 2026, fresh off San Diego FC's debut and with the league riding high ahead of the FIFA World Cup co-hosting duties. Commissioner Don Garber has repeatedly signaled a slowdown in rapid expansion — no new teams imminent, focus on stability, stadiums, and the international calendar shift post-2026.
           </p>
 
-          <h2 className="text-3xl font-bold mt-10 mb-4">Eastern Conference Standouts</h2>
-
-          <h3 className="text-2xl font-semibold mt-6 mb-2">New York City FC 5-0 Orlando City</h3>
           <p>
-            NYCFC turned Orlando goalkeeper Maxime Crépeau’s 16th-minute red card into a
-            complete rout. Agustín Ojeda opened the scoring before the hosts piled on four
-            more in a dominant attacking performance. The result sends NYCFC to the top of
-            the Eastern Conference with a huge goal difference early in the season.
+            But the map still has glaring gaps: massive metro areas without an MLS club, cities that once held conditional awards, billionaire-backed bids, or serious negotiations, only to see dreams collapse.
           </p>
 
-          <h3 className="text-2xl font-semibold mt-6 mb-2">D.C. United 1-2 Inter Miami</h3>
           <p>
-            Lionel Messi once again proved decisive, scoring in the 27th minute after Rodrigo
-            De Paul’s opener. DC pulled one back late but Miami held firm. Played at a
-            sold-out M&T Bank Stadium in Baltimore, the match showed how Messi’s presence
-            continues to transform MLS events into global spectacles.
+            These are the "what if" markets — the ones that got closest but never crossed the finish line. From record expansion fees to stadium politics and shifting priorities, here's why these cities remain on the outside looking in.
           </p>
 
-          <h3 className="text-2xl font-semibold mt-6 mb-2">FC Cincinnati 0-1 Toronto FC</h3>
+          <h2 className="text-3xl md:text-4xl font-extrabold mt-12 mb-6 leading-snug border-l-4 border-blue-600 pl-4">
+            Sacramento Republic FC: The Most Painful Near-Miss
+          </h2>
+
           <p>
-            Toronto secured their first win of the season thanks to an 86th-minute strike
-            from Dániel Sallói assisted by Richie Laryea. New goalkeeper Luka Gavran kept a
-            clean sheet, offering a positive sign after the club’s aggressive winter
-            transfer spending.
+            No story stings quite like Sacramento's. In 2019, MLS awarded the Republic FC the 29th spot, set for a 2022 debut...
           </p>
 
-          <h3 className="text-2xl font-semibold mt-6 mb-2">New York Red Bulls 0-3 CF Montréal</h3>
+          <h2 className="text-3xl md:text-4xl font-extrabold mt-12 mb-6 leading-snug border-l-4 border-blue-600 pl-4">
+            Detroit: The Sleeping Giant That Keeps Waking Up Late
+          </h2>
+
           <p>
-            Former Red Bull Wiki Carmona delivered a statement performance with a brace,
-            including a stunning long-range goal. Montréal’s convincing road victory may
-            trigger tactical questions for the Red Bulls after their strong start.
+            Detroit's metro area (over 4 million) is one of the largest without top-flight soccer...
           </p>
 
-          <h2 className="text-3xl font-bold mt-10 mb-4">Western Conference Highlights</h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold mt-12 mb-6 leading-snug border-l-4 border-blue-600 pl-4">
+            Las Vegas: Sin City's Endless Tease
+          </h2>
 
-          <h3 className="text-2xl font-semibold mt-6 mb-2">Portland Timbers 1-4 Vancouver Whitecaps</h3>
           <p>
-            Brian White scored twice as Vancouver dominated the Cascadia clash. With a
-            perfect 3-0-0 record, the Whitecaps join the league’s early pace-setters.
+            Vegas has flirted with MLS for over a decade...
           </p>
 
-          <h3 className="text-2xl font-semibold mt-6 mb-2">Colorado Rapids 4-1 LA Galaxy</h3>
+          <h2 className="text-3xl md:text-4xl font-extrabold mt-12 mb-6 leading-snug border-l-4 border-blue-600 pl-4">
+            Phoenix: The Desert Market That Won't Bloom
+          </h2>
+
           <p>
-            Colorado delivered one of the weekend’s most surprising results with a four-goal
-            performance against the Galaxy, exposing defensive issues for the LA side.
+            Phoenix (metro ~5 million, TV rank high) has been a perennial contender...
           </p>
 
-          <h3 className="text-2xl font-semibold mt-6 mb-2">LAFC 1-0 FC Dallas</h3>
+          <h2 className="text-3xl md:text-4xl font-extrabold mt-12 mb-6 leading-snug border-l-4 border-blue-600 pl-4">
+            Other Notable "Almosts" and Historical Near-Misses
+          </h2>
+
           <p>
-            David Martínez’s powerful strike in the 55th minute secured another win for
-            LAFC, keeping their perfect start alive and placing them among the Western
-            Conference leaders.
+            Tampa Bay: Original 1996 MLS club (Mutiny) folded in 2001; relaunch bids have surfaced...
           </p>
 
-          <h2 className="text-3xl font-bold mt-10 mb-4">Major Themes from Matchday 3</h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold mt-12 mb-6 leading-snug border-l-4 border-blue-600 pl-4">
+            What's Next? Expansion Beyond 30?
+          </h2>
 
-          <ul className="list-disc ml-6">
-            <li>
-              <strong>Red cards shaping matches:</strong> Orlando and Austin both suffered
-              heavily after early dismissals.
-            </li>
-            <li>
-              <strong>New signings delivering:</strong> Sallói, Pep Biel and Timo Werner all
-              contributed decisive moments.
-            </li>
-            <li>
-              <strong>Star power still rules:</strong> Lionel Messi continues to influence
-              results and attract massive crowds.
-            </li>
+          <p>
+            Garber's 2025-2026 comments emphasize caution...
+          </p>
+
+          <ul className="list-disc ml-6 mt-2 space-y-1">
+            <li>Billionaire ownership ready to pay $500M+ fees</li>
+            <li>Shovel-ready stadium plans (or public-private deals)</li>
+            <li>Strong corporate/TV support</li>
+            <li>No direct cannibalization of existing teams</li>
           </ul>
 
-          <p className="mt-6">
-            Matchday 3 leaves several big questions for the coming weeks: can NYCFC maintain
-            their explosive form, will Toronto build momentum after their first victory,
-            and which Western Conference club will sustain their perfect start?
+          <p>
+            Detroit, Las Vegas, Phoenix, Sacramento, and perhaps Indianapolis or Tampa could resurface if the stars align...
           </p>
 
         </section>
 
         {/* FOOTER */}
-        <footer className="mt-12 border-t pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-          <div className="text-sm text-gray-600">
-            <p>Published: March 9, 2026</p>
-            <p>Author: US11 Analysis</p>
+        <footer className="mt-16 border-t pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div className="text-sm text-gray-600 space-y-1">
+            <p>Published: March 10, 2026</p>
+            <p>Author: US11</p>
           </div>
 
           <Link href="/news" className="text-sm text-gray-500 hover:text-gray-800">

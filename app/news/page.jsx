@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 125,
+  "title": "Concacaf Champions Cup 2026 Round of 16: MLS Makes History",
+  "author": "Mio Ristić",
+  "date": "March 10, 2026",
+  "excerpt": "Nine MLS teams reach the 2026 Concacaf Champions Cup Round of 16. Full breakdown of matchups, key players, and MLS's bid to challenge Liga MX dominance.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2260983710/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2260983710.jpg",
+  "slug": "concacaf-round-16-2026"
+},
+    {
   "id": 124,
   "title": "MLS Matchday 3 2026: NYCFC’s Bronx Demolition, Messi Magic in Baltimore, Toronto’s Late Winner – Full Results & Analysis",
   "author": "US11 Analysis",
