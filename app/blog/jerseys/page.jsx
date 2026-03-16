@@ -18,7 +18,7 @@ const Blog = () => {
   "date": "March 16, 2026",
   "excerpt": "Adidas revives the legendary 1994 USMNT away jersey with its iconic denim wash and scattered stars – now available for $89.99 (jersey), $119.99 (track jacket), $59.99 (shorts), and more. Pure 1994 World Cup nostalgia meets 2026 World Cup hype – full collection in the shop!",
   "imageUrl": "https://assets.goal.com/images/v3/bltf53f7a9a05821020/crop/MM5DIMBYGU5DEMRZHA5G433XMU5DAORYHE2Q====/U.S%20Denim%20Kit%20Collection%2024.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "slug": "adidas-usa-1994-denim-collection-2026"
+  "slug": "adidas-usa-1994-denim-collection"
 },
      {
   "id": 1001,
