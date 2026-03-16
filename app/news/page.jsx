@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 126,
+  "title": "MLS Matchday 4 2026: Vancouver's Record Start, Revs' Historic Rout, Late Drama Everywhere",
+  "author": "US11 Analysis",
+  "date": "March 16, 2026",
+  "excerpt": "Vancouver Whitecaps make MLS history with 6-0 rout and perfect 4-0-0 start (+13 GD), New England Revolution tie club record in 6-1 thrashing of Cincinnati, Petar Musa hat trick rescues Dallas, Hany Mukhtar scores 25,000th MLS goal. Full results, key moments and early-season chaos breakdown.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt8209e4c975d96a14/GettyImages-2250417409.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "mls-matchday-4-2026"
+},
+    {
   "id": 125,
   "title": "Concacaf Champions Cup 2026 Round of 16: MLS Makes History",
   "author": "Mio Ristić",
