@@ -140,7 +140,7 @@ const USA1994DenimCollectionBlog = () => {
             <p>Published: March 16, 2026</p>
             <p>Author: Mio Ristić</p>
           </div>
-          <Link href="/news" className="text-sm text-gray-500 hover:text-gray-800">Back to news</Link>
+          <Link href="/blog" className="text-sm text-gray-500 hover:text-gray-800">Back to blog</Link>
         </footer>
 
       </div>
