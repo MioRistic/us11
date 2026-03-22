@@ -90,6 +90,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 127,
+  "title": "USMNT March 2026 Roster: Pochettino's Final Call-Ups Before World Cup 2026",
+  "author": "Mio Ristić",
+  "date": "March 23, 2026",
+  "excerpt": "Mauricio Pochettino names 27-player squad for friendlies vs Belgium and Portugal. Gio Reyna returns, Christian Pulisic leads experience, 9 MLS players called up, key absences due to injury (Adams, Dest). Full roster breakdown by position, storylines and World Cup implications.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2237710051/crop/MM5DEMBRGQ5DCMJTGM5G433XMU5DKMBTHIZTE===/GettyImages-2237710051.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/usmnt-roster-march-2026"
+},
+  {
   "id": 126,
   "title": "MLS Matchday 4 2026: Vancouver's Record Start, Revs' Historic Rout, Late Drama Everywhere",
   "author": "US11 Analysis",
@@ -106,16 +115,7 @@ const blogPosts: Post[] = [
   "excerpt": "Nine MLS teams reach the 2026 Concacaf Champions Cup Round of 16. Full breakdown of matchups, key players, and MLS's bid to challenge Liga MX dominance.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-2260983710/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2260983710.jpg",
   "link": "news/concacaf-round-16-2026"
-},
-  {
-  "id": 124,
-  "title": "MLS Matchday 3 2026: NYCFC’s Bronx Demolition, Messi Magic in Baltimore, Toronto’s Late Winner – Full Results & Analysis",
-  "author": "US11 Analysis",
-  "date": "March 9, 2026",
-  "excerpt": "Three weeks into the 2026 MLS season, Matchday 3 delivered NYCFC crushing Orlando 5-0, Messi leading Inter Miami to victory, and Toronto FC grabbing their first win. Full results, highlights, standings update, and key analysis.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2224902244/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGY3A====/GettyImages-2224902244.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "news/mls-matchday-3-2026"
-},
+}
   
 
   

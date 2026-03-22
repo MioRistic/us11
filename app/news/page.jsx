@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 127,
+  "title": "USMNT March 2026 Roster: Pochettino's Final Call-Ups Before World Cup 2026",
+  "author": "Mio Ristić",
+  "date": "March 23, 2026",
+  "excerpt": "Mauricio Pochettino names 27-player squad for friendlies vs Belgium and Portugal. Gio Reyna returns, Christian Pulisic leads experience, 9 MLS players called up, key absences due to injury (Adams, Dest). Full roster breakdown by position, storylines and World Cup implications.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2237710051/crop/MM5DEMBRGQ5DCMJTGM5G433XMU5DKMBTHIZTE===/GettyImages-2237710051.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "usmnt-roster-march-2026"
+},
+    {
   "id": 126,
   "title": "MLS Matchday 4 2026: Vancouver's Record Start, Revs' Historic Rout, Late Drama Everywhere",
   "author": "US11 Analysis",
