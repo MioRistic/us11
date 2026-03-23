@@ -90,6 +90,24 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 129,
+  "title": "Antoine Griezmann to Orlando City: World Cup Winner Agrees MLS Move",
+  "author": "Mio Ristić",
+  "date": "March 24, 2026",
+  "excerpt": "Antoine Griezmann has verbally agreed to join Orlando City SC on a free transfer from Atlético Madrid in July 2026. 2-year contract + option for third year, No. 7 jersey, Orlando trip confirmed. Full details, implications for MLS East and why this could reshape the conference.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt2ccb4598094c1547/2.jpg",
+  "link": "news/griezmann-to-orlando-city-2026"
+},
+  {
+  "id": 128,
+  "title": "MLS Matchday 5 2026 Recap: Nashville Explodes 5-0, Charlotte Shatters Records 6-1, LAFC Builds Historic Wall",
+  "author": "Mio Ristić",
+  "date": "March 24, 2026",
+  "excerpt": "Matchday 5 delivered chaos and records: Nashville SC 5-0 Orlando (Surridge hat-trick), Charlotte FC 6-1 NY Red Bulls (club records), LAFC sets MLS record with 450 minutes without conceding. Full results, key moments, comebacks, Messi free-kick and early season takeaways.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt0733c3edcfb41a40/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-03-22T213603.222.png?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/mls-matchday-5-2026"
+},
+  {
   "id": 127,
   "title": "USMNT March 2026 Roster: Pochettino's Final Call-Ups Before World Cup 2026",
   "author": "Mio Ristić",
@@ -97,25 +115,8 @@ const blogPosts: Post[] = [
   "excerpt": "Mauricio Pochettino names 27-player squad for friendlies vs Belgium and Portugal. Gio Reyna returns, Christian Pulisic leads experience, 9 MLS players called up, key absences due to injury (Adams, Dest). Full roster breakdown by position, storylines and World Cup implications.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-2237710051/crop/MM5DEMBRGQ5DCMJTGM5G433XMU5DKMBTHIZTE===/GettyImages-2237710051.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/usmnt-roster-march-2026"
-},
-  {
-  "id": 126,
-  "title": "MLS Matchday 4 2026: Vancouver's Record Start, Revs' Historic Rout, Late Drama Everywhere",
-  "author": "US11 Analysis",
-  "date": "March 16, 2026",
-  "excerpt": "Vancouver Whitecaps make MLS history with 6-0 rout and perfect 4-0-0 start (+13 GD), New England Revolution tie club record in 6-1 thrashing of Cincinnati, Petar Musa hat trick rescues Dallas, Hany Mukhtar scores 25,000th MLS goal. Full results, key moments and early-season chaos breakdown.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt8209e4c975d96a14/GettyImages-2250417409.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/mls-matchday-4-2026"
-},
-  {
-  "id": 125,
-  "title": "Concacaf Champions Cup 2026 Round of 16: MLS Makes History",
-  "author": "Mio Ristić",
-  "date": "March 10, 2026",
-  "excerpt": "Nine MLS teams reach the 2026 Concacaf Champions Cup Round of 16. Full breakdown of matchups, key players, and MLS's bid to challenge Liga MX dominance.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2260983710/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2260983710.jpg",
-  "link": "news/concacaf-round-16-2026"
 }
+
   
 
   
@@ -172,24 +173,26 @@ export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const heroItems = [
-   {
-  "title": "Top 10 MLS Players to Watch in 2026",
-  "subtitle": "From Messi to Rising Stars",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2227792192/crop/MM5DCOBUGA5DCMBTGU5G433XMU5DCMRRGU5DENBX/GettyImages-2227792192.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/blog/mls-players-2026"
+    {
+  "title": "Antoine Griezmann to Orlando City",
+  "subtitle": "World Cup winner agrees July 2026 free transfer from Atlético – 2+1 years, No. 7 jersey, massive East Conference boost",
+  "image": "https://assets.goal.com/images/v3/blt2ccb4598094c1547/2.jpg",
+  "link": "/news/griezmann-orlando-2026"
+}
+
+,
+    {
+  "title": "MLS Matchday 5 2026 Recap",
+  "subtitle": "Nashville explodes 5-0, Charlotte shatters records 6-1, LAFC sets historic 450-minute shutout streak",
+  "image": "https://assets.goal.com/images/v3/blt0733c3edcfb41a40/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-03-22T213603.222.png?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/mls-matchday-5-2026"
 },
     {
-  "title": "MLS 2026 Jerseys",
-  "subtitle": "Shop Now",
-  "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/mls/em5hapeppp5zqyphlmlt.jpg",
-  "link": "https://mlsstore.i8h2.net/rE4gvR"
-},
- {
-  "title": "Adidas USA 1994 Denim Graphic Collection",
-  "subtitle": "Shop Now – Retro USMNT Gear for World Cup 2026",
-  "imageUrl": "https://assets.goal.com/images/v3/bltf53f7a9a05821020/crop/MM5DIMBYGU5DEMRZHA5G433XMU5DAORYHE2Q====/U.S%20Denim%20Kit%20Collection%2024.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "https://fanatics.93n6tx.net/vDPVe3"
-},
+      title: "USMNT 2026 Home & Away Kits Unveiled",
+      subtitle: "Nike Stripes & Stars design – full breakdown and where to buy",
+      image: "https://assets.goal.com/images/v3/blt532e5fdd75fc8dc0/crop/MM5DIMBZGM5DEMZQGI5G433XMU5DAORYHA======/USSF_MNT_Kit_Launch_Vogue_mntjerseyshoot_11-09-25-124.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+      link: "/blog/usmnt-nike-2026-kits-unveiled",
+    }
   ];
 
   const staffPicks = [
@@ -257,32 +260,30 @@ export default function Home() {
 
   return (
     <>
-      {/* Hero Section */}
-      
-      <div className="relative w-full h-[700px]">
-        <a
-          href={currentItem.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block w-full h-full relative"
-        >
-          <Image
-            src={currentItem.imageUrl}
-            alt={currentItem.title}
-            layout="fill"
-            objectFit="cover"
-            objectPosition="center 10%"
-            className="brightness-75 transition-opacity duration-700"
-          />
-          <span className="absolute top-2 right-4 text-xs text-white/80 z-10">Credit: US11</span>
-          <div className="absolute inset-0 flex flex-col justify-end items-center pb-20 px-6 text-center">
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white leading-tight drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">{currentItem.title}</h1>
-            <p className="mt-4 text-2xl sm:text-3xl md:text-4xl font-semibold text-white leading-tight drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">{currentItem.subtitle}</p>
-          </div>
-        </a>
-        <button onClick={prevSlide} className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/40 text-white p-3 rounded-full hover:bg-black/70 transition z-20">‹</button>
-        <button onClick={nextSlide} className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black/40 text-white p-3 rounded-full hover:bg-black/70 transition z-20">›</button>
-      </div>
+     {/* HERO */}
+<section className="relative h-[560px] md:h-[680px] lg:h-[760px] w-full">
+  <Link href={currentItem.link}>
+    <Image
+      src={currentItem.image}
+      alt={currentItem.title}
+      fill
+      className="object-cover brightness-[0.62]"
+      priority
+    />
+
+    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+
+    <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12 lg:p-16 text-white">
+      <h1 className="text-4xl md:text-5xl lg:text-7xl font-black leading-tight drop-shadow-2xl max-w-4xl">
+        {currentItem.title}
+      </h1>
+
+      <p className="mt-4 text-xl md:text-2xl lg:text-3xl font-semibold drop-shadow-xl">
+        {currentItem.subtitle}
+      </p>
+    </div>
+  </Link>
+</section>
 
       {/* Staff Picks Section */}
       <div className="bg-white py-16">

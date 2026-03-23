@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 129,
+  "title": "Antoine Griezmann to Orlando City: World Cup Winner Agrees MLS Move",
+  "author": "Mio Ristić",
+  "date": "March 24, 2026",
+  "excerpt": "Antoine Griezmann has verbally agreed to join Orlando City SC on a free transfer from Atlético Madrid in July 2026. 2-year contract + option for third year, No. 7 jersey, Orlando trip confirmed. Full details, implications for MLS East and why this could reshape the conference.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt2ccb4598094c1547/2.jpg",
+  "slug": "griezmann-to-orlando-city-2026"
+},
+    {
+  "id": 128,
+  "title": "MLS Matchday 5 2026 Recap: Nashville Explodes 5-0, Charlotte Shatters Records 6-1, LAFC Builds Historic Wall",
+  "author": "Mio Ristić",
+  "date": "March 24, 2026",
+  "excerpt": "Matchday 5 delivered chaos and records: Nashville SC 5-0 Orlando (Surridge hat-trick), Charlotte FC 6-1 NY Red Bulls (club records), LAFC sets MLS record with 450 minutes without conceding. Full results, key moments, comebacks, Messi free-kick and early season takeaways.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt0733c3edcfb41a40/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-03-22T213603.222.png?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "mls-matchday-5-2026"
+},
+    {
   "id": 127,
   "title": "USMNT March 2026 Roster: Pochettino's Final Call-Ups Before World Cup 2026",
   "author": "Mio Ristić",
