@@ -177,7 +177,7 @@ export default function Home() {
   "title": "Antoine Griezmann to Orlando City",
   "subtitle": "World Cup winner agrees July 2026 free transfer from Atlético – 2+1 years, No. 7 jersey, massive East Conference boost",
   "image": "https://assets.goal.com/images/v3/blt2ccb4598094c1547/2.jpg",
-  "link": "/news/griezmann-orlando-2026"
+  "link": "/news/griezmann-to-orlando-city-2026"
 }
 
 ,
