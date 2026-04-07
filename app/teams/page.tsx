@@ -117,17 +117,7 @@ const TeamsPage: React.FC = () => {
   return (
     <div className="bg-[#f8f9fa] min-h-screen pb-16">
 
-      {/* HEADER */}
-      <div className="bg-white border-b border-gray-200 sticky top-0 z-50">
-        <div className="max-w-6xl mx-auto px-6 py-6">
-          <h1 className="text-4xl lg:text-5xl font-black text-[#020617]">
-            Teams
-          </h1>
-          <p className="text-gray-600 mt-2">
-            MLS Eastern • Western • National Teams
-          </p>
-        </div>
-      </div>
+       
 
       {/* CONTENT */}
       <div className="max-w-6xl mx-auto px-6 pt-10">

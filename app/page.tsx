@@ -4,6 +4,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
+
+
 interface Post {
   id: number;
   title: string;
@@ -90,6 +92,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 130,
+  "title": "MLS Matchday 6 2026: Bouanga’s Rampage, Miami’s New Stadium Debut and Orlando’s Nightmare",
+  "author": "Mio Ristić",
+  "date": "April 07, 2026",
+  "excerpt": "Denis Bouanga scores a lightning-fast hat-trick as LAFC crush Orlando City 6-0, Inter Miami open their brand new Nu Stadium with a thrilling 2-2 draw, while Philadelphia Union suffer a sixth consecutive defeat. Full details and key takeaways from Matchday 6.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt8209e4c975d96a14/GettyImages-2250417409.jpg",
+  "link": "news/mls-matchday-6-2026"
+},
+  {
   "id": 129,
   "title": "Antoine Griezmann to Orlando City: World Cup Winner Agrees MLS Move",
   "author": "Mio Ristić",
@@ -98,15 +109,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/blt2ccb4598094c1547/2.jpg",
   "link": "news/griezmann-to-orlando-city-2026"
 },
-  {
-  "id": 128,
-  "title": "MLS Matchday 5 2026 Recap: Nashville Explodes 5-0, Charlotte Shatters Records 6-1, LAFC Builds Historic Wall",
-  "author": "Mio Ristić",
-  "date": "March 24, 2026",
-  "excerpt": "Matchday 5 delivered chaos and records: Nashville SC 5-0 Orlando (Surridge hat-trick), Charlotte FC 6-1 NY Red Bulls (club records), LAFC sets MLS record with 450 minutes without conceding. Full results, key moments, comebacks, Messi free-kick and early season takeaways.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt0733c3edcfb41a40/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-03-22T213603.222.png?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "news/mls-matchday-5-2026"
-},
+ 
   {
   "id": 127,
   "title": "USMNT March 2026 Roster: Pochettino's Final Call-Ups Before World Cup 2026",
@@ -182,10 +185,10 @@ export default function Home() {
 
 ,
     {
-  "title": "MLS Matchday 5 2026 Recap",
-  "subtitle": "Nashville explodes 5-0, Charlotte shatters records 6-1, LAFC sets historic 450-minute shutout streak",
-  "image": "https://assets.goal.com/images/v3/blt0733c3edcfb41a40/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-03-22T213603.222.png?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/mls-matchday-5-2026"
+  "title": "MLS Matchday 6 2026",
+  "subtitle": "Bouanga scores rapid hat-trick as LAFC thrash Orlando 6-0, Inter Miami open Nu Stadium with 2-2 draw, Philadelphia suffer sixth straight defeat",
+  "image": "https://assets.goal.com/images/v3/blt8209e4c975d96a14/GettyImages-2250417409.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/mls/mls-matchday-6-2026"
 },
     {
       title: "USMNT 2026 Home & Away Kits Unveiled",
@@ -260,7 +263,7 @@ export default function Home() {
 
   return (
     <>
-     {/* HERO */}
+ {/* NOVI HERO SLIDER - tekst levo, linije ispod teksta, responsive */}
 <section className="relative h-[560px] md:h-[680px] lg:h-[760px] w-full">
   <Link href={currentItem.link}>
     <Image
@@ -283,6 +286,24 @@ export default function Home() {
       </p>
     </div>
   </Link>
+
+
+  {/* Progress Lines - ispod teksta, responsive */}
+  <div className="absolute bottom-6 md:bottom-8 left-6 md:left-1/2 md:-translate-x-1/2 flex gap-3 z-20">
+    {heroItems.map((_, index) => (
+      <div
+        key={index}
+        className="w-10 md:w-12 h-[3px] bg-white/40 rounded-full overflow-hidden cursor-pointer"
+        onClick={() => setCurrentIndex(index)}
+      >
+        <div
+          className={`h-full bg-white transition-all duration-[8000ms] ease-linear ${
+            index === currentIndex ? 'w-full' : 'w-0'
+          }`}
+        />
+      </div>
+    ))}
+  </div>
 </section>
 
       {/* Staff Picks Section */}

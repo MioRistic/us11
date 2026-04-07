@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 130,
+  "title": "MLS Matchday 6 2026: Bouanga’s Rampage, Miami’s New Stadium Debut and Orlando’s Nightmare",
+  "author": "Mio Ristić",
+  "date": "April 07, 2026",
+  "excerpt": "Denis Bouanga scores a lightning-fast hat-trick as LAFC crush Orlando City 6-0, Inter Miami open their brand new Nu Stadium with a thrilling 2-2 draw, while Philadelphia Union suffer a sixth consecutive defeat. Full details and key takeaways from Matchday 6.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt8209e4c975d96a14/GettyImages-2250417409.jpg",
+  "slug": "mls-matchday-6-2026"
+},
+    {
   "id": 129,
   "title": "Antoine Griezmann to Orlando City: World Cup Winner Agrees MLS Move",
   "author": "Mio Ristić",

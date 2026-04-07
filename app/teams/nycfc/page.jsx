@@ -1,310 +1,398 @@
-import React from 'react';
-import { FaShoppingCart } from 'react-icons/fa';
-import Link from 'next/link';
-import Image from 'next/image';
+'use client';
 
-const TrendingPlayers = ({ teamSlug = 'new-york-red-bulls' }) => {
-  const players = [
-    { name: 'Maxi Moralez', image: 'https://cdn.eleco.com.ar/media/2022/12/deportes_32.jpg', slug: './moralez' },
-    { name: 'Santiago Rodríguez', image: 'https://assets.goal.com/images/v3/getty-2150744981/crop/MM5DGOBYHA5DEMJYG45G433XMU5DOMBSHIYTANQ=/GettyImages-2150744981.jpg', slug: './santiago' },
-    { name: 'Monsef Bakrar', image: 'https://www.telegram.hr/wp-content/uploads/2024/12/monsef-bakrar.jpg', slug: './bakrar' },
-    // { name: 'Julián Fernández', image: 'data:image/jpeg;base64,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', link: './JamesSands' },
+import React, { useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { FaTicketAlt, FaBed, FaShoppingBag } from 'react-icons/fa';
+
+const NYCFCPage = () => {
+  const [activeTab, setActiveTab] = useState('overview');
+
+  const trendingPlayers = [
+    { 
+      name: 'Maxi Moralez', 
+      image: 'https://cdn.eleco.com.ar/media/2022/12/deportes_32.jpg', 
+      slug: 'moralez' 
+    },
+    { 
+      name: 'Santiago Rodríguez', 
+      image: 'https://assets.goal.com/images/v3/getty-2150744981/crop/MM5DGOBYHA5DEMJYG45G433XMU5DOMBSHIYTANQ=/GettyImages-2150744981.jpg', 
+      slug: 'santiago' 
+    },
+    { 
+      name: 'Monsef Bakrar', 
+      image: 'https://www.telegram.hr/wp-content/uploads/2024/12/monsef-bakrar.jpg', 
+      slug: 'bakrar' 
+    },
   ];
 
+  const blogPosts = [
+    {
+      id: 1,
+      title: "NYCFC Deliver Impressive Performance in 2026 Season",
+      author: "Mio Ristić",
+      date: "March 25, 2026",
+      excerpt: "New York City FC continue their strong campaign with standout performances from key players.",
+      imageUrl: "https://assets.goal.com/images/v3/getty-2150744981/crop/MM5DGOBYHA5DEMJYG45G433XMU5DOMBSHIYTANQ=/GettyImages-2150744981.jpg",
+      slug: "nycfc-strong-2026",
+    },
+  ];
 
-
-  return (
-    <div className="max-w-4xl mx-auto py-8">
-      <h2 className="text-6xl font-bold text-[#020617] mb-8 text-center">Trending Players</h2>
-      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-        {players.map((player) => (
-          <Link
-            key={player.slug}
-            href={`/teams/nycfc/${player.slug}`}
-            className="group flex flex-col items-center bg-white rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105 hover:shadow-xl"
-          >
-            <img
-              src={player.image}
-              alt={player.name}
-              className="h-64 w-full object-cover mb-4 rounded-lg"
-              style={{ objectPosition: 'center 2%' }}
-            />
-            <h3 className="text-lg font-semibold text-center text-[#020617]">{player.name}</h3>
-          </Link>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-const NYCFC = () => {
-  const items = [
+  const shopItems = [
     {
       "title": "Men's New York City FC adidas Light Blue 2025 The Excelsior Kit Authentic Jersey",
       "price": "$149.99",
-      "originalPrice": "$149.99",
-      "category": "Men's Jerseys",
-      "shipping": "",
-      "availability": "Most Popular in Jerseys",
       "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-adidas-light-blue-new-york-city-fc-2025-the-excelsior-kit-authentic-jersey_ss5_p-202644588+pv-1+u-dwdwunzsltswgzqfljnw+v-vfgmet8vo1v2qb2vvfgi.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/yqjEX2"
     },
     {
       "title": "Men's New York City FC Sport Design Sweden Navy Hat Trick Hockey Pullover Hoodie",
       "price": "$94.99",
-      "originalPrice": "$94.99",
-      "category": "Men's Hoodies",
-      "shipping": "Ready To Ship",
-      "availability": "",
       "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens%C2%A0sport-design-sweden-navy-new-york-city-fc-hat-trick-hockey-pullover-hoodie_ss5_p-202666869+pv-1+u-hrncblfgjv1ztivqg9gn+v-2gneza6dxjwurvehlymr.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/qzmkay"
     },
     {
-      "title": "Youth New York City FC Navy/Light Blue Stalwart Defender T-Shirt",
-      "price": "$31.99",
-      "originalPrice": "$31.99",
-      "category": "Youth T-Shirts",
-      "shipping": "Ready To Ship",
-      "availability": "Most Popular in New York City FC",
-      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/youth-navy/light-blue-new-york-city-fc-stalwart-defender-t-shirt_ss5_p-201875246+pv-1+u-six63vpz3yjfgdmoovzm+v-beg8proaz9c1fqc2sctw.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/QjAzMA"
-    },
-    {
       "title": "Youth New York City FC adidas Light Blue 2025 The Excelsior Kit Replica Jersey",
       "price": "$79.99",
-      "originalPrice": "$79.99",
-      "category": "Youth Jerseys",
-      "shipping": "",
-      "availability": "",
       "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/youth-adidas-light-blue-new-york-city-fc-2025-the-excelsior-kit-replica-jersey_ss5_p-202649404+pv-1+u-deynuppy95yxksfvefgi+v-jlpdgwzslrptq8e35aep.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/LKOoMY"
     },
     {
       "title": "Men's New York City FC New Era Black 2025 Kickoff 9TWENTY Adjustable Hat",
       "price": "$34.99",
-      "originalPrice": "$34.99",
-      "category": "Men's Hats",
-      "shipping": "Ready To Ship",
-      "availability": "Most Popular in Hats",
       "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-new-era-black-new-york-city-fc-2025-kickoff-9twenty-adjustable-hat_ss5_p-202514201+pv-1+u-gkszmiogbaloo2o378ho+v-0wc0db9nerrlxmakgr1t.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/nXPjYX"
-    },
-    {
-      "title": "Men's New York City FC adidas Black 2024 24/7 Kit Authentic Jersey",
-      "price": "$159.99",
-      "originalPrice": "$159.99",
-      "category": "Men's Jerseys",
-      "shipping": "",
-      "availability": "Most Popular in Jerseys",
-      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-adidas-black-new-york-city-fc-2024-24/7-kit-authentic-jersey_ss5_p-201101846+pv-1+u-gp2fdnsj1ov11mdhl2aq+v-fdwq2qata3nhzgljtk8z.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/2ayXZQ"
-    },
-    {
-      "title": "Men's New York City FC Heathered Gray Logo T-Shirt",
-      "price": "$17.99",
-      "originalPrice": "$34.99",
-      "category": "Men's T-Shirts",
-      "shipping": "",
-      "availability": "Most Popular in Men T-Shirts",
-      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-heathered-gray-new-york-city-fc-logo-t-shirt_pi4735000_altimages_ff_4735653-3dba106ee9d1add148f4alt1_full.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/dOk3Yk"
-    },
-    {
-      "title": "Youth New York City FC Blue Unbeatable Pullover Hoodie",
-      "price": "$54.99",
-      "originalPrice": "$54.99",
-      "category": "Youth Hoodies",
-      "shipping": "Ready To Ship",
-      "availability": "Most Popular in Kids Sweatshirts",
-      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/youth-blue-new-york-city-fc-unbeatable-pullover-hoodie_ss5_p-201875264+pv-1+u-fhwah8hde3sri4ntctzf+v-kwdkcuvzkyovcftkglcm.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/YRb47j"
-    },
-    {
-      "title": "Men's New York City FC adidas Navy 2025 Travel Pants",
-      "price": "$74.99",
-      "originalPrice": "$74.99",
-      "category": "Men's Pants",
-      "shipping": "Ready To Ship",
-      "availability": "Most Popular in Pants",
-      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-adidas-navy-new-york-city-fc-2025-travel-pants_ss5_p-201657351+pv-1+u-3clziyb5zvfhgxdixht2+v-vy5r2txfqqnnfalaunbi.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/LKOo7Y"
-    },
-    {
-      "title": "New York City FC 50\" x 60\" City Spotlight Royal Plush Blanket",
-      "price": "$34.99",
-      "originalPrice": "$34.99",
-      "category": "Home & Accessories",
-      "shipping": "",
-      "availability": "",
-      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/new-york-city-fc-50-x-60-city-spotlight-royal-plush-blanket_ss5_p-200823153+pv-1+u-mskmsgyp8eflrvhehjaj+v-nqlxeszowjhvrmszs31m.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/9Lnx03"
-    },
-    {
-      "title": "Men's New York City FC Navy Team Hometown Collection T-Shirt",
-      "price": "$19.99",
-      "originalPrice": "$39.99",
-      "category": "Men's T-Shirts",
-      "shipping": "",
-      "availability": "Most Popular in Men T-Shirts",
-      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-navy-new-york-city-fc-team-hometown-collection-t-shirt_pi5281000_altimages_ff_5281744-3af26b550435ffd5de42alt1_full.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/kO9QYd"
-    },
-    {
-      "title": "Men's New York City FC New Era Tan Active 9TWENTY Adjustable Hat",
-      "price": "$31.99",
-      "originalPrice": "$31.99",
-      "category": "Men's Hats",
-      "shipping": "Ready To Ship",
-      "availability": "Most Popular in Hats",
-      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens%C2%A0new-era-tan-new-york-city-fc-active-9twenty-adjustable-hat_ss5_p-202314648+pv-1+u-pr90cpmj9biztn9v60x5+v-ewusmgdrdn0vihegebcu.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/zxPXY6"
-    },
-    {
-      "title": "Men's New York City FC adidas Navy 2025 Travel Pullover Hoodie",
-      "price": "$79.99",
-      "originalPrice": "$79.99",
-      "category": "Men's Hoodies",
-      "shipping": "Ready To Ship",
-      "availability": "Most Popular in Sweatshirts",
-      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-adidas-navy-new-york-city-fc-2025-travel-pullover-hoodie_ss5_p-201657320+pv-1+u-ss7kiekkcjeg8xmbj0ay+v-hcfgz82m3pnuw3zsvmb0.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/2ayX4Q"
-    },
-    {
-      "title": "Men's New York City FC New Era Sky Blue/Navy 2025 Jersey Hook 9SEVENTY Stretch-Snap Hat",
-      "price": "$39.99",
-      "originalPrice": "$39.99",
-      "category": "Men's Hats",
-      "shipping": "Ready To Ship",
-      "availability": "",
-      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-new-era-sky-blue/navy-new-york-city-fc-2025-jersey-hook-9seventy-stretch-snap-hat_ss5_p-202216429+pv-1+u-oclvvajyfemzdkdnbsyl+v-coajzzlva9lo7aoav3bz.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/vPQ1Aj"
-    },
-    {
-      "title": "Men's New York City FC adidas Light Blue 2025 Jersey Hook AEROREADY T-Shirt",
-      "price": "$39.99",
-      "originalPrice": "$39.99",
-      "category": "Men's T-Shirts",
-      "shipping": "Ready To Ship",
-      "availability": "Most Popular in Men T-Shirts",
-      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-new-era-sky-blue/navy-new-york-city-fc-2025-jersey-hook-9seventy-stretch-snap-hat_ss5_p-202216429+pv-1+u-oclvvajyfemzdkdnbsyl+v-coajzzlva9lo7aoav3bz.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/vPQ1Aj"
-    },
-    {
-      "title": "Men's New York City FC Black Hometown Oversized Pullover Hoodie",
-      "price": "$84.99",
-      "originalPrice": "$84.99",
-      "category": "Men's Hoodies",
-      "shipping": "Ready To Ship",
-      "availability": "Most Popular in Sweatshirts",
-      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-adidas-light-blue-new-york-city-fc-2025-jersey-hook-aeroready-t-shirt_ss5_p-201664631+pv-1+u-p4aczineetfeelanpp8k+v-q5evrcdff5gylykwltlr.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/MA2oro"
-    },
-    {
-      "title": "Men's New York City FC Fanatics Sky Blue Free Kick Woven Quarter-Zip Hoodie Jacket",
-      "price": "$89.99",
-      "originalPrice": "$49.99",
-      "category": "Toddler Hoodies",
-      "shipping": "Ready To Ship",
-      "availability": "",
-      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/mens-fanatics-sky-blue-new-york-city-fc-free-kick-woven-quarter-zip-hoodie-jacket_ss5_p-201747227+pv-1+u-bmjreky7u48wqwbgkmxv+v-rdywxrvi6twmqluaq7n0.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/raLe53"
-    },
-    {
-      "title": "Youth New York City FC adidas Light Blue 2025 The Excelsior Kit Replica Custom Jersey",
-      "price": "$34.99",
-      "originalPrice": "$34.99",
-      "category": "Men's T-Shirts",
-      "shipping": "Ready To Ship",
-      "availability": "Most Popular in Men T-Shirts",
-      "imageUrl": "https://images.footballfanatics.com/new-york-city-fc/youth-adidas-light-blue-new-york-city-fc-2025-the-excelsior-kit-replica-custom-jersey_ss5_p-202708448+pv-1+u-ctymkjkh5v3w962gu674+v-ew9jn1dxar8613zhewqj.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/e1eJmz"
     }
-  ]
-  ;
+  ];
+
+  const squad = {
+    goalkeepers: ["Matt Freese", "Tomas Romero"],
+    defenders: ["Thiago Martins", "Maxi Moralez", "Mitja Ilenič", "Kevin O'Toole"],
+    midfielders: ["Santiago Rodríguez", "James Sands", "Keaton Parks", "Andrés Perea"],
+    attackers: ["Monsef Bakrar", "Julián Fernández", "Agustín Ojeda"],
+  };
 
   return (
-    <div className='w-full min-h-screen bg-white pt-[1px]'>
-       <div className='max-w-4xl mx-auto py-8 px-4 md:px-0'>
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>New York City FC</h1>
-        <div className='mb-6'>
-          <img
-            src='/nyc.png'
-            alt='New York City FC' 
-            className='w-full h-[400px] object-cover rounded-lg shadow-md' 
-          />
+    <div className="bg-white min-h-screen text-[#0d1117]">
+      {/* Hero */}
+      <div className="relative h-[480px] md:h-[620px] bg-gradient-to-b from-black/70 to-black/90 overflow-hidden">
+        <Image
+          src="/nyc.png"
+          alt="New York City FC"
+          fill
+          className="object-cover"
+          priority
+        />
+
+        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/75 to-black/40" />
+
+        <div className="absolute inset-0 flex items-end pb-10 md:pb-14 px-6 md:px-12">
+          <div className="max-w-6xl mx-auto w-full">
+            <div className="flex items-center gap-5 md:gap-6 mb-4">
+              <div className="w-24 h-24 md:w-40 md:h-40 relative bg-white rounded-2xl p-4 shadow-2xl flex items-center justify-center">
+                <Image
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Logo_New_York_City_FC_2025.svg/330px-Logo_New_York_City_FC_2025.svg.png"
+                  alt="New York City FC Logo"
+                  width={160}
+                  height={160}
+                  className="object-contain"
+                  priority
+                />
+              </div>
+
+              <div>
+                <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white tracking-tight drop-shadow-2xl">
+                  New York City FC
+                </h1>
+                <p className="text-lg md:text-xl text-white/90 mt-1 font-medium">
+                  Major League Soccer • Yankee Stadium
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div className='flex gap-4 mb-8 justify-center'>
-              <a
-            href="https://ticketnetwork.lusg.net/jeQvzb"
-            target="_blank"
-            rel="noopener noreferrer"
-            className='bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition duration-300'
-          >
-            BUY TICKET
-          </a>
-          <a 
-            href="https://example.com/find-hotel" 
-            className='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-full transition duration-300'
-          >
-            HOTELS NEAR THE STADIUM
-          </a>
+      {/* Tabs - Plava boja NYCFC */}
+      <div className="bg-[#020617] text-white sticky top-0 z-40 border-b border-gray-700">
+        <div className="max-w-6xl mx-auto px-4 md:px-6">
+          <div className="flex overflow-x-auto gap-6 md:gap-10 py-4 whitespace-nowrap scrollbar-hide">
+            {['overview', 'news', 'blog', 'squad', 'shop'].map((tab) => (
+              <button 
+                key={tab}
+                onClick={() => setActiveTab(tab)} 
+                className={`font-bold text-base md:text-lg pb-2 transition relative flex-shrink-0
+                  ${activeTab === tab 
+                    ? 'text-blue-600' 
+                    : 'text-white/80 hover:text-white'}`}
+              >
+                {tab.charAt(0).toUpperCase() + tab.slice(1)}
+                {activeTab === tab && (
+                  <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600"></span>
+                )}
+              </button>
+            ))}
+          </div>
         </div>
+      </div>
 
-     {/* Club Information */}
-     <div className='text-[#020617] mb-8'>
-          <h2 className='text-2xl font-semibold mb-2'>Club Information</h2>
-          <ul className='list-disc list-inside'>
-            <li><strong>Full Name:</strong> New York City Football Club</li>
-            <li><strong>Nickname(s):</strong> NYCFC</li>
-            <li><strong>Founded:</strong> 2013</li>
-            <li><strong>Stadium:</strong> Yankee Stadium, The Bronx, New York City</li>
-            <li><strong>Capacity:</strong> 33,000</li>
-            <li><strong>Owner:</strong> City Football Group</li>
-            <li><strong>Head Coach:</strong> Pascal Jansen</li>
-            <li><strong>League:</strong> Major League Soccer</li>
-          </ul>
-        </div>
+      {/* Main Content */}
+      <div className="max-w-6xl mx-auto px-4 md:px-6 py-10 md:py-12 grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-10">
 
-        {/* Additional Text */}
-        <div className='text-[#020617] mb-8'>
-          <h2 className='text-2xl font-semibold mb-2'>A Modern Force in MLS</h2>
-          <p>
-            New York City FC, founded in 2013, has quickly become one of Major League Soccer's premier clubs. Playing in the iconic Yankee Stadium, the club draws inspiration from the diverse energy of the city.
-          </p>
-          <p>
-            Under the guidance of Nick Cushing and with key players like Taty Castellanos and Santiago Rodríguez, NYCFC is one of the top teams in MLS, having recently claimed the MLS Cup in 2021.
-          </p>
-          <p>
-            Whether through dynamic attacking play or gritty team effort, NYCFC continues to be a favorite in the league, bringing exciting soccer to the Big Apple.
-          </p>
-        </div>
+        <div className="lg:col-span-2 space-y-10 md:space-y-12">
 
-        <TrendingPlayers />
+          {activeTab === 'overview' && (
+            <>
+              <div className="bg-gray-50 p-6 md:p-8 rounded-2xl shadow-sm">
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">Club Overview</h2>
+                <dl className="grid grid-cols-1 md:grid-cols-2 gap-6 text-base md:text-lg">
+                  <div><dt className="font-bold text-gray-600">Full Name</dt><dd>New York City Football Club</dd></div>
+                  <div><dt className="font-bold text-gray-600">Nickname</dt><dd>NYCFC</dd></div>
+                  <div><dt className="font-bold text-gray-600">Founded</dt><dd>2013</dd></div>
+                  <div><dt className="font-bold text-gray-600">Stadium</dt><dd>Yankee Stadium, The Bronx, New York</dd></div>
+                  <div><dt className="font-bold text-gray-600">Capacity</dt><dd>33,000</dd></div>
+                  <div><dt className="font-bold text-gray-600">Owner</dt><dd>City Football Group</dd></div>
+                  <div><dt className="font-bold text-gray-600">Head Coach</dt><dd>Pascal Jansen</dd></div>
+                </dl>
+              </div>
 
-        <h2 className='text-4xl sm:text-6xl font-bold text-[#020617] mt-16 mb-4'>Shop</h2>
-        <div className='grid gap-6 grid-cols-1 md:grid-cols-3'>
-          {items.map((item) => (
-          <div key={item.title} className='bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg'>
-              <img className='w-full h-64 object-cover' src={item.imageUrl} alt={item.title} />
-              <div className='p-4'>
-                <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
-                <p className='text-gray-600'>{item.price}</p>
-                <a
-                  href={item.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+              <div>
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">A Modern Force in MLS</h2>
+                <div className="prose max-w-none text-lg text-gray-800">
+                  <p>New York City FC, founded in 2013 as a sister club to Manchester City, has quickly established itself as one of the most exciting teams in Major League Soccer.</p>
+                  <p>Playing at the historic Yankee Stadium, NYCFC combines technical, attacking football with the energy of New York City. The club has already won an MLS Cup and continues to attract top talent from around the world.</p>
+                </div>
+              </div>
+
+              <div>
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">Trending Players</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                  {trendingPlayers.map((player) => (
+                    <Link key={player.slug} href={`/teams/nycfc/${player.slug}`} className="group">
+                      <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                        <div className="relative h-64">
+                          <Image 
+                            src={player.image} 
+                            alt={player.name} 
+                            fill 
+                            className="object-cover group-hover:scale-105 transition-transform duration-500" 
+                            unoptimized 
+                          />
+                        </div>
+                        <div className="p-4 text-center">
+                          <h3 className="font-bold text-lg group-hover:text-blue-600">{player.name}</h3>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">Latest News</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                  {blogPosts.map((post) => (
+                    <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                      <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                        <div className="relative h-56">
+                          <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+                        </div>
+                        <div className="p-6">
+                          <h3 className="text-xl font-bold mb-3 group-hover:text-blue-600 line-clamp-2">{post.title}</h3>
+                          <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
+                          <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </>
+          )}
+
+          {activeTab === 'news' && (
+            <div>
+              <h2 className="text-3xl font-black mb-6 text-[#020617]">All News</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                {blogPosts.map((post) => (
+                  <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                    <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                      <div className="relative h-56">
+                        <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+                      </div>
+                      <div className="p-6">
+                        <h3 className="text-xl font-bold mb-3 group-hover:text-blue-600 line-clamp-2">{post.title}</h3>
+                        <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
+                        <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {activeTab === 'blog' && (
+            <div>
+              <h2 className="text-3xl font-black mb-6 text-[#020617]">Blog</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                {blogPosts.map((post) => (
+                  <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                    <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                      <div className="relative h-56">
+                        <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+                      </div>
+                      <div className="p-6">
+                        <h3 className="text-xl font-bold mb-3 group-hover:text-blue-600 line-clamp-2">{post.title}</h3>
+                        <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
+                        <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {activeTab === 'squad' && (
+            <div>
+              <h2 className="text-3xl font-black mb-8 text-[#020617]">New York City FC Squad</h2>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-blue-600 mb-4 border-b border-gray-200 pb-2">Goalkeepers</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.goalkeepers.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-blue-600 mb-4 border-b border-gray-200 pb-2">Defenders</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.defenders.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-blue-600 mb-4 border-b border-gray-200 pb-2">Midfielders</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.midfielders.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-blue-600 mb-4 border-b border-gray-200 pb-2">Attackers</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.attackers.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* SHOP TAB */}
+          {activeTab === 'shop' && (
+            <div>
+              <div className="flex items-center gap-3 mb-8">
+                <FaShoppingBag className="text-4xl text-blue-600" />
+                <h2 className="text-3xl font-black text-[#020617]">NYCFC Shop</h2>
+              </div>
+
+              <p className="text-lg text-gray-600 mb-10">
+                Support New York City FC by shopping through our links. 
+                Every purchase helps us keep this site running and bring you better content.
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
+                {shopItems.map((item, index) => (
+                  <a 
+                    key={index} 
+                    href={item.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all border border-gray-100"
+                  >
+                    <div className="relative h-64 bg-gray-50 p-6">
+                      <Image 
+                        src={item.imageUrl} 
+                        alt={item.title} 
+                        fill 
+                        className="object-contain group-hover:scale-105 transition-transform duration-500" 
+                      />
+                    </div>
+                    <div className="p-6">
+                      <h3 className="font-bold text-lg leading-tight mb-3 group-hover:text-blue-600 line-clamp-2">
+                        {item.title}
+                      </h3>
+                      <p className="text-2xl font-bold text-blue-600">{item.price}</p>
+                    </div>
+                  </a>
+                ))}
+              </div>
+
+              <div className="mt-12 text-center">
+                <a 
+                  href="https://mlsstore.com" 
+                  target="_blank" 
+                  className="inline-flex items-center gap-2 text-blue-600 font-bold hover:underline text-lg"
                 >
-                  Buy Now <FaShoppingCart className='inline ml-2' />
+                  View full NYCFC store →
                 </a>
               </div>
             </div>
-          ))}
+          )}
+
+        </div>
+
+        {/* Sidebar */}
+        <div className="space-y-8">
+          <div className="bg-gradient-to-br from-blue-600 to-blue-700 text-white p-8 rounded-2xl shadow-lg">
+            <h3 className="text-2xl font-black mb-6">Plan Your Visit</h3>
+            <div className="space-y-4">
+              <a href="https://ticketnetwork.lusg.net/jeQvzb" target="_blank" rel="noopener noreferrer" 
+                className="flex items-center gap-3 bg-white/20 hover:bg-white/30 px-6 py-4 rounded-xl font-bold transition text-center justify-center">
+                <FaTicketAlt /> Buy Tickets
+              </a>
+              <a href="https://www.booking.com" target="_blank" rel="noopener noreferrer" 
+                className="flex items-center gap-3 bg-white/20 hover:bg-white/30 px-6 py-4 rounded-xl font-bold transition text-center justify-center">
+                <FaBed /> Hotels Near Yankee Stadium
+              </a>
+            </div>
+          </div>
+
+          <div className="bg-gray-50 p-6 rounded-2xl shadow-sm">
+            <h3 className="text-2xl font-black mb-6 text-[#020617]">Official Shop</h3>
+            <div className="space-y-6">
+              {shopItems.slice(0, 4).map((item, index) => (
+                <a key={index} href={item.link} target="_blank" rel="noopener noreferrer" className="block group">
+                  <div className="flex gap-4">
+                    <div className="relative w-24 h-24 flex-shrink-0">
+                      <Image src={item.imageUrl} alt={item.title} fill className="object-contain" />
+                    </div>
+                    <div>
+                      <h4 className="font-bold group-hover:text-blue-600 line-clamp-2 text-sm">{item.title}</h4>
+                      <p className="text-blue-600 font-bold mt-1">{item.price}</p>
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
+            <div className="mt-6 text-center">
+              <a href="https://mlsstore.com" target="_blank" className="text-blue-600 font-bold hover:underline">
+                View Full Shop →
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default NYCFC;
+export default NYCFCPage;

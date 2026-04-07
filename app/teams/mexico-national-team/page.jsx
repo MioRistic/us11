@@ -1,571 +1,403 @@
-import React from 'react';
-import { FaShoppingCart } from 'react-icons/fa';
-import Link from 'next/link';
-import Image from 'next/image';
+'use client';
 
-const TrendingPlayers = () => {
-  const players = [
-    {
-      name: 'Hirving Lozano',
-      image: 'https://images.supersport.com/media/e2dcgfwj/hirving-lozano-220924-celebrates-g-1050.jpg?width=1920&quality=90&format=webp',
-      slug: 'lozano',
+import React, { useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { FaTicketAlt, FaBed, FaShoppingBag } from 'react-icons/fa';
+
+const MexicoNationalTeamPage = () => {
+  const [activeTab, setActiveTab] = useState('overview');
+
+  const trendingPlayers = [
+    { 
+      name: 'Hirving Lozano', 
+      image: 'https://images.supersport.com/media/e2dcgfwj/hirving-lozano-220924-celebrates-g-1050.jpg?width=1920&quality=90&format=webp', 
+      slug: 'lozano' 
     },
-    {
-      name: 'Edson Álvarez',
-      image: 'https://westhamblog.co.uk/wp-content/uploads/2024/06/mexico-v-brazil-international-friendly-scaled.jpg',
-      slug: 'edsonalvarez',
+    { 
+      name: 'Edson Álvarez', 
+      image: 'https://westhamblog.co.uk/wp-content/uploads/2024/06/mexico-v-brazil-international-friendly-scaled.jpg', 
+      slug: 'edsonalvarez' 
     },
-    {
-      name: 'Orbelín Pineda',
-      image: 'https://www.365scores.com/es/news/wp-content/uploads/2024/06/GettyImages-1477262240-1024x683.jpg',
-      slug: 'pineda',
+    { 
+      name: 'Orbelín Pineda', 
+      image: 'https://www.365scores.com/es/news/wp-content/uploads/2024/06/GettyImages-1477262240-1024x683.jpg', 
+      slug: 'pineda' 
     },
   ];
 
-  return (
-    <div className="max-w-4xl mx-auto py-8">
-      <h2 className="text-6xl font-bold text-[#020617] mb-8 text-center">Trending Players</h2>
-      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-        {players.map((player) => {
-          const resolvedTeamSlug = player.slug === 'lozano' ? 'san-diego' : 'mexico-national-team';
+  const blogPosts = [
+    {
+      id: 1,
+      title: "Mexico National Team Continues Strong Form",
+      author: "Mio Ristić",
+      date: "March 25, 2026",
+      excerpt: "El Tri delivers impressive performances in international friendlies and qualifiers.",
+      imageUrl: "https://images.supersport.com/media/e2dcgfwj/hirving-lozano-220924-celebrates-g-1050.jpg?width=1920&quality=90&format=webp",
+      slug: "mexico-strong-form",
+    },
+  ];
 
-          return (
-            <Link
-              key={player.slug}
-              href={`/teams/${resolvedTeamSlug}/${player.slug}`}
-              className="group flex flex-col items-center bg-white rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105 hover:shadow-xl"
-            >
-              <img
-                src={player.image}
-                alt={player.name}
-                className="h-64 w-full object-cover mb-4 rounded-lg"
-                style={{ objectPosition: 'center 2%' }}
-              />
-              <h3 className="text-lg font-semibold text-center text-[#020617]">{player.name}</h3>
-            </Link>
-          );
-        })}
-      </div>
-    </div>
-  );
-};
-
-const MexicoNationalTeam = () => {
-  const items = [
+  const shopItems = [
     {
       "title": "Men's Mexico National Team adidas Black 2025 Third Authentic Jersey",
       "price": "$149.99",
-      "originalPrice": "$149.99",
-      "category": "Men's Jerseys",
-      "availability": "almost gone",
       "imageUrl": "https://images.footballfanatics.com/mexico-national-team/mens-adidas-black-mexico-national-team-2025-third-authentic-jersey_ss5_p-202920632+pv-1+u-girgctyndvhamcgvk0ys+v-ciqsfj2tp7xm7u8mbjg5.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/WydjjX"
     },
     {
-      "title": "Men's Mexico National Team adidas Originals Black 2025 Third Jersey Culturewear Full-Zip Track Jacket",
-      "price": "$109.99",
-      "originalPrice": "$109.99",
-      "category": "Men's Jackets",
-      "availability": "available",
-      "imageUrl": "https://images.footballfanatics.com/mexico-national-team/mens-adidas-originals-black-mexico-national-team-2025-third-jersey-culturewear-full-zip-track-jacket_ss5_p-201677338+pv-1+u-7nwzoteid0a70ngglzmz+v-uqcrrjghahoyekabcaq4.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/09y4OJ"
-    },
-    {
-      "title": "Unisex Mexico National Team adidas Originals Black 2025 Third Jersey Team Soccer Shoes",
-      "price": "$99.99",
-      "originalPrice": "$99.99",
-      "category": "Unisex Shoes",
-      "availability": "available",
-      "imageUrl": "https://images.footballfanatics.com/mexico-national-team/unisex-adidas-originals-black-mexico-national-team-2025-third-jersey-team-soccer-shoes_ss5_p-201676905+pv-1+u-6tn6at0wru24qgdonhhk+v-yiuxzbaucxqel47fukdm.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/OeOP5n"
-    },
-    {
       "title": "Men's Mexico National Team adidas Black 2025 Third Authentic Jersey",
       "price": "$184.99",
-      "originalPrice": "$184.99",
-      "category": "Men's Jerseys",
-      "availability": "almost gone",
       "imageUrl": "https://images.footballfanatics.com/mexico-national-team/mens-adidas-black-mexico-national-team-2025-third-authentic-jersey_ss5_p-202936294+pv-1+u-gcs9uomsks9ugobm2lc4+v-fbvmyta0xdrlqnp7sl1a.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/4Gy4Ko"
     },
     {
       "title": "Youth Mexico National Team adidas Black 2025 Third Authentic Custom Jersey",
       "price": "$134.99",
-      "originalPrice": "$134.99",
-      "category": "Youth Jerseys",
-      "availability": "available",
       "imageUrl": "https://images.footballfanatics.com/mexico-national-team/youth-adidas-black-mexico-national-team-2025-third-authentic-custom-jersey_ss5_p-202936318+pv-1+u-cokv7liwaxfybmxyowkz+v-9b94s4hqre4xfpd1mbek.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/MA2rjo"
     },
     {
       "title": "Men's Mexico National Team adidas Black 2025 Third Jersey DNA Graphic T-Shirt",
       "price": "$29.99",
-      "originalPrice": "$29.99",
-      "category": "Men's T-Shirts",
-      "availability": "available",
       "imageUrl": "https://images.footballfanatics.com/mexico-national-team/mens-adidas-black-mexico-national-team-2025-third-jersey-dna-graphic-t-shirt_ss5_p-201692945+pv-1+u-85mvk3bcxrw5opweu027+v-mdvouo7hqwuze2cy2hsu.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/mOjQb1"
     },
     {
-      "title": "Men's Mexico National Team adidas Originals Black 2025 Third Jersey Culturewear Track Pants",
-      "price": "$89.99",
-      "originalPrice": "$89.99",
-      "category": "Men's Pants",
-      "availability": "available",
-      "imageUrl": "https://images.footballfanatics.com/mexico-national-team/mens-adidas-originals-black-mexico-national-team-2025-third-jersey-culturewear-track-pants_ss5_p-201677341+pv-1+u-e72orolbwsbbysqrjm61+v-mi3edt8mdwm42p6hvml1.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/raL5b3"
-    },
-    {
-      "title": "Youth Mexico National Team adidas Black 2025 Third Authentic Jersey",
-      "price": "$99.99",
-      "originalPrice": "$99.99",
-      "category": "Youth Jerseys",
-      "availability": "available",
-      "imageUrl": "https://images.footballfanatics.com/mexico-national-team/youth-adidas-black-mexico-national-team-2025-third-authentic-jersey_ss5_p-202920635+pv-1+u-qccu3ea76kauefmkwmv6+v-3yr2jg04zmw5mb087rmf.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/DyO412"
-    },
-    {
-      "title": "Men's Mexico National Team adidas Black/Gold 2025 Third Jersey Soccer Ball",
-      "price": "$29.99",
-      "originalPrice": "$29.99",
-      "category": "Men's Soccer Balls",
-      "availability": "available",
-      "imageUrl": "https://images.footballfanatics.com/mexico-national-team/mens-adidas-black/gold-mexico-national-team-2025-third-jersey-soccer-ball_ss5_p-201638117+pv-1+u-cggmvhtjpe5rus2izv1o+v-s1qjmz5d7xdluzmshgdx.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/kO9xbL"
-    },
-    {
-      "title": "Youth Mexico National Team adidas Green 2024 Away Replica Jersey",
-      "price": "$79.99",
-      "originalPrice": "$79.99",
-      "category": "Youth Jerseys",
-      "availability": "available",
-      "imageUrl": "https://images.footballfanatics.com/mexico-national-team/youth-adidas-green-mexico-national-team-2024-away-replica-jersey_ss5_p-201306535+pv-1+u-j7nsk1ff4u89lomuk0at+v-4pak8vasb6v3ilbfvcys.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/JKODWq"
-    },
-    {
-      "title": "Men's Mexico National Team adidas Originals Black 2025 Third Jersey Culturewear Graphic T-Shirt",
-      "price": "$54.99",
-      "originalPrice": "$54.99",
-      "category": "Men's T-Shirts",
-      "availability": "almost gone",
-      "imageUrl": "https://images.footballfanatics.com/mexico-national-team/mens-adidas-originals-black-mexico-national-team-2025-third-jersey-culturewear-graphic-t-shirt_ss5_p-201677335+pv-1+u-zpownsb6t0oecy8csloe+v-swdkswkzvtgaa9aaecit.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/vPQAOv"
-    },
-    {
-      "title": "Men's Mexico National Team Raul Jimenez adidas Black 2025 Third Authentic Player Jersey",
-      "price": "$184.99",
-      "originalPrice": "$184.99",
-      "category": "Men's Jerseys",
-      "availability": "almost gone",
-      "imageUrl": "https://images.footballfanatics.com/mexico-national-team/mens-adidas-raul-jimenez-black-mexico-national-team-2025-third-authentic-player-jersey_ss5_p-202964138+pv-1+u-a6kfmpytm8dgevy1qrth+v-espp8b7hkqgkhwwcjcos.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/YRbZ0P"
-    },
-    {
-      "title": "Men's Mexico National Team adidas Black 2025 Third Jersey Shorts",
-      "price": "$59.99",
-      "originalPrice": "$59.99",
-      "category": "Men's Shorts",
-      "availability": "available",
-      "imageUrl": "https://images.footballfanatics.com/mexico-national-team/mens-adidas-black-mexico-national-team-2025-third-jersey-shorts_ss5_p-201701257+pv-1+u-ms3clu9l4frndtdhp0ln+v-ogil7yyoz3gwvdnu1nlu.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/VxA1dO"
-    },
-    {
-      "title": "Unisex Mexico National Team adidas Originals Black 2025 Third Jersey Culturewear Dad Adjustable Hat",
-      "price": "$34.99",
-      "originalPrice": "$34.99",
-      "category": "Unisex Hats",
-      "availability": "almost gone",
-      "imageUrl": "https://images.footballfanatics.com/mexico-national-team/unisex-adidas-originals-black-mexico-national-team-2025-third-jersey-culturewear-dad-adjustable-hat_ss5_p-201677346+pv-1+u-kruo5odgyj9xzsr5zqf1+v-a774ttwe8aofmadjw17m.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/o45rJO"
-    },
-    {
-      "title": "Men's Mexico National Team adidas Green 2024 Away Replica Custom Jersey",
-      "price": "$134.99",
-      "originalPrice": "$134.99",
-      "category": "Men's Jerseys",
-      "availability": "available",
-      "imageUrl": "https://images.footballfanatics.com/mexico-national-team/mens-adidas-green-mexico-national-team-2024-away-replica-custom-jersey_ss5_p-201366746+pv-1+u-q39fmirlswswhyol6ln2+v-ev2usbegl6iebogwjaxx.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/nXPmVA"
-    },
-    {
-      "title": "Men's Mexico National Team Burgundy Sublimated Leisure Shorts",
-      "price": "$47.99",
-      "originalPrice": "$47.99",
-      "category": "Men's Shorts",
-      "availability": "available",
-      "imageUrl": "https://images.footballfanatics.com/mexico-national-team/mens-burgundy-mexico-national-team-sublimated-leisure-shorts_ss5_p-201078012+pv-1+u-rh0yszjribtpk04ndpfs+v-ieoyg1xem0wsh8etn0la.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/vPQAmv"
-    },
-    {
-      "title": "Youth Mexico National Team adidas Burgundy 2024 Home Replica Jersey",
-      "price": "$79.99",
-      "originalPrice": "$79.99",
-      "category": "Youth Jerseys",
-      "availability": "available",
-      "imageUrl": "https://images.footballfanatics.com/mexico-national-team/youth-adidas-burgundy-mexico-national-team-2024-home-replica-jersey_ss5_p-201306401+pv-1+u-3epqkrk41lxrksm4ai2g+v-tjo7vbef0coprx1rhyoo.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/MA2rEq"
-    },
-    {
       "title": "Men's Mexico National Team adidas Green 2024 Away Replica Jersey",
       "price": "$99.99",
-      "originalPrice": "$99.99",
-      "category": "Men's Jerseys",
-      "availability": "available",
       "imageUrl": "https://images.footballfanatics.com/mexico-national-team/mens-adidas-green-mexico-national-team-2024-away-replica-jersey_ss5_p-201306532+pv-1+u-xmg4aybkxfsbcwjvx2zl+v-qb8fz5fdme7hcwxitozj.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/qzmPoY"
-    },
-    
-  // {
-  //   "title": "Men's Mexico National Team adidas Black 2025 Third Authentic Jersey",
-  //   "price": "$149.99",
-  //   "originalPrice": "$149.99",
-  //   "category": "Men's Jerseys",
-  //   "availability": "almost gone",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team adidas Originals Black 2025 Third Jersey Culturewear Full-Zip Track Jacket",
-  //   "price": "$109.99",
-  //   "originalPrice": "$109.99",
-  //   "category": "Men's Jackets",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Unisex Mexico National Team adidas Originals Black 2025 Third Jersey Team Soccer Shoes",
-  //   "price": "$99.99",
-  //   "originalPrice": "$99.99",
-  //   "category": "Unisex Shoes",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team adidas Black 2025 Third Authentic Jersey",
-  //   "price": "$184.99",
-  //   "originalPrice": "$184.99",
-  //   "category": "Men's Jerseys",
-  //   "availability": "almost gone",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Youth Mexico National Team adidas Black 2025 Third Authentic Custom Jersey",
-  //   "price": "$134.99",
-  //   "originalPrice": "$134.99",
-  //   "category": "Youth Jerseys",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team adidas Black 2025 Third Jersey DNA Graphic T-Shirt",
-  //   "price": "$29.99",
-  //   "originalPrice": "$29.99",
-  //   "category": "Men's T-Shirts",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team adidas Originals Black 2025 Third Jersey Culturewear Track Pants",
-  //   "price": "$89.99",
-  //   "originalPrice": "$89.99",
-  //   "category": "Men's Pants",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Youth Mexico National Team adidas Black 2025 Third Authentic Jersey",
-  //   "price": "$99.99",
-  //   "originalPrice": "$99.99",
-  //   "category": "Youth Jerseys",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team adidas Black/Gold 2025 Third Jersey Soccer Ball",
-  //   "price": "$29.99",
-  //   "originalPrice": "$29.99",
-  //   "category": "Soccer Ball",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Youth Mexico National Team adidas Green 2024 Away Replica Jersey",
-  //   "price": "$79.99",
-  //   "originalPrice": "$79.99",
-  //   "category": "Youth Jerseys",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team adidas Originals Black 2025 Third Jersey Culturewear Graphic T-Shirt",
-  //   "price": "$54.99",
-  //   "originalPrice": "$54.99",
-  //   "category": "Men's T-Shirts",
-  //   "availability": "almost gone",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team Raul Jimenez adidas Black 2025 Third Authentic Player Jersey",
-  //   "price": "$184.99",
-  //   "originalPrice": "$184.99",
-  //   "category": "Men's Jerseys",
-  //   "availability": "almost gone",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team adidas Black 2025 Third Jersey Shorts",
-  //   "price": "$59.99",
-  //   "originalPrice": "$59.99",
-  //   "category": "Men's Shorts",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Unisex Mexico National Team adidas Originals Black 2025 Third Jersey Culturewear Dad Adjustable Hat",
-  //   "price": "$34.99",
-  //   "originalPrice": "$34.99",
-  //   "category": "Unisex Hats",
-  //   "availability": "almost gone",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team adidas Green 2024 Away Replica Custom Jersey",
-  //   "price": "$134.99",
-  //   "originalPrice": "$134.99",
-  //   "category": "Men's Jerseys",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team Burgundy Sublimated Leisure Shorts",
-  //   "price": "$47.99",
-  //   "originalPrice": "$47.99",
-  //   "category": "Men's Shorts",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Youth Mexico National Team adidas Burgundy 2024 Home Replica Jersey",
-  //   "price": "$79.99",
-  //   "originalPrice": "$79.99",
-  //   "category": "Youth Jerseys",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team adidas Green 2024 Away Replica Jersey",
-  //   "price": "$99.99",
-  //   "originalPrice": "$99.99",
-  //   "category": "Men's Jerseys",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Unisex Mexico National Team adidas Originals Black 2025 Third Jersey Culturewear Bucket Hat",
-  //   "price": "$34.99",
-  //   "originalPrice": "$34.99",
-  //   "category": "Unisex Hats",
-  //   "availability": "almost gone",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Youth Mexico National Team adidas Black 2025 Third Jersey DNA Graphic T-Shirt",
-  //   "price": "$24.99",
-  //   "originalPrice": "$24.99",
-  //   "category": "Youth T-Shirts",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team adidas Kelly Green Culture Bar T-Shirt",
-  //   "price": "$34.99",
-  //   "originalPrice": "$34.99",
-  //   "category": "Men's T-Shirts",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team adidas Green 2024 Away Replica Long Sleeve Jersey",
-  //   "price": "$109.99",
-  //   "originalPrice": "$109.99",
-  //   "category": "Men's Jerseys",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team Green Crest Full-Zip Hoodie",
-  //   "price": "$39.99",
-  //   "originalPrice": "$74.99",
-  //   "category": "Men's Hoodies & Sweatshirts",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team adidas Burgundy 2024 Home Replica Jersey",
-  //   "price": "$99.99",
-  //   "originalPrice": "$99.99",
-  //   "category": "Men's Jerseys",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team adidas Burgundy 2024 Home Authentic Jersey",
-  //   "price": "$149.99",
-  //   "originalPrice": "$149.99",
-  //   "category": "Men's Jerseys",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team adidas Green 2024 Training Quarter-Zip Top",
-  //   "price": "$74.99",
-  //   "originalPrice": "$74.99",
-  //   "category": "Men's Sweatshirts",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Men's Mexico National Team adidas Black Team Fleece Pullover Sweatshirt",
-  //   "price": "$59.99",
-  //   "originalPrice": "$59.99",
-  //   "category": "Men's Sweatshirts",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Toddler Mexico National Team adidas Burgundy 2024 Home Mini Kit",
-  //   "price": "$69.99",
-  //   "originalPrice": "$69.99",
-  //   "category": "Toddler Rompers",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // },
-  // {
-  //   "title": "Youth Mexico National Team Raul Jimenez adidas Black 2025 Third Authentic Player Jersey",
-  //   "price": "$134.99",
-  //   "originalPrice": "$134.99",
-  //   "category": "Youth Jerseys",
-  //   "availability": "available",
-  //   "imageUrl": "",
-  //   "link": ""
-  // }
-]
+    }
+  ];
 
-  
-  ;
+  const squad = {
+    goalkeepers: ["Luis Malagón", "Guillermo Ochoa"],
+    defenders: ["Jorge Sánchez", "César Montes", "Johan Vásquez", "Gerardo Arteaga"],
+    midfielders: ["Edson Álvarez", "Orbelín Pineda", "Luis Chávez", "Erick Sánchez"],
+    attackers: ["Hirving Lozano", "Santiago Giménez", "Raúl Jiménez", "Uriel Antuna"],
+  };
 
   return (
-    <div className='w-full min-h-screen bg-white pt-[1px]'>
-      <div className='max-w-4xl mx-auto py-8 px-4 md:px-0'>
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>Mexico National Team</h1>
-        <div className='mb-6'>
-          <img
-            src='/Mexico.png'
-            alt='Mexico' 
-            className='w-full h-[400px] object-cover rounded-lg shadow-md' 
-          />
+    <div className="bg-white min-h-screen text-[#0d1117]">
+      {/* Hero */}
+      <div className="relative h-[480px] md:h-[620px] bg-gradient-to-b from-black/70 to-black/90 overflow-hidden">
+        <Image
+          src="/Mexico.png"
+          alt="Mexico National Team"
+          fill
+          className="object-cover"
+          priority
+        />
+
+        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/75 to-black/40" />
+
+        <div className="absolute inset-0 flex items-end pb-10 md:pb-14 px-6 md:px-12">
+          <div className="max-w-6xl mx-auto w-full">
+            <div className="flex items-center gap-5 md:gap-6 mb-4">
+              <div className="w-24 h-24 md:w-40 md:h-40 relative bg-white rounded-2xl p-4 shadow-2xl flex items-center justify-center">
+                <Image
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Mexico_national_football_team_crest.svg/330px-Mexico_national_football_team_crest.svg.png"
+                  alt="Mexico National Team Logo"
+                  width={100}
+                  height={100}
+                  className="object-contain"
+                  priority
+                />
+              </div>
+
+              <div>
+                <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white tracking-tight drop-shadow-2xl">
+                  Mexico National Team
+                </h1>
+                <p className="text-lg md:text-xl text-white/90 mt-1 font-medium">
+                  El Tri • Estadio Azteca
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        {/* Add the buttons for "Kupi kartu" and "Pronađi hotel u blizini" */}
-        {/* <div className='flex gap-4 mb-8 justify-center'>
-              <a
-            href="https://ticketnetwork.lusg.net/vPQ7Z3"
-            target="_blank"
-            rel="noopener noreferrer"
-            className='bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition duration-300'
-          >
-            BUY TICKET
-          </a>
-          <a 
-            href="https://example.com/find-hotel" 
-            className='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-full transition duration-300'
-          >
-            HOTELS NEAR THE STADIUM
-          </a>
-        </div> */}
-
-        {/* Team Information */}
-        <div className='text-[#020617] mb-8'>
-          <h2 className='text-2xl font-semibold mb-2'>Team Information</h2>
-          <ul className='list-disc list-inside'>
-            <li><strong>Full Name:</strong> Mexico National Football Team</li>
-            <li><strong>Nickname(s):</strong> El Tri</li>
-            <li><strong>Founded:</strong> 1927</li>
-            <li><strong>Stadium:</strong> Estadio Azteca, Mexico City, Mexico</li>
-            <li><strong>Manager:</strong> Javier Aguirre</li>
-            <li><strong>FIFA Ranking:</strong> #12 (as of 2023)</li>
-            <li><strong>Confederation:</strong> CONCACAF</li>
-            <li><strong>World Cup Appearances:</strong> 16 (as of 2022)</li>
-          </ul>
+      {/* Tabs - Zelena boja Meksika */}
+      <div className="bg-[#020617] text-white sticky top-0 z-40 border-b border-gray-700">
+        <div className="max-w-6xl mx-auto px-4 md:px-6">
+          <div className="flex overflow-x-auto gap-6 md:gap-10 py-4 whitespace-nowrap scrollbar-hide">
+            {['overview', 'news', 'blog', 'squad', 'shop'].map((tab) => (
+              <button 
+                key={tab}
+                onClick={() => setActiveTab(tab)} 
+                className={`font-bold text-base md:text-lg pb-2 transition relative flex-shrink-0
+                  ${activeTab === tab 
+                    ? 'text-emerald-600' 
+                    : 'text-white/80 hover:text-white'}`}
+              >
+                {tab.charAt(0).toUpperCase() + tab.slice(1)}
+                {activeTab === tab && (
+                  <span className="absolute bottom-0 left-0 w-full h-0.5 bg-emerald-600"></span>
+                )}
+              </button>
+            ))}
+          </div>
         </div>
+      </div>
 
-        {/* Additional Text */}
-        <div className='text-[#020617] mb-8'>
-          <h2 className='text-2xl font-semibold mb-2'>A Legacy of Excellence</h2>
-          <p>
-            The Mexico National Football Team, known as El Tri, is one of the most successful and respected teams in the world. With a rich history dating back to 1927, Mexico has been a dominant force in CONCACAF and a regular contender in World Cups.
-          </p>
-          <p>
-            The team's legendary players such as Hirving Lozano, Raul Jimenez, and Edson Alvarez have earned Mexico a reputation for attacking football and passionate performances. Their qualification for every World Cup since 1994 highlights their consistency and talent.
-          </p>
-          <p>
-            Mexico has always been a favorite to go far in international tournaments, and their performances on the global stage continue to captivate millions of fans.
-          </p>
-        </div>
+      {/* Main Content */}
+      <div className="max-w-6xl mx-auto px-4 md:px-6 py-10 md:py-12 grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-10">
 
+        <div className="lg:col-span-2 space-y-10 md:space-y-12">
 
-        <TrendingPlayers />
+          {activeTab === 'overview' && (
+            <>
+              <div className="bg-gray-50 p-6 md:p-8 rounded-2xl shadow-sm">
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">Team Overview</h2>
+                <dl className="grid grid-cols-1 md:grid-cols-2 gap-6 text-base md:text-lg">
+                  <div><dt className="font-bold text-gray-600">Full Name</dt><dd>Mexico National Football Team</dd></div>
+                  <div><dt className="font-bold text-gray-600">Nickname</dt><dd>El Tri</dd></div>
+                  <div><dt className="font-bold text-gray-600">Founded</dt><dd>1927</dd></div>
+                  <div><dt className="font-bold text-gray-600">Home Stadium</dt><dd>Estadio Azteca, Mexico City</dd></div>
+                  <div><dt className="font-bold text-gray-600">Manager</dt><dd>Javier Aguirre</dd></div>
+                  <div><dt className="font-bold text-gray-600">Confederation</dt><dd>CONCACAF</dd></div>
+                </dl>
+              </div>
 
-        <h2 className='text-4xl sm:text-6xl font-bold text-[#020617] mt-16 mb-4'>Shop</h2>
-        <div className='grid gap-6 grid-cols-1 md:grid-cols-3'>
-          {items.map((item) => (
-          <div key={item.title} className='bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg'>
-              <img className='w-full h-64 object-cover' src={item.imageUrl} alt={item.title} />
-              <div className='p-4'>
-                <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
-                <p className='text-gray-600'>{item.price}</p>
-                <a
-                  href={item.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+              <div>
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">A Legacy of Excellence</h2>
+                <div className="prose max-w-none text-lg text-gray-800">
+                  <p>The Mexico National Team, affectionately known as El Tri, is one of the most successful teams in CONCACAF and a regular participant in the FIFA World Cup.</p>
+                  <p>With passionate fans and talented players like Hirving Lozano, Edson Álvarez, and Orbelín Pineda, Mexico continues to be a powerhouse in North and Central American football.</p>
+                </div>
+              </div>
+
+              <div>
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">Trending Players</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                  {trendingPlayers.map((player) => (
+                    <Link key={player.slug} href={`/teams/mexico/${player.slug}`} className="group">
+                      <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                        <div className="relative h-64">
+                          <Image 
+                            src={player.image} 
+                            alt={player.name} 
+                            fill 
+                            className="object-cover group-hover:scale-105 transition-transform duration-500" 
+                            unoptimized 
+                          />
+                        </div>
+                        <div className="p-4 text-center">
+                          <h3 className="font-bold text-lg group-hover:text-emerald-600">{player.name}</h3>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">Latest News</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                  {blogPosts.map((post) => (
+                    <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                      <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                        <div className="relative h-56">
+                          <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+                        </div>
+                        <div className="p-6">
+                          <h3 className="text-xl font-bold mb-3 group-hover:text-emerald-600 line-clamp-2">{post.title}</h3>
+                          <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
+                          <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </>
+          )}
+
+          {activeTab === 'news' && (
+            <div>
+              <h2 className="text-3xl font-black mb-6 text-[#020617]">All News</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                {blogPosts.map((post) => (
+                  <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                    <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                      <div className="relative h-56">
+                        <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+                      </div>
+                      <div className="p-6">
+                        <h3 className="text-xl font-bold mb-3 group-hover:text-emerald-600 line-clamp-2">{post.title}</h3>
+                        <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
+                        <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {activeTab === 'blog' && (
+            <div>
+              <h2 className="text-3xl font-black mb-6 text-[#020617]">Blog</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                {blogPosts.map((post) => (
+                  <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                    <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                      <div className="relative h-56">
+                        <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+                      </div>
+                      <div className="p-6">
+                        <h3 className="text-xl font-bold mb-3 group-hover:text-emerald-600 line-clamp-2">{post.title}</h3>
+                        <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
+                        <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {activeTab === 'squad' && (
+            <div>
+              <h2 className="text-3xl font-black mb-8 text-[#020617]">Mexico National Team Squad</h2>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-emerald-600 mb-4 border-b border-gray-200 pb-2">Goalkeepers</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.goalkeepers.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-emerald-600 mb-4 border-b border-gray-200 pb-2">Defenders</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.defenders.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-emerald-600 mb-4 border-b border-gray-200 pb-2">Midfielders</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.midfielders.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-emerald-600 mb-4 border-b border-gray-200 pb-2">Attackers</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.attackers.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* SHOP TAB */}
+          {activeTab === 'shop' && (
+            <div>
+              <div className="flex items-center gap-3 mb-8">
+                <FaShoppingBag className="text-4xl text-emerald-600" />
+                <h2 className="text-3xl font-black text-[#020617]">Mexico Shop</h2>
+              </div>
+
+              <p className="text-lg text-gray-600 mb-10">
+                Support El Tri by shopping through our links. 
+                Every purchase helps us keep this site running and bring you better content.
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
+                {shopItems.map((item, index) => (
+                  <a 
+                    key={index} 
+                    href={item.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all border border-gray-100"
+                  >
+                    <div className="relative h-64 bg-gray-50 p-6">
+                      <Image 
+                        src={item.imageUrl} 
+                        alt={item.title} 
+                        fill 
+                        className="object-contain group-hover:scale-105 transition-transform duration-500" 
+                      />
+                    </div>
+                    <div className="p-6">
+                      <h3 className="font-bold text-lg leading-tight mb-3 group-hover:text-emerald-600 line-clamp-2">
+                        {item.title}
+                      </h3>
+                      <p className="text-2xl font-bold text-emerald-600">{item.price}</p>
+                    </div>
+                  </a>
+                ))}
+              </div>
+
+              <div className="mt-12 text-center">
+                <a 
+                  href="https://mlsstore.com" 
+                  target="_blank" 
+                  className="inline-flex items-center gap-2 text-emerald-600 font-bold hover:underline text-lg"
                 >
-                  Buy Now <FaShoppingCart className='inline ml-2' />
+                  View full Mexico store →
                 </a>
               </div>
             </div>
-          ))}
+          )}
+
+        </div>
+
+        {/* Sidebar */}
+        <div className="space-y-8">
+          <div className="bg-gradient-to-br from-emerald-600 to-green-700 text-white p-8 rounded-2xl shadow-lg">
+            <h3 className="text-2xl font-black mb-6">Support El Tri</h3>
+            <div className="space-y-4">
+              <a href="https://ticketnetwork.lusg.net/vPQ7Z3" target="_blank" rel="noopener noreferrer" 
+                className="flex items-center gap-3 bg-white/20 hover:bg-white/30 px-6 py-4 rounded-xl font-bold transition text-center justify-center">
+                <FaTicketAlt /> Buy Tickets
+              </a>
+              <a href="https://www.booking.com" target="_blank" rel="noopener noreferrer" 
+                className="flex items-center gap-3 bg-white/20 hover:bg-white/30 px-6 py-4 rounded-xl font-bold transition text-center justify-center">
+                <FaBed /> Hotels Near Estadio Azteca
+              </a>
+            </div>
+          </div>
+
+          <div className="bg-gray-50 p-6 rounded-2xl shadow-sm">
+            <h3 className="text-2xl font-black mb-6 text-[#020617]">Official Shop</h3>
+            <div className="space-y-6">
+              {shopItems.slice(0, 4).map((item, index) => (
+                <a key={index} href={item.link} target="_blank" rel="noopener noreferrer" className="block group">
+                  <div className="flex gap-4">
+                    <div className="relative w-24 h-24 flex-shrink-0">
+                      <Image src={item.imageUrl} alt={item.title} fill className="object-contain" />
+                    </div>
+                    <div>
+                      <h4 className="font-bold group-hover:text-emerald-600 line-clamp-2 text-sm">{item.title}</h4>
+                      <p className="text-emerald-600 font-bold mt-1">{item.price}</p>
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
+            <div className="mt-6 text-center">
+              <a href="https://mlsstore.com" target="_blank" className="text-emerald-600 font-bold hover:underline">
+                View Full Shop →
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default MexicoNationalTeam;
+export default MexicoNationalTeamPage;

@@ -40,33 +40,36 @@ const Navbar = () => {
         </Link>
       </div>
 
-      {/* Desktop Menu */}
-      <div className="hidden md:flex">
-        <ul className="flex">
+      {/* Desktop Menu - Goal.com stil */}
+      <div className="hidden md:flex items-center">
+        <ul className="flex gap-8">
           {desktopLinks.map(({ path, label }, index) => (
-            <li key={index} className="relative text-white font-sans text-lg px-4 group">
-              <Link href={path} className="relative">
+            <li key={index} className="relative text-white text-lg group">
+              <Link href={path} className="py-2 hover:text-gray-300 transition-colors">
                 {label}
-                <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-white transition-all duration-300 group-hover:w-full"></span>
               </Link>
+              <span className="absolute left-0 bottom-0 h-[3px] w-0 bg-white group-hover:w-full transition-all duration-300"></span>
             </li>
           ))}
         </ul>
       </div>
 
       {/* Hamburger Icon */}
-      <div onClick={handleClick} className="md:hidden text-white z-50 cursor-pointer">
-        {!nav ? <FaBars size={30} /> : <FaXmark size={30} />}
+      <div 
+        onClick={handleClick} 
+        className="md:hidden text-white z-50 cursor-pointer"
+      >
+        {!nav ? <FaBars size={32} /> : <FaXmark size={32} />}
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu - Goal.com stil */}
       <ul
         className={`${
           nav ? 'flex' : 'hidden'
         } absolute top-0 left-0 w-full h-screen bg-[#020617] flex-col justify-center items-center text-white z-40`}
       >
         {mobileLinks.map(({ path, label }, index) => (
-          <li key={index} className="py-6 text-4xl">
+          <li key={index} className="py-6 text-4xl font-bold">
             <Link href={path} onClick={handleClick}>
               {label}
             </Link>

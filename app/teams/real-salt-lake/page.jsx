@@ -1,248 +1,392 @@
-import React from 'react';
-import { FaShoppingCart } from 'react-icons/fa';
-import Link from 'next/link';
-import Image from 'next/image';
+'use client';
 
-const TrendingPlayers = ({ teamSlug = 'real-salt-lake' }) => {
-  const players = [
-    // { name: 'Axel Kei', image: 'https://images.mlssoccer.com/image/private/t_editorial_squared_6_desktop/f_auto/mls-real/yztd1gjeqfcgknmkmxfq.jpg', link: './AlbertRusnak' },
-    // { name: 'Diogo Gonçalves', image: 'https://www.shutterstock.com/editorial/image-editorial/MfT5Q441N2z0Ue42MzI5NTA=/match-between-real-salt-lake-portland-timbers-220nw-14733382i.jpg', link: './DamirKreilach' },
-    { name: 'Pablo Ruiz', image: 'https://bookingagentinfo.com/wp-content/uploads/2023/12/Pablo-Ruiz-1.jpg', slug: './pablo' },
-    { name: 'Diego Luna', image: 'https://www.abc4.com/wp-content/uploads/sites/4/2024/07/GettyImages-2157934329.jpg', slug: './luna' },
+import React, { useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { FaTicketAlt, FaBed, FaShoppingBag } from 'react-icons/fa';
+
+const RealSaltLakePage = () => {
+  const [activeTab, setActiveTab] = useState('overview');
+
+  const trendingPlayers = [
+    { 
+      name: 'Pablo Ruiz', 
+      image: 'https://bookingagentinfo.com/wp-content/uploads/2023/12/Pablo-Ruiz-1.jpg', 
+      slug: 'pablo' 
+    },
+    { 
+      name: 'Diego Luna', 
+      image: 'https://www.abc4.com/wp-content/uploads/sites/4/2024/07/GettyImages-2157934329.jpg', 
+      slug: 'luna' 
+    },
   ];
 
+  const blogPosts = [
+    {
+      id: 1,
+      title: "Portland Timbers & Felipe Mora Get Groove Back in Wild Card Win",
+      author: "Mio Ristić",
+      date: "October 23, 2025",
+      excerpt: "Felipe Mora’s brace powered Portland Timbers past Real Salt Lake 3–1 in the 2025 MLS Wild Card match.",
+      imageUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/prisachile/IDRGQPSWNJAULE3CHLPZVD3FGM.jpg",
+      slug: "portland-real-playoffs",
+    },
+  ];
 
-  return (
-    <div className="max-w-4xl mx-auto py-8">
-      <h2 className="text-6xl font-bold text-[#020617] mb-8 text-center">Trending Players</h2>
-      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-        {players.map((player) => (
-          <Link
-            key={player.slug}
-            href={`/teams/real-salt-lake/${player.slug}`}
-            className="group flex flex-col items-center bg-white rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105 hover:shadow-xl"
-          >
-            <img
-              src={player.image}
-              alt={player.name}
-              className="h-64 w-full object-cover mb-4 rounded-lg"
-              style={{ objectPosition: 'center 2%' }}
-            />
-            <h3 className="text-lg font-semibold text-center text-[#020617]">{player.name}</h3>
-          </Link>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-const RealSaltLake = () => {
-  const items = [
+  const shopItems = [
     {
       "title": "Men's Real Salt Lake Sport Design Sweden Tan Everyday Relaxed T-Shirt",
       "price": "$39.99",
-      "originalPrice": "$39.99",
-      "category": "Men's T-Shirts",
-      "shipping": "",
-      "availability": "",
       "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-sport-design-sweden-tan-real-salt-lake-everyday-relaxed-t-shirt_ss5_p-202666802+pv-1+u-azyjmwklvs1cvjn9kfax+v-a827u5bxecllojbnvvfq.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/raLqLR"
     },
     {
       "title": "Men's Real Salt Lake adidas White 2025 Grid City Replica Jersey",
       "price": "$99.99",
-      "originalPrice": "$99.99",
-      "category": "Men's Jerseys",
-      "shipping": "",
-      "availability": "",
       "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-adidas-white-real-salt-lake-2025-grid-city-replica-jersey_ss5_p-202652753+pv-1+u-8dlwbqyh0p4psltoazz6+v-4bmqilmpr9xpyurbmmtm.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/jeQGQ0"
     },
     {
-      "title": "Men's Real Salt Lake Navy Team Hometown Collection T-Shirt",
-      "price": "$39.99",
-      "originalPrice": "$39.99",
-      "category": "Men's T-Shirts",
-      "shipping": "",
-      "availability": "",
-      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-navy-real-salt-lake-team-hometown-collection-t-shirt_pi5281000_altimages_ff_5281746-27fb61085e42b763ba6balt1_full.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/55yDyN"
-    },
-    {
-      "title": "Youth Real Salt Lake adidas White 2025 Grid City Replica Jersey",
-      "price": "$79.99",
-      "originalPrice": "$79.99",
-      "category": "Youth Jerseys",
-      "shipping": "",
-      "availability": "",
-      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/youth-adidas-white-real-salt-lake-2025-grid-city-replica-jersey_ss5_p-202658591+pv-1+u-sntaiwjfpimjetsyh6lq+v-9mjxeszuprmlrkox0ond.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/APn1n7"
-    },
-    {
       "title": "Men's Real Salt Lake adidas White 2025 Grid City Authentic Jersey",
       "price": "$149.99",
-      "originalPrice": "$149.99",
-      "category": "Men's Jerseys",
-      "shipping": "",
-      "availability": "Almost Gone!",
       "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-adidas-white-real-salt-lake-2025-grid-city-authentic-jersey_ss5_p-202652675+pv-1+u-5oitbs5xzmklso7nqrux+v-bu12aiyg35lg7sdwoahl.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/GKO4OL"
     },
     {
-      "title": "Men's Real Salt Lake New Era Gray Color Pack Two-Tone 9FIFTY Snapback Hat",
-      "price": "$34.99",
-      "originalPrice": "$34.99",
-      "category": "Hats",
-      "shipping": "Ready To Ship",
-      "availability": "",
-      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-new-era-gray-real-salt-lake-color-pack-two-tone-9fifty-snapback-hat_ss5_p-201948581+pv-1+u-87zrccpoz4peymf0gruu+v-xiyehqohc9lvebvu7pkp.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/VxAvAE"
-    },
-    {
       "title": "Men's Real Salt Lake New Era Gray Color Pack 9FORTY A-Frame Adjustable Trucker Hat",
       "price": "$32.99",
-      "originalPrice": "$32.99",
-      "category": "Hats",
-      "shipping": "Ready To Ship",
-      "availability": "",
       "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-new-era-gray-real-salt-lake-color-pack-9forty-a-frame-adjustable-trucker-hat_ss5_p-201948603+pv-1+u-qnar7pqind53ibac11ck+v-r6nyqtkxguza4gdfbf77.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/o45g5m"
-    },
-    {
-      "title": "Men's Real Salt Lake New Era Navy Color Pack A-Frame 59FIFTY Fitted Hat",
-      "price": "$44.99",
-      "originalPrice": "$44.99",
-      "category": "Hats",
-      "shipping": "Ready To Ship",
-      "availability": "",
-      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-new-era-navy-real-salt-lake-color-pack-a-frame-59fifty-fitted-hat_ss5_p-201948561+pv-1+u-cew6d64nnuvt0jizu3ho+v-j4cjh248ujtqfanbhuii.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/zxP5P6"
-    },
-    {
-      "title": "Men's Real Salt Lake New Era Tan Active 9TWENTY Adjustable Hat",
-      "price": "$31.99",
-      "originalPrice": "$31.99",
-      "category": "Hats",
-      "shipping": "Ready To Ship",
-      "availability": "",
-      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens%C2%A0new-era-tan-real-salt-lake-active-9twenty-adjustable-hat_ss5_p-202314650+pv-1+u-poo7a2ewqpbjybylqjoi+v-nqbuxx49pfjm8csoq2ay.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/EEOgRK"
-    },
-    {
-      "title": "Men's Real Salt Lake Fanatics Black Fundamentals Stealth T-Shirt",
-      "price": "$19.99",
-      "originalPrice": "$29.99",
-      "category": "Men's T-Shirts",
-      "shipping": "",
-      "availability": "Reduced",
-      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/mens-fanatics-black-real-salt-lake-fundamentals-stealth-t-shirt_ss5_p-201167542+pv-1+u-vhnhopipj7myameky43k+v-xeimaml9rhmn81tghahw.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/yqjP4W"
-    },
-    {
-      "title": "Anderson Julio Real Salt Lake Autographed Fanatics Authentic Match-Used #29 Gold adidas Jersey from the 2024 MLS Season - Size S",
-      "price": "$299.99",
-      "originalPrice": "$299.99",
-      "category": "Men's Jerseys",
-      "shipping": "Almost Gone!",
-      "availability": "",
-      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/anderson-julio-real-salt-lake-autographed-match-used-number-29-red-adidas-jersey-from-the-2024-mls-season-size-s_ss5_p-202767448+pv-1+u-qukydmjewtxk2uctq9dp+v-epf7wehnj5of8b7tg37r.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/nXPZgX"
-    },
-    {
-      "title": "Andrew Brody Real Salt Lake Autographed Fanatics Authentic Match-Used #2 Red adidas Jersey from the 2024 MLS Season - Size S",
-      "price": "$299.99",
-      "originalPrice": "$299.99",
-      "category": "Men's Jerseys",
-      "shipping": "Almost Gone!",
-      "availability": "",
-      "imageUrl": "https://images.footballfanatics.com/real-salt-lake/andrew-brody-real-salt-lake-autographed-match-used-number-2-gold-adidas-jersey-from-the-2024-mls-season-size-s_ss5_p-202767454+pv-1+u-p1kalmrz7hazmbrinmcv+v-bezbkue5zc4jqodimtcu.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/bOPr5k"
     }
-  ]
-  ;
+  ];
+
+  const squad = {
+    goalkeepers: ["Zac MacMath", "Gavin Beavers"],
+    defenders: ["Brayan Vera", "Justen Glad", "Marcelo Silva", "Andrew Brody"],
+    midfielders: ["Pablo Ruiz", "Diego Luna", "Braian Ojeda", "Emeka Eneli"],
+    attackers: ["Cristian Arango", "Anderson Julio", "Matt Crooks"],
+  };
+
   return (
-    <div className='w-full min-h-screen bg-white pt-[1px]'>
-       <div className='max-w-4xl mx-auto py-8 px-4 md:px-0'>
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>Real Salt Lake</h1>
-        <div className='mb-6'>
-          <img
-            src='/Real.png'
-            alt='Real' 
-            className='w-full h-[400px] object-cover rounded-lg shadow-md' 
-          />
+    <div className="bg-white min-h-screen text-[#0d1117]">
+      {/* Hero */}
+      <div className="relative h-[480px] md:h-[620px] bg-gradient-to-b from-black/70 to-black/90 overflow-hidden">
+        <Image
+          src="/Real.png"
+          alt="Real Salt Lake"
+          fill
+          className="object-cover"
+          priority
+        />
+
+        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/75 to-black/40" />
+
+        <div className="absolute inset-0 flex items-end pb-10 md:pb-14 px-6 md:px-12">
+          <div className="max-w-6xl mx-auto w-full">
+            <div className="flex items-center gap-5 md:gap-6 mb-4">
+              <div className="w-24 h-24 md:w-40 md:h-40 relative bg-white rounded-2xl p-4 shadow-2xl flex items-center justify-center">
+                <Image
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Real_Salt_Lake_2010.svg/330px-Real_Salt_Lake_2010.svg.png"
+                  alt="Real Salt Lake Logo"
+                  width={100}
+                  height={100}
+                  className="object-contain"
+                  priority
+                />
+              </div>
+
+              <div>
+                <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white tracking-tight drop-shadow-2xl">
+                  Real Salt Lake
+                </h1>
+                <p className="text-lg md:text-xl text-white/90 mt-1 font-medium">
+                  Major League Soccer • Rio Tinto Stadium
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div className='flex gap-4 mb-8 justify-center'>
-              <a
-            href="https://ticketnetwork.lusg.net/PORPrM"
-            target="_blank"
-            rel="noopener noreferrer"
-            className='bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition duration-300'
-          >
-            BUY TICKET
-          </a>
-          <a 
-            href="https://example.com/find-hotel" 
-            className='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-full transition duration-300'
-          >
-            HOTELS NEAR THE STADIUM
-          </a>
+      {/* Tabs - Crvena boja RSL */}
+      <div className="bg-[#020617] text-white sticky top-0 z-40 border-b border-gray-700">
+        <div className="max-w-6xl mx-auto px-4 md:px-6">
+          <div className="flex overflow-x-auto gap-6 md:gap-10 py-4 whitespace-nowrap scrollbar-hide">
+            {['overview', 'news', 'blog', 'squad', 'shop'].map((tab) => (
+              <button 
+                key={tab}
+                onClick={() => setActiveTab(tab)} 
+                className={`font-bold text-base md:text-lg pb-2 transition relative flex-shrink-0
+                  ${activeTab === tab 
+                    ? 'text-red-600' 
+                    : 'text-white/80 hover:text-white'}`}
+              >
+                {tab.charAt(0).toUpperCase() + tab.slice(1)}
+                {activeTab === tab && (
+                  <span className="absolute bottom-0 left-0 w-full h-0.5 bg-red-600"></span>
+                )}
+              </button>
+            ))}
+          </div>
         </div>
-      {/* Club Information */}
-      <div className='text-[#020617] mb-8'>
-          <h2 className='text-2xl font-semibold mb-2'>Club Information</h2>
-          <ul className='list-disc list-inside'>
-            <li><strong>Full Name:</strong> Real Salt Lake</li>
-            <li><strong>Nickname(s):</strong> RSL</li>
-            <li><strong>Founded:</strong> 2005</li>
-            <li><strong>Stadium:</strong> Rio Tinto Stadium, Sandy, Utah</li>
-            <li><strong>Capacity:</strong> 20,213</li>
-            <li><strong>Owner:</strong> Dell Loy Hansen</li>
-            <li><strong>Head Coach:</strong> Pablo Mastroeni</li>
-            <li><strong>League:</strong> Major League Soccer</li>
-          </ul>
-        </div>
+      </div>
 
+      {/* Main Content */}
+      <div className="max-w-6xl mx-auto px-4 md:px-6 py-10 md:py-12 grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-10">
 
-        {/* Additional Text */}
-        <div className='text-[#020617] mb-8'>
-          <h2 className='text-2xl font-semibold mb-2'>A Proud Legacy in Utah</h2>
-          <p>
-            Real Salt Lake has been a significant part of Major League Soccer since 2005. Known for their solid defense and passionate fanbase, RSL has enjoyed significant success, including an MLS Cup victory in 2009 and a strong presence in the playoffs over the years.
-          </p>
-          <p>
-            The club plays at the stunning Rio Tinto Stadium in Sandy, Utah, where their dedicated supporters fill the stands and create an incredible atmosphere. With standout players like Albert Rusnák and Damir Kreilach, RSL has maintained a competitive edge in the MLS.
-          </p>
-          <p>
-            The club prides itself on developing homegrown talent and maintaining a competitive roster to challenge for top honors in Major League Soccer.
-          </p>
-        </div>
+        <div className="lg:col-span-2 space-y-10 md:space-y-12">
 
-        <TrendingPlayers />
+          {activeTab === 'overview' && (
+            <>
+              <div className="bg-gray-50 p-6 md:p-8 rounded-2xl shadow-sm">
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">Club Overview</h2>
+                <dl className="grid grid-cols-1 md:grid-cols-2 gap-6 text-base md:text-lg">
+                  <div><dt className="font-bold text-gray-600">Full Name</dt><dd>Real Salt Lake</dd></div>
+                  <div><dt className="font-bold text-gray-600">Nickname</dt><dd>RSL</dd></div>
+                  <div><dt className="font-bold text-gray-600">Founded</dt><dd>2005</dd></div>
+                  <div><dt className="font-bold text-gray-600">Stadium</dt><dd>Rio Tinto Stadium, Sandy, Utah</dd></div>
+                  <div><dt className="font-bold text-gray-600">Capacity</dt><dd>20,213</dd></div>
+                  <div><dt className="font-bold text-gray-600">Head Coach</dt><dd>Pablo Mastroeni</dd></div>
+                </dl>
+              </div>
 
-        <h2 className='text-4xl sm:text-6xl font-bold text-[#020617] mt-16 mb-4'>Shop</h2>
-        <div className='grid gap-6 grid-cols-1 md:grid-cols-3'>
-          {items.map((item) => (
-          <div key={item.title} className='bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg'>
-              <img className='w-full h-64 object-cover' src={item.imageUrl} alt={item.title} />
-              <div className='p-4'>
-                <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
-                <p className='text-gray-600'>{item.price}</p>
-                <a
-                  href={item.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+              <div>
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">A Proud Legacy in Utah</h2>
+                <div className="prose max-w-none text-lg text-gray-800">
+                  <p>Real Salt Lake has been a cornerstone of Major League Soccer since 2005. Known for their strong defensive organization and passionate fanbase, RSL has enjoyed significant success, including an MLS Cup title in 2009.</p>
+                  <p>Playing at the modern Rio Tinto Stadium, the club continues to develop talented players and compete at a high level in the Western Conference.</p>
+                </div>
+              </div>
+
+              <div>
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">Trending Players</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                  {trendingPlayers.map((player) => (
+                    <Link key={player.slug} href={`/teams/real-salt-lake/${player.slug}`} className="group">
+                      <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                        <div className="relative h-64">
+                          <Image 
+                            src={player.image} 
+                            alt={player.name} 
+                            fill 
+                            className="object-cover group-hover:scale-105 transition-transform duration-500" 
+                            unoptimized 
+                          />
+                        </div>
+                        <div className="p-4 text-center">
+                          <h3 className="font-bold text-lg group-hover:text-red-600">{player.name}</h3>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">Latest News</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                  {blogPosts.map((post) => (
+                    <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                      <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                        <div className="relative h-56">
+                          <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+                        </div>
+                        <div className="p-6">
+                          <h3 className="text-xl font-bold mb-3 group-hover:text-red-600 line-clamp-2">{post.title}</h3>
+                          <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
+                          <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </>
+          )}
+
+          {activeTab === 'news' && (
+            <div>
+              <h2 className="text-3xl font-black mb-6 text-[#020617]">All News</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                {blogPosts.map((post) => (
+                  <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                    <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                      <div className="relative h-56">
+                        <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+                      </div>
+                      <div className="p-6">
+                        <h3 className="text-xl font-bold mb-3 group-hover:text-red-600 line-clamp-2">{post.title}</h3>
+                        <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
+                        <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {activeTab === 'blog' && (
+            <div>
+              <h2 className="text-3xl font-black mb-6 text-[#020617]">Blog</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                {blogPosts.map((post) => (
+                  <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                    <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                      <div className="relative h-56">
+                        <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+                      </div>
+                      <div className="p-6">
+                        <h3 className="text-xl font-bold mb-3 group-hover:text-red-600 line-clamp-2">{post.title}</h3>
+                        <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
+                        <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {activeTab === 'squad' && (
+            <div>
+              <h2 className="text-3xl font-black mb-8 text-[#020617]">Real Salt Lake Squad</h2>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-red-600 mb-4 border-b border-gray-200 pb-2">Goalkeepers</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.goalkeepers.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-red-600 mb-4 border-b border-gray-200 pb-2">Defenders</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.defenders.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-red-600 mb-4 border-b border-gray-200 pb-2">Midfielders</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.midfielders.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-red-600 mb-4 border-b border-gray-200 pb-2">Attackers</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.attackers.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* SHOP TAB */}
+          {activeTab === 'shop' && (
+            <div>
+              <div className="flex items-center gap-3 mb-8">
+                <FaShoppingBag className="text-4xl text-red-600" />
+                <h2 className="text-3xl font-black text-[#020617]">Real Salt Lake Shop</h2>
+              </div>
+
+              <p className="text-lg text-gray-600 mb-10">
+                Support Real Salt Lake by shopping through our links. 
+                Every purchase helps us keep this site running and bring you better content.
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
+                {shopItems.map((item, index) => (
+                  <a 
+                    key={index} 
+                    href={item.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all border border-gray-100"
+                  >
+                    <div className="relative h-64 bg-gray-50 p-6">
+                      <Image 
+                        src={item.imageUrl} 
+                        alt={item.title} 
+                        fill 
+                        className="object-contain group-hover:scale-105 transition-transform duration-500" 
+                      />
+                    </div>
+                    <div className="p-6">
+                      <h3 className="font-bold text-lg leading-tight mb-3 group-hover:text-red-600 line-clamp-2">
+                        {item.title}
+                      </h3>
+                      <p className="text-2xl font-bold text-red-600">{item.price}</p>
+                    </div>
+                  </a>
+                ))}
+              </div>
+
+              <div className="mt-12 text-center">
+                <a 
+                  href="https://mlsstore.com" 
+                  target="_blank" 
+                  className="inline-flex items-center gap-2 text-red-600 font-bold hover:underline text-lg"
                 >
-                  Buy Now <FaShoppingCart className='inline ml-2' />
+                  View full Real Salt Lake store →
                 </a>
               </div>
             </div>
-          ))}
+          )}
+
+        </div>
+
+        {/* Sidebar */}
+        <div className="space-y-8">
+          <div className="bg-gradient-to-br from-red-600 to-red-700 text-white p-8 rounded-2xl shadow-lg">
+            <h3 className="text-2xl font-black mb-6">Plan Your Visit</h3>
+            <div className="space-y-4">
+              <a href="https://ticketnetwork.lusg.net/PORPrM" target="_blank" rel="noopener noreferrer" 
+                className="flex items-center gap-3 bg-white/20 hover:bg-white/30 px-6 py-4 rounded-xl font-bold transition text-center justify-center">
+                <FaTicketAlt /> Buy Tickets
+              </a>
+              <a href="https://www.booking.com" target="_blank" rel="noopener noreferrer" 
+                className="flex items-center gap-3 bg-white/20 hover:bg-white/30 px-6 py-4 rounded-xl font-bold transition text-center justify-center">
+                <FaBed /> Hotels Near Rio Tinto Stadium
+              </a>
+            </div>
+          </div>
+
+          <div className="bg-gray-50 p-6 rounded-2xl shadow-sm">
+            <h3 className="text-2xl font-black mb-6 text-[#020617]">Official Shop</h3>
+            <div className="space-y-6">
+              {shopItems.slice(0, 4).map((item, index) => (
+                <a key={index} href={item.link} target="_blank" rel="noopener noreferrer" className="block group">
+                  <div className="flex gap-4">
+                    <div className="relative w-24 h-24 flex-shrink-0">
+                      <Image src={item.imageUrl} alt={item.title} fill className="object-contain" />
+                    </div>
+                    <div>
+                      <h4 className="font-bold group-hover:text-red-600 line-clamp-2 text-sm">{item.title}</h4>
+                      <p className="text-red-600 font-bold mt-1">{item.price}</p>
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
+            <div className="mt-6 text-center">
+              <a href="https://mlsstore.com" target="_blank" className="text-red-600 font-bold hover:underline">
+                View Full Shop →
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default RealSaltLake;
+export default RealSaltLakePage;

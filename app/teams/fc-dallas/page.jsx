@@ -1,645 +1,442 @@
-import React from 'react';
-import Link from 'next/link';
-import { FaShoppingCart } from 'react-icons/fa';
+'use client';
 
-const TrendingPlayers = ({ teamSlug = 'fc-dallas' }) => {
-  const players = [
-    // { name: 'Geovane Jesus', image: 'https://images.mlssoccer.com/image/private/t_editorial_squared_6_desktop/f_auto/mls-dal/ll2qsmq5tkwxyaasdiil.jpg', link: './geovanejesus' },
-    // { name: 'Lalas Abubakar', image: 'https://images.mlssoccer.com/image/private/t_editorial_squared_6_desktop/f_auto/mls-dal/yckl7vbzz9bnvpy8pss9.jpg', link: './lalasabubakar' },
-    { name: 'Sebastian Lletget', image: 'https://cloudfront-us-east-1.images.arcpublishing.com/dmn/5IRRAYDKIBHDPJUIDYYBVVEGQQ.jpg', slug: './lletget' },
-    // { name: 'Alan Velasco', image: 'https://cloudfront-us-east-1.images.arcpublishing.com/dmn/2DQN4PVO6NFAZPMIM57CMRA74E.jpg', link: './velasco' },
+import React, { useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { FaTicketAlt, FaBed, FaShoppingBag } from 'react-icons/fa';
+
+const FCDallasPage = () => {
+  const [activeTab, setActiveTab] = useState('overview');
+
+  const trendingPlayers = [
+    { 
+      name: 'Sebastian Lletget', 
+      image: 'https://cloudfront-us-east-1.images.arcpublishing.com/dmn/5IRRAYDKIBHDPJUIDYYBVVEGQQ.jpg', 
+      slug: 'lletget' 
+    },
   ];
 
-  return (
-    <div className="max-w-4xl mx-auto py-8">
-      <h2 className="text-6xl font-bold text-[#020617] mb-8 text-center">Trending Players</h2>
-      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-        {players.map((player) => (
-          <Link
-            key={player.slug}
-            href={`/teams/fc-dallas/${player.slug}`}
-            className="group flex flex-col items-center bg-white rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105 hover:shadow-xl"
-          >
-            <img
-              src={player.image}
-              alt={player.name}
-              className="h-64 w-full object-cover mb-4 rounded-lg"
-              style={{ objectPosition: 'center 2%' }}
-            />
-            <h3 className="text-lg font-semibold text-center text-[#020617]">{player.name}</h3>
-          </Link>
-        ))}
-      </div>
-    </div>
-  );
-};
+  const blogPosts = [
+    {
+      id: 1,
+      title: "FC Dallas Deliver Strong Performance",
+      author: "Mio Ristić",
+      date: "March 23, 2026",
+      excerpt: "The Hoops continue their solid 2026 campaign with a hard-fought victory in the Western Conference.",
+      imageUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/dmn/5IRRAYDKIBHDPJUIDYYBVVEGQQ.jpg",
+      slug: "fc-dallas-victory",
+    },
+  ];
 
-const FCDallas = () => {
-  const items = [
+  // TAČNO ONO ŠTO SI TI DAO - bez dodavanja novih
+  const shopItems = [
     {
       "title": "Men's FC Dallas adidas Navy 2024 After Burner Authentic Jersey",
-      "brand": "adidas",
-      "team": "FC Dallas",
-      "color": "Navy",
-      "year": 2024,
       "price": "$159.99",
-      "shipsFree": true,
-      "status": "In Stock",
       "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-adidas-navy-fc-dallas-2024-after-burner-authentic-jersey_ss5_p-201092075+pv-1+u-q8gavc9l7ywcix8huitp+v-nzyvnfd2zf3obgp8juer.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/gOqbjO"
     },
     {
       "title": "Men's FC Dallas Mitchell & Ness Dallas Burn City Full-Snap Satin Jacket",
-      "brand": "Mitchell & Ness",
-      "team": "FC Dallas / Dallas Burn",
-      "color": "Unknown",
       "price": "$149.99",
-      "shipsFree": true,
-      "status": "Ready To Ship",
       "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-mitchell-and-ness-white-dallas-burn-city-full-snap-satin-jacket_ss5_p-5282544+pv-1+u-uobfzdsfztxlv1hbjnx0+v-40rnh3yqybeydqcgphws.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/BnOXrx"
     },
     {
       "title": "Men's Dallas Burn Mitchell & Ness Black Historic Logo Since '96 Two-Tone Snapback Hat",
-      "brand": "Mitchell & Ness",
-      "team": "Dallas Burn",
-      "color": "Black",
       "price": "$18.99",
-      "originalPrice": "$37.99",
-      "status": "Ready To Ship",
-      "lastChecked": "2022-01-07",
-      "imageUrl": "https://images.footballfanatics.com/dallas-burn/mens-mitchell-and-ness-black-dallas-burn-historic-logo-since-96-two-tone-snapback-hat_pi4437000_altimages_ff_4437383-775b3a32882f0872b14falt1_full.jpg?_hv=2&w=900",
+      "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-mitchell-and-ness-black-dallas-burn-historic-logo-since-96-two-tone-snapback-hat_pi4437000_altimages_ff_4437383-775b3a32882f0872b14falt1_full.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/OeORgz"
     },
     {
       "title": "Men's Dallas Burn Mitchell & Ness Black/Green Historic Logo Since '96 Foundation Script Snapback Hat",
-      "brand": "Mitchell & Ness",
-      "team": "Dallas Burn",
-      "color": "Black/Green",
       "price": "$15.99",
-      "originalPrice": "$31.99",
-      "status": "Ready To Ship",
-      "lastChecked": "2022-01-07",
-      "imageUrl": "https://images.footballfanatics.com/dallas-burn/mens-mitchell-and-ness-black/green-dallas-burn-historic-logo-since-96-foundation-script-snapback-hat_pi4437000_altimages_ff_4437391-fbf20fb9c9ef5ff31f20alt1_full.jpg?_hv=2&w=900",
+      "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-mitchell-and-ness-black/green-dallas-burn-historic-logo-since-96-foundation-script-snapback-hat_pi4437000_altimages_ff_4437391-fbf20fb9c9ef5ff31f20alt1_full.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/vPQnBO"
     },
     {
       "title": "Men's FC Dallas Mitchell & Ness Red Mesh V-Neck T-Shirt",
-      "brand": "Mitchell & Ness",
-      "team": "FC Dallas",
-      "color": "Red",
       "price": "$44.99",
-      "originalPrice": "$89.99",
-      "shipsFree": true,
-      "status": "Ready To Ship",
-      "availability": "Almost Gone",
-      "lastChecked": "2022-07-18",
-      "imageUrl": "https://images.footballfanatics.com/dallas-burn/mens-mitchell-and-ness-red-fc-dallas-mesh-v-neck-t-shirt_pi4851000_altimages_ff_4851017-cae35a1550a7c57703e4alt1_full.jpg?_hv=2&w=900",
+      "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-mitchell-and-ness-red-fc-dallas-mesh-v-neck-t-shirt_pi4851000_altimages_ff_4851017-cae35a1550a7c57703e4alt1_full.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/4GyebM"
     },
     {
       "title": "Men's Dallas Burn Mitchell & Ness Red Historic Logo Since '96 Jersey Hook Snapback Hat",
-      "brand": "Mitchell & Ness",
-      "team": "Dallas Burn",
-      "color": "Red",
       "price": "$18.99",
-      "originalPrice": "$37.99",
-      "status": "Ready To Ship",
-      "lastChecked": "2022-01-17",
-      "imageUrl": "https://images.footballfanatics.com/dallas-burn/mens-mitchell-and-ness-red-dallas-burn-historic-logo-since-96-jersey-hook-snapback-hat_pi4437000_altimages_ff_4437379-94f1e5788847c41949cfalt1_full.jpg?_hv=2&w=900",
+      "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-mitchell-and-ness-red-dallas-burn-historic-logo-since-96-jersey-hook-snapback-hat_pi4437000_altimages_ff_4437379-94f1e5788847c41949cfalt1_full.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/dOkoQq"
     },
     {
       "title": "Dallas Burn Strideline Since '96 Crew Socks",
-      "brand": "Strideline",
-      "team": "Dallas Burn",
-      "color": "Unknown",
       "price": "$19.99",
-      "status": "Ready To Ship",
-      "availability": "Almost Gone",
-      "imageUrl": "https://images.footballfanatics.com/strideline-dallas-burn-since-96-crew-socks_ss5_p-5348262+u-kcnypktipfm3jta2heow+v-kethbakmvd71katqkn6r.jpg?_hv=2&w=900",
+      "imageUrl": "https://images.footballfanatics.com/fc-dallas/dallas-burn-strideline-since-96-crew-socks_ss5_p-5348262+u-kcnypktipfm3jta2heow+v-kethbakmvd71katqkn6r.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/N9RKZv"
     },
     {
       "title": "Men's Dallas Burn Mitchell & Ness Red Vertical Tie-Dye Top",
-      "brand": "Mitchell & Ness",
-      "team": "Dallas Burn",
-      "color": "Red (Tie-Dye)",
       "price": "$44.99",
-      "originalPrice": "$89.99",
-      "shipsFree": true,
-      "status": "Ready To Ship",
-      "lastChecked": "2022-06-01",
-      "imageUrl": "https://images.footballfanatics.com/dallas-burn/mens-mitchell-and-ness-red-dallas-burn-vertical-tie-dye-top_pi4851000_altimages_ff_4851055-6bfdd35e0519c8b4a519alt1_full.jpg?_hv=2&w=900",
+      "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-mitchell-and-ness-red-dallas-burn-vertical-tie-dye-top_pi4851000_altimages_ff_4851055-6bfdd35e0519c8b4a519alt1_full.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/LKOPVL"
     },
     {
       "title": "Men's Dallas Burn Mitchell & Ness Red/Green Since '96 Split Color Short Sleeve Hoodie",
-      "brand": "Mitchell & Ness",
-      "team": "Dallas Burn",
-      "color": "Red/Green",
       "price": "$34.99",
-      "originalPrice": "$64.99",
-      "shipsFree": true,
-      "status": "Ready To Ship",
-      "availability": "Almost Gone",
-      "lastChecked": "2021-04-06",
-      "imageUrl": "https://images.footballfanatics.com/dallas-burn/mens-mitchell-and-ness-red/green-dallas-burn-since-96-split-color-short-sleeve-hoodie_pi3896000_altimages_ff_3896084-2f128ed4df9d502b98d5alt1_full.jpg?_hv=2&w=900",
+      "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-mitchell-and-ness-red/green-dallas-burn-since-96-split-color-short-sleeve-hoodie_pi3896000_altimages_ff_3896084-2f128ed4df9d502b98d5alt1_full.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/9LnWR0"
     },
     {
       "title": "Youth FC Dallas adidas Light Blue 2025 The Inferno Kit Replica Jersey",
-      "brand": "adidas",
-      "team": "FC Dallas",
-      "color": "Light Blue",
-      "year": 2025,
       "price": "$79.99",
-      "shipsFree": true,
-      "status": "In Stock",
-      "category": "Youth Jersey",
       "imageUrl": "https://images.footballfanatics.com/fc-dallas/youth-adidas-light-blue-fc-dallas-2025-the-inferno-kit-replica-jersey_ss5_p-202658583+pv-1+u-qwyohgj9311ebnyn3rzz+v-oppdpmwrb5t3hvrb8fsk.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/55yb69"
     },
     {
       "title": "Men's FC Dallas Black Arch Smoke T-Shirt",
-      "brand": "Unknown",
-      "team": "FC Dallas",
-      "color": "Black",
       "price": "$17.99",
-      "originalPrice": "$34.99",
-      "status": "In Stock",
-      "lastChecked": "2019-03-12",
-      "category": "Men T-Shirts",
       "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-black-fc-dallas-arch-smoke-t-shirt_ss5_p-3305850+pv-1+u-mjjhf4clbhcgocmns86v+v-r4ai2aslpbol9hm5jf24.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/APno9x"
     },
     {
       "title": "Men's FC Dallas adidas Navy 2025 Jersey Hook AEROREADY T-Shirt",
-      "brand": "adidas",
-      "team": "FC Dallas",
-      "color": "Navy",
-      "year": 2025,
       "price": "$39.99",
-      "shipsFree": true,
-      "status": "Ready To Ship",
-      "availability": "Almost Gone",
-      "category": "Men T-Shirts",
       "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-adidas-navy-fc-dallas-2025-jersey-hook-aeroready-t-shirt_ss5_p-201664620+pv-1+u-oalhxsjppoeezwatcxse+v-q62h7a7ivvlobvoomzyr.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/19y50a"
     },
     {
       "title": "Men's FC Dallas Fanatics Heather Gray Low Block Trucker Adjustable Hat",
-      "brand": "Fanatics",
-      "team": "FC Dallas",
-      "color": "Heather Gray",
       "price": "$29.99",
-      "shipsFree": true,
-      "status": "Ready To Ship",
-      "availability": "Almost Gone",
-      "category": "Hats",
       "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-fanatics-heather-gray-fc-dallas-low-block-trucker-adjustable-hat_ss5_p-201747544+pv-1+u-ar0u0bpth4ygv9od6spp+v-lvkrbaykhztpqyrbgdql.png?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/VxAyqa"
     },
     {
       "title": "Men's FC Dallas Sport Design Sweden Cream Everyday Relaxed T-Shirt",
-      "brand": "Sport Design Sweden",
-      "team": "FC Dallas",
-      "color": "Cream",
       "price": "$39.99",
-      "shipsFree": true,
-      "status": "Ready To Ship",
-      "category": "Men T-Shirts",
       "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-sport-design-sweden-cream-fc-dallas-everyday-relaxed-t-shirt_ss5_p-202666813+pv-1+u-blxafuogbcclxr5fxwif+v-tc9bq789ztraaxk25sor.jpg?_hv=2&w=900",
       "link": "https://mlsstore.i8h2.net/Z6Ld9Q"
-    },    
-      {
-        "title": "Men's FC Dallas New Era Tan Active 9TWENTY Adjustable Hat",
-        "brand": "New Era",
-        "team": "FC Dallas",
-        "color": "Tan",
-        "price": "$31.99",
-        "shipsFree": true,
-        "status": "Ready To Ship",
-        "category": "Hats",
-        "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens%C2%A0new-era-tan-fc-dallas-active-9twenty-adjustable-hat_ss5_p-202314659+pv-1+u-yxi3po595mptqxr2pl5h+v-kf53s5tksmbotk9dwc5b.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/09yJLP"
-      },
-      {
-        "title": "Men's FC Dallas New Era Gray Color Pack 9FORTY A-Frame Adjustable Trucker Hat",
-        "brand": "New Era",
-        "team": "FC Dallas",
-        "color": "Gray",
-        "price": "$32.99",
-        "shipsFree": true,
-        "status": "Ready To Ship",
-        "category": "Hats",
-        "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-new-era-gray-fc-dallas-color-pack-9forty-a-frame-adjustable-trucker-hat_ss5_p-201948606+pv-1+u-60r1qfjsbjk0exnn3ery+v-crfrelnmcnae81mcjtoj.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/6ynbrV"
-      },
-      {
-        "title": "Youth FC Dallas Outerstuff Blue Stalwart Defender T-Shirt",
-        "brand": "Outerstuff",
-        "team": "FC Dallas",
-        "color": "Blue",
-        "price": "$31.99",
-        "shipsFree": true,
-        "status": "Ready To Ship",
-        "category": "Kids T-Shirts",
-        "imageUrl": "https://images.footballfanatics.com/fc-dallas/youth-outerstuff-blue-fc-dallas-stalwart-defender-t-shirt_ss5_p-201875237+pv-1+u-utl91w7z5daan8xgezdb+v-mjonsmc93iwcjlem1yze.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/vPQnRO"
-      },
-      {
-        "title": "Men's FC Dallas New Era Black 2025 Kickoff 9TWENTY Adjustable Hat",
-        "brand": "New Era",
-        "team": "FC Dallas",
-        "color": "Black",
-        "year": 2025,
-        "price": "$27.99",
-        "shipsFree": true,
-        "status": "Ready To Ship",
-        "category": "Hats",
-        "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-new-era-black-fc-dallas-2025-kickoff-9twenty-adjustable-hat_ss5_p-202427766+pv-1+u-jpif2neww22lgkn1ezkc+v-hoczajvaqloqzaaufo6k.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/N9RKOv"
-      },
-      {
-        "title": "Men's FC Dallas Sport Design Sweden Red/Blue City Soul Oversized T-Shirt",
-        "brand": "Sport Design Sweden",
-        "team": "FC Dallas",
-        "color": "Red/Blue",
-        "price": "$39.99",
-        "shipsFree": true,
-        "status": "Ready To Ship",
-        "category": "Men T-Shirts",
-        "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-sport-design-sweden-red/blue-fc-dallas-city-soul-oversized-t-shirt_ss5_p-202666839+pv-1+u-pw2csa7atqqsq3vc5ews+v-q3emwxj6a3qyoscejciv.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/YRbgQm"
-      },
-      {
-        "title": "Men's FC Dallas adidas Light Blue 2025 The Inferno Kit Replica Jersey",
-        "brand": "adidas",
-        "team": "FC Dallas",
-        "color": "Light Blue",
-        "year": 2025,
-        "price": "$99.99",
-        "shipsFree": true,
-        "status": "Ready To Ship",
-        "category": "Men Jerseys",
-        "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-adidas-light-blue-fc-dallas-2025-the-inferno-kit-replica-jersey_ss5_p-202652745+pv-1+u-8oaaqaib5a84iqoxbmcj+v-8iwnm2sx8vcb6izco9bc.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/7anmjr"
-      },
-      {
-        "title": "Men's FC Dallas Fanatics Steel Logo T-Shirt",
-        "brand": "Fanatics",
-        "team": "FC Dallas",
-        "color": "Steel",
-        "price": "$19.99",
-        "originalPrice": "$29.99",
-        "lastChecked": "2024-04-05",
-        "shipsFree": true,
-        "status": "In Stock",
-        "category": "Men T-Shirts",
-        "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-fanatics-steel-fc-dallas-logo-t-shirt_ss5_p-201167495+pv-1+u-y655jqpa0wqylnlwnxgm+v-nriomnpjyagegtvvcp6a.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/jeQWov"
-      },
-      {
-        "title": "Men's FC Dallas Fanatics Red Fundamentals T-Shirt",
-        "brand": "Fanatics",
-        "team": "FC Dallas",
-        "color": "Red",
-        "price": "$16.99",
-        "originalPrice": "$29.99",
-        "lastChecked": "2024-04-05",
-        "shipsFree": true,
-        "status": "In Stock",
-        "category": "Men T-Shirts",
-        "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-fanatics-red-fc-dallas-fundamentals-t-shirt_ss5_p-201167540+pv-1+u-e0bdf5zbbio7r4x8snub+v-rqdf5vbuffhmgdmyscah.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/kO9jBn"
-      },
-      {
-        "title": "FC Dallas Primary Scarf",
-        "brand": "Unknown",
-        "team": "FC Dallas",
-        "price": "$34.99",
-        "shipsFree": true,
-        "status": "In Stock",
-        "category": "Accessories",
-        "imageUrl": "https://images.footballfanatics.com/fc-dallas/fc-dallas-primary-scarf_ss5_p-201302938+u-6hfmrrefqg3n6awb4ixm+v-gle4e4gxjsktou443hcs.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/e1e4VD"
-      },
-      {
-        "title": "Men's FC Dallas New Era Navy Color Pack A-Frame 59FIFTY Fitted Hat",
-        "brand": "New Era",
-        "team": "FC Dallas",
-        "color": "Navy",
-        "price": "$44.99",
-        "shipsFree": true,
-        "status": "Ready To Ship",
-        "category": "Hats",
-        "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-new-era-navy-fc-dallas-color-pack-a-frame-59fifty-fitted-hat_ss5_p-201948555+pv-1+u-d3sv1pvh50splolp6hwi+v-oifrfcmmf4i7grme4l71.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/qzmnb5"
-      },
-      {
-        "title": "Men's FC Dallas New Era Gray Color Pack Two-Tone 9FIFTY Snapback Hat",
-        "brand": "New Era",
-        "team": "FC Dallas",
-        "color": "Gray",
-        "price": "$34.99",
-        "shipsFree": true,
-        "status": "Ready To Ship",
-        "category": "Hats",
-        "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-new-era-gray-fc-dallas-color-pack-two-tone-9fifty-snapback-hat_ss5_p-201948579+pv-1+u-bbjhe6mkiuwbb1rj1xup+v-dlqfm8punubxzkp5zjwu.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/xLr94A"
-      },
-      {
-        "title": "Men's FC Dallas Fanatics Red Injury Time Baseball Jersey",
-        "brand": "Fanatics",
-        "team": "FC Dallas",
-        "color": "Red",
-        "price": "$59.99",
-        "shipsFree": true,
-        "status": "Ready To Ship",
-        "category": "Men Jerseys",
-        "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-fanatics-red-fc-dallas-injury-time-baseball-jersey_ss5_p-201747333+pv-1+u-yu6wiktglrlcf7qv39fd+v-6z7xjffq9chpm0sxy6mc.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/DyOVXj"
-      },
-      {
-        "title": "Men's FC Dallas Red Custom Team Authentic T-Shirt",
-        "brand": "Fanatics",
-        "team": "FC Dallas",
-        "color": "Red",
-        "price": "$39.99",
-        "shipsFree": true,
-        "status": "In Stock",
-        "category": "Men T-Shirts",
-        "imageUrl": "https://images.footballfanatics.com/fc-dallas/mens-red-fc-dallas-custom-team-authentic-t-shirt_ss5_p-202808154+pv-1+u-6rlenddfjfjois6yqal6+v-zip7golrctrvszb0vq4l.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/e1e4or"
-      },
-      {
-        "title": "Women's FC Dallas Concepts Sport White Infuse Lightweight Slub Knit T-Shirt",
-        "brand": "adidas",
-        "team": "FC Dallas",
-        "color": "Navy",
-        "year": 2024,
-        "price": "$29.99",
-        "shipsFree": true,
-        "status": "In Stock",
-        "category": "Women Jerseys",
-        "imageUrl": "https://images.footballfanatics.com/fc-dallas/womens-concepts-sport-white-fc-dallas-infuse-lightweight-slub-knit-t-shirt_ss5_p-202910268+pv-1+u-fmoenrw8iqbpvetwli7o+v-xbl60wsy7olvgluf9mwz.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/JKOr3R"
-      },
-      {
-        "title": "Women's FC Dallas Gameday Couture Gray Tackle Titan Oversized Snow Wash T-Shirt",
-        "brand": "Mitchell & Ness",
-        "team": "FC Dallas",
-        "color": "Navy",
-        "price": "$44.99",
-        "shipsFree": true,
-        "status": "Ready To Ship",
-        "category": "Men Jackets",
-        "imageUrl": "https://images.footballfanatics.com/fc-dallas/womens-gameday-couture-gray-fc-dallas-tackle-titan-oversized-snow-wash-t-shirt_ss5_p-202369972+pv-1+u-ot0fso6yfbhskze4xhot+v-dibumjoxdv2ort9whey8.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/6ynbaK"
-      },
-      // {
-      //   "title": "Men's Dallas Burn Mitchell & Ness Black Historic Logo Since '96 Two-Tone Snapback Hat",
-      //   "brand": "Mitchell & Ness",
-      //   "team": "Dallas Burn",
-      //   "color": "Black",
-      //   "price": "$18.99",
-      //   "originalPrice": "$37.99",
-      //   "lastChecked": "2022-01-07",
-      //   "shipsFree": true,
-      //   "status": "Ready To Ship",
-      //   "category": "Hats",
-      //   "imageUrl": "https://images.footballfanatics.com/dc-united/mens-fanatics-black/red-dc-united-striker-long-sleeve-t-shirt_pi4372000_altimages_ff_4372670-d8784130a1c204a45c85alt1_full.jpg?_hv=2&w=900",
-      // "link": "https://mlsstore.i8h2.net/WyReEA"
-      // },
-      // {
-      //   "title": "Men's Dallas Burn Mitchell & Ness Black/Green Historic Logo Since '96 Foundation Script Snapback Hat",
-      //   "brand": "Mitchell & Ness",
-      //   "team": "Dallas Burn",
-      //   "color": "Black/Green",
-      //   "price": "$15.99",
-      //   "originalPrice": "$31.99",
-      //   "lastChecked": "2022-01-07",
-      //   "shipsFree": true,
-      //   "status": "Ready To Ship",
-      //   "category": "Hats",
-      //   "imageUrl": "https://images.footballfanatics.com/dc-united/mens-fanatics-black/red-dc-united-striker-long-sleeve-t-shirt_pi4372000_altimages_ff_4372670-d8784130a1c204a45c85alt1_full.jpg?_hv=2&w=900",
-      // "link": "https://mlsstore.i8h2.net/WyReEA"
-      // },
-      // {
-      //   "title": "Men's FC Dallas Mitchell & Ness Red Mesh V-Neck T-Shirt",
-      //   "brand": "Mitchell & Ness",
-      //   "team": "FC Dallas",
-      //   "color": "Red",
-      //   "price": "$44.99",
-      //   "originalPrice": "$89.99",
-      //   "lastChecked": "2022-07-18",
-      //   "shipsFree": true,
-      //   "status": "Almost Gone!",
-      //   "category": "Men T-Shirts",
-      //   "imageUrl": "https://images.footballfanatics.com/dc-united/mens-fanatics-black/red-dc-united-striker-long-sleeve-t-shirt_pi4372000_altimages_ff_4372670-d8784130a1c204a45c85alt1_full.jpg?_hv=2&w=900",
-      // "link": "https://mlsstore.i8h2.net/WyReEA"
-      // },
-      // {
-      //   "title": "Men's Dallas Burn Mitchell & Ness Red Historic Logo Since '96 Jersey Hook Snapback Hat",
-      //   "brand": "Mitchell & Ness",
-      //   "team": "Dallas Burn",
-      //   "color": "Red",
-      //   "price": "$18.99",
-      //   "originalPrice": "$37.99",
-      //   "lastChecked": "2022-01-17",
-      //   "shipsFree": true,
-      //   "status": "Ready To Ship",
-      //   "category": "Hats",
-      //   "imageUrl": "https://images.footballfanatics.com/dc-united/mens-fanatics-black/red-dc-united-striker-long-sleeve-t-shirt_pi4372000_altimages_ff_4372670-d8784130a1c204a45c85alt1_full.jpg?_hv=2&w=900",
-      // "link": "https://mlsstore.i8h2.net/WyReEA"
-      // },
-      // {
-      //   "title": "Dallas Burn Strideline Since '96 Crew Socks",
-      //   "brand": "Strideline",
-      //   "team": "Dallas Burn",
-      //   "price": "$19.99",
-      //   "shipsFree": true,
-      //   "status": "Almost Gone!",
-      //   "category": "Socks",
-      //   "imageUrl": "https://images.footballfanatics.com/dc-united/mens-fanatics-black/red-dc-united-striker-long-sleeve-t-shirt_pi4372000_altimages_ff_4372670-d8784130a1c204a45c85alt1_full.jpg?_hv=2&w=900",
-      // "link": "https://mlsstore.i8h2.net/WyReEA"
-      // },
-      // {
-      //   "title": "Men's Dallas Burn Mitchell & Ness Red Vertical Tie-Dye Top",
-      //   "brand": "Mitchell & Ness",
-      //   "team": "Dallas Burn",
-      //   "color": "Red",
-      //   "price": "$44.99",
-      //   "shipsFree": true,
-      //   "status": "Ready To Ship",
-      //   "category": "Men T-Shirts",
-      //   "imageUrl": "https://images.footballfanatics.com/dc-united/mens-fanatics-black/red-dc-united-striker-long-sleeve-t-shirt_pi4372000_altimages_ff_4372670-d8784130a1c204a45c85alt1_full.jpg?_hv=2&w=900",
-      // "link": "https://mlsstore.i8h2.net/WyReEA"
-      // },
-      // {
-      //   "title": "Men's Dallas Burn Mitchell & Ness Red/Green Since '96 Split Color Short Sleeve Hoodie",
-      //   "brand": "Mitchell & Ness",
-      //   "team": "Dallas Burn",
-      //   "color": "Red/Green",
-      //   "price": "$34.99",
-      //   "originalPrice": "$64.99",
-      //   "lastChecked": "2021-04-06",
-      //   "shipsFree": true,
-      //   "status": "Almost Gone!",
-      //   "category": "Men Hoodies",
-      //   "imageUrl": "https://images.footballfanatics.com/dc-united/mens-fanatics-black/red-dc-united-striker-long-sleeve-t-shirt_pi4372000_altimages_ff_4372670-d8784130a1c204a45c85alt1_full.jpg?_hv=2&w=900",
-      // "link": "https://mlsstore.i8h2.net/WyReEA"
-      // },
-      // {
-      //   "title": "Youth FC Dallas adidas Light Blue 2025 The Inferno Kit Replica Jersey",
-      //   "brand": "adidas",
-      //   "team": "FC Dallas",
-      //   "color": "Light Blue",
-      //   "year": 2025,
-      //   "price": "$79.99",
-      //   "shipsFree": true,
-      //   "status": "In Stock",
-      //   "category": "Youth Jerseys",
-      //   "imageUrl": "https://images.footballfanatics.com/dc-united/mens-fanatics-black/red-dc-united-striker-long-sleeve-t-shirt_pi4372000_altimages_ff_4372670-d8784130a1c204a45c85alt1_full.jpg?_hv=2&w=900",
-      // "link": "https://mlsstore.i8h2.net/WyReEA"
-      // },
-      // {
-      //   "title": "Men's FC Dallas Black Arch Smoke T-Shirt",
-      //   "brand": "Fanatics",
-      //   "team": "FC Dallas",
-      //   "color": "Black",
-      //   "price": "$17.99",
-      //   "originalPrice": "$34.99",
-      //   "lastChecked": "2019-03-12",
-      //   "shipsFree": true,
-      //   "status": "In Stock",
-      //   "category": "Men T-Shirts",
-      //   "imageUrl": "https://images.footballfanatics.com/dc-united/mens-fanatics-black/red-dc-united-striker-long-sleeve-t-shirt_pi4372000_altimages_ff_4372670-d8784130a1c204a45c85alt1_full.jpg?_hv=2&w=900",
-      // "link": "https://mlsstore.i8h2.net/WyReEA"
-      // },
-      // {
-      //   "title": "Men's FC Dallas adidas Navy 2025 Jersey Hook AEROREADY T-Shirt",
-      //   "brand": "adidas",
-      //   "team": "FC Dallas",
-      //   "color": "Navy",
-      //   "price": "$39.99",
-      //   "shipsFree": true,
-      //   "status": "Almost Gone!",
-      //   "category": "Men T-Shirts",
-      //   "imageUrl": "https://images.footballfanatics.com/dc-united/mens-fanatics-black/red-dc-united-striker-long-sleeve-t-shirt_pi4372000_altimages_ff_4372670-d8784130a1c204a45c85alt1_full.jpg?_hv=2&w=900",
-      // "link": "https://mlsstore.i8h2.net/WyReEA"
-      // },
-      // {
-      //   "title": "Men's FC Dallas Fanatics Heather Gray Low Block Trucker Adjustable Hat",
-      //   "brand": "Fanatics",
-      //   "team": "FC Dallas",
-      //   "color": "Heather Gray",
-      //   "price": "$29.99",
-      //   "shipsFree": true,
-      //   "status": "Almost Gone!",
-      //   "category": "Hats",
-      //   "imageUrl": "https://images.footballfanatics.com/dc-united/mens-fanatics-black/red-dc-united-striker-long-sleeve-t-shirt_pi4372000_altimages_ff_4372670-d8784130a1c204a45c85alt1_full.jpg?_hv=2&w=900",
-      // "link": "https://mlsstore.i8h2.net/WyReEA"
-      // },
-      // {
-      //   "title": "Men's FC Dallas Sport Design Sweden Cream Everyday Relaxed T-Shirt",
-      //   "brand": "Sport Design Sweden",
-      //   "team": "FC Dallas",
-      //   "color": "Cream",
-      //   "price": "$39.99",
-      //   "shipsFree": true,
-      //   "status": "Ready To Ship",
-      //   "category": "Men T-Shirts",
-      //   "imageUrl": "https://images.footballfanatics.com/dc-united/mens-fanatics-black/red-dc-united-striker-long-sleeve-t-shirt_pi4372000_altimages_ff_4372670-d8784130a1c204a45c85alt1_full.jpg?_hv=2&w=900",
-      // "link": "https://mlsstore.i8h2.net/WyReEA"
-      // }
+    }
   ];
 
+  const squad = {
+    goalkeepers: ["Maarten Paes", "Jimmy Maurer"],
+    defenders: ["Geovane Jesus", "Lalas Abubakar", "Nkosi Tafari", "Sam Junqua"],
+    midfielders: ["Sebastian Lletget", "Alan Velasco", "Paxton Pomykal", "Facundo Quignon"],
+    attackers: ["Jesús Ferreira", "Jáder Obrian", "Bernard Kamungo"],
+  };
+
   return (
-    <div className='w-full min-h-screen bg-white pt-[1px]'>
-      <div className='max-w-4xl mx-auto py-8 px-4 md:px-0'>
-      <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>FC Dallas</h1>
-        <div className='mb-6'>
-          <img
-            src='/Dallas.png'
-            alt='FC Dallas' 
-            className='w-full h-[400px] object-cover rounded-lg shadow-md' 
-          />
+    <div className="bg-white min-h-screen text-[#0d1117]">
+      {/* Hero */}
+      <div className="relative h-[480px] md:h-[620px] bg-gradient-to-b from-black/70 to-black/90 overflow-hidden">
+        <Image
+          src="/Dallas.png"
+          alt="FC Dallas"
+          fill
+          className="object-cover"
+          priority
+        />
+
+        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/75 to-black/40" />
+
+        <div className="absolute inset-0 flex items-end pb-10 md:pb-14 px-6 md:px-12">
+          <div className="max-w-6xl mx-auto w-full">
+            <div className="flex items-center gap-5 md:gap-6 mb-4">
+              <div className="w-24 h-24 md:w-40 md:h-40 relative bg-white rounded-2xl p-4 shadow-2xl flex items-center justify-center">
+                <Image
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/FC_Dallas_logo.svg/330px-FC_Dallas_logo.svg.png"
+                  alt="FC Dallas Logo"
+                  width={160}
+                  height={160}
+                  className="object-contain"
+                  priority
+                />
+              </div>
+
+              <div>
+                <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white tracking-tight drop-shadow-2xl">
+                  FC Dallas
+                </h1>
+                <p className="text-lg md:text-xl text-white/90 mt-1 font-medium">
+                  Major League Soccer • Toyota Stadium
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div className='flex gap-4 mb-8 justify-center'>
-          <a 
-            href="https://ticketnetwork.lusg.net/XmGV4M"
-            target="_blank"
-            rel="noopener noreferrer"
-            className='bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition duration-300'
-          >
-            BUY TICKETS
-          </a>
-          <a 
-            href="https://example.com/find-hotel" 
-            className='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-full transition duration-300'
-          >
-            HOTELS NEAR THE STADIUM
-          </a>
+      {/* Tabs - FC Dallas boje (crvena + plava) */}
+      <div className="bg-[#020617] text-white sticky top-0 z-40 border-b border-gray-700">
+        <div className="max-w-6xl mx-auto px-4 md:px-6">
+          <div className="flex overflow-x-auto gap-6 md:gap-10 py-4 whitespace-nowrap scrollbar-hide">
+            {['overview', 'news', 'blog', 'squad', 'shop'].map((tab) => (
+              <button 
+                key={tab}
+                onClick={() => setActiveTab(tab)} 
+                className={`font-bold text-base md:text-lg pb-2 transition relative flex-shrink-0
+                  ${activeTab === tab 
+                    ? 'text-red-500' 
+                    : 'text-white/80 hover:text-white'}`}
+              >
+                {tab.charAt(0).toUpperCase() + tab.slice(1)}
+                {activeTab === tab && (
+                  <span className="absolute bottom-0 left-0 w-full h-0.5 bg-red-500"></span>
+                )}
+              </button>
+            ))}
+          </div>
         </div>
+      </div>
 
-        {/* Club Information */}
-        <div className='text-[#020617] mb-8'>
-          <h2 className='text-2xl font-semibold mb-2'>Club Information</h2>
-          <ul className='list-disc list-inside'>
-            <li><strong>Full Name:</strong> FC Dallas</li>
-            <li><strong>Nickname(s):</strong> The Hoops</li>
-            <li><strong>Founded:</strong> 1996</li>
-            <li><strong>Stadium:</strong> Toyota Stadium, Frisco, Texas</li>
-            <li><strong>Capacity:</strong> 20,500</li>
-            <li><strong>Owner:</strong> Hunt Sports Group</li>
-            <li><strong>Head Coach:</strong> Eric Quill</li>
-            <li><strong>League:</strong> Major League Soccer</li>
-          </ul>
-        </div>
+      {/* Main Content */}
+      <div className="max-w-6xl mx-auto px-4 md:px-6 py-10 md:py-12 grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-10">
 
-        {/* Additional Text */}
-        <div className='text-[#020617] mb-8'>
-          <h2 className='text-2xl font-semibold mb-2'>A Proud Legacy in Texas</h2>
-          <p>
-            FC Dallas is one of Major League Soccer's most respected clubs, with a legacy of developing talented players and a history of strong performances. Founded in 1996, FC Dallas has built a foundation of youth development, fielding some of the league’s most exciting homegrown players.
-          </p>
-          <p>
-            The team is known for its fast-paced style of play, combining technical skill with aggressive counter-attacks. FC Dallas plays its home games at Toyota Stadium in Frisco, Texas, offering a fantastic matchday atmosphere.
-          </p>
-          <p>
-            With stars like Jesus Ferreira and Paul Arriola, the club continues to challenge for top honors in MLS while staying true to its developmental philosophy.
-          </p>
-        </div>
+        <div className="lg:col-span-2 space-y-10 md:space-y-12">
 
+          {activeTab === 'overview' && (
+            <>
+              <div className="bg-gray-50 p-6 md:p-8 rounded-2xl shadow-sm">
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">Club Overview</h2>
+                <dl className="grid grid-cols-1 md:grid-cols-2 gap-6 text-base md:text-lg">
+                  <div><dt className="font-bold text-gray-600">Full Name</dt><dd>FC Dallas</dd></div>
+                  <div><dt className="font-bold text-gray-600">Nickname</dt><dd>The Hoops</dd></div>
+                  <div><dt className="font-bold text-gray-600">Founded</dt><dd>1996</dd></div>
+                  <div><dt className="font-bold text-gray-600">Stadium</dt><dd>Toyota Stadium, Frisco, Texas</dd></div>
+                  <div><dt className="font-bold text-gray-600">Capacity</dt><dd>20,500</dd></div>
+                  <div><dt className="font-bold text-gray-600">Owner</dt><dd>Hunt Sports Group</dd></div>
+                  <div><dt className="font-bold text-gray-600">Head Coach</dt><dd>Eric Quill</dd></div>
+                </dl>
+              </div>
 
-        <TrendingPlayers />
+              <div>
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">A Proud Legacy in Texas</h2>
+                <div className="prose max-w-none text-lg text-gray-800">
+                  <p>FC Dallas is one of Major League Soccer's most respected clubs, with a legacy of developing talented players and a history of strong performances.</p>
+                </div>
+              </div>
 
-        <h2 className='text-4xl sm:text-6xl font-bold text-[#020617] mt-16 mb-4'>Shop</h2>
-        <div className='grid gap-6 grid-cols-1 md:grid-cols-3'>
-          {items.map((item) => (
-          <div key={item.title} className='bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg'>
-              <img className='w-full h-64 object-cover' src={item.imageUrl} alt={item.title} />
-              <div className='p-4'>
-                <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
-                <p className='text-gray-600'>{item.price}</p>
-                <a
-                  href={item.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
+              <div>
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">Trending Players</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                  {trendingPlayers.map((player) => (
+                    <Link key={player.slug} href={`/teams/fc-dallas/${player.slug}`} className="group">
+                      <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                        <div className="relative h-64">
+                          <Image src={player.image} alt={player.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+                        </div>
+                        <div className="p-4 text-center">
+                          <h3 className="font-bold text-lg group-hover:text-red-600">{player.name}</h3>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">Latest News</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                  {blogPosts.map((post) => (
+                    <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                      <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                        <div className="relative h-56">
+                          <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+                        </div>
+                        <div className="p-6">
+                          <h3 className="text-xl font-bold mb-3 group-hover:text-red-600 line-clamp-2">{post.title}</h3>
+                          <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
+                          <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </>
+          )}
+
+          {activeTab === 'news' && (
+            <div>
+              <h2 className="text-3xl font-black mb-6 text-[#020617]">All News</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                {blogPosts.map((post) => (
+                  <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                    <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                      <div className="relative h-56">
+                        <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+                      </div>
+                      <div className="p-6">
+                        <h3 className="text-xl font-bold mb-3 group-hover:text-red-600 line-clamp-2">{post.title}</h3>
+                        <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
+                        <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {activeTab === 'blog' && (
+            <div>
+              <h2 className="text-3xl font-black mb-6 text-[#020617]">Blog</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                {blogPosts.map((post) => (
+                  <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                    <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                      <div className="relative h-56">
+                        <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+                      </div>
+                      <div className="p-6">
+                        <h3 className="text-xl font-bold mb-3 group-hover:text-red-600 line-clamp-2">{post.title}</h3>
+                        <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
+                        <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {activeTab === 'squad' && (
+            <div>
+              <h2 className="text-3xl font-black mb-8 text-[#020617]">FC Dallas Squad</h2>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-red-600 mb-4 border-b border-gray-200 pb-2">Goalkeepers</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.goalkeepers.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-red-600 mb-4 border-b border-gray-200 pb-2">Defenders</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.defenders.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-red-600 mb-4 border-b border-gray-200 pb-2">Midfielders</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.midfielders.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-red-600 mb-4 border-b border-gray-200 pb-2">Attackers</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.attackers.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* SHOP TAB */}
+          {activeTab === 'shop' && (
+            <div>
+              <div className="flex items-center gap-3 mb-8">
+                <FaShoppingBag className="text-4xl text-red-600" />
+                <h2 className="text-3xl font-black text-[#020617]">FC Dallas Shop</h2>
+              </div>
+
+              <p className="text-lg text-gray-600 mb-10">
+                Support FC Dallas by shopping through our links. 
+                Every purchase helps us keep this site running and bring you better content.
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
+                {shopItems.map((item) => (
+                  <a 
+                    key={item.title} 
+                    href={item.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all border border-gray-100"
+                  >
+                    <div className="relative h-64 bg-gray-50 p-6">
+                      <Image 
+                        src={item.imageUrl} 
+                        alt={item.title} 
+                        fill 
+                        className="object-contain group-hover:scale-105 transition-transform duration-500" 
+                      />
+                    </div>
+                    <div className="p-6">
+                      <h3 className="font-bold text-lg leading-tight mb-3 group-hover:text-red-600 line-clamp-2">
+                        {item.title}
+                      </h3>
+                      <p className="text-2xl font-bold text-red-600">{item.price}</p>
+                    </div>
+                  </a>
+                ))}
+              </div>
+
+              <div className="mt-12 text-center">
+                <a 
+                  href="https://mlsstore.com" 
+                  target="_blank" 
+                  className="inline-flex items-center gap-2 text-red-600 font-bold hover:underline text-lg"
                 >
-                  Buy Now <FaShoppingCart className='inline ml-2' />
+                  View full FC Dallas store →
                 </a>
               </div>
             </div>
-          ))}
+          )}
+
+        </div>
+
+        {/* Sidebar */}
+        <div className="space-y-8">
+          <div className="bg-gradient-to-br from-red-600 to-red-700 text-white p-8 rounded-2xl shadow-lg">
+            <h3 className="text-2xl font-black mb-6">Plan Your Visit</h3>
+            <div className="space-y-4">
+              <a href="https://ticketnetwork.lusg.net/XmGV4M" target="_blank" rel="noopener noreferrer" 
+                className="flex items-center gap-3 bg-white/20 hover:bg-white/30 px-6 py-4 rounded-xl font-bold transition text-center justify-center">
+                <FaTicketAlt /> Buy Tickets
+              </a>
+              <a href="https://www.booking.com" target="_blank" rel="noopener noreferrer" 
+                className="flex items-center gap-3 bg-white/20 hover:bg-white/30 px-6 py-4 rounded-xl font-bold transition text-center justify-center">
+                <FaBed /> Hotels Near Toyota Stadium
+              </a>
+            </div>
+          </div>
+
+          <div className="bg-gray-50 p-6 rounded-2xl shadow-sm">
+            <h3 className="text-2xl font-black mb-6 text-[#020617]">Official Shop</h3>
+            <div className="space-y-6">
+              {shopItems.map((item) => (
+                <a key={item.title} href={item.link} target="_blank" rel="noopener noreferrer" className="block group">
+                  <div className="flex gap-4">
+                    <div className="relative w-24 h-24 flex-shrink-0">
+                      <Image src={item.imageUrl} alt={item.title} fill className="object-contain" />
+                    </div>
+                    <div>
+                      <h4 className="font-bold group-hover:text-red-600 line-clamp-2">{item.title}</h4>
+                      <p className="text-red-600 font-bold mt-1">{item.price}</p>
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
+            <div className="mt-6 text-center">
+              <a href="https://mlsstore.com" target="_blank" className="text-red-600 font-bold hover:underline">
+                View Full Shop →
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default FCDallas;
+export default FCDallasPage;
