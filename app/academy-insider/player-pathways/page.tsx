@@ -21,7 +21,7 @@ const blogPosts: BlogPost[] = [
   "author": "Mio Ristić",
   "date": "April 07, 2026",
   "excerpt": "Kirill and Carlota, two active professional players with experience in Europe and the U.S. college system, share honest advice about scholarships, common mistakes, D1 vs D2/NAIA, and long-term player development.",
-  "imageUrl": "https://i.ibb.co/ymqP0RqK/Dark-Blue-and-White-Modern-Gaming-League-Versus-Youtube-Thumbnail.png",
+  "imageUrl": "https://i.ibb.co/nN0rs4C9/Dark-Blue-and-White-Modern-Gaming-League-Versus-Youtube-Thumbnail-1.png",
   "slug": "academy-insider/player-pathways/route88-interview"
 },
   {
