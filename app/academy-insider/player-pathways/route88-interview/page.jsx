@@ -52,7 +52,7 @@ const Route88Article = () => {
         {/* FEATURE IMAGE */}
         <figure className="w-full rounded-2xl overflow-hidden shadow-md mb-10">
           <Image
-            src="https://i.ibb.co/s9hjNbJL/Profile-Pic.jpg"  
+            src="https://i.ibb.co/ymqP0RqK/Dark-Blue-and-White-Modern-Gaming-League-Versus-Youtube-Thumbnail.png"  
             alt="Route 88 - Kirill & Carlota"
             width={1018}
             height={420}

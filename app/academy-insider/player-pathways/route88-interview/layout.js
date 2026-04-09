@@ -12,7 +12,7 @@ export const metadata = {
     siteName: "US11",
     images: [
       {
-        url: "https://i.ibb.co/s9hjNbJL/Profile-Pic.jpg",
+        url: "https://i.ibb.co/ymqP0RqK/Dark-Blue-and-White-Modern-Gaming-League-Versus-Youtube-Thumbnail.png",
         width: 1018,
         height: 420,
       },

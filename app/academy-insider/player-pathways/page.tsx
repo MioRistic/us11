@@ -16,6 +16,15 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 2002,
+  "title": "Route 88: From Pro Players to Guiding the Next Generation | Exclusive Interview",
+  "author": "Mio Ristić",
+  "date": "April 07, 2026",
+  "excerpt": "Kirill and Carlota, two active professional players with experience in Europe and the U.S. college system, share honest advice about scholarships, common mistakes, D1 vs D2/NAIA, and long-term player development.",
+  "imageUrl": "https://i.ibb.co/ymqP0RqK/Dark-Blue-and-White-Modern-Gaming-League-Versus-Youtube-Thumbnail.png",
+  "slug": "academy-insider/player-pathways/route88-interview"
+},
+  {
   id: 2001,
   title: "From Portugal to the U.S. – Learning the Hard Way: Exclusive Interview with João Pereira",
   author: "Mio Ristić",
