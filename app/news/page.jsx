@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 131,
+  "title": "Neymar to FC Cincinnati? Preliminary Talks Underway as MLS Rumors Heat Up",
+  "author": "Mio Ristić",
+  "date": "April 11, 2026",
+  "excerpt": "The Athletic reports that FC Cincinnati has opened preliminary talks with Neymar Jr.’s camp. Could the Brazilian superstar really be heading to MLS? Full breakdown of the rumor, chances of the move, potential impact and what it would mean for FC Cincinnati.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2202920638/crop/MM5DGMJSGA5DCNZVGU5G433XMU5DEMRUHIYTENY=/GettyImages-2202920638.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "slug": "neymar-fc-cincinnati"
+},
+    {
   "id": 130,
   "title": "MLS Matchday 6 2026: Bouanga’s Rampage, Miami’s New Stadium Debut and Orlando’s Nightmare",
   "author": "Mio Ristić",

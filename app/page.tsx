@@ -92,6 +92,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 131,
+  "title": "Neymar to FC Cincinnati? Preliminary Talks Underway as MLS Rumors Heat Up",
+  "author": "Mio Ristić",
+  "date": "April 11, 2026",
+  "excerpt": "The Athletic reports that FC Cincinnati has opened preliminary talks with Neymar Jr.’s camp. Could the Brazilian superstar really be heading to MLS? Full breakdown of the rumor, chances of the move, potential impact and what it would mean for FC Cincinnati.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2202920638/crop/MM5DGMJSGA5DCNZVGU5G433XMU5DEMRUHIYTENY=/GettyImages-2202920638.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "link": "news/neymar-fc-cincinnati"
+},
+  {
   "id": 130,
   "title": "MLS Matchday 6 2026: Bouanga’s Rampage, Miami’s New Stadium Debut and Orlando’s Nightmare",
   "author": "Mio Ristić",
@@ -110,15 +119,7 @@ const blogPosts: Post[] = [
   "link": "news/griezmann-to-orlando-city-2026"
 },
  
-  {
-  "id": 127,
-  "title": "USMNT March 2026 Roster: Pochettino's Final Call-Ups Before World Cup 2026",
-  "author": "Mio Ristić",
-  "date": "March 23, 2026",
-  "excerpt": "Mauricio Pochettino names 27-player squad for friendlies vs Belgium and Portugal. Gio Reyna returns, Christian Pulisic leads experience, 9 MLS players called up, key absences due to injury (Adams, Dest). Full roster breakdown by position, storylines and World Cup implications.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2237710051/crop/MM5DEMBRGQ5DCMJTGM5G433XMU5DKMBTHIZTE===/GettyImages-2237710051.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/usmnt-roster-march-2026"
-}
+
 
   
 
@@ -127,6 +128,15 @@ const blogPosts: Post[] = [
 
 // Jerseys Blog JSON
 const jerseysBlogPosts: Post[] = [
+  {
+  "id": 1008,
+  "title": "Griezmann #7 Jersey Already Breaking Sales Records at Orlando City",
+  "author": "Mio Ristić",
+  "date": "April 11, 2026",
+  "excerpt": "Antoine Griezmann's No.7 Orlando City jerseys (Home Perfect Storm & Sunken Treasure Away) went on sale immediately after the announcement and are already among the fastest-selling kits in club history. Full story, jersey details, and where to buy now.",
+  "imageUrl": "https://i.ibb.co/nNsnK2BN/salario-antoine-griezmann-orlando-city-mls-principal.jpg",
+  "link": "blog/griezmann-orlando-city-jersey"
+},
   {
   "id": 1007,
   "title": "USMNT Nike 2026 Kits Unveiled: Stripes Home & Stars Away for World Cup",
@@ -145,16 +155,7 @@ const jerseysBlogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/bltf53f7a9a05821020/crop/MM5DIMBYGU5DEMRZHA5G433XMU5DAORYHE2Q====/U.S%20Denim%20Kit%20Collection%2024.jpg?auto=webp&format=pjpg&width=1200&quality=80",
   "link": "blog/adidas-usa-1994-denim-collection"
 },
-   {
-  "id": 1001,
-  "title": "MLS Jerseys 2026: Identity, Style, and the Kits Fans Actually Want to Wear",
-  "author": "Mio Ristić",
-  "date": "February 11, 2026",
-  "excerpt": "MLS jerseys in 2026 are more than kits — they’re fashion, identity, and culture. A deep dive into the designs fans love (and hate) the most.",
-  "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/mls/em5hapeppp5zqyphlmlt.jpg",
-  "link": "blog/mls-jerseys-2026"
-},
-
+ 
 
 ];
 
@@ -176,19 +177,18 @@ export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const heroItems = [
-    {
-  "title": "Antoine Griezmann to Orlando City",
-  "subtitle": "World Cup winner agrees July 2026 free transfer from Atlético – 2+1 years, No. 7 jersey, massive East Conference boost",
-  "image": "https://assets.goal.com/images/v3/blt2ccb4598094c1547/2.jpg",
-  "link": "/news/griezmann-to-orlando-city-2026"
-}
-
-,
-    {
-  "title": "MLS Matchday 6 2026",
-  "subtitle": "Bouanga scores rapid hat-trick as LAFC thrash Orlando 6-0, Inter Miami open Nu Stadium with 2-2 draw, Philadelphia suffer sixth straight defeat",
-  "image": "https://assets.goal.com/images/v3/blt8209e4c975d96a14/GettyImages-2250417409.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/mls/mls-matchday-6-2026"
+//     {
+//   "title": "Antoine Griezmann to Orlando City",
+//   "subtitle": "World Cup winner agrees to join Orlando City on free transfer in July 2026 – 2+1 year deal, will wear No. 7 jersey",
+//   "image": "https://i.ibb.co/nNsnK2BN/salario-antoine-griezmann-orlando-city-mls-principal.jpg",
+//   "link": "/news/griezmann-orlando-city-jersey"
+// }
+// ,
+   {
+  "title": "How Griezmann’s No. 7 Jersey Became Orlando City’s Fastest-Selling Kit",
+  "subtitle": "Griezmann #7 already breaking sales records – Home Perfect Storm & Sunken Treasure Away kits",
+  "image": "https://i.ibb.co/nNsnK2BN/salario-antoine-griezmann-orlando-city-mls-principal.jpg",
+  "link": "/blog/griezmann-orlando-city-jersey"
 },
     {
       title: "USMNT 2026 Home & Away Kits Unveiled",
@@ -199,6 +199,12 @@ export default function Home() {
   ];
 
   const staffPicks = [
+     {
+      name: "Antoine Griezmann Orlando City SC adidas 2025 Perfect Storm On-Field Authentic Jersey - Purple",
+      price: "$194.99",
+      image: "https://fanatics.frgimages.com/orlando-city-sc/mens-adidas-antoine-griezmann-purple-orlando-city-sc-2025-perfect-storm-on-field-authentic-jersey_ss5_p-204033026+pv-1+u-hexo5oxtaqxkxng71go3+v-4wipfo65ii5bhl5wjrot.png?_hv=2&w=1018",
+      link: "https://fanatics.93n6tx.net/L0DV40"   // ← Zameni svojim affiliate linkom
+    },
     {
       name: "Lionel Messi Inter Miami CF adidas Youth 2025 The Fortitude Kit Replica Player Jersey - Black",
       price: "$109.99",

@@ -49,6 +49,15 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 1008,
+  "title": "Griezmann #7 Jersey Already Breaking Sales Records at Orlando City",
+  "author": "Mio Ristić",
+  "date": "April 11, 2026",
+  "excerpt": "Antoine Griezmann's No.7 Orlando City jerseys (Home Perfect Storm & Sunken Treasure Away) went on sale immediately after the announcement and are already among the fastest-selling kits in club history. Full story, jersey details, and where to buy now.",
+  "imageUrl": "https://i.ibb.co/nNsnK2BN/salario-antoine-griezmann-orlando-city-mls-principal.jpg",
+  "slug": "griezmann-orlando-city-jersey"
+},
+  {
   "id": 1007,
   "title": "USMNT Nike 2026 Kits Unveiled: Stripes Home & Stars Away for World Cup",
   "author": "Mio Ristić",
