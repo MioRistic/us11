@@ -12,6 +12,24 @@ import Link from 'next/link';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 1008,
+  "title": "Griezmann #7 Jersey Already Breaking Sales Records at Orlando City",
+  "author": "Mio Ristić",
+  "date": "April 11, 2026",
+  "excerpt": "Antoine Griezmann's No.7 Orlando City jerseys (Home Perfect Storm & Sunken Treasure Away) went on sale immediately after the announcement and are already among the fastest-selling kits in club history. Full story, jersey details, and where to buy now.",
+  "imageUrl": "https://i.ibb.co/nNsnK2BN/salario-antoine-griezmann-orlando-city-mls-principal.jpg",
+  "slug": "griezmann-orlando-city-jersey"
+},
+  {
+  "id": 1007,
+  "title": "USMNT Nike 2026 Kits Unveiled: Stripes Home & Stars Away for World Cup",
+  "author": "Mio Ristić",
+  "date": "March 16, 2026",
+  "excerpt": "Nike and U.S. Soccer reveal bold 2026 World Cup kits: wavy red-white Stripes home jersey ($100 replica) and navy Stars away with metallic jacquard. Full breakdown, player input, and where to shop authentic & replica jerseys now.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt532e5fdd75fc8dc0/crop/MM5DIMBZGM5DEMZQGI5G433XMU5DAORYHA======/USSF_MNT_Kit_Launch_Vogue_mntjerseyshoot_11-09-25-124.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "slug": "usmnt-nike-2026-kits-unveiled"
+},
+    {
   "id": 1006,
   "title": "Adidas USA 1994 Denim Graphic Collection: Iconic USMNT Throwback for World Cup 2026",
   "author": "Mio Ristić",

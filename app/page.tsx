@@ -162,6 +162,16 @@ const jerseysBlogPosts: Post[] = [
 // Hall of Fame JSON
 const hallOfFamePosts: Post[] = [
   {
+  "id": 87,
+  "title": "Hall of Fame: Thierry Henry — The King Who Brought Class to New York",
+  "author": "Mio Ristić",
+  "date": "April 12, 2026",
+  "excerpt": "From Arsenal and Barcelona to New York Red Bulls — how Thierry Henry elevated MLS with elegance, intelligence and leadership.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-459466526/crop/MM5DCNZWGA5DSOJQHJXG653FHIZDGNR2GE3TM===/GettyImages-459466526.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "imagePosition": "center",
+  "link": "blog/mls-hall-of-fame/thierry-henry"
+},
+  {
   id: 86,
   title: "Hall of Fame: David Beckham — The Player Who Changed Football’s Geography",
   author: "Mio Ristić",
