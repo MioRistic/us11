@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 132,
+  "title": "MLS Matchday 7 2026: Portland Ends LAFC’s Unbeaten Run, Colorado Thrash Houston 6-2, Red Bulls Youth Shine in Miami",
+  "author": "Mio Ristić",
+  "date": "April 13, 2026",
+  "excerpt": "Full recap from Matchday 7: Portland beat LAFC 2-1, Colorado won 6-2 against Houston, and New York Red Bulls earned a point in Miami with young talents leading the way. Key results, standings and takeaways.",
+  "imageUrl": "https://i.ibb.co/60w8D5L3/01kp2p36s2sbzft3tvfe.jpg",
+  "slug": "mls-matchday-7-2026"
+},
+    {
   "id": 131,
   "title": "Neymar to FC Cincinnati? Preliminary Talks Underway as MLS Rumors Heat Up",
   "author": "Mio Ristić",

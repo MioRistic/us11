@@ -3,6 +3,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+ 
 
 
 
@@ -16,6 +17,7 @@ interface Post {
   link: string;
   imagePosition?: string;
 }
+
 
 const TrendingPlayers = () => {
   const players = [
@@ -92,6 +94,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 132,
+  "title": "MLS Matchday 7 2026: Portland Ends LAFC’s Unbeaten Run, Colorado Thrash Houston 6-2, Red Bulls Youth Shine in Miami",
+  "author": "Mio Ristić",
+  "date": "April 13, 2026",
+  "excerpt": "Full recap from Matchday 7: Portland beat LAFC 2-1, Colorado won 6-2 against Houston, and New York Red Bulls earned a point in Miami with young talents leading the way. Key results, standings and takeaways.",
+  "imageUrl": "https://i.ibb.co/60w8D5L3/01kp2p36s2sbzft3tvfe.jpg",
+  "link": "news/mls-matchday-7-2026"
+},
+  {
   "id": 131,
   "title": "Neymar to FC Cincinnati? Preliminary Talks Underway as MLS Rumors Heat Up",
   "author": "Mio Ristić",
@@ -109,16 +120,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/blt8209e4c975d96a14/GettyImages-2250417409.jpg",
   "link": "news/mls-matchday-6-2026"
 },
-  {
-  "id": 129,
-  "title": "Antoine Griezmann to Orlando City: World Cup Winner Agrees MLS Move",
-  "author": "Mio Ristić",
-  "date": "March 24, 2026",
-  "excerpt": "Antoine Griezmann has verbally agreed to join Orlando City SC on a free transfer from Atlético Madrid in July 2026. 2-year contract + option for third year, No. 7 jersey, Orlando trip confirmed. Full details, implications for MLS East and why this could reshape the conference.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt2ccb4598094c1547/2.jpg",
-  "link": "news/griezmann-to-orlando-city-2026"
-},
- 
+  
 
 
   
@@ -194,6 +196,12 @@ export default function Home() {
 //   "link": "/news/griezmann-orlando-city-jersey"
 // }
 // ,
+{
+  "title": "MLS Matchday 7 2026",
+  "subtitle": "Portland stun LAFC 2-1, Colorado win 6-2, Red Bulls kids earn point in Miami – full recap and key takeaways",
+  "image": "https://i.ibb.co/60w8D5L3/01kp2p36s2sbzft3tvfe.jpg",
+  "link": "/news/mls-matchday-7-2026"
+},
    {
   "title": "How Griezmann’s No. 7 Jersey Became Orlando City’s Fastest-Selling Kit",
   "subtitle": "Griezmann #7 already breaking sales records – Home Perfect Storm & Sunken Treasure Away kits",
@@ -321,6 +329,8 @@ export default function Home() {
     ))}
   </div>
 </section>
+
+ 
 
       {/* Staff Picks Section */}
       <div className="bg-white py-16">
