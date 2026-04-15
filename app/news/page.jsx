@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 133,
+  "title": "The Sudden Exit: Why Javier Mascherano Left Inter Miami Just Months After Their First MLS Cup",
+  "author": "Mio Ristić",
+  "date": "April 15, 2026",
+  "excerpt": "Javier Mascherano has stepped down as head coach of Inter Miami CF just four months after winning the club's first MLS Cup title. Full story, context and what it means for Messi and the Herons.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2215792362/crop/MM5DGNZQHA5DEMBYGY5G433XMU5DAORRHEZQ====/GettyImages-2215792362.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "slug": "mascherano-leaves-inter-miami"
+},
+    {
   "id": 132,
   "title": "MLS Matchday 7 2026: Portland Ends LAFC’s Unbeaten Run, Colorado Thrash Houston 6-2, Red Bulls Youth Shine in Miami",
   "author": "Mio Ristić",

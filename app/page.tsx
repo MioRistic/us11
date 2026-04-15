@@ -94,6 +94,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 133,
+  "title": "The Sudden Exit: Why Javier Mascherano Left Inter Miami Just Months After Their First MLS Cup",
+  "author": "Mio Ristić",
+  "date": "April 15, 2026",
+  "excerpt": "Javier Mascherano has stepped down as head coach of Inter Miami CF just four months after winning the club's first MLS Cup title. Full story, context and what it means for Messi and the Herons.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2215792362/crop/MM5DGNZQHA5DEMBYGY5G433XMU5DAORRHEZQ====/GettyImages-2215792362.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "link": "news/mascherano-leaves-inter-miami"
+},
+  {
   "id": 132,
   "title": "MLS Matchday 7 2026: Portland Ends LAFC’s Unbeaten Run, Colorado Thrash Houston 6-2, Red Bulls Youth Shine in Miami",
   "author": "Mio Ristić",
@@ -111,15 +120,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2202920638/crop/MM5DGMJSGA5DCNZVGU5G433XMU5DEMRUHIYTENY=/GettyImages-2202920638.jpg?auto=webp&format=pjpg&width=1200&quality=80",
   "link": "news/neymar-fc-cincinnati"
 },
-  {
-  "id": 130,
-  "title": "MLS Matchday 6 2026: Bouanga’s Rampage, Miami’s New Stadium Debut and Orlando’s Nightmare",
-  "author": "Mio Ristić",
-  "date": "April 07, 2026",
-  "excerpt": "Denis Bouanga scores a lightning-fast hat-trick as LAFC crush Orlando City 6-0, Inter Miami open their brand new Nu Stadium with a thrilling 2-2 draw, while Philadelphia Union suffer a sixth consecutive defeat. Full details and key takeaways from Matchday 6.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt8209e4c975d96a14/GettyImages-2250417409.jpg",
-  "link": "news/mls-matchday-6-2026"
-},
+   
   
 
 
@@ -209,11 +210,11 @@ export default function Home() {
   "link": "/blog/griezmann-orlando-city-jersey"
 },
     {
-      title: "USMNT 2026 Home & Away Kits Unveiled",
-      subtitle: "Nike Stripes & Stars design – full breakdown and where to buy",
-      image: "https://assets.goal.com/images/v3/blt532e5fdd75fc8dc0/crop/MM5DIMBZGM5DEMZQGI5G433XMU5DAORYHA======/USSF_MNT_Kit_Launch_Vogue_mntjerseyshoot_11-09-25-124.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-      link: "/blog/usmnt-nike-2026-kits-unveiled",
-    }
+  "title": "Javier Mascherano Leaves Inter Miami",
+  "subtitle": "Argentine coach steps down just four months after delivering the club's first MLS Cup title",
+  "image": "https://assets.goal.com/images/v3/getty-2215792362/crop/MM5DGNZQHA5DEMBYGY5G433XMU5DAORRHEZQ====/GettyImages-2215792362.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "link": "/news/mascherano-leaves-inter-miami"
+}
   ];
 
   const staffPicks = [
