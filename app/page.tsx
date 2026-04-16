@@ -94,6 +94,16 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 135,
+  "title": "The Messi Question: Why Argentina’s Greatest Still Hasn’t Decided on the 2026 World Cup",
+  "author": "Mio Ristić",
+  "date": "April 16, 2026",
+  "excerpt": "With the 2026 World Cup just months away, Lionel Messi has still not confirmed whether he will participate. Scaloni gives him full freedom as the biggest question looms over Argentina.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2268176070/crop/MM5DGNBSGQ5DCOJSGY5G433XMU5DGORQ/GettyImages-2268176070.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "link": "news/messi-2026-world-cup-decision"
+},
+  
+  {
   "id": 134,
   "title": "US Open Cup Round of 32 2026: Multiple Upsets as Four MLS Teams Eliminated",
   "author": "Mio Ristić",
@@ -111,15 +121,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2215792362/crop/MM5DGNZQHA5DEMBYGY5G433XMU5DAORRHEZQ====/GettyImages-2215792362.jpg?auto=webp&format=pjpg&width=1200&quality=80",
   "link": "news/mascherano-leaves-inter-miami"
 },
-  {
-  "id": 132,
-  "title": "MLS Matchday 7 2026: Portland Ends LAFC’s Unbeaten Run, Colorado Thrash Houston 6-2, Red Bulls Youth Shine in Miami",
-  "author": "Mio Ristić",
-  "date": "April 13, 2026",
-  "excerpt": "Full recap from Matchday 7: Portland beat LAFC 2-1, Colorado won 6-2 against Houston, and New York Red Bulls earned a point in Miami with young talents leading the way. Key results, standings and takeaways.",
-  "imageUrl": "https://i.ibb.co/60w8D5L3/01kp2p36s2sbzft3tvfe.jpg",
-  "link": "news/mls-matchday-7-2026"
-},
+
  
 
   
@@ -214,10 +216,10 @@ export default function Home() {
   "link": "/blog/griezmann-orlando-city-jersey"
 },
     {
-  "title": "Javier Mascherano Leaves Inter Miami",
-  "subtitle": "Argentine coach steps down just four months after delivering the club's first MLS Cup title",
-  "image": "https://assets.goal.com/images/v3/getty-2215792362/crop/MM5DGNZQHA5DEMBYGY5G433XMU5DAORRHEZQ====/GettyImages-2215792362.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "/news/mascherano-leaves-inter-miami"
+  "title": "The Messi Question",
+  "subtitle": "Why Argentina’s Greatest Still Hasn’t Decided on the 2026 World Cup",
+  "image": "https://assets.goal.com/images/v3/getty-2268176070/crop/MM5DGNBSGQ5DCOJSGY5G433XMU5DGORQ/GettyImages-2268176070.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/messi-2026-world-cup-decision"
 }
   ];
 

@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 135,
+  "title": "The Messi Question: Why Argentina’s Greatest Still Hasn’t Decided on the 2026 World Cup",
+  "author": "Mio Ristić",
+  "date": "April 16, 2026",
+  "excerpt": "With the 2026 World Cup just months away, Lionel Messi has still not confirmed whether he will participate. Scaloni gives him full freedom as the biggest question looms over Argentina.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2268176070/crop/MM5DGNBSGQ5DCOJSGY5G433XMU5DGORQ/GettyImages-2268176070.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "slug": "messi-2026-world-cup-decision"
+},
+    {
   "id": 134,
   "title": "US Open Cup Round of 32 2026: Multiple Upsets as Four MLS Teams Eliminated",
   "author": "Mio Ristić",
