@@ -49,6 +49,15 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 1009,
+  "title": "Who Should Replace Javier Mascherano at Inter Miami? Ranking the Leading Candidates",
+  "author": "Mio Ristić",
+  "date": "April 16, 2026",
+  "excerpt": "Just four months after winning their first MLS Cup, Javier Mascherano has stepped down as head coach of Inter Miami. Full ranking of the leading candidates including Xavi, Wilfried Nancy, Marcelo Gallardo and more.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2219044340/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2219044340.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "slug": "inter-miami-new-coach"
+},
+  {
   "id": 1008,
   "title": "Griezmann #7 Jersey Already Breaking Sales Records at Orlando City",
   "author": "Mio Ristić",

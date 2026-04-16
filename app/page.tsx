@@ -198,6 +198,12 @@ export default function Home() {
 // }
 // ,
 {
+  "title": "Who Should Replace Javier Mascherano at Inter Miami?",
+  "subtitle": "Ranking the Leading Candidates",
+  "image": "https://assets.goal.com/images/v3/getty-2219044340/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2219044340.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/blog/inter-miami-new-coach"
+},
+{
   "title": "MLS Matchday 7 2026",
   "subtitle": "Portland stun LAFC 2-1, Colorado win 6-2, Red Bulls kids earn point in Miami – full recap and key takeaways",
   "image": "https://i.ibb.co/60w8D5L3/01kp2p36s2sbzft3tvfe.jpg",
