@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { FaFacebookF, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import { FiCopy } from 'react-icons/fi';
 
-export default function MLSMatchday7Page() {
+export default function USOpenCupRoundOf32Page() {
   const [currentUrl, setCurrentUrl] = useState('');
 
   useEffect(() => {
@@ -20,12 +20,10 @@ export default function MLSMatchday7Page() {
     }
   };
 
-  const articleTitle = "MLS Matchday 7 2026: Portland Ends LAFC’s Unbeaten Run, Colorado Thrash Houston 6-2, Red Bulls Youth Shine in Miami";
+  const articleTitle = "US Open Cup Round of 32 2026: Multiple Upsets as Four MLS Teams Eliminated";
 
   const facebookShare = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
-  const twitterShare = `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(
-    'MLS Matchday 7 2026: Portland beat LAFC 2-1, Colorado 6-2 Houston, Red Bulls draw with Miami'
-  )}`;
+  const twitterShare = `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(articleTitle)}`;
   const whatsappShare = `https://api.whatsapp.com/send?text=${encodeURIComponent(currentUrl)}`;
 
   return (
@@ -35,12 +33,12 @@ export default function MLSMatchday7Page() {
         {/* HEADER */}
         <header className="mb-8">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-3">
-            MLS Matchday 7 2026: Portland Ends LAFC’s Unbeaten Run, Colorado Thrash Houston 6-2, Red Bulls Youth Shine in Miami
+            US Open Cup Round of 32 2026: Multiple Upsets as Four MLS Teams Eliminated
           </h1>
           <div className="flex items-center gap-4 mt-2 text-sm text-gray-500">
             <span>By Mio Ristić</span>
             <span>•</span>
-            <time dateTime="2026-04-13">April 13, 2026</time>
+            <time dateTime="2026-04-16">April 16, 2026</time>
           </div>
 
           {/* SHARE BUTTONS */}
@@ -52,11 +50,11 @@ export default function MLSMatchday7Page() {
           </div>
         </header>
 
-        {/* FEATURE IMAGE - Ispravljena slika */}
+        {/* FEATURE IMAGE */}
         <figure className="w-full rounded-2xl overflow-hidden shadow-md mb-10">
           <Image
             src="https://assets.goal.com/images/v3/getty-1705295975/crop/MM5DGNRXG45DEMBWHA5G433XMU5DAORTGM2A====/GettyImages-1705295975.jpg?auto=webp&format=pjpg&width=1920&quality=60"
-            alt="MLS Matchday 7 2026 – Portland vs LAFC, Colorado Rapids 6-2 Houston"
+            alt="US Open Cup Round of 32 2026"
             width={1200}
             height={675}
             className="w-full h-auto object-cover object-center"
@@ -67,73 +65,73 @@ export default function MLSMatchday7Page() {
           </figcaption>
         </figure>
 
-        {/* ARTICLE CONTENT */}
+        {/* ARTICLE CONTENT - Tvoj ORIGINALNI tekst bez skraćivanja */}
         <section className="prose prose-lg max-w-none leading-relaxed space-y-8">
 
           <p>
-            Matchday 7 of the 2026 MLS season delivered drama, late winners, and a clear reminder that no result can be taken for granted in this league.
+            The 2026 U.S. Open Cup Round of 32 delivered exactly what makes this competition special — giant-killings, late drama, and unforgettable moments for lower-division teams.
           </p>
 
           <p>
-            From Portland ending LAFC’s unbeaten run to Colorado’s goal-scoring masterclass and the New York Red Bulls’ young talents earning a valuable point in Miami — here’s everything you need to know from another exciting weekend.
+            Four MLS clubs were knocked out, several USL sides produced heroic performances, and penalty shootouts decided two thrilling ties. Here’s the full recap, biggest surprises, and what it means as we head into the Round of 16.
           </p>
 
-          <h2 className="text-3xl font-bold mt-10 mb-4">Portland Timbers 2–1 LAFC: First Defeat for the Western Powerhouses</h2>
+          <h2 className="text-3xl font-bold mt-10 mb-4">Biggest Upsets of the Round</h2>
+
+          <h3 className="text-2xl font-bold">One Knoxville SC 3–3 (6–5 pens) D.C. United</h3>
           <p>
-            The biggest upset of the weekend came at Providence Park, where the Portland Timbers defeated LAFC 2-1. Kristoffer Velde opened the scoring, and Kevin Kelsy headed home the winner deep into stoppage time.
-          </p>
-          <p>
-            LAFC had taken the lead through a stunning debut goal from 17-year-old Jude Terry, but Portland showed greater character and clinical finishing to secure three valuable points and end LAFC’s unbeaten start to the season.
+            The story of the round. USL League One side One Knoxville eliminated MLS side D.C. United on penalties after a 3-3 thriller. This is exactly why the Open Cup still matters.
           </p>
 
-          <h2 className="text-3xl font-bold mt-10 mb-4">Colorado Rapids 6–2 Houston Dynamo: Goal Fest in the Rockies</h2>
+          <h3 className="text-2xl font-bold">Colorado Springs Switchbacks FC 3–0 Sporting Kansas City</h3>
           <p>
-            Colorado Rapids delivered one of the most dominant attacking displays of the young season, thrashing Houston Dynamo 6-2 at home.
-          </p>
-          <p>
-            The Rapids were ruthless in front of goal, exploiting Houston’s defensive vulnerabilities. This result significantly improved Colorado’s goal difference and boosted their position in the Western Conference.
+            A dominant display from the USL Championship team. Sporting KC were completely outplayed, marking another disappointing early exit for the MLS side.
           </p>
 
-          <h2 className="text-3xl font-bold mt-10 mb-4">Inter Miami 2–2 New York Red Bulls: Youth Takes Center Stage</h2>
+          <h3 className="text-2xl font-bold">Louisville City FC 2–1 Austin FC</h3>
           <p>
-            In the marquee match at the brand-new Nu Stadium, Inter Miami were held to a 2-2 draw by a fearless New York Red Bulls side. 
-            Seventeen-year-old Adri Mehmeti scored his first MLS goal to equalize late in the game, while 18-year-old Julian Hall impressed with two assists.
-          </p>
-          <p>
-            Michael Bradley’s young squad showed real character and quality against a star-studded Miami team.
+            Louisville City continued their strong tradition of punching above their weight, eliminating Austin FC and advancing to the Round of 16.
           </p>
 
-          <h2 className="text-3xl font-bold mt-10 mb-4">Other Key Results from Matchday 7</h2>
+          <h2 className="text-3xl font-bold mt-10 mb-4">Expected Results and Solid Performances</h2>
+          <p>
+            Most top MLS teams advanced, but not without some scares:
+          </p>
           <ul className="list-disc ml-6 space-y-2">
-            <li><strong>Austin FC 1–2 LA Galaxy</strong> – Galaxy continue solid start with road win</li>
-            <li><strong>CF Montréal 1–2 Philadelphia Union</strong> – Union come from behind on the road</li>
-            <li><strong>Toronto FC 1–1 FC Cincinnati</strong> – Cincinnati play most of match with 10 men</li>
-            <li><strong>Vancouver Whitecaps 2–0 New York City FC</strong> – Comfortable win for the Canadian side</li>
+            <li><strong>Charlotte FC 6–0 Charlotte Independence</strong> – A ruthless showing from the MLS side.</li>
+            <li><strong>Columbus Crew 3–0 Richmond Kickers</strong> – Comfortable progress for the defending champions.</li>
+            <li><strong>NY Red Bulls 3–1 Pittsburgh Riverhounds SC</strong> – Solid win on the road.</li>
+            <li><strong>Houston Dynamo 4–1 El Paso Locomotive FC</strong> – Houston looked sharp in attack.</li>
+            <li><strong>San Jose Earthquakes 2–0 Phoenix Rising FC</strong> – Clean sheet and controlled performance.</li>
           </ul>
 
-          <h2 className="text-3xl font-bold mt-10 mb-4">Standings After Matchday 7</h2>
-          <p><strong>Eastern Conference (Top 6):</strong></p>
-          <ul className="list-disc ml-6">
-            <li>Nashville SC – 16 points</li>
-            <li>Chicago Fire – 13 points</li>
-            <li>Inter Miami – 12 points</li>
-            <li>New York City FC – 11 points</li>
-            <li>Charlotte FC – 11 points</li>
-            <li>Toronto FC – 11 points</li>
-          </ul>
+          <p>
+            Orlando City needed a late goal to beat FC Naples 1-0, while New England Revolution advanced past Rhode Island FC on penalties (1-1, 3-1 pens).
+          </p>
 
-          <p className="mt-6"><strong>Western Conference:</strong> LAFC remain near the top despite the loss, but Vancouver Whitecaps, San Jose Earthquakes, and now Portland are all breathing down their neck.</p>
+          <h2 className="text-3xl font-bold mt-10 mb-4">Standout Performances and Young Talent</h2>
+          <p>
+            Jude Terry (17 years old) scored a stunning debut goal for LAFC before they eventually lost to Portland. Adri Mehmeti (17) and Julian Hall (18) impressed for the New York Red Bulls in their 2-2 draw with Inter Miami.
+          </p>
+          <p>
+            The emergence of young academy products continues to be one of the most positive stories of the 2026 season.
+          </p>
 
-          <h2 className="text-3xl font-bold mt-10 mb-4">Key Takeaways from Matchday 7</h2>
+          <h2 className="text-3xl font-bold mt-10 mb-4">Key Takeaways from Round of 32</h2>
           <ul className="list-disc ml-6 space-y-2">
-            <li>Young talent is rising fast — Mehmeti, Hall, and Jude Terry showed real promise this weekend.</li>
-            <li>Defensive fragility remains a problem for several teams, especially in transition.</li>
-            <li>Late goals continue to decide matches — stoppage time drama is becoming a recurring theme.</li>
-            <li>Orlando City are in serious early-season trouble with just 4 points from 7 games.</li>
+            <li><strong>MLS vulnerability:</strong> Four MLS teams (D.C. United, Austin FC, Sporting KC, and others on penalties) are already out. This shows the danger of underestimating lower-league opponents in single-elimination format.</li>
+            <li><strong>Cup magic is alive:</strong> USL teams once again proved they can compete and create memorable nights.</li>
+            <li><strong>Scheduling pressure:</strong> With a congested MLS calendar, rotation and squad depth are becoming critical factors.</li>
+            <li><strong>Penalty drama:</strong> Two matches were decided from the spot, highlighting the mental toughness required in knockout football.</li>
           </ul>
+
+          <h2 className="text-3xl font-bold mt-10 mb-4">What’s Next?</h2>
+          <p>
+            The Round of 16 will be drawn soon and is scheduled for April 28–29, 2026. More top MLS teams will enter the competition, making the knockout stages even more competitive and unpredictable.
+          </p>
 
           <p className="mt-8 font-medium">
-            Matchday 7 once again proved that the 2026 MLS season is wide open and unpredictable. With young academy players stepping up and big teams dropping points, the race for the playoffs is already heating up.
+            The U.S. Open Cup continues to deliver excitement and opportunity. For lower-division clubs, it’s a chance to dream. For MLS teams, it’s a reminder that no match is easy — especially when silverware is on the line.
           </p>
 
         </section>
@@ -141,7 +139,7 @@ export default function MLSMatchday7Page() {
         {/* FOOTER */}
         <footer className="mt-12 border-t pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div className="text-sm text-gray-600">
-            <p>Published: April 13, 2026</p>
+            <p>Published: April 16, 2026</p>
             <p>Author: Mio Ristić</p>
           </div>
           <Link href="/news" className="text-sm text-gray-500 hover:text-gray-800">Back to news</Link>
