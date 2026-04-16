@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 134,
+  "title": "US Open Cup Round of 32 2026: Multiple Upsets as Four MLS Teams Eliminated",
+  "author": "Mio Ristić",
+  "date": "April 16, 2026",
+  "excerpt": "One Knoxville SC stuns D.C. United on penalties, Colorado Springs Switchbacks beat Sporting KC 3-0, Louisville City eliminates Austin FC and more. Full recap from the 2026 US Open Cup Round of 32.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-1705295975/crop/MM5DGNRXG45DEMBWHA5G433XMU5DAORTGM2A====/GettyImages-1705295975.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "slug": "us-open-cup-round-of-32-2026"
+},
+    {
   "id": 133,
   "title": "The Sudden Exit: Why Javier Mascherano Left Inter Miami Just Months After Their First MLS Cup",
   "author": "Mio Ristić",

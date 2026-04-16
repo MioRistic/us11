@@ -94,6 +94,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 134,
+  "title": "US Open Cup Round of 32 2026: Multiple Upsets as Four MLS Teams Eliminated",
+  "author": "Mio Ristić",
+  "date": "April 16, 2026",
+  "excerpt": "One Knoxville SC stuns D.C. United on penalties, Colorado Springs Switchbacks beat Sporting KC 3-0, Louisville City eliminates Austin FC and more. Full recap from the 2026 US Open Cup Round of 32.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-1705295975/crop/MM5DGNRXG45DEMBWHA5G433XMU5DAORTGM2A====/GettyImages-1705295975.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "link": "news/us-open-cup-round-of-32-2026"
+},
+  {
   "id": 133,
   "title": "The Sudden Exit: Why Javier Mascherano Left Inter Miami Just Months After Their First MLS Cup",
   "author": "Mio Ristić",
@@ -111,18 +120,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/60w8D5L3/01kp2p36s2sbzft3tvfe.jpg",
   "link": "news/mls-matchday-7-2026"
 },
-  {
-  "id": 131,
-  "title": "Neymar to FC Cincinnati? Preliminary Talks Underway as MLS Rumors Heat Up",
-  "author": "Mio Ristić",
-  "date": "April 11, 2026",
-  "excerpt": "The Athletic reports that FC Cincinnati has opened preliminary talks with Neymar Jr.’s camp. Could the Brazilian superstar really be heading to MLS? Full breakdown of the rumor, chances of the move, potential impact and what it would mean for FC Cincinnati.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2202920638/crop/MM5DGMJSGA5DCNZVGU5G433XMU5DEMRUHIYTENY=/GettyImages-2202920638.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "news/neymar-fc-cincinnati"
-},
-   
-  
-
+ 
 
   
 
