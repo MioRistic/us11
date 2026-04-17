@@ -1,12 +1,13 @@
+// app/layout.tsx
+
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import CookieConsent from "./components/CookieConsent";
 
-// ==================== FONTS ====================
+// Fonts
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -21,7 +22,7 @@ const geistMono = Geist_Mono({
   weight: ["400", "500", "700"],
 });
 
-// ==================== METADATA ====================
+// Metadata
 export const metadata = {
   title: {
     default: "US11",
@@ -30,7 +31,7 @@ export const metadata = {
   description: "MLS News and Analysis by US11",
 };
 
-// ==================== ROOT LAYOUT ====================
+// Root Layout
 export default function RootLayout({
   children,
 }: {
@@ -47,23 +48,36 @@ export default function RootLayout({
 
         <Footer />
 
-        {/* Cookie modal - Client Component */}
-        <CookieConsent />
+        {/* Cookiebot - Manual Blocking */}
+        <Script
+          id="Cookiebot"
+          src="https://consent.cookiebot.com/uc.js"
+          data-cbid="ea781e5b-1248-4e99-baa7-283e8debb2c5"
+          strategy="beforeInteractive"
+          async
+        />
 
-        {/* Google Analytics */}
+        {/* Google Analytics 4 (GA4) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-ZCKQ7R7PSQ"
           strategy="afterInteractive"
+          data-cookieconsent="statistics"
         />
 
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
+
             gtag('js', new Date());
 
+            // Default consent - everything denied until user accepts
             gtag('consent', 'default', {
-              analytics_storage: 'denied'
+              analytics_storage: 'denied',
+              ad_storage: 'denied',
+              functionality_storage: 'denied',
+              personalization_storage: 'denied',
+              security_storage: 'granted'
             });
 
             gtag('config', 'G-ZCKQ7R7PSQ', {
