@@ -1,5 +1,3 @@
-// app/layout.tsx
-
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
@@ -48,22 +46,25 @@ export default function RootLayout({
 
         <Footer />
 
-        {/* Cookiebot - Manual Blocking */}
+        {/* === COOKIEBOT - MANUAL BLOCKING === */}
         <Script
           id="Cookiebot"
           src="https://consent.cookiebot.com/uc.js"
           data-cbid="ea781e5b-1248-4e99-baa7-283e8debb2c5"
           strategy="beforeInteractive"
           async
+          type="text/javascript"
         />
 
-        {/* Google Analytics 4 (GA4) */}
+        {/* === GOOGLE ANALYTICS 4 (GA4) === */}
+        {/* gtag.js - označen za statistics category */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-ZCKQ7R7PSQ"
           strategy="afterInteractive"
           data-cookieconsent="statistics"
         />
 
+        {/* GA4 konfiguracija sa default denied consent-om */}
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
@@ -71,7 +72,7 @@ export default function RootLayout({
 
             gtag('js', new Date());
 
-            // Default consent - everything denied until user accepts
+            // Default consent - sve denied dok korisnik ne prihvati
             gtag('consent', 'default', {
               analytics_storage: 'denied',
               ad_storage: 'denied',
