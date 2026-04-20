@@ -203,10 +203,10 @@ export default function Home() {
   "link": "/blog/inter-miami-new-coach"
 },
 {
-  "title": "MLS Matchday 7 2026",
-  "subtitle": "Portland stun LAFC 2-1, Colorado win 6-2, Red Bulls kids earn point in Miami – full recap and key takeaways",
-  "image": "https://i.ibb.co/60w8D5L3/01kp2p36s2sbzft3tvfe.jpg",
-  "link": "/news/mls-matchday-7-2026"
+  "title": "MLS Matchday 8 2026",
+  "subtitle": "Messi magic in Denver, San Jose stun LAFC 4-1, 56 goals scored – full recap and key takeaways",
+  "image": "https://assets.goal.com/images/v3/getty-2271966216/crop/MM5DEMBQGA5DCMJSGU5G433XMU5DAORWHE3A====/GettyImages-2271966216.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/mls-matchday-8-2026"
 },
    {
   "title": "How Griezmann’s No. 7 Jersey Became Orlando City’s Fastest-Selling Kit",
