@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 136,
+  "title": "MLS Matchday 8 2026: Messi Magic in Denver, San Jose Shocks LAFC 4-1 and 56 Goals Across the League",
+  "author": "Mio Ristić",
+  "date": "April 20, 2026",
+  "excerpt": "Messi scores twice to secure a 3-2 comeback win for Inter Miami in Denver, San Jose Earthquakes stun LAFC 4-1 at BMO Stadium, and 56 goals were scored across a chaotic Matchday 8.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2271966216/crop/MM5DEMBQGA5DCMJSGU5G433XMU5DAORWHE3A====/GettyImages-2271966216.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "slug": "mls-matchday-8-2026"
+},
+    {
   "id": 135,
   "title": "The Messi Question: Why Argentina’s Greatest Still Hasn’t Decided on the 2026 World Cup",
   "author": "Mio Ristić",

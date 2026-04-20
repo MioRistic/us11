@@ -94,6 +94,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 136,
+  "title": "MLS Matchday 8 2026: Messi Magic in Denver, San Jose Shocks LAFC 4-1 and 56 Goals Across the League",
+  "author": "Mio Ristić",
+  "date": "April 20, 2026",
+  "excerpt": "Messi scores twice to secure a 3-2 comeback win for Inter Miami in Denver, San Jose Earthquakes stun LAFC 4-1 at BMO Stadium, and 56 goals were scored across a chaotic Matchday 8.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2271966216/crop/MM5DEMBQGA5DCMJSGU5G433XMU5DAORWHE3A====/GettyImages-2271966216.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "link": "news/mls-matchday-8-2026"
+},
+  {
   "id": 135,
   "title": "The Messi Question: Why Argentina’s Greatest Still Hasn’t Decided on the 2026 World Cup",
   "author": "Mio Ristić",
@@ -112,17 +121,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-1705295975/crop/MM5DGNRXG45DEMBWHA5G433XMU5DAORTGM2A====/GettyImages-1705295975.jpg?auto=webp&format=pjpg&width=1200&quality=80",
   "link": "news/us-open-cup-round-of-32-2026"
 },
-  {
-  "id": 133,
-  "title": "The Sudden Exit: Why Javier Mascherano Left Inter Miami Just Months After Their First MLS Cup",
-  "author": "Mio Ristić",
-  "date": "April 15, 2026",
-  "excerpt": "Javier Mascherano has stepped down as head coach of Inter Miami CF just four months after winning the club's first MLS Cup title. Full story, context and what it means for Messi and the Herons.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2215792362/crop/MM5DGNZQHA5DEMBYGY5G433XMU5DAORRHEZQ====/GettyImages-2215792362.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "news/mascherano-leaves-inter-miami"
-},
 
- 
 
   
 
