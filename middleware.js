@@ -23,7 +23,7 @@ export function middleware(request) {
     return NextResponse.next();
   }
 
-  // ================= CSP ZA GA4 =================
+  // ================= CONTENT SECURITY POLICY (bez Iubenda) =================
   const cspHeader = `
     default-src 'self';
     script-src 'self' 'unsafe-inline' https://www.googletagmanager.com;
@@ -32,22 +32,16 @@ export function middleware(request) {
       https://*.googletagmanager.com 
       https://region1.google-analytics.com 
       https://www.google-analytics.com;
-    img-src 'self' 
-      https://*.google-analytics.com 
-      https://*.googletagmanager.com 
-      data:;
+    img-src 'self' data: blob:;
     style-src 'self' 'unsafe-inline';
-    font-src 'self';
+    font-src 'self' data:;
     object-src 'none';
     base-uri 'self';
     form-action 'self';
     frame-ancestors 'none';
-    upgrade-insecure-requests;
   `.replace(/\s{2,}/g, " ").trim();
 
   const response = NextResponse.next();
-
-  // Postavi CSP header
   response.headers.set("Content-Security-Policy", cspHeader);
 
   return response;
