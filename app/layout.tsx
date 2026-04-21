@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
+import { GoogleAnalytics } from "@next/third-parties/google"; 
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
