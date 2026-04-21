@@ -46,40 +46,38 @@ export default function RootLayout({
 
         <Footer />
 
-        {/* === COOKIEBOT - MANUAL BLOCKING === */}
+        {/* === COOKIEBOT === */}
         <Script
           id="Cookiebot"
           src="https://consent.cookiebot.com/uc.js"
           data-cbid="ea781e5b-1248-4e99-baa7-283e8debb2c5"
           strategy="beforeInteractive"
-          async
           type="text/javascript"
         />
 
-        {/* === GOOGLE ANALYTICS 4 (GA4) === */}
-        {/* gtag.js - označen za statistics category */}
+        {/* === GOOGLE ANALYTICS 4 (GA4) - COOKIEBOT CONTROLLED === */}
+
+        {/* GA script loader */}
         <Script
+          id="ga4-src"
           src="https://www.googletagmanager.com/gtag/js?id=G-ZCKQ7R7PSQ"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
+          type="text/plain"
           data-cookieconsent="statistics"
         />
 
-        {/* GA4 konfiguracija sa default denied consent-om */}
-        <Script id="google-analytics" strategy="afterInteractive">
+        {/* GA config */}
+        <Script
+          id="ga4-config"
+          strategy="beforeInteractive"
+          type="text/plain"
+          data-cookieconsent="statistics"
+        >
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
 
             gtag('js', new Date());
-
-            // Default consent - sve denied dok korisnik ne prihvati
-            gtag('consent', 'default', {
-              analytics_storage: 'denied',
-              ad_storage: 'denied',
-              functionality_storage: 'denied',
-              personalization_storage: 'denied',
-              security_storage: 'granted'
-            });
 
             gtag('config', 'G-ZCKQ7R7PSQ', {
               page_path: window.location.pathname,
