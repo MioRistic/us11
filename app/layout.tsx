@@ -1,7 +1,8 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";   
 import Script from "next/script";
 import "./globals.css";
-import { GoogleAnalytics } from "@next/third-parties/google"; 
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -22,7 +23,7 @@ const geistMono = Geist_Mono({
 });
 
 // Metadata
-export const metadata = {
+export const metadata: Metadata = {
   title: {
     default: "US11",
     template: "%s | US11",
@@ -47,43 +48,8 @@ export default function RootLayout({
 
         <Footer />
 
-        {/* ================= COOKIEBOT ================= */}
-        <Script
-          id="Cookiebot"
-          src="https://consent.cookiebot.com/uc.js"
-          data-cbid="ea781e5b-1248-4e99-baa7-283e8debb2c5"
-          strategy="beforeInteractive"
-        />
-
-        {/* ================= GA4 ================= */}
-
-        {/* load gtag.js */}
-        <Script
-          id="ga4-src"
-          src="https://www.googletagmanager.com/gtag/js?id=G-ZCKQ7R7PSQ"
-          strategy="beforeInteractive"
-          type="text/plain"
-          data-cookieconsent="statistics"
-        />
-
-        {/* config */}
-        <Script
-          id="ga4-config"
-          strategy="beforeInteractive"
-          type="text/plain"
-          data-cookieconsent="statistics"
-        >
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-
-            gtag('js', new Date());
-
-            gtag('config', 'G-ZCKQ7R7PSQ', {
-              page_path: window.location.pathname,
-            });
-          `}
-        </Script>
+        {/* ================= GOOGLE ANALYTICS 4 ================= */}
+        <GoogleAnalytics gaId="G-ZCKQ7R7PSQ" />
       </body>
     </html>
   );
