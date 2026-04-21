@@ -46,18 +46,17 @@ export default function RootLayout({
 
         <Footer />
 
-        {/* === COOKIEBOT === */}
+        {/* ================= COOKIEBOT ================= */}
         <Script
           id="Cookiebot"
           src="https://consent.cookiebot.com/uc.js"
           data-cbid="ea781e5b-1248-4e99-baa7-283e8debb2c5"
           strategy="beforeInteractive"
-          type="text/javascript"
         />
 
-        {/* === GOOGLE ANALYTICS 4 (GA4) - COOKIEBOT CONTROLLED === */}
+        {/* ================= GA4 ================= */}
 
-        {/* GA script loader */}
+        {/* load gtag.js */}
         <Script
           id="ga4-src"
           src="https://www.googletagmanager.com/gtag/js?id=G-ZCKQ7R7PSQ"
@@ -66,7 +65,7 @@ export default function RootLayout({
           data-cookieconsent="statistics"
         />
 
-        {/* GA config */}
+        {/* config */}
         <Script
           id="ga4-config"
           strategy="beforeInteractive"
