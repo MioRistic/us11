@@ -94,13 +94,13 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
-  "id": 136,
-  "title": "MLS Matchday 8 2026: Messi Magic in Denver, San Jose Shocks LAFC 4-1 and 56 Goals Across the League",
+  "id": 137,
+  "title": "Midweek Madness: Goalkeeper Goals, De Paul & Suárez Magic, and San Jose’s Unstoppable Rise – MLS Matchday 9",
   "author": "Mio Ristić",
-  "date": "April 20, 2026",
-  "excerpt": "Messi scores twice to secure a 3-2 comeback win for Inter Miami in Denver, San Jose Earthquakes stun LAFC 4-1 at BMO Stadium, and 56 goals were scored across a chaotic Matchday 8.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2271966216/crop/MM5DEMBQGA5DCMJSGU5G433XMU5DAORWHE3A====/GettyImages-2271966216.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "news/mls-matchday-8-2026"
+  "date": "April 24, 2026",
+  "excerpt": "43 goals across 11 games, Luka Gavran scores a 96th-minute header, De Paul and Suárez shine for Inter Miami, two 4-4 thrillers and San Jose continue their dream run at the top of the table.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2270923706/crop/MM5DGOBSGI5DEMJVGA5G433XMU5DAORTGEYA====/GettyImages-2270923706.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "link": "news/mls-matchday-9-2026"
 },
   {
   "id": 135,

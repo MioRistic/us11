@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 137,
+  "title": "Midweek Madness: Goalkeeper Goals, De Paul & Suárez Magic, and San Jose’s Unstoppable Rise – MLS Matchday 9",
+  "author": "Mio Ristić",
+  "date": "April 24, 2026",
+  "excerpt": "43 goals across 11 games, Luka Gavran scores a 96th-minute header, De Paul and Suárez shine for Inter Miami, two 4-4 thrillers and San Jose continue their dream run at the top of the table.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2270923706/crop/MM5DGOBSGI5DEMJVGA5G433XMU5DAORTGEYA====/GettyImages-2270923706.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "slug": "mls-matchday-9-2026"
+},
+    {
   "id": 136,
   "title": "MLS Matchday 8 2026: Messi Magic in Denver, San Jose Shocks LAFC 4-1 and 56 Goals Across the League",
   "author": "Mio Ristić",
