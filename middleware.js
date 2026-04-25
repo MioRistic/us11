@@ -19,6 +19,7 @@ export function middleware(request) {
     "img-src 'self' data: blob: https:; " +
     "style-src 'self' 'unsafe-inline'; " +
     "font-src 'self' data:; " +
+    "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; " +
     "object-src 'none'; " +
     "base-uri 'self'; " +
     "form-action 'self'; " +

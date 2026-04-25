@@ -94,6 +94,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 138,
+  "title": "The Red Bulls’ $100 Million Statement: A New Performance Center That Could Reshape Their Future",
+  "author": "Mio Ristić",
+  "date": "April 25, 2026",
+  "excerpt": "Red Bull officially opens their massive new RWJBarnabas Health Performance Center – an 80-acre, $100M+ state-of-the-art facility designed to transform player development.",
+  "imageUrl": "https://i.postimg.cc/NfSk5KFy/zuetffftdtclzxthyw87.webp",
+  "link": "news/red-bulls-new-performance-center"
+},
+  {
   "id": 137,
   "title": "Midweek Madness: Goalkeeper Goals, De Paul & Suárez Magic, and San Jose’s Unstoppable Rise – MLS Matchday 9",
   "author": "Mio Ristić",
@@ -112,15 +121,7 @@ const blogPosts: Post[] = [
   "link": "news/messi-2026-world-cup-decision"
 },
   
-  {
-  "id": 134,
-  "title": "US Open Cup Round of 32 2026: Multiple Upsets as Four MLS Teams Eliminated",
-  "author": "Mio Ristić",
-  "date": "April 16, 2026",
-  "excerpt": "One Knoxville SC stuns D.C. United on penalties, Colorado Springs Switchbacks beat Sporting KC 3-0, Louisville City eliminates Austin FC and more. Full recap from the 2026 US Open Cup Round of 32.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-1705295975/crop/MM5DGNRXG45DEMBWHA5G433XMU5DAORTGM2A====/GettyImages-1705295975.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "news/us-open-cup-round-of-32-2026"
-},
+   
 
 
   
@@ -203,10 +204,10 @@ export default function Home() {
   "link": "/blog/inter-miami-new-coach"
 },
 {
-  "title": "MLS Matchday 8 2026",
-  "subtitle": "Messi magic in Denver, San Jose stun LAFC 4-1, 56 goals scored – full recap and key takeaways",
-  "image": "https://assets.goal.com/images/v3/getty-2271966216/crop/MM5DEMBQGA5DCMJSGU5G433XMU5DAORWHE3A====/GettyImages-2271966216.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/mls-matchday-8-2026"
+  "title": "The Red Bulls’ $100 Million Statement",
+  "subtitle": "A New Performance Center That Could Reshape Their Future",
+  "image": "https://i.postimg.cc/NfSk5KFy/zuetffftdtclzxthyw87.webp",
+  "link": "/news/red-bulls-new-performance-center"
 },
    {
   "title": "How Griezmann’s No. 7 Jersey Became Orlando City’s Fastest-Selling Kit",

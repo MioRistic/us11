@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 138,
+  "title": "The Red Bulls’ $100 Million Statement: A New Performance Center That Could Reshape Their Future",
+  "author": "Mio Ristić",
+  "date": "April 25, 2026",
+  "excerpt": "Red Bull officially opens their massive new RWJBarnabas Health Performance Center – an 80-acre, $100M+ state-of-the-art facility designed to transform player development.",
+  "imageUrl": "https://i.postimg.cc/NfSk5KFy/zuetffftdtclzxthyw87.webp",
+  "slug": "red-bulls-new-performance-center"
+},
+    {
   "id": 137,
   "title": "Midweek Madness: Goalkeeper Goals, De Paul & Suárez Magic, and San Jose’s Unstoppable Rise – MLS Matchday 9",
   "author": "Mio Ristić",
