@@ -26,16 +26,18 @@ const RedBullNewYorkPage = () => {
     },
   ];
 
-  const blogPosts = [
+  // ==================== NEWS ====================
+  const newsPosts = [
     {
       id: 1,
-      title: "Red Bull New York Continue Strong 2026 Campaign",
+      title: "The Red Bulls’ $100 Million Statement: Inside Their New Performance Center",
+      excerpt: "Red Bull officially opens their massive new 80-acre RWJBarnabas Health Performance Center.",
+      imageUrl: "https://i.postimg.cc/NfSk5KFy/zuetffftdtclzxthyw87.webp",
+      date: "April 25, 2026",
       author: "Mio Ristić",
-      date: "March 25, 2026",
-      excerpt: "The Red Bulls maintain their competitive edge in the Eastern Conference with solid performances.",
-      imageUrl: "https://nypost.com/wp-content/uploads/sites/2/2023/11/GettyImages-1781603559.jpg",
-      slug: "red-bull-new-york-2026",
+      slug: "red-bulls-new-performance-center"
     },
+    
   ];
 
   const shopItems = [
@@ -72,11 +74,48 @@ const RedBullNewYorkPage = () => {
   ];
 
   const squad = {
-    goalkeepers: ["Carlos Coronel", "Ryan Meara"],
-    defenders: ["Sean Nealis", "John Tolkin", "Dylan Nealis", "Curtis Ofori"],
-    midfielders: ["Emil Forsberg", "Lewis Morgan", "Daniel Edelman", "Peter Stroud"],
-    attackers: ["Eric Maxim Choupo-Moting", "Elias Manoel", "Cory Burke"],
-  };
+  goalkeepers: [
+    "A.J. Marcucci",
+    "Ethan Horvath",
+    "Aidan Stokes",
+    "John McCarthy"
+  ],
+  defenders: [
+    "Justin Che",
+    "Robert Voloder",
+    "Dylan Nealis",
+    "Julián Bazán",
+    "Jahkeele Marshall-Rutty",
+    "Tim Parker",
+    "Joyeux Masanka Bungi",
+    "Omar Valencia",
+    "Juan Mina",
+    "Matthew Dos Santos"
+  ],
+  midfielders: [
+    "Gustav Berggren",
+    "Dennis Gjengaar",
+    "Ronald Donkor",
+    "Emil Forsberg",
+    "Cameron Harper",
+    "Aiden Jarvis",
+    "Adri Mehmeti",
+    "Mohammed Sofo"
+  ],
+  attackers: [
+    "Cade Cowell",
+    "Julian Hall",
+    "Tanner Rosborough",
+    "Jorge Ruvalcaba",
+    "Roald Mitchell",
+    "Andy Rojas",
+    "Eric Maxim Choupo-Moting",
+    "Nehuen Benedetti",
+    "Rafael Mosquera",
+    "Serge Ngoma"
+  ],
+  manager: "Sandro Schwarz",   // ← Dodato
+};
 
   return (
     <div className="bg-white min-h-screen text-[#0d1117]">
@@ -119,11 +158,11 @@ const RedBullNewYorkPage = () => {
         </div>
       </div>
 
-      {/* Tabs - Crvena boja Red Bullsa */}
+      {/* Tabs - Bez Blog sekcije */}
       <div className="bg-[#020617] text-white sticky top-0 z-40 border-b border-gray-700">
         <div className="max-w-6xl mx-auto px-4 md:px-6">
           <div className="flex overflow-x-auto gap-6 md:gap-10 py-4 whitespace-nowrap scrollbar-hide">
-            {['overview', 'news', 'blog', 'squad', 'shop'].map((tab) => (
+            {['overview', 'news', 'squad', 'shop'].map((tab) => (
               <button 
                 key={tab}
                 onClick={() => setActiveTab(tab)} 
@@ -197,8 +236,8 @@ const RedBullNewYorkPage = () => {
               <div>
                 <h2 className="text-3xl font-black mb-6 text-[#020617]">Latest News</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                  {blogPosts.map((post) => (
-                    <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                  {newsPosts.map((post) => (
+                    <Link key={post.id} href={`/news/${post.slug}`} className="group">
                       <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
                         <div className="relative h-56">
                           <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
@@ -220,30 +259,8 @@ const RedBullNewYorkPage = () => {
             <div>
               <h2 className="text-3xl font-black mb-6 text-[#020617]">All News</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                {blogPosts.map((post) => (
-                  <Link key={post.id} href={`/blog/${post.slug}`} className="group">
-                    <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
-                      <div className="relative h-56">
-                        <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
-                      </div>
-                      <div className="p-6">
-                        <h3 className="text-xl font-bold mb-3 group-hover:text-red-600 line-clamp-2">{post.title}</h3>
-                        <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
-                        <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
-                      </div>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {activeTab === 'blog' && (
-            <div>
-              <h2 className="text-3xl font-black mb-6 text-[#020617]">Blog</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                {blogPosts.map((post) => (
-                  <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                {newsPosts.map((post) => (
+                  <Link key={post.id} href={`/news/${post.slug}`} className="group">
                     <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
                       <div className="relative h-56">
                         <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
@@ -302,7 +319,6 @@ const RedBullNewYorkPage = () => {
             </div>
           )}
 
-          {/* SHOP TAB */}
           {activeTab === 'shop' && (
             <div>
               <div className="flex items-center gap-3 mb-8">

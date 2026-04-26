@@ -94,6 +94,24 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 140,
+  "title": "Chicago Fire Cool on Lewandowski as Cuypers Surge Reshapes Their Summer Plans",
+  "author": "Mio Ristić",
+  "date": "April 26, 2026",
+  "excerpt": "Chicago Fire have cooled their interest in Robert Lewandowski after a strong start from Hugo Cuypers. The Polish striker's form has dipped, and the Fire are looking toward a more sustainable long-term project.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2229420776/crop/MM5DENZZGY5DCNJXGM5G433XMU5DAORRGQ3A====/GettyImages-2229420776.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "link": "news/chicago-fire-cool-on-lewandowski"
+},
+  {
+  "id": 139,
+  "title": "Still No Magic at Nu Stadium: Messi and Suárez Draw a Blank as Inter Miami Fail to Win at Home Again",
+  "author": "Mio Ristić",
+  "date": "April 26, 2026",
+  "excerpt": "Inter Miami remain winless at their new Nu Stadium after a frustrating 1-1 draw with New England Revolution. Despite 1,500 career goals between them, Messi and Suárez couldn't find the spark.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2273149300/crop/MM5DENBWGQ5DCMZYGY5G433XMU5DKNRRHIYTIMA=/GettyImages-2273149300.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "link": "news/still-no-magic-nu-stadium"
+},
+  {
   "id": 138,
   "title": "The Red Bulls’ $100 Million Statement: A New Performance Center That Could Reshape Their Future",
   "author": "Mio Ristić",
@@ -102,24 +120,8 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.postimg.cc/NfSk5KFy/zuetffftdtclzxthyw87.webp",
   "link": "news/red-bulls-new-performance-center"
 },
-  {
-  "id": 137,
-  "title": "Midweek Madness: Goalkeeper Goals, De Paul & Suárez Magic, and San Jose’s Unstoppable Rise – MLS Matchday 9",
-  "author": "Mio Ristić",
-  "date": "April 24, 2026",
-  "excerpt": "43 goals across 11 games, Luka Gavran scores a 96th-minute header, De Paul and Suárez shine for Inter Miami, two 4-4 thrillers and San Jose continue their dream run at the top of the table.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2270923706/crop/MM5DGOBSGI5DEMJVGA5G433XMU5DAORTGEYA====/GettyImages-2270923706.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "news/mls-matchday-9-2026"
-},
-  {
-  "id": 135,
-  "title": "The Messi Question: Why Argentina’s Greatest Still Hasn’t Decided on the 2026 World Cup",
-  "author": "Mio Ristić",
-  "date": "April 16, 2026",
-  "excerpt": "With the 2026 World Cup just months away, Lionel Messi has still not confirmed whether he will participate. Scaloni gives him full freedom as the biggest question looms over Argentina.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2268176070/crop/MM5DGNBSGQ5DCOJSGY5G433XMU5DGORQ/GettyImages-2268176070.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "news/messi-2026-world-cup-decision"
-},
+
+
   
    
 
@@ -198,29 +200,25 @@ export default function Home() {
 // }
 // ,
 {
-  "title": "Who Should Replace Javier Mascherano at Inter Miami?",
-  "subtitle": "Ranking the Leading Candidates",
-  "image": "https://assets.goal.com/images/v3/getty-2219044340/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2219044340.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/blog/inter-miami-new-coach"
+  "title": "Still No Magic at Nu Stadium",
+  "subtitle": "Messi and Suárez Draw a Blank as Inter Miami Fail to Win at Home Again",
+  "image": "https://assets.goal.com/images/v3/getty-2273149300/crop/MM5DENBWGQ5DCMZYGY5G433XMU5DKNRRHIYTIMA=/GettyImages-2273149300.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/still-no-magic-nu-stadium"
 },
+{
+  "title": "Still No Magic at Nu Stadium",
+  "subtitle": "Messi and Suárez Draw a Blank as Inter Miami Fail to Win at Home Again",
+  "image": "https://assets.goal.com/images/v3/getty-2273149300/crop/MM5DENBWGQ5DCMZYGY5G433XMU5DKNRRHIYTIMA=/GettyImages-2273149300.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/still-no-magic-nu-stadium"
+},
+
 {
   "title": "The Red Bulls’ $100 Million Statement",
   "subtitle": "A New Performance Center That Could Reshape Their Future",
   "image": "https://i.postimg.cc/NfSk5KFy/zuetffftdtclzxthyw87.webp",
   "link": "/news/red-bulls-new-performance-center"
 },
-   {
-  "title": "How Griezmann’s No. 7 Jersey Became Orlando City’s Fastest-Selling Kit",
-  "subtitle": "Griezmann #7 already breaking sales records – Home Perfect Storm & Sunken Treasure Away kits",
-  "image": "https://i.ibb.co/nNsnK2BN/salario-antoine-griezmann-orlando-city-mls-principal.jpg",
-  "link": "/blog/griezmann-orlando-city-jersey"
-},
-    {
-  "title": "The Messi Question",
-  "subtitle": "Why Argentina’s Greatest Still Hasn’t Decided on the 2026 World Cup",
-  "image": "https://assets.goal.com/images/v3/getty-2268176070/crop/MM5DGNBSGQ5DCOJSGY5G433XMU5DGORQ/GettyImages-2268176070.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/messi-2026-world-cup-decision"
-}
+
   ];
 
   const staffPicks = [
@@ -319,22 +317,29 @@ export default function Home() {
   </Link>
 
 
-  {/* Progress Lines - ispod teksta, responsive */}
-  <div className="absolute bottom-6 md:bottom-8 left-6 md:left-1/2 md:-translate-x-1/2 flex gap-3 z-20">
-    {heroItems.map((_, index) => (
-      <div
+ {/* PROGRESS BARS - JUVENTUS STYLE */}
+<div className="absolute bottom-8 md:bottom-10 left-1/2 transform -translate-x-1/2 flex gap-3 z-20 hidden md:flex">
+  {heroItems.map((_, index) => {
+    const isActive = index === currentIndex;
+    return (
+      <button
         key={index}
-        className="w-10 md:w-12 h-[3px] bg-white/40 rounded-full overflow-hidden cursor-pointer"
         onClick={() => setCurrentIndex(index)}
+        className="relative h-[3px] w-10 md:w-14 overflow-hidden rounded-full cursor-pointer hover:opacity-80 transition-opacity duration-300"
       >
-        <div
-          className={`h-full bg-white transition-all duration-[8000ms] ease-linear ${
-            index === currentIndex ? 'w-full' : 'w-0'
-          }`}
-        />
-      </div>
-    ))}
-  </div>
+        {/* Base line */}
+        <div className="absolute inset-0 bg-gray-300/30 rounded-full" />
+
+        {/* Active progress */}
+        {isActive && (
+          <div
+            className="absolute inset-0 bg-gradient-to-r from-black-400 to-white-600 rounded-full animate-progress"
+          />
+        )}
+      </button>
+    );
+  })}
+</div>
 </section>
 
  

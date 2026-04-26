@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 140,
+  "title": "Chicago Fire Cool on Lewandowski as Cuypers Surge Reshapes Their Summer Plans",
+  "author": "Mio Ristić",
+  "date": "April 26, 2026",
+  "excerpt": "Chicago Fire have cooled their interest in Robert Lewandowski after a strong start from Hugo Cuypers. The Polish striker's form has dipped, and the Fire are looking toward a more sustainable long-term project.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2229420776/crop/MM5DENZZGY5DCNJXGM5G433XMU5DAORRGQ3A====/GettyImages-2229420776.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "slug": "chicago-fire-cool-on-lewandowski"
+},
+    {
+  "id": 139,
+  "title": "Still No Magic at Nu Stadium: Messi and Suárez Draw a Blank as Inter Miami Fail to Win at Home Again",
+  "author": "Mio Ristić",
+  "date": "April 26, 2026",
+  "excerpt": "Inter Miami remain winless at their new Nu Stadium after a frustrating 1-1 draw with New England Revolution. Despite 1,500 career goals between them, Messi and Suárez couldn't find the spark.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2273149300/crop/MM5DENBWGQ5DCMZYGY5G433XMU5DKNRRHIYTIMA=/GettyImages-2273149300.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "slug": "still-no-magic-nu-stadium"
+},
+    {
   "id": 138,
   "title": "The Red Bulls’ $100 Million Statement: A New Performance Center That Could Reshape Their Future",
   "author": "Mio Ristić",
