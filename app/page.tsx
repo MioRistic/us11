@@ -94,6 +94,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 141,
+  "title": "Americans Abroad: Pulisic and McKennie Neutralize Each Other as Aaronson’s Leeds Fall Just Short at Wembley",
+  "author": "Mio Ristić",
+  "date": "April 27, 2026",
+  "excerpt": "Christian Pulisic and Weston McKennie played out a goalless draw in San Siro, Brenden Aaronson was denied at Wembley, and Haji Wright lifted the Championship title with Coventry City.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2260113972/crop/MM5DINZQGM5DENRUGU5G433XMU5DAORSGQ2Q====/GettyImages-2260113972.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "link": "news/americans-abroad-april-27"
+},
+  {
   "id": 140,
   "title": "Chicago Fire Cool on Lewandowski as Cuypers Surge Reshapes Their Summer Plans",
   "author": "Mio Ristić",
@@ -111,17 +120,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2273149300/crop/MM5DENBWGQ5DCMZYGY5G433XMU5DKNRRHIYTIMA=/GettyImages-2273149300.jpg?auto=webp&format=pjpg&width=1200&quality=80",
   "link": "news/still-no-magic-nu-stadium"
 },
-  {
-  "id": 138,
-  "title": "The Red Bulls’ $100 Million Statement: A New Performance Center That Could Reshape Their Future",
-  "author": "Mio Ristić",
-  "date": "April 25, 2026",
-  "excerpt": "Red Bull officially opens their massive new RWJBarnabas Health Performance Center – an 80-acre, $100M+ state-of-the-art facility designed to transform player development.",
-  "imageUrl": "https://i.postimg.cc/NfSk5KFy/zuetffftdtclzxthyw87.webp",
-  "link": "news/red-bulls-new-performance-center"
-},
-
-
+ 
   
    
 
@@ -200,10 +199,10 @@ export default function Home() {
 // }
 // ,
 {
-  "title": "Still No Magic at Nu Stadium",
-  "subtitle": "Messi and Suárez Draw a Blank as Inter Miami Fail to Win at Home Again",
-  "image": "https://assets.goal.com/images/v3/getty-2273149300/crop/MM5DENBWGQ5DCMZYGY5G433XMU5DKNRRHIYTIMA=/GettyImages-2273149300.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/still-no-magic-nu-stadium"
+  "title": "Americans Abroad",
+  "subtitle": "Pulisic and McKennie Neutralize Each Other as Aaronson’s Leeds Fall Just Short at Wembley",
+  "image": "https://assets.goal.com/images/v3/getty-2260113972/crop/MM5DINZQGM5DENRUGU5G433XMU5DAORSGQ2Q====/GettyImages-2260113972.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/americans-abroad-april-27"
 },
 {
   "title": "Still No Magic at Nu Stadium",
