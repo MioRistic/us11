@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 143,
+  "title": "Vancouver Whitecaps Urge Local Buyers to Step Forward as Relocation Speculation Intensifies",
+  "author": "Mio Ristić",
+  "date": "April 28, 2026",
+  "excerpt": "Vancouver Whitecaps issue public statement calling for local investors amid growing speculation of a possible relocation, with Las Vegas emerging as the leading candidate.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2271203741/crop/MM5DEMJXGE5DCMRSGE5G433XMU5DCNBSHIZTGNA=/GettyImages-2271203741.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "slug": "vancouver-whitecaps-ownership-statement"
+},
+    {
   "id": 141,
   "title": "MLS Matchday 10 2026: Vancouver’s Ruthless Recruitment, Turner’s Second Coming and the League’s Emerging Truths",
   "author": "Mio Ristić",

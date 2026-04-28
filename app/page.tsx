@@ -94,6 +94,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 143,
+  "title": "Vancouver Whitecaps Urge Local Buyers to Step Forward as Relocation Speculation Intensifies",
+  "author": "Mio Ristić",
+  "date": "April 28, 2026",
+  "excerpt": "Vancouver Whitecaps issue public statement calling for local investors amid growing speculation of a possible relocation, with Las Vegas emerging as the leading candidate.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2271203741/crop/MM5DEMJXGE5DCMRSGE5G433XMU5DCNBSHIZTGNA=/GettyImages-2271203741.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "link": "news/vancouver-whitecaps-ownership-statement"
+},
+  {
   "id": 142,
   "title": "MLS Matchday 10 2026: Vancouver’s Ruthless Recruitment, Turner’s Second Coming and the League’s Emerging Truths",
   "author": "Mio Ristić",
@@ -111,15 +120,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2260113972/crop/MM5DINZQGM5DENRUGU5G433XMU5DAORSGQ2Q====/GettyImages-2260113972.jpg?auto=webp&format=pjpg&width=1200&quality=80",
   "link": "news/americans-abroad-april-27"
 },
-  {
-  "id": 140,
-  "title": "Chicago Fire Cool on Lewandowski as Cuypers Surge Reshapes Their Summer Plans",
-  "author": "Mio Ristić",
-  "date": "April 26, 2026",
-  "excerpt": "Chicago Fire have cooled their interest in Robert Lewandowski after a strong start from Hugo Cuypers. The Polish striker's form has dipped, and the Fire are looking toward a more sustainable long-term project.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2229420776/crop/MM5DENZZGY5DCNJXGM5G433XMU5DAORRGQ3A====/GettyImages-2229420776.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "news/chicago-fire-cool-on-lewandowski"
-},
+ 
   
   
    
@@ -199,6 +200,12 @@ export default function Home() {
 // }
 // ,
 {
+  "title": "Vancouver Whitecaps Urge Local Buyers to Step Forward",
+  "subtitle": "Relocation Speculation Intensifies as Club Appeals for Local Investment",
+  "image": "https://assets.goal.com/images/v3/getty-2271203741/crop/MM5DEMJXGE5DCMRSGE5G433XMU5DCNBSHIZTGNA=/GettyImages-2271203741.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/vancouver-whitecaps-ownership-statement"
+},
+{
   "title": "MLS Matchday 10 2026",
   "subtitle": "Vancouver’s Ruthless Recruitment, Turner’s Second Coming and the League’s Emerging Truths",
   "image": "https://assets.goal.com/images/v3/getty-2273145374/crop/MM5DIMJXHE5DEMZVGE5G433XMU5DAORSGE4A====/GettyImages-2273145374.jpg?auto=webp&format=pjpg&width=1920&quality=60",
@@ -217,12 +224,6 @@ export default function Home() {
   "link": "/news/still-no-magic-nu-stadium"
 },
 
-{
-  "title": "The Red Bulls’ $100 Million Statement",
-  "subtitle": "A New Performance Center That Could Reshape Their Future",
-  "image": "https://i.postimg.cc/NfSk5KFy/zuetffftdtclzxthyw87.webp",
-  "link": "/news/red-bulls-new-performance-center"
-},
 
   ];
 
