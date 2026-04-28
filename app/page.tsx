@@ -94,6 +94,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 142,
+  "title": "MLS Matchday 10 2026: Vancouver’s Ruthless Recruitment, Turner’s Second Coming and the League’s Emerging Truths",
+  "author": "Mio Ristić",
+  "date": "April 28, 2026",
+  "excerpt": "Vancouver’s elite recruitment, Matt Turner’s resurgence, Max Arfsten’s evolution, and more key takeaways from a revealing Matchday 10 in the 2026 MLS season.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2273145374/crop/MM5DIMJXHE5DEMZVGE5G433XMU5DAORSGE4A====/GettyImages-2273145374.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "link": "news/mls-matchday-10-2026"
+},
+  {
   "id": 141,
   "title": "Americans Abroad: Pulisic and McKennie Neutralize Each Other as Aaronson’s Leeds Fall Just Short at Wembley",
   "author": "Mio Ristić",
@@ -111,16 +120,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2229420776/crop/MM5DENZZGY5DCNJXGM5G433XMU5DAORRGQ3A====/GettyImages-2229420776.jpg?auto=webp&format=pjpg&width=1200&quality=80",
   "link": "news/chicago-fire-cool-on-lewandowski"
 },
-  {
-  "id": 139,
-  "title": "Still No Magic at Nu Stadium: Messi and Suárez Draw a Blank as Inter Miami Fail to Win at Home Again",
-  "author": "Mio Ristić",
-  "date": "April 26, 2026",
-  "excerpt": "Inter Miami remain winless at their new Nu Stadium after a frustrating 1-1 draw with New England Revolution. Despite 1,500 career goals between them, Messi and Suárez couldn't find the spark.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2273149300/crop/MM5DENBWGQ5DCMZYGY5G433XMU5DKNRRHIYTIMA=/GettyImages-2273149300.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "news/still-no-magic-nu-stadium"
-},
- 
+  
   
    
 
@@ -198,6 +198,12 @@ export default function Home() {
 //   "link": "/news/griezmann-orlando-city-jersey"
 // }
 // ,
+{
+  "title": "MLS Matchday 10 2026",
+  "subtitle": "Vancouver’s Ruthless Recruitment, Turner’s Second Coming and the League’s Emerging Truths",
+  "image": "https://assets.goal.com/images/v3/getty-2273145374/crop/MM5DIMJXHE5DEMZVGE5G433XMU5DAORSGE4A====/GettyImages-2273145374.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/mls-matchday-10-2026"
+},
 {
   "title": "Americans Abroad",
   "subtitle": "Pulisic and McKennie Neutralize Each Other as Aaronson’s Leeds Fall Just Short at Wembley",

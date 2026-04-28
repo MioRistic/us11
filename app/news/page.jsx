@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 141,
+  "title": "MLS Matchday 10 2026: Vancouver’s Ruthless Recruitment, Turner’s Second Coming and the League’s Emerging Truths",
+  "author": "Mio Ristić",
+  "date": "April 28, 2026",
+  "excerpt": "Vancouver’s elite recruitment, Matt Turner’s resurgence, Max Arfsten’s evolution, and more key takeaways from a revealing Matchday 10 in the 2026 MLS season.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2273145374/crop/MM5DIMJXHE5DEMZVGE5G433XMU5DAORSGE4A====/GettyImages-2273145374.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "slug": "mls-matchday-10-2026"
+},
+    {
   "id": 140,
   "title": "Chicago Fire Cool on Lewandowski as Cuypers Surge Reshapes Their Summer Plans",
   "author": "Mio Ristić",

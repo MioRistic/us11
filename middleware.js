@@ -14,8 +14,8 @@ export function middleware(request) {
 
   // ČIST CSP - bez ikakvih pametnih navodnika ili specijalnih karaktera
   const cspHeader = "default-src 'self'; " +
-    "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; " +
-    "connect-src 'self' https://*.google-analytics.com https://*.googletagmanager.com https://region1.google-analytics.com https://www.google-analytics.com; " +
+    "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://platform.twitter.com; " +
+    "connect-src 'self' https://*.google-analytics.com https://*.googletagmanager.com https://region1.google-analytics.com https://www.google-analytics.com https://*.twitter.com https://*.x.com; " +
     "img-src 'self' data: blob: https:; " +
     "style-src 'self' 'unsafe-inline'; " +
     "font-src 'self' data:; " +
