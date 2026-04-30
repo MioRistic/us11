@@ -94,36 +94,33 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
-  "id": 143,
-  "title": "Vancouver Whitecaps Urge Local Buyers to Step Forward as Relocation Speculation Intensifies",
+  "id": 147,
+  "title": "Johnny Cardoso Writes His Name Into American Soccer History with Composed Champions League Semifinal Debut",
   "author": "Mio Ristić",
-  "date": "April 28, 2026",
-  "excerpt": "Vancouver Whitecaps issue public statement calling for local investors amid growing speculation of a possible relocation, with Las Vegas emerging as the leading candidate.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2271203741/crop/MM5DEMJXGE5DCMRSGE5G433XMU5DCNBSHIZTGNA=/GettyImages-2271203741.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "news/vancouver-whitecaps-ownership-statement"
+  "date": "April 30, 2026",
+  "excerpt": "24-year-old American midfielder Johnny Cardoso started in the Champions League semifinals for Atlético Madrid and delivered a mature performance against Arsenal, becoming only the third American to start at this stage.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2249616690/crop/MM5DENJTGQ5DCNBSGU5G433XMU5DAORRGMZA====/GettyImages-2249616690.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "link": "news/johnny-cardoso-champions-league-semifinal-2026"
+},
+   {
+  "id": 146,
+  "title": "Timo Werner, Player of the Month: The Signing That Changed Everything for San Jose",
+  "author": "Mio Ristić",
+  "date": "April 30, 2026",
+  "excerpt": "Timo Werner named MLS Player of the Month for April after an outstanding month with 4 goals and 3 assists, leading San Jose Earthquakes to a historic 5-0-0 record and the top of the Western Conference.",
+  "imageUrl": "https://assets.goal.com/images/v3/blte8f463fafee800c1/1600.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "link": "/news/timo-werner-player-of-the-month-2026"
 },
   {
-  "id": 142,
-  "title": "MLS Matchday 10 2026: Vancouver’s Ruthless Recruitment, Turner’s Second Coming and the League’s Emerging Truths",
+  "id": 145,
+  "title": "LAFC Dramatically Defeat Toluca 2-1 in First Leg of 2026 Concacaf Champions Cup Semifinals",
   "author": "Mio Ristić",
-  "date": "April 28, 2026",
-  "excerpt": "Vancouver’s elite recruitment, Matt Turner’s resurgence, Max Arfsten’s evolution, and more key takeaways from a revealing Matchday 10 in the 2026 MLS season.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2273145374/crop/MM5DIMJXHE5DEMZVGE5G433XMU5DAORSGE4A====/GettyImages-2273145374.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "news/mls-matchday-10-2026"
+  "date": "April 30, 2026",
+  "excerpt": "Nkosi Tafari scores a dramatic stoppage-time winner assisted by Son Heung-min as LAFC take a narrow 2-1 lead over Toluca in the CCC semifinals first leg.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2183798831/crop/MM5DGMZUGQ5DCOBYGE5G433XMU5DQMRVHI3TS===/GettyImages-2183798831.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "link": "/news/lafc-toluca-concacaf-semifinal-2026"
 },
-  {
-  "id": 141,
-  "title": "Americans Abroad: Pulisic and McKennie Neutralize Each Other as Aaronson’s Leeds Fall Just Short at Wembley",
-  "author": "Mio Ristić",
-  "date": "April 27, 2026",
-  "excerpt": "Christian Pulisic and Weston McKennie played out a goalless draw in San Siro, Brenden Aaronson was denied at Wembley, and Haji Wright lifted the Championship title with Coventry City.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2260113972/crop/MM5DINZQGM5DENRUGU5G433XMU5DAORSGQ2Q====/GettyImages-2260113972.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "news/americans-abroad-april-27"
-},
- 
-  
-  
-   
+
 
 
   
@@ -133,6 +130,7 @@ const blogPosts: Post[] = [
 
 // Jerseys Blog JSON
 const jerseysBlogPosts: Post[] = [
+
   {
   "id": 1008,
   "title": "Griezmann #7 Jersey Already Breaking Sales Records at Orlando City",
@@ -140,7 +138,7 @@ const jerseysBlogPosts: Post[] = [
   "date": "April 11, 2026",
   "excerpt": "Antoine Griezmann's No.7 Orlando City jerseys (Home Perfect Storm & Sunken Treasure Away) went on sale immediately after the announcement and are already among the fastest-selling kits in club history. Full story, jersey details, and where to buy now.",
   "imageUrl": "https://i.ibb.co/nNsnK2BN/salario-antoine-griezmann-orlando-city-mls-principal.jpg",
-  "link": "blog/griezmann-orlando-city-jersey"
+  "link": "/blog/griezmann-orlando-city-jersey"
 },
   {
   "id": 1007,
@@ -149,7 +147,7 @@ const jerseysBlogPosts: Post[] = [
   "date": "March 16, 2026",
   "excerpt": "Nike and U.S. Soccer reveal bold 2026 World Cup kits: wavy red-white Stripes home jersey ($100 replica) and navy Stars away with metallic jacquard. Full breakdown, player input, and where to shop authentic & replica jerseys now.",
   "imageUrl": "https://assets.goal.com/images/v3/blt532e5fdd75fc8dc0/crop/MM5DIMBZGM5DEMZQGI5G433XMU5DAORYHA======/USSF_MNT_Kit_Launch_Vogue_mntjerseyshoot_11-09-25-124.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "blog/usmnt-nike-2026-kits-unveiled"
+  "link": "/blog/usmnt-nike-2026-kits-unveiled"
 },
   {
   "id": 1006,
@@ -158,7 +156,7 @@ const jerseysBlogPosts: Post[] = [
   "date": "March 16, 2026",
   "excerpt": "Adidas revives the legendary 1994 USMNT away jersey with its iconic denim wash and scattered stars – now available for $89.99 (jersey), $119.99 (track jacket), $59.99 (shorts), and more. Pure 1994 World Cup nostalgia meets 2026 World Cup hype – full collection in the shop!",
   "imageUrl": "https://assets.goal.com/images/v3/bltf53f7a9a05821020/crop/MM5DIMBYGU5DEMRZHA5G433XMU5DAORYHE2Q====/U.S%20Denim%20Kit%20Collection%2024.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "blog/adidas-usa-1994-denim-collection"
+  "link": "/blog/adidas-usa-1994-denim-collection"
 },
  
 
@@ -174,7 +172,7 @@ const hallOfFamePosts: Post[] = [
   "excerpt": "From Arsenal and Barcelona to New York Red Bulls — how Thierry Henry elevated MLS with elegance, intelligence and leadership.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-459466526/crop/MM5DCNZWGA5DSOJQHJXG653FHIZDGNR2GE3TM===/GettyImages-459466526.jpg?auto=webp&format=pjpg&width=1200&quality=80",
   "imagePosition": "center",
-  "link": "blog/mls-hall-of-fame/thierry-henry"
+  "link": "/blog/mls-hall-of-fame/thierry-henry"
 },
   {
   id: 86,
@@ -184,12 +182,17 @@ const hallOfFamePosts: Post[] = [
   excerpt: "David Beckham's move to LA Galaxy in 2007 transformed MLS, elevating the league’s global profile and leaving a lasting legacy.",
   imageUrl: "https://i.ibb.co/kVfLGrpP/david-beckham-soccer-field-22396823.webp",
   imagePosition: "10% 5%", // sada TS ovo prepoznaje
-  link: "blog/mls-hall-of-fame/david-beckham"
+  link: "/blog/mls-hall-of-fame/david-beckham"
 },
 ];
 
 export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const heroItems = [
 //     {
@@ -200,31 +203,32 @@ export default function Home() {
 // }
 // ,
 {
-  "title": "Vancouver Whitecaps Urge Local Buyers to Step Forward",
-  "subtitle": "Relocation Speculation Intensifies as Club Appeals for Local Investment",
-  "image": "https://assets.goal.com/images/v3/getty-2271203741/crop/MM5DEMJXGE5DCMRSGE5G433XMU5DCNBSHIZTGNA=/GettyImages-2271203741.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/vancouver-whitecaps-ownership-statement"
+  "title": "Johnny Cardoso Writes His Name Into American Soccer History",
+  "subtitle": "24-year-old American midfielder delivers composed Champions League semifinal debut for Atlético Madrid against Arsenal",
+  "image": "https://assets.goal.com/images/v3/getty-2249616690/crop/MM5DENJTGQ5DCNBSGU5G433XMU5DAORRGMZA====/GettyImages-2249616690.jpg?auto=webp&format=pjpg&width=1920&quality=80",
+  "link": "/news/johnny-cardoso-champions-league-semifinal-2026"
 },
 {
-  "title": "MLS Matchday 10 2026",
-  "subtitle": "Vancouver’s Ruthless Recruitment, Turner’s Second Coming and the League’s Emerging Truths",
-  "image": "https://assets.goal.com/images/v3/getty-2273145374/crop/MM5DIMJXHE5DEMZVGE5G433XMU5DAORSGE4A====/GettyImages-2273145374.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/mls-matchday-10-2026"
+  "title": "Timo Werner, Player of the Month",
+  "subtitle": "4 goals and 3 assists in April as Werner leads Earthquakes to perfect 5-0-0 month and top of the Western Conference",
+  "image": "https://assets.goal.com/images/v3/blte8f463fafee800c1/1600.jpg?auto=webp&format=pjpg&width=1920&quality=80",
+  "link": "/news/timo-werner-player-of-the-month-2026"
 },
 {
-  "title": "Americans Abroad",
-  "subtitle": "Pulisic and McKennie Neutralize Each Other as Aaronson’s Leeds Fall Just Short at Wembley",
-  "image": "https://assets.goal.com/images/v3/getty-2260113972/crop/MM5DINZQGM5DENRUGU5G433XMU5DAORSGQ2Q====/GettyImages-2260113972.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/americans-abroad-april-27"
+  "title": "LAFC 2-1 Toluca: Dramatic Stoppage-Time Winner",
+  "subtitle": "Nkosi Tafari header in 91st minute gives LAFC advantage in Concacaf Champions Cup semifinals",
+  "image": "https://assets.goal.com/images/v3/getty-2183798831/crop/MM5DGMZUGQ5DCOBYGE5G433XMU5DQMRVHI3TS===/GettyImages-2183798831.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/lafc-toluca-concacaf-semifinal-2026"
 },
 {
-  "title": "Still No Magic at Nu Stadium",
-  "subtitle": "Messi and Suárez Draw a Blank as Inter Miami Fail to Win at Home Again",
-  "image": "https://assets.goal.com/images/v3/getty-2273149300/crop/MM5DENBWGQ5DCMZYGY5G433XMU5DKNRRHIYTIMA=/GettyImages-2273149300.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/still-no-magic-nu-stadium"
+  "title": "US Open Cup Round of 16 2026: NYCFC Finally Beat Red Bulls",
+  "subtitle": "Colorado Derby Drama and Penalty Thriller as Four MLS Teams Advance",
+  "image": "https://assets.goal.com/images/v3/getty-1705295975/crop/MM5DGNRXG45DEMBWHA5G433XMU5DAORTGM2A====/GettyImages-1705295975.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/us-open-cup-round-of-16-2026"
 },
 
 
+ 
   ];
 
   const staffPicks = [
@@ -285,11 +289,12 @@ export default function Home() {
   ];
 
   useEffect(() => {
+    if (!mounted) return;
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % heroItems.length);
     }, 15000);
     return () => clearInterval(interval);
-  }, []);
+  }, [mounted]);
 
   const prevSlide = () => setCurrentIndex((prev) => (prev - 1 + heroItems.length) % heroItems.length);
   const nextSlide = () => setCurrentIndex((prev) => (prev + 1) % heroItems.length);

@@ -12,6 +12,42 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 147,
+  "title": "Johnny Cardoso Writes His Name Into American Soccer History with Composed Champions League Semifinal Debut",
+  "author": "Mio Ristić",
+  "date": "April 30, 2026",
+  "excerpt": "24-year-old American midfielder Johnny Cardoso started in the Champions League semifinals for Atlético Madrid and delivered a mature performance against Arsenal, becoming only the third American to start at this stage.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2249616690/crop/MM5DENJTGQ5DCNBSGU5G433XMU5DAORRGMZA====/GettyImages-2249616690.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "slug": "johnny-cardoso-champions-league-semifinal-2026"
+},
+    {
+  "id": 146,
+  "title": "Timo Werner, Player of the Month: The Signing That Changed Everything for San Jose",
+  "author": "Mio Ristić",
+  "date": "April 30, 2026",
+  "excerpt": "Timo Werner named MLS Player of the Month for April after an outstanding month with 4 goals and 3 assists, leading San Jose Earthquakes to a historic 5-0-0 record and the top of the Western Conference.",
+  "imageUrl": "https://assets.goal.com/images/v3/blte8f463fafee800c1/1600.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "slug": "timo-werner-player-of-the-month-2026"
+},
+    {
+  "id": 145,
+  "title": "LAFC Dramatically Defeat Toluca 2-1 in First Leg of 2026 Concacaf Champions Cup Semifinals",
+  "author": "Mio Ristić",
+  "date": "April 30, 2026",
+  "excerpt": "Nkosi Tafari scores a dramatic stoppage-time winner assisted by Son Heung-min as LAFC take a narrow 2-1 lead over Toluca in the CCC semifinals first leg.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2183798831/crop/MM5DGMZUGQ5DCOBYGE5G433XMU5DQMRVHI3TS===/GettyImages-2183798831.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "slug": "lafc-toluca-concacaf-semifinal-2026"
+},
+    {
+  "id": 144,
+  "title": "US Open Cup Round of 16 2026: NYCFC Finally Beat Red Bulls, Colorado Derby Drama",
+  "author": "Mio Ristić",
+  "date": "April 30, 2026",
+  "excerpt": "NYCFC secure historic first knockout win over Red Bulls, Colorado Rapids survive local derby on penalties, Orlando City win thriller – full recap from US Open Cup Round of 16.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-1705295975/crop/MM5DGNRXG45DEMBWHA5G433XMU5DAORTGM2A====/GettyImages-1705295975.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+  "slug": "us-open-cup-round-of-16-2026"
+},
+    {
   "id": 143,
   "title": "Vancouver Whitecaps Urge Local Buyers to Step Forward as Relocation Speculation Intensifies",
   "author": "Mio Ristić",
