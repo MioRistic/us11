@@ -33,5 +33,34 @@ export const metadata = {
 };
 
 export default function USLOneChampionsLayout({ children }) {
-  return <>{children}</>;
+  return (
+    <>
+      {children}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "headline": "One Knoxville Shock the League: A Title Win That Changes Everything",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/USL_League_One_abbr_light_logo.svg/1920px-USL_League_One_abbr_light_logo.svg.png",
+            "datePublished": "2026-05-02T12:00:00Z",
+            "dateModified": "2026-05-02T12:00:00Z",
+            "author": {
+              "@type": "Person",
+              "name": "Mio Ristić"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "US11",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://us11fc.com/logo.png"
+              }
+            }
+          })
+        }}
+      />
+    </>
+  );
 }

@@ -37,6 +37,31 @@ export default function MessiBlogLayout({ children }) {
       <div className="max-w-5xl mx-auto py-12">
         {children}
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "headline": "Lionel Messi Extends Inter Miami Contract Through 2028 | US11 Blog",
+            "image": "https://cyprus-mail.com/image/s1100x733/fill/webp/path/wp-content/uploads/2023/07/messi.jpg",
+            "datePublished": "2026-05-02T12:00:00Z",
+            "dateModified": "2026-05-02T12:00:00Z",
+            "author": {
+              "@type": "Person",
+              "name": "Mio Ristić"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "US11",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://us11fc.com/logo.png"
+              }
+            }
+          })
+        }}
+      />
     </div>
   );
 }

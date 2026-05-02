@@ -32,6 +32,35 @@ export const metadata = {
   };
   
   export default function USMNTKoreaLayout({ children }) {
-    return <>{children}</>;
+    return (
+      <>
+        {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "NewsArticle",
+              "headline": "USMNT Warning: Defeat to South Korea Exposes Serious Problems Ahead of 2026 World Cup",
+              "image": "https://s.yimg.com/os/creatr-uploaded-images/2025-09/976007e0-8b6b-11f0-bfbb-b88058d464f7",
+              "datePublished": "2026-05-02T12:00:00Z",
+              "dateModified": "2026-05-02T12:00:00Z",
+              "author": {
+                "@type": "Person",
+                "name": "Mio Ristić"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "US11",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://us11fc.com/logo.png"
+                }
+              }
+            })
+          }}
+        />
+      </>
+    );
   }
   

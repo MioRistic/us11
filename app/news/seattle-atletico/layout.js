@@ -31,6 +31,35 @@ export const metadata = {
   };
   
   export default function SeattleAtleticoLayout({ children }) {
-    return <>{children}</>;
+    return (
+      <>
+        {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "NewsArticle",
+              "headline": "Barrios Brace Boosts Atlético, but Seattle Go Down Fighting",
+              "image": "https://motorcyclesports.net/wp-content/uploads/2025/06/2025-06-19T224853Z_862657799_UP1EL6J1RDGKI_RTRMADP_3_SOCCER-CLUB-SEA-ATM-scaled.jpg",
+              "datePublished": "2026-05-02T12:00:00Z",
+              "dateModified": "2026-05-02T12:00:00Z",
+              "author": {
+                "@type": "Person",
+                "name": "Mio Ristić"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "US11",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://us11fc.com/logo.png"
+                }
+              }
+            })
+          }}
+        />
+      </>
+    );
   }
   

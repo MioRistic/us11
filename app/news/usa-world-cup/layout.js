@@ -30,6 +30,32 @@ creator: "@us11",
 
 export default function USMNTLayout({ children }) {
 return ( <div className="min-h-screen bg-white text-[#020617]"> <main className="max-w-5xl mx-auto px-4 md:px-6 py-10">
-{children} </main> </div>
+{children} </main>
+<script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "headline": "USMNT in Group D: Analysis, Challenges, and Chances for World Cup 2026",
+            "image": "https://assets.goal.com/images/v3/blt72949e9c276641f4/crop/MM5DGOBYGE5DEMJYGM5G433XMU5DAORSGAZA====/GettyImages-2246882882.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+            "datePublished": "2026-05-02T12:00:00Z",
+            "dateModified": "2026-05-02T12:00:00Z",
+            "author": {
+              "@type": "Person",
+              "name": "Mio Ristić"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "US11",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://us11fc.com/logo.png"
+              }
+            }
+          })
+        }}
+      />
+ </div>
 );
 }

@@ -33,5 +33,34 @@ export const metadata = {
 };
 
 export default function PulisicDerbyLayout({ children }) {
-  return <>{children}</>;
+  return (
+    <>
+      {children}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "headline": "Christian Pulisic Delivers in the Derby: Why AC Milan's American Star Is Becoming Their Go-To Leader",
+            "image": "https://assets.goal.com/images/v3/getty-2248113240/crop/MM5DCNJQGQ5DQNBWHJXG653FHI2DIMJ2G4ZA====/GettyImages-2248113240.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+            "datePublished": "2026-05-02T12:00:00Z",
+            "dateModified": "2026-05-02T12:00:00Z",
+            "author": {
+              "@type": "Person",
+              "name": "Mio Ristić"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "US11",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://us11fc.com/logo.png"
+              }
+            }
+          })
+        }}
+      />
+    </>
+  );
 }

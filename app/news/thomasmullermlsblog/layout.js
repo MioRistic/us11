@@ -33,6 +33,35 @@ export const metadata = {
   };
   
   export default function ThomasMullerMLSLayout({ children }) {
-    return <>{children}</>;
+    return (
+      <>
+        {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "NewsArticle",
+              "headline": "Thomas Müller to MLS? The End of an Era, the Start of a New One",
+              "image": "https://assets.bundesliga.com/tachyon/sites/2/2021/05/GettyImages-859182146.jpg?crop=284px,0px,1352px,1080px&fit=540,540",
+              "datePublished": "2026-05-02T12:00:00Z",
+              "dateModified": "2026-05-02T12:00:00Z",
+              "author": {
+                "@type": "Person",
+                "name": "Mio Ristić"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "US11",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://us11fc.com/logo.png"
+                }
+              }
+            })
+          }}
+        />
+      </>
+    );
   }
   

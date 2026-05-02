@@ -31,6 +31,35 @@ export const metadata = {
   };
   
   export default function Layout({ children }) {
-    return <>{children}</>;
+    return (
+      <>
+        {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "NewsArticle",
+              "headline": "USMNT Thrashed by Switzerland 4-0 | Friendly Recap 2025",
+              "image": "https://images.supersport.com/media/ax4dr1pr/mauricio-pochettino-press-25-01-g-1200.jpg?width=1920&quality=90&format=webp",
+              "datePublished": "2026-05-02T12:00:00Z",
+              "dateModified": "2026-05-02T12:00:00Z",
+              "author": {
+                "@type": "Person",
+                "name": "Mio Ristić"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "US11",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://us11fc.com/logo.png"
+                }
+              }
+            })
+          }}
+        />
+      </>
+    );
   }
   

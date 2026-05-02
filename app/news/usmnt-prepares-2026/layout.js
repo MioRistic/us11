@@ -38,6 +38,31 @@ export default function USMNT2026Layout({ children }) {
       <main className="max-w-5xl mx-auto px-4 md:px-6 py-10">
         {children}
       </main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "headline": "USMNT Prepares for World Cup 2026: European Giants Arrive for Friendlies",
+            "image": "https://assets.goal.com/images/v3/getty-2234693152/crop/MM5DGMRQGA5DCOBQGA5G433XMU5DGNRQHI2DK===/GettyImages-2234693152.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+            "datePublished": "2026-05-02T12:00:00Z",
+            "dateModified": "2026-05-02T12:00:00Z",
+            "author": {
+              "@type": "Person",
+              "name": "Mio Ristić"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "US11",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://us11fc.com/logo.png"
+              }
+            }
+          })
+        }}
+      />
     </div>
   );
 }

@@ -35,6 +35,31 @@ export default function MLSFinal2025Layout({ children }) {
       <main className="max-w-5xl mx-auto px-4 md:px-6 py-10">
         {children}
       </main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "headline": "MLS Cup Final 2025: Inter Miami FC vs Vancouver Whitecaps",
+            "image": "https://i.ibb.co/NdY7jggd/Dynamic-Soccer-Stars-in-Action.png",
+            "datePublished": "2026-05-02T12:00:00Z",
+            "dateModified": "2026-05-02T12:00:00Z",
+            "author": {
+              "@type": "Person",
+              "name": "Mio Ristić"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "US11",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://us11fc.com/logo.png"
+              }
+            }
+          })
+        }}
+      />
     </div>
   );
 }

@@ -32,6 +32,35 @@ export const metadata = {
   };
   
   export default function Layout({ children }) {
-    return <>{children}</>;
+    return (
+      <>
+        {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "NewsArticle",
+              "headline": "Christian Pulisic Speaks Out on Gold Cup Snub, Donovan Comments & USMNT Future | 2025",
+              "image": "https://nbcsports.brightspotcdn.com/dims4/default/c66b13c/2147483647/strip/false/crop/3998x2665+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fb7%2F18%2F3f8af10e4981bf8fb496e4dd26fd%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2178153810",
+              "datePublished": "2026-05-02T12:00:00Z",
+              "dateModified": "2026-05-02T12:00:00Z",
+              "author": {
+                "@type": "Person",
+                "name": "Mio Ristić"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "US11",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://us11fc.com/logo.png"
+                }
+              }
+            })
+          }}
+        />
+      </>
+    );
   }
   

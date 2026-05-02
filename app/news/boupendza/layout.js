@@ -1,4 +1,4 @@
-// app/blog/boupendza/layout.js
+﻿// app/blog/boupendza/layout.js
 
 export const metadata = {
     title: 'The Legacy of Aaron Boupendza in MLS: A Tribute to a Star Gone Too Soon',
@@ -33,7 +33,36 @@ export const metadata = {
     },
   };
   
-  export default function BoupendzaLayout({ children }) {
-    return <>{children}</>;
-  }
+  export default function ({ children }) {
+  return (
+    <>
+      {children}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "headline": "The Legacy of Aaron Boupendza in MLS: A Tribute to a Star Gone Too Soon",
+            "image": "https://www.telegram.hr/wp-content/uploads/2025/04/aaron-boupendza.jpg",
+            "datePublished": "2026-05-02T12:00:00Z",
+            "dateModified": "2026-05-02T12:00:00Z",
+            "author": {
+              "@type": "Person",
+              "name": "Mio Ristić"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "US11",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://us11fc.com/logo.png"
+              }
+            }
+          })
+        }}
+      />
+    </>
+  );
+}
   

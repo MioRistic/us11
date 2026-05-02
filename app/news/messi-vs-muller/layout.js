@@ -36,6 +36,31 @@ export default function MessiVsMullerLayout({ children }) {
       <main className="max-w-5xl mx-auto px-4 md:px-6 py-10">
         {children}
       </main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "headline": "Messi vs. Müller: The Final Chapter of a European Rivalry Arrives in MLS",
+            "image": "https://i.ibb.co/zVdYQrkC/Untitled-design-2.png",
+            "datePublished": "2026-05-02T12:00:00Z",
+            "dateModified": "2026-05-02T12:00:00Z",
+            "author": {
+              "@type": "Person",
+              "name": "Mio Ristić"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "US11",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://us11fc.com/logo.png"
+              }
+            }
+          })
+        }}
+      />
     </div>
   );
 }

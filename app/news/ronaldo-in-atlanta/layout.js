@@ -28,6 +28,32 @@ creator: "@us11",
 
 export default function RonaldoLayout({ children }) {
 return ( <div className="min-h-screen bg-white text-[#020617]"> <main className="max-w-5xl mx-auto px-4 md:px-6 py-10">
-{children} </main> </div>
+{children} </main>
+<script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "headline": "Cristiano Ronaldo Is Coming to Atlanta: Georgia Prepares for a Football Spectacle",
+            "image": "https://assets.goal.com/images/v3/getty-2233954657/crop/MM5DEMZTGY5DCMZRGQ5G433XMU5DEMBQG45DS===/GettyImages-2233954657.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+            "datePublished": "2026-05-02T12:00:00Z",
+            "dateModified": "2026-05-02T12:00:00Z",
+            "author": {
+              "@type": "Person",
+              "name": "Mio Ristić"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "US11",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://us11fc.com/logo.png"
+              }
+            }
+          })
+        }}
+      />
+ </div>
 );
 }

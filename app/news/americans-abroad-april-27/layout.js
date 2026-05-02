@@ -1,12 +1,12 @@
-// app/news/americans-abroad-april-27/layout.js
+﻿// app/news/americans-abroad-april-27/layout.js
 
 export const metadata = {
-  title: "Americans Abroad: Pulisic and McKennie Neutralize Each Other as Aaronson’s Leeds Fall Just Short at Wembley",
+  title: "Americans Abroad: Pulisic and McKennie Neutralize Each Other as Aaronsonâ€™s Leeds Fall Just Short at Wembley",
   description:
     "Christian Pulisic and Weston McKennie played out a goalless draw, Brenden Aaronson came close but Leeds fell to Chelsea in the FA Cup semi-final, and Haji Wright won the Championship title.",
   openGraph: {
     title: "Americans Abroad: Pulisic vs McKennie, Aaronson at Wembley",
-    description: "A busy weekend for USMNT stars in Europe – Pulisic and McKennie cancel each other out, Aaronson denied at Wembley, and Wright lifts the Championship trophy.",
+    description: "A busy weekend for USMNT stars in Europe â€“ Pulisic and McKennie cancel each other out, Aaronson denied at Wembley, and Wright lifts the Championship trophy.",
     url: "https://www.us11fc.com/news/americans-abroad-april-27",
     siteName: "US11",
     images: [
@@ -23,7 +23,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Americans Abroad: Pulisic & McKennie in San Siro Stalemate",
-    description: "Pulisic vs McKennie, Aaronson denied at Wembley, Wright wins Championship title – full review of US stars in Europe.",
+    description: "Pulisic vs McKennie, Aaronson denied at Wembley, Wright wins Championship title â€“ full review of US stars in Europe.",
     images: ["https://assets.goal.com/images/v3/getty-2260113972/crop/MM5DINZQGM5DENRUGU5G433XMU5DAORSGQ2Q====/GettyImages-2260113972.jpg?auto=webp&format=pjpg&width=1920&quality=80"],
     creator: "@US11FC",
   },

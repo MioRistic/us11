@@ -33,6 +33,35 @@ export const metadata = {
   };
   
   export default function SanDiegoBlogLayout({ children }) {
-    return <>{children}</>;
+    return (
+      <>
+        {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "NewsArticle",
+              "headline": "San Diego: A New MLS Team Ready for Big Challenges",
+              "image": "https://assets.goal.com/images/v3/getty-2202758631/crop/MM5DGNZXGI5DEMJSGI5G433XMU5DAORRHE3A====/GettyImages-2202758631.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+              "datePublished": "2026-05-02T12:00:00Z",
+              "dateModified": "2026-05-02T12:00:00Z",
+              "author": {
+                "@type": "Person",
+                "name": "Mio Ristić"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "US11",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://us11fc.com/logo.png"
+                }
+              }
+            })
+          }}
+        />
+      </>
+    );
   }
   

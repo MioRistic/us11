@@ -36,6 +36,31 @@ export default function PortlandRSLPlayoffsLayout({ children }) {
   return (
     <main className="bg-white text-[#020617] min-h-screen">
       {children}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "headline": "Portland Timbers & Felipe Mora Get Groove Back in Wild Card Win",
+            "image": "https://assets.goal.com/images/v3/getty-2242036909/crop/MM5DGNZRGY5DEMBZGA5G433XMU5DAORRHEZQ====/GettyImages-2242036909.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+            "datePublished": "2026-05-02T12:00:00Z",
+            "dateModified": "2026-05-02T12:00:00Z",
+            "author": {
+              "@type": "Person",
+              "name": "Mio Ristić"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "US11",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://us11fc.com/logo.png"
+              }
+            }
+          })
+        }}
+      />
     </main>
   );
 }

@@ -27,6 +27,35 @@ export const metadata = {
   };
   
   export default function SanDiegoFirstWinLayout({ children }) {
-    return <>{children}</>;
+    return (
+      <>
+        {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "NewsArticle",
+              "headline": "San Diego FC Achieves First Historic MLS Win!",
+              "image": "https://assets.goal.com/images/v3/getty-2205422037/crop/MM5DINJUGM5DENJVGU5G433XMU5DAORSGM3Q====/GettyImages-2205422037.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+              "datePublished": "2026-05-02T12:00:00Z",
+              "dateModified": "2026-05-02T12:00:00Z",
+              "author": {
+                "@type": "Person",
+                "name": "Mio Ristić"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "US11",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://us11fc.com/logo.png"
+                }
+              }
+            })
+          }}
+        />
+      </>
+    );
   }
   

@@ -1,11 +1,11 @@
-export const metadata = {
+﻿export const metadata = {
   title: 'Aaronson Stars for Leeds, but Late Handball Costs the Visitors',
   description:
-    'Brenden Aaronson shines with two goals for Leeds United, but a late handball concedes a penalty, allowing Newcastle to snatch a dramatic 4-3 victory at St James’ Park.',
+    'Brenden Aaronson shines with two goals for Leeds United, but a late handball concedes a penalty, allowing Newcastle to snatch a dramatic 4-3 victory at St Jamesâ€™ Park.',
   openGraph: {
     title: 'Aaronson Stars for Leeds, but Late Handball Costs the Visitors',
     description:
-      'Brenden Aaronson delivers a standout performance in Leeds’ Premier League clash with Newcastle, scoring twice before a late penalty changes the outcome.',
+      'Brenden Aaronson delivers a standout performance in Leedsâ€™ Premier League clash with Newcastle, scoring twice before a late penalty changes the outcome.',
     url: 'https://us11fc.com/news/aaronson-leeds-newcastle',
     siteName: 'MLS Fan Store',
     images: [
@@ -22,7 +22,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Aaronson Stars for Leeds, but Late Handball Costs the Visitors',
     description:
-      'Brenden Aaronson scores twice in a thrilling match against Newcastle, but a late handball leads to a penalty and Newcastle’s dramatic win.',
+      'Brenden Aaronson scores twice in a thrilling match against Newcastle, but a late handball leads to a penalty and Newcastleâ€™s dramatic win.',
     images: [
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ad29YihheEJBbsOdzkp3NkEx0JipAnWdrA&s',
     ],

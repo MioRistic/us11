@@ -36,6 +36,31 @@ export default function GriezmannLayout({ children }) {
       <main className="max-w-5xl mx-auto px-4 md:px-0 py-10">
         {children}
       </main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "headline": "Antoine Griezmann to Orlando City: MLS Blockbuster Rumors Hit Pause",
+            "image": "https://assets.goal.com/images/v3/getty-2263389556/crop/MM5DEMBRGY5DCMJTGQ5G433XMU5DCMRYHIYTCNQ=/GettyImages-2263389556.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+            "datePublished": "2026-05-02T12:00:00Z",
+            "dateModified": "2026-05-02T12:00:00Z",
+            "author": {
+              "@type": "Person",
+              "name": "Mio Ristić"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "US11",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://us11fc.com/logo.png"
+              }
+            }
+          })
+        }}
+      />
     </div>
   );
 }

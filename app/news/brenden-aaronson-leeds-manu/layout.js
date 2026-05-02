@@ -1,4 +1,4 @@
-// app/news/[slug]/layout.jsx
+﻿// app/news/[slug]/layout.jsx
 export const metadata = {
   title: 'Brenden Aaronson Shines as Leeds Draw 1-1 with ManU',
   description:
@@ -34,7 +34,35 @@ export const metadata = {
 export default function NewsLayout({ children }) {
   return (
     <main className="w-full bg-white text-[#020617] min-h-screen">
-      <div className="max-w-4xl mx-auto py-12 px-4 md:px-0">{children}</div>
+      <div className="max-w-4xl mx-auto py-12 px-4 md:px-0">
+        {children}
+      </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "headline": "Brenden Aaronson Shines as Leeds Draw 1-1 with ManU",
+            "image": "https://assets.goal.com/images/v3/getty-2180302529/crop/MM5DIOJQGY5DENZWGA5G433XMU5DENJWHIYA====/GettyImages-2180302529.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+            "datePublished": "2026-05-02T12:00:00Z",
+            "dateModified": "2026-05-02T12:00:00Z",
+            "author": {
+              "@type": "Person",
+              "name": "Mio Ristić"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "US11",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://us11fc.com/logo.png"
+              }
+            }
+          })
+        }}
+      />
     </main>
   );
 }
+
