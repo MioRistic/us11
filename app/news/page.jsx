@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 148,
+  "title": "Matchday 11 Preview: Serious Battle for the Top of the Table and the Golden Boot",
+  "author": "Mio Ristić",
+  "date": "May 2, 2026",
+  "excerpt": "The Golden Boot race is heating up as Sam Surridge and Petar Musa lead the way with 9 goals each. Full preview of Matchday 11 including the Florida Derby and more key games.",
+  "imageUrl": "https://i.ibb.co/G34vz80S/mday-11.png",
+  "slug": "matchday-11-preview"
+},
+    {
   "id": 147,
   "title": "Johnny Cardoso Writes His Name Into American Soccer History with Composed Champions League Semifinal Debut",
   "author": "Mio Ristić",

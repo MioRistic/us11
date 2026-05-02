@@ -94,6 +94,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 148,
+  "title": "Matchday 11 Preview: Serious Battle for the Top of the Table and the Golden Boot",
+  "author": "Mio Ristić",
+  "date": "May 2, 2026",
+  "excerpt": "The Golden Boot race is heating up as Sam Surridge and Petar Musa lead the way with 9 goals each. Full preview of Matchday 11 including the Florida Derby and more key games.",
+  "imageUrl": "https://i.ibb.co/G34vz80S/mday-11.png",
+  "link": "news/matchday-11-preview"
+},
+  {
   "id": 147,
   "title": "Johnny Cardoso Writes His Name Into American Soccer History with Composed Champions League Semifinal Debut",
   "author": "Mio Ristić",
@@ -110,18 +119,7 @@ const blogPosts: Post[] = [
   "excerpt": "Timo Werner named MLS Player of the Month for April after an outstanding month with 4 goals and 3 assists, leading San Jose Earthquakes to a historic 5-0-0 record and the top of the Western Conference.",
   "imageUrl": "https://assets.goal.com/images/v3/blte8f463fafee800c1/1600.jpg?auto=webp&format=pjpg&width=1200&quality=80",
   "link": "/news/timo-werner-player-of-the-month-2026"
-},
-  {
-  "id": 145,
-  "title": "LAFC Dramatically Defeat Toluca 2-1 in First Leg of 2026 Concacaf Champions Cup Semifinals",
-  "author": "Mio Ristić",
-  "date": "April 30, 2026",
-  "excerpt": "Nkosi Tafari scores a dramatic stoppage-time winner assisted by Son Heung-min as LAFC take a narrow 2-1 lead over Toluca in the CCC semifinals first leg.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2183798831/crop/MM5DGMZUGQ5DCOBYGE5G433XMU5DQMRVHI3TS===/GettyImages-2183798831.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "/news/lafc-toluca-concacaf-semifinal-2026"
-},
-
-
+}
 
   
 
@@ -130,6 +128,16 @@ const blogPosts: Post[] = [
 
 // Jerseys Blog JSON
 const jerseysBlogPosts: Post[] = [
+  {
+  "id": 1010,
+  "title": "2000s Football Nostalgia Meets Formula 1 Glamour: Adidas and Audi Drop a Miami Collection That Actually Works",
+  "author": "Mio Ristić",
+  "date": "May 2, 2026",
+  "excerpt": "Adidas and Audi team up with Inter Miami for a limited F1 Miami Collection that blends 2000s football kits with modern Formula 1 style.",
+  "imageUrl": "https://www.audif1.com/cms/api/media/file/audif1_2026_miami_collection_messi_teaser_01-1012x1350.webp",
+  "imagePosition": "50% 15%",        // ← ovde kontrolišeš
+  "link": "blog/adidas-audi-miami-collection-2026"
+},
 
   {
   "id": 1008,
@@ -149,15 +157,7 @@ const jerseysBlogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/blt532e5fdd75fc8dc0/crop/MM5DIMBZGM5DEMZQGI5G433XMU5DAORYHA======/USSF_MNT_Kit_Launch_Vogue_mntjerseyshoot_11-09-25-124.jpg?auto=webp&format=pjpg&width=1200&quality=80",
   "link": "/blog/usmnt-nike-2026-kits-unveiled"
 },
-  {
-  "id": 1006,
-  "title": "Adidas USA 1994 Denim Graphic Collection: Iconic USMNT Throwback for World Cup 2026",
-  "author": "Mio Ristić",
-  "date": "March 16, 2026",
-  "excerpt": "Adidas revives the legendary 1994 USMNT away jersey with its iconic denim wash and scattered stars – now available for $89.99 (jersey), $119.99 (track jacket), $59.99 (shorts), and more. Pure 1994 World Cup nostalgia meets 2026 World Cup hype – full collection in the shop!",
-  "imageUrl": "https://assets.goal.com/images/v3/bltf53f7a9a05821020/crop/MM5DIMBYGU5DEMRZHA5G433XMU5DAORYHE2Q====/U.S%20Denim%20Kit%20Collection%2024.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "/blog/adidas-usa-1994-denim-collection"
-},
+ 
  
 
 ];
@@ -203,6 +203,12 @@ export default function Home() {
 // }
 // ,
 {
+  "title": "Matchday 11 Preview",
+  "subtitle": "Serious Battle for the Top of the Table and the Golden Boot",
+  "image": "https://i.ibb.co/G34vz80S/mday-11.png",
+  "link": "/news/matchday-11-preview"
+},
+{
   "title": "Johnny Cardoso Writes His Name Into American Soccer History",
   "subtitle": "24-year-old American midfielder delivers composed Champions League semifinal debut for Atlético Madrid against Arsenal",
   "image": "https://assets.goal.com/images/v3/getty-2249616690/crop/MM5DENJTGQ5DCNBSGU5G433XMU5DAORRGMZA====/GettyImages-2249616690.jpg?auto=webp&format=pjpg&width=1920&quality=80",
@@ -220,12 +226,7 @@ export default function Home() {
   "image": "https://assets.goal.com/images/v3/getty-2183798831/crop/MM5DGMZUGQ5DCOBYGE5G433XMU5DQMRVHI3TS===/GettyImages-2183798831.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "/news/lafc-toluca-concacaf-semifinal-2026"
 },
-{
-  "title": "US Open Cup Round of 16 2026: NYCFC Finally Beat Red Bulls",
-  "subtitle": "Colorado Derby Drama and Penalty Thriller as Four MLS Teams Advance",
-  "image": "https://assets.goal.com/images/v3/getty-1705295975/crop/MM5DGNRXG45DEMBWHA5G433XMU5DAORTGM2A====/GettyImages-1705295975.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/us-open-cup-round-of-16-2026"
-},
+
 
 
  
@@ -440,12 +441,15 @@ export default function Home() {
                 <div className="group bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition flex flex-col h-full">
                   <div className="relative w-full h-48">
                     <Image
-                      src={post.imageUrl}
-                      alt={post.title}
-                      layout="fill"
-                      objectFit="cover"
-                      className="group-hover:scale-105 transition-transform duration-300"
-                    />
+          src={post.imageUrl}
+          alt={post.title}
+          fill
+          className="group-hover:scale-105 transition-transform duration-300"
+          style={{
+            objectFit: 'cover',
+            objectPosition: post.imagePosition || '50% 50%',   // ← ovo je ključno
+          }}
+        />
                   </div>
                   <div className="p-4 flex flex-col flex-grow">
                     <h3 className="text-xl font-bold mb-1 group-hover:text-blue-600 transition duration-300">{post.title}</h3>

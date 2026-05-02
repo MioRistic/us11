@@ -36,7 +36,6 @@ const nextConfig = {
       { protocol: 'https', hostname: 'images.mlssoccer.com' },
       { protocol: 'https', hostname: 'media.freemalaysiatoday.com' },
       { protocol: 'https', hostname: 'motorcyclesports.net' },
-      { protocol: 'https', hostname: 'bad-dawgsports.com' },
       { protocol: 'https', hostname: 'www.observerbd.com' },
       { protocol: 'https', hostname: 'media.bleacherreport.com' },
       { protocol: 'https', hostname: 'cdn.vox-cdn.com' },
@@ -56,6 +55,7 @@ const nextConfig = {
       { protocol: 'https', hostname: 'cyprus-mail.com' },
       { protocol: 'https', hostname: 'brobible.com' },
       { protocol: 'https', hostname: 'images.squarespace-cdn.com' },
+      { protocol: 'https', hostname: 'www.audif1.com' },
     ],
   },
 

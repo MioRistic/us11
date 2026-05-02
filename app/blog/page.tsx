@@ -13,6 +13,7 @@ interface BlogPost {
   date: string;
   excerpt: string;
   imageUrl: string | StaticImageData;
+  imagePosition?: string;
   slug: string;
 }
 
@@ -48,6 +49,16 @@ const items: CategoryItem[] = [
 ];
 
 const blogPosts: BlogPost[] = [
+  {
+  "id": 1010,
+  "title": "2000s Football Nostalgia Meets Formula 1 Glamour: Adidas and Audi Drop a Miami Collection That Actually Works",
+  "author": "Mio Ristić",
+  "date": "May 2, 2026",
+  "excerpt": "Adidas and Audi team up with Inter Miami for a limited F1 Miami Collection that blends 2000s football kits with modern Formula 1 style.",
+  "imageUrl": "https://www.audif1.com/cms/api/media/file/audif1_2026_miami_collection_messi_teaser_01-1012x1350.webp",
+  "imagePosition": "50% 12%",
+  "slug": "adidas-audi-miami-collection-2026"
+},
   {
   "id": 1009,
   "title": "Who Should Replace Javier Mascherano at Inter Miami? Ranking the Leading Candidates",
@@ -218,7 +229,10 @@ export default function BlogPage() {
                   src={post.imageUrl}
                   alt={post.title}
                   fill
-                  className="object-cover"
+                  className="object-cover transition-transform group-hover:scale-105 duration-300"
+                  style={{
+                    objectPosition: post.imagePosition || '50% 50%',  // ← ovde se primenjuje
+                  }}
                 />
               </div>
               <div className="p-4">
