@@ -31,7 +31,9 @@ export const metadata = {
 };
 
 export default function Layout({ children }) {
-  return {children}
+  return (
+    <>
+      {children}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
