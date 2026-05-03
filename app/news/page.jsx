@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 149,
+  "title": "Martín Ojeda’s Masterpiece: One Night in Miami That No One Will Forget",
+  "author": "Mio Ristić",
+  "date": "May 3, 2026",
+  "excerpt": "Martín Ojeda delivered a hat-trick for the ages as Orlando City came back from 3-0 down to stun Inter Miami 4-3 at Nu Stadium in one of the most dramatic Florida Derbies in recent memory.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt46944697bc863c53/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-05-02T211526.574.png",
+  "slug": "martin-ojeda-masterpiece-miami-2026"
+},
+    {
   "id": 148,
   "title": "Matchday 11 Preview: Serious Battle for the Top of the Table and the Golden Boot",
   "author": "Mio Ristić",

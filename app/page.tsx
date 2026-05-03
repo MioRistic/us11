@@ -94,6 +94,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 149,
+  "title": "Martín Ojeda’s Masterpiece: One Night in Miami That No One Will Forget",
+  "author": "Mio Ristić",
+  "date": "May 3, 2026",
+  "excerpt": "Martín Ojeda delivered a hat-trick for the ages as Orlando City came back from 3-0 down to stun Inter Miami 4-3 at Nu Stadium in one of the most dramatic Florida Derbies in recent memory.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt46944697bc863c53/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-05-02T211526.574.png",
+  "link": "news/martin-ojeda-masterpiece-miami-2026"
+},
+  {
   "id": 148,
   "title": "Matchday 11 Preview: Serious Battle for the Top of the Table and the Golden Boot",
   "author": "Mio Ristić",
@@ -111,15 +120,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2249616690/crop/MM5DENJTGQ5DCNBSGU5G433XMU5DAORRGMZA====/GettyImages-2249616690.jpg?auto=webp&format=pjpg&width=1200&quality=80",
   "link": "news/johnny-cardoso-champions-league-semifinal-2026"
 },
-   {
-  "id": 146,
-  "title": "Timo Werner, Player of the Month: The Signing That Changed Everything for San Jose",
-  "author": "Mio Ristić",
-  "date": "April 30, 2026",
-  "excerpt": "Timo Werner named MLS Player of the Month for April after an outstanding month with 4 goals and 3 assists, leading San Jose Earthquakes to a historic 5-0-0 record and the top of the Western Conference.",
-  "imageUrl": "https://assets.goal.com/images/v3/blte8f463fafee800c1/1600.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "/news/timo-werner-player-of-the-month-2026"
-}
+  
 
   
 
@@ -209,23 +210,12 @@ export default function Home() {
   "link": "/news/matchday-11-preview"
 },
 {
-  "title": "Johnny Cardoso Writes His Name Into American Soccer History",
-  "subtitle": "24-year-old American midfielder delivers composed Champions League semifinal debut for Atlético Madrid against Arsenal",
-  "image": "https://assets.goal.com/images/v3/getty-2249616690/crop/MM5DENJTGQ5DCNBSGU5G433XMU5DAORRGMZA====/GettyImages-2249616690.jpg?auto=webp&format=pjpg&width=1920&quality=80",
-  "link": "/news/johnny-cardoso-champions-league-semifinal-2026"
+  "title": "Martín Ojeda’s Masterpiece",
+  "subtitle": "One Night in Miami That No One Will Forget",
+  "image": "https://assets.goal.com/images/v3/blt46944697bc863c53/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-05-02T211526.574.png",
+  "link": "/news/martin-ojeda-masterpiece-miami-2026"
 },
-{
-  "title": "Timo Werner, Player of the Month",
-  "subtitle": "4 goals and 3 assists in April as Werner leads Earthquakes to perfect 5-0-0 month and top of the Western Conference",
-  "image": "https://assets.goal.com/images/v3/blte8f463fafee800c1/1600.jpg?auto=webp&format=pjpg&width=1920&quality=80",
-  "link": "/news/timo-werner-player-of-the-month-2026"
-},
-{
-  "title": "LAFC 2-1 Toluca: Dramatic Stoppage-Time Winner",
-  "subtitle": "Nkosi Tafari header in 91st minute gives LAFC advantage in Concacaf Champions Cup semifinals",
-  "image": "https://assets.goal.com/images/v3/getty-2183798831/crop/MM5DGMZUGQ5DCOBYGE5G433XMU5DQMRVHI3TS===/GettyImages-2183798831.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/lafc-toluca-concacaf-semifinal-2026"
-},
+
 
 
 
