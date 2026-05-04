@@ -100,7 +100,7 @@ const blogPosts: Post[] = [
   "date": "May 4, 2026",
   "excerpt": "Ojeda’s historic hat-trick comeback, Evander’s heroics with 10 men, Minnesota’s set-piece masterclass and more from a chaotic Matchday 11 in MLS.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-2274230605/crop/MM5DIMRUGY5DEMZYHE5G433XMU5DAORUGI3A====/GettyImages-2274230605.jpg",
-  "link": "news/matchday-11-takeaways"
+  "link": "news/mls-matchday-11-2026"
 },
   {
   "id": 149,
@@ -208,7 +208,7 @@ export default function Home() {
   "title": "Orlando’s Miracle, Cincinnati’s Chaos",
   "subtitle": "What We Learned from MLS Matchday 11",
   "image": "https://assets.goal.com/images/v3/getty-2274230605/crop/MM5DIMRUGY5DEMZYHE5G433XMU5DAORUGI3A====/GettyImages-2274230605.jpg",
-  "link": "/news/matchday-11-takeaways"
+  "link": "/news/mls-matchday-11-2026"
 }
 
 

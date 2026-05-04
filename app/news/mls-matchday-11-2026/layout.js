@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: "Orlando’s Miracle & Cincinnati’s Chaos | MLS Matchday 11 Takeaways",
     description: "Ojeda’s hat-trick, Evander’s heroics with 10 men, and more from a wild weekend in Major League Soccer.",
-    url: "https://www.us11fc.com/news/matchday-11-takeaways",
+    url: "https://www.us11fc.com/news/mls-matchday-11-2026",
     siteName: "US11",
     images: [
       {
@@ -28,7 +28,7 @@ export const metadata = {
     creator: "@US11FC",
   },
   alternates: {
-    canonical: "https://www.us11fc.com/news/matchday-11-takeaways"
+    canonical: "https://www.us11fc.com/news/mls-matchday-11-2026"
   }
 };
 
