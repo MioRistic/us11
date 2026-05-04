@@ -80,7 +80,7 @@ export default function Matchday11Takeaways() {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/watch?v=Tj5Vw7Q_ZRM"
+              src="https://www.youtube.com/embed/Tj5Vw7Q_ZRM"
               title="MLS Matchday 10 Highlights"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
