@@ -12,6 +12,17 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 150,
+  "title": "Orlando’s Miracle, Cincinnati’s Chaos and the Loons’ Aerial Assault: What We Learned from MLS Matchday 11",
+  "author": "Mio Ristić",
+  "date": "May 4, 2026",
+  "excerpt": "Ojeda’s historic hat-trick comeback, Evander’s heroics with 10 men, Minnesota’s set-piece masterclass and more from a chaotic Matchday 11 in MLS.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2274230605/crop/MM5DIMRUGY5DEMZYHE5G433XMU5DAORUGI3A====/GettyImages-2274230605.jpg",
+  "slug": "matchday-11-takeaways",
+  "category": "MLS",
+  "tags": ["Matchday 11", "Orlando City", "Inter Miami", "FC Cincinnati", "Martín Ojeda", "Florida Derby"]
+},
+    {
   "id": 149,
   "title": "Martín Ojeda’s Masterpiece: One Night in Miami That No One Will Forget",
   "author": "Mio Ristić",

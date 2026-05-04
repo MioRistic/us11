@@ -94,6 +94,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 150,
+  "title": "Orlando’s Miracle, Cincinnati’s Chaos and the Loons’ Aerial Assault: What We Learned from MLS Matchday 11",
+  "author": "Mio Ristić",
+  "date": "May 4, 2026",
+  "excerpt": "Ojeda’s historic hat-trick comeback, Evander’s heroics with 10 men, Minnesota’s set-piece masterclass and more from a chaotic Matchday 11 in MLS.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2274230605/crop/MM5DIMRUGY5DEMZYHE5G433XMU5DAORUGI3A====/GettyImages-2274230605.jpg",
+  "link": "news/matchday-11-takeaways"
+},
+  {
   "id": 149,
   "title": "Martín Ojeda’s Masterpiece: One Night in Miami That No One Will Forget",
   "author": "Mio Ristić",
@@ -111,16 +120,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/G34vz80S/mday-11.png",
   "link": "news/matchday-11-preview"
 },
-  {
-  "id": 147,
-  "title": "Johnny Cardoso Writes His Name Into American Soccer History with Composed Champions League Semifinal Debut",
-  "author": "Mio Ristić",
-  "date": "April 30, 2026",
-  "excerpt": "24-year-old American midfielder Johnny Cardoso started in the Champions League semifinals for Atlético Madrid and delivered a mature performance against Arsenal, becoming only the third American to start at this stage.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2249616690/crop/MM5DENJTGQ5DCNBSGU5G433XMU5DAORRGMZA====/GettyImages-2249616690.jpg?auto=webp&format=pjpg&width=1200&quality=80",
-  "link": "news/johnny-cardoso-champions-league-semifinal-2026"
-},
-  
+
 
   
 
@@ -203,18 +203,13 @@ export default function Home() {
 //   "link": "/news/griezmann-orlando-city-jersey"
 // }
 // ,
+ 
 {
-  "title": "Matchday 11 Preview",
-  "subtitle": "Serious Battle for the Top of the Table and the Golden Boot",
-  "image": "https://i.ibb.co/G34vz80S/mday-11.png",
-  "link": "/news/matchday-11-preview"
-},
-{
-  "title": "Martín Ojeda’s Masterpiece",
-  "subtitle": "One Night in Miami That No One Will Forget",
-  "image": "https://assets.goal.com/images/v3/blt46944697bc863c53/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-05-02T211526.574.png",
-  "link": "/news/martin-ojeda-masterpiece-miami-2026"
-},
+  "title": "Orlando’s Miracle, Cincinnati’s Chaos",
+  "subtitle": "What We Learned from MLS Matchday 11",
+  "image": "https://assets.goal.com/images/v3/getty-2274230605/crop/MM5DIMRUGY5DEMZYHE5G433XMU5DAORUGI3A====/GettyImages-2274230605.jpg",
+  "link": "/news/matchday-11-takeaways"
+}
 
 
 
