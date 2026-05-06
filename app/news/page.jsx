@@ -12,6 +12,18 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 151,
+  "title": "No Americans in the Champions League Final: Johnny Cardoso’s Dream Ends in London",
+  "author": "Mio Ristić",
+  "date": "May 6, 2026",
+  "excerpt": "Johnny Cardoso came off the bench but couldn’t inspire Atlético Madrid as Arsenal advanced to the 2026 Champions League final. No American will feature in the showpiece match.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2249006353/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORRHAZA====/GettyImages-2249006353.jpg",
+  "slug": "no-americans-champions-league-final-2026",
+  "category": "Champions League",
+  "tags": ["Johnny Cardoso", "Arsenal", "Atlético Madrid", "Champions League", "USMNT", "Christian Pulisic"],
+  "readTime": "5 min"
+},
+    {
   "id": 150,
   "title": "Orlando’s Miracle, Cincinnati’s Chaos and the Loons’ Aerial Assault: What We Learned from MLS Matchday 11",
   "author": "Mio Ristić",

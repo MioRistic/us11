@@ -94,6 +94,15 @@ const TrendingPlayers = () => {
 // News JSON
 const blogPosts: Post[] = [
   {
+  "id": 151,
+  "title": "No Americans in the Champions League Final: Johnny Cardoso’s Dream Ends in London",
+  "author": "Mio Ristić",
+  "date": "May 6, 2026",
+  "excerpt": "Johnny Cardoso came off the bench but couldn’t inspire Atlético Madrid as Arsenal advanced to the 2026 Champions League final. No American will feature in the showpiece match.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2249006353/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORRHAZA====/GettyImages-2249006353.jpg",
+  "link": "news/no-americans-champions-league-final-2026",
+},
+  {
   "id": 150,
   "title": "Orlando’s Miracle, Cincinnati’s Chaos and the Loons’ Aerial Assault: What We Learned from MLS Matchday 11",
   "author": "Mio Ristić",
@@ -111,16 +120,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/blt46944697bc863c53/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-05-02T211526.574.png",
   "link": "news/martin-ojeda-masterpiece-miami-2026"
 },
-  {
-  "id": 148,
-  "title": "Matchday 11 Preview: Serious Battle for the Top of the Table and the Golden Boot",
-  "author": "Mio Ristić",
-  "date": "May 2, 2026",
-  "excerpt": "The Golden Boot race is heating up as Sam Surridge and Petar Musa lead the way with 9 goals each. Full preview of Matchday 11 including the Florida Derby and more key games.",
-  "imageUrl": "https://i.ibb.co/G34vz80S/mday-11.png",
-  "link": "news/matchday-11-preview"
-},
-
+ 
 
   
 
@@ -203,7 +203,12 @@ export default function Home() {
 //   "link": "/news/griezmann-orlando-city-jersey"
 // }
 // ,
- 
+ {
+  "title": "No Americans in the Champions League Final",
+  "subtitle": "Johnny Cardoso’s Dream Ends in London",
+  "image": "https://assets.goal.com/images/v3/getty-2249006353/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORRHAZA====/GettyImages-2249006353.jpg",
+  "link": "/blog/no-americans-champions-league-final-2026"
+},
 {
   "title": "Orlando’s Miracle, Cincinnati’s Chaos",
   "subtitle": "What We Learned from MLS Matchday 11",
