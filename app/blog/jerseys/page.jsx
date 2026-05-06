@@ -12,6 +12,15 @@ import Link from 'next/link';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 1011,
+  "title": "Mexico or USA: Whose Jersey Sells More in America? The Surprising Truth (and a Major Shift)",
+  "author": "Mio Ristić",
+  "date": "May 5, 2026",
+  "excerpt": "Fanatics claims the USMNT 2026 kit is currently outselling Mexico in the United States. We analyze the data, the Messi effect, and what it really means ahead of the World Cup.",
+  "imageUrl": "https://i.ibb.co/Gfk3qjXJ/Untitled-design-4.png",
+  "slug": "mexico-usa-jersey-sales-2026",
+},
+    {
   "id": 1008,
   "title": "Griezmann #7 Jersey Already Breaking Sales Records at Orlando City",
   "author": "Mio Ristić",

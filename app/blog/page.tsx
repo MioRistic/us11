@@ -50,6 +50,15 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 1011,
+  "title": "Mexico or USA: Whose Jersey Sells More in America? The Surprising Truth (and a Major Shift)",
+  "author": "Mio Ristić",
+  "date": "May 5, 2026",
+  "excerpt": "Fanatics claims the USMNT 2026 kit is currently outselling Mexico in the United States. We analyze the data, the Messi effect, and what it really means ahead of the World Cup.",
+  "imageUrl": "https://i.ibb.co/Gfk3qjXJ/Untitled-design-4.png",
+  "slug": "mexico-usa-jersey-sales-2026",
+},
+  {
   "id": 1010,
   "title": "2000s Football Nostalgia Meets Formula 1 Glamour: Adidas and Audi Drop a Miami Collection That Actually Works",
   "author": "Mio Ristić",
