@@ -207,7 +207,7 @@ export default function Home() {
   "title": "No Americans in the Champions League Final",
   "subtitle": "Johnny Cardoso’s Dream Ends in London",
   "image": "https://assets.goal.com/images/v3/getty-2249006353/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORRHAZA====/GettyImages-2249006353.jpg",
-  "link": "/blog/no-americans-champions-league-final-2026"
+  "link": "/news/no-americans-champions-league-final-2026"
 },
 {
   "title": "Orlando’s Miracle, Cincinnati’s Chaos",

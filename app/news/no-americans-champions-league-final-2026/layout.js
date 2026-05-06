@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: "No Americans in the Champions League Final",
     description: "Johnny Cardoso’s dream ends as Arsenal eliminate Atlético Madrid. Pulisic remains the last American in a CL final.",
-    url: "https://www.us11fc.com/blog/no-americans-champions-league-final-2026",
+    url: "https://www.us11fc.com/news/no-americans-champions-league-final-2026",
     siteName: "US11",
     images: [
       {
@@ -27,7 +27,7 @@ export const metadata = {
     creator: "@US11FC",
   },
   alternates: {
-    canonical: "https://www.us11fc.com/blog/no-americans-champions-league-final-2026"
+    canonical: "https://www.us11fc.com/news/no-americans-champions-league-final-2026"
   }
 };
 
