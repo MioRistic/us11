@@ -50,6 +50,15 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 1012,
+  "title": "James. Netflix’s Intimate Portrait of Colombia’s Last True No. 10",
+  "author": "Mio Ristić",
+  "date": "May 8, 2026",
+  "excerpt": "Netflix is releasing 'James.', a raw and deeply personal documentary series about James Rodríguez ahead of the 2026 World Cup. The Colombian superstar opens up about his life, career pressures, and legacy.",
+  "imageUrl": "https://i.ibb.co/jZk4DKwK/M5-HDXY3-HJ5-HAFMM6-DCSGAK33-KU.avif",
+  "slug": "james-netflix-documentary"
+},
+  {
   "id": 1011,
   "title": "Mexico or USA: Whose Jersey Sells More in America? The Surprising Truth (and a Major Shift)",
   "author": "Mio Ristić",
