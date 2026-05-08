@@ -195,7 +195,7 @@ export default function BlogPage() {
     <div className="w-full bg-white">
       {/* CATEGORIES */}
       <div className="max-w-6xl mx-auto py-12 px-4">
-        <h2 className="text-5xl font-bold text-[#020617] mb-12">Blog</h2>
+         <h2 className="text-5xl md:text-6xl font-black tracking-[-2.8px] leading-none text-[#020617] mb-8 text-center">Blog</h2>
 
         <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {items.map((item) => (
@@ -222,7 +222,7 @@ export default function BlogPage() {
 
       {/* BLOG POSTS */}
       <div className="max-w-6xl mx-auto py-12 px-4">
-        <h2 className="text-5xl font-bold text-[#020617] mb-12">
+         <h2 className="text-5xl md:text-6xl font-black tracking-[-2.8px] leading-none text-[#020617] mb-8 text-center">
           Latest Blog Posts
         </h2>
 
@@ -255,11 +255,11 @@ export default function BlogPage() {
         {visiblePosts.length < blogPosts.length && (
           <div className="mt-10 text-center">
             <button
-              onClick={loadMorePosts}
-              className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition"
-            >
-              Load More
-            </button>
+                onClick={loadMorePosts}
+                className="cursor-pointer text-white bg-[#020617] px-6 py-3 rounded-lg hover:bg-transparent hover:text-[#020617] border-2 border-transparent hover:border-[#020617] transition duration-500"
+              >
+                Read More
+              </button>
           </div>
         )}
       </div>

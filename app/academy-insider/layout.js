@@ -12,7 +12,7 @@ export const metadata = {
     siteName: "US11",
     images: [
       {
-        url: "https://images.pexels.com/photos/3886066/pexels-photo-3886066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        url: "https://images.unsplash.com/photo-1622673912068-6ae79182a72d?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         width: 1200,
         height: 800,
       },
@@ -26,16 +26,16 @@ export const metadata = {
     description:
       "Player pathways, coaches’ spotlight, and real football guidance from the US11 community.",
     images: [
-      "https://images.pexels.com/photos/3886066/pexels-photo-3886066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.unsplash.com/photo-1622673912068-6ae79182a72d?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ],
-    creator: "@mioristic", // zameni ako treba
+    creator: "@mioristic",
   },
 };
 
 export default function AcademyInsiderLayout({ children }) {
   return (
-    <div className="bg-gray-50 min-h-screen">
-      <main className="max-w-5xl mx-auto px-4 md:px-0 py-10">
+    <div className="bg-white min-h-screen">
+      <main className="w-full">
         {children}
       </main>
     </div>
