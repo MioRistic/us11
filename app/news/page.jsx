@@ -12,6 +12,18 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 152,
+  "title": "Casemiro to Inter Miami? The High-Stakes Gamble That Could Define Messi’s Final Chapter",
+  "author": "Mio Ristić",
+  "date": "May 9, 2026",
+  "excerpt": "With Casemiro expected to leave Manchester United as a free agent, Inter Miami has emerged as the clear frontrunner. We analyze what the Brazilian midfielder would bring and the significant risks involved.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2264815577/crop/MM5DGMZWGA5DCOBZGA5G433XMU5DINZZHIYTENQ=/GettyImages-2264815577.jpg",
+  "slug": "casemiro-inter-miami",
+  "category": "Transfer News",
+  "tags": ["Casemiro", "Inter Miami", "Lionel Messi", "Transfer News", "MLS", "Manchester United", "Javier Mascherano"],
+  "readTime": "6 min"
+},
+    {
   "id": 151,
   "title": "No Americans in the Champions League Final: Johnny Cardoso’s Dream Ends in London",
   "author": "Mio Ristić",
