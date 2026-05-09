@@ -12,6 +12,18 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 153,
+  "title": "Matchday 12 Opens With a Statement: Messi Produces Goal + Two Assists as Inter Miami Cruises Past Toronto 4-2",
+  "author": "Mio Ristić",
+  "date": "May 10, 2026",
+  "excerpt": "Lionel Messi delivered a goal and two assists as Inter Miami opened Matchday 12 with a dominant 4-2 victory over Toronto FC. A statement performance from the defending champions.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2275337445/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2275337445.jpg",
+  "slug": "matchday-12-inter-miami-toronto",
+  "category": "MLS",
+  "tags": ["Inter Miami", "Toronto FC", "Lionel Messi", "Matchday 12", "MLS 2026", "Rodrigo De Paul", "Luis Suárez"],
+  "readTime": "5 min"
+},
+    {
   "id": 152,
   "title": "Casemiro to Inter Miami? The High-Stakes Gamble That Could Define Messi’s Final Chapter",
   "author": "Mio Ristić",

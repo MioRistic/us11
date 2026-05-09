@@ -26,6 +26,8 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
     Trending Players
   </h2>
 
+  
+
   <div className="overflow-x-auto pb-8 snap-x snap-mandatory scrollbar-hide">
     <div className="flex gap-6 md:gap-8 w-max">
       {players.map((player) => (
@@ -63,6 +65,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+    id: 153,
+    title: "Matchday 12 Opens With a Statement: Messi Produces Goal + Two Assists as Inter Miami Cruises Past Toronto 4-2",
+    author: "Mio Ristić",
+    date: "May 10, 2026",
+    excerpt: "Lionel Messi delivered a goal and two assists as Inter Miami opened Matchday 12 with a dominant 4-2 victory over Toronto FC. A statement performance from the defending champions.",
+    imageUrl: "https://assets.goal.com/images/v3/getty-2275337445/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2275337445.jpg",
+    link: "news/matchday-12-inter-miami-toronto",
+  },
+  {
     id: 151,
     title: "No Americans in the Champions League Final: Johnny Cardoso’s Dream Ends in London",
     author: "Mio Ristić",
@@ -80,16 +91,9 @@ const blogPosts: Post[] = [
     imageUrl: "https://assets.goal.com/images/v3/getty-2274230605/crop/MM5DIMRUGY5DEMZYHE5G433XMU5DAORUGI3A====/GettyImages-2274230605.jpg",
     link: "news/mls-matchday-11-2026",
   },
-  {
-    id: 149,
-    title: "Martín Ojeda’s Masterpiece: One Night in Miami That No One Will Forget",
-    author: "Mio Ristić",
-    date: "May 3, 2026",
-    excerpt: "Martín Ojeda delivered a hat-trick for the ages as Orlando City came back from 3-0 down to stun Inter Miami 4-3 at Nu Stadium in one of the most dramatic Florida Derbies in recent memory.",
-    imageUrl: "https://assets.goal.com/images/v3/blt46944697bc863c53/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-05-02T211526.574.png",
-    link: "news/martin-ojeda-masterpiece-miami-2026",
-  },
-];const jerseysBlogPosts: Post[] = [
+];
+
+const jerseysBlogPosts: Post[] = [
   {
     id: 1011,
     title: "Mexico or USA: Whose Jersey Sells More in America? The Surprising Truth (and a Major Shift)",
@@ -118,6 +122,7 @@ const blogPosts: Post[] = [
     imageUrl: "https://i.ibb.co/nNsnK2BN/salario-antoine-griezmann-orlando-city-mls-principal.jpg",
     link: "/blog/griezmann-orlando-city-jersey",
   },
+
 ];const hallOfFamePosts: Post[] = [
   {
     id: 87,
