@@ -95,6 +95,15 @@ const blogPosts: Post[] = [
 
 const jerseysBlogPosts: Post[] = [
   {
+  "id": 1013,
+  "title": "Atlanta United x MARTA: When Football, Public Transit and Street Style Collide",
+  "author": "Mio Ristić",
+  "date": "May 10, 2026",
+  "excerpt": "Atlanta United’s new collaboration with MARTA transforms Atlanta’s public transit culture into one of the most authentic and stylish football collections in recent MLS history.",
+  "imageUrl": "https://www.mlsstore.com/content/ws/all/719d8023-83da-4065-81da-c3a83a94a370__480X639.jpg?w=480",
+  "link": "blog/atlanta-united-marta-collection"
+},
+  {
     id: 1011,
     title: "Mexico or USA: Whose Jersey Sells More in America? The Surprising Truth (and a Major Shift)",
     author: "Mio Ristić",
@@ -113,15 +122,7 @@ const jerseysBlogPosts: Post[] = [
     imagePosition: "50% 15%",
     link: "blog/adidas-audi-miami-collection-2026",
   },
-  {
-    id: 1008,
-    title: "Griezmann #7 Jersey Already Breaking Sales Records at Orlando City",
-    author: "Mio Ristić",
-    date: "April 11, 2026",
-    excerpt: "Antoine Griezmann's No.7 Orlando City jerseys (Home Perfect Storm & Sunken Treasure Away) went on sale immediately after the announcement and are already among the fastest-selling kits in club history. Full story, jersey details, and where to buy now.",
-    imageUrl: "https://i.ibb.co/nNsnK2BN/salario-antoine-griezmann-orlando-city-mls-principal.jpg",
-    link: "/blog/griezmann-orlando-city-jersey",
-  },
+   
 
 ];const hallOfFamePosts: Post[] = [
   {
@@ -401,10 +402,15 @@ const jerseysBlogPosts: Post[] = [
     type="text" 
     name="_gotcha" 
     style={{ display: 'none' }} 
-  />  <button
+  />
+
+  <button
     type="submit"
-    className="cursor-pointer bg-blue-600 hover:bg-blue-700 active:scale-95 transition-all font-bold text-white px-8 py-3.5 rounded-2xl text-sm tracking-wider whitespace-nowrap"  >
-Subscribe  </button>
+    className="cursor-pointer bg-blue-600 hover:bg-blue-700 active:scale-95 transition-all font-bold text-white px-8 py-3.5 rounded-2xl text-sm tracking-wider whitespace-nowrap"
+    suppressHydrationWarning
+  >
+    Subscribe
+  </button>
 </form>
 
 {/* Success / Error poruke */}
@@ -498,6 +504,92 @@ Subscribe  </button>
         </div>
       </div>
     </div>
+    {/* OFFICIAL PARTNERS / COLLABS SECTION */}
+<div className="bg-white py-12 border-t border-b">
+  <div className="max-w-7xl mx-auto px-4">
+    <h2 className="text-center text-3xl font-bold tracking-tight mb-8 text-[#020617]">
+        Official Partners & Affiliates
+    </h2>
+
+    <div className="overflow-x-auto pb-6 scrollbar-hide">
+      <div className="flex gap-8 md:gap-12 justify-center items-center min-w-max">
+
+          {/* Fanatics */}
+        <div className="flex flex-col items-center group">
+  <a 
+    href="https://fanatics.93n6tx.net/qWyyEj" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="block"
+  >
+    <div className="bg-gray-100 hover:bg-gray-200 transition-colors rounded-2xl p-6 w-28 h-28 flex items-center justify-center">
+      <img
+        src="https://www.fanatics.com/content/assets/__0-1381085203729.737.svg"
+        alt="Fanatics"
+        className="h-12 grayscale group-hover:grayscale-0 transition-all"
+      />
+    </div>
+  </a>
+</div>
+          {/* MLS */}
+        <div className="flex flex-col items-center group">
+  <a 
+    href="https://mlsstore.i8h2.net/9VEEM0" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="block"
+  >
+    <div className="bg-gray-100 hover:bg-gray-200 transition-colors rounded-2xl p-6 w-28 h-28 flex items-center justify-center">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Major_League_Soccer_logo.svg/500px-Major_League_Soccer_logo.svg.png"
+        alt="MLS"
+        className="h-12 grayscale group-hover:grayscale-0 transition-all"
+      />
+    </div>
+  </a>
+</div>
+
+       {/* Ticket Network */}
+        <div className="flex flex-col items-center group">
+  <a 
+    href="https://ticketnetwork.lusg.net/n4yy2o" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="block"
+  >
+    <div className="bg-gray-100 hover:bg-gray-200 transition-colors rounded-2xl p-6 w-28 h-28 flex items-center justify-center">
+      <img
+        src="https://image.pitchbook.com/oh2B6dUL35JJWowDTTX4JutnVAI1659528454068_200x200"
+        alt="Ticket Network"
+        className="h-18 grayscale group-hover:grayscale-0 transition-all"
+      />
+    </div>
+  </a>
+</div>
+      
+
+       {/* Expedia */}
+        <div className="flex flex-col items-center group">
+  <a 
+    href="https://www.expedia.com/Mercedes-Benz-Stadium-Hotels.0-l553248633992329628-0.Travel-Guide-Filter-Hotels?clickref=1110l3VMB7b4&affcid=US.DIRECT.PHG.1100l424389.1100l68075&ref_id=1110l3VMB7b4&my_ad=AFF.US.DIRECT.PHG.1100l424389.1100l68075&afflid=1110l3VMB7b4&affdtl=PHG.1110l3VMB7b4.PZmW8eyzcc" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="block"
+  >
+    <div className="bg-gray-100 hover:bg-gray-200 transition-colors rounded-2xl p-6 w-28 h-28 flex items-center justify-center">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Expedia_Logo_2023.svg/500px-Expedia_Logo_2023.svg.png"
+        alt="Expedia"
+        className="h-4 grayscale group-hover:grayscale-0 transition-all"
+      />
+    </div>
+  </a>
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
   </article>
 </>  );
 }

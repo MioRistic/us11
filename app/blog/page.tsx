@@ -50,6 +50,15 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 1013,
+  "title": "Atlanta United x MARTA: When Football, Public Transit and Street Style Collide",
+  "author": "Mio Ristić",
+  "date": "May 10, 2026",
+  "excerpt": "Atlanta United’s new collaboration with MARTA transforms Atlanta’s public transit culture into one of the most authentic and stylish football collections in recent MLS history.",
+  "imageUrl": "https://www.mlsstore.com/content/ws/all/719d8023-83da-4065-81da-c3a83a94a370__480X639.jpg?w=480",
+  "slug": "atlanta-united-marta-collection"
+},
+  {
   "id": 1012,
   "title": "James. Netflix’s Intimate Portrait of Colombia’s Last True No. 10",
   "author": "Mio Ristić",
