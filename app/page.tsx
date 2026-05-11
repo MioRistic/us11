@@ -65,6 +65,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 154,
+  "title": "Messi Makes History Again, Portland Explodes & James Delivers: What We Learned from MLS Matchday 12",
+  "author": "Mio Ristić",
+  "date": "May 11, 2026",
+  "excerpt": "Lionel Messi broke another MLS record, Portland Timbers demolished Sporting Kansas City 6-0, and James Rodríguez reminded everyone of his enduring quality in a dramatic MLS Matchday 12.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2266866579/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORSGMYQ====/GettyImages-2266866579.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/mls-matchday-12-2026"
+},
+  {
     id: 153,
     title: "Matchday 12 Opens With a Statement: Messi Produces Goal + Two Assists as Inter Miami Cruises Past Toronto 4-2",
     author: "Mio Ristić",
@@ -82,15 +91,7 @@ const blogPosts: Post[] = [
     imageUrl: "https://assets.goal.com/images/v3/getty-2249006353/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORRHAZA====/GettyImages-2249006353.jpg",
     link: "news/no-americans-champions-league-final-2026",
   },
-  {
-    id: 150,
-    title: "Orlando’s Miracle, Cincinnati’s Chaos and the Loons’ Aerial Assault: What We Learned from MLS Matchday 11",
-    author: "Mio Ristić",
-    date: "May 4, 2026",
-    excerpt: "Ojeda’s historic hat-trick comeback, Evander’s heroics with 10 men, Minnesota’s set-piece masterclass and more from a chaotic Matchday 11 in MLS.",
-    imageUrl: "https://assets.goal.com/images/v3/getty-2274230605/crop/MM5DIMRUGY5DEMZYHE5G433XMU5DAORUGI3A====/GettyImages-2274230605.jpg",
-    link: "news/mls-matchday-11-2026",
-  },
+  
 ];
 
 const jerseysBlogPosts: Post[] = [
@@ -147,17 +148,24 @@ const jerseysBlogPosts: Post[] = [
   },
 ];const heroItems = [
   {
-    title: "No Americans in the Champions League Final",
-    subtitle: "Johnny Cardoso’s Dream Ends in London",
-    image: "https://assets.goal.com/images/v3/getty-2249006353/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORRHAZA====/GettyImages-2249006353.jpg",
-    link: "/news/no-americans-champions-league-final-2026",
-  },
+  "title": "Messi Makes History Again, Portland Explodes & James Delivers",
+  "subtitle": "What We Learned from MLS Matchday 12",
+  "image": "https://assets.goal.com/images/v3/getty-2266866579/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORSGMYQ====/GettyImages-2266866579.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/mls-matchday-12-2026"
+},
   {
-    title: "Orlando’s Miracle, Cincinnati’s Chaos",
-    subtitle: "What We Learned from MLS Matchday 11",
-    image: "https://assets.goal.com/images/v3/getty-2274230605/crop/MM5DIMRUGY5DEMZYHE5G433XMU5DAORUGI3A====/GettyImages-2274230605.jpg",
-    link: "/news/mls-matchday-11-2026",
-  },
+  title: "Atlanta United x MARTA: When Football, Public Transit and Street Style Collide",
+  subtitle: "Atlanta’s Transit Culture Becomes Streetwear",
+  image: "https://www.mlsstore.com/content/ws/all/719d8023-83da-4065-81da-c3a83a94a370__480X639.jpg?w=480",
+  link: "/blog/atlanta-united-marta-collection",
+},
+{
+  title: "Mexico or USA: Whose Jersey Sells More in America?",
+  subtitle: "The Surprising Truth Behind 2026 Shirt Sales",
+  image: "https://i.ibb.co/Gfk3qjXJ/Untitled-design-4.png",
+  link: "/blog/mexico-usa-jersey-sales-2026",
+},
+ 
 ];const staffPicks = [
   {
     name: "Antoine Griezmann - Orlando City",

@@ -12,6 +12,16 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 154,
+  "title": "Messi Makes History Again, Portland Explodes & James Delivers: What We Learned from MLS Matchday 12",
+  "author": "Mio Ristić",
+  "date": "May 11, 2026",
+  "excerpt": "Lionel Messi broke another MLS record, Portland Timbers demolished Sporting Kansas City 6-0, and James Rodríguez reminded everyone of his enduring quality in a dramatic MLS Matchday 12.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2266866579/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORSGMYQ====/GettyImages-2266866579.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "mls-matchday-12-2026"
+},
+   
+    {
   "id": 153,
   "title": "Matchday 12 Opens With a Statement: Messi Produces Goal + Two Assists as Inter Miami Cruises Past Toronto 4-2",
   "author": "Mio Ristić",
