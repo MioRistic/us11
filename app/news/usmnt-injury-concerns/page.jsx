@@ -185,7 +185,9 @@ export default function USMNTInjuryConcerns() {
           </p>
 
           <p>
-            The Milan captain has dealt with muscular problems throughout his career, but he is widely expected to be available for the World Cup barring any setbacks.
+             While he sat out Sunday’s match, multiple reports — including from ESPN and Gianluca Di Marzio — indicate the glute issue is precautionary. The American star has dealt with muscular problems throughout his career, but he is widely expected to be available for the World Cup barring any setbacks.
+
+
           </p>
 
           <p>
