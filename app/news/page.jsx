@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 155,
+  "title": "The James Rodríguez Experiment in Minnesota Ends After Just Four Games: What Went Wrong?",
+  "author": "Mio Ristić",
+  "date": "May 11, 2026",
+  "excerpt": "James Rodríguez’s short-lived Minnesota United spell is already coming to an end after just four MLS appearances, raising questions about fitness, tactical fit, and the realities of late-career superstar signings.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2266866585/crop/MM5DEOBYGA5DCNRSGA5G433XMU5DINBUHIYTANA=/GettyImages-2266866585.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "james-rodriguez-minnesota-experiment"
+},
+{
+  "id": 156,
+  "title": "USMNT Hit by Injury Concerns as Cardoso Faces Surgery and Pulisic Misses Key Milan Match",
+  "author": "Mio Ristić",
+  "date": "May 11, 2026",
+  "excerpt": "Johnny Cardoso is expected to miss the 2026 World Cup after ankle surgery, while Christian Pulisic deals with a precautionary injury concern ahead of the tournament.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2270965566/crop/MM5DEMRYGA5DCMRYGM5G433XMU5DAORWHA======/GettyImages-2270965566.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "usmnt-injury-concerns"
+},
+    {
   "id": 154,
   "title": "Messi Makes History Again, Portland Explodes & James Delivers: What We Learned from MLS Matchday 12",
   "author": "Mio Ristić",

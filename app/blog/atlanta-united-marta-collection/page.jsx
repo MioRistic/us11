@@ -181,14 +181,15 @@ const AtlantaUnitedMartaCollection = () => {
           </p>
 
         </section>
-
-        {/* DISCLAIMER */}
-        <div className="bg-gray-100 border border-gray-300 rounded-2xl p-8 text-center text-sm text-gray-600 max-w-2xl mx-auto mt-16">
-          <p>
-            <strong>Note:</strong> This article is editorial coverage of the Atlanta United x MARTA collaboration. 
-            Product availability and collection items may vary.
-          </p>
-        </div>
+{/* DISCLAIMER / AFFILIATE NOTE */}
+<div className="bg-gray-100 border border-gray-300 rounded-2xl p-8 text-center text-sm text-gray-600 max-w-2xl mx-auto">
+  <p>
+    <strong>Note:</strong> If you make a purchase through the links in this article, 
+    US11 may earn a small commission at no extra cost to you. 
+    This helps support our work and allows us to continue creating quality content about MLS and big-name signings. 
+    Thank you for your support!
+  </p>
+</div>
 
         {/* FOOTER */}
         <footer className="mt-12 border-t pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">

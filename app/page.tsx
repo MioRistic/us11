@@ -65,6 +65,24 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 155,
+  "title": "The James Rodríguez Experiment in Minnesota Ends After Just Four Games: What Went Wrong?",
+  "author": "Mio Ristić",
+  "date": "May 11, 2026",
+  "excerpt": "James Rodríguez’s short-lived Minnesota United spell is already coming to an end after just four MLS appearances, raising questions about fitness, tactical fit, and the realities of late-career superstar signings.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2266866585/crop/MM5DEOBYGA5DCNRSGA5G433XMU5DINBUHIYTANA=/GettyImages-2266866585.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/james-rodriguez-minnesota-experiment"
+},
+{
+  "id": 156,
+  "title": "USMNT Hit by Injury Concerns as Cardoso Faces Surgery and Pulisic Misses Key Milan Match",
+  "author": "Mio Ristić",
+  "date": "May 11, 2026",
+  "excerpt": "Johnny Cardoso is expected to miss the 2026 World Cup after ankle surgery, while Christian Pulisic deals with a precautionary injury concern ahead of the tournament.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2270965566/crop/MM5DEMRYGA5DCMRYGM5G433XMU5DAORWHA======/GettyImages-2270965566.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/usmnt-injury-concerns"
+},
+  {
   "id": 154,
   "title": "Messi Makes History Again, Portland Explodes & James Delivers: What We Learned from MLS Matchday 12",
   "author": "Mio Ristić",
@@ -73,24 +91,8 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2266866579/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORSGMYQ====/GettyImages-2266866579.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "news/mls-matchday-12-2026"
 },
-  {
-    id: 153,
-    title: "Matchday 12 Opens With a Statement: Messi Produces Goal + Two Assists as Inter Miami Cruises Past Toronto 4-2",
-    author: "Mio Ristić",
-    date: "May 10, 2026",
-    excerpt: "Lionel Messi delivered a goal and two assists as Inter Miami opened Matchday 12 with a dominant 4-2 victory over Toronto FC. A statement performance from the defending champions.",
-    imageUrl: "https://assets.goal.com/images/v3/getty-2275337445/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2275337445.jpg",
-    link: "news/matchday-12-inter-miami-toronto",
-  },
-  {
-    id: 151,
-    title: "No Americans in the Champions League Final: Johnny Cardoso’s Dream Ends in London",
-    author: "Mio Ristić",
-    date: "May 6, 2026",
-    excerpt: "Johnny Cardoso came off the bench but couldn’t inspire Atlético Madrid as Arsenal advanced to the 2026 Champions League final. No American will feature in the showpiece match.",
-    imageUrl: "https://assets.goal.com/images/v3/getty-2249006353/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORRHAZA====/GettyImages-2249006353.jpg",
-    link: "news/no-americans-champions-league-final-2026",
-  },
+ 
+ 
   
 ];
 
@@ -516,7 +518,7 @@ const jerseysBlogPosts: Post[] = [
 <div className="bg-white py-12 border-t border-b">
   <div className="max-w-7xl mx-auto px-4">
     <h2 className="text-center text-3xl font-bold tracking-tight mb-8 text-[#020617]">
-        Official Partners & Affiliates
+        Affiliates
     </h2>
 
     <div className="overflow-x-auto pb-6 scrollbar-hide">

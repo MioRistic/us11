@@ -12,6 +12,15 @@ import Link from 'next/link';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 1013,
+  "title": "Atlanta United x MARTA: When Football, Public Transit and Street Style Collide",
+  "author": "Mio Ristić",
+  "date": "May 10, 2026",
+  "excerpt": "Atlanta United’s new collaboration with MARTA transforms Atlanta’s public transit culture into one of the most authentic and stylish football collections in recent MLS history.",
+  "imageUrl": "https://www.mlsstore.com/content/ws/all/719d8023-83da-4065-81da-c3a83a94a370__480X639.jpg?w=480",
+  "slug": "atlanta-united-marta-collection"
+},
+    {
   "id": 1011,
   "title": "Mexico or USA: Whose Jersey Sells More in America? The Surprising Truth (and a Major Shift)",
   "author": "Mio Ristić",
@@ -19,6 +28,16 @@ const Blog = () => {
   "excerpt": "Fanatics claims the USMNT 2026 kit is currently outselling Mexico in the United States. We analyze the data, the Messi effect, and what it really means ahead of the World Cup.",
   "imageUrl": "https://i.ibb.co/Gfk3qjXJ/Untitled-design-4.png",
   "slug": "mexico-usa-jersey-sales-2026",
+},
+{
+  "id": 1010,
+  "title": "2000s Football Nostalgia Meets Formula 1 Glamour: Adidas and Audi Drop a Miami Collection That Actually Works",
+  "author": "Mio Ristić",
+  "date": "May 2, 2026",
+  "excerpt": "Adidas and Audi team up with Inter Miami for a limited F1 Miami Collection that blends 2000s football kits with modern Formula 1 style.",
+  "imageUrl": "https://www.audif1.com/cms/api/media/file/audif1_2026_miami_collection_messi_teaser_01-1012x1350.webp",
+  "imagePosition": "50% 12%",
+  "slug": "adidas-audi-miami-collection-2026"
 },
     {
   "id": 1008,
