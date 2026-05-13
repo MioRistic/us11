@@ -10,6 +10,11 @@ const AtlantaUnitedMartaCollection = () => {
       <div className="max-w-4xl mx-auto py-12 px-4 md:px-0">
 
         {/* HEADER */}
+         <div className="-mx-4 md:-mx-6 lg:-mx-8 xl:-mx-0 bg-zinc-100 border-b border-zinc-200 py-2.5 text-center text-[10px] text-zinc-600">
+  This page contains affiliate links. When you purchase through the links provided, 
+  <span className="text-zinc-700 font-medium"> US11 may earn a commission</span> 
+  at no extra cost to you.
+</div>
         <header className="mb-8">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-3">
             Atlanta United x MARTA: When Football, Public Transit and Street Style Collide

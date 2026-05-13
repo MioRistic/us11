@@ -35,18 +35,29 @@ const AdidasAudiMiamiCollection = () => {
   return (
     <article className="w-full min-h-screen bg-white text-[#020617]">
       <div className="max-w-4xl mx-auto py-12 px-4 md:px-0">
+          <div className="-mx-4 md:-mx-6 lg:-mx-8 xl:-mx-0 bg-zinc-100 border-b border-zinc-200 py-2.5 text-center text-[10px] text-zinc-600">
+  This page contains affiliate links. When you purchase through the links provided, 
+  <span className="text-zinc-700 font-medium"> US11 may earn a commission</span> 
+  at no extra cost to you.
+</div>
+         
 
         {/* HEADER */}
         <header className="mb-8">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-3">
             2000s Football Nostalgia Meets Formula 1 Glamour: Adidas and Audi Drop a Miami Collection That Actually Works
           </h1>
+         
+          
           <div className="flex items-center gap-4 mt-2 text-sm text-gray-500">
             <span>By Mio Ristić</span>
             <span>•</span>
             <time dateTime="2026-05-02">May 2, 2026</time>
+            
           </div>
         </header>
+
+        
 
         {/* FEATURE IMAGE */}
         <figure className="w-full rounded-2xl overflow-hidden shadow-md mb-10">
