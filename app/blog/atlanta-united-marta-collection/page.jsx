@@ -173,6 +173,8 @@ const AtlantaUnitedMartaCollection = () => {
             This collection is more than clothing. It’s a statement that Atlanta United wants to be woven into the everyday fabric of the city — quite literally.
           </p>
 
+          
+
           <p>
             For fans who ride the Gold Line to the stadium, wear the hoodie on their morning commute, or simply appreciate clever, context-aware design, this drop hits different.
           </p>

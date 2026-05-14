@@ -20,7 +20,9 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
     { name: 'Marco Reus', image: 'https://assets.spox.com/images/v3/SPOX_6842816/contentpush.tmp?quality=60&auto=webp&format=pjpg&width=1148', link: '/teams/la-galaxy/reus' },
     { name: 'Jordan Morris', image: 'https://assets.goal.com/images/v3/getty-2090010997/crop/MM5DENBQGA5DCNRQGE5G433XMU5DKNRWHIYTAMA=/GettyImages-2090010997.jpg?auto=webp&format=pjpg&width=3840&quality=60', link: '/teams/seattle-sounders/morris' },
   ];  return (
+    
     <div className="max-w-6xl mx-auto py-12 px-4">
+      
       {/* TRENDING PLAYERS - Horizontal Slider */}<div className="max-w-7xl mx-auto py-12 px-4">
   <h2 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-[-2.5px] text-center mb-10 text-[#020617]">
     Trending Players
@@ -65,6 +67,16 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 156,
+  "title": "McDonald’s Park: A New Chapter for Chicago Fire and a Defining Moment for a City",
+  "author": "Mio Ristić",
+  "date": "May 13, 2026",
+  "excerpt": "McDonald’s and Chicago Fire FC announce a historic naming rights partnership for the club’s new $750 million stadium opening in 2028. The deal includes major investment in youth soccer and community programs across Chicago.",
+  "imageUrl": "https://i.ibb.co/7xZxRhLp/hero-rendering-5-Ce-Ln-RX9s.jpg",
+  "link": "news/mcdonalds-park-chicago-fire",
+  
+},
+  {
   "id": 155,
   "title": "The James Rodríguez Experiment in Minnesota Ends After Just Four Games: What Went Wrong?",
   "author": "Mio Ristić",
@@ -74,7 +86,7 @@ const blogPosts: Post[] = [
   "link": "news/james-rodriguez-minnesota-experiment"
 },
 {
-  "id": 156,
+  "id": 157,
   "title": "USMNT Hit by Injury Concerns as Cardoso Faces Surgery and Pulisic Misses Key Milan Match",
   "author": "Mio Ristić",
   "date": "May 11, 2026",
@@ -82,15 +94,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2270965566/crop/MM5DEMRYGA5DCMRYGM5G433XMU5DAORWHA======/GettyImages-2270965566.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/usmnt-injury-concerns"
 },
-  {
-  "id": 154,
-  "title": "Messi Makes History Again, Portland Explodes & James Delivers: What We Learned from MLS Matchday 12",
-  "author": "Mio Ristić",
-  "date": "May 11, 2026",
-  "excerpt": "Lionel Messi broke another MLS record, Portland Timbers demolished Sporting Kansas City 6-0, and James Rodríguez reminded everyone of his enduring quality in a dramatic MLS Matchday 12.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2266866579/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORSGMYQ====/GettyImages-2266866579.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "news/mls-matchday-12-2026"
-},
+ 
  
  
   
@@ -148,6 +152,12 @@ const jerseysBlogPosts: Post[] = [
     link: "/blog/mls-hall-of-fame/david-beckham",
   },
 ];const heroItems = [
+  {
+  "title": "McDonald’s Park: A New Chapter for Chicago Fire and a Defining Moment for a City",
+  "subtitle": "Historic Naming Rights Deal Marks New Era for Chicago Fire FC",
+  "image": "https://i.ibb.co/7xZxRhLp/hero-rendering-5-Ce-Ln-RX9s.jpg",
+  "link": "/news/mcdonalds-park-chicago-fire"
+},
   {
   "title": "Mexico’s New Adidas Third Kit Is a Bold Tribute to Their World Cup Legacy",
   "subtitle": "A Stunning Tribute to Mexico’s World Cup Heritage",
@@ -268,11 +278,22 @@ const jerseysBlogPosts: Post[] = [
                 />
               )}
             </button>
+            
           );
         })}
       </div>
+      
+      
     </section><div className="bg-white py-16">
+      {/* Hero */}
+      <div className=" md:-mx-6 lg:-mx-8 xl:-mx-0 bg-zinc-100 border-b border-zinc-200 py-2.5 text-center text-[10px] text-zinc-600">
+  This page contains affiliate links. When you purchase through the links provided, 
+  <span className="text-zinc-700 font-medium"> US11 may earn a commission</span> 
+  at no extra cost to you.
+</div>
+      
   <div className="max-w-6xl mx-auto px-6">
+    
     <h2 className="text-5xl md:text-6xl font-black tracking-[-2.8px] leading-none text-[#020617] mb-12 text-center">
       Staff Picks
     </h2>

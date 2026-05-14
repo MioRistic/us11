@@ -12,6 +12,18 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 156,
+  "title": "McDonald’s Park: A New Chapter for Chicago Fire and a Defining Moment for a City",
+  "author": "Mio Ristić",
+  "date": "May 13, 2026",
+  "excerpt": "McDonald’s and Chicago Fire FC announce a historic naming rights partnership for the club’s new $750 million stadium opening in 2028. The deal includes major investment in youth soccer and community programs across Chicago.",
+  "imageUrl": "https://i.ibb.co/7xZxRhLp/hero-rendering-5-Ce-Ln-RX9s.jpg",
+  "slug": "mcdonalds-park-chicago-fire",
+  "category": "MLS",
+  "tags": ["McDonald’s Park", "Chicago Fire FC", "MLS Stadium", "The 78", "Youth Soccer", "P.L.A.Y.S. Program"],
+  "readTime": "6 min"
+},
+    {
   "id": 155,
   "title": "The James Rodríguez Experiment in Minnesota Ends After Just Four Games: What Went Wrong?",
   "author": "Mio Ristić",
