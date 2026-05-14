@@ -98,6 +98,15 @@ const blogPosts: Post[] = [
 
 const jerseysBlogPosts: Post[] = [
   {
+  "id": 1014,
+  "title": "Mexico’s New Adidas Third Kit Is a Bold Tribute to Their World Cup Legacy",
+  "author": "Mio Ristić",
+  "date": "May 11, 2026",
+  "excerpt": "Mexico and adidas unveiled a bold new all-black 2026 third kit that celebrates the nation’s World Cup legacy with premium design details and deep cultural identity.",
+  "imageUrl": "https://preview.thenewsmarket.com/Previews/ADID/StillAssets/1920x1440/723904.jpg",
+  "link": "blog/mexico-adidas-third-kit-2026"
+},
+  {
   "id": 1013,
   "title": "Atlanta United x MARTA: When Football, Public Transit and Street Style Collide",
   "author": "Mio Ristić",
@@ -115,17 +124,7 @@ const jerseysBlogPosts: Post[] = [
     imageUrl: "https://i.ibb.co/Gfk3qjXJ/Untitled-design-4.png",
     link: "blog/mexico-usa-jersey-sales-2026",
   },
-  {
-    id: 1010,
-    title: "2000s Football Nostalgia Meets Formula 1 Glamour: Adidas and Audi Drop a Miami Collection That Actually Works",
-    author: "Mio Ristić",
-    date: "May 2, 2026",
-    excerpt: "Adidas and Audi team up with Inter Miami for a limited F1 Miami Collection that blends 2000s football kits with modern Formula 1 style.",
-    imageUrl: "https://www.audif1.com/cms/api/media/file/audif1_2026_miami_collection_messi_teaser_01-1012x1350.webp",
-    imagePosition: "50% 15%",
-    link: "blog/adidas-audi-miami-collection-2026",
-  },
-   
+  
 
 ];const hallOfFamePosts: Post[] = [
   {
@@ -150,10 +149,10 @@ const jerseysBlogPosts: Post[] = [
   },
 ];const heroItems = [
   {
-  "title": "Messi Makes History Again, Portland Explodes & James Delivers",
-  "subtitle": "What We Learned from MLS Matchday 12",
-  "image": "https://assets.goal.com/images/v3/getty-2266866579/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORSGMYQ====/GettyImages-2266866579.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/mls-matchday-12-2026"
+  "title": "Mexico’s New Adidas Third Kit Is a Bold Tribute to Their World Cup Legacy",
+  "subtitle": "A Stunning Tribute to Mexico’s World Cup Heritage",
+  "image": "https://preview.thenewsmarket.com/Previews/ADID/StillAssets/1920x1440/723904.jpg",
+  "link": "/blog/mexico-adidas-third-kit-2026"
 },
   {
   title: "Atlanta United x MARTA: When Football, Public Transit and Street Style Collide",

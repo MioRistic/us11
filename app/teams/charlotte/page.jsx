@@ -107,8 +107,14 @@ const CharlotteFCPage = () => {
   };
 
   return (
+    
     <div className="bg-white min-h-screen text-[#0d1117]">
       {/* Hero */}
+      <div className="-mx-4 md:-mx-6 lg:-mx-8 xl:-mx-0 bg-zinc-100 border-b border-zinc-200 py-2.5 text-center text-[10px] text-zinc-600">
+  This page contains affiliate links. When you purchase through the links provided, 
+  <span className="text-zinc-700 font-medium"> US11 may earn a commission</span> 
+  at no extra cost to you.
+</div>
       <div className="relative h-[500px] md:h-[600px] bg-gradient-to-b from-black/70 to-black/90 overflow-hidden">
         <Image
           src="/charlotte.png"

@@ -12,6 +12,15 @@ import Link from 'next/link';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 1014,
+  "title": "Mexico’s New Adidas Third Kit Is a Bold Tribute to Their World Cup Legacy",
+  "author": "Mio Ristić",
+  "date": "May 11, 2026",
+  "excerpt": "Mexico and adidas unveiled a bold new all-black 2026 third kit that celebrates the nation’s World Cup legacy with premium design details and deep cultural identity.",
+  "imageUrl": "https://preview.thenewsmarket.com/Previews/ADID/StillAssets/1920x1440/723904.jpg",
+  "slug": "mexico-adidas-third-kit-2026"
+},
+    {
   "id": 1013,
   "title": "Atlanta United x MARTA: When Football, Public Transit and Street Style Collide",
   "author": "Mio Ristić",

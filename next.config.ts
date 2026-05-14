@@ -36,7 +36,7 @@ const nextConfig = {
       { protocol: 'https', hostname: 'images.mlssoccer.com' },
       { protocol: 'https', hostname: 'media.freemalaysiatoday.com' },
       { protocol: 'https', hostname: 'motorcyclesports.net' },
-      { protocol: 'https', hostname: 'www.observerbd.com' },
+      { protocol: 'https', hostname: 'preview.thenewsmarket.com' },
       { protocol: 'https', hostname: 'media.bleacherreport.com' },
       { protocol: 'https', hostname: 'cdn.vox-cdn.com' },
       { protocol: 'https', hostname: 'brila.net' },
