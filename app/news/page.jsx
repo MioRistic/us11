@@ -12,7 +12,16 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
-  "id": 156,
+  "id": 158,
+  "title": "Julian Hall and the Night MLS History Got a New Face",
+  "author": "Mio Ristić",
+  "date": "May 14, 2026",
+  "excerpt": "Julian Hall became the youngest player in MLS history to score a hat-trick as the 18-year-old New York Red Bulls star delivered a stunning performance against Columbus Crew.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2276124306/crop/MM5DINBVGI5DENJQGQ5G433XMU5DAORSGMZA====/GettyImages-2276124306.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "julian-hall-mls-history"
+},
+    {
+  "id": 157,
   "title": "McDonald’s Park: A New Chapter for Chicago Fire and a Defining Moment for a City",
   "author": "Mio Ristić",
   "date": "May 13, 2026",
@@ -24,7 +33,7 @@ const Blog = () => {
   "readTime": "6 min"
 },
     {
-  "id": 155,
+  "id": 156,
   "title": "The James Rodríguez Experiment in Minnesota Ends After Just Four Games: What Went Wrong?",
   "author": "Mio Ristić",
   "date": "May 11, 2026",
@@ -33,7 +42,7 @@ const Blog = () => {
   "slug": "james-rodriguez-minnesota-experiment"
 },
 {
-  "id": 156,
+  "id": 155,
   "title": "USMNT Hit by Injury Concerns as Cardoso Faces Surgery and Pulisic Misses Key Milan Match",
   "author": "Mio Ristić",
   "date": "May 11, 2026",

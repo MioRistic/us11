@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+    "id": 157,
+    "title": "Julian Hall and the Night MLS History Got a New Face",
+    "author": "Mio Ristić",
+    "date": "May 14, 2026",
+    "excerpt": "Julian Hall became the youngest player in MLS history to score a hat-trick as the 18-year-old New York Red Bulls star delivered a stunning performance against Columbus Crew.",
+    "imageUrl": "https://assets.goal.com/images/v3/getty-2276124306/crop/MM5DINBVGI5DENJQGQ5G433XMU5DAORSGMZA====/GettyImages-2276124306.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+    "link": "news/julian-hall-mls-history"
+  },
+  {
   "id": 156,
   "title": "McDonald’s Park: A New Chapter for Chicago Fire and a Defining Moment for a City",
   "author": "Mio Ristić",
@@ -84,15 +93,6 @@ const blogPosts: Post[] = [
   "excerpt": "James Rodríguez’s short-lived Minnesota United spell is already coming to an end after just four MLS appearances, raising questions about fitness, tactical fit, and the realities of late-career superstar signings.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-2266866585/crop/MM5DEOBYGA5DCNRSGA5G433XMU5DINBUHIYTANA=/GettyImages-2266866585.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/james-rodriguez-minnesota-experiment"
-},
-{
-  "id": 157,
-  "title": "USMNT Hit by Injury Concerns as Cardoso Faces Surgery and Pulisic Misses Key Milan Match",
-  "author": "Mio Ristić",
-  "date": "May 11, 2026",
-  "excerpt": "Johnny Cardoso is expected to miss the 2026 World Cup after ankle surgery, while Christian Pulisic deals with a precautionary injury concern ahead of the tournament.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2270965566/crop/MM5DEMRYGA5DCMRYGM5G433XMU5DAORWHA======/GettyImages-2270965566.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/usmnt-injury-concerns"
 },
  
  
