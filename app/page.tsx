@@ -67,7 +67,17 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
-    "id": 157,
+    "id": 159,
+    "title": "Noah Allen to Olympiacos? The Greek-American Prospect Facing a Defining Career Decision",
+    "author": "Mio Ristić",
+    "date": "May 14, 2026",
+    "excerpt": "Olympiacos are reportedly interested in Inter Miami defender Noah Allen, but a move to Greece may come with major risks for the promising 22-year-old prospect.",
+    "imageUrl": "https://cdn1.intermiami.news/uploads/52/2024/10/GettyImages-2148224320-scaled.jpg",
+    "link": "news/noah-allen-olympiacos"
+  },
+
+  {
+    "id": 158,
     "title": "Julian Hall and the Night MLS History Got a New Face",
     "author": "Mio Ristić",
     "date": "May 14, 2026",
@@ -85,15 +95,7 @@ const blogPosts: Post[] = [
   "link": "news/mcdonalds-park-chicago-fire",
   
 },
-  {
-  "id": 155,
-  "title": "The James Rodríguez Experiment in Minnesota Ends After Just Four Games: What Went Wrong?",
-  "author": "Mio Ristić",
-  "date": "May 11, 2026",
-  "excerpt": "James Rodríguez’s short-lived Minnesota United spell is already coming to an end after just four MLS appearances, raising questions about fitness, tactical fit, and the realities of late-career superstar signings.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2266866585/crop/MM5DEOBYGA5DCNRSGA5G433XMU5DINBUHIYTANA=/GettyImages-2266866585.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/james-rodriguez-minnesota-experiment"
-},
+   
  
  
  
@@ -152,12 +154,7 @@ const jerseysBlogPosts: Post[] = [
     link: "/blog/mls-hall-of-fame/david-beckham",
   },
 ];const heroItems = [
-  {
-  "title": "McDonald’s Park: A New Chapter for Chicago Fire and a Defining Moment for a City",
-  "subtitle": "Historic Naming Rights Deal Marks New Era for Chicago Fire FC",
-  "image": "https://i.ibb.co/7xZxRhLp/hero-rendering-5-Ce-Ln-RX9s.jpg",
-  "link": "/news/mcdonalds-park-chicago-fire"
-},
+  
   {
   "title": "Mexico’s New Adidas Third Kit Is a Bold Tribute to Their World Cup Legacy",
   "subtitle": "A Stunning Tribute to Mexico’s World Cup Heritage",

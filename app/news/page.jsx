@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 159,
+  "title": "Noah Allen to Olympiacos? The Greek-American Prospect Facing a Defining Career Decision",
+  "author": "Mio Ristić",
+  "date": "May 14, 2026",
+  "excerpt": "Olympiacos are reportedly interested in Inter Miami defender Noah Allen, but a move to Greece may come with major risks for the promising 22-year-old prospect.",
+  "imageUrl": "https://cdn1.intermiami.news/uploads/52/2024/10/GettyImages-2148224320-scaled.jpg",
+  "slug": "noah-allen-olympiacos"
+},
+    {
   "id": 158,
   "title": "Julian Hall and the Night MLS History Got a New Face",
   "author": "Mio Ristić",

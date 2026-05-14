@@ -314,12 +314,7 @@ export default function MexicoVsUSAJerseySales() {
 
         </section>
 
-        {/* DISCLAIMER */}
-        <div className="bg-gray-100 border border-gray-300 rounded-2xl p-8 text-center text-sm text-gray-600 max-w-2xl mx-auto mt-16">
-          <p>
-            <strong>Note:</strong> This article contains affiliate links. If you make a purchase through the links, US11 may earn a small commission at no extra cost to you. Thank you for supporting our work.
-          </p>
-        </div>
+       
         
 
         {/* FOOTER */}

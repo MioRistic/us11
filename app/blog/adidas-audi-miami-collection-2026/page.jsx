@@ -33,13 +33,21 @@ const AdidasAudiMiamiCollection = () => {
   ];
 
   return (
-    <article className="w-full min-h-screen bg-white text-[#020617]">
+    <>
+      {/* DISCLAIMER - SKROZ NA VRHU ISPOD NAVBARA */}
+      <div className="w-full bg-zinc-100 border-b border-zinc-200 py-2.5 text-center text-[10px] text-zinc-600">
+        <div className="max-w-4xl mx-auto px-4 md:px-0">
+          This page contains affiliate links. When you purchase through the links provided, 
+          <span className="text-zinc-700 font-medium"> US11 may earn a commission</span> 
+          at no extra cost to you.
+        </div>
+      </div>
+
+      <article className="w-full min-h-screen bg-white text-[#020617]">
+
+      
       <div className="max-w-4xl mx-auto py-12 px-4 md:px-0">
-          <div className="-mx-4 md:-mx-6 lg:-mx-8 xl:-mx-0 bg-zinc-100 border-b border-zinc-200 py-2.5 text-center text-[10px] text-zinc-600">
-  This page contains affiliate links. When you purchase through the links provided, 
-  <span className="text-zinc-700 font-medium"> US11 may earn a commission</span> 
-  at no extra cost to you.
-</div>
+          
          
 
         {/* HEADER */}
@@ -197,15 +205,7 @@ const AdidasAudiMiamiCollection = () => {
           </div>
         </div>
 
-         {/* DISCLAIMER / AFFILIATE NOTE */}
-<div className="bg-gray-100 border border-gray-300 rounded-2xl p-8 text-center text-sm text-gray-600 max-w-2xl mx-auto">
-  <p>
-    <strong>Note:</strong> If you make a purchase through the links in this article, 
-    US11 may earn a small commission at no extra cost to you. 
-    This helps support our work and allows us to continue creating quality content about MLS and big-name signings. 
-    Thank you for your support!
-  </p>
-</div>
+          
 
         {/* FOOTER */}
         <footer className="mt-12 border-t pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
@@ -218,6 +218,7 @@ const AdidasAudiMiamiCollection = () => {
 
       </div>
     </article>
+    </>
   );
 };
 

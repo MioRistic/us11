@@ -91,7 +91,10 @@ export default function NoahAllenOlympiacos() {
 />
 
           <figcaption className="text-xs text-gray-400 px-3 py-2">
-            Inter Miami / Getty Images
+            Creator: Azael Rodriguez
+ | 
+Credit: Getty Images
+Copyright: 2024 Getty Images
           </figcaption>
         </figure>
 
