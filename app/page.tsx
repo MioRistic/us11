@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 160,
+  "title": "Matchday 13 Recap: 58 Goals, Messi Magic and a Record Night as the World Cup Break Looms",
+  "author": "Mio Ristić",
+  "date": "May 14, 2026",
+  "excerpt": "MLS Matchday 13 shattered records with 58 goals across 14 matches.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2276119551/crop/MM5DCNZXGY5DSOJZHJXG653FHIYTGNZWHIZDQMQ=/GettyImages-2276119551.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/mls-matchday-13-2026"
+},
+  {
     "id": 159,
     "title": "Noah Allen to Olympiacos? The Greek-American Prospect Facing a Defining Career Decision",
     "author": "Mio Ristić",
@@ -85,16 +94,7 @@ const blogPosts: Post[] = [
     "imageUrl": "https://assets.goal.com/images/v3/getty-2276124306/crop/MM5DINBVGI5DENJQGQ5G433XMU5DAORSGMZA====/GettyImages-2276124306.jpg?auto=webp&format=pjpg&width=1920&quality=60",
     "link": "news/julian-hall-mls-history"
   },
-  {
-  "id": 156,
-  "title": "McDonald’s Park: A New Chapter for Chicago Fire and a Defining Moment for a City",
-  "author": "Mio Ristić",
-  "date": "May 13, 2026",
-  "excerpt": "McDonald’s and Chicago Fire FC announce a historic naming rights partnership for the club’s new $750 million stadium opening in 2028. The deal includes major investment in youth soccer and community programs across Chicago.",
-  "imageUrl": "https://i.ibb.co/7xZxRhLp/hero-rendering-5-Ce-Ln-RX9s.jpg",
-  "link": "news/mcdonalds-park-chicago-fire",
   
-},
    
  
  
@@ -154,6 +154,12 @@ const jerseysBlogPosts: Post[] = [
     link: "/blog/mls-hall-of-fame/david-beckham",
   },
 ];const heroItems = [
+  {
+  "title": "Matchday 13 Recap: 58 Goals, Messi Magic and a Record Night as the World Cup Break Looms",
+  "subtitle": "MLS Sets a New Scoring Record Before the World Cup Break",
+  "image": "https://assets.goal.com/images/v3/getty-2276119551/crop/MM5DCNZXGY5DSOJZHJXG653FHIYTGNZWHIZDQMQ=/GettyImages-2276119551.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/mls-matchday-13-2026"
+},
   
   {
   "title": "Mexico’s New Adidas Third Kit Is a Bold Tribute to Their World Cup Legacy",
@@ -167,12 +173,7 @@ const jerseysBlogPosts: Post[] = [
   image: "https://www.mlsstore.com/content/ws/all/719d8023-83da-4065-81da-c3a83a94a370__480X639.jpg?w=480",
   link: "/blog/atlanta-united-marta-collection",
 },
-{
-  title: "Mexico or USA: Whose Jersey Sells More in America?",
-  subtitle: "The Surprising Truth Behind 2026 Shirt Sales",
-  image: "https://i.ibb.co/Gfk3qjXJ/Untitled-design-4.png",
-  link: "/blog/mexico-usa-jersey-sales-2026",
-},
+ 
  
 ];const staffPicks = [
   {

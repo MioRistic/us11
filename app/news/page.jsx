@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 160,
+  "title": "Matchday 13 Recap: 58 Goals, Messi Magic and a Record Night as the World Cup Break Looms",
+  "author": "Mio Ristić",
+  "date": "May 14, 2026",
+  "excerpt": "MLS Matchday 13 shattered records with 58 goals across 14 matches as Lionel Messi starred for Inter Miami and Julian Hall continued his breakout season.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2276119551/crop/MM5DCNZXGY5DSOJZHJXG653FHIYTGNZWHIZDQMQ=/GettyImages-2276119551.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "mls-matchday-13-2026"
+},
+    {
   "id": 159,
   "title": "Noah Allen to Olympiacos? The Greek-American Prospect Facing a Defining Career Decision",
   "author": "Mio Ristić",
