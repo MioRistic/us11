@@ -182,7 +182,7 @@ Copyright: 2024 Getty Images
           </p>
 
           <p>
-            He can continue his development in a familiar environment while learning from world-class players like Lionel Messi and Sergio Busquets.
+            He can continue his development in a familiar environment while learning from world-class players like Lionel Messi and Rodrigo De Paul.
           </p>
 
           <p>
