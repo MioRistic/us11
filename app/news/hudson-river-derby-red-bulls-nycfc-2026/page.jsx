@@ -38,7 +38,7 @@ export default function HudsonRiverDerby2026() {
           <div className="flex items-center gap-4 mt-2 text-sm text-gray-500">
             <span>By Mio Ristić</span>
             <span>•</span>
-            <time dateTime="2026-05-14">May 14, 2026</time>
+            <time dateTime="2026-05-14">May 17, 2026</time>
           </div>
 
           {/* SOCIAL SHARE */}
@@ -228,7 +228,7 @@ export default function HudsonRiverDerby2026() {
 
         {/* FOOTER */}
         <footer className="mt-12 border-t pt-6 flex justify-between text-sm text-gray-600">
-          <span>Published: May 14, 2026</span>
+          <span>Published: May 17, 2026</span>
 
           <Link
             href="/news"

@@ -24,7 +24,7 @@ const Blog = () => {
   "id": 161,
   "title": "Hudson River Derby Delivers Another Classic as Red Bulls and NYCFC Split the Points in Fiery 1-1 Draw",
   "author": "Mio Ristić",
-  "date": "May 14, 2026",
+  "date": "May 17, 2026",
   "excerpt": "The Hudson River Derby delivered another intense chapter as the New York Red Bulls and NYCFC battled to a dramatic 1-1 draw filled with momentum swings, tactical tension, and playoff implications.",
   "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Hudson_River_Derby_Foundation_logo.png",
   "slug": "hudson-river-derby-red-bulls-nycfc-2026"
@@ -33,7 +33,7 @@ const Blog = () => {
   "id": 160,
   "title": "Matchday 13 Recap: 58 Goals, Messi Magic and a Record Night as the World Cup Break Looms",
   "author": "Mio Ristić",
-  "date": "May 14, 2026",
+  "date": "May 17, 2026",
   "excerpt": "MLS Matchday 13 shattered records with 58 goals across 14 matches as Lionel Messi starred for Inter Miami and Julian Hall continued his breakout season.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-2276119551/crop/MM5DCNZXGY5DSOJZHJXG653FHIYTGNZWHIZDQMQ=/GettyImages-2276119551.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "slug": "mls-matchday-13-2026"
