@@ -1,52 +1,73 @@
-// ./app/news/griezmann-orlando-2026/layout.js
+// ./app/news/hudson-river-derby-red-bulls-nycfc-2026/layout.js
 import React from 'react';
 
 // 🟢 Server component – metadata može biti eksportovana
 export const metadata = {
   title:
-    "Antoine Griezmann to Orlando City: World Cup Winner Agrees to MLS Move – July 2026 Free Transfer Details",
+    "Hudson River Derby Delivers Another Classic as Red Bulls and NYCFC Split the Points in Fiery 1-1 Draw",
+
   description:
-    "Antoine Griezmann has verbally agreed to join Orlando City SC on a free transfer from Atlético Madrid starting July 2026. 2-year deal + option, No. 7 jersey, Orlando trip confirmed. Full analysis, implications for MLS East and why this changes everything.",
+    "The New York Red Bulls and NYCFC played to a dramatic 1-1 draw in another intense Hudson River Derby clash packed with momentum swings, tactical battles, and playoff implications ahead of the World Cup break.",
+
   keywords: [
-    "Antoine Griezmann Orlando City",
-    "Griezmann MLS 2026",
-    "Griezmann to Orlando July 2026",
-    "Atlético Madrid Griezmann transfer",
-    "MLS Designated Player signing",
-    "Orlando City biggest signing",
-    "Griezmann MLS news March 2026",
+    "Hudson River Derby",
+    "NY Red Bulls vs NYCFC",
+    "NYCFC MLS 2026",
+    "Red Bulls MLS 2026",
+    "MLS rivalry",
+    "Michael Bradley Red Bulls",
+    "Jorge Ruvalcaba",
+    "Andres Perea",
+    "MLS Matchday 2026",
     "US11 MLS analysis"
   ],
+
   openGraph: {
     title:
-      "Griezmann to Orlando City: French Star Chooses MLS in 2026 Blockbuster",
+      "Hudson River Derby Delivers Another Classic in Tense 1-1 Battle",
+
     description:
-      "Verbal agreement reached: Antoine Griezmann joins Orlando City from summer 2026 on free transfer. 2+1 years, No. 7 shirt, massive boost for Eastern Conference. Latest updates and impact.",
-    url: "https://www.us11fc.com/news/griezmann-orlando-2026",
+      "Another fiery chapter in the Hudson River Derby ended level as Red Bulls and NYCFC shared the points in a dramatic New York showdown.",
+
+    url:
+      "https://www.us11fc.com/news/hudson-river-derby-red-bulls-nycfc-2026",
+
     siteName: "US11",
+
     images: [
       {
-        url: "https://assets.goal.com/images/v3/blt2ccb4598094c1547/2.jpg",
+        url:
+          "https://upload.wikimedia.org/wikipedia/en/5/5d/Hudson_River_Derby_Foundation_logo.png",
         width: 1200,
         height: 800,
-        alt: "Antoine Griezmann – set to become Orlando City’s biggest signing in MLS history"
+        alt:
+          "Hudson River Derby between New York Red Bulls and NYCFC"
       }
     ],
+
     locale: "en_US",
     type: "article"
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "Griezmann to Orlando City: HERE WE GO! MLS Move Locked In for 2026",
+
+    title:
+      "Hudson River Derby Ends 1-1 in Another Heated MLS Classic",
+
     description:
-      "World Cup winner Antoine Griezmann agrees to join Orlando City from July 2026 on free transfer from Atlético Madrid. Game-changer for MLS East. Full details by US11.",
+      "Red Bulls and NYCFC split the points in a dramatic Hudson River Derby packed with intensity, big moments, and playoff implications.",
+
     images: [
-      "https://assets.goal.com/images/v3/blt2ccb4598094c1547/2.jpg"
+      "https://upload.wikimedia.org/wikipedia/en/5/5d/Hudson_River_Derby_Foundation_logo.png"
     ],
+
     creator: "@US11FC"
   },
+
   alternates: {
-    canonical: "https://www.us11fc.com/news/griezmann-orlando-2026"
+    canonical:
+      "https://www.us11fc.com/news/hudson-river-derby-red-bulls-nycfc-2026"
   }
 };
 
@@ -54,20 +75,27 @@ export default function Layout({ children }) {
   return (
     <div className="min-h-screen bg-white text-[#020617]">
       {children}
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "NewsArticle",
-            "headline": "Antoine Griezmann to Orlando City: World Cup Winner Agrees to MLS Move – July 2026 Free Transfer Details",
-            "image": "https://assets.goal.com/images/v3/blt2ccb4598094c1547/2.jpg",
-            "datePublished": "2026-05-02T12:00:00Z",
-            "dateModified": "2026-05-02T12:00:00Z",
+            "headline":
+              "Hudson River Derby Delivers Another Classic as Red Bulls and NYCFC Split the Points in Fiery 1-1 Draw",
+
+            "image":
+              "https://upload.wikimedia.org/wikipedia/en/5/5d/Hudson_River_Derby_Foundation_logo.png",
+
+            "datePublished": "2026-05-14T12:00:00Z",
+            "dateModified": "2026-05-14T12:00:00Z",
+
             "author": {
               "@type": "Person",
               "name": "Mio Ristić"
             },
+
             "publisher": {
               "@type": "Organization",
               "name": "US11",

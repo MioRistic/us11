@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 161,
+  "title": "Hudson River Derby Delivers Another Classic as Red Bulls and NYCFC Split the Points in Fiery 1-1 Draw",
+  "author": "Mio Ristić",
+  "date": "May 14, 2026",
+  "excerpt": "The Hudson River Derby delivered another intense chapter as the New York Red Bulls and NYCFC battled to a dramatic 1-1 draw filled with momentum swings, tactical tension, and playoff implications.",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Hudson_River_Derby_Foundation_logo.png",
+  "link": "news/hudson-river-derby-red-bulls-nycfc-2026"
+},
+  {
   "id": 160,
   "title": "Matchday 13 Recap: 58 Goals, Messi Magic and a Record Night as the World Cup Break Looms",
   "author": "Mio Ristić",
@@ -85,15 +94,7 @@ const blogPosts: Post[] = [
     "link": "news/noah-allen-olympiacos"
   },
 
-  {
-    "id": 158,
-    "title": "Julian Hall and the Night MLS History Got a New Face",
-    "author": "Mio Ristić",
-    "date": "May 14, 2026",
-    "excerpt": "Julian Hall became the youngest player in MLS history to score a hat-trick as the 18-year-old New York Red Bulls star delivered a stunning performance against Columbus Crew.",
-    "imageUrl": "https://assets.goal.com/images/v3/getty-2276124306/crop/MM5DINBVGI5DENJQGQ5G433XMU5DAORSGMZA====/GettyImages-2276124306.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-    "link": "news/julian-hall-mls-history"
-  },
+ 
   
    
  

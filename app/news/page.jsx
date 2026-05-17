@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 161,
+  "title": "Hudson River Derby Delivers Another Classic as Red Bulls and NYCFC Split the Points in Fiery 1-1 Draw",
+  "author": "Mio Ristić",
+  "date": "May 14, 2026",
+  "excerpt": "The Hudson River Derby delivered another intense chapter as the New York Red Bulls and NYCFC battled to a dramatic 1-1 draw filled with momentum swings, tactical tension, and playoff implications.",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Hudson_River_Derby_Foundation_logo.png",
+  "slug": "hudson-river-derby-red-bulls-nycfc-2026"
+},
+    {
   "id": 160,
   "title": "Matchday 13 Recap: 58 Goals, Messi Magic and a Record Night as the World Cup Break Looms",
   "author": "Mio Ristić",
