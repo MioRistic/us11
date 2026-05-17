@@ -39,7 +39,7 @@ const nextConfig = {
       { protocol: 'https', hostname: 'preview.thenewsmarket.com' },
       { protocol: 'https', hostname: 'media.bleacherreport.com' },
       { protocol: 'https', hostname: 'cdn.vox-cdn.com' },
-      { protocol: 'https', hostname: 'brila.net' },
+      { protocol: 'https', hostname: 'ca-times.brightspotcdn.com' },
       { protocol: 'https', hostname: 's.yimg.com' },
       { protocol: 'https', hostname: 'cdn.wsn.com' },
       { protocol: 'https', hostname: 'www.japantimes.co.jp' },

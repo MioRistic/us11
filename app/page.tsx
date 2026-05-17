@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 162,
+  "title": "Gabriel Pec Runs Riot as Galaxy Stun Seattle and Climb Into Western Conference Playoff Spots",
+  "author": "Mio Ristić",
+  "date": "May 14, 2026",
+  "excerpt": "Gabriel Pec starred with a goal and an assist as LA Galaxy stunned Seattle Sounders 2-0 at Lumen Field, ending Seattle’s unbeaten run and boosting Galaxy’s playoff hopes.",
+  "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/5324370/2147483647/strip/false/crop/7754x5169+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fef%2F48%2F37ba8e174430bbc5ac147024a175%2F2264835118.jpg",
+  "link": "news/gabriel-pec-galaxy-seattle-2026"
+},
+  {
   "id": 161,
   "title": "Hudson River Derby Delivers Another Classic as Red Bulls and NYCFC Split the Points in Fiery 1-1 Draw",
   "author": "Mio Ristić",
@@ -84,15 +93,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2276119551/crop/MM5DCNZXGY5DSOJZHJXG653FHIYTGNZWHIZDQMQ=/GettyImages-2276119551.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/mls-matchday-13-2026"
 },
-  {
-    "id": 159,
-    "title": "Noah Allen to Olympiacos? The Greek-American Prospect Facing a Defining Career Decision",
-    "author": "Mio Ristić",
-    "date": "May 14, 2026",
-    "excerpt": "Olympiacos are reportedly interested in Inter Miami defender Noah Allen, but a move to Greece may come with major risks for the promising 22-year-old prospect.",
-    "imageUrl": "https://cdn1.intermiami.news/uploads/52/2024/10/GettyImages-2148224320-scaled.jpg",
-    "link": "news/noah-allen-olympiacos"
-  },
+  
 
  
   
