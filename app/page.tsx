@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 165,
+  "title": "Two MLS Clubs Hit the Reset Button: Columbus and Austin Clean House Amid Dismal Starts",
+  "author": "Mio Ristić",
+  "date": "May 18, 2026",
+  "excerpt": "Columbus Crew and Austin FC both made major leadership changes before the 2026 World Cup break, firing coaches and reshaping their futures after disappointing starts to the MLS season.",
+  "imageUrl": "https://i.ibb.co/Zzy56Nwr/Untitled-design-6.png",
+  "link": "news/mls-coaching-changes-2026"
+},
+  {
   "id": 164,
   "title": "MLS Matchday 14 Recap: Chaos Before the Curtain Falls – Sarver’s Legend, Messi’s Nu Breakthrough & More",
   "author": "Mio Ristić",
@@ -83,15 +92,6 @@ const blogPosts: Post[] = [
   "excerpt": "Gabriel Pec starred with a goal and an assist as LA Galaxy stunned Seattle Sounders 2-0 at Lumen Field, ending Seattle’s unbeaten run and boosting Galaxy’s playoff hopes.",
   "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/5324370/2147483647/strip/false/crop/7754x5169+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fef%2F48%2F37ba8e174430bbc5ac147024a175%2F2264835118.jpg",
   "link": "news/gabriel-pec-galaxy-seattle-2026"
-},
-  {
-  "id": 161,
-  "title": "Hudson River Derby Delivers Another Classic as Red Bulls and NYCFC Split the Points in Fiery 1-1 Draw",
-  "author": "Mio Ristić",
-  "date": "May 17, 2026",
-  "excerpt": "The Hudson River Derby delivered another intense chapter as the New York Red Bulls and NYCFC battled to a dramatic 1-1 draw filled with momentum swings, tactical tension, and playoff implications.",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Hudson_River_Derby_Foundation_logo.png",
-  "link": "news/hudson-river-derby-red-bulls-nycfc-2026"
 },
  
   

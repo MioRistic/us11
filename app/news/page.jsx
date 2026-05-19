@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 165,
+  "title": "Two MLS Clubs Hit the Reset Button: Columbus and Austin Clean House Amid Dismal Starts",
+  "author": "Mio Ristić",
+  "date": "May 18, 2026",
+  "excerpt": "Columbus Crew and Austin FC both made major leadership changes before the 2026 World Cup break, firing coaches and reshaping their futures after disappointing starts to the MLS season.",
+  "imageUrl": "https://i.ibb.co/Zzy56Nwr/Untitled-design-6.png",
+  "slug": "mls-coaching-changes-2026"
+},
+    {
   "id": 164,
   "title": "MLS Matchday 14 Recap: Chaos Before the Curtain Falls – Sarver’s Legend, Messi’s Nu Breakthrough & More",
   "author": "Mio Ristić",
