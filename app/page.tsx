@@ -160,13 +160,19 @@ const jerseysBlogPosts: Post[] = [
  
   
   {
-  "title": "Mexico’s New Adidas Third Kit Is a Bold Tribute to Their World Cup Legacy",
-  "subtitle": "A Stunning Tribute to Mexico’s World Cup Heritage",
+  "title": "20% Off Select Adidas Styles",
+  "subtitle": "Save Big!",
+  "image": "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/prd-league/exrxndylokrmmc4ulawm.jpg",
+  "link": "https://mlsstore.i8h2.net/7XObdV"
+},
+  {
+  "title": "Mexico’s New Adidas Third Kit",
+  
   "image": "https://preview.thenewsmarket.com/Previews/ADID/StillAssets/1920x1440/723904.jpg",
   "link": "/blog/mexico-adidas-third-kit-2026"
 },
   {
-  title: "Atlanta United x MARTA: When Football, Public Transit and Street Style Collide",
+  title: "Atlanta United x MARTA",
   subtitle: "Atlanta’s Transit Culture Becomes Streetwear",
   image: "https://www.mlsstore.com/content/ws/all/719d8023-83da-4065-81da-c3a83a94a370__480X639.jpg?w=480",
   link: "/blog/atlanta-united-marta-collection",
@@ -494,7 +500,7 @@ const jerseysBlogPosts: Post[] = [
     <div className="bg-white py-16">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-5xl md:text-6xl font-black tracking-[-2.8px] leading-none text-[#020617] mb-8 text-center">
-          Hall of fame
+          Let's talk about Legends
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {hallOfFamePosts.map((post) => (

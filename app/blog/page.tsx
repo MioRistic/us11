@@ -34,7 +34,7 @@ const items: CategoryItem[] = [
   },
   {
     id: 2,
-    title: 'Hall of Fame',
+    title: 'Legends',
     imageUrl:
       'https://media.gettyimages.com/id/130977814/photo/harrison-nj-david-beckham-of-the-los-angeles-galaxy-and-thierry-henry-of-the-new-york-red.jpg?s=612x612&w=gi&k=20&c=_FdM-NTasUPlRVjpuF0i6dFh4995HSlyT7QFCkNQ6Fo=',
     slug: 'mls-hall-of-fame',

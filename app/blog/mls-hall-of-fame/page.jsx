@@ -39,7 +39,9 @@ const Blog = () => {
     <>
       <div className="w-full min-h-screen bg-white">
         <div className="max-w-6xl mx-auto py-12 px-4">
-          <h1 className="text-5xl font-bold text-[#020617] mb-12">Hall Of Fame</h1>
+          <h2 className="text-5xl md:text-6xl font-black tracking-[-2.8px] leading-none text-[#020617] mb-8 text-center">
+          Let's talk about Legends
+        </h2>
 
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {visiblePosts.map((post) => (
