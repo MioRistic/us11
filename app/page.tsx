@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 164,
+  "title": "MLS Matchday 14 Recap: Chaos Before the Curtain Falls – Sarver’s Legend, Messi’s Nu Breakthrough & More",
+  "author": "Mio Ristić",
+  "date": "May 18, 2026",
+  "excerpt": "MLS Matchday 14 delivered pure chaos before the World Cup break: Sam Sarver’s unforgettable celebration, Messi’s first victory at Nu Stadium, FC Cincinnati’s 98th-minute madness and a coaching change in Columbus.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt98069fadcc2b1e00/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-05-17T192244.735.png?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/mls-matchday-14-2026"
+},
+  {
   "id": 162,
   "title": "Gabriel Pec Runs Riot as Galaxy Stun Seattle and Climb Into Western Conference Playoff Spots",
   "author": "Mio Ristić",
@@ -84,15 +93,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5d/Hudson_River_Derby_Foundation_logo.png",
   "link": "news/hudson-river-derby-red-bulls-nycfc-2026"
 },
-  {
-  "id": 160,
-  "title": "Matchday 13 Recap: 58 Goals, Messi Magic and a Record Night as the World Cup Break Looms",
-  "author": "Mio Ristić",
-  "date": "May 14, 2026",
-  "excerpt": "MLS Matchday 13 shattered records with 58 goals across 14 matches.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2276119551/crop/MM5DCNZXGY5DSOJZHJXG653FHIYTGNZWHIZDQMQ=/GettyImages-2276119551.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/mls-matchday-13-2026"
-},
+ 
   
 
  
@@ -156,12 +157,7 @@ const jerseysBlogPosts: Post[] = [
     link: "/blog/mls-hall-of-fame/david-beckham",
   },
 ];const heroItems = [
-  {
-  "title": "Matchday 13 Recap: 58 Goals, Messi Magic and a Record Night as the World Cup Break Looms",
-  "subtitle": "MLS Sets a New Scoring Record Before the World Cup Break",
-  "image": "https://assets.goal.com/images/v3/getty-2276119551/crop/MM5DCNZXGY5DSOJZHJXG653FHIYTGNZWHIZDQMQ=/GettyImages-2276119551.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/mls-matchday-13-2026"
-},
+ 
   
   {
   "title": "Mexico’s New Adidas Third Kit Is a Bold Tribute to Their World Cup Legacy",

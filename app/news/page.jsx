@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 164,
+  "title": "MLS Matchday 14 Recap: Chaos Before the Curtain Falls – Sarver’s Legend, Messi’s Nu Breakthrough & More",
+  "author": "Mio Ristić",
+  "date": "May 18, 2026",
+  "excerpt": "MLS Matchday 14 delivered pure chaos before the World Cup break: Sam Sarver’s unforgettable celebration, Messi’s first victory at Nu Stadium, FC Cincinnati’s 98th-minute madness and a coaching change in Columbus.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt98069fadcc2b1e00/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-05-17T192244.735.png?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "mls-matchday-14-2026"
+},
+    {
+  "id": 163,
+  "title": "MLS Matchday 14: Chaos Before the Curtain Falls",
+  "author": "Mio Ristić",
+  "date": "May 18, 2026",
+  "subtitle": "Messi brilliance, FC Dallas drama and MLS chaos before the 2026 World Cup break",
+  "image": "https://assets.goal.com/images/v3/blt98069fadcc2b1e00/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-05-17T192244.735.png?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "mls-matchday-14-chaos-before-the-curtain-falls"
+},
+    {
   "id": 162,
   "title": "Gabriel Pec Runs Riot as Galaxy Stun Seattle and Climb Into Western Conference Playoff Spots",
   "author": "Mio Ristić",
