@@ -20,15 +20,7 @@ const Blog = () => {
   "imageUrl": "https://assets.goal.com/images/v3/blt98069fadcc2b1e00/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-05-17T192244.735.png?auto=webp&format=pjpg&width=1920&quality=60",
   "slug": "mls-matchday-14-2026"
 },
-    {
-  "id": 163,
-  "title": "MLS Matchday 14: Chaos Before the Curtain Falls",
-  "author": "Mio Ristić",
-  "date": "May 18, 2026",
-  "subtitle": "Messi brilliance, FC Dallas drama and MLS chaos before the 2026 World Cup break",
-  "image": "https://assets.goal.com/images/v3/blt98069fadcc2b1e00/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-05-17T192244.735.png?auto=webp&format=pjpg&width=1920&quality=60",
-  "slug": "mls-matchday-14-chaos-before-the-curtain-falls"
-},
+
     {
   "id": 162,
   "title": "Gabriel Pec Runs Riot as Galaxy Stun Seattle and Climb Into Western Conference Playoff Spots",
