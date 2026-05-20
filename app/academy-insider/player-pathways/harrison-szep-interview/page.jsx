@@ -90,6 +90,19 @@ const PlayerPathwaysArticle = () => {
             "I began helping athletes with recruitment during my third year of college in 2022. My entry point was assisting players with transfers, which gave me invaluable hands-on experience quickly. By 2023, I had formalized the service and started charging for my work. To date, I've successfully guided over 100 athletes through their commitment process. What drives me is seeing talented young players navigate a complex system and ultimately find the right fit for their academic and athletic development."
           </p>
 
+          <div className="aspect-video w-full bg-black rounded-2xl overflow-hidden shadow-lg">
+    <iframe
+      width="100%"
+      height="100%"
+      src="https://www.youtube.com/embed/-_Mgiu0WGAU" 
+      title="MLS Matchday 13 Highlights"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+      className="w-full h-full"
+    ></iframe>
+  </div>
+
           <h2 className="text-xl font-semibold mt-6">Working Directly with Young Footballers</h2>
           <p>
             How did you experience working directly with young footballers when you first started, and how do you see that work today? Do you notice big differences in mentality, expectations, and approach?

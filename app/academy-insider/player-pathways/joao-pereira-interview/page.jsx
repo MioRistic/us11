@@ -99,6 +99,8 @@ const JoaoPereiraArticle = () => {
             "I started in Portugal like most kids: local club, training several times a week, playing weekends, completely obsessed with the game. My 'academy system' experience came through increasingly competitive environments and then the jump to the U.S. college pathway and USL2, where the structure feels very professional, even if it’s officially 'Semi-pro.' When I first entered this level, I expected that if you were good and worked hard, things would more or less take care of themselves: you play, you develop, and the pathway is linear. I quickly realized it’s much more political, competitive, and fragile than that, and that being good is just the starting point, not the guarantee."
           </p>
 
+          
+
           <h2 className="text-xl font-semibold mt-6">What was the biggest reality check you experienced once you were inside the system?</h2>
           <p className="font-bold italic">
             "One of the biggest reality checks was how quickly your status can change. In Europe, you often have a long season where your form can go up and down, and you still prove yourself over time; in the U.S. college system, a bad week in a three‑month season can change how a coach sees you for the whole year. Another shock was how many players at this level are willing to do absolutely anything to stay in the team: extra work, playing through pain, changing positions, accepting roles that don’t match their 'dream version' of themselves. It taught me that mindset and adaptability can be more decisive than pure talent once you’re inside the system."
@@ -109,6 +111,19 @@ How did you deal with that kind of pressure mentally and emotionally?</h2>
           <p className="font-bold italic">
             "I have been in situations where the message from a coach was basically: 'If you don’t prove you’re the best, you won’t play.' Sometimes it’s said directly, sometimes it’s implied in every session or team talk. Mentally, this was extremely difficult since players tend to perform better when the coach believes in them, but I had to get used to proving myself in every situation. The way I dealt with it was by focusing on controllables like sleep, diet, and the gym. I also tried to separate my identity from how many minutes I had, reminding myself I'm more than the last lineup or performance. Without some mental stability, that pressure easily turns into anxiety, and playing 'not to make mistakes' instead of playing freely."
           </p>
+           <div className="aspect-video w-full bg-black rounded-2xl overflow-hidden shadow-lg">
+    <iframe
+      width="100%"
+      height="100%"
+      src="https://www.youtube.com/embed/uSjUuWcMNac" 
+      title="MLS Matchday 13 Highlights"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+      className="w-full h-full"
+    ></iframe>
+  </div>
+
 
           <h2 className="text-xl font-semibold mt-6">Looking back, what do you think young players misunderstand most about professional academies?</h2>
           <p className="font-bold italic">
