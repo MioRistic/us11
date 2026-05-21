@@ -8,31 +8,44 @@ import { FaTicketAlt, FaBed, FaShoppingBag } from 'react-icons/fa';
 const InterMiamiPage = () => {
   const [activeTab, setActiveTab] = useState('overview');
 
+  // Featured players shown on overview
   const players = [
     { name: 'Lionel Messi', image: 'https://en.nogomania.com/GetFile.ashx?id=271175', path: 'messi' },
     { name: 'Luis Suárez', image: 'https://en.nogomania.com/GetFile.ashx?id=259742', path: 'suarez' },
-    { name: 'Sergio Busquets', image: 'https://cdn1.intermiami.news/uploads/52/2024/05/GettyImages-2153690433-1140x760.jpg', path: 'busquets' },
-    { name: 'Jordi Alba', image: 'https://cdn1.intermiami.news/uploads/52/2024/10/GettyImages-2181071294-750x500.jpg', path: 'alba' },
   ];
 
-  const blogPosts = [
+  // News Posts
+  const newsPosts = [
     {
-      id: 2,
-      title: "Inter Miami Cruise Past Nashville in Dominant Playoff Victory",
+      id: 164,
+      title: "MLS Matchday 14 Recap: Chaos Before the Curtain Falls – Sarver’s Legend, Messi’s Nu Breakthrough & More",
       author: "Mio Ristić",
-      date: "October 25, 2025",
-      excerpt: "Lionel Messi led Inter Miami CF to a commanding 3–1 playoff win over Nashville SC...",
-      imageUrl: "https://brobible.com/wp-content/uploads/2023/08/lionel-messi-taking-a-corner-kick-for-inter-miami.jpg",
-      slug: "inter-miami-nashville",
+      date: "May 18, 2026",
+      excerpt: "MLS Matchday 14 delivered pure chaos before the World Cup break: Sam Sarver’s unforgettable celebration, Messi’s first victory at Nu Stadium, FC Cincinnati’s 98th-minute madness and a coaching change in Columbus.",
+      imageUrl: "https://assets.goal.com/images/v3/blt98069fadcc2b1e00/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-05-17T192244.735.png?auto=webp&format=pjpg&width=1920&quality=60",
+      slug: "mls-matchday-14-2026"
     },
     {
-      id: 1,
-      title: "Lionel Messi Extends Inter Miami Contract Through 2028",
+      id: 159,
+      title: "Noah Allen to Olympiacos? The Greek-American Prospect Facing a Defining Career Decision",
       author: "Mio Ristić",
-      date: "October 25, 2025",
-      excerpt: "Lionel Messi stays with Inter Miami CF until 2028...",
-      imageUrl: "https://cyprus-mail.com/image/s1100x733/fill/webp/path/wp-content/uploads/2023/07/messi.jpg",
-      slug: "messi-inter-miami-extension",
+      date: "May 14, 2026",
+      excerpt: "Olympiacos are reportedly interested in Inter Miami defender Noah Allen, but a move to Greece may come with major risks for the promising 22-year-old prospect.",
+      imageUrl: "https://cdn1.intermiami.news/uploads/52/2024/10/GettyImages-2148224320-scaled.jpg",
+      slug: "noah-allen-olympiacos"
+    },
+  ];
+
+  // Blog Posts
+  const blogPosts = [
+    {
+      id: 1010,
+      title: "2000s Football Nostalgia Meets Formula 1 Glamour: Adidas and Audi Drop a Miami Collection That Actually Works",
+      author: "Mio Ristić",
+      date: "May 2, 2026",
+      excerpt: "Adidas and Audi team up with Inter Miami for a limited F1 Miami Collection that blends 2000s football kits with modern Formula 1 style.",
+      imageUrl: "https://www.audif1.com/cms/api/media/file/audif1_2026_miami_collection_messi_teaser_01-1012x1350.webp",
+      slug: "adidas-audi-miami-collection-2026"
     },
   ];
 
@@ -47,25 +60,31 @@ const InterMiamiPage = () => {
   ];
 
   const squad = {
-    goalkeepers: ["L. Barraza", "R. Rios Novo", "D. St. Clair"],
+    goalkeepers: ["Luis Barraza", "Rocco Ríos Novo", "Dayne St. Clair"],
     defenders: [
-      "G. Lujan", "T. Aviles", "S. Reguilon", "F. Mura", "Micael", "I. Fray",
-      "T. Hall", "N. Allen", "M. Falcon", "Y. Bright", "I. Boatwright", "E. Abadia-Reda"
+      "Gonzalo Luján", "Tomás Avilés", "Sergio Reguilón", "Facundo Mura",
+      "Micael", "Ian Fray", "Noah Allen", "Yannick Bright", "Ian Boatwright"
     ],
-    midfielders: ["R. De Paul", "T. Segovia", "S. Morales", "D. Ayala", "B. Cremaschi", "D. Ruiz", "A. Shaw"],
-    attackers: ["L. Suarez", "L. Messi", "G. Berterame", "T. Allende", "M. Silvetti", "D. Pinter"],
+    midfielders: [
+      "Rodrigo De Paul", "Telasco Segovia", "David Ayala", 
+      "Benjamín Cremaschi", "David Ruiz", "Ariel Shaw"
+    ],
+    attackers: [
+      "Luis Suárez", "Lionel Messi", "Germán Berterame", 
+      "Tadeo Allende", "Mateo Silvetti"
+    ],
   };
 
   return (
     <div className="bg-white min-h-screen text-[#0d1117]">
-      {/* Hero */}
+      {/* Hero Section */}
       <div className="relative h-[480px] md:h-[620px] bg-gradient-to-b from-black/70 to-black/90 overflow-hidden">
-        <Image
-          src="/interlogo.png"
-          alt="Inter Miami CF"
-          fill
-          className="object-cover"
-          priority
+        <Image 
+          src="https://i.ibb.co/t6QwwQy/Interlogo.png" 
+          alt="Inter Miami CF" 
+          fill 
+          className="object-cover" 
+          priority 
         />
 
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/75 to-black/40" />
@@ -89,7 +108,7 @@ const InterMiamiPage = () => {
                   Inter Miami CF
                 </h1>
                 <p className="text-lg md:text-xl text-white/90 mt-1 font-medium">
-                  Major League Soccer • Chase Stadium
+                  Major League Soccer • Nu Stadium
                 </p>
               </div>
             </div>
@@ -97,7 +116,7 @@ const InterMiamiPage = () => {
         </div>
       </div>
 
-      {/* Tabs - Pink boje Inter Miamija */}
+      {/* Navigation Tabs */}
       <div className="bg-[#020617] text-white sticky top-0 z-40 border-b border-gray-700">
         <div className="max-w-6xl mx-auto px-4 md:px-6">
           <div className="flex overflow-x-auto gap-6 md:gap-10 py-4 whitespace-nowrap scrollbar-hide">
@@ -106,9 +125,7 @@ const InterMiamiPage = () => {
                 key={tab}
                 onClick={() => setActiveTab(tab)} 
                 className={`font-bold text-base md:text-lg pb-2 transition relative flex-shrink-0
-                  ${activeTab === tab 
-                    ? 'text-pink-500' 
-                    : 'text-white/80 hover:text-white'}`}
+                  ${activeTab === tab ? 'text-pink-500' : 'text-white/80 hover:text-white'}`}
               >
                 {tab.charAt(0).toUpperCase() + tab.slice(1)}
                 {activeTab === tab && (
@@ -133,18 +150,18 @@ const InterMiamiPage = () => {
                   <div><dt className="font-bold text-gray-600">Full Name</dt><dd>Club Internacional de Fútbol Miami</dd></div>
                   <div><dt className="font-bold text-gray-600">Nickname</dt><dd>The Herons, Vice City</dd></div>
                   <div><dt className="font-bold text-gray-600">Founded</dt><dd>January 29, 2018</dd></div>
-                  <div><dt className="font-bold text-gray-600">Stadium</dt><dd>Chase Stadium, Fort Lauderdale</dd></div>
-                  <div><dt className="font-bold text-gray-600">Capacity</dt><dd>21,550</dd></div>
+                  <div><dt className="font-bold text-gray-600">Stadium</dt><dd>Nu Stadium, Miami</dd></div>
+                  <div><dt className="font-bold text-gray-600">Capacity</dt><dd>~25,000</dd></div>
                   <div><dt className="font-bold text-gray-600">Owners</dt><dd>David Beckham, Jorge Mas, Jose Mas</dd></div>
-                  <div><dt className="font-bold text-gray-600">Head Coach</dt><dd>Javier Mascherano</dd></div>
+                  <div><dt className="font-bold text-gray-600">Head Coach</dt><dd>Guillermo Hoyos</dd></div>
                 </dl>
               </div>
 
               <div>
                 <h2 className="text-3xl font-black mb-6 text-[#020617]">The Rise of Inter Miami</h2>
                 <div className="prose max-w-none text-lg text-gray-800">
-                  <p>Inter Miami CF, founded in 2018, has rapidly become one of the most talked-about clubs in world football thanks to global superstars Lionel Messi, Luis Suárez, Sergio Busquets, and Jordi Alba.</p>
-                  <p>Led by co-owner David Beckham and a passionate fanbase, the club blends South Florida flair with elite talent, aiming to redefine MLS on the global stage.</p>
+                  <p>Inter Miami CF has become one of the most talked-about clubs in world football thanks to global superstars like Lionel Messi, Luis Suárez, and Rodrigo De Paul.</p>
+                  <p>Under head coach Guillermo Hoyos, the team continues to compete at the highest level in MLS.</p>
                 </div>
               </div>
 
@@ -169,8 +186,8 @@ const InterMiamiPage = () => {
               <div>
                 <h2 className="text-3xl font-black mb-6 text-[#020617]">Latest News</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                  {blogPosts.map((post) => (
-                    <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                  {newsPosts.map((post) => (
+                    <Link key={post.id} href={`/news/${post.slug}`} className="group">
                       <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
                         <div className="relative h-56">
                           <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
@@ -188,12 +205,13 @@ const InterMiamiPage = () => {
             </>
           )}
 
+          {/* NEWS TAB */}
           {activeTab === 'news' && (
             <div>
-              <h2 className="text-3xl font-black mb-6 text-[#020617]">All News</h2>
+              <h2 className="text-3xl font-black mb-8 text-[#020617]">Inter Miami News</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                {blogPosts.map((post) => (
-                  <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                {newsPosts.map((post) => (
+                  <Link key={post.id} href={`/news/${post.slug}`} className="group">
                     <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
                       <div className="relative h-56">
                         <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
@@ -210,9 +228,10 @@ const InterMiamiPage = () => {
             </div>
           )}
 
+          {/* BLOG TAB */}
           {activeTab === 'blog' && (
             <div>
-              <h2 className="text-3xl font-black mb-6 text-[#020617]">Blog</h2>
+              <h2 className="text-3xl font-black mb-8 text-[#020617]">Inter Miami Blog</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
                 {blogPosts.map((post) => (
                   <Link key={post.id} href={`/blog/${post.slug}`} className="group">
@@ -232,9 +251,10 @@ const InterMiamiPage = () => {
             </div>
           )}
 
+          {/* SQUAD TAB */}
           {activeTab === 'squad' && (
             <div>
-              <h2 className="text-3xl font-black mb-8 text-[#020617]">Inter Miami CF Squad</h2>
+              <h2 className="text-3xl font-black mb-8 text-[#020617]">Inter Miami CF Squad 2026</h2>
 
               <div className="mb-10">
                 <h3 className="text-2xl font-bold text-pink-500 mb-4 border-b border-gray-200 pb-2">Goalkeepers</h3>
@@ -273,15 +293,14 @@ const InterMiamiPage = () => {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold text-pink-500 mb-4 border-b border-gray-200 pb-2">Manager</h3>
+                <h3 className="text-2xl font-bold text-pink-500 mb-4 border-b border-gray-200 pb-2">Head Coach</h3>
                 <div className="bg-gray-50 px-5 py-4 rounded-xl font-medium inline-block">
-                  Javier Mascherano
+                  Guillermo Hoyos
                 </div>
               </div>
             </div>
           )}
 
-          {/* SHOP TAB - dodato da bude konzistentno sa Houston template-om */}
           {activeTab === 'shop' && (
             <div>
               <div className="flex items-center gap-3 mb-8">
@@ -291,7 +310,7 @@ const InterMiamiPage = () => {
 
               <p className="text-lg text-gray-600 mb-10">
                 Support Inter Miami CF by shopping through our links. 
-                Every purchase helps us keep this site running and bring you better content.
+                Every purchase helps keep this site running.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
@@ -304,12 +323,7 @@ const InterMiamiPage = () => {
                     className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all border border-gray-100"
                   >
                     <div className="relative h-64 bg-gray-50 p-6">
-                      <Image 
-                        src={item.imageUrl} 
-                        alt={item.title} 
-                        fill 
-                        className="object-contain group-hover:scale-105 transition-transform duration-500" 
-                      />
+                      <Image src={item.imageUrl} alt={item.title} fill className="object-contain group-hover:scale-105 transition-transform duration-500" />
                     </div>
                     <div className="p-6">
                       <h3 className="font-bold text-lg leading-tight mb-3 group-hover:text-pink-500 line-clamp-2">
@@ -323,11 +337,11 @@ const InterMiamiPage = () => {
 
               <div className="mt-12 text-center">
                 <a 
-                  href="https://mlsstore.com" 
+                  href="https://mlsstore.i8h2.net/k4MJ6L" 
                   target="_blank" 
                   className="inline-flex items-center gap-2 text-pink-500 font-bold hover:underline text-lg"
                 >
-                  View full Inter Miami store →
+                  View full store →
                 </a>
               </div>
             </div>
@@ -344,9 +358,9 @@ const InterMiamiPage = () => {
                 className="flex items-center gap-3 bg-white/20 hover:bg-white/30 px-6 py-4 rounded-xl font-bold transition text-center justify-center">
                 <FaTicketAlt /> Buy Tickets Now
               </a>
-              <a href="https://www.booking.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://expedia.com/affiliate/YUVcU0F" target="_blank" rel="noopener noreferrer" 
                 className="flex items-center gap-3 bg-white/20 hover:bg-white/30 px-6 py-4 rounded-xl font-bold transition text-center justify-center">
-                <FaBed /> Hotels Near Chase Stadium
+                <FaBed /> Hotels Near Nu Stadium
               </a>
             </div>
           </div>
@@ -369,7 +383,7 @@ const InterMiamiPage = () => {
               ))}
             </div>
             <div className="mt-6 text-center">
-              <a href="https://mlsstore.com" target="_blank" className="text-pink-500 font-bold hover:underline">
+              <a href="https://mlsstore.i8h2.net/k4MJ6L" target="_blank" className="text-pink-500 font-bold hover:underline">
                 View Full Shop →
               </a>
             </div>

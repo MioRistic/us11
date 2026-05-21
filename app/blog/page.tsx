@@ -282,11 +282,15 @@ export default function BlogPage() {
         {visiblePosts.length < blogPosts.length && (
           <div className="mt-10 text-center">
             <button
-                onClick={loadMorePosts}
-                className="cursor-pointer text-white bg-[#020617] px-6 py-3 rounded-lg hover:bg-transparent hover:text-[#020617] border-2 border-transparent hover:border-[#020617] transition duration-500"
-              >
-                Read More
-              </button>
+  onClick={loadMorePosts}
+  className="bg-[#020617] text-white px-8 py-3 rounded-lg font-semibold 
+             hover:bg-white hover:text-[#020617] hover:border-[#020617] 
+             border-2 transition-all duration-300 ease-in-out 
+             transform hover:scale-105 
+             cursor-pointer"   // ← OVO JE DODATO
+>
+  Read More
+</button>
           </div>
         )}
       </div>

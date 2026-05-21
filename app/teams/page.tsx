@@ -128,14 +128,7 @@ const TeamsPage: React.FC = () => {
 
       
 
-      {/* BACK TO TOP */}
-      <button
-        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        className="fixed bottom-8 right-8 bg-[#020617] text-white p-4 rounded-full shadow-lg hover:bg-gray-800"
-      >
-        ↑
-      </button>
-
+     
     </div>
   );
 };

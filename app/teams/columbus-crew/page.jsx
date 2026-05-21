@@ -8,68 +8,77 @@ import { FaTicketAlt, FaBed, FaShoppingBag } from 'react-icons/fa';
 const ColumbusCrewPage = () => {
   const [activeTab, setActiveTab] = useState('overview');
 
-  const trendingPlayers = [
+  // Trending Players
+  const players = [
     { 
       name: 'Diego Rossi', 
       image: 'https://images.supersport.com/media/5wfgo22m/diego-rossi-celebrating-2024-g-1200.jpg?width=1920&quality=90&format=webp', 
       slug: 'rossi' 
     },
-    { 
-      name: 'Darlington Nagbe', 
-      image: 'https://wallpapers.com/images/hd/darlington-nagbe-mls-medically-cleared-cy1tf00pgqbg7a3o.jpg', 
-      slug: 'nagbe' 
-    },
+
+  ];
+
+  // News & Blog
+  const newsPosts = [
+ 
   ];
 
   const blogPosts = [
     {
-      id: 1,
-      title: "Columbus Crew Deliver Strong Performance",
+      id: 1001,
+      title: "MLS Jerseys 2026: Identity, Style, and the Kits Fans Actually Want to Wear",
       author: "Mio Ristić",
-      date: "March 23, 2026",
-      excerpt: "The Crew continue their impressive 2026 season with a commanding victory in the Eastern Conference.",
-      imageUrl: "https://images.supersport.com/media/5wfgo22m/diego-rossi-celebrating-2024-g-1200.jpg?width=1920&quality=90&format=webp",
-      slug: "columbus-crew-victory",
+      date: "February 11, 2026",
+      excerpt: "MLS jerseys in 2026 are more than kits — they’re fashion, identity, and culture. A deep dive into the designs fans love (and hate) the most.",
+      imageUrl: "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/mls/em5hapeppp5zqyphlmlt.jpg",
+      slug: "mls-jerseys-2026"
     },
   ];
 
   const shopItems = [
     {
-      "title": "Youth Columbus Crew adidas Black 2025 The Goosebumps Kit Replica Custom Jersey",
-      "price": "$114.99",
-      "imageUrl": "https://images.footballfanatics.com/columbus-crew/youth-adidas-black-columbus-crew-2025-the-goosebumps-kit-replica-custom-jersey_ss5_p-202709971+pv-1+u-acgq8hwc0i3qxihnenui+v-ode5arv7v11upfuxnqlu.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/XmORja"
+      id: 1,
+      title: "Youth Columbus Crew adidas Black 2025 The Goosebumps Kit Replica Custom Jersey",
+      price: "$114.99",
+      imageUrl: "https://images.footballfanatics.com/columbus-crew/youth-adidas-black-columbus-crew-2025-the-goosebumps-kit-replica-custom-jersey_ss5_p-202709971+pv-1+u-acgq8hwc0i3qxihnenui+v-ode5arv7v11upfuxnqlu.jpg?_hv=2&w=900",
+      link: "https://mlsstore.i8h2.net/XmORja"
     },
     {
-      "title": "Men's Columbus Crew adidas Black 2025 The Goosebumps Kit Replica Jersey",
-      "price": "$99.99",
-      "imageUrl": "https://images.footballfanatics.com/columbus-crew/mens-adidas-black-columbus-crew-2025-the-goosebumps-kit-replica-jersey_ss5_p-202652743+pv-1+u-999ybxcjkvvnistr0nx9+v-hlxgah3ixchd062h2npk.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/2aMezO"
+      id: 2,
+      title: "Men's Columbus Crew adidas Black 2025 The Goosebumps Kit Replica Jersey",
+      price: "$99.99",
+      imageUrl: "https://images.footballfanatics.com/columbus-crew/mens-adidas-black-columbus-crew-2025-the-goosebumps-kit-replica-jersey_ss5_p-202652743+pv-1+u-999ybxcjkvvnistr0nx9+v-hlxgah3ixchd062h2npk.jpg?_hv=2&w=900",
+      link: "https://mlsstore.i8h2.net/2aMezO"
     },
     {
-      "title": "Men's Columbus Crew adidas Originals Black Culturewear Collection Full-Zip Track Jacket",
-      "price": "$109.99",
-      "imageUrl": "https://images.footballfanatics.com/columbus-crew/mens-adidas-originals-black-columbus-crew-culturewear-collection-full-zip-track-jacket_ss5_p-201658633+pv-1+u-oxtpspjfz5rihzm3lgrf+v-tfg618chpertzqfpghxb.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/yq9vK2"
-    },
-    {
-      "title": "Men's Columbus Crew adidas Black 2025 The Goosebumps Kit Authentic Jersey",
-      "price": "$149.99",
-      "imageUrl": "https://images.footballfanatics.com/columbus-crew/mens-adidas-black-columbus-crew-2025-the-goosebumps-kit-authentic-jersey_ss5_p-202652661+pv-1+u-4le5kdfl2g3qmvzzxlen+v-ddfcdg721pqvqfn4raal.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/qzZvKy"
+      id: 3,
+      title: "Men's Columbus Crew adidas Black 2025 The Goosebumps Kit Authentic Jersey",
+      price: "$149.99",
+      imageUrl: "https://images.footballfanatics.com/columbus-crew/mens-adidas-black-columbus-crew-2025-the-goosebumps-kit-authentic-jersey_ss5_p-202652661+pv-1+u-4le5kdfl2g3qmvzzxlen+v-ddfcdg721pqvqfn4raal.jpg?_hv=2&w=900",
+      link: "https://mlsstore.i8h2.net/qzZvKy"
     }
   ];
 
   const squad = {
-    goalkeepers: ["Patrick Schulte", "Evan Bush"],
-    defenders: ["Rudy Camacho", "Steven Moreira", "Malte Amundsen", "Mohamed Farsi"],
-    midfielders: ["Darlington Nagbe", "Aidan Morris", "Derrick Jones", "Sean Zawadzki"],
-    attackers: ["Diego Rossi", "Cucho Hernández", "Jacen Russell-Rowe"],
+    goalkeepers: ["Patrick Schulte", "Evan Bush", "Nicholas Hagen", "Stanislav Lapkes"],
+    defenders: [
+      "Andrés Herrera", "Rudy Camacho", "Malte Amundsen", "Mohamed Farsi",
+      "Steven Moreira", "Yevhen Cheberko", "Cesar Ruvalcaba"
+    ],
+    midfielders: [
+      "Darlington Nagbe", "Dylan Chambost", "Dániel Gazdag", "Amar Sejdić",
+      "Sekou Bangoura", "Sean Zawadzki", "Hugo Picard", "André Gomes"
+    ],
+    attackers: [
+      "Diego Rossi", "Wessam Abou Ali", "Jamal Thiaré", "Maximilian Arfsten",
+      "Taha Habroune", "Nariman Akhundzada"
+    ],
+    headCoach: "Issa Tall"
   };
 
   return (
     <div className="bg-white min-h-screen text-[#0d1117]">
-      {/* Hero */}
+      {/* Hero Section */}
       <div className="relative h-[480px] md:h-[620px] bg-gradient-to-b from-black/70 to-black/90 overflow-hidden">
         <Image
           src="/Columbus.png"
@@ -108,7 +117,7 @@ const ColumbusCrewPage = () => {
         </div>
       </div>
 
-      {/* Tabs - bolji responsive */}
+      {/* Navigation Tabs */}
       <div className="bg-[#020617] text-white sticky top-0 z-40 border-b border-gray-700">
         <div className="max-w-6xl mx-auto px-4 md:px-6">
           <div className="flex overflow-x-auto gap-6 md:gap-10 py-4 whitespace-nowrap scrollbar-hide">
@@ -117,9 +126,7 @@ const ColumbusCrewPage = () => {
                 key={tab}
                 onClick={() => setActiveTab(tab)} 
                 className={`font-bold text-base md:text-lg pb-2 transition relative flex-shrink-0
-                  ${activeTab === tab 
-                    ? 'text-yellow-400' 
-                    : 'text-white/80 hover:text-white'}`}
+                  ${activeTab === tab ? 'text-yellow-400' : 'text-white/80 hover:text-white'}`}
               >
                 {tab.charAt(0).toUpperCase() + tab.slice(1)}
                 {activeTab === tab && (
@@ -136,35 +143,68 @@ const ColumbusCrewPage = () => {
 
         <div className="lg:col-span-2 space-y-10 md:space-y-12">
 
-          {/* Overview, News, Blog, Squad sekcije ostaju iste kao ranije */}
           {activeTab === 'overview' && (
             <>
-              {/* ... tvoj postojeći overview kod ... */}
               <div className="bg-gray-50 p-6 md:p-8 rounded-2xl shadow-sm">
                 <h2 className="text-3xl font-black mb-6 text-[#020617]">Club Overview</h2>
                 <dl className="grid grid-cols-1 md:grid-cols-2 gap-6 text-base md:text-lg">
                   <div><dt className="font-bold text-gray-600">Full Name</dt><dd>Columbus Crew</dd></div>
                   <div><dt className="font-bold text-gray-600">Nickname</dt><dd>The Black & Gold</dd></div>
                   <div><dt className="font-bold text-gray-600">Founded</dt><dd>1994</dd></div>
-                  <div><dt className="font-bold text-gray-600">Stadium</dt><dd>Lower.com Field, Columbus, Ohio</dd></div>
+                  <div><dt className="font-bold text-gray-600">Stadium</dt><dd>Lower.com Field, Columbus</dd></div>
                   <div><dt className="font-bold text-gray-600">Capacity</dt><dd>20,000</dd></div>
                   <div><dt className="font-bold text-gray-600">Owner</dt><dd>Haslam Sports Group</dd></div>
-                  <div><dt className="font-bold text-gray-600">Head Coach</dt><dd>Wilfried Nancy</dd></div>
+                  <div><dt className="font-bold text-gray-600">Head Coach</dt><dd>Issa Tall</dd></div>
                 </dl>
               </div>
 
-              {/* Trending Players i Latest News sekcije ostaju iste */}
-              {/* ... (kopiraj ih iz prethodne verzije ako treba) ... */}
+              <div>
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">Trending Players</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                  {players.map((player) => (
+                    <Link key={player.slug} href={`/teams/columbus-crew/${player.slug}`} className="group">
+                      <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                        <div className="relative h-64">
+                          <Image src={player.image} alt={player.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+                        </div>
+                        <div className="p-4 text-center">
+                          <h3 className="font-bold text-lg group-hover:text-yellow-400">{player.name}</h3>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h2 className="text-3xl font-black mb-6 text-[#020617]">Latest News</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                  {newsPosts.map((post) => (
+                    <Link key={post.id} href={`/news/${post.slug}`} className="group">
+                      <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                        <div className="relative h-56">
+                          <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+                        </div>
+                        <div className="p-6">
+                          <h3 className="text-xl font-bold mb-3 group-hover:text-yellow-400 line-clamp-2">{post.title}</h3>
+                          <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
+                          <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
             </>
           )}
 
-          {/* News Tab */}
+          {/* NEWS TAB */}
           {activeTab === 'news' && (
             <div>
-              <h2 className="text-3xl font-black mb-6 text-[#020617]">All News</h2>
+              <h2 className="text-3xl font-black mb-8 text-[#020617]">Columbus Crew News</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                {blogPosts.map((post) => (
-                  <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                {newsPosts.map((post) => (
+                  <Link key={post.id} href={`/news/${post.slug}`} className="group">
                     <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
                       <div className="relative h-56">
                         <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
@@ -181,9 +221,10 @@ const ColumbusCrewPage = () => {
             </div>
           )}
 
+          {/* BLOG TAB */}
           {activeTab === 'blog' && (
             <div>
-              <h2 className="text-3xl font-black mb-6 text-[#020617]">Blog</h2>
+              <h2 className="text-3xl font-black mb-8 text-[#020617]">Columbus Crew Blog</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
                 {blogPosts.map((post) => (
                   <Link key={post.id} href={`/blog/${post.slug}`} className="group">
@@ -203,15 +244,57 @@ const ColumbusCrewPage = () => {
             </div>
           )}
 
+          {/* SQUAD TAB */}
           {activeTab === 'squad' && (
             <div>
-              <h2 className="text-3xl font-black mb-8 text-[#020617]">Columbus Crew Squad</h2>
-              {/* Squad sekcija ostaje ista kao ranije */}
-              {/* ... (kopiraj iz prethodne verzije) ... */}
+              <h2 className="text-3xl font-black mb-8 text-[#020617]">Columbus Crew Squad 2026</h2>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-yellow-400 mb-4 border-b border-gray-200 pb-2">Goalkeepers</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.goalkeepers.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-yellow-400 mb-4 border-b border-gray-200 pb-2">Defenders</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.defenders.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-yellow-400 mb-4 border-b border-gray-200 pb-2">Midfielders</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.midfielders.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mb-10">
+                <h3 className="text-2xl font-bold text-yellow-400 mb-4 border-b border-gray-200 pb-2">Attackers</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {squad.attackers.map((name, i) => (
+                    <div key={i} className="bg-gray-50 px-5 py-4 rounded-xl font-medium">{name}</div>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-yellow-400 mb-4 border-b border-gray-200 pb-2">Head Coach</h3>
+                <div className="bg-gray-50 px-5 py-4 rounded-xl font-medium inline-block">
+                  {squad.headCoach}
+                </div>
+              </div>
             </div>
           )}
 
-          {/* SHOP TAB - bolji responsive */}
+          {/* SHOP TAB */}
           {activeTab === 'shop' && (
             <div>
               <div className="flex items-center gap-3 mb-8">
@@ -221,25 +304,20 @@ const ColumbusCrewPage = () => {
 
               <p className="text-lg text-gray-600 mb-10">
                 Support Columbus Crew by shopping through our links. 
-                Every purchase helps us keep this site running and bring you better content.
+                Every purchase helps keep this site running.
               </p>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 md:gap-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
                 {shopItems.map((item) => (
                   <a 
-                    key={item.title} 
+                    key={item.id} 
                     href={item.link} 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all border border-gray-100"
                   >
                     <div className="relative h-64 bg-gray-50 p-6">
-                      <Image 
-                        src={item.imageUrl} 
-                        alt={item.title} 
-                        fill 
-                        className="object-contain group-hover:scale-105 transition-transform duration-500" 
-                      />
+                      <Image src={item.imageUrl} alt={item.title} fill className="object-contain group-hover:scale-105 transition-transform duration-500" />
                     </div>
                     <div className="p-6">
                       <h3 className="font-bold text-lg leading-tight mb-3 group-hover:text-yellow-400 line-clamp-2">
@@ -253,11 +331,11 @@ const ColumbusCrewPage = () => {
 
               <div className="mt-12 text-center">
                 <a 
-                  href="https://mlsstore.com" 
+                  href="https://mlsstore.i8h2.net/PzVBYq" 
                   target="_blank" 
                   className="inline-flex items-center gap-2 text-yellow-400 font-bold hover:underline text-lg"
                 >
-                  View full Columbus Crew store →
+                  View full store →
                 </a>
               </div>
             </div>
@@ -272,9 +350,9 @@ const ColumbusCrewPage = () => {
             <div className="space-y-4">
               <a href="https://ticketnetwork.lusg.net/JKOxkN" target="_blank" rel="noopener noreferrer" 
                 className="flex items-center gap-3 bg-white/20 hover:bg-white/30 px-6 py-4 rounded-xl font-bold transition text-center justify-center">
-                <FaTicketAlt /> Buy Tickets
+                <FaTicketAlt /> Buy Tickets Now
               </a>
-              <a href="https://www.booking.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://expedia.com/affiliate/poOEMqx" target="_blank" rel="noopener noreferrer" 
                 className="flex items-center gap-3 bg-white/20 hover:bg-white/30 px-6 py-4 rounded-xl font-bold transition text-center justify-center">
                 <FaBed /> Hotels Near Lower.com Field
               </a>
@@ -285,7 +363,7 @@ const ColumbusCrewPage = () => {
             <h3 className="text-2xl font-black mb-6 text-[#020617]">Official Shop</h3>
             <div className="space-y-6">
               {shopItems.map((item) => (
-                <a key={item.title} href={item.link} target="_blank" rel="noopener noreferrer" className="block group">
+                <a key={item.id} href={item.link} target="_blank" rel="noopener noreferrer" className="block group">
                   <div className="flex gap-4">
                     <div className="relative w-24 h-24 flex-shrink-0">
                       <Image src={item.imageUrl} alt={item.title} fill className="object-contain" />
@@ -299,7 +377,7 @@ const ColumbusCrewPage = () => {
               ))}
             </div>
             <div className="mt-6 text-center">
-              <a href="https://mlsstore.com" target="_blank" className="text-yellow-400 font-bold hover:underline">
+              <a href="https://mlsstore.i8h2.net/PzVBYq" target="_blank" className="text-yellow-400 font-bold hover:underline">
                 View Full Shop →
               </a>
             </div>

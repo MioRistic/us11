@@ -4,6 +4,7 @@ import { FaShoppingCart } from 'react-icons/fa';
 const DiegoRossi = () => {
   const items = [
     {
+      id: 1,
       "title": "Men's Columbus Crew Diego Rossi adidas Black 2025 The Goosebumps Kit Authentic Player Jersey",
       "price": "$194.99",
       "category": "Kids Jerseys",
@@ -12,6 +13,7 @@ const DiegoRossi = () => {
       "link": "https://mlsstore.i8h2.net/AP35Y1"
     },
     {
+      id: 2,
       "title": "Men's Columbus Crew Diego Rossi adidas Black 2025 The Goosebumps Kit Replica Player Jersey",
       "price": "$134.99",
       "category": "Jerseys",

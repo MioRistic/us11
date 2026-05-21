@@ -371,7 +371,7 @@ const jerseysBlogPosts: Post[] = [
         </div>
 
         <div className="flex justify-center mt-8">
-          <Link href="/news" className="cursor-pointer text-white bg-[#020617] px-6 py-3 rounded-lg hover:bg-transparent hover:text-[#020617] border-2 border-transparent hover:border-[#020617] transition duration-500">
+          <Link href="/news"  className="bg-[#020617] text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#020617] hover:border-[#020617] border-2 transition-all duration-300 ease-in-out transform hover:scale-105">
             Read More
           </Link>
         </div>
@@ -490,7 +490,7 @@ const jerseysBlogPosts: Post[] = [
         </div>
 
         <div className="flex justify-center mt-8">
-          <Link href="/blog/jerseys" className="cursor-pointer text-white bg-[#020617] px-6 py-3 rounded-lg hover:bg-transparent hover:text-[#020617] border-2 border-transparent hover:border-[#020617] transition duration-500">
+          <Link href="/blog/jerseys"  className="bg-[#020617] text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#020617] hover:border-[#020617] border-2 transition-all duration-300 ease-in-out transform hover:scale-105">
             Read More
           </Link>
         </div>
@@ -530,7 +530,7 @@ const jerseysBlogPosts: Post[] = [
         </div>
 
         <div className="flex justify-center mt-8">
-          <Link href="/blog/mls-hall-of-fame" className="cursor-pointer text-white bg-[#020617] px-6 py-3 rounded-lg hover:bg-transparent hover:text-[#020617] border-2 border-transparent hover:border-[#020617] transition duration-500">
+          <Link href="/blog/mls-hall-of-fame"  className="bg-[#020617] text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#020617] hover:border-[#020617] border-2 transition-all duration-300 ease-in-out transform hover:scale-105">
             Read More
           </Link>
         </div>

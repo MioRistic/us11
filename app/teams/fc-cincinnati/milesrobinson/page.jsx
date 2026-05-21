@@ -4,6 +4,7 @@ import { FaShoppingCart } from 'react-icons/fa';
 const MilesRobinson = () => {
   const items = [
     {
+      id: 1,
       "title": "Men's FC Cincinnati Miles Robinson adidas Blue 2025 Orange and Blue Legacy Kit Replica Player Jersey",
       "price": "$134.99",
       // "originalPrice": "$194.99",
