@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 166,
+  "title": "Brazil Finds Its World Cup Home in New Jersey: Why the Seleção Chose Red Bull’s $100 Million Facility",
+  "author": "Mio Ristić",
+  "date": "May 22, 2026",
+  "excerpt": "Brazil officially selected the RWJBarnabas Health Red Bulls Performance Center in New Jersey as its headquarters for the 2026 FIFA World Cup, choosing the new $100 million facility for its elite infrastructure and strategic East Coast location.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2246918650/crop/MM5DIOJTHE5DENZXHA5G433XMU5DAORTGAYQ====/GettyImages-2246918650.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/brazil-world-cup-base"
+},
+  {
   "id": 165,
   "title": "Two MLS Clubs Hit the Reset Button: Columbus and Austin Clean House Amid Dismal Starts",
   "author": "Mio Ristić",
@@ -83,15 +92,6 @@ const blogPosts: Post[] = [
   "excerpt": "MLS Matchday 14 delivered pure chaos before the World Cup break: Sam Sarver’s unforgettable celebration, Messi’s first victory at Nu Stadium, FC Cincinnati’s 98th-minute madness and a coaching change in Columbus.",
   "imageUrl": "https://assets.goal.com/images/v3/blt98069fadcc2b1e00/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-05-17T192244.735.png?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "news/mls-matchday-14-2026"
-},
-  {
-  "id": 162,
-  "title": "Gabriel Pec Runs Riot as Galaxy Stun Seattle and Climb Into Western Conference Playoff Spots",
-  "author": "Mio Ristić",
-  "date": "May 17, 2026",
-  "excerpt": "Gabriel Pec starred with a goal and an assist as LA Galaxy stunned Seattle Sounders 2-0 at Lumen Field, ending Seattle’s unbeaten run and boosting Galaxy’s playoff hopes.",
-  "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/5324370/2147483647/strip/false/crop/7754x5169+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fef%2F48%2F37ba8e174430bbc5ac147024a175%2F2264835118.jpg",
-  "link": "news/gabriel-pec-galaxy-seattle-2026"
 },
  
   

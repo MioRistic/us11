@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 166,
+  "title": "Brazil Finds Its World Cup Home in New Jersey: Why the Seleção Chose Red Bull’s $100 Million Facility",
+  "author": "Mio Ristić",
+  "date": "May 22, 2026",
+  "excerpt": "Brazil officially selected the RWJBarnabas Health Red Bulls Performance Center in New Jersey as its headquarters for the 2026 FIFA World Cup, choosing the new $100 million facility for its elite infrastructure and strategic East Coast location.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2246918650/crop/MM5DIOJTHE5DENZXHA5G433XMU5DAORTGAYQ====/GettyImages-2246918650.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "brazil-world-cup-base"
+},
+    {
   "id": 165,
   "title": "Two MLS Clubs Hit the Reset Button: Columbus and Austin Clean House Amid Dismal Starts",
   "author": "Mio Ristić",
