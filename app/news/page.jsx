@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 167,
+  "title": "Wilfried Zaha Plays Final Game for Charlotte FC as Loan Spell Ends",
+  "author": "Mio Ristić",
+  "date": "May 24, 2026",
+  "excerpt": "Wilfried Zaha officially announced his departure from Charlotte FC after an 18-month MLS spell that included 13 goals, 14 assists, and a major role in the club’s rise into playoff contention.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2204351245/crop/MM5DGNZVHA5DEMJRGQ5G433XMU5DAORRHE3A====/GettyImages-2204351245.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "wilfried-zaha-charlotte-fc-departure"
+},
+    {
   "id": 166,
   "title": "Brazil Finds Its World Cup Home in New Jersey: Why the Seleção Chose Red Bull’s $100 Million Facility",
   "author": "Mio Ristić",
