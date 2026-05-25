@@ -74,7 +74,7 @@ const blogPosts: Post[] = [
   "excerpt": "MLS Matchday 15 wrapped up the first half of the 2026 season with Nashville SC staying atop the standings, Inter Miami and Philadelphia Union producing a 10-goal thriller, and Wilfried Zaha making his final Charlotte FC appearance before the World Cup break.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-2202723392/crop/MM5DIOBZGI5DENZVGI5G433XMU5DAORSGI======/GettyImages-2202723392.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "news/mls-matchday-15-recap"
-}
+},
   {
   "id": 167,
   "title": "Wilfried Zaha Plays Final Game for Charlotte FC as Loan Spell Ends",
