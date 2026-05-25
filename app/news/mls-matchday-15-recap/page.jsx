@@ -126,7 +126,7 @@ export default function MLSMatchday15RecapPage() {
           </p>
 
           {/* VIDEO */}
-          {/* <div className="my-10">
+          <div className="my-10">
             <h2 className="text-3xl font-bold mb-4">
               Watch: MLS Matchday 15 Highlights
             </h2>
@@ -135,7 +135,7 @@ export default function MLSMatchday15RecapPage() {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/Hft2ovtfsco"
+                src="https://www.youtube.com/embed/feH28W1NUBE"
                 title="MLS Matchday 15 Highlights"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -143,7 +143,7 @@ export default function MLSMatchday15RecapPage() {
                 className="w-full h-full"
               ></iframe>
             </div>
-          </div> */}
+          </div>
 
           <h2 className="text-3xl font-bold mt-10 mb-4">
             Nashville SC Tightens Grip on First Place
