@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 170,
+  "title": "Jesse Marsch Calls 11 MLS Players to Canada’s Pre-World Cup Training Camp",
+  "author": "Mio Ristić",
+  "date": "May 26, 2026",
+  "excerpt": "Canada head coach Jesse Marsch selected 11 MLS players in a 32-man preliminary squad ahead of the 2026 FIFA World Cup as the co-host nation begins final preparations.",
+  "imageUrl": "https://i.ibb.co/DPKbdcTr/20221117-1668705421-556.jpg",
+  "slug": "canada"
+},
+    {
   "id": 168,
   "title": "MLS Matchday 15 Recap: Nashville Tightens Grip on Top Spot, Miami-Philadelphia Chaos, Zaha’s Farewell",
   "author": "Mio Ristić",

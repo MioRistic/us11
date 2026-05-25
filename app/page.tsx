@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 170,
+  "title": "Jesse Marsch Calls 11 MLS Players to Canada’s Pre-World Cup Training Camp",
+  "author": "Mio Ristić",
+  "date": "May 26, 2026",
+  "excerpt": "Canada head coach Jesse Marsch selected 11 MLS players in a 32-man preliminary squad ahead of the 2026 FIFA World Cup as the co-host nation begins final preparations.",
+  "imageUrl": "https://i.ibb.co/DPKbdcTr/20221117-1668705421-556.jpg",
+  "link": "news/canada"
+},
+  {
   "id": 168,
   "title": "MLS Matchday 15 Recap: Nashville Tightens Grip on Top Spot, Miami-Philadelphia Chaos, Zaha’s Farewell",
   "author": "Mio Ristić",
@@ -84,17 +93,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2204351245/crop/MM5DGNZVHA5DEMJRGQ5G433XMU5DAORRHE3A====/GettyImages-2204351245.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/wilfried-zaha-charlotte-fc-departure"
 },
-  {
-  "id": 166,
-  "title": "Brazil Finds Its World Cup Home in New Jersey: Why the Seleção Chose Red Bull’s $100 Million Facility",
-  "author": "Mio Ristić",
-  "date": "May 22, 2026",
-  "excerpt": "Brazil officially selected the RWJBarnabas Health Red Bulls Performance Center in New Jersey as its headquarters for the 2026 FIFA World Cup, choosing the new $100 million facility for its elite infrastructure and strategic East Coast location.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2246918650/crop/MM5DIOJTHE5DENZXHA5G433XMU5DAORTGAYQ====/GettyImages-2246918650.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "news/brazil-world-cup-base"
-},
  
-
  
   
    
