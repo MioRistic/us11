@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 168,
+  "title": "MLS Matchday 15 Recap: Nashville Tightens Grip on Top Spot, Miami-Philadelphia Chaos, Zaha’s Farewell",
+  "author": "Mio Ristić",
+  "date": "May 25, 2026",
+  "excerpt": "MLS Matchday 15 wrapped up the first half of the 2026 season with Nashville SC staying atop the standings, Inter Miami and Philadelphia Union producing a 10-goal thriller, and Wilfried Zaha making his final Charlotte FC appearance before the World Cup break.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2202723392/crop/MM5DIOBZGI5DENZVGI5G433XMU5DAORSGI======/GettyImages-2202723392.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/mls-matchday-15-recap"
+}
+  {
   "id": 167,
   "title": "Wilfried Zaha Plays Final Game for Charlotte FC as Loan Spell Ends",
   "author": "Mio Ristić",
@@ -84,17 +93,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2246918650/crop/MM5DIOJTHE5DENZXHA5G433XMU5DAORTGAYQ====/GettyImages-2246918650.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "news/brazil-world-cup-base"
 },
-  {
-  "id": 165,
-  "title": "Two MLS Clubs Hit the Reset Button: Columbus and Austin Clean House Amid Dismal Starts",
-  "author": "Mio Ristić",
-  "date": "May 18, 2026",
-  "excerpt": "Columbus Crew and Austin FC both made major leadership changes before the 2026 World Cup break, firing coaches and reshaping their futures after disappointing starts to the MLS season.",
-  "imageUrl": "https://i.ibb.co/Zzy56Nwr/Untitled-design-6.png",
-  "link": "news/mls-coaching-changes-2026"
-},
-
-  
+ 
 
  
   

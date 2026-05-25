@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 168,
+  "title": "MLS Matchday 15 Recap: Nashville Tightens Grip on Top Spot, Miami-Philadelphia Chaos, Zaha’s Farewell",
+  "author": "Mio Ristić",
+  "date": "May 25, 2026",
+  "excerpt": "MLS Matchday 15 wrapped up the first half of the 2026 season with Nashville SC staying atop the standings, Inter Miami and Philadelphia Union producing a 10-goal thriller, and Wilfried Zaha making his final Charlotte FC appearance before the World Cup break.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2202723392/crop/MM5DIOBZGI5DENZVGI5G433XMU5DAORSGI======/GettyImages-2202723392.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "mls-matchday-15-recap"
+},
+    {
   "id": 167,
   "title": "Wilfried Zaha Plays Final Game for Charlotte FC as Loan Spell Ends",
   "author": "Mio Ristić",
