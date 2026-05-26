@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 171,
+  "title": "Pochettino Names Final 26-Man USMNT Roster for 2026 World Cup",
+  "author": "Mio Ristić",
+  "date": "May 26, 2026",
+  "excerpt": "Mauricio Pochettino officially unveiled the United States Men’s National Team squad for the 2026 FIFA World Cup as the Americans prepare for the tournament on home soil with heightened expectations.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2269402545/crop/MM5DIOBRGY5DENZQHE5G433XMU5DAORRG44Q====/GettyImages-2269402545.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/usmnt-world-cup-roster"
+},
+  {
   "id": 170,
   "title": "Jesse Marsch Calls 11 MLS Players to Canada’s Pre-World Cup Training Camp",
   "author": "Mio Ristić",
@@ -84,17 +93,8 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2202723392/crop/MM5DIOBZGI5DENZVGI5G433XMU5DAORSGI======/GettyImages-2202723392.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "news/mls-matchday-15-recap"
 },
-  {
-  "id": 167,
-  "title": "Wilfried Zaha Plays Final Game for Charlotte FC as Loan Spell Ends",
-  "author": "Mio Ristić",
-  "date": "May 24, 2026",
-  "excerpt": "Wilfried Zaha officially announced his departure from Charlotte FC after an 18-month MLS spell that included 13 goals, 14 assists, and a major role in the club’s rise into playoff contention.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2204351245/crop/MM5DGNZVHA5DEMJRGQ5G433XMU5DAORRHE3A====/GettyImages-2204351245.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/wilfried-zaha-charlotte-fc-departure"
-},
- 
- 
+   
+  
   
    
  

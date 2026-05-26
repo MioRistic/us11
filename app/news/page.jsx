@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 171,
+  "title": "Pochettino Names Final 26-Man USMNT Roster for 2026 World Cup",
+  "author": "Mio Ristić",
+  "date": "May 26, 2026",
+  "excerpt": "Mauricio Pochettino officially unveiled the United States Men’s National Team squad for the 2026 FIFA World Cup as the Americans prepare for the tournament on home soil with heightened expectations.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2269402545/crop/MM5DIOBRGY5DENZQHE5G433XMU5DAORRG44Q====/GettyImages-2269402545.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "usmnt-world-cup-roster"
+},
+    {
   "id": 170,
   "title": "Jesse Marsch Calls 11 MLS Players to Canada’s Pre-World Cup Training Camp",
   "author": "Mio Ristić",
