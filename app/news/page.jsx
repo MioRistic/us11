@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 172,
+  "title": "MLS 2026 Midseason Recap: The Good, The Bad & The Chaos",
+  "author": "Mio Ristić",
+  "date": "May 27, 2026",
+  "excerpt": "Nashville SC lead the Supporters’ Shield race while San Jose surprise, LA Galaxy disappoint, and coaching chaos once again defines a dramatic MLS season before the World Cup break.",
+  "imageUrl": "https://i.ibb.co/qYywgPzP/nashville-sc-vs-dc-united-prediction-2026-05-09.webp",
+  "slug": "mls-2026-midseason-recap"
+},
+    {
   "id": 171,
   "title": "Pochettino Names Final 26-Man USMNT Roster for 2026 World Cup",
   "author": "Mio Ristić",

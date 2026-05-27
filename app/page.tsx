@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 172,
+  "title": "MLS 2026 Midseason Recap: The Good, The Bad & The Chaos",
+  "author": "Mio Ristić",
+  "date": "May 27, 2026",
+  "excerpt": "Nashville SC lead the Supporters’ Shield race while San Jose surprise, LA Galaxy disappoint, and coaching chaos once again defines a dramatic MLS season before the World Cup break.",
+  "imageUrl": "https://i.ibb.co/qYywgPzP/nashville-sc-vs-dc-united-prediction-2026-05-09.webp",
+  "link": "news/mls-2026-midseason-recap"
+},
+  {
   "id": 171,
   "title": "Pochettino Names Final 26-Man USMNT Roster for 2026 World Cup",
   "author": "Mio Ristić",
@@ -84,16 +93,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/DPKbdcTr/20221117-1668705421-556.jpg",
   "link": "news/canada"
 },
-  {
-  "id": 168,
-  "title": "MLS Matchday 15 Recap: Nashville Tightens Grip on Top Spot, Miami-Philadelphia Chaos, Zaha’s Farewell",
-  "author": "Mio Ristić",
-  "date": "May 25, 2026",
-  "excerpt": "MLS Matchday 15 wrapped up the first half of the 2026 season with Nashville SC staying atop the standings, Inter Miami and Philadelphia Union producing a 10-goal thriller, and Wilfried Zaha making his final Charlotte FC appearance before the World Cup break.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2202723392/crop/MM5DIOBZGI5DENZVGI5G433XMU5DAORSGI======/GettyImages-2202723392.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "news/mls-matchday-15-recap"
-},
-   
+ 
   
   
    
@@ -156,6 +156,12 @@ const jerseysBlogPosts: Post[] = [
   },
 ];const heroItems = [
   {
+  title: "MLS 2026 Midseason Recap",
+  subtitle: "The Good, The Bad & The Chaos Before The World Cup Break",
+  image: "https://i.ibb.co/qYywgPzP/nashville-sc-vs-dc-united-prediction-2026-05-09.webp",
+  link: "/news/mls-2026-midseason-recap",
+},
+  {
   title: "Wilfried Zaha Leaves Charlotte FC",
   image: "https://assets.goal.com/images/v3/getty-2204351245/crop/MM5DGNZVHA5DEMJRGQ5G433XMU5DAORRHE3A====/GettyImages-2204351245.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   link: "/news/wilfried-zaha-charlotte-fc-departure",
@@ -174,12 +180,7 @@ const jerseysBlogPosts: Post[] = [
   "image": "https://preview.thenewsmarket.com/Previews/ADID/StillAssets/1920x1440/723904.jpg",
   "link": "/blog/mexico-adidas-third-kit-2026"
 },
-  {
-  title: "Atlanta United x MARTA",
-  subtitle: "Atlanta’s Transit Culture Becomes Streetwear",
-  image: "https://www.mlsstore.com/content/ws/all/719d8023-83da-4065-81da-c3a83a94a370__480X639.jpg?w=480",
-  link: "/blog/atlanta-united-marta-collection",
-},
+
  
  
 ];const staffPicks = [
