@@ -337,6 +337,7 @@ Copyright: Credit: Associated Press / Alamy Stock Photo
           </h2>
 
           <ul className="list-disc pl-6 space-y-4">
+            <li>Inter Miami opening their new NU Stadium and the absolute madness of their 6-4 thriller against Philadelphia Union</li>
             <li>The absolute madness of Inter Miami 6-4 Philadelphia Union</li>
             <li>Timo Werner bringing San Jose back to life</li>
             <li>Nashville’s defensive masterclass</li>
