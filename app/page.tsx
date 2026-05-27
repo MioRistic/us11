@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 173,
+  "title": "Philadelphia Union Fire Bradley Carnell One Season After Winning Supporters’ Shield",
+  "author": "Mio Ristić",
+  "date": "May 27, 2026",
+  "excerpt": "Philadelphia Union have fired Bradley Carnell just one season after winning the Supporters’ Shield, with the club bottom of the MLS table amid a disastrous 2026 campaign.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2248141870/crop/MM5DENRWGA5DCNBZGY5G433XMU5DAORRGM4A====/GettyImages-2248141870.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/philadelphia-union-bradley-carnell"
+},
+  {
   "id": 172,
   "title": "MLS 2026 Midseason Recap: The Good, The Bad & The Chaos",
   "author": "Mio Ristić",
@@ -83,15 +92,6 @@ const blogPosts: Post[] = [
   "excerpt": "Mauricio Pochettino officially unveiled the United States Men’s National Team squad for the 2026 FIFA World Cup as the Americans prepare for the tournament on home soil with heightened expectations.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-2269402545/crop/MM5DIOBRGY5DENZQHE5G433XMU5DAORRG44Q====/GettyImages-2269402545.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/usmnt-world-cup-roster"
-},
-  {
-  "id": 170,
-  "title": "Jesse Marsch Calls 11 MLS Players to Canada’s Pre-World Cup Training Camp",
-  "author": "Mio Ristić",
-  "date": "May 26, 2026",
-  "excerpt": "Canada head coach Jesse Marsch selected 11 MLS players in a 32-man preliminary squad ahead of the 2026 FIFA World Cup as the co-host nation begins final preparations.",
-  "imageUrl": "https://i.ibb.co/DPKbdcTr/20221117-1668705421-556.jpg",
-  "link": "news/canada"
 },
  
   
