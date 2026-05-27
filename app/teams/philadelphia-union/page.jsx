@@ -27,10 +27,20 @@ const PhiladelphiaUnionPage = () => {
   ];
 
   const newsPosts = [
-     
+     {
+  "id": 173,
+  "title": "Philadelphia Union Fire Bradley Carnell One Season After Winning Supporters’ Shield",
+  "author": "Mio Ristić",
+  "date": "May 27, 2026",
+  "excerpt": "Philadelphia Union have fired Bradley Carnell just one season after winning the Supporters’ Shield, with the club bottom of the MLS table amid a disastrous 2026 campaign.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2248141870/crop/MM5DENRWGA5DCNBZGY5G433XMU5DAORRGM4A====/GettyImages-2248141870.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/philadelphia-union-bradley-carnell"
+},
   ];
 
-  const blogPosts = []; // Add real posts later
+  const blogPosts = [
+
+  ]; // Add real posts later
 
   const shopItems = [
     {

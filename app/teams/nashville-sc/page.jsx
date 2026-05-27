@@ -25,14 +25,14 @@ const NashvilleSCPage = () => {
   // News & Blog
   const newsPosts = [
     {
-      id: 1,
-      title: "Hany Mukhtar Leads Nashville SC to Victory",
-      author: "Mio Ristić",
-      date: "May 20, 2026",
-      excerpt: "The star midfielder continues his excellent form as Nashville SC picks up crucial points.",
-      imageUrl: "https://via.placeholder.com/600x400?text=Hany+Mukhtar",
-      slug: "hany-mukhtar-form",
-    },
+  "id": 172,
+  "title": "MLS 2026 Midseason Recap: The Good, The Bad & The Chaos",
+  "author": "Mio Ristić",
+  "date": "May 27, 2026",
+  "excerpt": "Nashville SC lead the Supporters’ Shield race while San Jose surprise, LA Galaxy disappoint, and coaching chaos once again defines a dramatic MLS season before the World Cup break.",
+  "imageUrl": "https://i.ibb.co/qYywgPzP/nashville-sc-vs-dc-united-prediction-2026-05-09.webp",
+  "link": "news/mls-2026-midseason-recap"
+},
   ];
 
   const blogPosts = [

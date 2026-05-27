@@ -29,15 +29,16 @@ const CharlotteFCPage = () => {
 
   // News Posts
   const newsPosts = [
-    {
-      id: 164,
-      title: "MLS Matchday 14 Recap: Chaos Before the Curtain Falls – Sarver’s Legend, Messi’s Nu Breakthrough & More",
-      author: "Mio Ristić",
-      date: "May 18, 2026",
-      excerpt: "MLS Matchday 14 delivered pure chaos before the World Cup break: Sam Sarver’s unforgettable celebration, Messi’s first victory at Nu Stadium, FC Cincinnati’s 98th-minute madness and a coaching change in Columbus.",
-      imageUrl: "https://assets.goal.com/images/v3/blt98069fadcc2b1e00/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-05-17T192244.735.png?auto=webp&format=pjpg&width=1920&quality=60",
-      slug: "mls-matchday-14-2026"
-    },
+     {
+  "id": 167,
+  "title": "Wilfried Zaha Plays Final Game for Charlotte FC as Loan Spell Ends",
+  "author": "Mio Ristić",
+  "date": "May 24, 2026",
+  "excerpt": "Wilfried Zaha officially announced his departure from Charlotte FC after an 18-month MLS spell that included 13 goals, 14 assists, and a major role in the club’s rise into playoff contention.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2204351245/crop/MM5DGNZVHA5DEMJRGQ5G433XMU5DAORRHE3A====/GettyImages-2204351245.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "wilfried-zaha-charlotte-fc-departure"
+},
+     
   ];
 
   // Blog Posts
