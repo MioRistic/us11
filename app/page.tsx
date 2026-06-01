@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 174,
+  "title": "USMNT Builds World Cup Momentum With Bounce-Back 3-2 Win Over Senegal",
+  "author": "Mio Ristić",
+  "date": "May 31, 2026",
+  "excerpt": "Christian Pulisic ended his scoring drought, Ricardo Pepi impressed, and Folarin Balogun scored the winner as the USMNT came from behind to defeat Senegal 3-2 ahead of the 2026 FIFA World Cup.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2279124591/crop/MM5DGMZTG45DCOBXG45G433XMU5DAORRGY4Q====/GettyImages-2279124591.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/usmnt-senegal-world-cup-momentum"
+},
+  {
   "id": 173,
   "title": "Philadelphia Union Fire Bradley Carnell One Season After Winning Supporters’ Shield",
   "author": "Mio Ristić",
@@ -83,16 +92,7 @@ const blogPosts: Post[] = [
   "excerpt": "Nashville SC lead the Supporters’ Shield race while San Jose surprise, LA Galaxy disappoint, and coaching chaos once again defines a dramatic MLS season before the World Cup break.",
   "imageUrl": "https://i.ibb.co/qYywgPzP/nashville-sc-vs-dc-united-prediction-2026-05-09.webp",
   "link": "news/mls-2026-midseason-recap"
-},
-  {
-  "id": 171,
-  "title": "Pochettino Names Final 26-Man USMNT Roster for 2026 World Cup",
-  "author": "Mio Ristić",
-  "date": "May 26, 2026",
-  "excerpt": "Mauricio Pochettino officially unveiled the United States Men’s National Team squad for the 2026 FIFA World Cup as the Americans prepare for the tournament on home soil with heightened expectations.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2269402545/crop/MM5DIOBRGY5DENZQHE5G433XMU5DAORRG44Q====/GettyImages-2269402545.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/usmnt-world-cup-roster"
-},
+}
  
   
   

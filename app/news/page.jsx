@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 174,
+  "title": "USMNT Builds World Cup Momentum With Bounce-Back 3-2 Win Over Senegal",
+  "author": "Mio Ristić",
+  "date": "May 31, 2026",
+  "excerpt": "Christian Pulisic ended his scoring drought, Ricardo Pepi impressed, and Folarin Balogun scored the winner as the USMNT came from behind to defeat Senegal 3-2 ahead of the 2026 FIFA World Cup.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2279124591/crop/MM5DGMZTG45DCOBXG45G433XMU5DAORRGY4Q====/GettyImages-2279124591.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "usmnt-senegal-world-cup-momentum"
+},
+    {
   "id": 173,
   "title": "Philadelphia Union Fire Bradley Carnell One Season After Winning Supporters’ Shield",
   "author": "Mio Ristić",
