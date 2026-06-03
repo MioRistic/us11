@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 175,
+  "title": "MLS Sets New Record with 44 Players on 2026 World Cup Rosters",
+  "author": "Mio Ristić",
+  "date": "June 2, 2026",
+  "excerpt": "A record 44 MLS players from 21 clubs and 17 nations have been called up for the 2026 FIFA World Cup, marking the league’s biggest global presence in history.",
+  "imageUrl": "https://assets.goal.com/images/v3/bltad06137e831f623c/Lionel%20Messi%20Argentina.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "mls-44-players-world-cup-2026"
+},
+    {
   "id": 174,
   "title": "USMNT Builds World Cup Momentum With Bounce-Back 3-2 Win Over Senegal",
   "author": "Mio Ristić",

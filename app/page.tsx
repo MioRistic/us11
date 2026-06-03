@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 175,
+  "title": "MLS Sets New Record with 44 Players on 2026 World Cup Rosters",
+  "author": "Mio Ristić",
+  "date": "June 2, 2026",
+  "excerpt": "A record 44 MLS players from 21 clubs and 17 nations have been called up for the 2026 FIFA World Cup, marking the league’s biggest global presence in history.",
+  "imageUrl": "https://assets.goal.com/images/v3/bltad06137e831f623c/Lionel%20Messi%20Argentina.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/mls-44-players-world-cup-2026"
+},
+  {
   "id": 174,
   "title": "USMNT Builds World Cup Momentum With Bounce-Back 3-2 Win Over Senegal",
   "author": "Mio Ristić",
@@ -84,16 +93,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2248141870/crop/MM5DENRWGA5DCNBZGY5G433XMU5DAORRGM4A====/GettyImages-2248141870.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "news/philadelphia-union-bradley-carnell"
 },
-  {
-  "id": 172,
-  "title": "MLS 2026 Midseason Recap: The Good, The Bad & The Chaos",
-  "author": "Mio Ristić",
-  "date": "May 27, 2026",
-  "excerpt": "Nashville SC lead the Supporters’ Shield race while San Jose surprise, LA Galaxy disappoint, and coaching chaos once again defines a dramatic MLS season before the World Cup break.",
-  "imageUrl": "https://i.ibb.co/qYywgPzP/nashville-sc-vs-dc-united-prediction-2026-05-09.webp",
-  "link": "news/mls-2026-midseason-recap"
-}
- 
+
   
   
    
