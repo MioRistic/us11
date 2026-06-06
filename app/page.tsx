@@ -66,6 +66,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
   );
 };
 const blogPosts: Post[] = [
+   {
+  "id": 176,
+  "title": "USMNT Fall to Germany in Final World Cup Send-Off, But Deliver Plenty of Reasons for Optimism",
+  "author": "Mio Ristić",
+  "date": "June 6, 2026",
+  "excerpt": "The USMNT closed out World Cup preparations with a competitive 2-1 loss to Germany, as Antonee Robinson’s stunning equalizer highlighted an encouraging performance ahead of the tournament.",
+  "imageUrl": "https://assets.goal.com/images/v3/bltf6b8614c13a32667/crop/MM5DINZUGA5DENRWGY5G433XMU5DAORSGQ3Q====/GettyImages-2280213323.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/usmnt-germany-world-cup-send-off"
+},
   {
   "id": 175,
   "title": "MLS Sets New Record with 44 Players on 2026 World Cup Rosters",
@@ -84,16 +93,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2279124591/crop/MM5DGMZTG45DCOBXG45G433XMU5DAORRGY4Q====/GettyImages-2279124591.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "news/usmnt-senegal-world-cup-momentum"
 },
-  {
-  "id": 173,
-  "title": "Philadelphia Union Fire Bradley Carnell One Season After Winning Supporters’ Shield",
-  "author": "Mio Ristić",
-  "date": "May 27, 2026",
-  "excerpt": "Philadelphia Union have fired Bradley Carnell just one season after winning the Supporters’ Shield, with the club bottom of the MLS table amid a disastrous 2026 campaign.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2248141870/crop/MM5DENRWGA5DCNBZGY5G433XMU5DAORRGM4A====/GettyImages-2248141870.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "news/philadelphia-union-bradley-carnell"
-},
-
+ 
   
   
    
@@ -155,17 +155,7 @@ const jerseysBlogPosts: Post[] = [
     link: "/blog/mls-hall-of-fame/david-beckham",
   },
 ];const heroItems = [
-  {
-  title: "MLS 2026 Midseason Recap",
-  subtitle: "The Good, The Bad & The Chaos Before The World Cup Break",
-  image: "https://i.ibb.co/qYywgPzP/nashville-sc-vs-dc-united-prediction-2026-05-09.webp",
-  link: "/news/mls-2026-midseason-recap",
-},
-  {
-  title: "Wilfried Zaha Leaves Charlotte FC",
-  image: "https://assets.goal.com/images/v3/getty-2204351245/crop/MM5DGNZVHA5DEMJRGQ5G433XMU5DAORRHE3A====/GettyImages-2204351245.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  link: "/news/wilfried-zaha-charlotte-fc-departure",
-},
+
  
   
   {

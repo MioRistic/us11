@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 176,
+  "title": "USMNT Fall to Germany in Final World Cup Send-Off, But Deliver Plenty of Reasons for Optimism",
+  "author": "Mio Ristić",
+  "date": "June 6, 2026",
+  "excerpt": "The USMNT closed out World Cup preparations with a competitive 2-1 loss to Germany, as Antonee Robinson’s stunning equalizer highlighted an encouraging performance ahead of the tournament.",
+  "imageUrl": "https://assets.goal.com/images/v3/bltf6b8614c13a32667/crop/MM5DINZUGA5DENRWGY5G433XMU5DAORSGQ3Q====/GettyImages-2280213323.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "usmnt-germany-world-cup-send-off"
+},
+    {
   "id": 175,
   "title": "MLS Sets New Record with 44 Players on 2026 World Cup Rosters",
   "author": "Mio Ristić",
