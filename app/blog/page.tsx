@@ -50,6 +50,16 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 1015,
+  "title": "Beckham Opens Up: The Brutal Truth Behind Saving Inter Miami",
+  "author": "Mio Ristić",
+  "date": "June 7, 2026",
+  "excerpt": "David Beckham revealed how Inter Miami survived massive losses, failed stadium projects and an offer to sell the club back to MLS before becoming a $1.35 billion franchise.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2250842184/crop/MM5DGMJZGI5DCNZZGY5G433XMU5DAORVGIZQ====/GettyImages-2250842184.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "beckham-opens-up-saving-inter-miami"
+},
+ 
+  {
   "id": 1014,
   "title": "Mexico’s New Adidas Third Kit Is a Bold Tribute to Their World Cup Legacy",
   "author": "Mio Ristić",
