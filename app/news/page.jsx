@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 177,
+  "title": "USMNT Establish World Cup Base at Great Park in Orange County Ahead of 2026",
+  "author": "Mio Ristić",
+  "date": "June 9, 2026",
+  "excerpt": "The United States Men's National Team has officially set up its 2026 FIFA World Cup base at Great Park in Orange County, creating a high-performance training hub ahead of the tournament under Mauricio Pochettino.",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Championship_Soccer_Stadium_NW_View_2024-08-03.jpg/1280px-Championship_Soccer_Stadium_NW_View_2024-08-03.jpg",
+  "slug": "usmnt-camp"
+},
+    {
   "id": 176,
   "title": "USMNT Fall to Germany in Final World Cup Send-Off, But Deliver Plenty of Reasons for Optimism",
   "author": "Mio Ristić",

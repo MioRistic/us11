@@ -92,16 +92,41 @@ const blogPosts: Post[] = [
   "excerpt": "Christian Pulisic ended his scoring drought, Ricardo Pepi impressed, and Folarin Balogun scored the winner as the USMNT came from behind to defeat Senegal 3-2 ahead of the 2026 FIFA World Cup.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-2279124591/crop/MM5DGMZTG45DCOBXG45G433XMU5DAORRGY4Q====/GettyImages-2279124591.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "news/usmnt-senegal-world-cup-momentum"
-},
- 
-  
-  
-   
- 
- 
- 
-  
+}
 ];
+
+const usmntPosts: Post[] = [
+  {
+  "id": 177,
+  "title": "USMNT Establish World Cup Base at Great Park in Orange County Ahead of 2026",
+  "author": "Mio Ristić",
+  "date": "June 9, 2026",
+  "excerpt": "The United States Men's National Team has officially set up its 2026 FIFA World Cup base at Great Park in Orange County, creating a high-performance training hub ahead of the tournament under Mauricio Pochettino.",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Championship_Soccer_Stadium_NW_View_2024-08-03.jpg/1280px-Championship_Soccer_Stadium_NW_View_2024-08-03.jpg",
+  "link": "/news/usmnt-camp"
+},
+  {
+    id: 176,
+    title: "USMNT Fall to Germany in Final World Cup Send-Off, But Deliver Plenty of Reasons for Optimism",
+    author: "Mio Ristić",
+    date: "June 6, 2026",
+    excerpt: "The USMNT closed out World Cup preparations with a competitive 2-1 loss to Germany, as Antonee Robinson’s stunning equalizer highlighted an encouraging performance ahead of the tournament.",
+    imageUrl: "https://assets.goal.com/images/v3/bltf6b8614c13a32667/crop/MM5DINZUGA5DENRWGY5G433XMU5DAORSGQ3Q====/GettyImages-2280213323.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+    link: "/news/usmnt-germany-world-cup-send-off"
+  },
+  {
+    id: 174,
+    title: "USMNT Builds World Cup Momentum With Bounce-Back 3-2 Win Over Senegal",
+    author: "Mio Ristić",
+    date: "May 31, 2026",
+    excerpt: "Christian Pulisic ended his scoring drought, Ricardo Pepi impressed, and Folarin Balogun scored the winner as the USMNT came from behind to defeat Senegal 3-2 ahead of the 2026 FIFA World Cup.",
+    imageUrl: "https://assets.goal.com/images/v3/getty-2279124591/crop/MM5DGMZTG45DCOBXG45G433XMU5DAORRGY4Q====/GettyImages-2279124591.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+    link: "/news/usmnt-senegal-world-cup-momentum"
+  },
+   
+];
+  
+
 
 const jerseysBlogPosts: Post[] = [
   {
@@ -236,7 +261,7 @@ const jerseysBlogPosts: Post[] = [
         className="w-full min-h-screen bg-white text-[#020617]"
         style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}
       >
-        <section className="relative h-[560px] md:h-[680px] lg:h-[760px] w-full">
+        <section suppressHydrationWarning className="relative h-[560px] md:h-[680px] lg:h-[760px] w-full">
           <Link href={currentItem.link}>
             <Image
               src={currentItem.image}
@@ -244,12 +269,13 @@ const jerseysBlogPosts: Post[] = [
               fill
               className="object-cover brightness-[0.62]"
               priority
-            />        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent pointer-events-none" />
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent pointer-events-none" />
 
-        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12 lg:p-16 text-white">
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-black leading-tight drop-shadow-2xl max-w-4xl">
-            {currentItem.title}
-          </h1>
+            <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12 lg:p-16 text-white">
+              <h1 className="text-4xl md:text-5xl lg:text-7xl font-black leading-tight drop-shadow-2xl max-w-4xl">
+                {currentItem.title}
+              </h1>
 
           <p className="mt-4 text-xl md:text-2xl lg:text-3xl font-semibold drop-shadow-xl">
             {currentItem.subtitle}
@@ -367,6 +393,53 @@ const jerseysBlogPosts: Post[] = [
         <div className="flex justify-center mt-8">
           <Link href="/news"  className="bg-[#020617] text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#020617] hover:border-[#020617] border-2 transition-all duration-300 ease-in-out transform hover:scale-105">
             Read More
+          </Link>
+        </div>
+      </div>
+    </div>
+
+               
+
+    {/* ==================== USMNT ON WORLD CUP ==================== */}
+    <div className="bg-white py-16">
+      <div className="max-w-5xl mx-auto px-6">
+        <h2 className="text-5xl md:text-6xl font-black tracking-[-2.8px] leading-none text-[#020617] mb-8 text-center">
+          USMNT on World Cup
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {usmntPosts.map((post) => (
+            <Link href={post.link} key={post.id} className="h-full">
+              <div className="group bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition flex flex-col h-full">
+                <div className="relative w-full h-48">
+                  <Image
+                    src={post.imageUrl}
+                    alt={post.title}
+                    fill
+                    style={{ objectFit: 'cover' }}
+                    className="group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-4 flex flex-col flex-grow">
+                  <h3 className="text-xl font-bold mb-1 group-hover:text-blue-600 transition duration-300">
+                    {post.title}
+                  </h3>
+                  <p className="text-sm text-gray-600">{post.author} | {post.date}</p>
+                  <p className="text-gray-700 mt-2 flex-grow line-clamp-3">
+                    {post.excerpt}
+                  </p>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+
+        <div className="flex justify-center mt-8">
+          <Link 
+            href="/teams/usa-national-team" 
+            className="bg-[#020617] text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#020617] hover:border-[#020617] border-2 transition-all duration-300 ease-in-out transform hover:scale-105"
+          >
+            View All USMNT News
           </Link>
         </div>
       </div>

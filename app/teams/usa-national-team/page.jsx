@@ -14,68 +14,128 @@ const USNationalTeamPage = () => {
       image: 'https://media.bleacherreport.com/image/upload/v1642803493/c6tcjkzmqnb1iphp4dik.jpg', 
       slug: 'pulisic' 
     },
-    { 
-      name: 'Giovanni Reyna', 
-      image: 'https://static01.nyt.com/athletic/uploads/wp/2020/05/08030603/Reyna-USA-scaled.jpg', 
-      slug: 'gio' 
-    },
-    { 
-      name: 'Weston McKennie', 
-      image: 'https://cdn1.intermiami.news/uploads/52/2024/07/GettyImages-2160612538-1140x752.jpg', 
-      slug: 'mckennie' 
-    },
-    { 
-      name: 'Tyler Adams', 
-      image: 'https://cdn1.leedsunited.news/uploads/5/2022/11/GettyImages-1244973081-1024x682.jpg', 
-      slug: 'adams' 
-    },
+    // { 
+    //   name: 'Giovanni Reyna', 
+    //   image: 'https://static01.nyt.com/athletic/uploads/wp/2020/05/08030603/Reyna-USA-scaled.jpg', 
+    //   slug: 'gio' 
+    // },
+    // { 
+    //   name: 'Weston McKennie', 
+    //   image: 'https://cdn1.intermiami.news/uploads/52/2024/07/GettyImages-2160612538-1140x752.jpg', 
+    //   slug: 'mckennie' 
+    // },
+    // { 
+    //   name: 'Tyler Adams', 
+    //   image: 'https://cdn1.leedsunited.news/uploads/5/2022/11/GettyImages-1244973081-1024x682.jpg', 
+    //   slug: 'adams' 
+    // },
   ];
 
   const blogPosts = [
     {
-      id: 1,
-      title: "USMNT Continues Strong Form Under Pochettino",
-      author: "Mio Ristić",
-      date: "March 26, 2026",
-      excerpt: "Christian Pulisic and the young stars lead the United States in preparation for the next World Cup cycle.",
-      imageUrl: "https://media.bleacherreport.com/image/upload/v1642803493/c6tcjkzmqnb1iphp4dik.jpg",
-      slug: "usmnt-2026",
-    },
+  "id": 177,
+  "title": "USMNT Establish World Cup Base at Great Park in Orange County Ahead of 2026",
+  "author": "Mio Ristić",
+  "date": "June 9, 2026",
+  "excerpt": "The United States Men's National Team has officially set up its 2026 FIFA World Cup base at Great Park in Orange County, creating a high-performance training hub ahead of the tournament under Mauricio Pochettino.",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Championship_Soccer_Stadium_NW_View_2024-08-03.jpg/1280px-Championship_Soccer_Stadium_NW_View_2024-08-03.jpg",
+  "link": "/news/usmnt-camp"
+},
+  {
+    id: 176,
+    title: "USMNT Fall to Germany in Final World Cup Send-Off, But Deliver Plenty of Reasons for Optimism",
+    author: "Mio Ristić",
+    date: "June 6, 2026",
+    excerpt: "The USMNT closed out World Cup preparations with a competitive 2-1 loss to Germany, as Antonee Robinson’s stunning equalizer highlighted an encouraging performance ahead of the tournament.",
+    imageUrl: "https://assets.goal.com/images/v3/bltf6b8614c13a32667/crop/MM5DINZUGA5DENRWGY5G433XMU5DAORSGQ3Q====/GettyImages-2280213323.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+    link: "/news/usmnt-germany-world-cup-send-off"
+  },
+  {
+    id: 174,
+    title: "USMNT Builds World Cup Momentum With Bounce-Back 3-2 Win Over Senegal",
+    author: "Mio Ristić",
+    date: "May 31, 2026",
+    excerpt: "Christian Pulisic ended his scoring drought, Ricardo Pepi impressed, and Folarin Balogun scored the winner as the USMNT came from behind to defeat Senegal 3-2 ahead of the 2026 FIFA World Cup.",
+    imageUrl: "https://assets.goal.com/images/v3/getty-2279124591/crop/MM5DGMZTG45DCOBXG45G433XMU5DAORRGY4Q====/GettyImages-2279124591.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+    link: "/news/usmnt-senegal-world-cup-momentum"
+  },
   ];
 
   const shopItems = [
-    {
-      "title": "Men's Team USA Antigua Heather Charcoal Fortune Quarter-Zip Pullover Jacket",
-      "price": "$124.99",
-      "imageUrl": "https://images.footballfanatics.com/mens-antigua-heather-charcoal-usmnt-fortune-quarter-zip-pullover-jacket_pi5101000_ff_5101720-621e269a7d520a0d809e_full.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/raL5nj"
-    },
-    {
-      "title": "Men's Team USA Antigua Heather Navy Fortune Quarter-Zip Pullover Jacket",
-      "price": "$124.99",
-      "imageUrl": "https://images.footballfanatics.com/mens-antigua-heather-navy-usmnt-fortune-quarter-zip-pullover-jacket_pi5101000_ff_5101721-e9179ae492604215efc0_full.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/kO9x00"
-    },
-    {
-      "title": "Men's USMNT 5th & Ocean by New Era Gray Adventure Raglan Long Sleeve Hooded T-Shirt",
-      "price": "$59.99",
-      "imageUrl": "https://images.footballfanatics.com/usmnt/mens%C2%A05th-and-ocean-by-new-era-gray-usmnt-adventure-raglan-long-sleeve-hooded-t-shirt_ss5_p-201883832+pv-1+u-hckqnub5i0netlgcbtbu+v-mf408e79kjpzznwfnupp.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/Z6LgQK"
-    },
-    {
-      "title": "Men's USMNT 5th & Ocean by New Era Navy Gameday Long Sleeve T-Shirt",
-      "price": "$44.99",
-      "imageUrl": "https://images.footballfanatics.com/usmnt/mens%C2%A05th-and-ocean-by-new-era-navy-usmnt-gameday-long-sleeve-t-shirt_ss5_p-201883830+pv-1+u-dqa2tgptbjtfooodi3dm+v-mwec5klj3oxiqrkuxocr.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/zxPJzG"
-    }
-  ];
+  {
+    "title": "USMNT Nike 2026 Home Stadium Replica Jersey - White",
+    "price": "$100.00",
+    "imageUrl": "https://fanatics.frgimages.com/usmnt/mens-nike-white-usmnt-2026-home-stadium-replica-jersey_ss5_p-203965490+pv-1+u-it1nev0d5ux18upodbtk+v-bpkaffazj30helruvqt6.png?_hv=2&w=1018",
+    "link": "https://fanatics.93n6tx.net/yZjqo2"
+  },
+  {
+    "title": "USMNT Nike 2026 Away Stadium Replica Jersey - Blue",
+    "price": "$100.00",
+    "imageUrl": "https://fanatics.frgimages.com/usmnt/mens-nike-blue-usmnt-2026-away-stadium-replica-jersey_ss5_p-203514504+pv-1+u-3lnsvwvcz0geopmzy99o+v-txw6kv4siuq2umlcfulb.png?_hv=2&w=1018",
+    "link": "https://fanatics.93n6tx.net/KBO0Ex"
+  },
+  {
+    "title": "USMNT Nike 2026 Home Match Authentic Jersey - White",
+    "price": "$180.00",
+    "imageUrl": "https://fanatics.frgimages.com/usmnt/mens-nike-white-usmnt-2026-home-match-authentic-jersey_ss5_p-203965489+pv-1+u-aliioamyxlhg5iej9hzk+v-kggopjettshp6mprc50s.jpg?_hv=2&w=1018",
+    "link": "https://fanatics.93n6tx.net/jRQea5"
+  },
+  {
+    "title": "USMNT Nike 2026 Away Match Authentic Jersey - Blue",
+    "price": "$180.00",
+     "imageUrl": "https://fanatics.frgimages.com/usmnt/mens-nike-blue-usmnt-2026-away-match-authentic-jersey_ss5_p-203514503+pv-1+u-oxgtp6ywc4k8pq5jcy5i+v-vnawitjx8r8hbllij830.png?_hv=2&w=1018",
+    "link": "https://fanatics.93n6tx.net/aNjODZ"
+  },
+  {
+    "title": "Christian Pulisic USMNT Nike 2026 Home Stadium Replica Jersey - White",
+    "price": "$135.00",
+    "imageUrl": "https://fanatics.frgimages.com/usmnt/mens-nike-christian-pulisic-white-usmnt-2026-home-stadium-replica-jersey_ss5_p-203943392+pv-1+u-eynkcl3yzghk7gpyutek+v-oe4mlrgn8nxeyhfoxxdc.png?_hv=2&w=1018",
+    "link": "https://fanatics.93n6tx.net/X4GmEa"
+  },
+  {
+    "title": "adidas Youth USA 1994 Denim Graphic Fashion Jersey - Blue",
+    "price": "$70.00",
+    "imageUrl": "https://fanatics.frgimages.com/usmnt/youth-adidas-blue-usa-1994-denim-graphic-fashion-jersey_ss5_p-203132704+pv-1+u-rl1sbzpxqeqvfwdt6pi5+v-xgmw4arjmafopvf3i1ig.jpg?_hv=2&w=1018",
+    "link": "https://fanatics.93n6tx.net/0Gy9zV"
+  }
+];
 
-  const squad = {
-    goalkeepers: ["Matt Turner", "Ethan Horvath"],
-    defenders: ["Tyler Adams", "Cameron Carter-Vickers", "Antonee Robinson", "Sergiño Dest"],
-    midfielders: ["Weston McKennie", "Giovanni Reyna", "Yunus Musah", "Brenden Aaronson"],
-    attackers: ["Christian Pulisic", "Folarin Balogun", "Ricardo Pepi"],
-  };
+const squad = {
+  goalkeepers: [
+    "Matt Turner",
+    "Matt Freese",
+    "Chris Brady"
+  ],
+  defenders: [
+    "Sergiño Dest",
+    "Chris Richards",
+    "Antonee Robinson",
+    "Auston Trusty",
+    "Miles Robinson",
+    "Tim Ream",
+    "Alex Freeman",
+    "Max Arfsten",
+    "Mark McKenzie",
+    "Joe Scally"
+  ],
+  midfielders: [
+    "Tyler Adams",
+    "Giovanni Reyna",
+    "Weston McKennie",
+    "Sebastian Berhalter",
+    "Cristian Roldan",
+    "Malik Tillman"
+  ],
+  attackers: [
+    "Ricardo Pepi",
+    "Christian Pulisic",
+    "Brenden Aaronson",
+    "Haji Wright",
+    "Folarin Balogun",
+    "Timothy Weah",
+    "Alejandro Zendejas"
+  ]
+};
 
   return (
     <div className="bg-white min-h-screen text-[#0d1117]">
@@ -342,7 +402,7 @@ const USNationalTeamPage = () => {
 
               <div className="mt-12 text-center">
                 <a 
-                  href="https://mlsstore.com" 
+                  href="https://fanatics.93n6tx.net/YVbRkRgit status" 
                   target="_blank" 
                   className="inline-flex items-center gap-2 text-blue-700 font-bold hover:underline text-lg"
                 >
@@ -388,7 +448,7 @@ const USNationalTeamPage = () => {
               ))}
             </div>
             <div className="mt-6 text-center">
-              <a href="https://mlsstore.com" target="_blank" className="text-blue-700 font-bold hover:underline">
+              <a href="https://fanatics.93n6tx.net/YVbRkR" target="_blank" className="text-blue-700 font-bold hover:underline">
                 View Full Shop →
               </a>
             </div>
