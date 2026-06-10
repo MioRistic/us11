@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 178,
+  "title": "2026 World Cup Power Rankings: USMNT Enter Tournament Ranked No. 17",
+  "author": "Mio Ristić",
+  "date": "June 10, 2026",
+  "excerpt": "The latest 2026 World Cup Power Rankings place the USMNT at No.17 — the highest-ranked host nation in modern history. Full top 10 and analysis of USA, Mexico and Canada.",
+  "imageUrl": "https://i.ibb.co/9m39nVB1/images-voltax-Media-Library-mmsport-si-01ktccszn19tx200d8ag.webp",
+  "slug": "fifa-rang-list"
+},
+    {
   "id": 177,
   "title": "USMNT Establish World Cup Base at Great Park in Orange County Ahead of 2026",
   "author": "Mio Ristić",

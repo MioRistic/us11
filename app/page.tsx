@@ -97,6 +97,15 @@ const blogPosts: Post[] = [
 
 const usmntPosts: Post[] = [
   {
+  "id": 178,
+  "title": "2026 World Cup Power Rankings: USMNT Enter Tournament Ranked No. 17",
+  "author": "Mio Ristić",
+  "date": "June 10, 2026",
+  "excerpt": "The latest 2026 World Cup Power Rankings place the USMNT at No.17 — the highest-ranked host nation in modern history. Full top 10 and analysis of USA, Mexico and Canada.",
+  "imageUrl": "https://i.ibb.co/9m39nVB1/images-voltax-Media-Library-mmsport-si-01ktccszn19tx200d8ag.webp",
+  "link": "news/fifa-rang-list"
+},
+  {
   "id": 177,
   "title": "USMNT Establish World Cup Base at Great Park in Orange County Ahead of 2026",
   "author": "Mio Ristić",
@@ -114,15 +123,7 @@ const usmntPosts: Post[] = [
     imageUrl: "https://assets.goal.com/images/v3/bltf6b8614c13a32667/crop/MM5DINZUGA5DENRWGY5G433XMU5DAORSGQ3Q====/GettyImages-2280213323.jpg?auto=webp&format=pjpg&width=1920&quality=60",
     link: "/news/usmnt-germany-world-cup-send-off"
   },
-  {
-    id: 174,
-    title: "USMNT Builds World Cup Momentum With Bounce-Back 3-2 Win Over Senegal",
-    author: "Mio Ristić",
-    date: "May 31, 2026",
-    excerpt: "Christian Pulisic ended his scoring drought, Ricardo Pepi impressed, and Folarin Balogun scored the winner as the USMNT came from behind to defeat Senegal 3-2 ahead of the 2026 FIFA World Cup.",
-    imageUrl: "https://assets.goal.com/images/v3/getty-2279124591/crop/MM5DGMZTG45DCOBXG45G433XMU5DAORRGY4Q====/GettyImages-2279124591.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-    link: "/news/usmnt-senegal-world-cup-momentum"
-  },
+  
    
 ];
   
