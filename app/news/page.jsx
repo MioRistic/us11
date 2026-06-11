@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 179,
+  "title": "USMNT: Is This the Moment History Finally Arrives?",
+  "author": "Mio Ristić",
+  "date": "June 11, 2026",
+  "excerpt": "With the 2026 World Cup on home soil, the United States Men’s National Team faces its biggest opportunity in decades. A deep dive into the squad, the favorable group stage, and what success would look like under Mauricio Pochettino.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt40b9a6a88c288b52/crop/MM5DEMZTGA5DCMZRGE5G433XMU5DAORSGMZQ====/GettyImages-2268813440.jpg",
+  "slug": "usmnt-is-this-the-moment-history-finally-arrives"
+},
+    {
   "id": 178,
   "title": "2026 World Cup Power Rankings: USMNT Enter Tournament Ranked No. 17",
   "author": "Mio Ristić",

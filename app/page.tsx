@@ -97,6 +97,15 @@ const blogPosts: Post[] = [
 
 const usmntPosts: Post[] = [
   {
+  "id": 179,
+  "title": "USMNT: Is This the Moment History Finally Arrives?",
+  "author": "Mio Ristić",
+  "date": "June 11, 2026",
+  "excerpt": "With the 2026 World Cup on home soil, the United States Men’s National Team faces its biggest opportunity in decades. A deep dive into the squad, the favorable group stage, and what success would look like under Mauricio Pochettino.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt40b9a6a88c288b52/crop/MM5DEMZTGA5DCMZRGE5G433XMU5DAORSGMZQ====/GettyImages-2268813440.jpg",
+  "link": "news/usmnt-is-this-the-moment-history-finally-arrives"
+},
+  {
   "id": 178,
   "title": "2026 World Cup Power Rankings: USMNT Enter Tournament Ranked No. 17",
   "author": "Mio Ristić",
@@ -114,15 +123,7 @@ const usmntPosts: Post[] = [
   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Championship_Soccer_Stadium_NW_View_2024-08-03.jpg/1280px-Championship_Soccer_Stadium_NW_View_2024-08-03.jpg",
   "link": "/news/usmnt-camp"
 },
-  {
-    id: 176,
-    title: "USMNT Fall to Germany in Final World Cup Send-Off, But Deliver Plenty of Reasons for Optimism",
-    author: "Mio Ristić",
-    date: "June 6, 2026",
-    excerpt: "The USMNT closed out World Cup preparations with a competitive 2-1 loss to Germany, as Antonee Robinson’s stunning equalizer highlighted an encouraging performance ahead of the tournament.",
-    imageUrl: "https://assets.goal.com/images/v3/bltf6b8614c13a32667/crop/MM5DINZUGA5DENRWGY5G433XMU5DAORSGQ3Q====/GettyImages-2280213323.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-    link: "/news/usmnt-germany-world-cup-send-off"
-  },
+ 
   
    
 ];
@@ -185,17 +186,12 @@ const jerseysBlogPosts: Post[] = [
  
   
   {
-  "title": "20% Off Select Adidas Styles",
-  "subtitle": "Save Big!",
-  "image": "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/prd-league/exrxndylokrmmc4ulawm.jpg",
-  "link": "https://mlsstore.i8h2.net/7XObdV"
+  "title": "USMNT: Is This the Moment History Finally Arrives?",
+  "subtitle": "The biggest opportunity in decades is here",
+  "image": "https://assets.goal.com/images/v3/blt40b9a6a88c288b52/crop/MM5DEMZTGA5DCMZRGE5G433XMU5DAORSGMZQ====/GettyImages-2268813440.jpg",
+  "link": "/news/usmnt-is-this-the-moment-history-finally-arrives"
 },
-  {
-  "title": "Mexico’s New Adidas Third Kit",
-  
-  "image": "https://preview.thenewsmarket.com/Previews/ADID/StillAssets/1920x1440/723904.jpg",
-  "link": "/blog/mexico-adidas-third-kit-2026"
-},
+ 
 
  
  
