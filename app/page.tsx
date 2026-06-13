@@ -66,6 +66,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
   );
 };
 const blogPosts: Post[] = [
+  {
+  "id": 180,
+  "title": "USMNT Deliver the Statement They’ve Been Waiting For",
+  "author": "Mio Ristić",
+  "date": "June 13, 2026",
+  "excerpt": "The United States produced their most dominant World Cup opening performance in years with a convincing 4-1 win over Paraguay. A statement result that showed the USMNT finally looked like they belonged on the biggest stage.",
+  "imageUrl": "https://i.ibb.co/202b5vLP/usmnt.png",
+  "link": "news/usmnt-deliver-the-statement-theyve-been-waiting-for"
+},
    {
   "id": 176,
   "title": "USMNT Fall to Germany in Final World Cup Send-Off, But Deliver Plenty of Reasons for Optimism",
@@ -84,18 +93,19 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/bltad06137e831f623c/Lionel%20Messi%20Argentina.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "news/mls-44-players-world-cup-2026"
 },
-  {
-  "id": 174,
-  "title": "USMNT Builds World Cup Momentum With Bounce-Back 3-2 Win Over Senegal",
-  "author": "Mio Ristić",
-  "date": "May 31, 2026",
-  "excerpt": "Christian Pulisic ended his scoring drought, Ricardo Pepi impressed, and Folarin Balogun scored the winner as the USMNT came from behind to defeat Senegal 3-2 ahead of the 2026 FIFA World Cup.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2279124591/crop/MM5DGMZTG45DCOBXG45G433XMU5DAORRGY4Q====/GettyImages-2279124591.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "news/usmnt-senegal-world-cup-momentum"
-}
+ 
 ];
 
 const usmntPosts: Post[] = [
+  {
+  "id": 180,
+  "title": "USMNT Deliver the Statement They’ve Been Waiting For",
+  "author": "Mio Ristić",
+  "date": "June 13, 2026",
+  "excerpt": "The United States produced their most dominant World Cup opening performance in years with a convincing 4-1 win over Paraguay. A statement result that showed the USMNT finally looked like they belonged on the biggest stage.",
+  "imageUrl": "https://i.ibb.co/202b5vLP/usmnt.png",
+  "link": "news/usmnt-deliver-the-statement-theyve-been-waiting-for"
+},
   {
   "id": 179,
   "title": "USMNT: Is This the Moment History Finally Arrives?",
@@ -114,15 +124,7 @@ const usmntPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/9m39nVB1/images-voltax-Media-Library-mmsport-si-01ktccszn19tx200d8ag.webp",
   "link": "news/fifa-rang-list"
 },
-  {
-  "id": 177,
-  "title": "USMNT Establish World Cup Base at Great Park in Orange County Ahead of 2026",
-  "author": "Mio Ristić",
-  "date": "June 9, 2026",
-  "excerpt": "The United States Men's National Team has officially set up its 2026 FIFA World Cup base at Great Park in Orange County, creating a high-performance training hub ahead of the tournament under Mauricio Pochettino.",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Championship_Soccer_Stadium_NW_View_2024-08-03.jpg/1280px-Championship_Soccer_Stadium_NW_View_2024-08-03.jpg",
-  "link": "/news/usmnt-camp"
-},
+ 
  
   
    
@@ -184,13 +186,12 @@ const jerseysBlogPosts: Post[] = [
 ];const heroItems = [
 
  
-  
-  {
-  "title": "USMNT: Is This the Moment History Finally Arrives?",
-  "subtitle": "The biggest opportunity in decades is here",
-  "image": "https://assets.goal.com/images/v3/blt40b9a6a88c288b52/crop/MM5DEMZTGA5DCMZRGE5G433XMU5DAORSGMZQ====/GettyImages-2268813440.jpg",
-  "link": "/news/usmnt-is-this-the-moment-history-finally-arrives"
-},
+ {
+  "title": "USMNT World Cup Brief",
+  "subtitle": "Daily updates from the 2026 FIFA World Cup",
+  "image": "https://i.ibb.co/202b5vLP/usmnt.png",
+  "link": "/news/usmnt-world-cup-brief"
+}
  
 
  

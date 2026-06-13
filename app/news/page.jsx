@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 180,
+  "title": "USMNT Deliver the Statement They’ve Been Waiting For",
+  "author": "Mio Ristić",
+  "date": "June 13, 2026",
+  "excerpt": "The United States produced their most dominant World Cup opening performance in years with a convincing 4-1 win over Paraguay. A statement result that showed the USMNT finally looked like they belonged on the biggest stage.",
+  "imageUrl": "https://i.ibb.co/202b5vLP/usmnt.png",
+  "slug": "usmnt-deliver-the-statement-theyve-been-waiting-for"
+},
+    {
   "id": 179,
   "title": "USMNT: Is This the Moment History Finally Arrives?",
   "author": "Mio Ristić",
