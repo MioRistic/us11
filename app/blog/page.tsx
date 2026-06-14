@@ -50,6 +50,15 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 1016,
+  "title": "USMNT vs Australia 2026 Tickets: How to Buy + Match Preview at Lumen Field",
+  "author": "Mio Ristić",
+  "date": "June 14, 2026",
+  "excerpt": "Everything you need to know about the crucial USMNT vs Australia match on June 19, 2026 at Lumen Field in Seattle. Ticket prices, where to buy, stadium info, and full tactical preview.",
+  "imageUrl": "https://i.ibb.co/pBqFXjG0/Untitled-design-7.png",
+  "slug": "usmnt-vs-australia-2026-tickets"
+},
+  {
   "id": 1015,
   "title": "Beckham Opens Up: The Brutal Truth Behind Saving Inter Miami",
   "author": "Mio Ristić",

@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 182,
+  "title": "Australia’s Shock Win Sends a Clear Warning to the USMNT",
+  "author": "Mio Ristić",
+  "date": "June 14, 2026",
+  "excerpt": "Australia’s surprise victory over Turkey has made Group D much more complicated for the United States. What the USMNT must learn before their crucial match on June 19.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQITnpzO9KfF_PkVXTCN0YiJJwGUpuLPV2mV7yMWvSBWSEWgHKz3d-n6sM&s=10",
+  "slug": "australia-shock-win-warning-usmnt"
+},
+    {
   "id": 180,
   "title": "USMNT Deliver the Statement They’ve Been Waiting For",
   "author": "Mio Ristić",

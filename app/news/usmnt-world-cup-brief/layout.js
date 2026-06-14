@@ -13,7 +13,7 @@ export const metadata = {
     siteName: "US11",
     images: [
       {
-        url: "https://i.ibb.co/202b5vLP/usmnt.png",
+        url: "https://i.ibb.co/7N0zcfsC/usmntlogo.png",
         width: 1200,
         height: 675,
         alt: "USMNT World Cup Brief",
@@ -27,8 +27,8 @@ export const metadata = {
     card: "summary_large_image",
     title: "USMNT World Cup Brief",
     description:
-      "Daily updates from the United States at the 2026 FIFA World Cup.",
-    images: ["https://i.ibb.co/202b5vLP/usmnt.png"],
+            "Daily updates from the United States at the 2026 FIFA World Cup.",
+            images: ["https://i.ibb.co/7N0zcfsC/usmntlogo.png"],
     creator: "@mioristic",
   },
 
@@ -53,7 +53,7 @@ export default function USMNTWorldCupBriefLayout({ children }) {
             "name": "USMNT World Cup Brief",
             "description": "Daily updates and key moments from the United States men's national team during the 2026 FIFA World Cup.",
             "url": "https://www.us11fc.com/news/usmnt-world-cup-brief",
-            "image": "https://i.ibb.co/202b5vLP/usmnt.png",
+            "image": "https://i.ibb.co/7N0zcfsC/usmntlogo.png",
             "datePublished": "2026-06-13T08:00:00Z",
             "dateModified": "2026-06-13T12:00:00Z",
             "author": {

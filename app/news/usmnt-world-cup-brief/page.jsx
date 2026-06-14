@@ -6,6 +6,65 @@ import Link from 'next/link';
 import { FaFacebookF, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import { FiCopy } from 'react-icons/fi';
 
+const groupDStandings = [
+  {
+    position: 1,
+    team: "USA",
+    flag: "🇺🇸",
+    played: 1,
+    won: 1,
+    drawn: 0,
+    lost: 0,
+    gf: 4,
+    ga: 1,
+    gd: 3,
+    points: 3,
+    form: ["W"]
+  },
+  {
+    position: 2,
+    team: "Australia",
+    flag: "🇦🇺",
+    played: 1,
+    won: 1,
+    drawn: 0,
+    lost: 0,
+    gf: 2,
+    ga: 0,
+    gd: 2,
+    points: 3,
+    form: ["W"]
+  },
+  {
+    position: 3,
+    team: "Türkiye",
+    flag: "🇹🇷",
+    played: 1,
+    won: 0,
+    drawn: 0,
+    lost: 1,
+    gf: 2,
+    ga: 2,
+    gd: 0,
+    points: 0,
+    form: ["L"]
+  },
+  {
+    position: 4,
+    team: "Paraguay",
+    flag: "🇵🇾",
+    played: 1,
+    won: 0,
+    drawn: 0,
+    lost: 1,
+    gf: 1,
+    ga: 4,
+    gd: -3,
+    points: 0,
+    form: ["L"]
+  }
+];
+
 export default function USMNTWorldCupBrief() {
   const [currentUrl, setCurrentUrl] = useState('');
   const [copied, setCopied] = useState(false);
@@ -69,7 +128,7 @@ export default function USMNTWorldCupBrief() {
       {/* FEATURE IMAGE */}
       <figure className="w-full rounded-3xl overflow-hidden shadow-xl mb-10">
         <Image
-          src="https://i.ibb.co/202b5vLP/usmnt.png"
+          src="https://i.ibb.co/7N0zcfsC/usmntlogo.png"
           alt="USMNT World Cup 2026"
           width={1200}
           height={675}
@@ -77,30 +136,96 @@ export default function USMNTWorldCupBrief() {
           priority
         />
         <figcaption className="text-xs text-gray-400 px-3 py-2">
-          USMNT during the 2026 FIFA World Cup
+          USMNT logo
         </figcaption>
       </figure>
 
-      {/* NEXT MATCH */}
+     {/* NEXT MATCH */}
+<div className="mb-12">
+  <h2 className="text-xl font-semibold mb-4 text-gray-700">Next Match</h2>
+  
+  <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm">
+    <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      
+      {/* Informacije o meču */}
+      <div>
+        <p className="text-sm text-gray-500">Group D • Matchday 2</p>
+        <p className="text-2xl font-semibold mt-1">United States vs Australia</p>
+        <p className="text-gray-600 mt-1">June 19, 2026 • 12:00 PT • Seattle</p>
+      </div>
+
+      {/* Buy Ticket dugme */}
+      <div className="mt-4 md:mt-0">
+        <a
+          href="https://ticketnetwork.lusg.net/X4G9Ay" // ← ovde stavi svoj affiliate link
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center bg-black hover:bg-zinc-800 transition-colors text-white font-semibold px-8 py-3 rounded-xl text-sm"
+        >
+          Buy Tickets
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+      {/* GROUP D STANDINGS */}
       <div className="mb-12">
-        <h2 className="text-xl font-semibold mb-4 text-gray-700">Next Match</h2>
-        
-        <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-sm text-gray-500">Group D • Matchday 2</p>
-              <p className="text-2xl font-semibold mt-1">United States vs Australia</p>
-              <p className="text-gray-600 mt-1">June 19, 2026 • 12:00 PT • Seattle</p>
-            </div>
-            <div className="text-right">
-              {/* <Link 
-                href="/matches/usmnt-australia-2026" 
-                className="inline-block px-5 py-2.5 bg-black text-white rounded-xl text-sm font-medium hover:bg-gray-800 transition"
-              >
-                Match Preview
-              </Link> */}
-            </div>
-          </div>
+        <h2 className="text-xl font-semibold mb-6 text-gray-700">Group D Standings</h2>
+
+        <div className="overflow-x-auto border border-gray-200 rounded-2xl bg-white shadow-sm">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-gray-200 text-gray-500">
+                <th className="py-4 px-5 text-left font-medium">Team</th>
+                <th className="py-4 px-3 text-center font-medium">MP</th>
+                <th className="py-4 px-3 text-center font-medium">W</th>
+                <th className="py-4 px-3 text-center font-medium">D</th>
+                <th className="py-4 px-3 text-center font-medium">L</th>
+                <th className="py-4 px-3 text-center font-medium">GF</th>
+                <th className="py-4 px-3 text-center font-medium">GA</th>
+                <th className="py-4 px-3 text-center font-medium">GD</th>
+                <th className="py-4 px-4 text-center font-medium">Pts</th>
+                <th className="py-4 px-5 text-center font-medium">Last 5</th>
+              </tr>
+            </thead>
+            <tbody>
+              {groupDStandings.map((team, index) => (
+                <tr key={index} className="border-b border-gray-100 last:border-none hover:bg-gray-50">
+                  <td className="py-4 px-5">
+                    <div className="flex items-center gap-3">
+                      <span className="text-xl">{team.flag}</span>
+                      <span className="font-semibold text-gray-900">{team.team}</span>
+                    </div>
+                  </td>
+                  <td className="py-4 px-3 text-center text-gray-700">{team.played}</td>
+                  <td className="py-4 px-3 text-center text-gray-700">{team.won}</td>
+                  <td className="py-4 px-3 text-center text-gray-700">{team.drawn}</td>
+                  <td className="py-4 px-3 text-center text-gray-700">{team.lost}</td>
+                  <td className="py-4 px-3 text-center text-gray-700">{team.gf}</td>
+                  <td className="py-4 px-3 text-center text-gray-700">{team.ga}</td>
+                  <td className="py-4 px-3 text-center font-medium text-gray-700">
+                    {team.gd > 0 ? `+${team.gd}` : team.gd}
+                  </td>
+                  <td className="py-4 px-4 text-center font-bold text-lg text-gray-900">{team.points}</td>
+                  <td className="py-4 px-5">
+                    <div className="flex justify-center gap-1.5">
+                      {team.form.map((result, i) => (
+                        <span 
+                          key={i} 
+                          className={`w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white
+                            ${result === 'W' ? 'bg-green-500' : 'bg-red-500'}`}
+                        >
+                          {result}
+                        </span>
+                      ))}
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       </div>
 

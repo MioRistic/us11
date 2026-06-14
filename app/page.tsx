@@ -66,6 +66,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
   );
 };
 const blogPosts: Post[] = [
+   {
+  "id": 182,
+  "title": "Australia’s Shock Win Sends a Clear Warning to the USMNT",
+  "author": "Mio Ristić",
+  "date": "June 14, 2026",
+  "excerpt": "Australia’s surprise victory over Turkey has made Group D much more complicated for the United States. What the USMNT must learn before their crucial match on June 19.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQITnpzO9KfF_PkVXTCN0YiJJwGUpuLPV2mV7yMWvSBWSEWgHKz3d-n6sM&s=10",
+  "link": "news/australia-shock-win-warning-usmnt"
+},
   {
   "id": 180,
   "title": "USMNT Deliver the Statement They’ve Been Waiting For",
@@ -84,19 +93,19 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/bltf6b8614c13a32667/crop/MM5DINZUGA5DENRWGY5G433XMU5DAORSGQ3Q====/GettyImages-2280213323.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "news/usmnt-germany-world-cup-send-off"
 },
-  {
-  "id": 175,
-  "title": "MLS Sets New Record with 44 Players on 2026 World Cup Rosters",
-  "author": "Mio Ristić",
-  "date": "June 2, 2026",
-  "excerpt": "A record 44 MLS players from 21 clubs and 17 nations have been called up for the 2026 FIFA World Cup, marking the league’s biggest global presence in history.",
-  "imageUrl": "https://assets.goal.com/images/v3/bltad06137e831f623c/Lionel%20Messi%20Argentina.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "news/mls-44-players-world-cup-2026"
-},
  
 ];
 
 const usmntPosts: Post[] = [
+  {
+  "id": 1016,
+  "title": "USMNT vs Australia 2026 Tickets: How to Buy + Match Preview at Lumen Field",
+  "author": "Mio Ristić",
+  "date": "June 14, 2026",
+  "excerpt": "Everything you need to know about the crucial USMNT vs Australia match on June 19, 2026 at Lumen Field in Seattle. Ticket prices, where to buy, stadium info, and full tactical preview.",
+  "imageUrl": "https://i.ibb.co/pBqFXjG0/Untitled-design-7.png",
+  "link": "blog/usmnt-vs-australia-2026-tickets"
+},
   {
   "id": 180,
   "title": "USMNT Deliver the Statement They’ve Been Waiting For",
@@ -114,15 +123,6 @@ const usmntPosts: Post[] = [
   "excerpt": "With the 2026 World Cup on home soil, the United States Men’s National Team faces its biggest opportunity in decades. A deep dive into the squad, the favorable group stage, and what success would look like under Mauricio Pochettino.",
   "imageUrl": "https://assets.goal.com/images/v3/blt40b9a6a88c288b52/crop/MM5DEMZTGA5DCMZRGE5G433XMU5DAORSGMZQ====/GettyImages-2268813440.jpg",
   "link": "news/usmnt-is-this-the-moment-history-finally-arrives"
-},
-  {
-  "id": 178,
-  "title": "2026 World Cup Power Rankings: USMNT Enter Tournament Ranked No. 17",
-  "author": "Mio Ristić",
-  "date": "June 10, 2026",
-  "excerpt": "The latest 2026 World Cup Power Rankings place the USMNT at No.17 — the highest-ranked host nation in modern history. Full top 10 and analysis of USA, Mexico and Canada.",
-  "imageUrl": "https://i.ibb.co/9m39nVB1/images-voltax-Media-Library-mmsport-si-01ktccszn19tx200d8ag.webp",
-  "link": "news/fifa-rang-list"
 },
  
  
@@ -189,7 +189,7 @@ const jerseysBlogPosts: Post[] = [
  {
   "title": "USMNT World Cup Brief",
   "subtitle": "Daily updates from the 2026 FIFA World Cup",
-  "image": "https://i.ibb.co/202b5vLP/usmnt.png",
+  "image": "https://i.ibb.co/7N0zcfsC/usmntlogo.png",
   "link": "/news/usmnt-world-cup-brief"
 }
  
