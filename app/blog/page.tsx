@@ -49,6 +49,15 @@ const items: CategoryItem[] = [
 ];
 
 const blogPosts: BlogPost[] = [
+ {
+  "id": 1025,
+  "title": "Best World Cup 2026 Jerseys for Street Style: The Kits Worth Buying",
+  "author": "Mio Ristić",
+  "date": "June 16, 2026",
+  "excerpt": "Which 2026 World Cup jerseys actually look good on the street? From Germany’s clean 1990-inspired classic to Colombia’s vibrant yellow and New Zealand’s elegant black — here’s our definitive ranking of the most wearable kits for everyday life.",
+  "imageUrl": "https://assets.goal.com/images/v3/blteb5ae4bd28752ec3/adidas%20FIFA%20World%20Cup%202026%20kit%20-%20Germany.png?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "best-world-cup-2026-street-style-jerseys"
+},
   {
   "id": 1016,
   "title": "USMNT vs Australia 2026 Tickets: How to Buy + Match Preview at Lumen Field",

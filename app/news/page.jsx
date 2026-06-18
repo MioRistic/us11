@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 183,
+  "title": "Petar Musa Makes FC Dallas History — First Active Player to Score at a World Cup",
+  "author": "Mio Ristić",
+  "date": "June 18, 2026",
+  "excerpt": "FC Dallas striker Petar Musa became the first active player in club history to score a goal at a FIFA World Cup, netting a stunning volley against England in a 4-2 defeat at Dallas Stadium.",
+  "imageUrl": "https://i.ibb.co/0p4QDPj9/petar-musa.jpg",
+  "slug": "petar-musa-fc-dallas-world-cup-goal"
+},
+    {
   "id": 182,
   "title": "Australia’s Shock Win Sends a Clear Warning to the USMNT",
   "author": "Mio Ristić",

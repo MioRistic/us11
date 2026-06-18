@@ -66,6 +66,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
   );
 };
 const blogPosts: Post[] = [
+  {
+  "id": 183,
+  "title": "Petar Musa Makes FC Dallas History — First Active Player to Score at a World Cup",
+  "author": "Mio Ristić",
+  "date": "June 18, 2026",
+  "excerpt": "FC Dallas striker Petar Musa became the first active player in club history to score a goal at a FIFA World Cup, netting a stunning volley against England in a 4-2 defeat at Dallas Stadium.",
+  "imageUrl": "https://i.ibb.co/0p4QDPj9/petar-musa.jpg",
+  "link": "news/petar-musa-fc-dallas-world-cup-goal"
+},
    {
   "id": 182,
   "title": "Australia’s Shock Win Sends a Clear Warning to the USMNT",
@@ -84,15 +93,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/202b5vLP/usmnt.png",
   "link": "news/usmnt-deliver-the-statement-theyve-been-waiting-for"
 },
-   {
-  "id": 176,
-  "title": "USMNT Fall to Germany in Final World Cup Send-Off, But Deliver Plenty of Reasons for Optimism",
-  "author": "Mio Ristić",
-  "date": "June 6, 2026",
-  "excerpt": "The USMNT closed out World Cup preparations with a competitive 2-1 loss to Germany, as Antonee Robinson’s stunning equalizer highlighted an encouraging performance ahead of the tournament.",
-  "imageUrl": "https://assets.goal.com/images/v3/bltf6b8614c13a32667/crop/MM5DINZUGA5DENRWGY5G433XMU5DAORSGQ3Q====/GettyImages-2280213323.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "news/usmnt-germany-world-cup-send-off"
-},
+ 
  
 ];
 
@@ -133,6 +134,15 @@ const usmntPosts: Post[] = [
 
 
 const jerseysBlogPosts: Post[] = [
+     {
+  "id": 1015,
+  "title": "Best World Cup 2026 Jerseys for Street Style: The Kits Worth Buying",
+  "author": "Mio Ristić",
+  "date": "June 16, 2026",
+  "excerpt": "Which 2026 World Cup jerseys actually look good on the street? From Germany’s clean 1990-inspired classic to Colombia’s vibrant yellow and New Zealand’s elegant black — here’s our definitive ranking of the most wearable kits for everyday life.",
+  "imageUrl": "https://assets.goal.com/images/v3/blteb5ae4bd28752ec3/adidas%20FIFA%20World%20Cup%202026%20kit%20-%20Germany.png?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "blog/best-world-cup-2026-street-style-jerseys"
+},
   {
   "id": 1014,
   "title": "Mexico’s New Adidas Third Kit Is a Bold Tribute to Their World Cup Legacy",
@@ -142,15 +152,7 @@ const jerseysBlogPosts: Post[] = [
   "imageUrl": "https://preview.thenewsmarket.com/Previews/ADID/StillAssets/1920x1440/723904.jpg",
   "link": "blog/mexico-adidas-third-kit-2026"
 },
-  {
-  "id": 1013,
-  "title": "Atlanta United x MARTA: When Football, Public Transit and Street Style Collide",
-  "author": "Mio Ristić",
-  "date": "May 10, 2026",
-  "excerpt": "Atlanta United’s new collaboration with MARTA transforms Atlanta’s public transit culture into one of the most authentic and stylish football collections in recent MLS history.",
-  "imageUrl": "https://www.mlsstore.com/content/ws/all/719d8023-83da-4065-81da-c3a83a94a370__480X639.jpg?w=480",
-  "link": "blog/atlanta-united-marta-collection"
-},
+ 
   {
     id: 1011,
     title: "Mexico or USA: Whose Jersey Sells More in America? The Surprising Truth (and a Major Shift)",
