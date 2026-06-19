@@ -16,7 +16,7 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
     { name: 'Heung-Min Son', image: 'https://assets.goal.com/images/v3/getty-2229316055/crop/MM5DGNBTHA5DCOJTGQ5G433XMU5DAORRG44Q====/GettyImages-2229316055.jpg?auto=webp&format=pjpg&width=1920&quality=60', link: '/teams/lafc/son' },
     { name: 'Thomas Muller', image: 'https://assets.goal.com/images/v3/getty-2230148654/crop/MM5DIMRWGY5DENBQGA5G433XMU5DAORSGIZA====/GettyImages-2230148654.jpg?auto=webp&format=pjpg&width=1920&quality=60', link: '/teams/vancouver-whitecaps/muller' },
     { name: 'Luis Suarez', image: 'https://en.nogomania.com/GetFile.ashx?id=259742', link: '/teams/inter-miami/suarez' },
-    { name: 'Christian Pulisic', image: 'https://media.bleacherreport.com/image/upload/v1642803493/c6tcjkzmqnb1iphp4dik.jpg', link: '/teams/usa-national-team/pulisic' },
+    { name: 'Christian Pulisic', image: 'https://assets.goal.com/images/v3/blt033093b0707b1c17/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2279107115.jpg?auto=webp&format=pjpg&width=1920&quality=60', link: '/teams/usa-national-team/pulisic' },
     { name: 'Marco Reus', image: 'https://assets.spox.com/images/v3/SPOX_6842816/contentpush.tmp?quality=60&auto=webp&format=pjpg&width=1148', link: '/teams/la-galaxy/reus' },
     { name: 'Jordan Morris', image: 'https://assets.goal.com/images/v3/getty-2090010997/crop/MM5DENBQGA5DCNRQGE5G433XMU5DKNRWHIYTAMA=/GettyImages-2090010997.jpg?auto=webp&format=pjpg&width=3840&quality=60', link: '/teams/seattle-sounders/morris' },
   ];  return (
@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 184,
+  "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
+  "author": "Mio Ristić",
+  "date": "June 19, 2026",
+  "excerpt": "After the dominant 4-1 win over Paraguay, the USMNT faces a much tougher test against Australia in Seattle. Preview, stakes, and what a win would mean for Group D.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2269402545/crop/MM5DIOBRGY5DENZQHE5G433XMU5DAORRG44Q====/GettyImages-2269402545.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/usmnt-vs-australia-seattle"
+},
+  {
   "id": 183,
   "title": "Petar Musa Makes FC Dallas History — First Active Player to Score at a World Cup",
   "author": "Mio Ristić",
@@ -84,20 +93,22 @@ const blogPosts: Post[] = [
   "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQITnpzO9KfF_PkVXTCN0YiJJwGUpuLPV2mV7yMWvSBWSEWgHKz3d-n6sM&s=10",
   "link": "news/australia-shock-win-warning-usmnt"
 },
-  {
-  "id": 180,
-  "title": "USMNT Deliver the Statement They’ve Been Waiting For",
-  "author": "Mio Ristić",
-  "date": "June 13, 2026",
-  "excerpt": "The United States produced their most dominant World Cup opening performance in years with a convincing 4-1 win over Paraguay. A statement result that showed the USMNT finally looked like they belonged on the biggest stage.",
-  "imageUrl": "https://i.ibb.co/202b5vLP/usmnt.png",
-  "link": "news/usmnt-deliver-the-statement-theyve-been-waiting-for"
-},
+ 
  
  
 ];
 
 const usmntPosts: Post[] = [
+  {
+  "id": 184,
+  "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
+  "author": "Mio Ristić",
+  "date": "June 19, 2026",
+  "excerpt": "After the dominant 4-1 win over Paraguay, the USMNT faces a much tougher test against Australia in Seattle. Preview, stakes, and what a win would mean for Group D.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2269402545/crop/MM5DIOBRGY5DENZQHE5G433XMU5DAORRG44Q====/GettyImages-2269402545.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/usmnt-vs-australia-seattle"
+}, 
+
   {
   "id": 1016,
   "title": "USMNT vs Australia 2026 Tickets: How to Buy + Match Preview at Lumen Field",
@@ -115,16 +126,7 @@ const usmntPosts: Post[] = [
   "excerpt": "The United States produced their most dominant World Cup opening performance in years with a convincing 4-1 win over Paraguay. A statement result that showed the USMNT finally looked like they belonged on the biggest stage.",
   "imageUrl": "https://i.ibb.co/202b5vLP/usmnt.png",
   "link": "news/usmnt-deliver-the-statement-theyve-been-waiting-for"
-},
-  {
-  "id": 179,
-  "title": "USMNT: Is This the Moment History Finally Arrives?",
-  "author": "Mio Ristić",
-  "date": "June 11, 2026",
-  "excerpt": "With the 2026 World Cup on home soil, the United States Men’s National Team faces its biggest opportunity in decades. A deep dive into the squad, the favorable group stage, and what success would look like under Mauricio Pochettino.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt40b9a6a88c288b52/crop/MM5DEMZTGA5DCMZRGE5G433XMU5DAORSGMZQ====/GettyImages-2268813440.jpg",
-  "link": "news/usmnt-is-this-the-moment-history-finally-arrives"
-},
+}
  
  
   
@@ -193,7 +195,15 @@ const jerseysBlogPosts: Post[] = [
   "subtitle": "Daily updates from the 2026 FIFA World Cup",
   "image": "https://i.ibb.co/7N0zcfsC/usmntlogo.png",
   "link": "/news/usmnt-world-cup-brief"
+}, 
+{
+  "title": "Shop world cup 2026 jerseys",
+  "subtitle": "",
+  "image": "https://assets.goal.com/images/v3/bltc50f036015249aeb/adidas%20WC%20kits%20.jpg?format=pjpg&quality=60&auto=webp&width=1200",
+  "link": "https://fanatics.93n6tx.net/L0RXVO",
+   "target": "_blank"
 }
+ 
  
 
  

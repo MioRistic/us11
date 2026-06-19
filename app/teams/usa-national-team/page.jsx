@@ -11,7 +11,7 @@ const USNationalTeamPage = () => {
   const trendingPlayers = [
     { 
       name: 'Christian Pulisic', 
-      image: 'https://media.bleacherreport.com/image/upload/v1642803493/c6tcjkzmqnb1iphp4dik.jpg', 
+      image: 'https://assets.goal.com/images/v3/blt033093b0707b1c17/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2279107115.jpg?auto=webp&format=pjpg&width=1920&quality=60', 
       slug: 'pulisic' 
     },
     // { 
@@ -31,16 +31,34 @@ const USNationalTeamPage = () => {
     // },
   ];
 
-  const blogPosts = [
+  const newsPosts = [
     {
-  "id": 177,
-  "title": "USMNT Establish World Cup Base at Great Park in Orange County Ahead of 2026",
+  "id": 184,
+  "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
   "author": "Mio Ristić",
-  "date": "June 9, 2026",
-  "excerpt": "The United States Men's National Team has officially set up its 2026 FIFA World Cup base at Great Park in Orange County, creating a high-performance training hub ahead of the tournament under Mauricio Pochettino.",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Championship_Soccer_Stadium_NW_View_2024-08-03.jpg/1280px-Championship_Soccer_Stadium_NW_View_2024-08-03.jpg",
-  "link": "/news/usmnt-camp"
+  "date": "June 19, 2026",
+  "excerpt": "After the dominant 4-1 win over Paraguay, the USMNT faces a much tougher test against Australia in Seattle. Preview, stakes, and what a win would mean for Group D.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2269402545/crop/MM5DIOBRGY5DENZQHE5G433XMU5DAORRG44Q====/GettyImages-2269402545.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "usmnt-vs-australia-seattle"
 },
+    {
+      id: 180,
+      title: "USMNT Deliver the Statement They've Been Waiting For",
+      author: "Mio Ristić",
+      date: "June 13, 2026",
+      excerpt: "The United States produced their most dominant World Cup opening performance in years with a convincing 4-1 win over Paraguay. A statement result that showed the USMNT finally looked like they belonged on the biggest stage.",
+      imageUrl: "https://i.ibb.co/202b5vLP/usmnt.png",
+      slug: "usmnt-deliver-the-statement-theyve-been-waiting-for"
+    },
+    {
+      id: 177,
+      title: "USMNT Establish World Cup Base at Great Park in Orange County Ahead of 2026",
+      author: "Mio Ristić",
+      date: "June 9, 2026",
+      excerpt: "The United States Men's National Team has officially set up its 2026 FIFA World Cup base at Great Park in Orange County, creating a high-performance training hub ahead of the tournament under Mauricio Pochettino.",
+      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Championship_Soccer_Stadium_NW_View_2024-08-03.jpg/1280px-Championship_Soccer_Stadium_NW_View_2024-08-03.jpg",
+      slug: "usmnt-camp"
+    },
   {
     id: 176,
     title: "USMNT Fall to Germany in Final World Cup Send-Off, But Deliver Plenty of Reasons for Optimism",
@@ -48,7 +66,7 @@ const USNationalTeamPage = () => {
     date: "June 6, 2026",
     excerpt: "The USMNT closed out World Cup preparations with a competitive 2-1 loss to Germany, as Antonee Robinson’s stunning equalizer highlighted an encouraging performance ahead of the tournament.",
     imageUrl: "https://assets.goal.com/images/v3/bltf6b8614c13a32667/crop/MM5DINZUGA5DENRWGY5G433XMU5DAORSGQ3Q====/GettyImages-2280213323.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-    link: "/news/usmnt-germany-world-cup-send-off"
+    slug: "usmnt-germany-world-cup-send-off"
   },
   {
     id: 174,
@@ -57,9 +75,50 @@ const USNationalTeamPage = () => {
     date: "May 31, 2026",
     excerpt: "Christian Pulisic ended his scoring drought, Ricardo Pepi impressed, and Folarin Balogun scored the winner as the USMNT came from behind to defeat Senegal 3-2 ahead of the 2026 FIFA World Cup.",
     imageUrl: "https://assets.goal.com/images/v3/getty-2279124591/crop/MM5DGMZTG45DCOBXG45G433XMU5DAORRGY4Q====/GettyImages-2279124591.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-    link: "/news/usmnt-senegal-world-cup-momentum"
+    slug: "usmnt-senegal-world-cup-momentum"
   },
   ];
+
+  const latestNews = newsPosts.slice(0, 3);
+
+  const blogPosts = [
+  {
+    "id": 1016,
+    "title": "USMNT vs Australia 2026 Tickets: How to Buy + Match Preview at Lumen Field",
+    "author": "Mio Ristić",
+    "date": "June 14, 2026",
+    "excerpt": "Everything you need to know about the crucial USMNT vs Australia match on June 19, 2026 at Lumen Field in Seattle. Ticket prices, where to buy, stadium info, and full tactical preview.",
+    "imageUrl": "https://i.ibb.co/pBqFXjG0/Untitled-design-7.png",
+    "slug": "usmnt-vs-australia-2026-tickets"
+  },
+  {
+    "id": 1011,
+    "title": "Mexico or USA: Whose Jersey Sells More in America? The Surprising Truth (and a Major Shift)",
+    "author": "Mio Ristić",
+    "date": "May 5, 2026",
+    "excerpt": "Fanatics claims the USMNT 2026 kit is currently outselling Mexico in the United States. We analyze the data, the Messi effect, and what it really means ahead of the World Cup.",
+    "imageUrl": "https://i.ibb.co/Gfk3qjXJ/Untitled-design-4.png",
+    "slug": "mexico-usa-jersey-sales-2026"
+  },
+  {
+    "id": 1007,
+    "title": "USMNT Nike 2026 Kits Unveiled: Stripes Home & Stars Away for World Cup",
+    "author": "Mio Ristić",
+    "date": "March 16, 2026",
+    "excerpt": "Nike and U.S. Soccer reveal bold 2026 World Cup kits: wavy red-white Stripes home jersey ($100 replica) and navy Stars away with metallic jacquard. Full breakdown, player input, and where to shop authentic & replica jerseys now.",
+    "imageUrl": "https://assets.goal.com/images/v3/blt532e5fdd75fc8dc0/crop/MM5DIMBZGM5DEMZQGI5G433XMU5DAORYHA======/USSF_MNT_Kit_Launch_Vogue_mntjerseyshoot_11-09-25-124.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+    "slug": "usmnt-nike-2026-kits-unveiled"
+  },
+  {
+    "id": 1006,
+    "title": "Adidas USA 1994 Denim Graphic Collection: Iconic USMNT Throwback for World Cup 2026",
+    "author": "Mio Ristić",
+    "date": "March 16, 2026",
+    "excerpt": "Adidas revives the legendary 1994 USMNT away jersey with its iconic denim wash and scattered stars – now available for $89.99 (jersey), $119.99 (track jacket), $59.99 (shorts), and more. Pure 1994 World Cup nostalgia meets 2026 World Cup hype – full collection in the shop!",
+    "imageUrl": "https://assets.goal.com/images/v3/bltf53f7a9a05821020/crop/MM5DIMEBYGU5DEMRZHA5G433XMU5DAORYHE2Q====/U.S%20Denim%20Kit%20Collection%2024.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+    "slug": "adidas-usa-1994-denim-collection"
+  }
+];
 
   const shopItems = [
   {
@@ -253,17 +312,25 @@ const squad = {
               </div>
 
               <div>
-                <h2 className="text-3xl font-black mb-6 text-[#020617]">Latest News</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                  {blogPosts.map((post) => (
-                    <Link key={post.id} href={`/blog/${post.slug}`} className="group">
-                      <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
-                        <div className="relative h-56">
+                <div className="flex items-center justify-between mb-8">
+                  <h2 className="text-3xl font-black text-[#020617]">Latest News</h2>
+                  <Link href="#" onClick={(e) => { e.preventDefault(); setActiveTab('news'); }} className="text-blue-700 font-bold hover:underline text-base">
+                    View All News →
+                  </Link>
+                </div>
+                <div className="grid grid-cols-1 gap-6 md:gap-8">
+                  {latestNews.map((post, index) => (
+                    <Link key={post.id} href={`/news/${post.slug}`} className="group">
+                      <div className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all flex flex-col md:flex-row">
+                        <div className="relative w-full md:w-64 h-56 md:h-auto flex-shrink-0">
                           <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
                         </div>
-                        <div className="p-6">
-                          <h3 className="text-xl font-bold mb-3 group-hover:text-blue-700 line-clamp-2">{post.title}</h3>
-                          <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
+                        <div className="p-6 flex flex-col justify-center flex-1">
+                          <div className="inline-flex items-center mb-3">
+                            <span className="text-xs font-bold text-white bg-blue-700 px-3 py-1 rounded-full">Featured Article</span>
+                          </div>
+                          <h3 className="text-2xl font-bold mb-3 group-hover:text-blue-700 line-clamp-2">{post.title}</h3>
+                          <p className="text-sm text-gray-500 mb-4">{post.author} • {post.date}</p>
                           <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
                         </div>
                       </div>
@@ -278,8 +345,8 @@ const squad = {
             <div>
               <h2 className="text-3xl font-black mb-6 text-[#020617]">All News</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                {blogPosts.map((post) => (
-                  <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                {newsPosts.map((post) => (
+                  <Link key={post.id} href={`/news/${post.slug}`} className="group">
                     <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
                       <div className="relative h-56">
                         <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
@@ -299,22 +366,28 @@ const squad = {
           {activeTab === 'blog' && (
             <div>
               <h2 className="text-3xl font-black mb-6 text-[#020617]">Blog</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                {blogPosts.map((post) => (
-                  <Link key={post.id} href={`/blog/${post.slug}`} className="group">
-                    <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
-                      <div className="relative h-56">
-                        <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+              {blogPosts.length > 0 ? (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                  {blogPosts.map((post) => (
+                    <Link key={post.id} href={`/blog/${post.slug}`} className="group">
+                      <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
+                        <div className="relative h-56">
+                          <Image src={post.imageUrl} alt={post.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
+                        </div>
+                        <div className="p-6">
+                          <h3 className="text-xl font-bold mb-3 group-hover:text-blue-700 line-clamp-2">{post.title}</h3>
+                          <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
+                          <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
+                        </div>
                       </div>
-                      <div className="p-6">
-                        <h3 className="text-xl font-bold mb-3 group-hover:text-blue-700 line-clamp-2">{post.title}</h3>
-                        <p className="text-sm text-gray-500 mb-3">{post.author} • {post.date}</p>
-                        <p className="text-gray-700 line-clamp-3">{post.excerpt}</p>
-                      </div>
-                    </div>
-                  </Link>
-                ))}
-              </div>
+                    </Link>
+                  ))}
+                </div>
+              ) : (
+                <div className="bg-gray-50 p-12 rounded-2xl text-center">
+                  <p className="text-lg text-gray-600">Coming soon! Blog articles will be available here.</p>
+                </div>
+              )}
             </div>
           )}
 
@@ -423,7 +496,7 @@ const squad = {
                 className="flex items-center gap-3 bg-white/20 hover:bg-white/30 px-6 py-4 rounded-xl font-bold transition text-center justify-center">
                 <FaTicketAlt /> Buy Tickets
               </a>
-              <a href="https://www.booking.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://expedia.com/affiliate/xZ9FiCM" target="_blank" rel="noopener noreferrer" 
                 className="flex items-center gap-3 bg-white/20 hover:bg-white/30 px-6 py-4 rounded-xl font-bold transition text-center justify-center">
                 <FaBed /> Hotels Near Match Venues
               </a>

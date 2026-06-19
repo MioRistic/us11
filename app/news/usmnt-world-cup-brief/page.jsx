@@ -140,6 +140,36 @@ export default function USMNTWorldCupBrief() {
         </figcaption>
       </figure>
 
+      {/* HOTEL BOOKING BANNER - SEATTLE */}
+<div className="my-12 bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all">
+  <div className="p-8 md:p-10 flex flex-col md:flex-row items-center gap-8">
+    <div className="flex-1">
+     <div>
+        
+        <p className="text-gray-600 mt-1">June 19, 2026 • 12:00 PT • Seattle</p>
+      </div>
+      <h3 className="text-3xl font-bold text-[#020617] leading-tight mb-3">
+        Book Your Hotel Near Lumen Field
+      </h3>
+      <p className="text-gray-600 text-lg">
+        Stay close to the action in Seattle. From luxury hotels with stadium views 
+        to affordable options just steps away from Lumen Field.
+      </p>
+    </div>
+
+    <a 
+      href="https://expedia.com/affiliate/xZ9FiCM" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="bg-[#020617] hover:bg-black text-white font-semibold px-10 py-4 rounded-2xl transition whitespace-nowrap flex-shrink-0 text-center"
+    >
+      Find Hotels at Expedia
+    </a>
+  </div>
+
+   
+</div>
+
      {/* NEXT MATCH */}
 <div className="mb-12">
   <h2 className="text-xl font-semibold mb-4 text-gray-700">Next Match</h2>

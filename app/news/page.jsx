@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 184,
+  "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
+  "author": "Mio Ristić",
+  "date": "June 19, 2026",
+  "excerpt": "After the dominant 4-1 win over Paraguay, the USMNT faces a much tougher test against Australia in Seattle. Preview, stakes, and what a win would mean for Group D.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2269402545/crop/MM5DIOBRGY5DENZQHE5G433XMU5DAORRG44Q====/GettyImages-2269402545.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "usmnt-vs-australia-seattle"
+},
+    {
   "id": 183,
   "title": "Petar Musa Makes FC Dallas History — First Active Player to Score at a World Cup",
   "author": "Mio Ristić",

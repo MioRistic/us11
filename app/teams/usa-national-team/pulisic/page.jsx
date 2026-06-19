@@ -1,104 +1,147 @@
+'use client';
+
 import React from 'react';
+import Image from 'next/image';
 
 const ChristianPulisic = () => {
   const items = [
     {
-      "title": "Women's USMNT Christian Pulisic White Name & Number T-Shirt",
-      "price": "$29.99",
-      "originalPrice": "$29.99",
-      "category": "Women's T-Shirts",
-      "availability": "available",
-      "imageUrl": "https://images.footballfanatics.com/usmnt/womens-christian-pulisic-white-usmnt-name-and-number-t-shirt_ss5_p-201543148+pv-1+u-nfvtvoxvxdqsk4akvv5y+v-lzot1dtksbggslsdtgfn.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/APn4Ex"
+      title: "Christian Pulisic USMNT Nike 2026 Home Stadium Replica Jersey - White",
+      price: "$135.00",
+      imageUrl: "https://fanatics.frgimages.com/usmnt/mens-nike-christian-pulisic-white-usmnt-2026-home-stadium-replica-jersey_ss5_p-203943392+pv-1+u-eynkcl3yzghk7gpyutek+v-oe4mlrgn8nxeyhfoxxdc.png?_hv=2&w=1018",
+      link: "https://fanatics.93n6tx.net/5k1M62"
     },
     {
-      "title": "Women's USMNT Christian Pulisic Navy Name & Number T-Shirt",
-      "price": "$29.99",
-      "originalPrice": "$29.99",
-      "category": "Women's T-Shirts",
-      "availability": "available",
-      "imageUrl": "https://images.footballfanatics.com/usmnt/womens-christian-pulisic-navy-usmnt-name-and-number-t-shirt_ss5_p-201543150+pv-1+u-wtavcfhx5cn37r4w4jye+v-ye11pt5bitpra6olijiq.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/gOq3GO"
+      title: "Christian Pulisic USMNT Nike 2026 Home Match Authentic Jersey - White",
+      price: "$215.00",
+      imageUrl: "https://fanatics.frgimages.com/usmnt/mens-nike-christian-pulisic-white-usmnt-2026-home-match-authentic-jersey_ss5_p-203943391+pv-1+u-rtwb091xrfmsurttdlic+v-sglvqpgdt3vg75g6qmb4.png?_hv=2&w=1018",
+      link: "https://fanatics.93n6tx.net/1GZDq9"
     },
     {
-      "title": "USMNT Christian Pulisic Player Scarf",
-      "price": "$34.99",
-      "originalPrice": "$34.99",
-      "category": "Scarves",
-      "availability": "available",
-      "imageUrl": "https://images.footballfanatics.com/christian-pulisic-usmnt-player-scarf_ss5_p-201543035+u-0najsbraqlmslfdsceym+v-s9aqtbctdrlyqrnlihyn.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/BnO4Px"
+      title: "Christian Pulisic USMNT Nike 2026 Away Stadium Replica Jersey - Blue",
+      price: "$34.99",
+      imageUrl: "https://fanatics.frgimages.com/usmnt/mens-nike-christian-pulisic-blue-usmnt-2026-away-stadium-replica-jersey_ss5_p-203943368+pv-1+u-4kwjxphvzhkxgrstlepr+v-vfmduagkmtljge9q3nyd.png?_hv=2&w=1018",
+      link: "https://fanatics.93n6tx.net/gRaAM0"
     }
-  ]
-  ;
+  ];
 
   return (
-    <div className='w-full min-h-screen bg-gray-100 pt-[1px]'>
-      <div className='max-w-4xl mx-auto py-8 px-4 md:px-0'>
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>Christian Pulisic</h1>
+    <div className="w-full bg-white text-[#020617] min-h-screen font-sans">
+      <div className="max-w-5xl mx-auto px-4 md:px-6 py-12">
 
-        {/* Player Image and Bio Section */}
-        <div className='mb-6'>
-          <img 
-            src='https://media.bleacherreport.com/image/upload/v1642803493/c6tcjkzmqnb1iphp4dik.jpg' 
-            alt='Christian Pulisic' 
-            className='w-full h-[400px] object-cover rounded-lg shadow-md' 
+        {/* Header */}
+        <div className="mb-10">
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
+            Christian Pulisic
+          </h1>
+          <p className="text-xl text-gray-600 mt-2">AC Milan • USMNT</p>
+        </div>
+
+        {/* Hero Image */}
+        <div className="relative rounded-3xl overflow-hidden mb-12 shadow-xl">
+          <Image
+            src="https://assets.goal.com/images/v3/blt033093b0707b1c17/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2279107115.jpg?auto=webp&format=pjpg&width=1920&quality=60"
+            alt="Christian Pulisic"
+            width={1200}
+            height={675}
+            className="w-full object-cover"
+            priority
           />
-        </div>
-        <div className="mb-10 text-center text-sm text-gray-500">
-          <p>Creator: John Dorton/ISI Photos 
-| 
-Credit: Getty Images
-Copyright: 2021 John Dorton/ISI Photos</p>
+          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent h-1/2" />
+          <div className="absolute bottom-8 left-8 text-white">
+            <p className="text-sm uppercase tracking-widest">Getty</p>
+          </div>
         </div>
 
-        <div className='text-[#020617] mb-8'>
-          <h2 className='text-2xl font-semibold mb-2'>Player Information</h2>
-          <ul className='list-disc list-inside'>
-            <li><strong>Date of Birth:</strong> September 18, 1998 (Hershey, Pennsylvania, United States)</li>
-            <li><strong>Position:</strong> Winger, Attacking Midfielder</li>
-            <li><strong>Height:</strong> 5 ft 10 in (1.78 m)</li>
-            <li><strong>Current Team:</strong> AC Milan</li>
-            <li><strong>Senior Career:</strong> 
-              <ul className='list-disc list-inside ml-5'>
-                <li>Borussia Dortmund (2016–2019): 81 appearances, 10 goals</li>
-                <li>Chelsea (2019–2023): 98 appearances, 20 goals</li>
-                <li>Borussia Dortmund (loan, 2019): 9 appearances, 3 goals</li>
-                <li>AC Milan (2023–present): 52 appearances, 17 goals</li>
-              </ul>
-            </li>
-          </ul>
+        {/* Player Info */}
+        <div className="grid md:grid-cols-2 gap-12 mb-16">
+          <div>
+            <h2 className="text-3xl font-bold mb-6">Player Information</h2>
+            <ul className="space-y-4 text-gray-700">
+              <li><strong>Date of Birth:</strong> September 18, 1998 (Hershey, Pennsylvania)</li>
+              <li><strong>Position:</strong> Winger / Attacking Midfielder</li>
+              <li><strong>Height:</strong> 5 ft 10 in (1.78 m)</li>
+              <li><strong>Current Team:</strong> AC Milan</li>
+            </ul>
+          </div>
+
+          <div>
+            <h2 className="text-3xl font-bold mb-6">Career History</h2>
+            <ul className="space-y-3 text-gray-700">
+              <li><strong>Borussia Dortmund (2016–2019):</strong> 81 appearances, 10 goals</li>
+              <li><strong>Chelsea (2019–2023):</strong> 98 appearances, 20 goals</li>
+              <li><strong>Borussia Dortmund (loan 2019):</strong> 9 appearances, 3 goals</li>
+              <li><strong>AC Milan (2023–present):</strong> 52 appearances, 17 goals</li>
+            </ul>
+          </div>
         </div>
 
-        {/* About Section */}
-        <div className='text-[#020617] mb-8'>
-          <h2 className='text-2xl font-semibold mb-2'>About Christian Pulisic</h2>
-          <p>
-            Christian Pulisic is one of the brightest talents in American soccer, known for his blistering pace, creativity, and ability to play in multiple attacking roles. He began his European career at Borussia Dortmund, before moving to Chelsea where he gained recognition in the Premier League. Pulisic's skill and flair on the ball have made him a regular for both his club and the United States national team, where he has scored 32 goals in 76 appearances as of 2023.
+        {/* About */}
+        <div className="mb-16">
+          <h2 className="text-3xl font-bold mb-6">About Christian Pulisic</h2>
+          <p className="text-lg text-gray-700 leading-relaxed">
+            Christian Pulisic is one of the brightest talents in American soccer history. 
+            Known for his incredible pace, technical ability, and leadership on the field, 
+            he has become the face of the United States national team and a key player for AC Milan.
           </p>
         </div>
 
-        {/* Shop Section */}
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>Shop Christian Pulisic Merchandise</h1>
-        <div className='grid gap-6 grid-cols-1 md:grid-cols-3'>
-          {items.map(item => (
-            <div key={item.id} className='bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg'>
-              <img className='w-full h-64 object-cover' src={item.imageUrl} alt={item.title} />
-              <div className='p-4'>
-                <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
-                <p className='text-gray-600'>{item.price}</p>
-                <a
-  href={item.link}
-  target="_blank"
-  rel="noopener noreferrer"
-  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
->
-  Buy Now
-</a>
-              </div>
-            </div>
-          ))}
-        </div>
+        {/* SHOP - 4 PROIZVODA */}
+                <div className="mb-8">
+                  <h2 className="text-3xl font-bold mb-6">Shop the Collection</h2>
+                  <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-12">
+                    {items.map((product, index) => (
+                      <div key={index} className="bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition">
+                        <div className="relative h-64">
+                          <Image
+                            src={product.imageUrl}
+                            alt={product.title}
+                            fill
+                            className="object-cover"
+                          />
+                        </div>
+                        <div className="p-4">
+                          <h4 className="font-semibold text-lg text-[#020617]">{product.title}</h4>
+                          <p className="text-xl font-bold text-black-600 mt-2">{product.price}</p>
+                          <a
+                            href={product.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition w-full text-center"
+                          >
+                            Buy Now
+                          </a>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+        {/* FANATICS SHOP BANNER */}
+<div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col md:flex-row items-center gap-6 my-12 shadow-sm">
+  <div className="flex-1">
+    <div className="flex items-center gap-3 mb-3">
+      <img 
+        src="https://www.fanatics.com/content/assets/__0-1381085203729.737.svg" 
+        alt="Fanatics" 
+        className="h-8" 
+      />
+    </div>
+    <h3 className="text-2xl font-bold text-[#020617] mb-2">
+      Shop Pulisic kits at Fanatics
+    </h3>
+   
+  </div>
+
+  <a
+    href="https://fanatics.93n6tx.net/VO2boJ" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition text-lg whitespace-nowrap"
+  >
+    Buy now
+  </a>
+</div>
+
       </div>
     </div>
   );
