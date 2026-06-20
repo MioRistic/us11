@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 186,
+  "title": "How Miguel Almirón’s Red Card Backfired — Paraguay Stun Turkey and Clear Path for USMNT",
+  "author": "Mio Ristić",
+  "date": "June 20, 2026",
+  "excerpt": "Miguel Almirón was sent off in controversial fashion, but Paraguay produced a heroic 1-0 win over Turkey. Big result opens clear path for USMNT in Group D.",
+  "imageUrl": "https://i.ibb.co/qqjbKM9/gettyimages-2282439188-612x612-1.jpg",
+  "link": "news/paraguay-stun-turkey-almiron-red-card"
+},
+  {
   "id": 185,
   "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
   "author": "Mio Ristić",
@@ -85,16 +94,6 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2269402545/crop/MM5DIOBRGY5DENZQHE5G433XMU5DAORRG44Q====/GettyImages-2269402545.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/usmnt-vs-australia-seattle"
 },
-  {
-  "id": 183,
-  "title": "Petar Musa Makes FC Dallas History — First Active Player to Score at a World Cup",
-  "author": "Mio Ristić",
-  "date": "June 18, 2026",
-  "excerpt": "FC Dallas striker Petar Musa became the first active player in club history to score a goal at a FIFA World Cup, netting a stunning volley against England in a 4-2 defeat at Dallas Stadium.",
-  "imageUrl": "https://i.ibb.co/0p4QDPj9/petar-musa.jpg",
-  "link": "news/petar-musa-fc-dallas-world-cup-goal"
-},
- 
  
  
 ];

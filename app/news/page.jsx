@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 186,
+  "title": "How Miguel Almirón’s Red Card Backfired — Paraguay Stun Turkey and Clear Path for USMNT",
+  "author": "Mio Ristić",
+  "date": "June 20, 2026",
+  "excerpt": "Miguel Almirón was sent off in controversial fashion, but Paraguay produced a heroic 1-0 win over Turkey. Big result opens clear path for USMNT in Group D.",
+  "imageUrl": "https://i.ibb.co/qqjbKM9/gettyimages-2282439188-612x612-1.jpg",
+  "slug": "paraguay-stun-turkey-almiron-red-card"
+},
+    {
   "id": 185,
   "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
   "author": "Mio Ristić",
