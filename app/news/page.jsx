@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 185,
+  "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
+  "author": "Mio Ristić",
+  "date": "June 19, 2026",
+  "excerpt": "After the dominant 4-1 win over Paraguay, the USMNT faces a much tougher test against Australia in Seattle. Full preview and analysis from Lumen Field.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2282396883/crop/MM5DINRXG45DENRTGE5G433XMU5DAORSGQ2A====/GettyImages-2282396883.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "usmnt-statement-win-australia-seattle"
+},
+    {
   "id": 184,
   "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
   "author": "Mio Ristić",

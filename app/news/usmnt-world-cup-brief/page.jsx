@@ -140,6 +140,159 @@ export default function USMNTWorldCupBrief() {
         </figcaption>
       </figure>
 
+            {/* GROUP D STANDINGS - PRVO */}
+      <div className="mb-12">
+        <h2 className="text-xl font-semibold mb-6 text-gray-700">Group D Standings</h2>
+
+        <div className="overflow-x-auto border border-gray-200 rounded-2xl bg-white shadow-sm">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-gray-200 text-gray-500">
+                <th className="py-4 px-5 text-left font-medium">Team</th>
+                <th className="py-4 px-3 text-center font-medium">MP</th>
+                <th className="py-4 px-3 text-center font-medium">W</th>
+                <th className="py-4 px-3 text-center font-medium">D</th>
+                <th className="py-4 px-3 text-center font-medium">L</th>
+                <th className="py-4 px-3 text-center font-medium">GF</th>
+                <th className="py-4 px-3 text-center font-medium">GA</th>
+                <th className="py-4 px-3 text-center font-medium">GD</th>
+                <th className="py-4 px-4 text-center font-medium">Pts</th>
+                <th className="py-4 px-5 text-center font-medium">Last 5</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-gray-100 hover:bg-gray-50">
+                <td className="py-4 px-5">
+                  <div className="flex items-center gap-3">
+                    <span className="text-xl">🇺🇸</span>
+                    <span className="font-semibold text-gray-900">USA</span>
+                  </div>
+                </td>
+                <td className="py-4 px-3 text-center text-gray-700">2</td>
+                <td className="py-4 px-3 text-center text-gray-700">2</td>
+                <td className="py-4 px-3 text-center text-gray-700">0</td>
+                <td className="py-4 px-3 text-center text-gray-700">0</td>
+                <td className="py-4 px-3 text-center text-gray-700">6</td>
+                <td className="py-4 px-3 text-center text-gray-700">1</td>
+                <td className="py-4 px-3 text-center font-medium text-emerald-600">+5</td>
+                <td className="py-4 px-4 text-center font-bold text-lg text-gray-900">6</td>
+                <td className="py-4 px-5">
+                  <div className="flex justify-center gap-1.5">
+                    <span className="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white bg-green-500">W</span>
+                    <span className="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white bg-green-500">W</span>
+                  </div>
+                </td>
+              </tr>
+
+              <tr className="border-b border-gray-100 hover:bg-gray-50">
+                <td className="py-4 px-5">
+                  <div className="flex items-center gap-3">
+                    <span className="text-xl">🇦🇺</span>
+                    <span className="font-semibold text-gray-900">Australia</span>
+                  </div>
+                </td>
+                <td className="py-4 px-3 text-center text-gray-700">2</td>
+                <td className="py-4 px-3 text-center text-gray-700">1</td>
+                <td className="py-4 px-3 text-center text-gray-700">0</td>
+                <td className="py-4 px-3 text-center text-gray-700">1</td>
+                <td className="py-4 px-3 text-center text-gray-700">2</td>
+                <td className="py-4 px-3 text-center text-gray-700">2</td>
+                <td className="py-4 px-3 text-center font-medium text-gray-700">0</td>
+                <td className="py-4 px-4 text-center font-bold text-lg text-gray-900">3</td>
+                <td className="py-4 px-5">
+                  <div className="flex justify-center gap-1.5">
+                    <span className="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white bg-red-500">L</span>
+                    <span className="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white bg-green-500">W</span>
+                  </div>
+                </td>
+              </tr>
+
+              <tr className="border-b border-gray-100 hover:bg-gray-50">
+                <td className="py-4 px-5">
+                  <div className="flex items-center gap-3">
+                    <span className="text-xl">🇵🇾</span>
+                    <span className="font-semibold text-gray-900">Paraguay</span>
+                  </div>
+                </td>
+                <td className="py-4 px-3 text-center text-gray-700">2</td>
+                <td className="py-4 px-3 text-center text-gray-700">1</td>
+                <td className="py-4 px-3 text-center text-gray-700">0</td>
+                <td className="py-4 px-3 text-center text-gray-700">1</td>
+                <td className="py-4 px-3 text-center text-gray-700">2</td>
+                <td className="py-4 px-3 text-center text-gray-700">4</td>
+                <td className="py-4 px-3 text-center font-medium text-red-600">-2</td>
+                <td className="py-4 px-4 text-center font-bold text-lg text-gray-900">3</td>
+                <td className="py-4 px-5">
+                  <div className="flex justify-center gap-1.5">
+                    <span className="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white bg-green-500">W</span>
+                    <span className="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white bg-red-500">L</span>
+                  </div>
+                </td>
+              </tr>
+
+              <tr className="hover:bg-gray-50">
+                <td className="py-4 px-5">
+                  <div className="flex items-center gap-3">
+                    <span className="text-xl">🇹🇷</span>
+                    <span className="font-semibold text-gray-900">Turkey</span>
+                  </div>
+                </td>
+                <td className="py-4 px-3 text-center text-gray-700">2</td>
+                <td className="py-4 px-3 text-center text-gray-700">0</td>
+                <td className="py-4 px-3 text-center text-gray-700">0</td>
+                <td className="py-4 px-3 text-center text-gray-700">2</td>
+                <td className="py-4 px-3 text-center text-gray-700">0</td>
+                <td className="py-4 px-3 text-center text-gray-700">3</td>
+                <td className="py-4 px-3 text-center font-medium text-red-600">-3</td>
+                <td className="py-4 px-4 text-center font-bold text-lg text-gray-900">0</td>
+                <td className="py-4 px-5">
+                  <div className="flex justify-center gap-1.5">
+                    <span className="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white bg-red-500">L</span>
+                    <span className="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white bg-red-500">L</span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      {/* MATCH UPDATES - POSLE TABELE */}
+      <div>
+        <h2 className="text-xl font-semibold mb-6 text-gray-700">Match Updates</h2>
+
+
+        {/* Druga utakmica */}
+        <div className="border border-gray-200 rounded-2xl p-6 mb-6 bg-white shadow-sm">
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <span className="text-sm font-medium text-gray-500">June 19, 2026</span>
+              <h3 className="text-xl font-semibold mt-1">United States 2 - 0 Australia</h3>
+            </div>
+            <span className="px-3 py-1 text-sm bg-green-100 text-green-700 rounded-full font-medium">
+              Win
+            </span>
+          </div>
+
+          <div className="space-y-3 text-gray-700">
+            <p>• Dominant performance with 62% possession and strong defensive display.</p>
+            <p>• Folarin Balogun was key in attack once again.</p>
+            <p>• Alex Freeman (21) scored his first World Cup goal with a powerful header.</p>
+            <p>• Excellent atmosphere at Lumen Field in Seattle.</p>
+            <p>• Cristian Roldan played in front of his home supporters.</p>
+          </div>
+
+          <div className="mt-5">
+            <Link 
+              href="/news/usmnt-statement-win-australia-seattle" 
+              className="text-sm text-blue-600 hover:underline font-medium"
+            >
+              Read full match recap →
+            </Link>
+          </div>
+        </div>
+      </div>
+
       {/* HOTEL BOOKING BANNER - SEATTLE */}
 <div className="my-12 bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all">
   <div className="p-8 md:p-10 flex flex-col md:flex-row items-center gap-8">

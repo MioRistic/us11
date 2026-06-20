@@ -67,6 +67,16 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 185,
+  "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
+  "author": "Mio Ristić",
+  "date": "June 19, 2026",
+  "excerpt": "After the dominant 4-1 win over Paraguay, the USMNT faces a much tougher test against Australia in Seattle. Full preview and analysis from Lumen Field.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2282396883/crop/MM5DINRXG45DENRTGE5G433XMU5DAORSGQ2A====/GettyImages-2282396883.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/usmnt-statement-win-australia-seattle"
+},
+
+  {
   "id": 184,
   "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
   "author": "Mio Ristić",
@@ -84,21 +94,21 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/0p4QDPj9/petar-musa.jpg",
   "link": "news/petar-musa-fc-dallas-world-cup-goal"
 },
-   {
-  "id": 182,
-  "title": "Australia’s Shock Win Sends a Clear Warning to the USMNT",
-  "author": "Mio Ristić",
-  "date": "June 14, 2026",
-  "excerpt": "Australia’s surprise victory over Turkey has made Group D much more complicated for the United States. What the USMNT must learn before their crucial match on June 19.",
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQITnpzO9KfF_PkVXTCN0YiJJwGUpuLPV2mV7yMWvSBWSEWgHKz3d-n6sM&s=10",
-  "link": "news/australia-shock-win-warning-usmnt"
-},
  
  
  
 ];
 
 const usmntPosts: Post[] = [
+    {
+  "id": 185,
+  "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
+  "author": "Mio Ristić",
+  "date": "June 19, 2026",
+  "excerpt": "After the dominant 4-1 win over Paraguay, the USMNT faces a much tougher test against Australia in Seattle. Full preview and analysis from Lumen Field.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2282396883/crop/MM5DINRXG45DENRTGE5G433XMU5DAORSGQ2A====/GettyImages-2282396883.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/usmnt-statement-win-australia-seattle"
+},
   {
   "id": 184,
   "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
@@ -118,16 +128,6 @@ const usmntPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/pBqFXjG0/Untitled-design-7.png",
   "link": "blog/usmnt-vs-australia-2026-tickets"
 },
-  {
-  "id": 180,
-  "title": "USMNT Deliver the Statement They’ve Been Waiting For",
-  "author": "Mio Ristić",
-  "date": "June 13, 2026",
-  "excerpt": "The United States produced their most dominant World Cup opening performance in years with a convincing 4-1 win over Paraguay. A statement result that showed the USMNT finally looked like they belonged on the biggest stage.",
-  "imageUrl": "https://i.ibb.co/202b5vLP/usmnt.png",
-  "link": "news/usmnt-deliver-the-statement-theyve-been-waiting-for"
-}
- 
  
   
    
