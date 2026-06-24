@@ -100,6 +100,15 @@ const blogPosts: Post[] = [
 
 const usmntPosts: Post[] = [
     {
+  "id": 1026,
+  "title": "Türkiye vs USMNT 2026: Why This Final Group Game Is Worth Experiencing Live",
+  "author": "Mio Ristić",
+  "date": "June 24, 2026",
+  "excerpt": "Even though qualification is already decided, this final Group D match offers a unique atmosphere. Find out why fans are still rushing to get tickets for the USMNT’s last group stage game.",
+  "imageUrl": "https://i.ibb.co/23Dfwpp9/Untitled-design-8.png",
+  "link": "blog/turkey-vs-usmnt-2026-tickets"
+},
+    {
   "id": 185,
   "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
   "author": "Mio Ristić",
@@ -117,16 +126,6 @@ const usmntPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2269402545/crop/MM5DIOBRGY5DENZQHE5G433XMU5DAORRG44Q====/GettyImages-2269402545.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/usmnt-vs-australia-seattle"
 }, 
-
-  {
-  "id": 1016,
-  "title": "USMNT vs Australia 2026 Tickets: How to Buy + Match Preview at Lumen Field",
-  "author": "Mio Ristić",
-  "date": "June 14, 2026",
-  "excerpt": "Everything you need to know about the crucial USMNT vs Australia match on June 19, 2026 at Lumen Field in Seattle. Ticket prices, where to buy, stadium info, and full tactical preview.",
-  "imageUrl": "https://i.ibb.co/pBqFXjG0/Untitled-design-7.png",
-  "link": "blog/usmnt-vs-australia-2026-tickets"
-},
  
   
    

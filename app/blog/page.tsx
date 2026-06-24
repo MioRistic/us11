@@ -49,6 +49,15 @@ const items: CategoryItem[] = [
 ];
 
 const blogPosts: BlogPost[] = [
+  {
+  "id": 1026,
+  "title": "Türkiye vs USMNT 2026: Why This Final Group Game Is Worth Experiencing Live",
+  "author": "Mio Ristić",
+  "date": "June 24, 2026",
+  "excerpt": "Even though qualification is already decided, this final Group D match offers a unique atmosphere. Find out why fans are still rushing to get tickets for the USMNT’s last group stage game.",
+  "imageUrl": "https://i.ibb.co/23Dfwpp9/Untitled-design-8.png",
+  "slug": "turkey-vs-usmnt-2026-tickets"
+},
  {
   "id": 1025,
   "title": "Best World Cup 2026 Jerseys for Street Style: The Kits Worth Buying",

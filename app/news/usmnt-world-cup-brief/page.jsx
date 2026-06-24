@@ -140,6 +140,64 @@ export default function USMNTWorldCupBrief() {
         </figcaption>
       </figure>
 
+      {/* HOTEL BOOKING BANNER - LOS ANGELES */}
+<div className="my-12 bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all">
+  <div className="p-8 md:p-10 flex flex-col md:flex-row items-center gap-8">
+    <div className="flex-1">
+      <div>
+        <p className="text-gray-600 mt-1">June 25, 2026 • 7:00 PM PT • Inglewood</p>
+      </div>
+      <h3 className="text-3xl font-bold text-[#020617] leading-tight mb-3">
+        Book Your Hotel Near Los Angeles Stadium
+      </h3>
+      <p className="text-gray-600 text-lg">
+        Stay close to the action in Inglewood. Find hotels near Los Angeles Stadium 
+        with great options for comfort and convenience during the World Cup.
+      </p>
+    </div>
+
+    <a 
+      href="https://expedia.com/affiliate/oLCaNut" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="bg-[#020617] hover:bg-black text-white font-semibold px-10 py-4 rounded-2xl transition whitespace-nowrap flex-shrink-0 text-center"
+    >
+      Find Hotels at Expedia
+    </a>
+  </div>
+</div>
+
+
+{/* NEXT MATCH - TÜRKIYE */}
+<div className="mb-12">
+  <h2 className="text-xl font-semibold mb-4 text-gray-700">Next Match</h2>
+  
+  <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm">
+    <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      
+      {/* Informacije o meču */}
+      <div>
+        <p className="text-sm text-gray-500">Group D • Matchday 3</p>
+        <p className="text-2xl font-semibold mt-1">United States vs Türkiye</p>
+        <p className="text-gray-600 mt-1">June 25, 2026 • 7:00 PM PT • Inglewood, CA</p>
+      </div>
+
+      {/* Buy Ticket dugme */}
+      <div className="mt-4 md:mt-0">
+        <a
+          href="https://ticketnetwork.lusg.net/GbR7W9" // ← ovde stavi svoj affiliate link
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center bg-black hover:bg-zinc-800 transition-colors text-white font-semibold px-8 py-3 rounded-xl text-sm"
+        >
+          Buy Tickets
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
             {/* GROUP D STANDINGS - PRVO */}
       <div className="mb-12">
         <h2 className="text-xl font-semibold mb-6 text-gray-700">Group D Standings</h2>

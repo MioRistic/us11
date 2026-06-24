@@ -164,8 +164,8 @@ export default function ParaguayStunTurkey() {
   </p>
 
   <p>
-    Even a draw against Turkey in the final group game would almost certainly be enough to secure top spot and a favorable matchup in the Round of 16.
-  </p>
+  With qualification already secured, the United States will approach their final group game against Türkiye with a degree of freedom. While a win would confirm first place in Group D, even a draw or narrow defeat would likely be enough to finish in the top two — though the margin of victory in Seattle means the USMNT are now firmly in control of their own destiny heading into the knockout stage.
+</p>
 
   <p>
     Mauricio Pochettino’s team no longer needs a heroic performance in the last match — they simply need to be professional.

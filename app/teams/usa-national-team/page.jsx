@@ -492,11 +492,11 @@ const squad = {
           <div className="bg-gradient-to-br from-blue-700 to-blue-900 text-white p-8 rounded-2xl shadow-lg">
             <h3 className="text-2xl font-black mb-6">Support the Yanks</h3>
             <div className="space-y-4">
-              <a href="https://ticketnetwork.lusg.net/X4G9Ay" target="_blank" rel="noopener noreferrer" 
+              <a href="https://ticketnetwork.lusg.net/GbR7W9" target="_blank" rel="noopener noreferrer" 
                 className="flex items-center gap-3 bg-white/20 hover:bg-white/30 px-6 py-4 rounded-xl font-bold transition text-center justify-center">
                 <FaTicketAlt /> Buy Tickets
               </a>
-              <a href="https://expedia.com/affiliate/xZ9FiCM" target="_blank" rel="noopener noreferrer" 
+              <a href="https://expedia.com/affiliate/npW1Cmw" target="_blank" rel="noopener noreferrer" 
                 className="flex items-center gap-3 bg-white/20 hover:bg-white/30 px-6 py-4 rounded-xl font-bold transition text-center justify-center">
                 <FaBed /> Hotels Near Match Venues
               </a>
