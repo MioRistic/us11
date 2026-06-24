@@ -51,7 +51,7 @@ const items: CategoryItem[] = [
 const blogPosts: BlogPost[] = [
   {
   "id": 1026,
-  "title": "Türkiye vs USMNT 2026: Why This Final Group Game Is Worth Experiencing Live",
+  "title": "Türkiye vs USMNT 2026 Tickets: The Last Chance to See the Stars and Stripes in the Group Stage",
   "author": "Mio Ristić",
   "date": "June 24, 2026",
   "excerpt": "Even though qualification is already decided, this final Group D match offers a unique atmosphere. Find out why fans are still rushing to get tickets for the USMNT’s last group stage game.",

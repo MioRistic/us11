@@ -1,9 +1,9 @@
-// app/news/turkey-vs-usmnt-2026-tickets/layout.js
+// app/blog/turkey-vs-usmnt-2026-tickets/layout.js
 
 import React from 'react';
 
 export const metadata = {
-  title: "Türkiye vs USMNT 2026 Tickets: Why This Final Group Game Is Worth Experiencing Live",
+  title: "Türkiye vs USMNT 2026 Tickets: The Last Chance to See the Stars and Stripes in the Group Stage",
   description:
     "Turkey has already been eliminated, while the USMNT has secured qualification. Find out why this final Group D match on June 25 in Los Angeles is still worth attending and how to get tickets.",
   keywords: [
@@ -16,7 +16,7 @@ export const metadata = {
     "USMNT group stage",
   ],
   openGraph: {
-    title: "Türkiye vs USMNT 2026: Why This Match Is Worth Experiencing Live",
+    title: "Türkiye vs USMNT 2026: The Last Chance to See the Stars and Stripes in the Group Stage",
     description:
       "Even though both teams have their fate decided, this final group stage match offers a unique atmosphere. Get tickets and be part of the USMNT’s last group game at the 2026 World Cup.",
     url: "https://us11fc.com/blog/turkey-vs-usmnt-2026-tickets",

@@ -22,7 +22,7 @@ export default function TurkeyVsUSMNTTickets() {
     }
   };
 
-  const articleTitle = "Türkiye vs USMNT 2026 Tickets: Why This Final Group Game Is Worth Experiencing Live";
+  const articleTitle = "Türkiye vs USMNT 2026 Tickets: The Last Chance to See the Stars and Stripes in the Group Stage";
 
   return (
     <article className="w-full min-h-screen bg-white text-[#020617]">
@@ -37,7 +37,7 @@ export default function TurkeyVsUSMNTTickets() {
         {/* HEADER */}
         <header className="mb-8">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-3">
-            Türkiye vs USMNT 2026 Tickets: Why This Final Group Game Is Worth Experiencing Live
+            Türkiye vs USMNT 2026 Tickets: The Last Chance to See the Stars and Stripes in the Group Stage
           </h1>
 
           <div className="flex items-center gap-4 mt-2 text-sm text-gray-500">
