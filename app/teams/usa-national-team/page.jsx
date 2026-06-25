@@ -32,6 +32,15 @@ const USNationalTeamPage = () => {
   ];
 
   const newsPosts = [
+      {
+  "id": 190,
+  "title": "USMNT vs Türkiye: Playing for Pride, Momentum and a Perfect Group Stage",
+  "author": "Mio Ristić",
+  "date": "June 25, 2026",
+  "excerpt": "With first place already secured, the USMNT face Türkiye in their final group stage match. Pochettino plans rotation but demands intensity as they aim for a perfect record.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHG58xIJA464ZXYwF1YUDzSKe11IXvZX2m4DdIAEjFgA&s=10",
+  "link": "news/usmnt-vs-turkiye-group-stage-finale"
+},
     {
   "id": 184,
   "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
@@ -82,6 +91,15 @@ const USNationalTeamPage = () => {
   const latestNews = newsPosts.slice(0, 3);
 
   const blogPosts = [
+    {
+  "id": 1026,
+  "title": "Türkiye vs USMNT 2026 Tickets: The Last Chance to See the Stars and Stripes in the Group Stage",
+  "author": "Mio Ristić",
+  "date": "June 24, 2026",
+  "excerpt": "Even though qualification is already decided, this final Group D match offers a unique atmosphere. Find out why fans are still rushing to get tickets for the USMNT’s last group stage game.",
+  "imageUrl": "https://i.ibb.co/23Dfwpp9/Untitled-design-8.png",
+  "link": "blog/turkey-vs-usmnt-2026-tickets"
+},
   {
     "id": 1016,
     "title": "USMNT vs Australia 2026 Tickets: How to Buy + Match Preview at Lumen Field",
