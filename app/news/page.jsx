@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 189,
+  "title": "Is Christian Pulisic Heading Back to MLS? NYCFC Interested, Milan Say “Not for Sale”",
+  "author": "Mio Ristić",
+  "date": "June 25, 2026",
+  "excerpt": "New York City FC have shown interest in bringing Christian Pulisic back to MLS after the 2026 World Cup, but AC Milan have made it clear that the American star is not for sale at the moment.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2281625986/crop/MM5DEMJXGA5DCMRSGE5G433XMU5DAORRGAZQ====/GettyImages-2281625986.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "pulisic-nycfc-interest"
+},
+    {
   "id": 187,
   "title": "Sporting Kansas City Sign Experienced Bosnian Left Back Emir Karić — But Is It Enough?",
   "author": "Mio Ristić",

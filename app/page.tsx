@@ -66,6 +66,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
   );
 };
 const blogPosts: Post[] = [
+   {
+  "id": 189,
+  "title": "Is Christian Pulisic Heading Back to MLS? NYCFC Interested, Milan Say “Not for Sale”",
+  "author": "Mio Ristić",
+  "date": "June 25, 2026",
+  "excerpt": "New York City FC have shown interest in bringing Christian Pulisic back to MLS after the 2026 World Cup, but AC Milan have made it clear that the American star is not for sale at the moment.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2281625986/crop/MM5DEMJXGA5DCMRSGE5G433XMU5DAORRGAZQ====/GettyImages-2281625986.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/pulisic-nycfc-interest"
+},
   {
   "id": 187,
   "title": "Sporting Kansas City Sign Experienced Bosnian Left Back Emir Karić — But Is It Enough?",
@@ -84,25 +93,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/qqjbKM9/gettyimages-2282439188-612x612-1.jpg",
   "link": "news/paraguay-stun-turkey-almiron-red-card"
 },
-  {
-  "id": 185,
-  "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
-  "author": "Mio Ristić",
-  "date": "June 19, 2026",
-  "excerpt": "After the dominant 4-1 win over Paraguay, the USMNT faces a much tougher test against Australia in Seattle. Full preview and analysis from Lumen Field.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2282396883/crop/MM5DINRXG45DENRTGE5G433XMU5DAORSGQ2A====/GettyImages-2282396883.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/usmnt-statement-win-australia-seattle"
-},
-
-  {
-  "id": 184,
-  "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
-  "author": "Mio Ristić",
-  "date": "June 19, 2026",
-  "excerpt": "After the dominant 4-1 win over Paraguay, the USMNT faces a much tougher test against Australia in Seattle. Preview, stakes, and what a win would mean for Group D.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2269402545/crop/MM5DIOBRGY5DENZQHE5G433XMU5DAORRG44Q====/GettyImages-2269402545.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/usmnt-vs-australia-seattle"
-},
+ 
  
  
 ];
