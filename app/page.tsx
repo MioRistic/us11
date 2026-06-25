@@ -66,6 +66,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
   );
 };
 const blogPosts: Post[] = [
+  {
+  "id": 190,
+  "title": "USMNT vs Türkiye: Playing for Pride, Momentum and a Perfect Group Stage",
+  "author": "Mio Ristić",
+  "date": "June 25, 2026",
+  "excerpt": "With first place already secured, the USMNT face Türkiye in their final group stage match. Pochettino plans rotation but demands intensity as they aim for a perfect record.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHG58xIJA464ZXYwF1YUDzSKe11IXvZX2m4DdIAEjFgA&s=10",
+  "link": "news/usmnt-vs-turkiye-group-stage-finale"
+},
    {
   "id": 189,
   "title": "Is Christian Pulisic Heading Back to MLS? NYCFC Interested, Milan Say “Not for Sale”",
@@ -84,21 +93,22 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/XZc4whwT/2025-08-28-T205307-Z-2122236778-RC27-FGAVCAME-RTRMADP-3-SOCCER-CHAMPIONS-STU-BOD.jpg",
   "link": "news/sporting-kc-sign-bosnian-left-back-emir-karic"
 },
-  {
-  "id": 186,
-  "title": "How Miguel Almirón’s Red Card Backfired — Paraguay Stun Turkey and Clear Path for USMNT",
-  "author": "Mio Ristić",
-  "date": "June 20, 2026",
-  "excerpt": "Miguel Almirón was sent off in controversial fashion, but Paraguay produced a heroic 1-0 win over Turkey. Big result opens clear path for USMNT in Group D.",
-  "imageUrl": "https://i.ibb.co/qqjbKM9/gettyimages-2282439188-612x612-1.jpg",
-  "link": "news/paraguay-stun-turkey-almiron-red-card"
-},
+ 
  
  
  
 ];
 
 const usmntPosts: Post[] = [
+  {
+  "id": 190,
+  "title": "USMNT vs Türkiye: Playing for Pride, Momentum and a Perfect Group Stage",
+  "author": "Mio Ristić",
+  "date": "June 25, 2026",
+  "excerpt": "With first place already secured, the USMNT face Türkiye in their final group stage match. Pochettino plans rotation but demands intensity as they aim for a perfect record.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHG58xIJA464ZXYwF1YUDzSKe11IXvZX2m4DdIAEjFgA&s=10",
+  "link": "news/usmnt-vs-turkiye-group-stage-finale"
+},
     {
   "id": 1026,
   "title": "Türkiye vs USMNT 2026 Tickets: The Last Chance to See the Stars and Stripes in the Group Stage",
@@ -117,15 +127,7 @@ const usmntPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2282396883/crop/MM5DINRXG45DENRTGE5G433XMU5DAORSGQ2A====/GettyImages-2282396883.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/usmnt-statement-win-australia-seattle"
 },
-  {
-  "id": 184,
-  "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
-  "author": "Mio Ristić",
-  "date": "June 19, 2026",
-  "excerpt": "After the dominant 4-1 win over Paraguay, the USMNT faces a much tougher test against Australia in Seattle. Preview, stakes, and what a win would mean for Group D.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2269402545/crop/MM5DIOBRGY5DENZQHE5G433XMU5DAORRG44Q====/GettyImages-2269402545.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/usmnt-vs-australia-seattle"
-}, 
+ 
  
   
    
