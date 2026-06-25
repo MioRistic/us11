@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 187,
+  "title": "Sporting Kansas City Sign Experienced Bosnian Left Back Emir Karić — But Is It Enough?",
+  "author": "Mio Ristić",
+  "date": "June 24, 2026",
+  "excerpt": "Sporting KC have signed 29-year-old Bosnian left back Emir Karić from Sturm Graz. A sensible, experienced reinforcement — but will it be enough to fix SKC’s bigger problems?",
+  "imageUrl": "https://i.ibb.co/XZc4whwT/2025-08-28-T205307-Z-2122236778-RC27-FGAVCAME-RTRMADP-3-SOCCER-CHAMPIONS-STU-BOD.jpg",
+  "slug": "sporting-kc-sign-bosnian-left-back-emir-karic"
+},
+    {
   "id": 186,
   "title": "How Miguel Almirón’s Red Card Backfired — Paraguay Stun Turkey and Clear Path for USMNT",
   "author": "Mio Ristić",
