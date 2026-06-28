@@ -67,6 +67,24 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 192,
+  "title": "Pochettino’s Future at the USMNT: Why U.S. Soccer Made Its Move Early",
+  "author": "Mio Ristić",
+  "date": "June 28, 2026",
+  "excerpt": "U.S. Soccer has offered Mauricio Pochettino a contract extension through the 2030 World Cup. The timing of the offer reflects both the federation’s ambitions and the Argentine’s strong start with the team.",
+  "imageUrl": "https://assets.goal.com/images/v3/bltdf32edd9113f7080/crop/MM5DGOJQGY5DEMJZG45G433XMU5DAORSGAZQ====/GettyImages-2280211150.jpg?auto=webp&format=pjpg&width=1080&quality=60",
+  "link": "news/pochettino-contract-extension-2030"
+},
+  {
+  "id": 191,
+  "title": "USMNT Fall to Türkiye 3-2 in Group Finale But Finish Top of Group D",
+  "author": "Mio Ristić",
+  "date": "June 25, 2026",
+  "excerpt": "Despite a 3-2 loss to Türkiye, the USMNT topped Group D with six points. Pulisic returned from injury, Berhalter impressed, but defensive depth remains a concern heading into the knockout rounds.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2283360510/crop/MM5DCNZSGA5DSNRYHJXG653FHIYDUNBR/GettyImages-2283360510.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/usmnt-fall-to-turkiye-group-finale"
+},
+  {
   "id": 190,
   "title": "USMNT vs Türkiye: Playing for Pride, Momentum and a Perfect Group Stage",
   "author": "Mio Ristić",
@@ -75,24 +93,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHG58xIJA464ZXYwF1YUDzSKe11IXvZX2m4DdIAEjFgA&s=10",
   "link": "news/usmnt-vs-turkiye-group-stage-finale"
 },
-   {
-  "id": 189,
-  "title": "Is Christian Pulisic Heading Back to MLS? NYCFC Interested, Milan Say “Not for Sale”",
-  "author": "Mio Ristić",
-  "date": "June 25, 2026",
-  "excerpt": "New York City FC have shown interest in bringing Christian Pulisic back to MLS after the 2026 World Cup, but AC Milan have made it clear that the American star is not for sale at the moment.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2281625986/crop/MM5DEMJXGA5DCMRSGE5G433XMU5DAORRGAZQ====/GettyImages-2281625986.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/pulisic-nycfc-interest"
-},
-  {
-  "id": 187,
-  "title": "Sporting Kansas City Sign Experienced Bosnian Left Back Emir Karić — But Is It Enough?",
-  "author": "Mio Ristić",
-  "date": "June 24, 2026",
-  "excerpt": "Sporting KC have signed 29-year-old Bosnian left back Emir Karić from Sturm Graz. A sensible, experienced reinforcement — but will it be enough to fix SKC’s bigger problems?",
-  "imageUrl": "https://i.ibb.co/XZc4whwT/2025-08-28-T205307-Z-2122236778-RC27-FGAVCAME-RTRMADP-3-SOCCER-CHAMPIONS-STU-BOD.jpg",
-  "link": "news/sporting-kc-sign-bosnian-left-back-emir-karic"
-},
+    
  
  
  
@@ -101,6 +102,24 @@ const blogPosts: Post[] = [
 
 const usmntPosts: Post[] = [
   {
+  "id": 192,
+  "title": "Pochettino’s Future at the USMNT: Why U.S. Soccer Made Its Move Early",
+  "author": "Mio Ristić",
+  "date": "June 28, 2026",
+  "excerpt": "U.S. Soccer has offered Mauricio Pochettino a contract extension through the 2030 World Cup. The timing of the offer reflects both the federation’s ambitions and the Argentine’s strong start with the team.",
+  "imageUrl": "https://assets.goal.com/images/v3/bltdf32edd9113f7080/crop/MM5DGOJQGY5DEMJZG45G433XMU5DAORSGAZQ====/GettyImages-2280211150.jpg?auto=webp&format=pjpg&width=1080&quality=60",
+  "link": "news/pochettino-contract-extension-2030"
+},
+  {
+  "id": 191,
+  "title": "USMNT Fall to Türkiye 3-2 in Group Finale But Finish Top of Group D",
+  "author": "Mio Ristić",
+  "date": "June 25, 2026",
+  "excerpt": "Despite a 3-2 loss to Türkiye, the USMNT topped Group D with six points. Pulisic returned from injury, Berhalter impressed, but defensive depth remains a concern heading into the knockout rounds.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2283360510/crop/MM5DCNZSGA5DSNRYHJXG653FHIYDUNBR/GettyImages-2283360510.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/usmnt-fall-to-turkiye-group-finale"
+},
+  {
   "id": 190,
   "title": "USMNT vs Türkiye: Playing for Pride, Momentum and a Perfect Group Stage",
   "author": "Mio Ristić",
@@ -109,25 +128,7 @@ const usmntPosts: Post[] = [
   "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHG58xIJA464ZXYwF1YUDzSKe11IXvZX2m4DdIAEjFgA&s=10",
   "link": "news/usmnt-vs-turkiye-group-stage-finale"
 },
-    {
-  "id": 1026,
-  "title": "Türkiye vs USMNT 2026 Tickets: The Last Chance to See the Stars and Stripes in the Group Stage",
-  "author": "Mio Ristić",
-  "date": "June 24, 2026",
-  "excerpt": "Even though qualification is already decided, this final Group D match offers a unique atmosphere. Find out why fans are still rushing to get tickets for the USMNT’s last group stage game.",
-  "imageUrl": "https://i.ibb.co/23Dfwpp9/Untitled-design-8.png",
-  "link": "blog/turkey-vs-usmnt-2026-tickets"
-},
-    {
-  "id": 185,
-  "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
-  "author": "Mio Ristić",
-  "date": "June 19, 2026",
-  "excerpt": "After the dominant 4-1 win over Paraguay, the USMNT faces a much tougher test against Australia in Seattle. Full preview and analysis from Lumen Field.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2282396883/crop/MM5DINRXG45DENRTGE5G433XMU5DAORSGQ2A====/GettyImages-2282396883.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/usmnt-statement-win-australia-seattle"
-},
- 
+    
  
   
    

@@ -11,57 +11,57 @@ const groupDStandings = [
     position: 1,
     team: "USA",
     flag: "🇺🇸",
-    played: 1,
-    won: 1,
+    played: 3,
+    won: 2,
     drawn: 0,
-    lost: 0,
-    gf: 4,
-    ga: 1,
-    gd: 3,
-    points: 3,
-    form: ["W"]
+    lost: 1,
+    gf: 8,
+    ga: 4,
+    gd: 4,
+    points: 6,
+    form: ["W", "W", "L"]
   },
   {
     position: 2,
     team: "Australia",
     flag: "🇦🇺",
-    played: 1,
-    won: 1,
+    played: 3,
+    won: 2,
     drawn: 0,
-    lost: 0,
-    gf: 2,
-    ga: 0,
+    lost: 1,
+    gf: 4,
+    ga: 2,
     gd: 2,
-    points: 3,
-    form: ["W"]
+    points: 6,
+    form: ["W", "L", "W"]
   },
   {
     position: 3,
     team: "Türkiye",
     flag: "🇹🇷",
-    played: 1,
-    won: 0,
+    played: 3,
+    won: 1,
     drawn: 0,
-    lost: 1,
-    gf: 2,
-    ga: 2,
-    gd: 0,
-    points: 0,
-    form: ["L"]
+    lost: 2,
+    gf: 3,
+    ga: 5,
+    gd: -2,
+    points: 3,
+    form: ["L", "L", "W"]
   },
   {
     position: 4,
     team: "Paraguay",
     flag: "🇵🇾",
-    played: 1,
-    won: 0,
+    played: 3,
+    won: 1,
     drawn: 0,
-    lost: 1,
-    gf: 1,
-    ga: 4,
-    gd: -3,
-    points: 0,
-    form: ["L"]
+    lost: 2,
+    gf: 2,
+    ga: 6,
+    gd: -4,
+    points: 3,
+    form: ["L", "W", "L"]
   }
 ];
 
@@ -141,279 +141,61 @@ export default function USMNTWorldCupBrief() {
       </figure>
 
       {/* HOTEL BOOKING BANNER - LOS ANGELES */}
-<div className="my-12 bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all">
-  <div className="p-8 md:p-10 flex flex-col md:flex-row items-center gap-8">
-    <div className="flex-1">
-      <div>
-        <p className="text-gray-600 mt-1">June 25, 2026 • 7:00 PM PT • Inglewood</p>
-      </div>
-      <h3 className="text-3xl font-bold text-[#020617] leading-tight mb-3">
-        Book Your Hotel Near Los Angeles Stadium
-      </h3>
-      <p className="text-gray-600 text-lg">
-        Stay close to the action in Inglewood. Find hotels near Los Angeles Stadium 
-        with great options for comfort and convenience during the World Cup.
-      </p>
-    </div>
-
-    <a 
-      href="https://expedia.com/affiliate/oLCaNut" 
-      target="_blank" 
-      rel="noopener noreferrer"
-      className="bg-[#020617] hover:bg-black text-white font-semibold px-10 py-4 rounded-2xl transition whitespace-nowrap flex-shrink-0 text-center"
-    >
-      Find Hotels at Expedia
-    </a>
-  </div>
-</div>
-
-
-{/* NEXT MATCH - TÜRKIYE */}
-<div className="mb-12">
-  <h2 className="text-xl font-semibold mb-4 text-gray-700">Next Match</h2>
-  
-  <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm">
-    <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-      
-      {/* Informacije o meču */}
-      <div>
-        <p className="text-sm text-gray-500">Group D • Matchday 3</p>
-        <p className="text-2xl font-semibold mt-1">United States vs Türkiye</p>
-        <p className="text-gray-600 mt-1">June 25, 2026 • 7:00 PM PT • Inglewood, CA</p>
-      </div>
-
-      {/* Buy Ticket dugme */}
-      <div className="mt-4 md:mt-0">
-        <a
-          href="https://ticketnetwork.lusg.net/GbR7W9" // ← ovde stavi svoj affiliate link
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center bg-black hover:bg-zinc-800 transition-colors text-white font-semibold px-8 py-3 rounded-xl text-sm"
-        >
-          Buy Tickets
-        </a>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-            {/* GROUP D STANDINGS - PRVO */}
-      <div className="mb-12">
-        <h2 className="text-xl font-semibold mb-6 text-gray-700">Group D Standings</h2>
-
-        <div className="overflow-x-auto border border-gray-200 rounded-2xl bg-white shadow-sm">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="border-b border-gray-200 text-gray-500">
-                <th className="py-4 px-5 text-left font-medium">Team</th>
-                <th className="py-4 px-3 text-center font-medium">MP</th>
-                <th className="py-4 px-3 text-center font-medium">W</th>
-                <th className="py-4 px-3 text-center font-medium">D</th>
-                <th className="py-4 px-3 text-center font-medium">L</th>
-                <th className="py-4 px-3 text-center font-medium">GF</th>
-                <th className="py-4 px-3 text-center font-medium">GA</th>
-                <th className="py-4 px-3 text-center font-medium">GD</th>
-                <th className="py-4 px-4 text-center font-medium">Pts</th>
-                <th className="py-4 px-5 text-center font-medium">Last 5</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="border-b border-gray-100 hover:bg-gray-50">
-                <td className="py-4 px-5">
-                  <div className="flex items-center gap-3">
-                    <span className="text-xl">🇺🇸</span>
-                    <span className="font-semibold text-gray-900">USA</span>
-                  </div>
-                </td>
-                <td className="py-4 px-3 text-center text-gray-700">2</td>
-                <td className="py-4 px-3 text-center text-gray-700">2</td>
-                <td className="py-4 px-3 text-center text-gray-700">0</td>
-                <td className="py-4 px-3 text-center text-gray-700">0</td>
-                <td className="py-4 px-3 text-center text-gray-700">6</td>
-                <td className="py-4 px-3 text-center text-gray-700">1</td>
-                <td className="py-4 px-3 text-center font-medium text-emerald-600">+5</td>
-                <td className="py-4 px-4 text-center font-bold text-lg text-gray-900">6</td>
-                <td className="py-4 px-5">
-                  <div className="flex justify-center gap-1.5">
-                    <span className="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white bg-green-500">W</span>
-                    <span className="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white bg-green-500">W</span>
-                  </div>
-                </td>
-              </tr>
-
-              <tr className="border-b border-gray-100 hover:bg-gray-50">
-                <td className="py-4 px-5">
-                  <div className="flex items-center gap-3">
-                    <span className="text-xl">🇦🇺</span>
-                    <span className="font-semibold text-gray-900">Australia</span>
-                  </div>
-                </td>
-                <td className="py-4 px-3 text-center text-gray-700">2</td>
-                <td className="py-4 px-3 text-center text-gray-700">1</td>
-                <td className="py-4 px-3 text-center text-gray-700">0</td>
-                <td className="py-4 px-3 text-center text-gray-700">1</td>
-                <td className="py-4 px-3 text-center text-gray-700">2</td>
-                <td className="py-4 px-3 text-center text-gray-700">2</td>
-                <td className="py-4 px-3 text-center font-medium text-gray-700">0</td>
-                <td className="py-4 px-4 text-center font-bold text-lg text-gray-900">3</td>
-                <td className="py-4 px-5">
-                  <div className="flex justify-center gap-1.5">
-                    <span className="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white bg-red-500">L</span>
-                    <span className="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white bg-green-500">W</span>
-                  </div>
-                </td>
-              </tr>
-
-              <tr className="border-b border-gray-100 hover:bg-gray-50">
-                <td className="py-4 px-5">
-                  <div className="flex items-center gap-3">
-                    <span className="text-xl">🇵🇾</span>
-                    <span className="font-semibold text-gray-900">Paraguay</span>
-                  </div>
-                </td>
-                <td className="py-4 px-3 text-center text-gray-700">2</td>
-                <td className="py-4 px-3 text-center text-gray-700">1</td>
-                <td className="py-4 px-3 text-center text-gray-700">0</td>
-                <td className="py-4 px-3 text-center text-gray-700">1</td>
-                <td className="py-4 px-3 text-center text-gray-700">2</td>
-                <td className="py-4 px-3 text-center text-gray-700">4</td>
-                <td className="py-4 px-3 text-center font-medium text-red-600">-2</td>
-                <td className="py-4 px-4 text-center font-bold text-lg text-gray-900">3</td>
-                <td className="py-4 px-5">
-                  <div className="flex justify-center gap-1.5">
-                    <span className="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white bg-green-500">W</span>
-                    <span className="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white bg-red-500">L</span>
-                  </div>
-                </td>
-              </tr>
-
-              <tr className="hover:bg-gray-50">
-                <td className="py-4 px-5">
-                  <div className="flex items-center gap-3">
-                    <span className="text-xl">🇹🇷</span>
-                    <span className="font-semibold text-gray-900">Turkey</span>
-                  </div>
-                </td>
-                <td className="py-4 px-3 text-center text-gray-700">2</td>
-                <td className="py-4 px-3 text-center text-gray-700">0</td>
-                <td className="py-4 px-3 text-center text-gray-700">0</td>
-                <td className="py-4 px-3 text-center text-gray-700">2</td>
-                <td className="py-4 px-3 text-center text-gray-700">0</td>
-                <td className="py-4 px-3 text-center text-gray-700">3</td>
-                <td className="py-4 px-3 text-center font-medium text-red-600">-3</td>
-                <td className="py-4 px-4 text-center font-bold text-lg text-gray-900">0</td>
-                <td className="py-4 px-5">
-                  <div className="flex justify-center gap-1.5">
-                    <span className="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white bg-red-500">L</span>
-                    <span className="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white bg-red-500">L</span>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      {/* MATCH UPDATES - POSLE TABELE */}
-      <div>
-        <h2 className="text-xl font-semibold mb-6 text-gray-700">Match Updates</h2>
-
-
-        {/* Druga utakmica */}
-        <div className="border border-gray-200 rounded-2xl p-6 mb-6 bg-white shadow-sm">
-          <div className="flex items-center justify-between mb-4">
+      <div className="my-12 bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all">
+        <div className="p-8 md:p-10 flex flex-col md:flex-row items-center gap-8">
+          <div className="flex-1">
             <div>
-              <span className="text-sm font-medium text-gray-500">June 19, 2026</span>
-              <h3 className="text-xl font-semibold mt-1">United States 2 - 0 Australia</h3>
+              <p className="text-gray-600 mt-1">June 25, 2026 • 7:00 PM PT • Inglewood</p>
             </div>
-            <span className="px-3 py-1 text-sm bg-green-100 text-green-700 rounded-full font-medium">
-              Win
-            </span>
+            <h3 className="text-3xl font-bold text-[#020617] leading-tight mb-3">
+              Book Your Hotel Near Los Angeles Stadium
+            </h3>
+            <p className="text-gray-600 text-lg">
+              Stay close to the action in Inglewood. Find hotels near Los Angeles Stadium 
+              with great options for comfort and convenience during the World Cup.
+            </p>
           </div>
 
-          <div className="space-y-3 text-gray-700">
-            <p>• Dominant performance with 62% possession and strong defensive display.</p>
-            <p>• Folarin Balogun was key in attack once again.</p>
-            <p>• Alex Freeman (21) scored his first World Cup goal with a powerful header.</p>
-            <p>• Excellent atmosphere at Lumen Field in Seattle.</p>
-            <p>• Cristian Roldan played in front of his home supporters.</p>
-          </div>
-
-          <div className="mt-5">
-            <Link 
-              href="/news/usmnt-statement-win-australia-seattle" 
-              className="text-sm text-blue-600 hover:underline font-medium"
-            >
-              Read full match recap →
-            </Link>
-          </div>
+          <a 
+            href="https://expedia.com/affiliate/oLCaNut" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-[#020617] hover:bg-black text-white font-semibold px-10 py-4 rounded-2xl transition whitespace-nowrap flex-shrink-0 text-center"
+          >
+            Find Hotels at Expedia
+          </a>
         </div>
       </div>
 
-      {/* HOTEL BOOKING BANNER - SEATTLE */}
-<div className="my-12 bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all">
-  <div className="p-8 md:p-10 flex flex-col md:flex-row items-center gap-8">
-    <div className="flex-1">
-     <div>
+      {/* NEXT MATCH */}
+      <div className="mb-12">
+        <h2 className="text-xl font-semibold mb-4 text-gray-700">Next Match</h2>
         
-        <p className="text-gray-600 mt-1">June 19, 2026 • 12:00 PT • Seattle</p>
+        <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div>
+              <p className="text-sm text-gray-500">Round of 32</p>
+              <p className="text-2xl font-semibold mt-1">United States vs Bosnia & Herzegovina</p>
+              <p className="text-gray-600 mt-1">TBD • TBD • TBD</p>
+            </div>
+
+            <div className="mt-4 md:mt-0">
+              <a
+                href="https://ticketnetwork.lusg.net/GbR7W9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-black hover:bg-zinc-800 transition-colors text-white font-semibold px-8 py-3 rounded-xl text-sm"
+              >
+                Buy Tickets
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-      <h3 className="text-3xl font-bold text-[#020617] leading-tight mb-3">
-        Book Your Hotel Near Lumen Field
-      </h3>
-      <p className="text-gray-600 text-lg">
-        Stay close to the action in Seattle. From luxury hotels with stadium views 
-        to affordable options just steps away from Lumen Field.
-      </p>
-    </div>
-
-    <a 
-      href="https://expedia.com/affiliate/xZ9FiCM" 
-      target="_blank" 
-      rel="noopener noreferrer"
-      className="bg-[#020617] hover:bg-black text-white font-semibold px-10 py-4 rounded-2xl transition whitespace-nowrap flex-shrink-0 text-center"
-    >
-      Find Hotels at Expedia
-    </a>
-  </div>
-
-   
-</div>
-
-     {/* NEXT MATCH */}
-<div className="mb-12">
-  <h2 className="text-xl font-semibold mb-4 text-gray-700">Next Match</h2>
-  
-  <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm">
-    <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-      
-      {/* Informacije o meču */}
-      <div>
-        <p className="text-sm text-gray-500">Group D • Matchday 2</p>
-        <p className="text-2xl font-semibold mt-1">United States vs Australia</p>
-        <p className="text-gray-600 mt-1">June 19, 2026 • 12:00 PT • Seattle</p>
-      </div>
-
-      {/* Buy Ticket dugme */}
-      <div className="mt-4 md:mt-0">
-        <a
-          href="https://ticketnetwork.lusg.net/X4G9Ay" // ← ovde stavi svoj affiliate link
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center bg-black hover:bg-zinc-800 transition-colors text-white font-semibold px-8 py-3 rounded-xl text-sm"
-        >
-          Buy Tickets
-        </a>
-      </div>
-
-    </div>
-  </div>
-</div>
 
       {/* GROUP D STANDINGS */}
       <div className="mb-12">
-        <h2 className="text-xl font-semibold mb-6 text-gray-700">Group D Standings</h2>
+        <h2 className="text-xl font-semibold mb-6 text-gray-700">Group D Standings (Final)</h2>
 
         <div className="overflow-x-auto border border-gray-200 rounded-2xl bg-white shadow-sm">
           <table className="w-full text-sm">
@@ -470,9 +252,69 @@ export default function USMNTWorldCupBrief() {
         </div>
       </div>
 
-      {/* MATCH UPDATES */}
+            {/* MATCH UPDATES */}
       <div>
         <h2 className="text-xl font-semibold mb-6 text-gray-700">Match Updates</h2>
+
+        {/* Treća utakmica - NAJNOVIJA (PRVA) */}
+        <div className="border border-gray-200 rounded-2xl p-6 mb-6 bg-white shadow-sm">
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <span className="text-sm font-medium text-gray-500">June 25, 2026</span>
+              <h3 className="text-xl font-semibold mt-1">United States 2 - 3 Türkiye</h3>
+            </div>
+            <span className="px-3 py-1 text-sm bg-red-100 text-red-700 rounded-full font-medium">
+              Loss
+            </span>
+          </div>
+
+          <div className="space-y-3 text-gray-700">
+            <p>• Strong start with goals from Berhalter and Trusty.</p>
+            <p>• Christian Pulisic returned from injury and looked sharp off the bench.</p>
+            <p>• Sebastian Berhalter delivered a goal and an assist in a strong midfield display.</p>
+            <p>• Late collapse allowed Türkiye to score twice and take the win.</p>
+            <p>• USMNT still topped Group D with 6 points despite the defeat.</p>
+          </div>
+
+          <div className="mt-5">
+            <Link 
+              href="/news/usmnt-fall-to-turkiye-group-finale" 
+              className="text-sm text-blue-600 hover:underline font-medium"
+            >
+              Read full match recap →
+            </Link>
+          </div>
+        </div>
+
+        {/* Druga utakmica */}
+        <div className="border border-gray-200 rounded-2xl p-6 mb-6 bg-white shadow-sm">
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <span className="text-sm font-medium text-gray-500">June 19, 2026</span>
+              <h3 className="text-xl font-semibold mt-1">United States 2 - 0 Australia</h3>
+            </div>
+            <span className="px-3 py-1 text-sm bg-green-100 text-green-700 rounded-full font-medium">
+              Win
+            </span>
+          </div>
+
+          <div className="space-y-3 text-gray-700">
+            <p>• Dominant performance with 62% possession and strong defensive display.</p>
+            <p>• Folarin Balogun was key in attack once again.</p>
+            <p>• Alex Freeman (21) scored his first World Cup goal with a powerful header.</p>
+            <p>• Excellent atmosphere at Lumen Field in Seattle.</p>
+            <p>• Cristian Roldan played in front of his home supporters.</p>
+          </div>
+
+          <div className="mt-5">
+            <Link 
+              href="/news/usmnt-statement-win-australia-seattle" 
+              className="text-sm text-blue-600 hover:underline font-medium"
+            >
+              Read full match recap →
+            </Link>
+          </div>
+        </div>
 
         {/* Prva utakmica */}
         <div className="border border-gray-200 rounded-2xl p-6 mb-6 bg-white shadow-sm">
@@ -503,7 +345,6 @@ export default function USMNTWorldCupBrief() {
             </Link>
           </div>
         </div>
-
       </div>
 
     </div>

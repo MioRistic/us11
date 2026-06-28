@@ -11,6 +11,24 @@ import Us11 from '../../public/11.png';
 
 const Blog = () => {
   const blogPosts = [
+    {
+  "id": 192,
+  "title": "Pochettino’s Future at the USMNT: Why U.S. Soccer Made Its Move Early",
+  "author": "Mio Ristić",
+  "date": "June 28, 2026",
+  "excerpt": "U.S. Soccer has offered Mauricio Pochettino a contract extension through the 2030 World Cup. The timing of the offer reflects both the federation’s ambitions and the Argentine’s strong start with the team.",
+  "imageUrl": "https://assets.goal.com/images/v3/bltdf32edd9113f7080/crop/MM5DGOJQGY5DEMJZG45G433XMU5DAORSGAZQ====/GettyImages-2280211150.jpg?auto=webp&format=pjpg&width=1080&quality=60",
+  "slug": "pochettino-contract-extension-2030"
+},
+    {
+  "id": 191,
+  "title": "USMNT Fall to Türkiye 3-2 in Group Finale But Finish Top of Group D",
+  "author": "Mio Ristić",
+  "date": "June 25, 2026",
+  "excerpt": "Despite a 3-2 loss to Türkiye, the USMNT topped Group D with six points. Pulisic returned from injury, Berhalter impressed, but defensive depth remains a concern heading into the knockout rounds.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2283360510/crop/MM5DCNZSGA5DSNRYHJXG653FHIYDUNBR/GettyImages-2283360510.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "usmnt-fall-to-turkiye-group-finale"
+},
      {
   "id": 190,
   "title": "USMNT vs Türkiye: Playing for Pride, Momentum and a Perfect Group Stage",
