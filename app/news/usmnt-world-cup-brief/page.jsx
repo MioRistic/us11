@@ -157,7 +157,7 @@ export default function USMNTWorldCupBrief() {
           </div>
 
           <a 
-            href="https://expedia.com/affiliate/oLCaNut" 
+            href="https://expedia.com/affiliate/GtVUqr8" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-[#020617] hover:bg-black text-white font-semibold px-10 py-4 rounded-2xl transition whitespace-nowrap flex-shrink-0 text-center"
@@ -181,7 +181,7 @@ export default function USMNTWorldCupBrief() {
 
             <div className="mt-4 md:mt-0">
               <a
-                href="https://ticketnetwork.lusg.net/GbR7W9"
+                href="https://ticketnetwork.lusg.net/L0gnoY"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-black hover:bg-zinc-800 transition-colors text-white font-semibold px-8 py-3 rounded-xl text-sm"

@@ -194,7 +194,7 @@ const jerseysBlogPosts: Post[] = [
  {
   "title": "USMNT World Cup Brief",
   "subtitle": "Daily updates from the 2026 FIFA World Cup",
-  "image": "https://i.ibb.co/7N0zcfsC/usmntlogo.png",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/United_States_Soccer_Federation_logo.svg/960px-United_States_Soccer_Federation_logo.svg.png",
   "link": "/news/usmnt-world-cup-brief"
 }, 
 {
