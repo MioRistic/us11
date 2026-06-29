@@ -32,6 +32,24 @@ const USNationalTeamPage = () => {
   ];
 
   const newsPosts = [
+     {
+  "id": 193,
+  "title": "USMNT vs Bosnia and Herzegovina: A Golden Opportunity, But No Room for Complacency",
+  "author": "Mio Ristić",
+  "date": "June 29, 2026",
+  "excerpt": "With first place secured in Group D, the United States face Bosnia and Herzegovina in the Round of 32. A favorable matchup, but Pochettino warns against complacency as the knockout stage begins.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2283365405/crop/MM5DINRWGY5DENRSGU5G433XMU5DAORSGQZQ====/GettyImages-2283365405.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/usmnt-vs-bosnia-herzegovina-round-of-32"
+},
+  {
+  "id": 192,
+  "title": "Pochettino’s Future at the USMNT: Why U.S. Soccer Made Its Move Early",
+  "author": "Mio Ristić",
+  "date": "June 28, 2026",
+  "excerpt": "U.S. Soccer has offered Mauricio Pochettino a contract extension through the 2030 World Cup. The timing of the offer reflects both the federation’s ambitions and the Argentine’s strong start with the team.",
+  "imageUrl": "https://assets.goal.com/images/v3/bltdf32edd9113f7080/crop/MM5DGOJQGY5DEMJZG45G433XMU5DAORSGAZQ====/GettyImages-2280211150.jpg?auto=webp&format=pjpg&width=1080&quality=60",
+  "link": "news/pochettino-contract-extension-2030"
+},
       {
   "id": 190,
   "title": "USMNT vs Türkiye: Playing for Pride, Momentum and a Perfect Group Stage",
@@ -41,56 +59,21 @@ const USNationalTeamPage = () => {
   "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHG58xIJA464ZXYwF1YUDzSKe11IXvZX2m4DdIAEjFgA&s=10",
   "link": "news/usmnt-vs-turkiye-group-stage-finale"
 },
-    {
-  "id": 184,
-  "title": "USMNT vs Australia: A Statement Win, Then a Real Test of Ambition",
-  "author": "Mio Ristić",
-  "date": "June 19, 2026",
-  "excerpt": "After the dominant 4-1 win over Paraguay, the USMNT faces a much tougher test against Australia in Seattle. Preview, stakes, and what a win would mean for Group D.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2269402545/crop/MM5DIOBRGY5DENZQHE5G433XMU5DAORRG44Q====/GettyImages-2269402545.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "slug": "usmnt-vs-australia-seattle"
-},
-    {
-      id: 180,
-      title: "USMNT Deliver the Statement They've Been Waiting For",
-      author: "Mio Ristić",
-      date: "June 13, 2026",
-      excerpt: "The United States produced their most dominant World Cup opening performance in years with a convincing 4-1 win over Paraguay. A statement result that showed the USMNT finally looked like they belonged on the biggest stage.",
-      imageUrl: "https://i.ibb.co/202b5vLP/usmnt.png",
-      slug: "usmnt-deliver-the-statement-theyve-been-waiting-for"
-    },
-    {
-      id: 177,
-      title: "USMNT Establish World Cup Base at Great Park in Orange County Ahead of 2026",
-      author: "Mio Ristić",
-      date: "June 9, 2026",
-      excerpt: "The United States Men's National Team has officially set up its 2026 FIFA World Cup base at Great Park in Orange County, creating a high-performance training hub ahead of the tournament under Mauricio Pochettino.",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Championship_Soccer_Stadium_NW_View_2024-08-03.jpg/1280px-Championship_Soccer_Stadium_NW_View_2024-08-03.jpg",
-      slug: "usmnt-camp"
-    },
-  {
-    id: 176,
-    title: "USMNT Fall to Germany in Final World Cup Send-Off, But Deliver Plenty of Reasons for Optimism",
-    author: "Mio Ristić",
-    date: "June 6, 2026",
-    excerpt: "The USMNT closed out World Cup preparations with a competitive 2-1 loss to Germany, as Antonee Robinson’s stunning equalizer highlighted an encouraging performance ahead of the tournament.",
-    imageUrl: "https://assets.goal.com/images/v3/bltf6b8614c13a32667/crop/MM5DINZUGA5DENRWGY5G433XMU5DAORSGQ3Q====/GettyImages-2280213323.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-    slug: "usmnt-germany-world-cup-send-off"
-  },
-  {
-    id: 174,
-    title: "USMNT Builds World Cup Momentum With Bounce-Back 3-2 Win Over Senegal",
-    author: "Mio Ristić",
-    date: "May 31, 2026",
-    excerpt: "Christian Pulisic ended his scoring drought, Ricardo Pepi impressed, and Folarin Balogun scored the winner as the USMNT came from behind to defeat Senegal 3-2 ahead of the 2026 FIFA World Cup.",
-    imageUrl: "https://assets.goal.com/images/v3/getty-2279124591/crop/MM5DGMZTG45DCOBXG45G433XMU5DAORRGY4Q====/GettyImages-2279124591.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-    slug: "usmnt-senegal-world-cup-momentum"
-  },
+    
   ];
 
   const latestNews = newsPosts.slice(0, 3);
 
   const blogPosts = [
+    {
+  "id": 1027,
+  "title": "USA vs Bosnia and Herzegovina Tickets: How to Buy Round of 32 World Cup Tickets + Match Preview",
+  "author": "Mio Ristić",
+  "date": "June 29, 2026",
+  "excerpt": "The United States face Bosnia and Herzegovina in the Round of 32 at San Francisco Bay Area Stadium. Everything you need to know about tickets, prices, and the match.",
+  "imageUrl": "https://i.ibb.co/N6sw1JtY/Untitled-design-9.png",
+  "link": "blog/usa-vs-bosnia-herzegovina-round-of-32"
+},
     {
   "id": 1026,
   "title": "Türkiye vs USMNT 2026 Tickets: The Last Chance to See the Stars and Stripes in the Group Stage",

@@ -50,6 +50,15 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 1027,
+  "title": "USA vs Bosnia and Herzegovina Tickets: How to Buy Round of 32 World Cup Tickets + Match Preview",
+  "author": "Mio Ristić",
+  "date": "June 29, 2026",
+  "excerpt": "The United States face Bosnia and Herzegovina in the Round of 32 at San Francisco Bay Area Stadium. Everything you need to know about tickets, prices, and the match.",
+  "imageUrl": "https://i.ibb.co/N6sw1JtY/Untitled-design-9.png",
+  "slug": "usa-vs-bosnia-herzegovina-round-of-32"
+},
+  {
   "id": 1026,
   "title": "Türkiye vs USMNT 2026 Tickets: The Last Chance to See the Stars and Stripes in the Group Stage",
   "author": "Mio Ristić",

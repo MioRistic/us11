@@ -102,6 +102,15 @@ const blogPosts: Post[] = [
 
 const usmntPosts: Post[] = [
   {
+  "id": 1027,
+  "title": "USA vs Bosnia and Herzegovina Tickets: How to Buy Round of 32 World Cup Tickets + Match Preview",
+  "author": "Mio Ristić",
+  "date": "June 29, 2026",
+  "excerpt": "The United States face Bosnia and Herzegovina in the Round of 32 at San Francisco Bay Area Stadium. Everything you need to know about tickets, prices, and the match.",
+  "imageUrl": "https://i.ibb.co/N6sw1JtY/Untitled-design-9.png",
+  "link": "blog/usa-vs-bosnia-herzegovina-round-of-32"
+},
+  {
   "id": 193,
   "title": "USMNT vs Bosnia and Herzegovina: A Golden Opportunity, But No Room for Complacency",
   "author": "Mio Ristić",
@@ -119,17 +128,7 @@ const usmntPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/bltdf32edd9113f7080/crop/MM5DGOJQGY5DEMJZG45G433XMU5DAORSGAZQ====/GettyImages-2280211150.jpg?auto=webp&format=pjpg&width=1080&quality=60",
   "link": "news/pochettino-contract-extension-2030"
 },
-  {
-  "id": 191,
-  "title": "USMNT Fall to Türkiye 3-2 in Group Finale But Finish Top of Group D",
-  "author": "Mio Ristić",
-  "date": "June 25, 2026",
-  "excerpt": "Despite a 3-2 loss to Türkiye, the USMNT topped Group D with six points. Pulisic returned from injury, Berhalter impressed, but defensive depth remains a concern heading into the knockout rounds.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2283360510/crop/MM5DCNZSGA5DSNRYHJXG653FHIYDUNBR/GettyImages-2283360510.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "news/usmnt-fall-to-turkiye-group-finale"
-},
- 
-    
+
  
   
    
