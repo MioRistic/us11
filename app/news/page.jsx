@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 194,
+  "title": "Robert Lewandowski Agrees to Join Chicago Fire: One of MLS’s Biggest Signings in History",
+  "author": "Mio Ristić",
+  "date": "June 29, 2026",
+  "excerpt": "Polish superstar Robert Lewandowski has agreed to join Chicago Fire on a two-year contract. One of the biggest transfers in MLS history is nearly complete.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt4e611d016b7d111f/crop/MM5DKOJUHIZTGNB2NZXXOZJ2GA5DGMI=/gettyimages-2255221090-594x594.jpg?auto=webp&format=pjpg&width=1080&quality=60",
+  "slug": "robert-lewandowski-chicago-fire"
+},
+    {
+  "id": 193,
+  "title": "USMNT vs Bosnia and Herzegovina: A Golden Opportunity, But No Room for Complacency",
+  "author": "Mio Ristić",
+  "date": "June 29, 2026",
+  "excerpt": "With first place secured in Group D, the United States face Bosnia and Herzegovina in the Round of 32. A favorable matchup, but Pochettino warns against complacency as the knockout stage begins.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2283365405/crop/MM5DINRWGY5DENRSGU5G433XMU5DAORSGQZQ====/GettyImages-2283365405.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "usmnt-vs-bosnia-herzegovina-round-of-32"
+},
+    {
   "id": 192,
   "title": "Pochettino’s Future at the USMNT: Why U.S. Soccer Made Its Move Early",
   "author": "Mio Ristić",

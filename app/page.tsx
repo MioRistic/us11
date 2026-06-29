@@ -67,6 +67,24 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 194,
+  "title": "Robert Lewandowski Agrees to Join Chicago Fire: One of MLS’s Biggest Signings in History",
+  "author": "Mio Ristić",
+  "date": "June 29, 2026",
+  "excerpt": "Polish superstar Robert Lewandowski has agreed to join Chicago Fire on a two-year contract. One of the biggest transfers in MLS history is nearly complete.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt4e611d016b7d111f/crop/MM5DKOJUHIZTGNB2NZXXOZJ2GA5DGMI=/gettyimages-2255221090-594x594.jpg?auto=webp&format=pjpg&width=1080&quality=60",
+  "link": "news/robert-lewandowski-chicago-fire"
+},
+  {
+  "id": 193,
+  "title": "USMNT vs Bosnia and Herzegovina: A Golden Opportunity, But No Room for Complacency",
+  "author": "Mio Ristić",
+  "date": "June 29, 2026",
+  "excerpt": "With first place secured in Group D, the United States face Bosnia and Herzegovina in the Round of 32. A favorable matchup, but Pochettino warns against complacency as the knockout stage begins.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2283365405/crop/MM5DINRWGY5DENRSGU5G433XMU5DAORSGQZQ====/GettyImages-2283365405.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/usmnt-vs-bosnia-herzegovina-round-of-32"
+},
+  {
   "id": 192,
   "title": "Pochettino’s Future at the USMNT: Why U.S. Soccer Made Its Move Early",
   "author": "Mio Ristić",
@@ -75,25 +93,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/bltdf32edd9113f7080/crop/MM5DGOJQGY5DEMJZG45G433XMU5DAORSGAZQ====/GettyImages-2280211150.jpg?auto=webp&format=pjpg&width=1080&quality=60",
   "link": "news/pochettino-contract-extension-2030"
 },
-  {
-  "id": 191,
-  "title": "USMNT Fall to Türkiye 3-2 in Group Finale But Finish Top of Group D",
-  "author": "Mio Ristić",
-  "date": "June 25, 2026",
-  "excerpt": "Despite a 3-2 loss to Türkiye, the USMNT topped Group D with six points. Pulisic returned from injury, Berhalter impressed, but defensive depth remains a concern heading into the knockout rounds.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2283360510/crop/MM5DCNZSGA5DSNRYHJXG653FHIYDUNBR/GettyImages-2283360510.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "news/usmnt-fall-to-turkiye-group-finale"
-},
-  {
-  "id": 190,
-  "title": "USMNT vs Türkiye: Playing for Pride, Momentum and a Perfect Group Stage",
-  "author": "Mio Ristić",
-  "date": "June 25, 2026",
-  "excerpt": "With first place already secured, the USMNT face Türkiye in their final group stage match. Pochettino plans rotation but demands intensity as they aim for a perfect record.",
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHG58xIJA464ZXYwF1YUDzSKe11IXvZX2m4DdIAEjFgA&s=10",
-  "link": "news/usmnt-vs-turkiye-group-stage-finale"
-},
-    
+
  
  
  
@@ -102,6 +102,15 @@ const blogPosts: Post[] = [
 
 const usmntPosts: Post[] = [
   {
+  "id": 193,
+  "title": "USMNT vs Bosnia and Herzegovina: A Golden Opportunity, But No Room for Complacency",
+  "author": "Mio Ristić",
+  "date": "June 29, 2026",
+  "excerpt": "With first place secured in Group D, the United States face Bosnia and Herzegovina in the Round of 32. A favorable matchup, but Pochettino warns against complacency as the knockout stage begins.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2283365405/crop/MM5DINRWGY5DENRSGU5G433XMU5DAORSGQZQ====/GettyImages-2283365405.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/usmnt-vs-bosnia-herzegovina-round-of-32"
+},
+  {
   "id": 192,
   "title": "Pochettino’s Future at the USMNT: Why U.S. Soccer Made Its Move Early",
   "author": "Mio Ristić",
@@ -119,15 +128,7 @@ const usmntPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2283360510/crop/MM5DCNZSGA5DSNRYHJXG653FHIYDUNBR/GettyImages-2283360510.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "news/usmnt-fall-to-turkiye-group-finale"
 },
-  {
-  "id": 190,
-  "title": "USMNT vs Türkiye: Playing for Pride, Momentum and a Perfect Group Stage",
-  "author": "Mio Ristić",
-  "date": "June 25, 2026",
-  "excerpt": "With first place already secured, the USMNT face Türkiye in their final group stage match. Pochettino plans rotation but demands intensity as they aim for a perfect record.",
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHG58xIJA464ZXYwF1YUDzSKe11IXvZX2m4DdIAEjFgA&s=10",
-  "link": "news/usmnt-vs-turkiye-group-stage-finale"
-},
+ 
     
  
   
