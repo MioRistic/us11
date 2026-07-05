@@ -26,17 +26,31 @@ const groupDStandings = [
     team: "Australia",
     flag: "🇦🇺",
     played: 3,
-    won: 2,
-    drawn: 0,
+    won: 1,
+    drawn: 1,
     lost: 1,
     gf: 4,
-    ga: 2,
-    gd: 2,
-    points: 6,
-    form: ["W", "L", "W"]
+    ga: 4,
+    gd: 0,
+    points: 4,
+    form: ["W", "L", "D"]
   },
   {
     position: 3,
+    team: "Paraguay",
+    flag: "🇵🇾",
+    played: 3,
+    won: 1,
+    drawn: 1,
+    lost: 1,
+    gf: 3,
+    ga: 5,
+    gd: -2,
+    points: 4,
+    form: ["L", "W", "D"]
+  },
+  {
+    position: 4,
     team: "Türkiye",
     flag: "🇹🇷",
     played: 3,
@@ -48,20 +62,6 @@ const groupDStandings = [
     gd: -2,
     points: 3,
     form: ["L", "L", "W"]
-  },
-  {
-    position: 4,
-    team: "Paraguay",
-    flag: "🇵🇾",
-    played: 3,
-    won: 1,
-    drawn: 0,
-    lost: 2,
-    gf: 2,
-    ga: 6,
-    gd: -4,
-    points: 3,
-    form: ["L", "W", "L"]
   }
 ];
 
@@ -174,14 +174,14 @@ export default function USMNTWorldCupBrief() {
         <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div>
-              <p className="text-sm text-gray-500">Round of 32</p>
-              <p className="text-2xl font-semibold mt-1">United States vs Bosnia & Herzegovina</p>
-              <p className="text-gray-600 mt-1">TBD • TBD • TBD</p>
+              <p className="text-sm text-gray-500">Round of 16</p>
+              <p className="text-2xl font-semibold mt-1">United States vs Belgium</p>
+              <p className="text-gray-600 mt-1">July 6, 2026 • 5:00 PM PT • Seattle</p>
             </div>
 
             <div className="mt-4 md:mt-0">
               <a
-                href="https://ticketnetwork.lusg.net/L0gnoY"
+                href="https://ticketnetwork.lusg.net/your-link-here"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-black hover:bg-zinc-800 transition-colors text-white font-semibold px-8 py-3 rounded-xl text-sm"
@@ -193,7 +193,7 @@ export default function USMNTWorldCupBrief() {
         </div>
       </div>
 
-      {/* GROUP D STANDINGS */}
+      {/* GROUP D STANDINGS - TAČNO PREMA SLICI */}
       <div className="mb-12">
         <h2 className="text-xl font-semibold mb-6 text-gray-700">Group D Standings (Final)</h2>
 
@@ -202,61 +202,113 @@ export default function USMNTWorldCupBrief() {
             <thead>
               <tr className="border-b border-gray-200 text-gray-500">
                 <th className="py-4 px-5 text-left font-medium">Team</th>
-                <th className="py-4 px-3 text-center font-medium">MP</th>
+                <th className="py-4 px-3 text-center font-medium">P</th>
                 <th className="py-4 px-3 text-center font-medium">W</th>
                 <th className="py-4 px-3 text-center font-medium">D</th>
                 <th className="py-4 px-3 text-center font-medium">L</th>
-                <th className="py-4 px-3 text-center font-medium">GF</th>
-                <th className="py-4 px-3 text-center font-medium">GA</th>
                 <th className="py-4 px-3 text-center font-medium">GD</th>
                 <th className="py-4 px-4 text-center font-medium">Pts</th>
-                <th className="py-4 px-5 text-center font-medium">Last 5</th>
               </tr>
             </thead>
             <tbody>
-              {groupDStandings.map((team, index) => (
-                <tr key={index} className="border-b border-gray-100 last:border-none hover:bg-gray-50">
-                  <td className="py-4 px-5">
-                    <div className="flex items-center gap-3">
-                      <span className="text-xl">{team.flag}</span>
-                      <span className="font-semibold text-gray-900">{team.team}</span>
-                    </div>
-                  </td>
-                  <td className="py-4 px-3 text-center text-gray-700">{team.played}</td>
-                  <td className="py-4 px-3 text-center text-gray-700">{team.won}</td>
-                  <td className="py-4 px-3 text-center text-gray-700">{team.drawn}</td>
-                  <td className="py-4 px-3 text-center text-gray-700">{team.lost}</td>
-                  <td className="py-4 px-3 text-center text-gray-700">{team.gf}</td>
-                  <td className="py-4 px-3 text-center text-gray-700">{team.ga}</td>
-                  <td className="py-4 px-3 text-center font-medium text-gray-700">
-                    {team.gd > 0 ? `+${team.gd}` : team.gd}
-                  </td>
-                  <td className="py-4 px-4 text-center font-bold text-lg text-gray-900">{team.points}</td>
-                  <td className="py-4 px-5">
-                    <div className="flex justify-center gap-1.5">
-                      {team.form.map((result, i) => (
-                        <span 
-                          key={i} 
-                          className={`w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold text-white
-                            ${result === 'W' ? 'bg-green-500' : 'bg-red-500'}`}
-                        >
-                          {result}
-                        </span>
-                      ))}
-                    </div>
-                  </td>
-                </tr>
-              ))}
+              <tr className="border-b border-gray-100 hover:bg-gray-50">
+                <td className="py-4 px-5">
+                  <div className="flex items-center gap-3">
+                    <span className="text-xl">🇺🇸</span>
+                    <span className="font-semibold text-gray-900">USA</span>
+                  </div>
+                </td>
+                <td className="py-4 px-3 text-center text-gray-700">3</td>
+                <td className="py-4 px-3 text-center text-gray-700">2</td>
+                <td className="py-4 px-3 text-center text-gray-700">0</td>
+                <td className="py-4 px-3 text-center text-gray-700">1</td>
+                <td className="py-4 px-3 text-center font-medium text-emerald-600">+4</td>
+                <td className="py-4 px-4 text-center font-bold text-lg text-gray-900">6</td>
+              </tr>
+
+              <tr className="border-b border-gray-100 hover:bg-gray-50">
+                <td className="py-4 px-5">
+                  <div className="flex items-center gap-3">
+                    <span className="text-xl">🇦🇺</span>
+                    <span className="font-semibold text-gray-900">Australia</span>
+                  </div>
+                </td>
+                <td className="py-4 px-3 text-center text-gray-700">3</td>
+                <td className="py-4 px-3 text-center text-gray-700">1</td>
+                <td className="py-4 px-3 text-center text-gray-700">1</td>
+                <td className="py-4 px-3 text-center text-gray-700">1</td>
+                <td className="py-4 px-3 text-center font-medium text-gray-700">0</td>
+                <td className="py-4 px-4 text-center font-bold text-lg text-gray-900">4</td>
+              </tr>
+
+              <tr className="border-b border-gray-100 hover:bg-gray-50">
+                <td className="py-4 px-5">
+                  <div className="flex items-center gap-3">
+                    <span className="text-xl">🇵🇾</span>
+                    <span className="font-semibold text-gray-900">Paraguay</span>
+                  </div>
+                </td>
+                <td className="py-4 px-3 text-center text-gray-700">3</td>
+                <td className="py-4 px-3 text-center text-gray-700">1</td>
+                <td className="py-4 px-3 text-center text-gray-700">1</td>
+                <td className="py-4 px-3 text-center text-gray-700">1</td>
+                <td className="py-4 px-3 text-center font-medium text-red-600">-2</td>
+                <td className="py-4 px-4 text-center font-bold text-lg text-gray-900">4</td>
+              </tr>
+
+              <tr className="hover:bg-gray-50">
+                <td className="py-4 px-5">
+                  <div className="flex items-center gap-3">
+                    <span className="text-xl">🇹🇷</span>
+                    <span className="font-semibold text-gray-900">Türkiye</span>
+                  </div>
+                </td>
+                <td className="py-4 px-3 text-center text-gray-700">3</td>
+                <td className="py-4 px-3 text-center text-gray-700">1</td>
+                <td className="py-4 px-3 text-center text-gray-700">0</td>
+                <td className="py-4 px-3 text-center text-gray-700">2</td>
+                <td className="py-4 px-3 text-center font-medium text-red-600">-2</td>
+                <td className="py-4 px-4 text-center font-bold text-lg text-gray-900">3</td>
+              </tr>
             </tbody>
           </table>
         </div>
       </div>
 
-            {/* MATCH UPDATES */}
+      {/* MATCH UPDATES - SA BOSNOM NA VRHU */}
       <div>
         <h2 className="text-xl font-semibold mb-6 text-gray-700">Match Updates</h2>
 
-        {/* Treća utakmica - NAJNOVIJA (PRVA) */}
+        {/* Bosna - najnovija */}
+        <div className="border border-gray-200 rounded-2xl p-6 mb-6 bg-white shadow-sm">
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <span className="text-sm font-medium text-gray-500">July 2, 2026</span>
+              <h3 className="text-xl font-semibold mt-1">United States 2 - 0 Bosnia and Herzegovina</h3>
+            </div>
+            <span className="px-3 py-1 text-sm bg-green-100 text-green-700 rounded-full font-medium">
+              Win
+            </span>
+          </div>
+
+          <div className="space-y-3 text-gray-700">
+            <p>• Folarin Balogun scored in the 45th minute.</p>
+            <p>• Balogun controversially sent off in the 64th minute.</p>
+            <p>• Malik Tillman scored a brilliant free-kick in the 82nd minute.</p>
+            <p>• Advanced to Round of 16 for the first time since 2002.</p>
+          </div>
+
+          <div className="mt-5">
+            <Link 
+              href="/news/usmnt-advance-to-round-of-16-bosnia" 
+              className="text-sm text-blue-600 hover:underline font-medium"
+            >
+              Read full match recap →
+            </Link>
+          </div>
+        </div>
+
+        {/* Ostale utakmice (starije) */}
         <div className="border border-gray-200 rounded-2xl p-6 mb-6 bg-white shadow-sm">
           <div className="flex items-center justify-between mb-4">
             <div>
@@ -270,10 +322,9 @@ export default function USMNTWorldCupBrief() {
 
           <div className="space-y-3 text-gray-700">
             <p>• Strong start with goals from Berhalter and Trusty.</p>
-            <p>• Christian Pulisic returned from injury and looked sharp off the bench.</p>
-            <p>• Sebastian Berhalter delivered a goal and an assist in a strong midfield display.</p>
-            <p>• Late collapse allowed Türkiye to score twice and take the win.</p>
-            <p>• USMNT still topped Group D with 6 points despite the defeat.</p>
+            <p>• Christian Pulisic returned from injury.</p>
+            <p>• Late collapse allowed Türkiye to win.</p>
+            <p>• Still topped Group D with 6 points.</p>
           </div>
 
           <div className="mt-5">
@@ -286,7 +337,7 @@ export default function USMNTWorldCupBrief() {
           </div>
         </div>
 
-        {/* Druga utakmica */}
+        {/* Druga i prva utakmica ostaju iste */}
         <div className="border border-gray-200 rounded-2xl p-6 mb-6 bg-white shadow-sm">
           <div className="flex items-center justify-between mb-4">
             <div>
@@ -299,11 +350,9 @@ export default function USMNTWorldCupBrief() {
           </div>
 
           <div className="space-y-3 text-gray-700">
-            <p>• Dominant performance with 62% possession and strong defensive display.</p>
-            <p>• Folarin Balogun was key in attack once again.</p>
-            <p>• Alex Freeman (21) scored his first World Cup goal with a powerful header.</p>
-            <p>• Excellent atmosphere at Lumen Field in Seattle.</p>
-            <p>• Cristian Roldan played in front of his home supporters.</p>
+            <p>• Dominant performance with 62% possession.</p>
+            <p>• Folarin Balogun key in attack.</p>
+            <p>• Alex Freeman scored his first World Cup goal.</p>
           </div>
 
           <div className="mt-5">
@@ -316,8 +365,7 @@ export default function USMNTWorldCupBrief() {
           </div>
         </div>
 
-        {/* Prva utakmica */}
-        <div className="border border-gray-200 rounded-2xl p-6 mb-6 bg-white shadow-sm">
+        <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm">
           <div className="flex items-center justify-between mb-4">
             <div>
               <span className="text-sm font-medium text-gray-500">June 12, 2026</span>
@@ -329,11 +377,9 @@ export default function USMNTWorldCupBrief() {
           </div>
 
           <div className="space-y-3 text-gray-700">
-            <p>• Early own goal by Damián Bobadilla (7') gave USMNT the lead.</p>
-            <p>• Folarin Balogun scored twice in the first half (31' &amp; 45+5').</p>
-            <p>• Giovanni Reyna sealed the win with a late goal in stoppage time.</p>
-            <p>• Dominant first-half performance in front of 70,492 fans at SoFi Stadium.</p>
-            <p>• Christian Pulisic was subbed at halftime as a precaution (calf injury).</p>
+            <p>• Early own goal by Damián Bobadilla (7').</p>
+            <p>• Folarin Balogun scored twice.</p>
+            <p>• Dominant first-half performance.</p>
           </div>
 
           <div className="mt-5">

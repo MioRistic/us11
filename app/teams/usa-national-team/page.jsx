@@ -32,6 +32,15 @@ const USNationalTeamPage = () => {
   ];
 
   const newsPosts = [
+    {
+  "id": 195,
+  "title": "USMNT Advance to World Cup Round of 16 with 2-0 Win Over Bosnia and Herzegovina – Balogun Shines Before Controversial Red Card",
+  "author": "Mio Ristić",
+  "date": "July 2, 2026",
+  "excerpt": "The United States defeated Bosnia and Herzegovina 2-0 to advance to the Round of 16. Folarin Balogun scored but was controversially sent off, while Malik Tillman sealed the win with a stunning free-kick.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2284249560/crop/MM5DINJSGI5DENJUGQ5G433XMU5DAORSGM3A====/GettyImages-2284249560.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/usmnt-advance-to-round-of-16-bosnia"
+},
      {
   "id": 193,
   "title": "USMNT vs Bosnia and Herzegovina: A Golden Opportunity, But No Room for Complacency",

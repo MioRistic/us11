@@ -66,6 +66,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
   );
 };
 const blogPosts: Post[] = [
+    {
+  "id": 195,
+  "title": "USMNT Advance to World Cup Round of 16 with 2-0 Win Over Bosnia and Herzegovina – Balogun Shines Before Controversial Red Card",
+  "author": "Mio Ristić",
+  "date": "July 2, 2026",
+  "excerpt": "The United States defeated Bosnia and Herzegovina 2-0 to advance to the Round of 16. Folarin Balogun scored but was controversially sent off, while Malik Tillman sealed the win with a stunning free-kick.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2284249560/crop/MM5DINJSGI5DENJUGQ5G433XMU5DAORSGM3A====/GettyImages-2284249560.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/usmnt-advance-to-round-of-16-bosnia"
+},
   {
   "id": 194,
   "title": "Robert Lewandowski Agrees to Join Chicago Fire: One of MLS’s Biggest Signings in History",
@@ -84,15 +93,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2283365405/crop/MM5DINRWGY5DENRSGU5G433XMU5DAORSGQZQ====/GettyImages-2283365405.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "news/usmnt-vs-bosnia-herzegovina-round-of-32"
 },
-  {
-  "id": 192,
-  "title": "Pochettino’s Future at the USMNT: Why U.S. Soccer Made Its Move Early",
-  "author": "Mio Ristić",
-  "date": "June 28, 2026",
-  "excerpt": "U.S. Soccer has offered Mauricio Pochettino a contract extension through the 2030 World Cup. The timing of the offer reflects both the federation’s ambitions and the Argentine’s strong start with the team.",
-  "imageUrl": "https://assets.goal.com/images/v3/bltdf32edd9113f7080/crop/MM5DGOJQGY5DEMJZG45G433XMU5DAORSGAZQ====/GettyImages-2280211150.jpg?auto=webp&format=pjpg&width=1080&quality=60",
-  "link": "news/pochettino-contract-extension-2030"
-},
+ 
 
  
  
@@ -101,6 +102,15 @@ const blogPosts: Post[] = [
 ];
 
 const usmntPosts: Post[] = [
+  {
+  "id": 195,
+  "title": "USMNT Advance to World Cup Round of 16 with 2-0 Win Over Bosnia and Herzegovina – Balogun Shines Before Controversial Red Card",
+  "author": "Mio Ristić",
+  "date": "July 2, 2026",
+  "excerpt": "The United States defeated Bosnia and Herzegovina 2-0 to advance to the Round of 16. Folarin Balogun scored but was controversially sent off, while Malik Tillman sealed the win with a stunning free-kick.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2284249560/crop/MM5DINJSGI5DENJUGQ5G433XMU5DAORSGM3A====/GettyImages-2284249560.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/usmnt-advance-to-round-of-16-bosnia"
+},
   {
   "id": 1027,
   "title": "USA vs Bosnia and Herzegovina Tickets: How to Buy Round of 32 World Cup Tickets + Match Preview",
@@ -119,16 +129,6 @@ const usmntPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2283365405/crop/MM5DINRWGY5DENRSGU5G433XMU5DAORSGQZQ====/GettyImages-2283365405.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "news/usmnt-vs-bosnia-herzegovina-round-of-32"
 },
-  {
-  "id": 192,
-  "title": "Pochettino’s Future at the USMNT: Why U.S. Soccer Made Its Move Early",
-  "author": "Mio Ristić",
-  "date": "June 28, 2026",
-  "excerpt": "U.S. Soccer has offered Mauricio Pochettino a contract extension through the 2030 World Cup. The timing of the offer reflects both the federation’s ambitions and the Argentine’s strong start with the team.",
-  "imageUrl": "https://assets.goal.com/images/v3/bltdf32edd9113f7080/crop/MM5DGOJQGY5DEMJZG45G433XMU5DAORSGAZQ====/GettyImages-2280211150.jpg?auto=webp&format=pjpg&width=1080&quality=60",
-  "link": "news/pochettino-contract-extension-2030"
-},
-
  
   
    
