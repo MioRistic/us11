@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { FaFacebookF, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import { FiCopy } from 'react-icons/fi';
 
-export default function USMNTvsBosniaPreview() {
+export default function USMNTBosniaVictory() {
   const [currentUrl, setCurrentUrl] = useState('');
   const [copied, setCopied] = useState(false);
 
@@ -28,10 +28,10 @@ export default function USMNTvsBosniaPreview() {
     }
   };
 
-  const articleTitle = "USMNT vs Bosnia and Herzegovina: A Golden Opportunity, But No Room for Complacency";
+  const articleTitle = "USMNT Advance to World Cup Round of 16 with 2-0 Win Over Bosnia and Herzegovina – Balogun Shines Before Controversial Red Card";
 
   const facebookShare = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
-  const twitterShare = `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent('USMNT face Bosnia in Round of 32 – Preview ⚽️')}`;
+  const twitterShare = `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent('USMNT advance to Round of 16 after beating Bosnia ⚽️')}`;
   const whatsappShare = `https://api.whatsapp.com/send?text=${encodeURIComponent(articleTitle + ' ' + currentUrl)}`;
 
   return (
@@ -41,13 +41,13 @@ export default function USMNTvsBosniaPreview() {
         {/* HEADER */}
         <header className="mb-8">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-3">
-            USMNT vs Bosnia and Herzegovina: A Golden Opportunity, But No Room for Complacency
+            USMNT Advance to World Cup Round of 16 with 2-0 Win Over Bosnia and Herzegovina – Balogun Shines Before Controversial Red Card
           </h1>
 
           <div className="flex items-center gap-4 mt-2 text-sm text-gray-500">
             <span>By Mio Ristić</span>
             <span>•</span>
-            <time dateTime="2026-06-29">June 29, 2026</time>
+            <time dateTime="2026-07-02">July 2, 2026</time>
           </div>
 
           {/* SOCIAL SHARE */}
@@ -70,14 +70,17 @@ export default function USMNTvsBosniaPreview() {
         {/* FEATURE IMAGE */}
         <figure className="relative w-full rounded-3xl overflow-hidden shadow-md mb-10 aspect-[16/9]">
           <Image
-            src="https://assets.goal.com/images/v3/getty-2283365405/crop/MM5DINRWGY5DENRSGU5G433XMU5DAORSGQZQ====/GettyImages-2283365405.jpg?auto=webp&format=pjpg&width=1920&quality=60"
-            alt="USMNT vs Bosnia and Herzegovina 2026"
+            src="https://assets.goal.com/images/v3/getty-2284249560/crop/MM5DINJSGI5DENJUGQ5G433XMU5DAORSGM3A====/GettyImages-2284249560.jpg?auto=webp&format=pjpg&width=3840&quality=60"
+            alt="USMNT vs Bosnia World Cup 2026"
             fill
             className="object-cover"
             priority
           />
           <div className="absolute bottom-4 right-4 bg-black/70 text-white text-xs px-3 py-1 rounded font-medium">
-            Credit: Getty Images | Copyright: 2026 Getty Images
+            Creator: Michael Steele
+ | 
+Credit: Getty Images
+Copyright: 2026 Getty Images
           </div>
         </figure>
 
@@ -85,76 +88,85 @@ export default function USMNTvsBosniaPreview() {
         <section className="prose prose-lg max-w-none leading-relaxed space-y-8 text-gray-800">
 
           <p className="text-xl">
-            SANTA CLARA, Calif. — The group stage is over. The United States finished top of Group D with six points and a statement of intent. Now the real World Cup begins.
+            SANTA CLARA, Calif. — July 2, 2026
           </p>
 
           <p>
-            On July 1 at the San Francisco Bay Area Stadium, the USMNT will face Bosnia and Herzegovina in the Round of 32. It is, on paper, one of the more favorable matchups available to a top-seeded team. But as Mauricio Pochettino and his players are well aware, favorable on paper does not always translate on the pitch.
+            The United States Men’s National Team is moving on.
           </p>
 
-         <div className="mb-12">
-  <h2 className="text-3xl font-black mt-12 mb-5 text-[#020617]">
-    A Familiar Opponent With Teeth
-  </h2>
-  
-  <p className="text-gray-700 leading-relaxed">
-    Bosnia and Herzegovina advanced as one of the best third-placed teams, and they arrive in California with nothing to lose and plenty to prove. 
-    This is a side built on experience and tactical discipline. Edin Džeko remains a dangerous focal point up front, while Miralem Pjanić and the midfield provide technical quality and set-piece threat.
-  </p>
+          <p>
+            In a tense and dramatic Round of 32 matchup at San Francisco Bay Area Stadium, the USMNT defeated Bosnia and Herzegovina <strong>2-0</strong> to advance to the World Cup knockout stage for the first time since 2002.
+          </p>
 
-  <p className="text-gray-700 leading-relaxed mt-6">
-    They are physical, organized, and capable of punishing any complacency. Pochettino has already warned his players not to underestimate the challenge.
-  </p>
-
-  <blockquote className="border-l-4 border-gray-300 pl-6 italic text-lg my-8 text-gray-700">
-    “Every team in the knockout stage is dangerous,” he said. “Bosnia has quality players and a strong mentality. We must be at our best.”
-  </blockquote>
-
-  <p className="text-gray-700 leading-relaxed">
-    For the USMNT, this is an opportunity. A winnable game against a side they should, on talent and current form, be able to overcome. 
-    But it is also a test of maturity — the first true knockout pressure of the tournament on home soil.
-  </p>
-</div>
+          <p>
+            Folarin Balogun gave the hosts the lead on the brink of halftime, and Malik Tillman sealed the victory with a stunning free-kick goal in the 82nd minute. However, the night was not without controversy, as Balogun was sent off in the second half.
+          </p>
 
           <h2 className="text-3xl font-black mt-12 mb-5 text-[#020617]">
-            Pochettino’s Big Decisions
+            Balogun the Hero — Then the Red Card That Changed Everything
           </h2>
           <p>
-            The Argentine coach faces several key choices. Christian Pulisic returned against Türkiye and looked close to full fitness. His presence changes the entire attacking dynamic. Folarin Balogun has been in strong form, and the midfield trio of Tyler Adams, Weston McKennie, and Malik Tillman gives the USMNT balance and physicality.
+            For the first hour, Folarin Balogun was the best player on the pitch. The Monaco striker constantly threatened the Bosnian defense with his movement and pace. He had a goal disallowed for offside in the 31st minute, but made no mistake in the 45th, finishing neatly with his left foot to send the American fans into delirium.
           </p>
 
           <p>
-            The defensive line remains the area of most concern. The rotation against Türkiye exposed some vulnerabilities, and Pochettino must decide whether to go with his strongest available back four or continue to manage minutes and yellow card situations. Rotation will be limited now. This is knockout football. Every player knows the margin for error is razor thin.
-
-
+            Then, in the 64th minute, the game flipped. After a video review, referee Raphael Claus showed Balogun a straight red card for a challenge on Tarik Muharemović. Replays showed Balogun landing awkwardly on the defender’s ankle. Many viewed the decision as harsh, but it left the USMNT with 10 men for the final half-hour of the match.
           </p>
 
-          <div className="mb-12">
-  <h2 className="text-3xl font-black mt-12 mb-5 text-[#020617]">
-    Home Advantage and Momentum
-  </h2>
-  
-  <p className="text-gray-700 leading-relaxed">
-    The atmosphere in Santa Clara is expected to be heavily pro-American, with a large Bosnian-American community also expected to make noise. 
-    The USMNT has fed off home crowds throughout the group stage, and that support could be decisive again.
-  </p>
+          <p>
+            Despite the numerical disadvantage, the Americans showed tremendous character. They defended deep, stayed organized, and waited for their moment.
+          </p>
 
-  <p className="text-gray-700 leading-relaxed mt-6">
-    The bigger picture is clear: this is the moment the 2026 World Cup truly starts for the United States. 
-    They have already achieved the minimum goal of advancing from the group. Now they have the chance to make a deeper run — something that has eluded them in recent tournaments.
-  </p>
+          <p>
+            That moment came in the 82nd minute. Christian Pulisic won a free kick on the edge of the box. Malik Tillman stepped up and delivered a brilliant left-footed strike over the wall and into the top corner. The stadium erupted. Tillman’s goal not only secured the win but also sent a clear message: this USMNT team has resilience.
+          </p>
 
-  <p className="text-gray-700 leading-relaxed mt-6">
-    Pochettino has spoken repeatedly about building belief. A win against Bosnia would do exactly that.
-  </p>
-</div>
+          <h2 className="text-3xl font-black mt-12 mb-5 text-[#020617]">
+            A Historic Night for American Soccer
+          </h2>
+          <p>
+            This victory carries significant weight:
+          </p>
+          <ul>
+            <li>It is only the second knockout-stage win in USMNT World Cup history.</li>
+            <li>It is the first time the United States has won three matches at a single World Cup.</li>
+            <li>It snapped a long losing streak against European opponents.</li>
+            <li>For the first time, a USMNT knockout win happened in primetime on home soil, with millions of Americans watching.</li>
+          </ul>
 
-          <p className="font-semibold text-lg mt-10">
-            The bigger picture is clear: this is the moment the 2026 World Cup truly starts for the United States. They have already achieved the minimum goal of advancing from the group. Now they have the chance to make a deeper run.
+          <p>
+            The atmosphere at Levi’s Stadium was electric. “USA! USA!” chants echoed throughout the night, and the celebrations after Tillman’s goal will be remembered for years.
+          </p>
+
+          <h2 className="text-3xl font-black mt-12 mb-5 text-[#020617]">
+            What’s Next? A Rematch with Belgium
+          </h2>
+          <p>
+            With the win, the USMNT advances to face Belgium in the Round of 16 on Monday, July 6 in Seattle.
+          </p>
+
+          <p>
+            Belgium came from 2-0 down to beat Senegal and advance. They remain a dangerous side with world-class talent. However, the USMNT will have home advantage and growing belief.
+          </p>
+
+          <p>
+            The only downside? Folarin Balogun, the team’s leading scorer with three goals at this tournament, will miss the Belgium match due to suspension.
+          </p>
+
+          <h2 className="text-3xl font-black mt-12 mb-5 text-[#020617]">
+            Final Thoughts
+          </h2>
+          <p>
+            This was more than just a result. It was a statement.
+          </p>
+
+          <p>
+            Mauricio Pochettino’s side showed maturity, character, and the ability to win ugly when necessary. They are no longer just “promising.” They are a team that believes it belongs among the best.
           </p>
 
           <p className="font-bold text-xl mt-8">
-            The statement has been made. Now it’s time to prove it.
+            The 2026 World Cup journey continues. For the United States, it just got a lot more exciting.
           </p>
 
         </section>
@@ -162,7 +174,7 @@ export default function USMNTvsBosniaPreview() {
         {/* FOOTER */}
         <footer className="mt-16 border-t pt-8 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-600">
           <div>
-            <p>Published: June 29, 2026</p>
+            <p>Published: July 2, 2026</p>
             <p>Author: Mio Ristić</p>
           </div>
           <Link href="/news" className="mt-4 sm:mt-0 hover:text-black transition-colors">
