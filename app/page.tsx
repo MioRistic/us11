@@ -66,6 +66,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
   );
 };
 const blogPosts: Post[] = [
+  {
+    "id": 196,
+    "title": "Canada’s World Cup Dream Ends, But a New Era Has Already Begun",
+    "author": "Mio Ristić",
+    "date": "July 5, 2026",
+    "excerpt": "Canada’s historic run at the 2026 World Cup ends in the Round of 16 against Morocco. Despite the defeat, the team leaves with pride and a clear path forward for 2030.",
+    "imageUrl": "https://assets.goal.com/images/v3/getty-2280851139/crop/MM5DEMRXGI5DCMRXHA5G433XMU5DGNBXHI2TGMI=/GettyImages-2280851139.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+    "link": "news/canada-world-cup-exit-round-of-16"
+  },
     {
   "id": 195,
   "title": "USMNT Advance to World Cup Round of 16 with 2-0 Win Over Bosnia and Herzegovina – Balogun Shines Before Controversial Red Card",
@@ -83,15 +92,6 @@ const blogPosts: Post[] = [
   "excerpt": "Polish superstar Robert Lewandowski has agreed to join Chicago Fire on a two-year contract. One of the biggest transfers in MLS history is nearly complete.",
   "imageUrl": "https://assets.goal.com/images/v3/blt4e611d016b7d111f/crop/MM5DKOJUHIZTGNB2NZXXOZJ2GA5DGMI=/gettyimages-2255221090-594x594.jpg?auto=webp&format=pjpg&width=1080&quality=60",
   "link": "news/robert-lewandowski-chicago-fire"
-},
-  {
-  "id": 193,
-  "title": "USMNT vs Bosnia and Herzegovina: A Golden Opportunity, But No Room for Complacency",
-  "author": "Mio Ristić",
-  "date": "June 29, 2026",
-  "excerpt": "With first place secured in Group D, the United States face Bosnia and Herzegovina in the Round of 32. A favorable matchup, but Pochettino warns against complacency as the knockout stage begins.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2283365405/crop/MM5DINRWGY5DENRSGU5G433XMU5DAORSGQZQ====/GettyImages-2283365405.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "news/usmnt-vs-bosnia-herzegovina-round-of-32"
 },
  
 
