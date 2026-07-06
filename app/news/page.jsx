@@ -12,12 +12,12 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
-  "id": 197,
+  "id": 198,
   "title": "FIFA’s Shocking Decision to Let Balogun Play vs Belgium Ignites Major Controversy at World Cup 2026",
   "author": "Mio Ristić",
   "date": "July 5, 2026",
   "excerpt": "FIFA has allowed Folarin Balogun to play against Belgium despite receiving a red card vs Bosnia. The Royal Belgian FA has issued a strong statement, sparking widespread controversy.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2284249560/crop/MM5DINJSGI5DENJUGQ5G433XMU5DAORSGM3A====/GettyImages-2284249560.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "imageUrl": "https://assets.goal.com/images/v3/blt68d4a08caa1ea2fa/crop/MM5DENRSGQ5DCNBXGY5G433XMU5DAORWGQ3A====/GettyImages-2240353608.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "slug": "fifa-balogun-controversy-belgium"
 },
     {
