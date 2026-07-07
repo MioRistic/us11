@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 200,
+  "title": "Etihad Park: How New York City FC’s Long-Awaited Soccer-Specific Stadium Is Finally Taking Shape",
+  "author": "Mio Ristić",
+  "date": "July 7, 2026",
+  "excerpt": "Construction of Etihad Park in Willets Point, Queens is advancing rapidly. Here’s the latest update on New York City FC’s future home as of July 2026.",
+  "imageUrl": "https://i.ibb.co/Ld5X8fm7/im-52639548.avif",
+  "slug": "etihad-park-construction-update"
+},
+    {
   "id": 199,
   "title": "A Night of Regression: How the USMNT Fell Well Short Against a Superior Belgium Side",
   "author": "Mio Ristić",

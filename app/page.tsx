@@ -66,6 +66,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
   );
 };
 const blogPosts: Post[] = [
+    {
+  "id": 200,
+  "title": "Etihad Park: How New York City FC’s Long-Awaited Soccer-Specific Stadium Is Finally Taking Shape",
+  "author": "Mio Ristić",
+  "date": "July 7, 2026",
+  "excerpt": "Construction of Etihad Park in Willets Point, Queens is advancing rapidly. Here’s the latest update on New York City FC’s future home as of July 2026.",
+  "imageUrl": "https://i.ibb.co/Ld5X8fm7/im-52639548.avif",
+  "link": "news/etihad-park-construction-update"
+},
   {
   "id": 199,
   "title": "A Night of Regression: How the USMNT Fell Well Short Against a Superior Belgium Side",
@@ -84,17 +93,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/blt68d4a08caa1ea2fa/crop/MM5DENRSGQ5DCNBXGY5G433XMU5DAORWGQ3A====/GettyImages-2240353608.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/fifa-balogun-controversy-belgium"
 },
-  {
-    "id": 196,
-    "title": "Canada’s World Cup Dream Ends, But a New Era Has Already Begun",
-    "author": "Mio Ristić",
-    "date": "July 5, 2026",
-    "excerpt": "Canada’s historic run at the 2026 World Cup ends in the Round of 16 against Morocco. Despite the defeat, the team leaves with pride and a clear path forward for 2030.",
-    "imageUrl": "https://assets.goal.com/images/v3/getty-2280851139/crop/MM5DEMRXGI5DCMRXHA5G433XMU5DGNBXHI2TGMI=/GettyImages-2280851139.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-    "link": "news/canada-world-cup-exit-round-of-16"
-  },
  
-
  
  
  
@@ -102,33 +101,33 @@ const blogPosts: Post[] = [
 ];
 
 const usmntPosts: Post[] = [
-//   {
-//   "id": 198,
-//   "title": "FIFA’s Shocking Decision to Let Balogun Play vs Belgium Ignites Major Controversy at World Cup 2026",
-//   "author": "Mio Ristić",
-//   "date": "July 5, 2026",
-//   "excerpt": "FIFA has allowed Folarin Balogun to play against Belgium despite receiving a red card vs Bosnia. The Royal Belgian FA has issued a strong statement, sparking widespread controversy.",
-//   "imageUrl": "https://assets.goal.com/images/v3/blt68d4a08caa1ea2fa/crop/MM5DENRSGQ5DCNBXGY5G433XMU5DAORWGQ3A====/GettyImages-2240353608.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-//   "link": "news/fifa-balogun-controversy-belgium"
-// },
-//   {
-//   "id": 195,
-//   "title": "USMNT Advance to World Cup Round of 16 with 2-0 Win Over Bosnia and Herzegovina – Balogun Shines Before Controversial Red Card",
-//   "author": "Mio Ristić",
-//   "date": "July 2, 2026",
-//   "excerpt": "The United States defeated Bosnia and Herzegovina 2-0 to advance to the Round of 16. Folarin Balogun scored but was controversially sent off, while Malik Tillman sealed the win with a stunning free-kick.",
-//   "imageUrl": "https://assets.goal.com/images/v3/getty-2284249560/crop/MM5DINJSGI5DENJUGQ5G433XMU5DAORSGM3A====/GettyImages-2284249560.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-//   "link": "news/usmnt-advance-to-round-of-16-bosnia"
-// },
-//   {
-//   "id": 1027,
-//   "title": "USA vs Bosnia and Herzegovina Tickets: How to Buy Round of 32 World Cup Tickets + Match Preview",
-//   "author": "Mio Ristić",
-//   "date": "June 29, 2026",
-//   "excerpt": "The United States face Bosnia and Herzegovina in the Round of 32 at San Francisco Bay Area Stadium. Everything you need to know about tickets, prices, and the match.",
-//   "imageUrl": "https://i.ibb.co/N6sw1JtY/Untitled-design-9.png",
-//   "link": "blog/usa-vs-bosnia-herzegovina-round-of-32"
-// },
+  {
+  "id": 198,
+  "title": "FIFA’s Shocking Decision to Let Balogun Play vs Belgium Ignites Major Controversy at World Cup 2026",
+  "author": "Mio Ristić",
+  "date": "July 5, 2026",
+  "excerpt": "FIFA has allowed Folarin Balogun to play against Belgium despite receiving a red card vs Bosnia. The Royal Belgian FA has issued a strong statement, sparking widespread controversy.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt68d4a08caa1ea2fa/crop/MM5DENRSGQ5DCNBXGY5G433XMU5DAORWGQ3A====/GettyImages-2240353608.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/fifa-balogun-controversy-belgium"
+},
+  {
+  "id": 195,
+  "title": "USMNT Advance to World Cup Round of 16 with 2-0 Win Over Bosnia and Herzegovina – Balogun Shines Before Controversial Red Card",
+  "author": "Mio Ristić",
+  "date": "July 2, 2026",
+  "excerpt": "The United States defeated Bosnia and Herzegovina 2-0 to advance to the Round of 16. Folarin Balogun scored but was controversially sent off, while Malik Tillman sealed the win with a stunning free-kick.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2284249560/crop/MM5DINJSGI5DENJUGQ5G433XMU5DAORSGM3A====/GettyImages-2284249560.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/usmnt-advance-to-round-of-16-bosnia"
+},
+  {
+  "id": 1027,
+  "title": "USA vs Bosnia and Herzegovina Tickets: How to Buy Round of 32 World Cup Tickets + Match Preview",
+  "author": "Mio Ristić",
+  "date": "June 29, 2026",
+  "excerpt": "The United States face Bosnia and Herzegovina in the Round of 32 at San Francisco Bay Area Stadium. Everything you need to know about tickets, prices, and the match.",
+  "imageUrl": "https://i.ibb.co/N6sw1JtY/Untitled-design-9.png",
+  "link": "blog/usa-vs-bosnia-herzegovina-round-of-32"
+},
  
   
    

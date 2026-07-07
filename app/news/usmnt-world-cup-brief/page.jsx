@@ -289,34 +289,7 @@ export default function USMNTWorldCupBrief() {
 
         
 
-        {/* Bosna */}
-        <div className="border border-gray-200 rounded-2xl p-6 mb-6 bg-white shadow-sm">
-          <div className="flex items-center justify-between mb-4">
-            <div>
-              <span className="text-sm font-medium text-gray-500">July 2, 2026</span>
-              <h3 className="text-xl font-semibold mt-1">United States 2 - 0 Bosnia and Herzegovina</h3>
-            </div>
-            <span className="px-3 py-1 text-sm bg-green-100 text-green-700 rounded-full font-medium">
-              Win
-            </span>
-          </div>
-
-          <div className="space-y-3 text-gray-700">
-            <p>• Folarin Balogun scored in the 45th minute.</p>
-            <p>• Balogun controversially sent off in the 64th minute.</p>
-            <p>• Malik Tillman scored a brilliant free-kick in the 82nd minute.</p>
-          
-          </div>
-
-          <div className="mt-5">
-            <Link 
-              href="/news/usmnt-advance-to-round-of-16-bosnia" 
-              className="text-sm text-blue-600 hover:underline font-medium"
-            >
-              Read full match recap →
-            </Link>
-          </div>
-        </div>
+       
 
         {/* Ostale utakmice */}
         <div className="border border-gray-200 rounded-2xl p-6 mb-6 bg-white shadow-sm">

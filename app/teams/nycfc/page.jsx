@@ -29,6 +29,15 @@ const NYCFCPage = () => {
 
   // News & Blog
   const newsPosts = [
+      {
+  "id": 200,
+  "title": "Etihad Park: How New York City FC’s Long-Awaited Soccer-Specific Stadium Is Finally Taking Shape",
+  "author": "Mio Ristić",
+  "date": "July 7, 2026",
+  "excerpt": "Construction of Etihad Park in Willets Point, Queens is advancing rapidly. Here’s the latest update on New York City FC’s future home as of July 2026.",
+  "imageUrl": "https://i.ibb.co/Ld5X8fm7/im-52639548.avif",
+  "link": "news/etihad-park-construction-update"
+},
  
   ];
 
