@@ -140,58 +140,66 @@ export default function USMNTWorldCupBrief() {
         </figcaption>
       </figure>
 
-      {/* HOTEL BOOKING BANNER - LOS ANGELES */}
-      <div className="my-12 bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all">
-        <div className="p-8 md:p-10 flex flex-col md:flex-row items-center gap-8">
-          <div className="flex-1">
+    
+
+      {/* Najnovija - Belgija */}
+        <div className="border border-gray-200 rounded-2xl p-6 mb-6 bg-white shadow-sm">
+          <div className="flex items-center justify-between mb-4">
             <div>
-              <p className="text-gray-600 mt-1">June 25, 2026 • 7:00 PM PT • Inglewood</p>
+              <span className="text-sm font-medium text-gray-500">July 6, 2026</span>
+              <h3 className="text-xl font-semibold mt-1">United States 1 - 4 Belgium</h3>
             </div>
-            <h3 className="text-3xl font-bold text-[#020617] leading-tight mb-3">
-              Book Your Hotel Near Los Angeles Stadium
-            </h3>
-            <p className="text-gray-600 text-lg">
-              Stay close to the action in Inglewood. Find hotels near Los Angeles Stadium 
-              with great options for comfort and convenience during the World Cup.
-            </p>
+            <span className="px-3 py-1 text-sm bg-red-100 text-red-700 rounded-full font-medium">
+              Loss
+            </span>
           </div>
 
-          <a 
-            href="https://expedia.com/affiliate/3DlDLU9" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="bg-[#020617] hover:bg-black text-white font-semibold px-10 py-4 rounded-2xl transition whitespace-nowrap flex-shrink-0 text-center"
-          >
-            Find Hotels at Expedia
-          </a>
-        </div>
-      </div>
+          <div className="space-y-3 text-gray-700">
+            <p>• Malik Tillman scored a free-kick goal for the USA.</p>
+            <p>• Belgium dominated with goals from De Ketelaere (2), Vanaken and Lukaku.</p>
+            <p>• Matt Freese made a costly error leading to Belgium's third goal.</p>
+            <p>• Christian Pulisic substituted due to injury.</p>
+            <p>• USMNT eliminated.</p>
+          </div>
 
-      {/* NEXT MATCH */}
-      <div className="mb-12">
-        <h2 className="text-xl font-semibold mb-4 text-gray-700">Next Match</h2>
-        
-        <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm">
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-            <div>
-              <p className="text-sm text-gray-500">Round of 16</p>
-              <p className="text-2xl font-semibold mt-1">United States vs Belgium</p>
-              <p className="text-gray-600 mt-1">July 6, 2026 • 5:00 PM PT • Seattle</p>
-            </div>
-
-            <div className="mt-4 md:mt-0">
-              <a
-                href="https://ticketnetwork.lusg.net/B5G0gq"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-black hover:bg-zinc-800 transition-colors text-white font-semibold px-8 py-3 rounded-xl text-sm"
-              >
-                Buy Tickets
-              </a>
-            </div>
+          <div className="mt-5">
+            <Link 
+              href="/news/usmnt-regression-belgium" 
+              className="text-sm text-blue-600 hover:underline font-medium"
+            >
+              Read full match recap →
+            </Link>
           </div>
         </div>
-      </div>
+
+        {/* Bosna */}
+        <div className="border border-gray-200 rounded-2xl p-6 mb-6 bg-white shadow-sm">
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <span className="text-sm font-medium text-gray-500">July 2, 2026</span>
+              <h3 className="text-xl font-semibold mt-1">United States 2 - 0 Bosnia and Herzegovina</h3>
+            </div>
+            <span className="px-3 py-1 text-sm bg-green-100 text-green-700 rounded-full font-medium">
+              Win
+            </span>
+          </div>
+
+          <div className="space-y-3 text-gray-700">
+            <p>• Folarin Balogun scored in the 45th minute.</p>
+            <p>• Balogun controversially sent off in the 64th minute.</p>
+            <p>• Malik Tillman scored a brilliant free-kick in the 82nd minute.</p>
+          
+          </div>
+
+          <div className="mt-5">
+            <Link 
+              href="/news/usmnt-advance-to-round-of-16-bosnia" 
+              className="text-sm text-blue-600 hover:underline font-medium"
+            >
+              Read full match recap →
+            </Link>
+          </div>
+        </div>
 
       {/* GROUP D STANDINGS - TAČNO PREMA SLICI */}
       <div className="mb-12">
@@ -275,11 +283,13 @@ export default function USMNTWorldCupBrief() {
         </div>
       </div>
 
-      {/* MATCH UPDATES - SA BOSNOM NA VRHU */}
+      {/* MATCH UPDATES - SA BELGIJOM NA VRHU */}
       <div>
         <h2 className="text-xl font-semibold mb-6 text-gray-700">Match Updates</h2>
 
-        {/* Bosna - najnovija */}
+        
+
+        {/* Bosna */}
         <div className="border border-gray-200 rounded-2xl p-6 mb-6 bg-white shadow-sm">
           <div className="flex items-center justify-between mb-4">
             <div>
@@ -295,7 +305,7 @@ export default function USMNTWorldCupBrief() {
             <p>• Folarin Balogun scored in the 45th minute.</p>
             <p>• Balogun controversially sent off in the 64th minute.</p>
             <p>• Malik Tillman scored a brilliant free-kick in the 82nd minute.</p>
-            <p>• Advanced to Round of 16 for the first time since 2002.</p>
+          
           </div>
 
           <div className="mt-5">
@@ -308,7 +318,7 @@ export default function USMNTWorldCupBrief() {
           </div>
         </div>
 
-        {/* Ostale utakmice (starije) */}
+        {/* Ostale utakmice */}
         <div className="border border-gray-200 rounded-2xl p-6 mb-6 bg-white shadow-sm">
           <div className="flex items-center justify-between mb-4">
             <div>
@@ -324,7 +334,6 @@ export default function USMNTWorldCupBrief() {
             <p>• Strong start with goals from Berhalter and Trusty.</p>
             <p>• Christian Pulisic returned from injury.</p>
             <p>• Late collapse allowed Türkiye to win.</p>
-            <p>• Still topped Group D with 6 points.</p>
           </div>
 
           <div className="mt-5">
@@ -337,7 +346,6 @@ export default function USMNTWorldCupBrief() {
           </div>
         </div>
 
-        {/* Druga i prva utakmica ostaju iste */}
         <div className="border border-gray-200 rounded-2xl p-6 mb-6 bg-white shadow-sm">
           <div className="flex items-center justify-between mb-4">
             <div>

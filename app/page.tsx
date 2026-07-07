@@ -66,6 +66,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
   );
 };
 const blogPosts: Post[] = [
+  {
+  "id": 199,
+  "title": "A Night of Regression: How the USMNT Fell Well Short Against a Superior Belgium Side",
+  "author": "Mio Ristić",
+  "date": "July 6, 2026",
+  "excerpt": "The United States suffered a disappointing 4-1 defeat to Belgium in the Round of 16. Despite an early response, defensive lapses and individual errors proved costly in a sobering night for the co-hosts.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2284972795/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRG42Q====/GettyImages-2284972795.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/usmnt-regression-belgium"
+},
    {
   "id": 198,
   "title": "FIFA’s Shocking Decision to Let Balogun Play vs Belgium Ignites Major Controversy at World Cup 2026",
@@ -84,15 +93,6 @@ const blogPosts: Post[] = [
     "imageUrl": "https://assets.goal.com/images/v3/getty-2280851139/crop/MM5DEMRXGI5DCMRXHA5G433XMU5DGNBXHI2TGMI=/GettyImages-2280851139.jpg?auto=webp&format=pjpg&width=1920&quality=60",
     "link": "news/canada-world-cup-exit-round-of-16"
   },
-    {
-  "id": 195,
-  "title": "USMNT Advance to World Cup Round of 16 with 2-0 Win Over Bosnia and Herzegovina – Balogun Shines Before Controversial Red Card",
-  "author": "Mio Ristić",
-  "date": "July 2, 2026",
-  "excerpt": "The United States defeated Bosnia and Herzegovina 2-0 to advance to the Round of 16. Folarin Balogun scored but was controversially sent off, while Malik Tillman sealed the win with a stunning free-kick.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2284249560/crop/MM5DINJSGI5DENJUGQ5G433XMU5DAORSGM3A====/GettyImages-2284249560.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/usmnt-advance-to-round-of-16-bosnia"
-},
  
 
  
@@ -102,33 +102,33 @@ const blogPosts: Post[] = [
 ];
 
 const usmntPosts: Post[] = [
-  {
-  "id": 198,
-  "title": "FIFA’s Shocking Decision to Let Balogun Play vs Belgium Ignites Major Controversy at World Cup 2026",
-  "author": "Mio Ristić",
-  "date": "July 5, 2026",
-  "excerpt": "FIFA has allowed Folarin Balogun to play against Belgium despite receiving a red card vs Bosnia. The Royal Belgian FA has issued a strong statement, sparking widespread controversy.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt68d4a08caa1ea2fa/crop/MM5DENRSGQ5DCNBXGY5G433XMU5DAORWGQ3A====/GettyImages-2240353608.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/fifa-balogun-controversy-belgium"
-},
-  {
-  "id": 195,
-  "title": "USMNT Advance to World Cup Round of 16 with 2-0 Win Over Bosnia and Herzegovina – Balogun Shines Before Controversial Red Card",
-  "author": "Mio Ristić",
-  "date": "July 2, 2026",
-  "excerpt": "The United States defeated Bosnia and Herzegovina 2-0 to advance to the Round of 16. Folarin Balogun scored but was controversially sent off, while Malik Tillman sealed the win with a stunning free-kick.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2284249560/crop/MM5DINJSGI5DENJUGQ5G433XMU5DAORSGM3A====/GettyImages-2284249560.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/usmnt-advance-to-round-of-16-bosnia"
-},
-  {
-  "id": 1027,
-  "title": "USA vs Bosnia and Herzegovina Tickets: How to Buy Round of 32 World Cup Tickets + Match Preview",
-  "author": "Mio Ristić",
-  "date": "June 29, 2026",
-  "excerpt": "The United States face Bosnia and Herzegovina in the Round of 32 at San Francisco Bay Area Stadium. Everything you need to know about tickets, prices, and the match.",
-  "imageUrl": "https://i.ibb.co/N6sw1JtY/Untitled-design-9.png",
-  "link": "blog/usa-vs-bosnia-herzegovina-round-of-32"
-},
+//   {
+//   "id": 198,
+//   "title": "FIFA’s Shocking Decision to Let Balogun Play vs Belgium Ignites Major Controversy at World Cup 2026",
+//   "author": "Mio Ristić",
+//   "date": "July 5, 2026",
+//   "excerpt": "FIFA has allowed Folarin Balogun to play against Belgium despite receiving a red card vs Bosnia. The Royal Belgian FA has issued a strong statement, sparking widespread controversy.",
+//   "imageUrl": "https://assets.goal.com/images/v3/blt68d4a08caa1ea2fa/crop/MM5DENRSGQ5DCNBXGY5G433XMU5DAORWGQ3A====/GettyImages-2240353608.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+//   "link": "news/fifa-balogun-controversy-belgium"
+// },
+//   {
+//   "id": 195,
+//   "title": "USMNT Advance to World Cup Round of 16 with 2-0 Win Over Bosnia and Herzegovina – Balogun Shines Before Controversial Red Card",
+//   "author": "Mio Ristić",
+//   "date": "July 2, 2026",
+//   "excerpt": "The United States defeated Bosnia and Herzegovina 2-0 to advance to the Round of 16. Folarin Balogun scored but was controversially sent off, while Malik Tillman sealed the win with a stunning free-kick.",
+//   "imageUrl": "https://assets.goal.com/images/v3/getty-2284249560/crop/MM5DINJSGI5DENJUGQ5G433XMU5DAORSGM3A====/GettyImages-2284249560.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+//   "link": "news/usmnt-advance-to-round-of-16-bosnia"
+// },
+//   {
+//   "id": 1027,
+//   "title": "USA vs Bosnia and Herzegovina Tickets: How to Buy Round of 32 World Cup Tickets + Match Preview",
+//   "author": "Mio Ristić",
+//   "date": "June 29, 2026",
+//   "excerpt": "The United States face Bosnia and Herzegovina in the Round of 32 at San Francisco Bay Area Stadium. Everything you need to know about tickets, prices, and the match.",
+//   "imageUrl": "https://i.ibb.co/N6sw1JtY/Untitled-design-9.png",
+//   "link": "blog/usa-vs-bosnia-herzegovina-round-of-32"
+// },
  
   
    
@@ -143,7 +143,7 @@ const jerseysBlogPosts: Post[] = [
   "author": "Mio Ristić",
   "date": "June 16, 2026",
   "excerpt": "Which 2026 World Cup jerseys actually look good on the street? From Germany’s clean 1990-inspired classic to Colombia’s vibrant yellow and New Zealand’s elegant black — here’s our definitive ranking of the most wearable kits for everyday life.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt68d4a08caa1ea2fa/crop/MM5DENRSGQ5DCNBXGY5G433XMU5DAORWGQ3A====/GettyImages-2240353608.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "imageUrl": "https://assets.goal.com/images/v3/blteb5ae4bd28752ec3/adidas%20FIFA%20World%20Cup%202026%20kit%20-%20Germany.png?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "blog/best-world-cup-2026-street-style-jerseys"
 },
   {

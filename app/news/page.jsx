@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 199,
+  "title": "A Night of Regression: How the USMNT Fell Well Short Against a Superior Belgium Side",
+  "author": "Mio Ristić",
+  "date": "July 6, 2026",
+  "excerpt": "The United States suffered a disappointing 4-1 defeat to Belgium in the Round of 16. Despite an early response, defensive lapses and individual errors proved costly in a sobering night for the co-hosts.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2284972795/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRG42Q====/GettyImages-2284972795.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "usmnt-regression-belgium"
+},
+    {
   "id": 198,
   "title": "FIFA’s Shocking Decision to Let Balogun Play vs Belgium Ignites Major Controversy at World Cup 2026",
   "author": "Mio Ristić",
