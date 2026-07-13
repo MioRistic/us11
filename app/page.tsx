@@ -66,38 +66,35 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
   );
 };
 const blogPosts: Post[] = [
-    {
-  "id": 200,
-  "title": "Etihad Park: How New York City FC’s Long-Awaited Soccer-Specific Stadium Is Finally Taking Shape",
+  {
+  "id": 203,
+  "title": "Benjamin Cremaschi’s Move to Parma Made Permanent: The Full Story of the American Midfielder’s European Journey",
   "author": "Mio Ristić",
-  "date": "July 7, 2026",
-  "excerpt": "Construction of Etihad Park in Willets Point, Queens is advancing rapidly. Here’s the latest update on New York City FC’s future home as of July 2026.",
-  "imageUrl": "https://i.ibb.co/Ld5X8fm7/im-52639548.avif",
-  "link": "news/etihad-park-construction-update"
+  "date": "July 13, 2026",
+  "excerpt": "Parma have triggered the €4 million buy option to make Benjamin Cremaschi’s move from Inter Miami permanent. The young American midfielder heads to Serie A for a fresh start.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx-OyYFOezlJ99SwImyDlE2hrcELC06dVliqAIp20QYleTdBhmwUWhCH51&s=10",
+  "link": "news/cremaschi-parma-permanent"
 },
   {
-  "id": 199,
-  "title": "A Night of Regression: How the USMNT Fell Well Short Against a Superior Belgium Side",
+  "id": 202,
+  "title": "Antoine Griezmann Officially Arrives in Orlando: Goal and Assist in Debut as Lions Crush Tampa Bay 6-0",
   "author": "Mio Ristić",
-  "date": "July 6, 2026",
-  "excerpt": "The United States suffered a disappointing 4-1 defeat to Belgium in the Round of 16. Despite an early response, defensive lapses and individual errors proved costly in a sobering night for the co-hosts.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2284972795/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRG42Q====/GettyImages-2284972795.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "news/usmnt-regression-belgium"
+  "date": "July 9, 2026",
+  "excerpt": "Antoine Griezmann scores and assists in his Orlando City debut as the Lions thrash Tampa Bay Rowdies 6-0 in a friendly at Inter&Co Stadium.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2284675878/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORYGU======/GettyImages-2284675878.jpg",
+  "link": "news/griezmann-orlando-debut"
 },
-   {
-  "id": 198,
-  "title": "FIFA’s Shocking Decision to Let Balogun Play vs Belgium Ignites Major Controversy at World Cup 2026",
+  {
+  "id": 201,
+  "title": "Messi's Argentina Advance to World Cup Semifinals After Extra-Time Win Over Switzerland",
   "author": "Mio Ristić",
-  "date": "July 5, 2026",
-  "excerpt": "FIFA has allowed Folarin Balogun to play against Belgium despite receiving a red card vs Bosnia. The Royal Belgian FA has issued a strong statement, sparking widespread controversy.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt68d4a08caa1ea2fa/crop/MM5DENRSGQ5DCNBXGY5G433XMU5DAORWGQ3A====/GettyImages-2240353608.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/fifa-balogun-controversy-belgium"
+  "date": "July 12, 2026",
+  "excerpt": "Argentina defeat Switzerland 3-1 in extra time to reach the 2026 World Cup semifinals. Messi breaks another assist record as La Albiceleste set up a clash with England.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2285704047/crop/MM5DIOBTGI5DENZRHA5G433XMU5DAORTGA======/GettyImages-2285704047.jpg",
+  "link": "news/messi-argentina-semifinals-switzerland"
 },
- 
- 
- 
- 
- 
+    
+  
 ];
 
 const usmntPosts: Post[] = [

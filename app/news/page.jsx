@@ -12,6 +12,33 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 203,
+  "title": "Benjamin Cremaschi’s Move to Parma Made Permanent: The Full Story of the American Midfielder’s European Journey",
+  "author": "Mio Ristić",
+  "date": "July 13, 2026",
+  "excerpt": "Parma have triggered the €4 million buy option to make Benjamin Cremaschi’s move from Inter Miami permanent. The young American midfielder heads to Serie A for a fresh start.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx-OyYFOezlJ99SwImyDlE2hrcELC06dVliqAIp20QYleTdBhmwUWhCH51&s=10",
+  "slug": "cremaschi-parma-permanent"
+},
+    {
+  "id": 202,
+  "title": "Antoine Griezmann Officially Arrives in Orlando: Goal and Assist in Debut as Lions Crush Tampa Bay 6-0",
+  "author": "Mio Ristić",
+  "date": "July 9, 2026",
+  "excerpt": "Antoine Griezmann scores and assists in his Orlando City debut as the Lions thrash Tampa Bay Rowdies 6-0 in a friendly at Inter&Co Stadium.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2284675878/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORYGU======/GettyImages-2284675878.jpg",
+  "slug": "griezmann-orlando-debut"
+},
+    {
+  "id": 201,
+  "title": "Messi's Argentina Advance to World Cup Semifinals After Extra-Time Win Over Switzerland",
+  "author": "Mio Ristić",
+  "date": "July 12, 2026",
+  "excerpt": "Argentina defeat Switzerland 3-1 in extra time to reach the 2026 World Cup semifinals. Messi breaks another assist record as La Albiceleste set up a clash with England.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2285704047/crop/MM5DIOBTGI5DENZRHA5G433XMU5DAORTGA======/GettyImages-2285704047.jpg",
+  "slug": "messi-argentina-semifinals-switzerland"
+},
+    {
   "id": 200,
   "title": "Etihad Park: How New York City FC’s Long-Awaited Soccer-Specific Stadium Is Finally Taking Shape",
   "author": "Mio Ristić",
