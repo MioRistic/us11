@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 204,
+  "title": "Top 10 Most Interesting Summer Transfers in MLS (as of July 13, 2026)",
+  "author": "Mio Ristić",
+  "date": "July 13, 2026",
+  "excerpt": "From global superstars like Griezmann and Lewandowski to smart value signings — here are the 10 most interesting MLS transfers so far this summer.",
+  "imageUrl": "https://i.ibb.co/0p04zs5V/dc2772d1-orlando-city-antoine-griezmann.avif",
+  "link": "news/top-10-mls-transfers-2026"
+},
+  {
   "id": 203,
   "title": "Benjamin Cremaschi’s Move to Parma Made Permanent: The Full Story of the American Midfielder’s European Journey",
   "author": "Mio Ristić",
@@ -84,55 +93,25 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2284675878/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORYGU======/GettyImages-2284675878.jpg",
   "link": "news/griezmann-orlando-debut"
 },
-  {
-  "id": 201,
-  "title": "Messi's Argentina Advance to World Cup Semifinals After Extra-Time Win Over Switzerland",
-  "author": "Mio Ristić",
-  "date": "July 12, 2026",
-  "excerpt": "Argentina defeat Switzerland 3-1 in extra time to reach the 2026 World Cup semifinals. Messi breaks another assist record as La Albiceleste set up a clash with England.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2285704047/crop/MM5DIOBTGI5DENZRHA5G433XMU5DAORTGA======/GettyImages-2285704047.jpg",
-  "link": "news/messi-argentina-semifinals-switzerland"
-},
+   
     
   
 ];
 
-const usmntPosts: Post[] = [
-  {
-  "id": 198,
-  "title": "FIFA’s Shocking Decision to Let Balogun Play vs Belgium Ignites Major Controversy at World Cup 2026",
-  "author": "Mio Ristić",
-  "date": "July 5, 2026",
-  "excerpt": "FIFA has allowed Folarin Balogun to play against Belgium despite receiving a red card vs Bosnia. The Royal Belgian FA has issued a strong statement, sparking widespread controversy.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt68d4a08caa1ea2fa/crop/MM5DENRSGQ5DCNBXGY5G433XMU5DAORWGQ3A====/GettyImages-2240353608.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/fifa-balogun-controversy-belgium"
-},
-  {
-  "id": 195,
-  "title": "USMNT Advance to World Cup Round of 16 with 2-0 Win Over Bosnia and Herzegovina – Balogun Shines Before Controversial Red Card",
-  "author": "Mio Ristić",
-  "date": "July 2, 2026",
-  "excerpt": "The United States defeated Bosnia and Herzegovina 2-0 to advance to the Round of 16. Folarin Balogun scored but was controversially sent off, while Malik Tillman sealed the win with a stunning free-kick.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2284249560/crop/MM5DINJSGI5DENJUGQ5G433XMU5DAORSGM3A====/GettyImages-2284249560.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/usmnt-advance-to-round-of-16-bosnia"
-},
-  {
-  "id": 1027,
-  "title": "USA vs Bosnia and Herzegovina Tickets: How to Buy Round of 32 World Cup Tickets + Match Preview",
-  "author": "Mio Ristić",
-  "date": "June 29, 2026",
-  "excerpt": "The United States face Bosnia and Herzegovina in the Round of 32 at San Francisco Bay Area Stadium. Everything you need to know about tickets, prices, and the match.",
-  "imageUrl": "https://i.ibb.co/N6sw1JtY/Untitled-design-9.png",
-  "link": "blog/usa-vs-bosnia-herzegovina-round-of-32"
-},
- 
-  
-   
-];
+
   
 
 
 const jerseysBlogPosts: Post[] = [
+  {
+  "id": 1028,
+  "title": "Chicago Fire Unveil Lewandowski Home Kit for Historic 2026 Season",
+  "author": "Mio Ristić",
+  "date": "July 13, 2026",
+  "excerpt": "Chicago Fire release the official Robert Lewandowski 2026 Home Jersey – shop Replica and Authentic versions now.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2260392490/crop/MM5DIOBWGQ5DENZTGY5G433XMU5DAORQ/GettyImages-2260392490.jpg",
+  "link": "blog/lewandowski-chicago-kit"
+},
      {
   "id": 1015,
   "title": "Best World Cup 2026 Jerseys for Street Style: The Kits Worth Buying",
@@ -152,15 +131,7 @@ const jerseysBlogPosts: Post[] = [
   "link": "blog/mexico-adidas-third-kit-2026"
 },
  
-  {
-    id: 1011,
-    title: "Mexico or USA: Whose Jersey Sells More in America? The Surprising Truth (and a Major Shift)",
-    author: "Mio Ristić",
-    date: "May 5, 2026",
-    excerpt: "Fanatics claims the USMNT 2026 kit is currently outselling Mexico in the United States. We analyze the data, the Messi effect, and what it really means ahead of the World Cup.",
-    imageUrl: "https://i.ibb.co/Gfk3qjXJ/Untitled-design-4.png",
-    link: "blog/mexico-usa-jersey-sales-2026",
-  },
+  
   
 
 ];const hallOfFamePosts: Post[] = [
@@ -187,12 +158,12 @@ const jerseysBlogPosts: Post[] = [
 ];const heroItems = [
 
  
- {
-  "title": "USMNT World Cup Brief",
-  "subtitle": "Daily updates from the 2026 FIFA World Cup",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/United_States_Soccer_Federation_logo.svg/960px-United_States_Soccer_Federation_logo.svg.png",
-  "link": "/news/usmnt-world-cup-brief"
-}, 
+{
+  "title": "Top 10 Most Interesting Summer Transfers in MLS",
+  "subtitle": "Griezmann, Lewandowski and more — the biggest moves of the 2026 summer window so far",
+  "image": "https://i.ibb.co/0p04zs5V/dc2772d1-orlando-city-antoine-griezmann.avif",
+  "link": "/news/top-10-mls-transfers-2026"
+},
 {
   "title": "Shop world cup 2026 jerseys",
   "subtitle": "",
@@ -407,50 +378,7 @@ const jerseysBlogPosts: Post[] = [
 
                
 
-    {/* ==================== USMNT ON WORLD CUP ==================== */}
-    <div className="bg-white py-16">
-      <div className="max-w-5xl mx-auto px-6">
-        <h2 className="text-5xl md:text-6xl font-black tracking-[-2.8px] leading-none text-[#020617] mb-8 text-center">
-          USMNT on World Cup
-        </h2>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {usmntPosts.map((post) => (
-            <Link href={post.link} key={post.id} className="h-full">
-              <div className="group bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition flex flex-col h-full">
-                <div className="relative w-full h-48">
-                  <Image
-                    src={post.imageUrl}
-                    alt={post.title}
-                    fill
-                    style={{ objectFit: 'cover' }}
-                    className="group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-4 flex flex-col flex-grow">
-                  <h3 className="text-xl font-bold mb-1 group-hover:text-blue-600 transition duration-300">
-                    {post.title}
-                  </h3>
-                  <p className="text-sm text-gray-600">{post.author} | {post.date}</p>
-                  <p className="text-gray-700 mt-2 flex-grow line-clamp-3">
-                    {post.excerpt}
-                  </p>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
-
-        <div className="flex justify-center mt-8">
-          <Link 
-            href="/teams/usa-national-team" 
-            className="bg-[#020617] text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#020617] hover:border-[#020617] border-2 transition-all duration-300 ease-in-out transform hover:scale-105"
-          >
-            View All USMNT News
-          </Link>
-        </div>
-      </div>
-    </div>
+  
 
     <TrendingPlayers />
 

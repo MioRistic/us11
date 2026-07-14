@@ -50,6 +50,15 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 1028,
+  "title": "Chicago Fire Unveil Lewandowski Home Kit for Historic 2026 Season",
+  "author": "Mio Ristić",
+  "date": "July 13, 2026",
+  "excerpt": "Chicago Fire release the official Robert Lewandowski 2026 Home Jersey – shop Replica and Authentic versions now.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2260392490/crop/MM5DIOBWGQ5DENZTGY5G433XMU5DAORQ/GettyImages-2260392490.jpg",
+  "slug": "lewandowski-chicago-kit"
+},
+  {
   "id": 1027,
   "title": "USA vs Bosnia and Herzegovina Tickets: How to Buy Round of 32 World Cup Tickets + Match Preview",
   "author": "Mio Ristić",

@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 204,
+  "title": "Top 10 Most Interesting Summer Transfers in MLS (as of July 13, 2026)",
+  "author": "Mio Ristić",
+  "date": "July 13, 2026",
+  "excerpt": "From global superstars like Griezmann and Lewandowski to smart value signings — here are the 10 most interesting MLS transfers so far this summer.",
+  "imageUrl": "https://i.ibb.co/0p04zs5V/dc2772d1-orlando-city-antoine-griezmann.avif",
+  "slug": "top-10-mls-transfers-2026"
+},
+    {
   "id": 203,
   "title": "Benjamin Cremaschi’s Move to Parma Made Permanent: The Full Story of the American Midfielder’s European Journey",
   "author": "Mio Ristić",

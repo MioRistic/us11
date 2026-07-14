@@ -12,6 +12,15 @@ import Link from 'next/link';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 1028,
+  "title": "Chicago Fire Unveil Lewandowski Home Kit for Historic 2026 Season",
+  "author": "Mio Ristić",
+  "date": "July 13, 2026",
+  "excerpt": "Chicago Fire release the official Robert Lewandowski 2026 Home Jersey – shop Replica and Authentic versions now.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2260392490/crop/MM5DIOBWGQ5DENZTGY5G433XMU5DAORQ/GettyImages-2260392490.jpg",
+  "slug": "lewandowski-chicago-kit"
+},
+    {
   "id": 1015,
   "title": "Best World Cup 2026 Jerseys for Street Style: The Kits Worth Buying",
   "author": "Mio Ristić",
