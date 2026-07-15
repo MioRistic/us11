@@ -8,11 +8,13 @@ import { FiCopy } from 'react-icons/fi';
 
 export default function LewandowskiChicagoKit() {
   const [currentUrl, setCurrentUrl] = useState('');
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
       setCurrentUrl(window.location.href);
     }
+    setMounted(true);
   }, []);
 
   const handleCopyLink = () => {
@@ -95,50 +97,50 @@ export default function LewandowskiChicagoKit() {
           </div>
         </figure>
 
-       {/* STICKY DUAL BUY TICKETS BANNERS */}
-<div className="sticky top-[140px] md:top-[148px] z-40 py-4 md:py-6 bg-white">
-  <div className="max-w-5xl mx-auto px-4">
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {/* STICKY DUAL BUY TICKETS BANNERS */}
+      <div suppressHydrationWarning>{mounted && (
+        <div className="sticky top-[140px] md:top-[148px] z-40 py-4 md:py-6 bg-white">
+          <div className="max-w-5xl mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 
-      {/* Banner 1 */}
-      <a
-        href="https://fanatics.93n6tx.net/jR5M70" 
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center justify-between gap-4 bg-white border border-zinc-200 rounded-3xl px-6 py-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-0.5"
-      >
-        <div>
-          <h3 className="text-[17px] font-semibold text-[#020617] leading-tight">
-            Shop at Fanatics
-          </h3>
-          
+              {/* Banner 1 */}
+              <a
+                href="https://fanatics.93n6tx.net/jR5M70" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between gap-4 bg-white border border-zinc-200 rounded-3xl px-6 py-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-0.5"
+              >
+                <div>
+                  <h3 className="text-[17px] font-semibold text-[#020617] leading-tight">
+                    Shop at Fanatics
+                  </h3>
+                </div>
+                <div className="w-14 h-14 bg-white-800 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <img src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg" alt="TicketNetwork" className="w-full h-full object-contain" />
+                </div>
+              </a>
+
+              {/* Banner 2 */}
+              <a
+                href="https://mlsstore.i8h2.net/6kxBZq" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between gap-4 bg-white border border-zinc-200 rounded-3xl px-6 py-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-0.5"
+              >
+                <div>
+                  <h3 className="text-[17px] font-semibold text-[#020617] leading-tight">
+                    Shop at MLS Store
+                  </h3>
+                </div>
+                <div className="w-14 h-14 bg-white-800 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Major_League_Soccer_logo.svg/500px-Major_League_Soccer_logo.svg.png" alt="TicketNetwork" className="w-full h-full object-contain" />
+                </div>
+              </a>
+
+            </div>
+          </div>
         </div>
-        <div className="w-14 h-14 bg-white-800 rounded-xl flex items-center justify-center flex-shrink-0">
-      <img src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg" alt="TicketNetwork" className="w-full h-full object-contain" />
-    </div>
-      </a>
-
-      {/* Banner 2 */}
-      <a
-        href="https://mlsstore.i8h2.net/6kxBZq" 
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center justify-between gap-4 bg-white border border-zinc-200 rounded-3xl px-6 py-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-0.5"
-      >
-        <div>
-          <h3 className="text-[17px] font-semibold text-[#020617] leading-tight">
-            Shop at MLS Store
-          </h3>
-          
-        </div>
-       <div className="w-14 h-14 bg-white-800 rounded-xl flex items-center justify-center flex-shrink-0">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Major_League_Soccer_logo.svg/500px-Major_League_Soccer_logo.svg.png" alt="TicketNetwork" className="w-full h-full object-contain" />
-    </div>
-      </a>
-
-    </div>
-  </div>
-</div>
+      )}</div>
 
        {/* ARTICLE CONTENT */}
 <section className="prose prose-lg max-w-none leading-relaxed space-y-8">
@@ -156,8 +158,9 @@ export default function LewandowskiChicagoKit() {
   <p>
     After establishing himself as one of football&apos;s greatest goalscorers with clubs in Germany and Spain, Robert Lewandowski now brings his experience and world-class finishing ability to Major League Soccer.
   </p>
-   {/* Lewandowski Banner - Fanatics */}
-<div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10 max-w-4xl mx-auto">
+  {/* Lewandowski Banner - Fanatics */}
+  <div suppressHydrationWarning>{mounted && (
+    <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10 max-w-4xl mx-auto">
   
   {/* Logo + Text */}
   <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
@@ -185,10 +188,12 @@ export default function LewandowskiChicagoKit() {
   >
     Shop now
   </a>
-</div>
+  </div>
+)}</div>
 
 {/* Lewandowski Banner - MLS Store */}
-<div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10 max-w-4xl mx-auto">
+<div suppressHydrationWarning>{mounted && (
+  <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10 max-w-4xl mx-auto">
   
   {/* Logo + Text */}
   <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
@@ -216,7 +221,8 @@ export default function LewandowskiChicagoKit() {
   >
     Shop now
   </a>
-</div>
+  </div>
+)}</div>
 
   <p>
     His arrival immediately places Chicago Fire among the most talked-about clubs in MLS, attracting supporters from around the world who have followed his remarkable career for years.
@@ -244,7 +250,8 @@ export default function LewandowskiChicagoKit() {
   </p>
 
  {/* Lewandowski Banner - Fanatics */}
-<div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10 max-w-4xl mx-auto">
+<div suppressHydrationWarning>{mounted && (
+  <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10 max-w-4xl mx-auto">
   
   {/* Logo + Text */}
   <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
@@ -272,10 +279,12 @@ export default function LewandowskiChicagoKit() {
   >
     Shop now
   </a>
-</div>
+  </div>
+)}</div>
 
 {/* Lewandowski Banner - MLS Store */}
-<div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10 max-w-4xl mx-auto">
+<div suppressHydrationWarning>{mounted && (
+  <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10 max-w-4xl mx-auto">
   
   {/* Logo + Text */}
   <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
@@ -303,7 +312,8 @@ export default function LewandowskiChicagoKit() {
   >
     Shop now
   </a>
-</div>
+  </div>
+)}</div>
 
   
 

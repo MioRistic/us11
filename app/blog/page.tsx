@@ -50,6 +50,16 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 1029,
+  "title": "Why Argentina Are Wearing Their Navy Blue Kit Against England in the 2026 World Cup Semi-Final",
+  "author": "Mio Ristić",
+  "date": "July 15, 2026",
+  "excerpt": "Argentina will wear their navy blue away kit against England in the semi-final. The historic and symbolic reason behind the choice.",
+  "imageUrl": "https://i.ibb.co/Wbxt5X1/3-EWNH7-J-1-1024x536.jpg",
+  "slug": "argentina-navy-blue-kit"
+},
+  
+  {
   "id": 1028,
   "title": "Chicago Fire Unveil Lewandowski Home Kit for Historic 2026 Season",
   "author": "Mio Ristić",

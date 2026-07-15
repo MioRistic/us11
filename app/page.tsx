@@ -103,6 +103,15 @@ const blogPosts: Post[] = [
 
 
 const jerseysBlogPosts: Post[] = [
+   {
+  "id": 1029,
+  "title": "Why Argentina Are Wearing Their Navy Blue Kit Against England in the 2026 World Cup Semi-Final",
+  "author": "Mio Ristić",
+  "date": "July 15, 2026",
+  "excerpt": "Argentina will wear their navy blue away kit against England in the semi-final. The historic and symbolic reason behind the choice.",
+  "imageUrl": "https://i.ibb.co/Wbxt5X1/3-EWNH7-J-1-1024x536.jpg",
+  "link": "blog/argentina-navy-blue-kit"
+},
   {
   "id": 1028,
   "title": "Chicago Fire Unveil Lewandowski Home Kit for Historic 2026 Season",
@@ -121,17 +130,7 @@ const jerseysBlogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/blteb5ae4bd28752ec3/adidas%20FIFA%20World%20Cup%202026%20kit%20-%20Germany.png?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "blog/best-world-cup-2026-street-style-jerseys"
 },
-  {
-  "id": 1014,
-  "title": "Mexico’s New Adidas Third Kit Is a Bold Tribute to Their World Cup Legacy",
-  "author": "Mio Ristić",
-  "date": "May 11, 2026",
-  "excerpt": "Mexico and adidas unveiled a bold new all-black 2026 third kit that celebrates the nation’s World Cup legacy with premium design details and deep cultural identity.",
-  "imageUrl": "https://preview.thenewsmarket.com/Previews/ADID/StillAssets/1920x1440/723904.jpg",
-  "link": "blog/mexico-adidas-third-kit-2026"
-},
- 
-  
+
   
 
 ];const hallOfFamePosts: Post[] = [
