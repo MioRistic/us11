@@ -156,18 +156,22 @@ export default function LewandowskiChicagoKit() {
   <p>
     After establishing himself as one of football&apos;s greatest goalscorers with clubs in Germany and Spain, Robert Lewandowski now brings his experience and world-class finishing ability to Major League Soccer.
   </p>
-   {/*  Banner */}
-<div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 flex items-center justify-between my-10 max-w-4xl mx-auto">
+   {/* Lewandowski Banner - Fanatics */}
+<div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10 max-w-4xl mx-auto">
   
   {/* Logo + Text */}
-  <div className="flex items-center gap-5">
-    <div className="w-14 h-14 rounded-xl flex items-center justify-center flex-shrink-0">
-      <img src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg" alt="shop" className="w-full h-full object-contain" />
+  <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
+    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 bg-gray-50">
+      <img 
+        src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg" 
+        alt="Fanatics" 
+        className="w-10 h-10 sm:w-12 sm:h-12 object-contain" 
+      />
     </div>
     
-    <div>
-      <h3 className="text-xl font-semibold text-gray-900 leading-tight">
-        Chicago Fire Robert Lewandowski adidas 2026 Jersey<br />
+    <div className="flex-1 min-w-0">
+      <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
+        Chicago Fire Robert Lewandowski adidas 2026 Home Jersey
       </h3>
     </div>
   </div>
@@ -177,13 +181,41 @@ export default function LewandowskiChicagoKit() {
     href="https://fanatics.93n6tx.net/jR5M70"
     target="_blank"
     rel="noopener noreferrer"
-    className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap"
+    className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap w-full sm:w-auto text-center"
   >
     Shop now
   </a>
+</div>
 
+{/* Lewandowski Banner - MLS Store */}
+<div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10 max-w-4xl mx-auto">
   
+  {/* Logo + Text */}
+  <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
+    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 bg-gray-50">
+      <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Major_League_Soccer_logo.svg/500px-Major_League_Soccer_logo.svg.png" 
+        alt="MLS Store" 
+        className="w-10 h-10 sm:w-12 sm:h-12 object-contain" 
+      />
+    </div>
+    
+    <div className="flex-1 min-w-0">
+      <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
+        Chicago Fire Robert Lewandowski adidas 2026 Home Jersey
+      </h3>
+    </div>
+  </div>
 
+  {/* Button */}
+  <a
+    href="https://mlsstore.i8h2.net/6kxBZq"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap w-full sm:w-auto text-center"
+  >
+    Shop now
+  </a>
 </div>
 
   <p>
@@ -211,18 +243,22 @@ export default function LewandowskiChicagoKit() {
     Fans looking to purchase the official Robert Lewandowski Chicago Fire 2026 Home Jersey can find it through:
   </p>
 
-  {/*  Banner */}
-<div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 flex items-center justify-between my-10 max-w-4xl mx-auto">
+ {/* Lewandowski Banner - Fanatics */}
+<div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10 max-w-4xl mx-auto">
   
   {/* Logo + Text */}
-  <div className="flex items-center gap-5">
-    <div className="w-14 h-14 rounded-xl flex items-center justify-center flex-shrink-0">
-      <img src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg" alt="shop" className="w-full h-full object-contain" />
+  <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
+    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 bg-gray-50">
+      <img 
+        src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg" 
+        alt="Fanatics" 
+        className="w-10 h-10 sm:w-12 sm:h-12 object-contain" 
+      />
     </div>
     
-    <div>
-      <h3 className="text-xl font-semibold text-gray-900 leading-tight">
-        Chicago Fire Robert Lewandowski adidas 2026 Jersey<br />
+    <div className="flex-1 min-w-0">
+      <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
+        Chicago Fire Robert Lewandowski adidas 2026 Home Jersey
       </h3>
     </div>
   </div>
@@ -232,26 +268,28 @@ export default function LewandowskiChicagoKit() {
     href="https://fanatics.93n6tx.net/jR5M70"
     target="_blank"
     rel="noopener noreferrer"
-    className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap"
+    className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap w-full sm:w-auto text-center"
   >
     Shop now
   </a>
-
-  
-
 </div>
-  {/*  Banner */}
-<div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 flex items-center justify-between my-10 max-w-4xl mx-auto">
+
+{/* Lewandowski Banner - MLS Store */}
+<div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10 max-w-4xl mx-auto">
   
   {/* Logo + Text */}
-  <div className="flex items-center gap-5">
-    <div className="w-14 h-14 rounded-xl flex items-center justify-center flex-shrink-0">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Major_League_Soccer_logo.svg/500px-Major_League_Soccer_logo.svg.png" alt="shop" className="w-full h-full object-contain" />
+  <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
+    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 bg-gray-50">
+      <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Major_League_Soccer_logo.svg/500px-Major_League_Soccer_logo.svg.png" 
+        alt="MLS Store" 
+        className="w-10 h-10 sm:w-12 sm:h-12 object-contain" 
+      />
     </div>
     
-    <div>
-      <h3 className="text-xl font-semibold text-gray-900 leading-tight">
-        Chicago Fire Robert Lewandowski adidas 2026 Jersey<br />
+    <div className="flex-1 min-w-0">
+      <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
+        Chicago Fire Robert Lewandowski adidas 2026 Home Jersey
       </h3>
     </div>
   </div>
@@ -261,13 +299,10 @@ export default function LewandowskiChicagoKit() {
     href="https://mlsstore.i8h2.net/6kxBZq"
     target="_blank"
     rel="noopener noreferrer"
-    className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap"
+    className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap w-full sm:w-auto text-center"
   >
     Shop now
   </a>
-
-  
-
 </div>
 
   
