@@ -153,7 +153,7 @@ export default function ArgentinaNavyBlueKit() {
     
     <div className="flex-1 min-w-0">
       <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
-        Chicago Fire Robert Lewandowski adidas 2026 Home Jersey
+        Shop the Argentina Navy Blue Kit 
       </h3>
     </div>
   </div>
@@ -236,7 +236,7 @@ export default function ArgentinaNavyBlueKit() {
     
     <div className="flex-1 min-w-0">
       <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
-        Chicago Fire Robert Lewandowski adidas 2026 Home Jersey
+        Shop the Argentina Navy Blue Kit
       </h3>
     </div>
   </div>
