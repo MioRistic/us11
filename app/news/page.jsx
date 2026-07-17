@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 207,
+  "title": "Chicago Fire vs Vancouver Whitecaps Postponed as Hazardous Air Quality Delays Robert Lewandowski's MLS Debut",
+  "author": "Mio Ristić",
+  "date": "July 16, 2026",
+  "excerpt": "Thursday’s highly anticipated match between Chicago Fire and Vancouver Whitecaps has been postponed due to hazardous air quality.",
+  "imageUrl": "https://i.ibb.co/xSpmFW5m/im-45660188.avif",
+  "slug": "chicago-fire-match-postponed"
+},
+    {
   "id": 204,
   "title": "Top 10 Most Interesting Summer Transfers in MLS (as of July 13, 2026)",
   "author": "Mio Ristić",

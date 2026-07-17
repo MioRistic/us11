@@ -67,6 +67,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 207,
+  "title": "Chicago Fire vs Vancouver Whitecaps Postponed as Hazardous Air Quality Delays Robert Lewandowski's MLS Debut",
+  "author": "Mio Ristić",
+  "date": "July 16, 2026",
+  "excerpt": "Thursday’s highly anticipated match between Chicago Fire and Vancouver Whitecaps has been postponed due to hazardous air quality.",
+  "imageUrl": "https://i.ibb.co/xSpmFW5m/im-45660188.avif",
+  "link": "news/chicago-fire-match-postponed"
+},
+  {
   "id": 204,
   "title": "Top 10 Most Interesting Summer Transfers in MLS (as of July 13, 2026)",
   "author": "Mio Ristić",
@@ -84,16 +93,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx-OyYFOezlJ99SwImyDlE2hrcELC06dVliqAIp20QYleTdBhmwUWhCH51&s=10",
   "link": "news/cremaschi-parma-permanent"
 },
-  {
-  "id": 202,
-  "title": "Antoine Griezmann Officially Arrives in Orlando: Goal and Assist in Debut as Lions Crush Tampa Bay 6-0",
-  "author": "Mio Ristić",
-  "date": "July 9, 2026",
-  "excerpt": "Antoine Griezmann scores and assists in his Orlando City debut as the Lions thrash Tampa Bay Rowdies 6-0 in a friendly at Inter&Co Stadium.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2284675878/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORYGU======/GettyImages-2284675878.jpg",
-  "link": "news/griezmann-orlando-debut"
-},
-   
+
     
   
 ];
