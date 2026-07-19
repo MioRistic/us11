@@ -11,6 +11,15 @@ import Us11 from '../../public/11.png';
 
 const Blog = () => {
   const blogPosts = [
+  {
+  "id": 208,
+  "title": "Son Heung-Min’s Statement Goal in LAFC’s El Tráfico Rout: A Triumphant Return",
+  "author": "Mio Ristić",
+  "date": "July 19, 2026",
+  "excerpt": "Son Heung-Min breaks his scoring drought with a stunning goal as LAFC dominate rivals LA Galaxy 3-0 in El Tráfico.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2237499046/crop/MM5DCNZUGA5DSNZZHJXG653FHIYDUOJR/GettyImages-2237499046.jpg",
+  "slug": "el-traffico-son-return"
+},
     {
   "id": 207,
   "title": "Chicago Fire vs Vancouver Whitecaps Postponed as Hazardous Air Quality Delays Robert Lewandowski's MLS Debut",

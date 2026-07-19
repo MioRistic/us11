@@ -10,11 +10,17 @@ const ChicagoFirePage = () => {
 
   // Trending Players
   const players = [
+      { 
+      name: 'Robert Lewandowski', 
+      image: 'https://assets.goal.com/images/v3/getty-2285479115/crop/MM5DINJQGA5DENJTGE5G433XMU5DAORSGM2A====/GettyImages-2285479115.jpg?auto=webp&format=pjpg&width=3840&quality=60', 
+      slug: 'lewandowski' 
+    },
     { 
       name: 'Chris Mueller', 
       image: 'https://wgntv.com/wp-content/uploads/sites/5/2023/02/gettyimages-1416710153-594x594-1.jpg', 
       slug: 'mueller' 
     },
+   
    
   ];
 

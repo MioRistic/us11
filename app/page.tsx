@@ -13,6 +13,8 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 }const TrendingPlayers = () => {
   const players = [
     { name: 'Lionel Messi', image: 'https://en.nogomania.com/GetFile.ashx?id=271175', link: '/teams/inter-miami/messi' },
+    { name: 'Robert Lewandowski', image: 'https://assets.goal.com/images/v3/getty-2285479115/crop/MM5DINJQGA5DENJTGE5G433XMU5DAORSGM2A====/GettyImages-2285479115.jpg?auto=webp&format=pjpg&width=3840&quality=60', link: '/teams/chicago-fire/lewandowski' 
+    },
     { name: 'Heung-Min Son', image: 'https://assets.goal.com/images/v3/getty-2229316055/crop/MM5DGNBTHA5DCOJTGQ5G433XMU5DAORRG44Q====/GettyImages-2229316055.jpg?auto=webp&format=pjpg&width=1920&quality=60', link: '/teams/lafc/son' },
     { name: 'Thomas Muller', image: 'https://assets.goal.com/images/v3/getty-2230148654/crop/MM5DIMRWGY5DENBQGA5G433XMU5DAORSGIZA====/GettyImages-2230148654.jpg?auto=webp&format=pjpg&width=1920&quality=60', link: '/teams/vancouver-whitecaps/muller' },
     { name: 'Luis Suarez', image: 'https://en.nogomania.com/GetFile.ashx?id=259742', link: '/teams/inter-miami/suarez' },
@@ -66,6 +68,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
   );
 };
 const blogPosts: Post[] = [
+{
+  "id": 208,
+  "title": "Son Heung-Min’s Statement Goal in LAFC’s El Tráfico Rout: A Triumphant Return",
+  "author": "Mio Ristić",
+  "date": "July 19, 2026",
+  "excerpt": "Son Heung-Min breaks his scoring drought with a stunning goal as LAFC dominate rivals LA Galaxy 3-0 in El Tráfico.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2237499046/crop/MM5DCNZUGA5DSNZZHJXG653FHIYDUOJR/GettyImages-2237499046.jpg",
+  "link": "news/el-traffico-son-return"
+},
   {
   "id": 207,
   "title": "Chicago Fire vs Vancouver Whitecaps Postponed as Hazardous Air Quality Delays Robert Lewandowski's MLS Debut",
@@ -84,15 +95,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/0p04zs5V/dc2772d1-orlando-city-antoine-griezmann.avif",
   "link": "news/top-10-mls-transfers-2026"
 },
-  {
-  "id": 203,
-  "title": "Benjamin Cremaschi’s Move to Parma Made Permanent: The Full Story of the American Midfielder’s European Journey",
-  "author": "Mio Ristić",
-  "date": "July 13, 2026",
-  "excerpt": "Parma have triggered the €4 million buy option to make Benjamin Cremaschi’s move from Inter Miami permanent. The young American midfielder heads to Serie A for a fresh start.",
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx-OyYFOezlJ99SwImyDlE2hrcELC06dVliqAIp20QYleTdBhmwUWhCH51&s=10",
-  "link": "news/cremaschi-parma-permanent"
-},
+  
 
     
   
