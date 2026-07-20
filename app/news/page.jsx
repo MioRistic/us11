@@ -11,6 +11,15 @@ import Us11 from '../../public/11.png';
 
 const Blog = () => {
   const blogPosts = [
+    {
+  "id": 209,
+  "title": "Spain Won the FIFA World Cup: Ferran Torres Fires Spain to Historic Victory Over Argentina",
+  "author": "Mio Ristić",
+  "date": "July 19, 2026",
+  "excerpt": "Spain defeat Argentina 1-0 in extra time to win the 2026 FIFA World Cup, with Ferran Torres scoring the decisive goal.",
+  "imageUrl": "https://i.ibb.co/FqWwj6Lv/spain-1400.webp",
+  "slug": "spain-world-cup-victory"
+},
   {
   "id": 208,
   "title": "Son Heung-Min’s Statement Goal in LAFC’s El Tráfico Rout: A Triumphant Return",

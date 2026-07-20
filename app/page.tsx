@@ -68,6 +68,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
   );
 };
 const blogPosts: Post[] = [
+  {
+  "id": 209,
+  "title": "Spain Won the FIFA World Cup: Ferran Torres Fires Spain to Historic Victory Over Argentina",
+  "author": "Mio Ristić",
+  "date": "July 19, 2026",
+  "excerpt": "Spain defeat Argentina 1-0 in extra time to win the 2026 FIFA World Cup, with Ferran Torres scoring the decisive goal.",
+  "imageUrl": "https://i.ibb.co/FqWwj6Lv/spain-1400.webp",
+  "link": "news/spain-world-cup-victory"
+},
 {
   "id": 208,
   "title": "Son Heung-Min’s Statement Goal in LAFC’s El Tráfico Rout: A Triumphant Return",
@@ -86,16 +95,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/xSpmFW5m/im-45660188.avif",
   "link": "news/chicago-fire-match-postponed"
 },
-  {
-  "id": 204,
-  "title": "Top 10 Most Interesting Summer Transfers in MLS (as of July 13, 2026)",
-  "author": "Mio Ristić",
-  "date": "July 13, 2026",
-  "excerpt": "From global superstars like Griezmann and Lewandowski to smart value signings — here are the 10 most interesting MLS transfers so far this summer.",
-  "imageUrl": "https://i.ibb.co/0p04zs5V/dc2772d1-orlando-city-antoine-griezmann.avif",
-  "link": "news/top-10-mls-transfers-2026"
-},
-  
+ 
 
     
   
