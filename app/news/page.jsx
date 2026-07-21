@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 210,
+  "title": "Lionel Messi at the 2026 World Cup: Magic, Controversy, and One Last Stand",
+  "author": "Mio Ristić",
+  "date": "July 21, 2026",
+  "excerpt": "From early doubts to final heartbreak, Lionel Messi’s journey at the 2026 World Cup was filled with brilliance, controversy, and emotion.",
+  "imageUrl": "https://assets.goal.com/images/v3/bltefe763462ed181c7/crop/MM5DCMRYGA5DOMRQHJXG653FHIZDOOJ2GA======/1600.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "messi-recap"
+},
+    {
   "id": 209,
   "title": "Spain Won the FIFA World Cup: Ferran Torres Fires Spain to Historic Victory Over Argentina",
   "author": "Mio Ristić",
@@ -1860,6 +1869,50 @@ const Blog = () => {
               </Link>
             ))}
           </div>
+
+          <section className="mt-16 border-t pt-8 bg-white">
+            <h2 className="text-4xl font-extrabold text-[#111] mb-8 text-center">
+              Next For You
+            </h2>
+
+            <div className="grid md:grid-cols-2 gap-6 px-4 md:px-8">
+              <Link href="/news/spain-world-cup-victory" className="border rounded-lg p-6 hover:bg-gray-50 transition shadow-md">
+                <div className="flex items-center gap-8">
+                  <span className="w-10 text-center text-[#ff5a36] text-4xl font-bold shrink-0">1</span>
+                  <h3 className="font-semibold text-lg leading-6 hover:text-[#ff5a36] transition duration-300">
+                    Spain Won the FIFA World Cup: Ferran Torres Fires Spain to Historic Victory Over Argentina
+                  </h3>
+                </div>
+              </Link>
+
+              <Link href="/news/el-traffico-son-return" className="border rounded-lg p-6 hover:bg-gray-50 transition shadow-md">
+                <div className="flex items-center gap-8">
+                  <span className="w-10 text-center text-[#ff5a36] text-4xl font-bold shrink-0">2</span>
+                  <h3 className="font-semibold text-lg leading-6 hover:text-[#ff5a36] transition duration-300">
+                    Son Heung-Min’s Statement Goal in LAFC’s El Tráfico Rout: A Triumphant Return
+                  </h3>
+                </div>
+              </Link>
+
+              <Link href="/news/top-10-mls-transfers-2026" className="border rounded-lg p-6 hover:bg-gray-50 transition shadow-md">
+                <div className="flex items-center gap-8">
+                  <span className="w-10 text-center text-[#ff5a36] text-4xl font-bold shrink-0">3</span>
+                  <h3 className="font-semibold text-lg leading-6 hover:text-[#ff5a36] transition duration-300">
+                    Top 10 Most Interesting Summer Transfers in MLS
+                  </h3>
+                </div>
+              </Link>
+
+              <Link href="/news/cremaschi-parma-permanent" className="border rounded-lg p-6 hover:bg-gray-50 transition shadow-md">
+                <div className="flex items-center gap-8">
+                  <span className="w-10 text-center text-[#ff5a36] text-4xl font-bold shrink-0">4</span>
+                  <h3 className="font-semibold text-lg leading-6 hover:text-[#ff5a36] transition duration-300">
+                    Benjamin Cremaschi’s Move to Parma Made Permanent
+                  </h3>
+                </div>
+              </Link>
+            </div>
+          </section>
 
           {visiblePosts.length < blogPosts.length && (
             <div className="mt-12 flex justify-center">

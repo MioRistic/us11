@@ -69,6 +69,15 @@ import { useForm, ValidationError } from '@formspree/react';interface Post {
 };
 const blogPosts: Post[] = [
   {
+  "id": 210,
+  "title": "Lionel Messi at the 2026 World Cup: Magic, Controversy, and One Last Stand",
+  "author": "Mio Ristić",
+  "date": "July 21, 2026",
+  "excerpt": "From early doubts to final heartbreak, Lionel Messi’s journey at the 2026 World Cup was filled with brilliance, controversy, and emotion.",
+  "imageUrl": "https://assets.goal.com/images/v3/bltefe763462ed181c7/crop/MM5DCMRYGA5DOMRQHJXG653FHIZDOOJ2GA======/1600.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/messi-recap"
+},
+  {
   "id": 209,
   "title": "Spain Won the FIFA World Cup: Ferran Torres Fires Spain to Historic Victory Over Argentina",
   "author": "Mio Ristić",
@@ -86,18 +95,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2237499046/crop/MM5DCNZUGA5DSNZZHJXG653FHIYDUOJR/GettyImages-2237499046.jpg",
   "link": "news/el-traffico-son-return"
 },
-  {
-  "id": 207,
-  "title": "Chicago Fire vs Vancouver Whitecaps Postponed as Hazardous Air Quality Delays Robert Lewandowski's MLS Debut",
-  "author": "Mio Ristić",
-  "date": "July 16, 2026",
-  "excerpt": "Thursday’s highly anticipated match between Chicago Fire and Vancouver Whitecaps has been postponed due to hazardous air quality.",
-  "imageUrl": "https://i.ibb.co/xSpmFW5m/im-45660188.avif",
-  "link": "news/chicago-fire-match-postponed"
-},
- 
 
-    
   
 ];
 
@@ -286,15 +284,23 @@ const jerseysBlogPosts: Post[] = [
       </div>
       
       
-    </section><div className="bg-white py-16">
-      {/* Hero */}
-      <div className=" md:-mx-6 lg:-mx-8 xl:-mx-0 bg-zinc-100 border-b border-zinc-200 py-2.5 text-center text-[10px] text-zinc-600">
-  This page contains affiliate links. When you purchase through the links provided, 
-  <span className="text-zinc-700 font-medium"> US11 may earn a commission</span> 
-  at no extra cost to you.
-</div>
-      
-  <div className="max-w-6xl mx-auto px-6">
+    </section>
+
+    {/* Premium Affiliate Banner */}
+    <div className="border-b border-zinc-800 bg-black py-5">
+      <div className="mx-auto max-w-7xl px-4">
+        <div className="mx-auto max-w-md rounded-3xl border border-zinc-600 bg-gradient-to-r from-zinc-800 to-zinc-900 px-10 py-4 text-center shadow-2xl">
+          <p className="text-[13px] leading-snug text-zinc-300">
+            This page contains affiliate links. When you purchase through the links provided,
+            <span className="font-medium text-white"> US11 may earn a commission</span>
+            at no extra cost to you.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div className="bg-white py-16">
+      <div className="max-w-6xl mx-auto px-6">
     
     <h2 className="text-5xl md:text-6xl font-black tracking-[-2.8px] leading-none text-[#020617] mb-12 text-center">
       Staff Picks
