@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 211,
+  "title": "NYCFC CEO Brad Sims Sends Clear Message: “We Want Christian Pulisic”",
+  "author": "Mio Ristić",
+  "date": "July 21, 2026",
+  "excerpt": "NYCFC CEO Brad Sims has publicly expressed strong interest in signing Christian Pulisic despite AC Milan’s stance.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2281625986/crop/MM5DEMJXGA5DCMRSGE5G433XMU5DAORRGAZQ====/GettyImages-2281625986.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "nycfc-pulisic"
+},
+    {
   "id": 210,
   "title": "Lionel Messi at the 2026 World Cup: Magic, Controversy, and One Last Stand",
   "author": "Mio Ristić",
