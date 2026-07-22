@@ -19,11 +19,27 @@ interface Post {
 const ACCENT = '#1d4ed8';
 
 const heroItems = [
+   { 
+    title: "LA Galaxy Sign Kyōgo Furuhashi", 
+    subtitle: "The Japanese striker joins LA Galaxy on a long-term deal through 2030-31", 
+    image: "https://i.ibb.co/9HPvvXNp/Getty-Images-2257281996-1024x683.webp", 
+    link: "/news/furuhashi", 
+    external: false, 
+    cta: "Read the full story" 
+  },
+  { 
+    title: "NYCFC CEO: “We Want Christian Pulisic”", 
+    subtitle: "Brad Sims sends a clear message about signing the USMNT star", 
+    image: "https://assets.goal.com/images/v3/getty-2281625986/crop/MM5DEMJXGA5DCMRSGE5G433XMU5DAORRGAZQ====/GettyImages-2281625986.jpg?auto=webp&format=pjpg&width=1920&quality=60", 
+    link: "/news/nycfc-pulisic", 
+    external: false, 
+    cta: "Read the full story" 
+  },
   { title: "Top 10 Most Interesting Summer Transfers in MLS", subtitle: "Griezmann, Lewandowski and more — the biggest moves of the 2026 summer window so far", image: "https://i.ibb.co/0p04zs5V/dc2772d1-orlando-city-antoine-griezmann.avif", link: "/news/top-10-mls-transfers-2026", external: false, cta: "Read the story" },
   { title: "Shop World Cup 2026 Jerseys", subtitle: "Collect the kits from every nation competing on the biggest stage", image: "https://assets.goal.com/images/v3/bltc50f036015249aeb/adidas%20WC%20kits%20.jpg?format=pjpg&quality=60&auto=webp&width=1200", link: "https://fanatics.93n6tx.net/L0RXVO", external: true, cta: "Shop now" },
   { title: "Lionel Messi at the 2026 World Cup", subtitle: "From early doubts to final heartbreak, Lionel Messi's journey at the 2026 World Cup was filled with brilliance, controversy, and emotion.", image: "https://assets.goal.com/images/v3/bltefe763462ed181c7/crop/MM5DCMRYGA5DOMRQHJXG653FHIZDOOJ2GA======/1600.jpg?auto=webp&format=pjpg&width=1920&quality=60", link: "/news/messi-recap", external: false, cta: "Read the story" },
-  { title: "Spain Won the FIFA World Cupa", subtitle: "Spain defeat Argentina 1-0 in extra time to win the 2026 FIFA World Cup, with Ferran Torres scoring the decisive goal.", image: "https://i.ibb.co/FqWwj6Lv/spain-1400.webp", link: "/news/spain-world-cup-victory", external: false, cta: "Read the story" },
-  { title: "Son Heung-Min's Statement Goal in LAFC's El Tráfico Rout", subtitle: "Son Heung-Min breaks his scoring drought with a stunning goal as LAFC dominate rivals LA Galaxy 3-0 in El Tráfico.", image: "https://assets.goal.com/images/v3/getty-2237499046/crop/MM5DCNZUGA5DSNZZHJXG653FHIYDUOJR/GettyImages-2237499046.jpg", link: "/news/el-traffico-son-return", external: false, cta: "Read the story" },
+  
+
 ];
 
 const staffPicks = [
@@ -37,6 +53,16 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+  
+  {
+  "id": 212,
+  "title": "LA Galaxy Sign Kyōgo Furuhashi: A Calculated Gamble on Proven Pedigree and Pacific Rim Ambition",
+  "author": "Mio Ristić",
+  "date": "July 21, 2026",
+  "excerpt": "The LA Galaxy have signed Japanese international striker Kyōgo Furuhashi from Birmingham City on a long-term deal.",
+  "imageUrl": "https://i.ibb.co/9HPvvXNp/Getty-Images-2257281996-1024x683.webp",
+  "link": "news/furuhashi"
+},
   {
   "id": 211,
   "title": "NYCFC CEO Brad Sims Sends Clear Message: “We Want Christian Pulisic”",
@@ -47,7 +73,7 @@ const blogPosts: Post[] = [
   "link": "news/nycfc-pulisic"
 },
   { id: 210, title: "Lionel Messi at the 2026 World Cup: Magic, Controversy, and One Last Stand", author: "Mio Ristić", date: "July 21, 2026", excerpt: "From early doubts to final heartbreak, Lionel Messi's journey at the 2026 World Cup was filled with brilliance, controversy, and emotion.", imageUrl: "https://assets.goal.com/images/v3/bltefe763462ed181c7/crop/MM5DCMRYGA5DOMRQHJXG653FHIZDOOJ2GA======/1600.jpg?auto=webp&format=pjpg&width=1920&quality=60", link: "/news/messi-recap" },
-  { id: 209, title: "Spain Won the FIFA World Cup: Ferran Torres Fires Spain to Historic Victory Over Argentina", author: "Mio Ristić", date: "July 19, 2026", excerpt: "Spain defeat Argentina 1-0 in extra time to win the 2026 FIFA World Cup, with Ferran Torres scoring the decisive goal.", imageUrl: "https://i.ibb.co/FqWwj6Lv/spain-1400.webp", link: "/news/spain-world-cup-victory" },
+  
   
 ];
 

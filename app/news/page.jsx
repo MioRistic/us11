@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 212,
+  "title": "LA Galaxy Sign Kyōgo Furuhashi: A Calculated Gamble on Proven Pedigree and Pacific Rim Ambition",
+  "author": "Mio Ristić",
+  "date": "July 21, 2026",
+  "excerpt": "The LA Galaxy have signed Japanese international striker Kyōgo Furuhashi from Birmingham City on a long-term deal.",
+  "imageUrl": "https://i.ibb.co/9HPvvXNp/Getty-Images-2257281996-1024x683.webp",
+  "slug": "furuhashi"
+},
+    {
   "id": 211,
   "title": "NYCFC CEO Brad Sims Sends Clear Message: “We Want Christian Pulisic”",
   "author": "Mio Ristić",
