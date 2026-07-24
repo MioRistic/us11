@@ -19,6 +19,14 @@ interface Post {
 const ACCENT = '#1d4ed8';
 
 const heroItems = [
+  {
+  title: "Suárez Spoils Lewandowski’s MLS Debut",
+  subtitle: "El Pistolero scores a brace as Inter Miami edge Chicago Fire 3-2 on Lewandowski’s first night",
+  image: "https://assets.goal.com/images/v3/getty-2270923706/crop/MM5DGOBSGI5DEMJVGA5G433XMU5DAORTGEYA====/GettyImages-2270923706.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  link: "/news/suarez-lewandowski-debut",
+  external: false,
+  cta: "Read the full story"
+},
    { 
     title: "LA Galaxy Sign Kyōgo Furuhashi", 
     subtitle: "The Japanese striker joins LA Galaxy on a long-term deal through 2030-31", 
@@ -37,7 +45,7 @@ const heroItems = [
   },
   { title: "Top 10 Most Interesting Summer Transfers in MLS", subtitle: "Griezmann, Lewandowski and more — the biggest moves of the 2026 summer window so far", image: "https://i.ibb.co/0p04zs5V/dc2772d1-orlando-city-antoine-griezmann.avif", link: "/news/top-10-mls-transfers-2026", external: false, cta: "Read the story" },
   { title: "Shop World Cup 2026 Jerseys", subtitle: "Collect the kits from every nation competing on the biggest stage", image: "https://assets.goal.com/images/v3/bltc50f036015249aeb/adidas%20WC%20kits%20.jpg?format=pjpg&quality=60&auto=webp&width=1200", link: "https://fanatics.93n6tx.net/L0RXVO", external: true, cta: "Shop now" },
-  { title: "Lionel Messi at the 2026 World Cup", subtitle: "From early doubts to final heartbreak, Lionel Messi's journey at the 2026 World Cup was filled with brilliance, controversy, and emotion.", image: "https://assets.goal.com/images/v3/bltefe763462ed181c7/crop/MM5DCMRYGA5DOMRQHJXG653FHIZDOOJ2GA======/1600.jpg?auto=webp&format=pjpg&width=1920&quality=60", link: "/news/messi-recap", external: false, cta: "Read the story" },
+  
   
 
 ];
@@ -53,7 +61,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
-  
+  {
+  "id": 213,
+  "title": "Suárez Spoils Lewandowski’s MLS Debut as Inter Miami Edge Chicago 3-2",
+  "author": "Mio Ristić",
+  "date": "July 24, 2026",
+  "excerpt": "Luis Suárez scored a brace and Preston Plambeck netted a late winner as Inter Miami beat Chicago Fire 3-2, spoiling Robert Lewandowski’s MLS debut.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2270923706/crop/MM5DGOBSGI5DEMJVGA5G433XMU5DAORTGEYA====/GettyImages-2270923706.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "news/suarez-lewandowski-debut"
+},
   {
   "id": 212,
   "title": "LA Galaxy Sign Kyōgo Furuhashi: A Calculated Gamble on Proven Pedigree and Pacific Rim Ambition",
@@ -72,7 +88,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2281625986/crop/MM5DEMJXGA5DCMRSGE5G433XMU5DAORRGAZQ====/GettyImages-2281625986.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "news/nycfc-pulisic"
 },
-  { id: 210, title: "Lionel Messi at the 2026 World Cup: Magic, Controversy, and One Last Stand", author: "Mio Ristić", date: "July 21, 2026", excerpt: "From early doubts to final heartbreak, Lionel Messi's journey at the 2026 World Cup was filled with brilliance, controversy, and emotion.", imageUrl: "https://assets.goal.com/images/v3/bltefe763462ed181c7/crop/MM5DCMRYGA5DOMRQHJXG653FHIZDOOJ2GA======/1600.jpg?auto=webp&format=pjpg&width=1920&quality=60", link: "/news/messi-recap" },
+  
   
   
 ];

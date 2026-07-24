@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 213,
+  "title": "Suárez Spoils Lewandowski’s MLS Debut as Inter Miami Edge Chicago 3-2",
+  "author": "Mio Ristić",
+  "date": "July 24, 2026",
+  "excerpt": "Luis Suárez scored a brace and Preston Plambeck netted a late winner as Inter Miami beat Chicago Fire 3-2, spoiling Robert Lewandowski’s MLS debut.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2270923706/crop/MM5DGOBSGI5DEMJVGA5G433XMU5DAORTGEYA====/GettyImages-2270923706.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "suarez-lewandowski-debut"
+},
+    {
   "id": 212,
   "title": "LA Galaxy Sign Kyōgo Furuhashi: A Calculated Gamble on Proven Pedigree and Pacific Rim Ambition",
   "author": "Mio Ristić",
