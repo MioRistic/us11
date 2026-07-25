@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "Antoine Griezmann Scores on MLS Debut",
+  subtitle: "The French superstar scores the 300th club goal of his career as Orlando City thrash San Jose 4-0",
+  image: "https://assets.goal.com/images/v3/getty-2287264302/crop/MM5DENRRGY5DCNBXGI5G433XMU5DEOBTHIYTENI=/GettyImages-2287264302.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  link: "/news/griezmann-debut-goal",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "Suárez Spoils Lewandowski’s MLS Debut",
   subtitle: "El Pistolero scores a brace as Inter Miami edge Chicago Fire 3-2 on Lewandowski’s first night",
   image: "https://assets.goal.com/images/v3/getty-2270923706/crop/MM5DGOBSGI5DEMJVGA5G433XMU5DAORTGEYA====/GettyImages-2270923706.jpg?auto=webp&format=pjpg&width=1920&quality=60",
@@ -44,7 +52,7 @@ const heroItems = [
     cta: "Read the full story" 
   },
   { title: "Top 10 Most Interesting Summer Transfers in MLS", subtitle: "Griezmann, Lewandowski and more — the biggest moves of the 2026 summer window so far", image: "https://i.ibb.co/0p04zs5V/dc2772d1-orlando-city-antoine-griezmann.avif", link: "/news/top-10-mls-transfers-2026", external: false, cta: "Read the story" },
-  { title: "Shop World Cup 2026 Jerseys", subtitle: "Collect the kits from every nation competing on the biggest stage", image: "https://assets.goal.com/images/v3/bltc50f036015249aeb/adidas%20WC%20kits%20.jpg?format=pjpg&quality=60&auto=webp&width=1200", link: "https://fanatics.93n6tx.net/L0RXVO", external: true, cta: "Shop now" },
+   
   
   
 
@@ -61,6 +69,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+  {
+  "id": 214,
+  "title": "Antoine Griezmann Announces Himself Immediately: Historic Debut Goal Powers Orlando City to 4-0 Thrashing",
+  "author": "Mio Ristić",
+  "date": "July 25, 2026",
+  "excerpt": "Antoine Griezmann scored on his MLS debut as Orlando City demolished San Jose Earthquakes 4-0. The goal was the 300th club goal of his career.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2287264302/crop/MM5DENRRGY5DCNBXGI5G433XMU5DEOBTHIYTENI=/GettyImages-2287264302.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "/news/griezmann-debut-goal"
+},
   {
   "id": 213,
   "title": "Suárez Spoils Lewandowski’s MLS Debut as Inter Miami Edge Chicago 3-2",
@@ -79,15 +96,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/9HPvvXNp/Getty-Images-2257281996-1024x683.webp",
   "link": "news/furuhashi"
 },
-  {
-  "id": 211,
-  "title": "NYCFC CEO Brad Sims Sends Clear Message: “We Want Christian Pulisic”",
-  "author": "Mio Ristić",
-  "date": "July 21, 2026",
-  "excerpt": "NYCFC CEO Brad Sims has publicly expressed strong interest in signing Christian Pulisic despite AC Milan’s stance.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2281625986/crop/MM5DEMJXGA5DCMRSGE5G433XMU5DAORRGAZQ====/GettyImages-2281625986.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "news/nycfc-pulisic"
-},
+   
   
   
   

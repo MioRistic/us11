@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 214,
+  "title": "Antoine Griezmann Announces Himself Immediately: Historic Debut Goal Powers Orlando City to 4-0 Thrashing",
+  "author": "Mio Ristić",
+  "date": "July 25, 2026",
+  "excerpt": "Antoine Griezmann scored on his MLS debut as Orlando City demolished San Jose Earthquakes 4-0. The goal was the 300th club goal of his career.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2287264302/crop/MM5DENRRGY5DCNBXGI5G433XMU5DEOBTHIYTENI=/GettyImages-2287264302.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "griezmann-debut-goal"
+},
+    {
   "id": 213,
   "title": "Suárez Spoils Lewandowski’s MLS Debut as Inter Miami Edge Chicago 3-2",
   "author": "Mio Ristić",
