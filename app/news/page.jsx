@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 215,
+  "title": "English Clubs Keep the Party Going: Why Football in America Isn’t Slowing Down After the World Cup",
+  "author": "Mio Ristić",
+  "date": "July 26, 2026",
+  "excerpt": "Leeds, Liverpool, Sunderland and Wrexham are touring the US just days after the World Cup final, proving football in America is only getting stronger.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2254270434/crop/MM5DGMRZHE5DCOBVGY5G433XMU5DAORWHA======/GettyImages-2254270434.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "english-clubs-usa-tour"
+},
+    {
   "id": 214,
   "title": "Antoine Griezmann Announces Himself Immediately: Historic Debut Goal Powers Orlando City to 4-0 Thrashing",
   "author": "Mio Ristić",

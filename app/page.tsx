@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "English Clubs Keep the Party Going",
+  subtitle: "Liverpool, Leeds, Sunderland and Wrexham fill stadiums across America as football fever continues after the World Cup",
+  image: "https://assets.goal.com/images/v3/getty-2254270434/crop/MM5DGMRZHE5DCOBVGY5G433XMU5DAORWHA======/GettyImages-2254270434.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  link: "/news/english-clubs-usa-tour",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "Antoine Griezmann Scores on MLS Debut",
   subtitle: "The French superstar scores the 300th club goal of his career as Orlando City thrash San Jose 4-0",
   image: "https://assets.goal.com/images/v3/getty-2287264302/crop/MM5DENRRGY5DCNBXGI5G433XMU5DEOBTHIYTENI=/GettyImages-2287264302.jpg?auto=webp&format=pjpg&width=1920&quality=60",
@@ -51,7 +59,7 @@ const heroItems = [
     external: false, 
     cta: "Read the full story" 
   },
-  { title: "Top 10 Most Interesting Summer Transfers in MLS", subtitle: "Griezmann, Lewandowski and more — the biggest moves of the 2026 summer window so far", image: "https://i.ibb.co/0p04zs5V/dc2772d1-orlando-city-antoine-griezmann.avif", link: "/news/top-10-mls-transfers-2026", external: false, cta: "Read the story" },
+ 
    
   
   
@@ -70,6 +78,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 215,
+  "title": "English Clubs Keep the Party Going: Why Football in America Isn’t Slowing Down After the World Cup",
+  "author": "Mio Ristić",
+  "date": "July 26, 2026",
+  "excerpt": "Leeds, Liverpool, Sunderland and Wrexham are touring the US just days after the World Cup final, proving football in America is only getting stronger.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2254270434/crop/MM5DGMRZHE5DCOBVGY5G433XMU5DAORWHA======/GettyImages-2254270434.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/english-clubs-usa-tour"
+},
+  {
   "id": 214,
   "title": "Antoine Griezmann Announces Himself Immediately: Historic Debut Goal Powers Orlando City to 4-0 Thrashing",
   "author": "Mio Ristić",
@@ -87,16 +104,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2270923706/crop/MM5DGOBSGI5DEMJVGA5G433XMU5DAORTGEYA====/GettyImages-2270923706.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "news/suarez-lewandowski-debut"
 },
-  {
-  "id": 212,
-  "title": "LA Galaxy Sign Kyōgo Furuhashi: A Calculated Gamble on Proven Pedigree and Pacific Rim Ambition",
-  "author": "Mio Ristić",
-  "date": "July 21, 2026",
-  "excerpt": "The LA Galaxy have signed Japanese international striker Kyōgo Furuhashi from Birmingham City on a long-term deal.",
-  "imageUrl": "https://i.ibb.co/9HPvvXNp/Getty-Images-2257281996-1024x683.webp",
-  "link": "news/furuhashi"
-},
-   
+  
   
   
   
