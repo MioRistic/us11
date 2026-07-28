@@ -131,42 +131,7 @@ const blogPosts: Post[] = [
     imageUrl: "https://assets.goal.com/images/v3/getty-2284675878/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORYGU======/GettyImages-2284675878.jpg?auto=webp&format=pjpg&width=2048&quality=60",
     link: "/news/three-stars-first-impressions"
   },
-  {
-    id: 217,
-    title: "Inter Miami’s Germán Berterame Discharged After Scary Head Collision",
-    author: "Mio Ristić",
-    date: "July 27, 2026",
-    excerpt: "Germán Berterame has been discharged from hospital after a frightening head collision in Inter Miami’s 1-0 win over CF Montréal. He sustained injuries to his left shoulder and nose.",
-    imageUrl: "https://s.yimg.com/os/en/onefootball_articles_802/ffb59a1e4e5923f3f5a1b54f960062a7",
-    link: "/news/berterame-injury-update"
-  },
-  {
-    id: 215,
-    title: "English Clubs Keep the Party Going: Why Football in America Isn’t Slowing Down After the World Cup",
-    author: "Mio Ristić",
-    date: "July 26, 2026",
-    excerpt: "Leeds, Liverpool, Sunderland and Wrexham are touring the US just days after the World Cup final, proving football in America is only getting stronger.",
-    imageUrl: "https://assets.goal.com/images/v3/getty-2254270434/crop/MM5DGMRZHE5DCOBVGY5G433XMU5DAORWHA======/GettyImages-2254270434.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-    link: "/news/english-clubs-usa-tour"
-  },
-  {
-    id: 214,
-    title: "Antoine Griezmann Announces Himself Immediately: Historic Debut Goal Powers Orlando City to 4-0 Thrashing",
-    author: "Mio Ristić",
-    date: "July 25, 2026",
-    excerpt: "Antoine Griezmann scored on his MLS debut as Orlando City demolished San Jose Earthquakes 4-0. The goal was the 300th club goal of his career.",
-    imageUrl: "https://assets.goal.com/images/v3/getty-2287264302/crop/MM5DENRRGY5DCNBXGI5G433XMU5DEOBTHIYTENI=/GettyImages-2287264302.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-    link: "/news/griezmann-debut-goal"
-  },
-  {
-    id: 213,
-    title: "Suárez Spoils Lewandowski’s MLS Debut as Inter Miami Edge Chicago 3-2",
-    author: "Mio Ristić",
-    date: "July 24, 2026",
-    excerpt: "Luis Suárez scored a brace and Preston Plambeck netted a late winner as Inter Miami beat Chicago Fire 3-2, spoiling Robert Lewandowski’s MLS debut.",
-    imageUrl: "https://assets.goal.com/images/v3/getty-2270923706/crop/MM5DGOBSGI5DEMJVGA5G433XMU5DAORTGEYA====/GettyImages-2270923706.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-    link: "/news/suarez-lewandowski-debut"
-  }
+  
 ];
 
 const jerseysBlogPosts: Post[] = [
