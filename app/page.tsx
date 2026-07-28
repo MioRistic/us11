@@ -19,46 +19,7 @@ interface Post {
 const ACCENT = '#1d4ed8';
 
 const heroItems = [
-  {
-    title: "English Clubs Keep the Party Going",
-    subtitle: "Liverpool, Leeds, Sunderland and Wrexham fill stadiums across America as football fever continues after the World Cup",
-    image: "https://assets.goal.com/images/v3/getty-2254270434/crop/MM5DGMRZHE5DCOBVGY5G433XMU5DAORWHA======/GettyImages-2254270434.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-    link: "/news/english-clubs-usa-tour",
-    external: false,
-    cta: "Read the full story"
-  },
-  {
-    title: "Antoine Griezmann Scores on MLS Debut",
-    subtitle: "The French superstar scores the 300th club goal of his career as Orlando City thrash San Jose 4-0",
-    image: "https://assets.goal.com/images/v3/getty-2287264302/crop/MM5DENRRGY5DCNBXGI5G433XMU5DEOBTHIYTENI=/GettyImages-2287264302.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-    link: "/news/griezmann-debut-goal",
-    external: false,
-    cta: "Read the full story"
-  },
-  {
-    title: "Suárez Spoils Lewandowski’s MLS Debut",
-    subtitle: "El Pistolero scores a brace as Inter Miami edge Chicago Fire 3-2 on Lewandowski’s first night",
-    image: "https://assets.goal.com/images/v3/getty-2270923706/crop/MM5DGOBSGI5DEMJVGA5G433XMU5DAORTGEYA====/GettyImages-2270923706.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-    link: "/news/suarez-lewandowski-debut",
-    external: false,
-    cta: "Read the full story"
-  },
-  {
-    title: "LA Galaxy Sign Kyōgo Furuhashi",
-    subtitle: "The Japanese striker joins LA Galaxy on a long-term deal through 2030-31",
-    image: "https://i.ibb.co/9HPvvXNp/Getty-Images-2257281996-1024x683.webp",
-    link: "/news/furuhashi",
-    external: false,
-    cta: "Read the full story"
-  },
-  {
-    title: "NYCFC CEO: “We Want Christian Pulisic”",
-    subtitle: "Brad Sims sends a clear message about signing the USMNT star",
-    image: "https://assets.goal.com/images/v3/getty-2281625986/crop/MM5DEMJXGA5DCMRSGE5G433XMU5DAORRGAZQ====/GettyImages-2281625986.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-    link: "/news/nycfc-pulisic",
-    external: false,
-    cta: "Read the full story"
-  },
+ 
   {
     title: "Chicharito Signs with Atlético Dallas",
     subtitle: "Mexico legend becomes the first player in the new USL Championship club’s history",
