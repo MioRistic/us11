@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 221,
+  "title": "MLS All-Star Game 2026: No Messi, But the League Still Sees Opportunity After the World Cup",
+  "author": "Mio Ristić",
+  "date": "July 28, 2026",
+  "excerpt": "Lionel Messi and Rodrigo De Paul will miss the All-Star Game in Charlotte. Full roster, key absences, and how MLS hopes to ride post-World Cup momentum.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2228112735/crop/MM5DIOJZGM5DEOBQHE5G433XMU5DAORSGYYA====/GettyImages-2228112735.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "mls-all-star-game-2026-messi"
+},
+    {
   "id": 220,
   "title": "Chicharito Signs with Atlético Dallas: Mexico Legend Becomes First Player in Club History",
   "author": "Mio Ristić",

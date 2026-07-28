@@ -19,6 +19,14 @@ interface Post {
 const ACCENT = '#1d4ed8';
 
 const heroItems = [
+  {
+  title: "MLS All-Star Game 2026: No Messi",
+  subtitle: "The league still sees opportunity after the World Cup as the All-Stars face Liga MX in Charlotte",
+  image: "https://assets.goal.com/images/v3/getty-2228112735/crop/MM5DIOJZGM5DEOBQHE5G433XMU5DAORSGYYA====/GettyImages-2228112735.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  link: "/news/mls-all-star-game-2026-messi",
+  external: false,
+  cta: "Read the full story"
+},
  
   {
     title: "Chicharito Signs with Atlético Dallas",
@@ -66,6 +74,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 221,
+  "title": "MLS All-Star Game 2026: No Messi, But the League Still Sees Opportunity After the World Cup",
+  "author": "Mio Ristić",
+  "date": "July 28, 2026",
+  "excerpt": "Lionel Messi and Rodrigo De Paul will miss the All-Star Game in Charlotte. Full roster, key absences, and how MLS hopes to ride post-World Cup momentum.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2228112735/crop/MM5DIOJZGM5DEOBQHE5G433XMU5DAORSGYYA====/GettyImages-2228112735.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/mls-all-star-game-2026-messi"
+},
+  {
     id: 220,
     title: "Chicharito Signs with Atlético Dallas: Mexico Legend Becomes First Player in Club History",
     author: "Mio Ristić",
@@ -83,15 +100,7 @@ const blogPosts: Post[] = [
     imageUrl: "https://assets.goal.com/images/v3/imago-sport-1077788800/crop/MM5DGNJVGE5DCOJZG45G433XMU5DAORRHA2Q====/imago-image.jpeg;%20charset=utf-8?auto=webp&format=pjpg&width=3840&quality=60",
     link: "/news/vincent-janssen-portland-timbers"
   },
-  {
-    id: 218,
-    title: "Three Stars, Three Debuts: First Impressions of MLS’s Newest Global Icons",
-    author: "Mio Ristić",
-    date: "July 27, 2026",
-    excerpt: "Antoine Griezmann, Robert Lewandowski and Casemiro made their MLS debuts. Here are our first impressions and ratings of the three biggest summer arrivals.",
-    imageUrl: "https://assets.goal.com/images/v3/getty-2284675878/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORYGU======/GettyImages-2284675878.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-    link: "/news/three-stars-first-impressions"
-  },
+  
   
 ];
 
