@@ -42,7 +42,6 @@ const nextConfig = {
       { protocol: 'https', hostname: 'ca-times.brightspotcdn.com' },
       { protocol: 'https', hostname: 's.yimg.com' },
       { protocol: 'https', hostname: 'cdn.wsn.com' },
-      { protocol: 'https', hostname: 'www.japantimes.co.jp' },
       { protocol: 'https', hostname: 'ws.yimg.com' },
       { protocol: 'https', hostname: 'fanatics.frgimages.com' },
       { protocol: 'https', hostname: 'i.postimg.cc' },
