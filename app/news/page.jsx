@@ -12,6 +12,51 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 220,
+  "title": "Chicharito Signs with Atlético Dallas: Mexico Legend Becomes First Player in Club History",
+  "author": "Mio Ristić",
+  "date": "July 28, 2026",
+  "excerpt": "Javier “Chicharito” Hernández has signed with Atlético Dallas as the first player in the new USL Championship club’s history. He will start playing in 2027.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2202158444/crop/MM5DGOBSGA5DEMJUHE5G433XMU5DAORRHE4Q====/GettyImages-2202158444.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "chicharito-atletico-dallas"
+},
+    {
+  "id": 219,
+  "title": "Portland Timbers Set to Sign Dutch Striker Vincent Janssen",
+  "author": "Mio Ristić",
+  "date": "July 28, 2026",
+  "excerpt": "The Portland Timbers have agreed to sign former Tottenham and Royal Antwerp forward Vincent Janssen as a free agent. The 32-year-old will not be a Designated Player.",
+  "imageUrl": "https://assets.goal.com/images/v3/imago-sport-1077788800/crop/MM5DGNJVGE5DCOJZG45G433XMU5DAORRHA2Q====/imago-image.jpeg;%20charset=utf-8?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "vincent-janssen-portland-timbers"
+},
+    {
+  "id": 218,
+  "title": "Three Stars, Three Debuts: First Impressions of MLS’s Newest Global Icons",
+  "author": "Mio Ristić",
+  "date": "July 27, 2026",
+  "excerpt": "Antoine Griezmann, Robert Lewandowski and Casemiro made their MLS debuts. Here are our first impressions and ratings of the three biggest summer arrivals.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2284675878/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORYGU======/GettyImages-2284675878.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "three-stars-first-impressions"
+},
+    {
+  "id": 217,
+  "title": "Inter Miami’s Germán Berterame Discharged After Scary Head Collision",
+  "author": "Mio Ristić",
+  "date": "July 27, 2026",
+  "excerpt": "Germán Berterame has been discharged from hospital after a frightening head collision in Inter Miami’s 1-0 win over CF Montréal. He sustained injuries to his left shoulder and nose.",
+  "imageUrl": "https://s.yimg.com/os/en/onefootball_articles_802/ffb59a1e4e5923f3f5a1b54f960062a7",
+  "slug": "berterame-injury-update"
+},
+    {
+  "id": 216,
+  "title": "Why Lionel Messi Will Avoid Punishment for Missing the 2026 MLS All-Star Game",
+  "author": "Mio Ristić",
+  "date": "July 27, 2026",
+  "excerpt": "Lionel Messi and Rodrigo De Paul have been excused from the 2026 MLS All-Star Game under a World Cup rest agreement. Unlike last year, there will be no suspension.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt9377225dfc46ac1f/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-05-10T084308.859.png?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "messi-all-star-absence"
+},
+    {
   "id": 215,
   "title": "English Clubs Keep the Party Going: Why Football in America Isn’t Slowing Down After the World Cup",
   "author": "Mio Ristić",

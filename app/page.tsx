@@ -20,50 +20,77 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
-  title: "English Clubs Keep the Party Going",
-  subtitle: "Liverpool, Leeds, Sunderland and Wrexham fill stadiums across America as football fever continues after the World Cup",
-  image: "https://assets.goal.com/images/v3/getty-2254270434/crop/MM5DGMRZHE5DCOBVGY5G433XMU5DAORWHA======/GettyImages-2254270434.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  link: "/news/english-clubs-usa-tour",
-  external: false,
-  cta: "Read the full story"
-},
-  {
-  title: "Antoine Griezmann Scores on MLS Debut",
-  subtitle: "The French superstar scores the 300th club goal of his career as Orlando City thrash San Jose 4-0",
-  image: "https://assets.goal.com/images/v3/getty-2287264302/crop/MM5DENRRGY5DCNBXGI5G433XMU5DEOBTHIYTENI=/GettyImages-2287264302.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  link: "/news/griezmann-debut-goal",
-  external: false,
-  cta: "Read the full story"
-},
-  {
-  title: "Suárez Spoils Lewandowski’s MLS Debut",
-  subtitle: "El Pistolero scores a brace as Inter Miami edge Chicago Fire 3-2 on Lewandowski’s first night",
-  image: "https://assets.goal.com/images/v3/getty-2270923706/crop/MM5DGOBSGI5DEMJVGA5G433XMU5DAORTGEYA====/GettyImages-2270923706.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  link: "/news/suarez-lewandowski-debut",
-  external: false,
-  cta: "Read the full story"
-},
-   { 
-    title: "LA Galaxy Sign Kyōgo Furuhashi", 
-    subtitle: "The Japanese striker joins LA Galaxy on a long-term deal through 2030-31", 
-    image: "https://i.ibb.co/9HPvvXNp/Getty-Images-2257281996-1024x683.webp", 
-    link: "/news/furuhashi", 
-    external: false, 
-    cta: "Read the full story" 
+    title: "English Clubs Keep the Party Going",
+    subtitle: "Liverpool, Leeds, Sunderland and Wrexham fill stadiums across America as football fever continues after the World Cup",
+    image: "https://assets.goal.com/images/v3/getty-2254270434/crop/MM5DGMRZHE5DCOBVGY5G433XMU5DAORWHA======/GettyImages-2254270434.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    link: "/news/english-clubs-usa-tour",
+    external: false,
+    cta: "Read the full story"
   },
-  { 
-    title: "NYCFC CEO: “We Want Christian Pulisic”", 
-    subtitle: "Brad Sims sends a clear message about signing the USMNT star", 
-    image: "https://assets.goal.com/images/v3/getty-2281625986/crop/MM5DEMJXGA5DCMRSGE5G433XMU5DAORRGAZQ====/GettyImages-2281625986.jpg?auto=webp&format=pjpg&width=1920&quality=60", 
-    link: "/news/nycfc-pulisic", 
-    external: false, 
-    cta: "Read the full story" 
+  {
+    title: "Antoine Griezmann Scores on MLS Debut",
+    subtitle: "The French superstar scores the 300th club goal of his career as Orlando City thrash San Jose 4-0",
+    image: "https://assets.goal.com/images/v3/getty-2287264302/crop/MM5DENRRGY5DCNBXGI5G433XMU5DEOBTHIYTENI=/GettyImages-2287264302.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+    link: "/news/griezmann-debut-goal",
+    external: false,
+    cta: "Read the full story"
   },
- 
-   
-  
-  
-
+  {
+    title: "Suárez Spoils Lewandowski’s MLS Debut",
+    subtitle: "El Pistolero scores a brace as Inter Miami edge Chicago Fire 3-2 on Lewandowski’s first night",
+    image: "https://assets.goal.com/images/v3/getty-2270923706/crop/MM5DGOBSGI5DEMJVGA5G433XMU5DAORTGEYA====/GettyImages-2270923706.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+    link: "/news/suarez-lewandowski-debut",
+    external: false,
+    cta: "Read the full story"
+  },
+  {
+    title: "LA Galaxy Sign Kyōgo Furuhashi",
+    subtitle: "The Japanese striker joins LA Galaxy on a long-term deal through 2030-31",
+    image: "https://i.ibb.co/9HPvvXNp/Getty-Images-2257281996-1024x683.webp",
+    link: "/news/furuhashi",
+    external: false,
+    cta: "Read the full story"
+  },
+  {
+    title: "NYCFC CEO: “We Want Christian Pulisic”",
+    subtitle: "Brad Sims sends a clear message about signing the USMNT star",
+    image: "https://assets.goal.com/images/v3/getty-2281625986/crop/MM5DEMJXGA5DCMRSGE5G433XMU5DAORRGAZQ====/GettyImages-2281625986.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+    link: "/news/nycfc-pulisic",
+    external: false,
+    cta: "Read the full story"
+  },
+  {
+    title: "Chicharito Signs with Atlético Dallas",
+    subtitle: "Mexico legend becomes the first player in the new USL Championship club’s history",
+    image: "https://assets.goal.com/images/v3/getty-2202158444/crop/MM5DGOBSGA5DEMJUHE5G433XMU5DAORRHE4Q====/GettyImages-2202158444.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    link: "/news/chicharito-atletico-dallas",
+    external: false,
+    cta: "Read the full story"
+  },
+  {
+    title: "Portland Timbers Set to Sign Vincent Janssen",
+    subtitle: "The former Tottenham striker joins as a free agent and will not be a Designated Player",
+    image: "https://assets.goal.com/images/v3/imago-sport-1077788800/crop/MM5DGNJVGE5DCOJZG45G433XMU5DAORRHA2Q====/imago-image.jpeg;%20charset=utf-8?auto=webp&format=pjpg&width=3840&quality=60",
+    link: "/news/vincent-janssen-portland-timbers",
+    external: false,
+    cta: "Read the full story"
+  },
+  {
+    title: "Three Stars, First Impressions",
+    subtitle: "Griezmann, Lewandowski and Casemiro – our ratings after their first MLS outings",
+    image: "https://assets.goal.com/images/v3/getty-2284675878/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORYGU======/GettyImages-2284675878.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+    link: "/news/three-stars-first-impressions",
+    external: false,
+    cta: "Read the full story"
+  },
+  {
+    title: "Inter Miami’s Berterame Conscious in Hospital",
+    subtitle: "Striker remains under observation after a head collision, coach confirms he is conscious",
+    image: "https://s.yimg.com/os/en/onefootball_articles_802/ffb59a1e4e5923f3f5a1b54f960062a7",
+    link: "/news/berterame-injury-update",
+    external: false,
+    cta: "Read the full story"
+  }
 ];
 
 const staffPicks = [
@@ -78,36 +105,68 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
-  "id": 215,
-  "title": "English Clubs Keep the Party Going: Why Football in America Isn’t Slowing Down After the World Cup",
-  "author": "Mio Ristić",
-  "date": "July 26, 2026",
-  "excerpt": "Leeds, Liverpool, Sunderland and Wrexham are touring the US just days after the World Cup final, proving football in America is only getting stronger.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2254270434/crop/MM5DGMRZHE5DCOBVGY5G433XMU5DAORWHA======/GettyImages-2254270434.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/english-clubs-usa-tour"
-},
+    id: 220,
+    title: "Chicharito Signs with Atlético Dallas: Mexico Legend Becomes First Player in Club History",
+    author: "Mio Ristić",
+    date: "July 28, 2026",
+    excerpt: "Javier “Chicharito” Hernández has signed with Atlético Dallas as the first player in the new USL Championship club’s history. He will start playing in 2027.",
+    imageUrl: "https://assets.goal.com/images/v3/getty-2202158444/crop/MM5DGOBSGA5DEMJUHE5G433XMU5DAORRHE4Q====/GettyImages-2202158444.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    link: "/news/chicharito-atletico-dallas"
+  },
   {
-  "id": 214,
-  "title": "Antoine Griezmann Announces Himself Immediately: Historic Debut Goal Powers Orlando City to 4-0 Thrashing",
-  "author": "Mio Ristić",
-  "date": "July 25, 2026",
-  "excerpt": "Antoine Griezmann scored on his MLS debut as Orlando City demolished San Jose Earthquakes 4-0. The goal was the 300th club goal of his career.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2287264302/crop/MM5DENRRGY5DCNBXGI5G433XMU5DEOBTHIYTENI=/GettyImages-2287264302.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "/news/griezmann-debut-goal"
-},
+    id: 219,
+    title: "Portland Timbers Set to Sign Dutch Striker Vincent Janssen",
+    author: "Mio Ristić",
+    date: "July 28, 2026",
+    excerpt: "The Portland Timbers have agreed to sign former Tottenham and Royal Antwerp forward Vincent Janssen as a free agent. The 32-year-old will not be a Designated Player.",
+    imageUrl: "https://assets.goal.com/images/v3/imago-sport-1077788800/crop/MM5DGNJVGE5DCOJZG45G433XMU5DAORRHA2Q====/imago-image.jpeg;%20charset=utf-8?auto=webp&format=pjpg&width=3840&quality=60",
+    link: "/news/vincent-janssen-portland-timbers"
+  },
   {
-  "id": 213,
-  "title": "Suárez Spoils Lewandowski’s MLS Debut as Inter Miami Edge Chicago 3-2",
-  "author": "Mio Ristić",
-  "date": "July 24, 2026",
-  "excerpt": "Luis Suárez scored a brace and Preston Plambeck netted a late winner as Inter Miami beat Chicago Fire 3-2, spoiling Robert Lewandowski’s MLS debut.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2270923706/crop/MM5DGOBSGI5DEMJVGA5G433XMU5DAORTGEYA====/GettyImages-2270923706.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "news/suarez-lewandowski-debut"
-},
-  
-  
-  
-  
+    id: 218,
+    title: "Three Stars, Three Debuts: First Impressions of MLS’s Newest Global Icons",
+    author: "Mio Ristić",
+    date: "July 27, 2026",
+    excerpt: "Antoine Griezmann, Robert Lewandowski and Casemiro made their MLS debuts. Here are our first impressions and ratings of the three biggest summer arrivals.",
+    imageUrl: "https://assets.goal.com/images/v3/getty-2284675878/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORYGU======/GettyImages-2284675878.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+    link: "/news/three-stars-first-impressions"
+  },
+  {
+    id: 217,
+    title: "Inter Miami’s Germán Berterame Discharged After Scary Head Collision",
+    author: "Mio Ristić",
+    date: "July 27, 2026",
+    excerpt: "Germán Berterame has been discharged from hospital after a frightening head collision in Inter Miami’s 1-0 win over CF Montréal. He sustained injuries to his left shoulder and nose.",
+    imageUrl: "https://s.yimg.com/os/en/onefootball_articles_802/ffb59a1e4e5923f3f5a1b54f960062a7",
+    link: "/news/berterame-injury-update"
+  },
+  {
+    id: 215,
+    title: "English Clubs Keep the Party Going: Why Football in America Isn’t Slowing Down After the World Cup",
+    author: "Mio Ristić",
+    date: "July 26, 2026",
+    excerpt: "Leeds, Liverpool, Sunderland and Wrexham are touring the US just days after the World Cup final, proving football in America is only getting stronger.",
+    imageUrl: "https://assets.goal.com/images/v3/getty-2254270434/crop/MM5DGMRZHE5DCOBVGY5G433XMU5DAORWHA======/GettyImages-2254270434.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    link: "/news/english-clubs-usa-tour"
+  },
+  {
+    id: 214,
+    title: "Antoine Griezmann Announces Himself Immediately: Historic Debut Goal Powers Orlando City to 4-0 Thrashing",
+    author: "Mio Ristić",
+    date: "July 25, 2026",
+    excerpt: "Antoine Griezmann scored on his MLS debut as Orlando City demolished San Jose Earthquakes 4-0. The goal was the 300th club goal of his career.",
+    imageUrl: "https://assets.goal.com/images/v3/getty-2287264302/crop/MM5DENRRGY5DCNBXGI5G433XMU5DEOBTHIYTENI=/GettyImages-2287264302.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+    link: "/news/griezmann-debut-goal"
+  },
+  {
+    id: 213,
+    title: "Suárez Spoils Lewandowski’s MLS Debut as Inter Miami Edge Chicago 3-2",
+    author: "Mio Ristić",
+    date: "July 24, 2026",
+    excerpt: "Luis Suárez scored a brace and Preston Plambeck netted a late winner as Inter Miami beat Chicago Fire 3-2, spoiling Robert Lewandowski’s MLS debut.",
+    imageUrl: "https://assets.goal.com/images/v3/getty-2270923706/crop/MM5DGOBSGI5DEMJVGA5G433XMU5DAORTGEYA====/GettyImages-2270923706.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+    link: "/news/suarez-lewandowski-debut"
+  }
 ];
 
 const jerseysBlogPosts: Post[] = [
