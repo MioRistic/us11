@@ -20,6 +20,22 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "Andoni Iraola’s Journey from NYCFC to Liverpool",
+  subtitle: "How New York City FC helped shape the coach who is now leading the Reds at Anfield",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA08VnYa7lfdOryp81vNUqtJsGAv1s0ImJkYnD0JG0EMzUzNB8Qanx-mo&s=10",
+  link: "/news/andoni-iraola-nycfc-liverpool",
+  external: false,
+  cta: "Read the full story"
+},
+  {
+  title: "Rangers Close In on Olwethu Makhanya",
+  subtitle: "Philadelphia Union defender set for move to Scotland in deal worth more than $4.5 million",
+  image: "https://assets.goal.com/images/v3/blt9413ab732a88c480/crop/MM5DCMBZGI5DMMJUHJXG653FHIYDUMA=/Mkhanaya.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/olwethu-makhanya-rangers",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "MLS All-Star Game 2026: No Messi",
   subtitle: "The league still sees opportunity after the World Cup as the All-Stars face Liga MX in Charlotte",
   image: "https://assets.goal.com/images/v3/getty-2228112735/crop/MM5DIOJZGM5DEOBQHE5G433XMU5DAORSGYYA====/GettyImages-2228112735.jpg?auto=webp&format=pjpg&width=3840&quality=60",
@@ -44,22 +60,8 @@ const heroItems = [
     external: false,
     cta: "Read the full story"
   },
-  {
-    title: "Three Stars, First Impressions",
-    subtitle: "Griezmann, Lewandowski and Casemiro – our ratings after their first MLS outings",
-    image: "https://assets.goal.com/images/v3/getty-2284675878/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORYGU======/GettyImages-2284675878.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-    link: "/news/three-stars-first-impressions",
-    external: false,
-    cta: "Read the full story"
-  },
-  {
-    title: "Inter Miami’s Berterame Conscious in Hospital",
-    subtitle: "Striker remains under observation after a head collision, coach confirms he is conscious",
-    image: "https://s.yimg.com/os/en/onefootball_articles_802/ffb59a1e4e5923f3f5a1b54f960062a7",
-    link: "/news/berterame-injury-update",
-    external: false,
-    cta: "Read the full story"
-  }
+  
+
 ];
 
 const staffPicks = [
@@ -74,6 +76,24 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 223,
+  "title": "Andoni Iraola’s Journey from NYCFC to Liverpool Manager: How New York Shaped the New Reds Boss",
+  "author": "Mio Ristić",
+  "date": "July 29, 2026",
+  "excerpt": "How Andoni Iraola’s time at New York City FC helped shape the coach who is now leading Liverpool. The full story of his path from player to Anfield manager.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA08VnYa7lfdOryp81vNUqtJsGAv1s0ImJkYnD0JG0EMzUzNB8Qanx-mo&s=10",
+  "link": "/news/andoni-iraola-nycfc-liverpool"
+},
+  {
+  "id": 222,
+  "title": "Rangers Close In on Deal for Philadelphia Union Defender Olwethu Makhanya",
+  "author": "Mio Ristić",
+  "date": "July 29, 2026",
+  "excerpt": "Rangers are closing in on a deal to sign South Africa international center back Olwethu Makhanya from the Philadelphia Union for a fee north of $4.5 million.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt9413ab732a88c480/crop/MM5DCMBZGI5DMMJUHJXG653FHIYDUMA=/Mkhanaya.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/olwethu-makhanya-rangers"
+},
+  {
   "id": 221,
   "title": "MLS All-Star Game 2026: No Messi, But the League Still Sees Opportunity After the World Cup",
   "author": "Mio Ristić",
@@ -82,25 +102,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2228112735/crop/MM5DIOJZGM5DEOBQHE5G433XMU5DAORSGYYA====/GettyImages-2228112735.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "/news/mls-all-star-game-2026-messi"
 },
-  {
-    id: 220,
-    title: "Chicharito Signs with Atlético Dallas: Mexico Legend Becomes First Player in Club History",
-    author: "Mio Ristić",
-    date: "July 28, 2026",
-    excerpt: "Javier “Chicharito” Hernández has signed with Atlético Dallas as the first player in the new USL Championship club’s history. He will start playing in 2027.",
-    imageUrl: "https://assets.goal.com/images/v3/getty-2202158444/crop/MM5DGOBSGA5DEMJUHE5G433XMU5DAORRHE4Q====/GettyImages-2202158444.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-    link: "/news/chicharito-atletico-dallas"
-  },
-  {
-    id: 219,
-    title: "Portland Timbers Set to Sign Dutch Striker Vincent Janssen",
-    author: "Mio Ristić",
-    date: "July 28, 2026",
-    excerpt: "The Portland Timbers have agreed to sign former Tottenham and Royal Antwerp forward Vincent Janssen as a free agent. The 32-year-old will not be a Designated Player.",
-    imageUrl: "https://assets.goal.com/images/v3/imago-sport-1077788800/crop/MM5DGNJVGE5DCOJZG45G433XMU5DAORRHA2Q====/imago-image.jpeg;%20charset=utf-8?auto=webp&format=pjpg&width=3840&quality=60",
-    link: "/news/vincent-janssen-portland-timbers"
-  },
-  
+ 
   
 ];
 

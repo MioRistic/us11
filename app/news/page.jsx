@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 223,
+  "title": "Andoni Iraola’s Journey from NYCFC to Liverpool Manager: How New York Shaped the New Reds Boss",
+  "author": "Mio Ristić",
+  "date": "July 29, 2026",
+  "excerpt": "How Andoni Iraola’s time at New York City FC helped shape the coach who is now leading Liverpool. The full story of his path from player to Anfield manager.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA08VnYa7lfdOryp81vNUqtJsGAv1s0ImJkYnD0JG0EMzUzNB8Qanx-mo&s=10",
+  "slug": "andoni-iraola-nycfc-liverpool"
+},
+    {
+  "id": 222,
+  "title": "Rangers Close In on Deal for Philadelphia Union Defender Olwethu Makhanya",
+  "author": "Mio Ristić",
+  "date": "July 29, 2026",
+  "excerpt": "Rangers are closing in on a deal to sign South Africa international center back Olwethu Makhanya from the Philadelphia Union for a fee north of $4.5 million.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt9413ab732a88c480/crop/MM5DCMBZGI5DMMJUHJXG653FHIYDUMA=/Mkhanaya.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "olwethu-makhanya-rangers"
+},
+    {
   "id": 221,
   "title": "MLS All-Star Game 2026: No Messi, But the League Still Sees Opportunity After the World Cup",
   "author": "Mio Ristić",
