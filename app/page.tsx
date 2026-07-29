@@ -20,6 +20,31 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Lewandowski Rejected €100m Saudi Offer",
+  "subtitle": "Ambition over oil money — how the Polish striker walked away from one of football’s biggest deals",
+  "image": "https://assets.goal.com/images/v3/getty-2285479115/crop/MM5DINJQGA5DENJTGE5G433XMU5DAORSGM2A====/GettyImages-2285479115.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/lewandowski-100-million-saudi-rejection",
+  "external": false,
+  "cta": "Read the full story"
+},
+  
+  {
+  "title": "MLS vs. Liga MX All-Star Game 2026",
+  "subtitle": "The rivalry continues in Charlotte as Son, Müller and the best of MLS face Liga MX",
+  "image": "https://assets.goal.com/images/v3/getty-2230677284/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2230677284.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/mls-vs-liga-mx-all-star-2026",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
+  "title": "Sebastian Berhalter Joins Middlesbrough",
+  "subtitle": "USMNT midfielder leaves Vancouver Whitecaps for the Championship and reunites with Aidan Morris",
+  "image": "https://assets.goal.com/images/v3/getty-2221149180/crop/MM5DGOBTHE5DEMJVHE5G433XMU5DAORSGAYA====/GettyImages-2221149180.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/sebastian-berhalter-middlesbrough",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   title: "Andoni Iraola’s Journey from NYCFC to Liverpool",
   subtitle: "How New York City FC helped shape the coach who is now leading the Reds at Anfield",
   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA08VnYa7lfdOryp81vNUqtJsGAv1s0ImJkYnD0JG0EMzUzNB8Qanx-mo&s=10",
@@ -35,32 +60,10 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "MLS All-Star Game 2026: No Messi",
-  subtitle: "The league still sees opportunity after the World Cup as the All-Stars face Liga MX in Charlotte",
-  image: "https://assets.goal.com/images/v3/getty-2228112735/crop/MM5DIOJZGM5DEOBQHE5G433XMU5DAORSGYYA====/GettyImages-2228112735.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  link: "/news/mls-all-star-game-2026-messi",
-  external: false,
-  cta: "Read the full story"
-},
  
-  {
-    title: "Chicharito Signs with Atlético Dallas",
-    subtitle: "Mexico legend becomes the first player in the new USL Championship club’s history",
-    image: "https://assets.goal.com/images/v3/getty-2202158444/crop/MM5DGOBSGA5DEMJUHE5G433XMU5DAORRHE4Q====/GettyImages-2202158444.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-    link: "/news/chicharito-atletico-dallas",
-    external: false,
-    cta: "Read the full story"
-  },
-  {
-    title: "Portland Timbers Set to Sign Vincent Janssen",
-    subtitle: "The former Tottenham striker joins as a free agent and will not be a Designated Player",
-    image: "https://assets.goal.com/images/v3/imago-sport-1077788800/crop/MM5DGNJVGE5DCOJZG45G433XMU5DAORRHA2Q====/imago-image.jpeg;%20charset=utf-8?auto=webp&format=pjpg&width=3840&quality=60",
-    link: "/news/vincent-janssen-portland-timbers",
-    external: false,
-    cta: "Read the full story"
-  },
-  
+ 
+
+ 
 
 ];
 
@@ -76,32 +79,35 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
-  "id": 223,
-  "title": "Andoni Iraola’s Journey from NYCFC to Liverpool Manager: How New York Shaped the New Reds Boss",
+  "id": 226,
+  "title": "Lewandowski’s €100 Million Rejection: Ambition Over Oil Money",
   "author": "Mio Ristić",
   "date": "July 29, 2026",
-  "excerpt": "How Andoni Iraola’s time at New York City FC helped shape the coach who is now leading Liverpool. The full story of his path from player to Anfield manager.",
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA08VnYa7lfdOryp81vNUqtJsGAv1s0ImJkYnD0JG0EMzUzNB8Qanx-mo&s=10",
-  "link": "/news/andoni-iraola-nycfc-liverpool"
+  "excerpt": "Robert Lewandowski rejected a Saudi Arabia offer worth more than €100 million per season to stay at Barcelona. Agent Pini Zahavi reveals why ambition came before the money.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2285479115/crop/MM5DINJQGA5DENJTGE5G433XMU5DAORSGM2A====/GettyImages-2285479115.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/lewandowski-100-million-saudi-rejection"
 },
   {
-  "id": 222,
-  "title": "Rangers Close In on Deal for Philadelphia Union Defender Olwethu Makhanya",
+  "id": 225,
+  "title": "MLS vs. Liga MX: The Rivalry That Never Sleeps Arrives in Charlotte",
   "author": "Mio Ristić",
   "date": "July 29, 2026",
-  "excerpt": "Rangers are closing in on a deal to sign South Africa international center back Olwethu Makhanya from the Philadelphia Union for a fee north of $4.5 million.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt9413ab732a88c480/crop/MM5DCMBZGI5DMMJUHJXG653FHIYDUMA=/Mkhanaya.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/olwethu-makhanya-rangers"
+  "excerpt": "The fifth MLS All-Star Game between MLS and Liga MX takes place in Charlotte. Full preview of the rivalry, key absences, and what the post-World Cup clash means for both leagues.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2230677284/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2230677284.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/mls-vs-liga-mx-all-star-2026"
 },
   {
-  "id": 221,
-  "title": "MLS All-Star Game 2026: No Messi, But the League Still Sees Opportunity After the World Cup",
+  "id": 224,
+  "title": "Sebastian Berhalter Leaves Vancouver for Middlesbrough, Reuniting With Aidan Morris",
   "author": "Mio Ristić",
-  "date": "July 28, 2026",
-  "excerpt": "Lionel Messi and Rodrigo De Paul will miss the All-Star Game in Charlotte. Full roster, key absences, and how MLS hopes to ride post-World Cup momentum.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2228112735/crop/MM5DIOJZGM5DEOBQHE5G433XMU5DAORSGYYA====/GettyImages-2228112735.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/mls-all-star-game-2026-messi"
+  "date": "July 29, 2026",
+  "excerpt": "USMNT midfielder Sebastian Berhalter has completed a transfer from Vancouver Whitecaps to Middlesbrough for a reported $2 million fee, reuniting with childhood friend Aidan Morris in the Championship.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2221149180/crop/MM5DGOBTHE5DEMJVHE5G433XMU5DAORSGAYA====/GettyImages-2221149180.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/sebastian-berhalter-middlesbrough"
 },
+
+ 
+
  
   
 ];

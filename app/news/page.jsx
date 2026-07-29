@@ -12,6 +12,33 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 226,
+  "title": "Lewandowski’s €100 Million Rejection: Ambition Over Oil Money",
+  "author": "Mio Ristić",
+  "date": "July 29, 2026",
+  "excerpt": "Robert Lewandowski rejected a Saudi Arabia offer worth more than €100 million per season to stay at Barcelona. Agent Pini Zahavi reveals why ambition came before the money.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2285479115/crop/MM5DINJQGA5DENJTGE5G433XMU5DAORSGM2A====/GettyImages-2285479115.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "lewandowski-100-million-saudi-rejection"
+},
+    {
+  "id": 225,
+  "title": "MLS vs. Liga MX: The Rivalry That Never Sleeps Arrives in Charlotte",
+  "author": "Mio Ristić",
+  "date": "July 29, 2026",
+  "excerpt": "The fifth MLS All-Star Game between MLS and Liga MX takes place in Charlotte. Full preview of the rivalry, key absences, and what the post-World Cup clash means for both leagues.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2230677284/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2230677284.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "mls-vs-liga-mx-all-star-2026"
+},
+    {
+  "id": 224,
+  "title": "Sebastian Berhalter Leaves Vancouver for Middlesbrough, Reuniting With Aidan Morris",
+  "author": "Mio Ristić",
+  "date": "July 29, 2026",
+  "excerpt": "USMNT midfielder Sebastian Berhalter has completed a transfer from Vancouver Whitecaps to Middlesbrough for a reported $2 million fee, reuniting with childhood friend Aidan Morris in the Championship.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2221149180/crop/MM5DGOBTHE5DEMJVHE5G433XMU5DAORSGAYA====/GettyImages-2221149180.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "sebastian-berhalter-middlesbrough"
+},
+    {
   "id": 223,
   "title": "Andoni Iraola’s Journey from NYCFC to Liverpool Manager: How New York Shaped the New Reds Boss",
   "author": "Mio Ristić",
@@ -1987,49 +2014,7 @@ const Blog = () => {
             ))}
           </div>
 
-          <section className="mt-16 border-t pt-8 bg-white">
-            <h2 className="text-4xl font-extrabold text-[#111] mb-8 text-center">
-              Next For You
-            </h2>
-
-            <div className="grid md:grid-cols-2 gap-6 px-4 md:px-8">
-              <Link href="/news/spain-world-cup-victory" className="border rounded-lg p-6 hover:bg-gray-50 transition shadow-md">
-                <div className="flex items-center gap-8">
-                  <span className="w-10 text-center text-[#ff5a36] text-4xl font-bold shrink-0">1</span>
-                  <h3 className="font-semibold text-lg leading-6 hover:text-[#ff5a36] transition duration-300">
-                    Spain Won the FIFA World Cup: Ferran Torres Fires Spain to Historic Victory Over Argentina
-                  </h3>
-                </div>
-              </Link>
-
-              <Link href="/news/el-traffico-son-return" className="border rounded-lg p-6 hover:bg-gray-50 transition shadow-md">
-                <div className="flex items-center gap-8">
-                  <span className="w-10 text-center text-[#ff5a36] text-4xl font-bold shrink-0">2</span>
-                  <h3 className="font-semibold text-lg leading-6 hover:text-[#ff5a36] transition duration-300">
-                    Son Heung-Min’s Statement Goal in LAFC’s El Tráfico Rout: A Triumphant Return
-                  </h3>
-                </div>
-              </Link>
-
-              <Link href="/news/top-10-mls-transfers-2026" className="border rounded-lg p-6 hover:bg-gray-50 transition shadow-md">
-                <div className="flex items-center gap-8">
-                  <span className="w-10 text-center text-[#ff5a36] text-4xl font-bold shrink-0">3</span>
-                  <h3 className="font-semibold text-lg leading-6 hover:text-[#ff5a36] transition duration-300">
-                    Top 10 Most Interesting Summer Transfers in MLS
-                  </h3>
-                </div>
-              </Link>
-
-              <Link href="/news/cremaschi-parma-permanent" className="border rounded-lg p-6 hover:bg-gray-50 transition shadow-md">
-                <div className="flex items-center gap-8">
-                  <span className="w-10 text-center text-[#ff5a36] text-4xl font-bold shrink-0">4</span>
-                  <h3 className="font-semibold text-lg leading-6 hover:text-[#ff5a36] transition duration-300">
-                    Benjamin Cremaschi’s Move to Parma Made Permanent
-                  </h3>
-                </div>
-              </Link>
-            </div>
-          </section>
+          
 
           {visiblePosts.length < blogPosts.length && (
             <div className="mt-12 flex justify-center">
