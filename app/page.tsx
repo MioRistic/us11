@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Son Steals the Show at All-Star Game",
+  "subtitle": "LAFC star scores twice in three minutes and earns MVP as MLS All-Stars beat Liga MX 4-3 in Charlotte",
+  "image": "https://assets.goal.com/images/v3/getty-2288223409/crop/MM5DIMZSGQ5DENBTGI5G433XMU5DAORSHE======/GettyImages-2288223409.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/son-heung-min-mls-all-star-mvp",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Lewandowski Rejected €100m Saudi Offer",
   "subtitle": "Ambition over oil money — how the Polish striker walked away from one of football’s biggest deals",
   "image": "https://assets.goal.com/images/v3/getty-2285479115/crop/MM5DINJQGA5DENJTGE5G433XMU5DAORSGM2A====/GettyImages-2285479115.jpg?auto=webp&format=pjpg&width=3840&quality=60",
@@ -52,16 +60,7 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "Rangers Close In on Olwethu Makhanya",
-  subtitle: "Philadelphia Union defender set for move to Scotland in deal worth more than $4.5 million",
-  image: "https://assets.goal.com/images/v3/blt9413ab732a88c480/crop/MM5DCMBZGI5DMMJUHJXG653FHIYDUMA=/Mkhanaya.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/olwethu-makhanya-rangers",
-  external: false,
-  cta: "Read the full story"
-},
- 
- 
+
 
  
 
@@ -79,6 +78,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 227,
+  "title": "Son Heung-min Steals the Spotlight as MLS All-Stars Edge Liga MX 4-3 in Charlotte",
+  "author": "Mio Ristić",
+  "date": "July 30, 2026",
+  "excerpt": "Son Heung-min scored twice in three minutes, earned MVP honors, and led the MLS All-Stars to a 4-3 victory over Liga MX in Charlotte. Full recap of the 2026 All-Star Game.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2288223409/crop/MM5DIMZSGQ5DENBTGI5G433XMU5DAORSHE======/GettyImages-2288223409.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "news/son-heung-min-mls-all-star-mvp"
+},
+  {
   "id": 226,
   "title": "Lewandowski’s €100 Million Rejection: Ambition Over Oil Money",
   "author": "Mio Ristić",
@@ -95,15 +103,6 @@ const blogPosts: Post[] = [
   "excerpt": "The fifth MLS All-Star Game between MLS and Liga MX takes place in Charlotte. Full preview of the rivalry, key absences, and what the post-World Cup clash means for both leagues.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-2230677284/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2230677284.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/mls-vs-liga-mx-all-star-2026"
-},
-  {
-  "id": 224,
-  "title": "Sebastian Berhalter Leaves Vancouver for Middlesbrough, Reuniting With Aidan Morris",
-  "author": "Mio Ristić",
-  "date": "July 29, 2026",
-  "excerpt": "USMNT midfielder Sebastian Berhalter has completed a transfer from Vancouver Whitecaps to Middlesbrough for a reported $2 million fee, reuniting with childhood friend Aidan Morris in the Championship.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2221149180/crop/MM5DGOBTHE5DEMJVHE5G433XMU5DAORSGAYA====/GettyImages-2221149180.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/sebastian-berhalter-middlesbrough"
 },
 
  

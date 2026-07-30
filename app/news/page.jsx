@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 227,
+  "title": "Son Heung-min Steals the Spotlight as MLS All-Stars Edge Liga MX 4-3 in Charlotte",
+  "author": "Mio Ristić",
+  "date": "July 30, 2026",
+  "excerpt": "Son Heung-min scored twice in three minutes, earned MVP honors, and led the MLS All-Stars to a 4-3 victory over Liga MX in Charlotte. Full recap of the 2026 All-Star Game.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2288223409/crop/MM5DIMZSGQ5DENBTGI5G433XMU5DAORSHE======/GettyImages-2288223409.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "son-heung-min-mls-all-star-mvp"
+},
+    {
   "id": 226,
   "title": "Lewandowski’s €100 Million Rejection: Ambition Over Oil Money",
   "author": "Mio Ristić",
