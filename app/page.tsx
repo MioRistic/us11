@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Inter Miami Cénit 2026 Third Jersey",
+  "subtitle": "New white third kit is live — Messi, Replica, Authentic & Youth versions with full prices and where to buy",
+  "image": "https://www.mlsstore.com/content/ws/all/a92d7370-fdf2-438d-b9b8-2e35981037df__2055X750.jpg",
+  "link": "/blog/inter-miami-cenit-2026-third-jersey",
+  "external": false,
+  "cta": "Shop the kit"
+},
+  {
   "title": "Son Steals the Show at All-Star Game",
   "subtitle": "LAFC star scores twice in three minutes and earns MVP as MLS All-Stars beat Liga MX 4-3 in Charlotte",
   "image": "https://assets.goal.com/images/v3/getty-2288223409/crop/MM5DIMZSGQ5DENBTGI5G433XMU5DAORSHE======/GettyImages-2288223409.jpg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -51,14 +59,6 @@ const heroItems = [
   "link": "/news/sebastian-berhalter-middlesbrough",
   "external": false,
   "cta": "Read the full story"
-},
-  {
-  title: "Andoni Iraola’s Journey from NYCFC to Liverpool",
-  subtitle: "How New York City FC helped shape the coach who is now leading the Reds at Anfield",
-  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA08VnYa7lfdOryp81vNUqtJsGAv1s0ImJkYnD0JG0EMzUzNB8Qanx-mo&s=10",
-  link: "/news/andoni-iraola-nycfc-liverpool",
-  external: false,
-  cta: "Read the full story"
 },
 
 
@@ -112,9 +112,27 @@ const blogPosts: Post[] = [
 ];
 
 const jerseysBlogPosts: Post[] = [
+  {
+  "id": 1031,
+  "title": "Inter Miami Cénit 2026 Third Jersey: Full Guide, Prices & Where to Buy",
+  "author": "Mio Ristić",
+  "date": "July 30, 2026",
+  "excerpt": "Inter Miami’s new white Cénit third jersey is live. Full prices for Messi Replica ($130), plain Replica ($100), Authentic ($205) and where to buy on MLS Store & Fanatics.",
+  "imageUrl": "https://www.mlsstore.com/content/ws/all/a92d7370-fdf2-438d-b9b8-2e35981037df__2055X750.jpg",
+  "link": "blog/inter-miami-cenit-2026-third-jersey"
+},
+  {
+  "id": 228,
+  "title": "2026 MLS All-Star Jersey: What’s Selling and Where to Buy",
+  "author": "Mio Ristić",
+  "date": "July 30, 2026",
+  "excerpt": "The blue adidas Replica jersey is the clear best-seller after the All-Star Game in Charlotte. Full guide to prices, Replica vs Authentic, and where to buy.",
+  "imageUrl": "https://www.mlsstore.com/content/ws/all/e4e8612e-2d5c-44f1-b65b-8d94751127eb__480X639.jpg?w=480",
+  "link": "blog/2026-mls-all-star-jersey-where-to-buy"
+},
   { id: 1029, title: "Why Argentina Are Wearing Their Navy Blue Kit Against England in the 2026 World Cup Semi-Final", author: "Mio Ristić", date: "July 15, 2026", excerpt: "Argentina will wear their navy blue away kit against England in the semi-final. The historic and symbolic reason behind the choice.", imageUrl: "https://i.ibb.co/Wbxt5X1/3-EWNH7-J-1-1024x536.jpg", link: "/blog/argentina-navy-blue-kit" },
-  { id: 1028, title: "Chicago Fire Unveil Lewandowski Home Kit for Historic 2026 Season", author: "Mio Ristić", date: "July 13, 2026", excerpt: "Chicago Fire release the official Robert Lewandowski 2026 Home Jersey – shop Replica and Authentic versions now.", imageUrl: "https://assets.goal.com/images/v3/getty-2260392490/crop/MM5DIOBWGQ5DENZTGY5G433XMU5DAORQ/GettyImages-2260392490.jpg", link: "/blog/lewandowski-chicago-kit" },
-  { id: 1015, title: "Best World Cup 2026 Jerseys for Street Style: The Kits Worth Buying", author: "Mio Ristić", date: "June 16, 2026", excerpt: "Which 2026 World Cup jerseys actually look good on the street? From Germany's clean 1990-inspired classic to Colombia's vibrant yellow and New Zealand's elegant black — here's our definitive ranking of the most wearable kits for everyday life.", imageUrl: "https://assets.goal.com/images/v3/blteb5ae4bd28752ec3/adidas%20FIFA%20World%20Cup%202026%20kit%20-%20Germany.png?auto=webp&format=pjpg&width=1920&quality=60", link: "/blog/best-world-cup-2026-street-style-jerseys" },
+ 
+ 
 ];
 
 const hallOfFamePosts: Post[] = [

@@ -11,6 +11,24 @@ import Link from 'next/link';
 
 const Blog = () => {
   const blogPosts = [
+      {
+  "id": 1031,
+  "title": "Inter Miami Cénit 2026 Third Jersey: Full Guide, Prices & Where to Buy",
+  "author": "Mio Ristić",
+  "date": "July 30, 2026",
+  "excerpt": "Inter Miami’s new white Cénit third jersey is live. Full prices for Messi Replica ($130), plain Replica ($100), Authentic ($205) and where to buy on MLS Store & Fanatics.",
+  "imageUrl": "https://www.mlsstore.com/content/ws/all/a92d7370-fdf2-438d-b9b8-2e35981037df__2055X750.jpg",
+  "slug": "inter-miami-cenit-2026-third-jersey"
+},
+  {
+  "id": 228,
+  "title": "2026 MLS All-Star Jersey: What’s Selling and Where to Buy",
+  "author": "Mio Ristić",
+  "date": "July 30, 2026",
+  "excerpt": "The blue adidas Replica jersey is the clear best-seller after the All-Star Game in Charlotte. Full guide to prices, Replica vs Authentic, and where to buy.",
+  "imageUrl": "https://www.mlsstore.com/content/ws/all/e4e8612e-2d5c-44f1-b65b-8d94751127eb__480X639.jpg?w=480",
+  "slug": "2026-mls-all-star-jersey-where-to-buy"
+},
     {
   "id": 1028,
   "title": "Chicago Fire Unveil Lewandowski Home Kit for Historic 2026 Season",
