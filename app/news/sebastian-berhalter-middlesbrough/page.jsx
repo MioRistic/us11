@@ -193,48 +193,49 @@ export default function SebastianBerhalterMiddlesbrough() {
 
         </section>
 
-        {/* READ NEXT */}
-        <section className="mt-16">
-          <h2 className="text-2xl font-bold mb-6">Next For You</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Link href="/news/andoni-iraola-nycfc-liverpool" className="border rounded-lg p-6 hover:bg-gray-50 transition shadow-md">
-              <div className="flex items-center gap-8">
-                <span className="w-10 text-center text-[#ff5a36] text-4xl font-bold flex-shrink-0">1</span>
-                <h3 className="font-semibold text-lg leading-6 hover:text-[#ff5a36] transition duration-300">
-                  Andoni Iraola’s Journey from NYCFC to Liverpool Manager
-                </h3>
-              </div>
-            </Link>
+      {/* READ NEXT */}
+<section className="mt-16">
+  <h2 className="text-2xl font-bold mb-6">Next For You</h2>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-            <Link href="/news/olwethu-makhanya-rangers" className="border rounded-lg p-6 hover:bg-gray-50 transition shadow-md">
-              <div className="flex items-center gap-8">
-                <span className="w-10 text-center text-[#ff5a36] text-4xl font-bold flex-shrink-0">2</span>
-                <h3 className="font-semibold text-lg leading-6 hover:text-[#ff5a36] transition duration-300">
-                  Rangers Close In on Deal for Philadelphia Union Defender Olwethu Makhanya
-                </h3>
-              </div>
-            </Link>
+    <Link href="/news/sebastian-berhalter-middlesbrough" className="border rounded-lg p-6 hover:bg-gray-50 transition shadow-md">
+      <div className="flex items-center gap-8">
+        <span className="w-10 text-center text-[#ff5a36] text-4xl font-bold flex-shrink-0">1</span>
+        <h3 className="font-semibold text-lg leading-6 hover:text-[#ff5a36] transition duration-300">
+          Vancouver Whitecaps Transfer USMNT’s Sebastian Berhalter to Middlesbrough
+        </h3>
+      </div>
+    </Link>
 
-            <Link href="/news/mls-all-star-game-2026" className="border rounded-lg p-6 hover:bg-gray-50 transition shadow-md">
-              <div className="flex items-center gap-8">
-                <span className="w-10 text-center text-[#ff5a36] text-4xl font-bold flex-shrink-0">3</span>
-                <h3 className="font-semibold text-lg leading-6 hover:text-[#ff5a36] transition duration-300">
-                  MLS All-Star Game 2026: Missing Messi But Riding Post-World Cup Momentum
-                </h3>
-              </div>
-            </Link>
+    <Link href="/news/mls-all-star-game-2026" className="border rounded-lg p-6 hover:bg-gray-50 transition shadow-md">
+      <div className="flex items-center gap-8">
+        <span className="w-10 text-center text-[#ff5a36] text-4xl font-bold flex-shrink-0">2</span>
+        <h3 className="font-semibold text-lg leading-6 hover:text-[#ff5a36] transition duration-300">
+          MLS All-Star Game 2026: Missing Messi But Riding Post-World Cup Momentum
+        </h3>
+      </div>
+    </Link>
 
-            <Link href="/news/chicharito-dallas" className="border rounded-lg p-6 hover:bg-gray-50 transition shadow-md">
-              <div className="flex items-center gap-8">
-                <span className="w-10 text-center text-[#ff5a36] text-4xl font-bold flex-shrink-0">4</span>
-                <h3 className="font-semibold text-lg leading-6 hover:text-[#ff5a36] transition duration-300">
-                  Chicharito Returns to MLS with FC Dallas
-                </h3>
-              </div>
-            </Link>
-          </div>
-        </section>
+    <Link href="/news/olwethu-makhanya-rangers" className="border rounded-lg p-6 hover:bg-gray-50 transition shadow-md">
+      <div className="flex items-center gap-8">
+        <span className="w-10 text-center text-[#ff5a36] text-4xl font-bold flex-shrink-0">3</span>
+        <h3 className="font-semibold text-lg leading-6 hover:text-[#ff5a36] transition duration-300">
+          Rangers Close In on Deal for Philadelphia Union Defender Olwethu Makhanya
+        </h3>
+      </div>
+    </Link>
 
+    <Link href="/news/andoni-iraola-nycfc-liverpool" className="border rounded-lg p-6 hover:bg-gray-50 transition shadow-md">
+      <div className="flex items-center gap-8">
+        <span className="w-10 text-center text-[#ff5a36] text-4xl font-bold flex-shrink-0">4</span>
+        <h3 className="font-semibold text-lg leading-6 hover:text-[#ff5a36] transition duration-300">
+          Andoni Iraola’s Journey from NYCFC to Liverpool Manager
+        </h3>
+      </div>
+    </Link>
+
+  </div>
+</section>
         {/* FOOTER */}
         <footer className="mt-16 border-t pt-8 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-600">
           <div>

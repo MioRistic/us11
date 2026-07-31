@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Max Arfsten Closing In on Middlesbrough Move",
+  "subtitle": "USMNT wingback finalizing $7.5M transfer from Columbus Crew — will join Morris and Berhalter in the Championship",
+  "image": "https://assets.goal.com/images/v3/getty-2222812419/crop/MM5DINBRG45DENBYGU5G433XMU5DAORSGMYA====/GettyImages-2222812419.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/arfsten-middlesbrough-transfer",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Inter Miami Cénit 2026 Third Jersey",
   "subtitle": "New white third kit is live — Messi, Replica, Authentic & Youth versions with full prices and where to buy",
   "image": "https://www.mlsstore.com/content/ws/all/a92d7370-fdf2-438d-b9b8-2e35981037df__2055X750.jpg",
@@ -52,14 +60,6 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Sebastian Berhalter Joins Middlesbrough",
-  "subtitle": "USMNT midfielder leaves Vancouver Whitecaps for the Championship and reunites with Aidan Morris",
-  "image": "https://assets.goal.com/images/v3/getty-2221149180/crop/MM5DGOBTHE5DEMJVHE5G433XMU5DAORSGAYA====/GettyImages-2221149180.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/sebastian-berhalter-middlesbrough",
-  "external": false,
-  "cta": "Read the full story"
-},
 
 
  
@@ -77,6 +77,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+    {
+  "id": 230,
+  "title": "Max Arfsten Closing In on Middlesbrough Move — Set to Join USMNT Duo Morris and Berhalter",
+  "author": "Mio Ristić",
+  "date": "July 31, 2026",
+  "excerpt": "Columbus Crew wingback Max Arfsten is finalizing a transfer to Middlesbrough worth up to $7.5 million. He will join USMNT teammates Aidan Morris and Sebastian Berhalter.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2222812419/crop/MM5DINBRG45DENBYGU5G433XMU5DAORSGMYA====/GettyImages-2222812419.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/arfsten-middlesbrough-transfer"
+},
   {
   "id": 227,
   "title": "Son Heung-min Steals the Spotlight as MLS All-Stars Edge Liga MX 4-3 in Charlotte",
@@ -95,16 +104,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2285479115/crop/MM5DINJQGA5DENJTGE5G433XMU5DAORSGM2A====/GettyImages-2285479115.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/lewandowski-100-million-saudi-rejection"
 },
-  {
-  "id": 225,
-  "title": "MLS vs. Liga MX: The Rivalry That Never Sleeps Arrives in Charlotte",
-  "author": "Mio Ristić",
-  "date": "July 29, 2026",
-  "excerpt": "The fifth MLS All-Star Game between MLS and Liga MX takes place in Charlotte. Full preview of the rivalry, key absences, and what the post-World Cup clash means for both leagues.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2230677284/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2230677284.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/mls-vs-liga-mx-all-star-2026"
-},
-
+   
  
 
  

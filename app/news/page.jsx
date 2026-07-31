@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 230,
+  "title": "Max Arfsten Closing In on Middlesbrough Move — Set to Join USMNT Duo Morris and Berhalter",
+  "author": "Mio Ristić",
+  "date": "July 31, 2026",
+  "excerpt": "Columbus Crew wingback Max Arfsten is finalizing a transfer to Middlesbrough worth up to $7.5 million. He will join USMNT teammates Aidan Morris and Sebastian Berhalter.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2222812419/crop/MM5DINBRG45DENBYGU5G433XMU5DAORSGMYA====/GettyImages-2222812419.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "arfsten-middlesbrough-transfer"
+},
+    {
   "id": 227,
   "title": "Son Heung-min Steals the Spotlight as MLS All-Stars Edge Liga MX 4-3 in Charlotte",
   "author": "Mio Ristić",
