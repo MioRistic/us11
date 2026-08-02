@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 231,
+  "title": "MLS Matchday Roundup: Lewandowski Announces Himself at Home, Messi’s Return Ends in Frustration",
+  "author": "Mio Ristić",
+  "date": "August 2, 2026",
+  "excerpt": "Robert Lewandowski scores twice on his Chicago home debut, Lionel Messi returns for Inter Miami in a 2-2 draw, and Portland edge Seattle as MLS fully restarts after the World Cup.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt7d93faee2a6dac45/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-01T224940.165.png?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "mls-matchday-roundup-lewandowski-messi"
+},
+    {
   "id": 230,
   "title": "Max Arfsten Closing In on Middlesbrough Move — Set to Join USMNT Duo Morris and Berhalter",
   "author": "Mio Ristić",

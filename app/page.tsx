@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "MLS Matchday Roundup",
+  "subtitle": "Lewandowski brace in Chicago, Messi returns for Miami, Son and Müller share points in Vancouver",
+  "image": "https://assets.goal.com/images/v3/blt7d93faee2a6dac45/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-01T224940.165.png?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/mls-matchday-roundup-lewandowski-messi",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Max Arfsten Closing In on Middlesbrough Move",
   "subtitle": "USMNT wingback finalizing $7.5M transfer from Columbus Crew — will join Morris and Berhalter in the Championship",
   "image": "https://assets.goal.com/images/v3/getty-2222812419/crop/MM5DINBRG45DENBYGU5G433XMU5DAORSGMYA====/GettyImages-2222812419.jpg?auto=webp&format=pjpg&width=3840&quality=60",
@@ -51,15 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  
-  {
-  "title": "MLS vs. Liga MX All-Star Game 2026",
-  "subtitle": "The rivalry continues in Charlotte as Son, Müller and the best of MLS face Liga MX",
-  "image": "https://assets.goal.com/images/v3/getty-2230677284/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2230677284.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/mls-vs-liga-mx-all-star-2026",
-  "external": false,
-  "cta": "Read the full story"
-},
+
 
 
  
@@ -77,6 +77,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+   {
+  "id": 231,
+  "title": "MLS Matchday Roundup: Lewandowski Announces Himself at Home, Messi’s Return Ends in Frustration",
+  "author": "Mio Ristić",
+  "date": "August 2, 2026",
+  "excerpt": "Robert Lewandowski scores twice on his Chicago home debut, Lionel Messi returns for Inter Miami in a 2-2 draw, and Portland edge Seattle as MLS fully restarts after the World Cup.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt7d93faee2a6dac45/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-01T224940.165.png?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "news/mls-matchday-roundup-lewandowski-messi"
+},
     {
   "id": 230,
   "title": "Max Arfsten Closing In on Middlesbrough Move — Set to Join USMNT Duo Morris and Berhalter",
@@ -95,16 +104,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2288223409/crop/MM5DIMZSGQ5DENBTGI5G433XMU5DAORSHE======/GettyImages-2288223409.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   "link": "news/son-heung-min-mls-all-star-mvp"
 },
-  {
-  "id": 226,
-  "title": "Lewandowski’s €100 Million Rejection: Ambition Over Oil Money",
-  "author": "Mio Ristić",
-  "date": "July 29, 2026",
-  "excerpt": "Robert Lewandowski rejected a Saudi Arabia offer worth more than €100 million per season to stay at Barcelona. Agent Pini Zahavi reveals why ambition came before the money.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2285479115/crop/MM5DINJQGA5DENJTGE5G433XMU5DAORSGM2A====/GettyImages-2285479115.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/lewandowski-100-million-saudi-rejection"
-},
-   
+ 
  
 
  
