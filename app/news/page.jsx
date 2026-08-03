@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 232,
+  "title": "Hull City Reach Agreement for Colorado Rapids Defender Lucas Herrington in Deal Worth Up to $23 Million",
+  "author": "Mio Ristić",
+  "date": "August 3, 2026",
+  "excerpt": "Hull City have reached a club-to-club agreement with Colorado Rapids for 18-year-old Australian centre-back Lucas Herrington in a deal worth up to $23 million.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQvO7bUgSI57bGcOGEPJu3bGSl3itgWXKTFCR188aRkwtnbym0LCQCJef&s=10",
+  "slug": "lucas-herrington-hull-city"
+},
+    {
   "id": 231,
   "title": "MLS Matchday Roundup: Lewandowski Announces Himself at Home, Messi’s Return Ends in Frustration",
   "author": "Mio Ristić",

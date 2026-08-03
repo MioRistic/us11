@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Hull City Agree Deal for Lucas Herrington",
+  "subtitle": "Colorado Rapids starlet set for Premier League move in transfer worth up to $23 million",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQvO7bUgSI57bGcOGEPJu3bGSl3itgWXKTFCR188aRkwtnbym0LCQCJef&s=10",
+  "link": "/news/lucas-herrington-hull-city",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "MLS Matchday Roundup",
   "subtitle": "Lewandowski brace in Chicago, Messi returns for Miami, Son and Müller share points in Vancouver",
   "image": "https://assets.goal.com/images/v3/blt7d93faee2a6dac45/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-01T224940.165.png?auto=webp&format=pjpg&width=2048&quality=60",
@@ -51,14 +59,6 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Lewandowski Rejected €100m Saudi Offer",
-  "subtitle": "Ambition over oil money — how the Polish striker walked away from one of football’s biggest deals",
-  "image": "https://assets.goal.com/images/v3/getty-2285479115/crop/MM5DINJQGA5DENJTGE5G433XMU5DAORSGM2A====/GettyImages-2285479115.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/lewandowski-100-million-saudi-rejection",
-  "external": false,
-  "cta": "Read the full story"
-},
 
 
 
@@ -77,6 +77,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+    {
+  "id": 232,
+  "title": "Hull City Reach Agreement for Colorado Rapids Defender Lucas Herrington in Deal Worth Up to $23 Million",
+  "author": "Mio Ristić",
+  "date": "August 3, 2026",
+  "excerpt": "Hull City have reached a club-to-club agreement with Colorado Rapids for 18-year-old Australian centre-back Lucas Herrington in a deal worth up to $23 million.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQvO7bUgSI57bGcOGEPJu3bGSl3itgWXKTFCR188aRkwtnbym0LCQCJef&s=10",
+  "link": "news/lucas-herrington-hull-city"
+},
    {
   "id": 231,
   "title": "MLS Matchday Roundup: Lewandowski Announces Himself at Home, Messi’s Return Ends in Frustration",
@@ -94,15 +103,6 @@ const blogPosts: Post[] = [
   "excerpt": "Columbus Crew wingback Max Arfsten is finalizing a transfer to Middlesbrough worth up to $7.5 million. He will join USMNT teammates Aidan Morris and Sebastian Berhalter.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-2222812419/crop/MM5DINBRG45DENBYGU5G433XMU5DAORSGMYA====/GettyImages-2222812419.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/arfsten-middlesbrough-transfer"
-},
-  {
-  "id": 227,
-  "title": "Son Heung-min Steals the Spotlight as MLS All-Stars Edge Liga MX 4-3 in Charlotte",
-  "author": "Mio Ristić",
-  "date": "July 30, 2026",
-  "excerpt": "Son Heung-min scored twice in three minutes, earned MVP honors, and led the MLS All-Stars to a 4-3 victory over Liga MX in Charlotte. Full recap of the 2026 All-Star Game.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2288223409/crop/MM5DIMZSGQ5DENBTGI5G433XMU5DAORSHE======/GettyImages-2288223409.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "news/son-heung-min-mls-all-star-mvp"
 },
  
  
