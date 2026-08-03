@@ -32,6 +32,15 @@ const USNationalTeamPage = () => {
   ];
 
   const newsPosts = [
+     {
+  "id": 233,
+  "title": "Gio Reyna Agrees Move to Strasbourg as Career Reset Continues in France",
+  "author": "Mio Ristić",
+  "date": "August 3, 2026",
+  "excerpt": "RC Strasbourg have agreed a deal worth around €3 million to sign USMNT attacking midfielder Gio Reyna from Borussia Mönchengladbach. Medical scheduled for Monday.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt1c7bd4c8d2766389/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-02-20T134449.815.png?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "news/gio-reyna-strasbourg"
+},
       {
   "id": 199,
   "title": "A Night of Regression: How the USMNT Fell Well Short Against a Superior Belgium Side",

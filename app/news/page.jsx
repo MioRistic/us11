@@ -11,6 +11,25 @@ import Us11 from '../../public/11.png';
 
 const Blog = () => {
   const blogPosts = [
+    
+ {
+  "id": 233,
+  "title": "Gio Reyna Agrees Move to Strasbourg as Career Reset Continues in France",
+  "author": "Mio Ristić",
+  "date": "August 3, 2026",
+  "excerpt": "RC Strasbourg have agreed a deal worth around €3 million to sign USMNT attacking midfielder Gio Reyna from Borussia Mönchengladbach. Medical scheduled for Monday.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt1c7bd4c8d2766389/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-02-20T134449.815.png?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "gio-reyna-strasbourg"
+},
+{
+  "id": 234,
+  "title": "Six Goals, One City: Chicago Gets a Premier League Spectacle as Leeds Stun Liverpool",
+  "author": "Mio Ristić",
+  "date": "August 3, 2026",
+  "excerpt": "Leeds United came from 2-0 down to beat Liverpool 4-2 at Soldier Field in Chicago. A six-goal thriller entertained nearly 50,000 fans as the Whites ended their US tour in style.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2288808801/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2288808801.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "leeds-liverpool-chicago"
+},
     {
   "id": 232,
   "title": "Hull City Reach Agreement for Colorado Rapids Defender Lucas Herrington in Deal Worth Up to $23 Million",

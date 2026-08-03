@@ -19,7 +19,24 @@ interface Post {
 const ACCENT = '#1d4ed8';
 
 const heroItems = [
-  {
+ 
+ {
+  "title": "Gio Reyna Agrees Move to Strasbourg",
+  "subtitle": "USMNT attacking midfielder set to join BlueCo project from Gladbach in €3m deal",
+  "image": "https://assets.goal.com/images/v3/blt1c7bd4c8d2766389/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-02-20T134449.815.png?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/gio-reyna-strasbourg",
+  "external": false,
+  "cta": "Read the full story"
+},
+{
+  "title": "Leeds Stun Liverpool 4-2 in Chicago",
+  "subtitle": "Six-goal thriller at Soldier Field as the Whites complete a stunning comeback in front of 49,128 fans",
+  "image": "https://assets.goal.com/images/v3/getty-2288808801/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2288808801.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/leeds-liverpool-chicago",
+  "external": false,
+  "cta": "Read the full story"
+},
+{
   "title": "Hull City Agree Deal for Lucas Herrington",
   "subtitle": "Colorado Rapids starlet set for Premier League move in transfer worth up to $23 million",
   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQvO7bUgSI57bGcOGEPJu3bGSl3itgWXKTFCR188aRkwtnbym0LCQCJef&s=10",
@@ -43,22 +60,8 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Inter Miami Cénit 2026 Third Jersey",
-  "subtitle": "New white third kit is live — Messi, Replica, Authentic & Youth versions with full prices and where to buy",
-  "image": "https://www.mlsstore.com/content/ws/all/a92d7370-fdf2-438d-b9b8-2e35981037df__2055X750.jpg",
-  "link": "/blog/inter-miami-cenit-2026-third-jersey",
-  "external": false,
-  "cta": "Shop the kit"
-},
-  {
-  "title": "Son Steals the Show at All-Star Game",
-  "subtitle": "LAFC star scores twice in three minutes and earns MVP as MLS All-Stars beat Liga MX 4-3 in Charlotte",
-  "image": "https://assets.goal.com/images/v3/getty-2288223409/crop/MM5DIMZSGQ5DENBTGI5G433XMU5DAORSHE======/GettyImages-2288223409.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/son-heung-min-mls-all-star-mvp",
-  "external": false,
-  "cta": "Read the full story"
-},
+  
+
 
 
 
@@ -77,6 +80,24 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+ {
+  "id": 233,
+  "title": "Gio Reyna Agrees Move to Strasbourg as Career Reset Continues in France",
+  "author": "Mio Ristić",
+  "date": "August 3, 2026",
+  "excerpt": "RC Strasbourg have agreed a deal worth around €3 million to sign USMNT attacking midfielder Gio Reyna from Borussia Mönchengladbach. Medical scheduled for Monday.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt1c7bd4c8d2766389/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-02-20T134449.815.png?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "news/gio-reyna-strasbourg"
+},
+{
+  "id": 234,
+  "title": "Six Goals, One City: Chicago Gets a Premier League Spectacle as Leeds Stun Liverpool",
+  "author": "Mio Ristić",
+  "date": "August 3, 2026",
+  "excerpt": "Leeds United came from 2-0 down to beat Liverpool 4-2 at Soldier Field in Chicago. A six-goal thriller entertained nearly 50,000 fans as the Whites ended their US tour in style.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2288808801/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2288808801.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "news/leeds-liverpool-chicago"
+},
     {
   "id": 232,
   "title": "Hull City Reach Agreement for Colorado Rapids Defender Lucas Herrington in Deal Worth Up to $23 Million",
@@ -86,26 +107,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQvO7bUgSI57bGcOGEPJu3bGSl3itgWXKTFCR188aRkwtnbym0LCQCJef&s=10",
   "link": "news/lucas-herrington-hull-city"
 },
-   {
-  "id": 231,
-  "title": "MLS Matchday Roundup: Lewandowski Announces Himself at Home, Messi’s Return Ends in Frustration",
-  "author": "Mio Ristić",
-  "date": "August 2, 2026",
-  "excerpt": "Robert Lewandowski scores twice on his Chicago home debut, Lionel Messi returns for Inter Miami in a 2-2 draw, and Portland edge Seattle as MLS fully restarts after the World Cup.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt7d93faee2a6dac45/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-01T224940.165.png?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "news/mls-matchday-roundup-lewandowski-messi"
-},
-    {
-  "id": 230,
-  "title": "Max Arfsten Closing In on Middlesbrough Move — Set to Join USMNT Duo Morris and Berhalter",
-  "author": "Mio Ristić",
-  "date": "July 31, 2026",
-  "excerpt": "Columbus Crew wingback Max Arfsten is finalizing a transfer to Middlesbrough worth up to $7.5 million. He will join USMNT teammates Aidan Morris and Sebastian Berhalter.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2222812419/crop/MM5DINBRG45DENBYGU5G433XMU5DAORSGMYA====/GettyImages-2222812419.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/arfsten-middlesbrough-transfer"
-},
- 
- 
+   
 
  
   
