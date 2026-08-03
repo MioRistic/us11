@@ -70,9 +70,13 @@ const heroItems = [
 ];
 
 const staffPicks = [
+  {
+  name: "Lionel Messi Inter Miami CF adidas 2026 Third",
+  image: "https://fanatics.frgimages.com/inter-miami-cf/mens-adidas-lionel-messi-white-inter-miami-cf-2026-third-replica-jersey_ss5_p-203610053+u-tuh1zb9m9reka0ufh3t8+v-r2koayzpqvnn9abjytax.jpg?_hv=2&w=800",
+  link: "https://fanatics.93n6tx.net/AgGKd1"
+},
   { name: "Antoine Griezmann - Orlando City", image: "https://fanatics.frgimages.com/orlando-city-sc/mens-adidas-antoine-griezmann-purple-orlando-city-sc-2025-perfect-storm-on-field-authentic-jersey_ss5_p-204033026+pv-1+u-hexo5oxtaqxkxng71go3+v-4wipfo65ii5bhl5wjrot.png?_hv=2&w=1018", link: "https://fanatics.93n6tx.net/B5P0rJ" },
-  { name: "Lionel Messi - Argentina National Team", image: "https://fanatics.frgimages.com/argentina-national-team/mens-argentina-national-team-lionel-messi-adidas-white-fifa-x-world-cup-2026-home-on-field-authentic-jersey_ss5_p-203130492+u-4t5gbwgzj2qugoxbeefs+v-ib2spequ9pvuf4ixgrwz.jpg?_hv=2&w=600", link: "https://fanatics.93n6tx.net/Qj7Dya" },
-  { name: "Lionel Messi - Inter Miami CF", image: "https://fanatics.frgimages.com/inter-miami-cf/mens-adidas-lionel-messi-black-inter-miami-cf-2026-presagio-on-field-authentic-patch-jersey_ss5_p-203796622+u-tzaw5stbqxgry9ruqtuk+v-2zf36xgsuhqyjxgvc7tj.jpg?_hv=2&w=600", link: "https://fanatics.93n6tx.net/gRG1ZX" },
+  { name: "Lionel Messi - Inter Miami CF", image: "https://fanatics.frgimages.com/inter-miami-cf/mens-adidas-lionel-messi-black-inter-miami-cf-2026-presagio-on-field-authentic-patch-jersey_ss5_p-203796622+u-tzaw5stbqxgry9ruqtuk+v-2zf36xgsuhqyjxgvc7tj.jpg?_hv=2&w=600", link: "https://fanatics.93n6tx.net/Qj7Dya" },
   { name: "Christian Pulisic - USMNT", image: "https://fanatics.frgimages.com/mens-nike-christian-pulisic-white-usmnt-2026-home-stadium-replica-jersey_ss5_p-203943392+u-eynkcl3yzghk7gpyutek+v-aljzxhr6ss6kqwnxjple.png?_hv=2&w=600", link: "https://fanatics.93n6tx.net/B5P0WW" },
   { name: "Son Heung-Min - LAFC", image: "https://fanatics.frgimages.com/lafc/mens-adidas-son-heung-min-black-lafc-2026-primary-kit-replica-jersey_ss5_p-203794818+pv-1+u-t6pntpj653pnuqjlbfh7+v-e7oz1xk1n4at2ey0mvab.png?_hv=2&w=1018", link: "https://fanatics.93n6tx.net/QYbyBx" },
   { name: "Jordan Morris - Seattle Sounders FC", image: "https://fanatics.frgimages.com/seattle-sounders-fc/mens-adidas-jordan-morris-rave-green-seattle-sounders-fc-2026-the-evergreen-state-kit-replica-jersey_ss5_p-203847562+u-anfboaotog9stddyjkqf+v-grwn5dj94tjvjqcdgeth.jpg?_hv=2&w=600", link: "https://fanatics.93n6tx.net/7XM5Ed" },

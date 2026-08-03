@@ -8,11 +8,13 @@ import { FiCopy } from 'react-icons/fi';
 
 export default function BestWorldCup2026Jerseys() {
   const [currentUrl, setCurrentUrl] = useState('');
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
       setCurrentUrl(window.location.href);
     }
+    setMounted(true);
   }, []);
 
   const handleCopyLink = () => {
@@ -22,17 +24,19 @@ export default function BestWorldCup2026Jerseys() {
     }
   };
 
-  const articleTitle = "Best World Cup 2026 Jerseys for Street Style: The Kits Worth Buying";
+  const articleTitle =
+    'Best World Cup 2026 Jerseys for Street Style: The Kits Worth Buying';
 
   return (
     <article className="w-full min-h-screen bg-white text-[#020617]">
-      <div className="max-w-4xl mx-auto py-12 px-4 md:px-0">
 
-        {/* AFFILIATE NOTICE */}
-        <div className="-mx-4 md:-mx-6 lg:-mx-8 xl:-mx-0 bg-zinc-100 border-b border-zinc-200 py-2.5 text-center text-[10px] text-zinc-600">
-          This page contains affiliate links. When you purchase through the links provided, 
-          <span className="text-zinc-700 font-medium"> US11 may earn a commission</span> at no extra cost to you.
-        </div>
+      {/* FULL-BLEED AFFILIATE NOTICE – edge to edge, on top */}
+      <div className="w-full bg-zinc-100 border-b border-zinc-200 py-2.5 text-center text-[10px] text-zinc-600">
+        This page contains affiliate links. When you purchase through the links provided,{' '}
+        <span className="text-zinc-700 font-medium">US11 may earn a commission</span> at no extra cost to you.
+      </div>
+
+      <div className="max-w-4xl mx-auto py-12 px-4 md:px-0">
 
         {/* HEADER */}
         <header className="mb-8">
@@ -48,39 +52,104 @@ export default function BestWorldCup2026Jerseys() {
 
           {/* SOCIAL SHARE */}
           <div className="flex items-center gap-4 mt-4">
-            <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`} target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-[#1877F2] text-white hover:opacity-80 transition">
+            <a
+              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full bg-[#1877F2] text-white hover:opacity-80 transition"
+            >
               <FaFacebookF size={20} />
             </a>
-            <a href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(articleTitle)}`} target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-black text-white hover:opacity-80 transition">
+            <a
+              href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(articleTitle)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full bg-black text-white hover:opacity-80 transition"
+            >
               <FaTwitter size={20} />
             </a>
-            <a href={`https://api.whatsapp.com/send?text=${encodeURIComponent(articleTitle + ' ' + currentUrl)}`} target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-[#25D366] text-white hover:opacity-80 transition">
+            <a
+              href={`https://api.whatsapp.com/send?text=${encodeURIComponent(articleTitle + ' ' + currentUrl)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full bg-[#25D366] text-white hover:opacity-80 transition"
+            >
               <FaWhatsapp size={20} />
             </a>
-            <button onClick={handleCopyLink} className="p-2 rounded-full bg-gray-200 text-[#020617] hover:bg-gray-300 transition">
+            <button
+              onClick={handleCopyLink}
+              className="p-2 rounded-full bg-gray-200 text-[#020617] hover:bg-gray-300 transition"
+            >
               <FiCopy size={20} />
             </button>
           </div>
         </header>
 
         {/* FEATURE IMAGE */}
-<figure className="relative w-full rounded-2xl overflow-hidden shadow-md mb-10 aspect-[16/9]">
-  <Image
-    src="https://assets.goal.com/images/v3/blteb5ae4bd28752ec3/adidas%20FIFA%20World%20Cup%202026%20kit%20-%20Germany.png?auto=webp&format=pjpg&width=1920&quality=60"
-    alt="Best World Cup 2026 Jerseys for Street Style"
-    fill
-    className="object-cover"
-    priority
-  />
-  
-  {/* COPYRIGHT NA SLICI */}
-  <div className="absolute bottom-4 right-4 bg-black/70 text-white text-xs px-3 py-1 rounded font-medium">
-    ADIDAS
-  </div>
-</figure>
+        <figure className="relative w-full rounded-3xl overflow-hidden shadow-md mb-10 aspect-[16/9]">
+          <Image
+            src="https://assets.goal.com/images/v3/blteb5ae4bd28752ec3/adidas%20FIFA%20World%20Cup%202026%20kit%20-%20Germany.png?auto=webp&format=pjpg&width=1920&quality=60"
+            alt="Best World Cup 2026 Jerseys for Street Style"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute bottom-4 right-4 bg-black/70 text-white text-xs px-3 py-1 rounded font-medium">
+            ADIDAS
+          </div>
+        </figure>
+
+        {/* STICKY DUAL BUY BANNERS */}
+        <div suppressHydrationWarning>
+          {mounted && (
+            <div className="sticky top-[140px] md:top-[148px] z-40 py-4 md:py-6 bg-white border-b border-zinc-100">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <a
+                  href="https://fanatics.93n6tx.net/zzP1q0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between gap-4 bg-white border border-zinc-200 rounded-3xl px-6 py-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-0.5"
+                >
+                  <div>
+                    <h3 className="text-[17px] font-semibold text-[#020617] leading-tight">
+                      Shop at Fanatics
+                    </h3>
+                  </div>
+                  <div className="w-14 h-14 bg-white rounded-xl flex items-center justify-center flex-shrink-0">
+                    <img
+                      src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg"
+                      alt="Fanatics"
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                </a>
+
+                <a
+                  href="https://fanatics.93n6tx.net/qWmrGN"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between gap-4 bg-white border border-zinc-200 rounded-3xl px-6 py-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-0.5"
+                >
+                  <div>
+                    <h3 className="text-[17px] font-semibold text-[#020617] leading-tight">
+                      Shop Germany Kit
+                    </h3>
+                  </div>
+                  <div className="w-14 h-14 bg-white rounded-xl flex items-center justify-center flex-shrink-0">
+                    <img
+                      src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg"
+                      alt="Fanatics"
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          )}
+        </div>
 
         {/* ARTICLE CONTENT */}
-        <section className="prose prose-lg max-w-none leading-relaxed space-y-8">
+        <section className="prose prose-lg max-w-none leading-relaxed space-y-8 pt-6">
 
           <p className="text-xl">
             Not every World Cup 2026 jersey is designed for everyday life.
@@ -98,11 +167,11 @@ export default function BestWorldCup2026Jerseys() {
             For the 2026 FIFA World Cup, several teams have released kits that successfully combine football heritage with modern fashion. Here is our ranking of the top 10 World Cup 2026 kits for street style.
           </p>
 
-                           {/* 10. ENGLAND */}
+          {/* 10. ENGLAND */}
           <h3 className="text-2xl font-bold mt-10 mb-4">10. England Home Jersey</h3>
           <figure className="relative w-full rounded-2xl overflow-hidden shadow-md my-8 aspect-[16/9]">
             <Image
-              src="https://i.ibb.co/bjmVsGBY/image.jpg" 
+              src="https://i.ibb.co/bjmVsGBY/image.jpg"
               alt="England 2026 Home Jersey"
               fill
               className="object-cover"
@@ -111,23 +180,43 @@ export default function BestWorldCup2026Jerseys() {
               © Nike
             </div>
           </figure>
-          <p><strong>Best for:</strong> Retro nostalgia with modern feel</p>
+          <p>
+            <strong>Best for:</strong> Retro nostalgia with modern feel
+          </p>
           <p>
             England have delivered a beautiful nostalgic kit that references multiple classic designs — most notably the Euro 2000 and Euro 88 shirts. The clean white base with tasteful red and navy accents feels both fresh and familiar at the same time.
           </p>
-          <p><strong>Why buy it?</strong> Perfect balance between heritage and wearability. It looks great on the street, carries serious Three Lions pride, and will age very well. A strong choice for any England fan who appreciates classic English kits.</p>
+          <p>
+            <strong>Why buy it?</strong> Perfect balance between heritage and wearability. It looks great on the street, carries serious Three Lions pride, and will age very well.
+          </p>
 
-          {/* FANATICS BANNER */}
-          <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col md:flex-row items-center gap-6 my-8 shadow-sm">
-            <div className="flex-1">
-              <div className="flex items-center gap-3 mb-3">
-                <img src="https://www.fanatics.com/content/assets/__0-1381085203729.737.svg" alt="Fanatics" className="h-8" />
+          <div suppressHydrationWarning>
+            {mounted && (
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10">
+                <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 bg-gray-50">
+                    <img
+                      src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg"
+                      alt="Fanatics"
+                      className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
+                      Shop England kits at Fanatics
+                    </h3>
+                  </div>
+                </div>
+                <a
+                  href="https://fanatics.93n6tx.net/zzP1q0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap w-full sm:w-auto text-center"
+                >
+                  Shop now
+                </a>
               </div>
-              <h3 className="text-2xl font-bold text-[#020617] mb-2">Shop England kits at Fanatics</h3>
-            </div>
-            <a href="https://fanatics.93n6tx.net/zzP1q0" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition text-lg whitespace-nowrap">
-              Buy now
-            </a>
+            )}
           </div>
 
           {/* 9. COLOMBIA */}
@@ -143,23 +232,43 @@ export default function BestWorldCup2026Jerseys() {
               © Adidas
             </div>
           </figure>
-          <p><strong>Best for:</strong> Bold colors and personality</p>
+          <p>
+            <strong>Best for:</strong> Bold colors and personality
+          </p>
           <p>
             One of the most vibrant and energetic kits at the entire World Cup. The intense yellow combined with deep blue and red details delivers a true Latin American character. The subtle butterfly pattern in the background is a beautiful touch.
           </p>
-          <p><strong>Why buy it?</strong> Extremely eye-catching on the street. If you love bold colors and kits with strong personality, Colombia is an excellent choice.</p>
+          <p>
+            <strong>Why buy it?</strong> Extremely eye-catching on the street. If you love bold colors and kits with strong personality, Colombia is an excellent choice.
+          </p>
 
-          {/* FANATICS BANNER */}
-          <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col md:flex-row items-center gap-6 my-8 shadow-sm">
-            <div className="flex-1">
-              <div className="flex items-center gap-3 mb-3">
-                <img src="https://www.fanatics.com/content/assets/__0-1381085203729.737.svg" alt="Fanatics" className="h-8" />
+          <div suppressHydrationWarning>
+            {mounted && (
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10">
+                <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 bg-gray-50">
+                    <img
+                      src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg"
+                      alt="Fanatics"
+                      className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
+                      Shop Colombia kits at Fanatics
+                    </h3>
+                  </div>
+                </div>
+                <a
+                  href="https://fanatics.93n6tx.net/4ay6K0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap w-full sm:w-auto text-center"
+                >
+                  Shop now
+                </a>
               </div>
-              <h3 className="text-2xl font-bold text-[#020617] mb-2">Shop Colombia kits at Fanatics</h3>
-            </div>
-            <a href="https://fanatics.93n6tx.net/4ay6K0" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition text-lg whitespace-nowrap">
-              Buy now
-            </a>
+            )}
           </div>
 
           {/* 8. USMNT */}
@@ -175,23 +284,43 @@ export default function BestWorldCup2026Jerseys() {
               © Nike
             </div>
           </figure>
-          <p><strong>Best for:</strong> Supporting the host nation</p>
+          <p>
+            <strong>Best for:</strong> Supporting the host nation
+          </p>
           <p>
             Solid, even if not perfect. Nike wanted to pay tribute to the iconic 1994 jersey by using wavy horizontal stripes instead of vertical ones. While the wavy effect isn&apos;t to everyone&apos;s taste, the red-white combination and large crest still carry real weight.
           </p>
-          <p><strong>Why buy it?</strong> A good pick for fans who want to support the host nation at their own World Cup.</p>
+          <p>
+            <strong>Why buy it?</strong> A good pick for fans who want to support the host nation at their own World Cup.
+          </p>
 
-          {/* FANATICS BANNER */}
-          <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col md:flex-row items-center gap-6 my-8 shadow-sm">
-            <div className="flex-1">
-              <div className="flex items-center gap-3 mb-3">
-                <img src="https://www.fanatics.com/content/assets/__0-1381085203729.737.svg" alt="Fanatics" className="h-8" />
+          <div suppressHydrationWarning>
+            {mounted && (
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10">
+                <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 bg-gray-50">
+                    <img
+                      src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg"
+                      alt="Fanatics"
+                      className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
+                      Shop USMNT kits at Fanatics
+                    </h3>
+                  </div>
+                </div>
+                <a
+                  href="https://fanatics.93n6tx.net/MKARXJ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap w-full sm:w-auto text-center"
+                >
+                  Shop now
+                </a>
               </div>
-              <h3 className="text-2xl font-bold text-[#020617] mb-2">Shop USMNT kits at Fanatics</h3>
-            </div>
-            <a href="https://fanatics.93n6tx.net/MKARXJ" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition text-lg whitespace-nowrap">
-              Buy now
-            </a>
+            )}
           </div>
 
           {/* 7. BRAZIL AWAY */}
@@ -207,23 +336,43 @@ export default function BestWorldCup2026Jerseys() {
               © Nike
             </div>
           </figure>
-          <p><strong>Best for:</strong> Premium streetwear style</p>
+          <p>
+            <strong>Best for:</strong> Premium streetwear style
+          </p>
           <p>
             For me personally, this blue away jersey is better than the classic yellow one this cycle. The dark blue base with a black mottled pattern feels modern and aggressive, while the Jordan logo adds exclusivity.
           </p>
-          <p><strong>Why buy it?</strong> Less obvious than the yellow kit, so it feels more special. Premium streetwear vibe.</p>
+          <p>
+            <strong>Why buy it?</strong> Less obvious than the yellow kit, so it feels more special. Premium streetwear vibe.
+          </p>
 
-          {/* FANATICS BANNER */}
-          <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col md:flex-row items-center gap-6 my-8 shadow-sm">
-            <div className="flex-1">
-              <div className="flex items-center gap-3 mb-3">
-                <img src="https://www.fanatics.com/content/assets/__0-1381085203729.737.svg" alt="Fanatics" className="h-8" />
+          <div suppressHydrationWarning>
+            {mounted && (
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10">
+                <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 bg-gray-50">
+                    <img
+                      src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg"
+                      alt="Fanatics"
+                      className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
+                      Shop Brazil kits at Fanatics
+                    </h3>
+                  </div>
+                </div>
+                <a
+                  href="https://fanatics.93n6tx.net/3kybLn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap w-full sm:w-auto text-center"
+                >
+                  Shop now
+                </a>
               </div>
-              <h3 className="text-2xl font-bold text-[#020617] mb-2">Shop Brazil kits at Fanatics</h3>
-            </div>
-            <a href="https://fanatics.93n6tx.net/3kybLn" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition text-lg whitespace-nowrap">
-              Buy now
-            </a>
+            )}
           </div>
 
           {/* 6. JAPAN */}
@@ -239,23 +388,43 @@ export default function BestWorldCup2026Jerseys() {
               © Adidas
             </div>
           </figure>
-          <p><strong>Best for:</strong> Clean design lovers</p>
+          <p>
+            <strong>Best for:</strong> Clean design lovers
+          </p>
           <p>
             One of the cleanest and most elegant kits at the tournament. The blue color with a subtle graphic pattern feels modern while staying true to Japan&apos;s signature minimalism.
           </p>
-          <p><strong>Why buy it?</strong> Extremely easy to wear in everyday life. Universal blue and clean design make it elegant and unobtrusive.</p>
+          <p>
+            <strong>Why buy it?</strong> Extremely easy to wear in everyday life. Universal blue and clean design make it elegant and unobtrusive.
+          </p>
 
-          {/* FANATICS BANNER */}
-          <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col md:flex-row items-center gap-6 my-8 shadow-sm">
-            <div className="flex-1">
-              <div className="flex items-center gap-3 mb-3">
-                <img src="https://www.fanatics.com/content/assets/__0-1381085203729.737.svg" alt="Fanatics" className="h-8" />
+          <div suppressHydrationWarning>
+            {mounted && (
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10">
+                <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 bg-gray-50">
+                    <img
+                      src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg"
+                      alt="Fanatics"
+                      className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
+                      Shop Japan kits at Fanatics
+                    </h3>
+                  </div>
+                </div>
+                <a
+                  href="https://fanatics.93n6tx.net/GbOr22"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap w-full sm:w-auto text-center"
+                >
+                  Shop now
+                </a>
               </div>
-              <h3 className="text-2xl font-bold text-[#020617] mb-2">Shop Japan kits at Fanatics</h3>
-            </div>
-            <a href="https://fanatics.93n6tx.net/GbOr22" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition text-lg whitespace-nowrap">
-              Buy now
-            </a>
+            )}
           </div>
 
           {/* 5. ARGENTINA */}
@@ -271,23 +440,43 @@ export default function BestWorldCup2026Jerseys() {
               © Adidas
             </div>
           </figure>
-          <p><strong>Best for:</strong> History and football heritage</p>
+          <p>
+            <strong>Best for:</strong> History and football heritage
+          </p>
           <p>
             This jersey carries extra weight as Argentina are the reigning world champions. Golden details, three stars, and classic blue and white stripes give it real emotional value — especially with Messi 10 on the back.
           </p>
-          <p><strong>Why buy it?</strong> This isn&apos;t just a jersey — it tells a story. Premium look on the street.</p>
+          <p>
+            <strong>Why buy it?</strong> This isn&apos;t just a jersey — it tells a story. Premium look on the street.
+          </p>
 
-          {/* FANATICS BANNER */}
-          <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col md:flex-row items-center gap-6 my-8 shadow-sm">
-            <div className="flex-1">
-              <div className="flex items-center gap-3 mb-3">
-                <img src="https://www.fanatics.com/content/assets/__0-1381085203729.737.svg" alt="Fanatics" className="h-8" />
+          <div suppressHydrationWarning>
+            {mounted && (
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10">
+                <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 bg-gray-50">
+                    <img
+                      src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg"
+                      alt="Fanatics"
+                      className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
+                      Shop Argentina kits at Fanatics
+                    </h3>
+                  </div>
+                </div>
+                <a
+                  href="https://fanatics.93n6tx.net/NGRAm1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap w-full sm:w-auto text-center"
+                >
+                  Shop now
+                </a>
               </div>
-              <h3 className="text-2xl font-bold text-[#020617] mb-2">Shop Argentina kits at Fanatics</h3>
-            </div>
-            <a href="https://fanatics.93n6tx.net/NGRAm1" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition text-lg whitespace-nowrap">
-              Buy now
-            </a>
+            )}
           </div>
 
           {/* 4. SPAIN */}
@@ -303,23 +492,43 @@ export default function BestWorldCup2026Jerseys() {
               © Adidas
             </div>
           </figure>
-          <p><strong>Best for:</strong> Modern classic style</p>
+          <p>
+            <strong>Best for:</strong> Modern classic style
+          </p>
           <p>
             Spain made a bold but smart move. They combined classic red with dark blue on the sleeves and added red-yellow stripes. The color-block effect works excellently.
           </p>
-          <p><strong>Why buy it?</strong> Very wearable and stylish. A jersey you&apos;ll still wear years after the tournament.</p>
+          <p>
+            <strong>Why buy it?</strong> Very wearable and stylish. A jersey you&apos;ll still wear years after the tournament.
+          </p>
 
-          {/* FANATICS BANNER */}
-          <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col md:flex-row items-center gap-6 my-8 shadow-sm">
-            <div className="flex-1">
-              <div className="flex items-center gap-3 mb-3">
-                <img src="https://www.fanatics.com/content/assets/__0-1381085203729.737.svg" alt="Fanatics" className="h-8" />
+          <div suppressHydrationWarning>
+            {mounted && (
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10">
+                <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 bg-gray-50">
+                    <img
+                      src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg"
+                      alt="Fanatics"
+                      className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
+                      Shop Spain kits at Fanatics
+                    </h3>
+                  </div>
+                </div>
+                <a
+                  href="https://fanatics.93n6tx.net/yZjGBG"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap w-full sm:w-auto text-center"
+                >
+                  Shop now
+                </a>
               </div>
-              <h3 className="text-2xl font-bold text-[#020617] mb-2">Shop Spain kits at Fanatics</h3>
-            </div>
-            <a href="https://fanatics.93n6tx.net/yZjGBG" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition text-lg whitespace-nowrap">
-              Buy now
-            </a>
+            )}
           </div>
 
           {/* 3. MEXICO */}
@@ -335,23 +544,43 @@ export default function BestWorldCup2026Jerseys() {
               © Adidas
             </div>
           </figure>
-          <p><strong>Best for:</strong> Cultural identity</p>
+          <p>
+            <strong>Best for:</strong> Cultural identity
+          </p>
           <p>
             Deep green with subtle Aztec patterns in the background — a perfect capture of Mexican spirit and a nice nostalgic nod to the late 90s.
           </p>
-          <p><strong>Why buy it?</strong> Green jerseys are usually hard to style, but this one is neutral enough to wear easily with jeans or black pants.</p>
+          <p>
+            <strong>Why buy it?</strong> Green jerseys are usually hard to style, but this one is neutral enough to wear easily with jeans or black pants.
+          </p>
 
-          {/* FANATICS BANNER */}
-          <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col md:flex-row items-center gap-6 my-8 shadow-sm">
-            <div className="flex-1">
-              <div className="flex items-center gap-3 mb-3">
-                <img src="https://www.fanatics.com/content/assets/__0-1381085203729.737.svg" alt="Fanatics" className="h-8" />
+          <div suppressHydrationWarning>
+            {mounted && (
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10">
+                <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 bg-gray-50">
+                    <img
+                      src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg"
+                      alt="Fanatics"
+                      className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
+                      Shop Mexico kits at Fanatics
+                    </h3>
+                  </div>
+                </div>
+                <a
+                  href="https://fanatics.93n6tx.net/rajWrG"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap w-full sm:w-auto text-center"
+                >
+                  Shop now
+                </a>
               </div>
-              <h3 className="text-2xl font-bold text-[#020617] mb-2">Shop Mexico kits at Fanatics</h3>
-            </div>
-            <a href="https://fanatics.93n6tx.net/rajWrG" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition text-lg whitespace-nowrap">
-              Buy now
-            </a>
+            )}
           </div>
 
           {/* 2. NEW ZEALAND */}
@@ -367,23 +596,43 @@ export default function BestWorldCup2026Jerseys() {
               © Adidas
             </div>
           </figure>
-          <p><strong>Best for:</strong> Minimal luxury</p>
+          <p>
+            <strong>Best for:</strong> Minimal luxury
+          </p>
           <p>
             The black New Zealand jersey is one of the most elegant at the tournament. The subtle tonal Silver Fern pattern adds depth and a premium feel without being loud.
           </p>
-          <p><strong>Why buy it?</strong> Incredibly practical and versatile. The black color and minimalism make it easy to combine with almost anything.</p>
+          <p>
+            <strong>Why buy it?</strong> Incredibly practical and versatile. The black color and minimalism make it easy to combine with almost anything.
+          </p>
 
-          {/* FANATICS BANNER */}
-          <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col md:flex-row items-center gap-6 my-8 shadow-sm">
-            <div className="flex-1">
-              <div className="flex items-center gap-3 mb-3">
-                <img src="https://www.fanatics.com/content/assets/__0-1381085203729.737.svg" alt="Fanatics" className="h-8" />
+          <div suppressHydrationWarning>
+            {mounted && (
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10">
+                <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 bg-gray-50">
+                    <img
+                      src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg"
+                      alt="Fanatics"
+                      className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
+                      Shop New Zealand kits at Fanatics
+                    </h3>
+                  </div>
+                </div>
+                <a
+                  href="https://fanatics.93n6tx.net/vDQemL"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap w-full sm:w-auto text-center"
+                >
+                  Shop now
+                </a>
               </div>
-              <h3 className="text-2xl font-bold text-[#020617] mb-2">Shop New Zealand kits at Fanatics</h3>
-            </div>
-            <a href="https://fanatics.93n6tx.net/vDQemL" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition text-lg whitespace-nowrap">
-              Buy now
-            </a>
+            )}
           </div>
 
           {/* 1. GERMANY */}
@@ -399,23 +648,43 @@ export default function BestWorldCup2026Jerseys() {
               © Adidas
             </div>
           </figure>
-          <p><strong>Best for:</strong> Everyday street style</p>
+          <p>
+            <strong>Best for:</strong> Everyday street style
+          </p>
           <p>
             My absolute favorite kit of the entire World Cup. Adidas created a modern but faithful version of the legendary 1990 jersey. Clean white base with subtle German flag details.
           </p>
-          <p><strong>Why buy it?</strong> The best all-rounder. Looks fantastic on the street and works with almost anything. If you can buy only one jersey from this World Cup — this is the one.</p>
+          <p>
+            <strong>Why buy it?</strong> The best all-rounder. Looks fantastic on the street and works with almost anything. If you can buy only one jersey from this World Cup — this is the one.
+          </p>
 
-          {/* FANATICS BANNER */}
-          <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col md:flex-row items-center gap-6 my-8 shadow-sm">
-            <div className="flex-1">
-              <div className="flex items-center gap-3 mb-3">
-                <img src="https://www.fanatics.com/content/assets/__0-1381085203729.737.svg" alt="Fanatics" className="h-8" />
+          <div suppressHydrationWarning>
+            {mounted && (
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 md:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 my-10">
+                <div className="flex items-center gap-4 sm:gap-5 w-full sm:w-auto">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 bg-gray-50">
+                    <img
+                      src="https://www.fanatics.com/content/ws/all/b88152dc-ebb5-4bbb-a3fe-fe3b2f15de08.svg"
+                      alt="Fanatics"
+                      className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 leading-tight">
+                      Shop Germany kits at Fanatics
+                    </h3>
+                  </div>
+                </div>
+                <a
+                  href="https://fanatics.93n6tx.net/qWmrGN"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white hover:bg-gray-50 border-2 border-gray-900 text-gray-900 font-semibold px-8 py-3.5 rounded-full transition-all duration-200 whitespace-nowrap w-full sm:w-auto text-center"
+                >
+                  Shop now
+                </a>
               </div>
-              <h3 className="text-2xl font-bold text-[#020617] mb-2">Shop Germany kits at Fanatics</h3>
-            </div>
-            <a href="https://fanatics.93n6tx.net/qWmrGN" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition text-lg whitespace-nowrap">
-              Buy now
-            </a>
+            )}
           </div>
 
           <h2 className="text-3xl font-bold mt-10 mb-4">Final Ranking</h2>
@@ -429,30 +698,78 @@ export default function BestWorldCup2026Jerseys() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="p-3">1</td><td className="p-3">Germany Home</td><td className="p-3">⭐⭐⭐⭐⭐</td></tr>
-              <tr><td className="p-3">2</td><td className="p-3">New Zealand Home</td><td className="p-3">⭐⭐⭐⭐⭐</td></tr>
-              <tr><td className="p-3">3</td><td className="p-3">Mexico Home</td><td className="p-3">⭐⭐⭐⭐⭐</td></tr>
-              <tr><td className="p-3">4</td><td className="p-3">Spain Home</td><td className="p-3">⭐⭐⭐⭐½</td></tr>
-              <tr><td className="p-3">5</td><td className="p-3">Argentina Home</td><td className="p-3">⭐⭐⭐⭐½</td></tr>
-              <tr><td className="p-3">6</td><td className="p-3">Japan Home</td><td className="p-3">⭐⭐⭐⭐½</td></tr>
-              <tr><td className="p-3">7</td><td className="p-3">Brazil Away</td><td className="p-3">⭐⭐⭐⭐</td></tr>
-              <tr><td className="p-3">8</td><td className="p-3">USMNT Home</td><td className="p-3">⭐⭐⭐⭐</td></tr>
-              <tr><td className="p-3">9</td><td className="p-3">Colombia Home</td><td className="p-3">⭐⭐⭐⭐</td></tr>
-              <tr><td className="p-3">10</td><td className="p-3">England Home</td><td className="p-3">⭐⭐⭐⭐</td></tr>
+              <tr>
+                <td className="p-3">1</td>
+                <td className="p-3">Germany Home</td>
+                <td className="p-3">⭐⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td className="p-3">2</td>
+                <td className="p-3">New Zealand Home</td>
+                <td className="p-3">⭐⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td className="p-3">3</td>
+                <td className="p-3">Mexico Home</td>
+                <td className="p-3">⭐⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td className="p-3">4</td>
+                <td className="p-3">Spain Home</td>
+                <td className="p-3">⭐⭐⭐⭐½</td>
+              </tr>
+              <tr>
+                <td className="p-3">5</td>
+                <td className="p-3">Argentina Home</td>
+                <td className="p-3">⭐⭐⭐⭐½</td>
+              </tr>
+              <tr>
+                <td className="p-3">6</td>
+                <td className="p-3">Japan Home</td>
+                <td className="p-3">⭐⭐⭐⭐½</td>
+              </tr>
+              <tr>
+                <td className="p-3">7</td>
+                <td className="p-3">Brazil Away</td>
+                <td className="p-3">⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td className="p-3">8</td>
+                <td className="p-3">USMNT Home</td>
+                <td className="p-3">⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td className="p-3">9</td>
+                <td className="p-3">Colombia Home</td>
+                <td className="p-3">⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td className="p-3">10</td>
+                <td className="p-3">England Home</td>
+                <td className="p-3">⭐⭐⭐⭐</td>
+              </tr>
             </tbody>
           </table>
 
           <h2 className="text-3xl font-bold mt-10 mb-4">Which one should you buy?</h2>
-          <p><strong>Most versatile:</strong> Germany, New Zealand, Japan</p>
-          <p><strong>Strongest identity:</strong> Argentina, Brazil, Mexico</p>
-          <p><strong>Host nation pride:</strong> USMNT</p>
+          <p>
+            <strong>Most versatile:</strong> Germany, New Zealand, Japan
+          </p>
+          <p>
+            <strong>Strongest identity:</strong> Argentina, Brazil, Mexico
+          </p>
+          <p>
+            <strong>Host nation pride:</strong> USMNT
+          </p>
 
         </section>
 
         {/* FOOTER */}
         <footer className="mt-16 border-t pt-8 flex justify-between text-sm text-gray-600">
           <span>Published: June 16, 2026</span>
-          <Link href="/blog" className="hover:text-gray-800">← Back to blog</Link>
+          <Link href="/blog" className="hover:text-gray-800">
+            ← Back to blog
+          </Link>
         </footer>
 
       </div>
