@@ -11,6 +11,15 @@ import Us11 from '../../public/11.png';
 
 const Blog = () => {
   const blogPosts = [
+    {
+  "id": 235,
+  "title": "Mauricio Pochettino Stays: USMNT Coach Signs New Deal Through 2030 World Cup",
+  "author": "Mio Ristić",
+  "date": "August 3, 2026",
+  "excerpt": "U.S. Soccer announces Mauricio Pochettino has signed a new contract to remain as USMNT head coach through the 2030 World Cup after the home tournament.",
+  "imageUrl": "https://assets.goal.com/images/v3/bltdf32edd9113f7080/crop/MM5DGOJQGY5DEMJZG45G433XMU5DAORSGAZQ====/GettyImages-2280211150.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "pochettino-stays-2030"
+},
     
  {
   "id": 233,

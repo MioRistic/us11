@@ -19,7 +19,15 @@ interface Post {
 const ACCENT = '#1d4ed8';
 
 const heroItems = [
- 
+
+ {
+  "title": "Pochettino Stays Through 2030",
+  "subtitle": "USMNT coach signs new deal to remain in charge for the next World Cup cycle",
+  "image": "https://assets.goal.com/images/v3/bltdf32edd9113f7080/crop/MM5DGOJQGY5DEMJZG45G433XMU5DAORSGAZQ====/GettyImages-2280211150.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/pochettino-stays-2030",
+  "external": false,
+  "cta": "Read the full story"
+},
  {
   "title": "Gio Reyna Agrees Move to Strasbourg",
   "subtitle": "USMNT attacking midfielder set to join BlueCo project from Gladbach in €3m deal",
@@ -52,15 +60,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Max Arfsten Closing In on Middlesbrough Move",
-  "subtitle": "USMNT wingback finalizing $7.5M transfer from Columbus Crew — will join Morris and Berhalter in the Championship",
-  "image": "https://assets.goal.com/images/v3/getty-2222812419/crop/MM5DINBRG45DENBYGU5G433XMU5DAORSGMYA====/GettyImages-2222812419.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/arfsten-middlesbrough-transfer",
-  "external": false,
-  "cta": "Read the full story"
-},
-  
+
 
 
 
@@ -84,6 +84,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+  {
+  "id": 235,
+  "title": "Mauricio Pochettino Stays: USMNT Coach Signs New Deal Through 2030 World Cup",
+  "author": "Mio Ristić",
+  "date": "August 3, 2026",
+  "excerpt": "U.S. Soccer announces Mauricio Pochettino has signed a new contract to remain as USMNT head coach through the 2030 World Cup after the home tournament.",
+  "imageUrl": "https://assets.goal.com/images/v3/bltdf32edd9113f7080/crop/MM5DGOJQGY5DEMJZG45G433XMU5DAORSGAZQ====/GettyImages-2280211150.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/pochettino-stays-2030"
+},
  {
   "id": 233,
   "title": "Gio Reyna Agrees Move to Strasbourg as Career Reset Continues in France",
@@ -102,15 +111,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2288808801/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2288808801.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   "link": "news/leeds-liverpool-chicago"
 },
-    {
-  "id": 232,
-  "title": "Hull City Reach Agreement for Colorado Rapids Defender Lucas Herrington in Deal Worth Up to $23 Million",
-  "author": "Mio Ristić",
-  "date": "August 3, 2026",
-  "excerpt": "Hull City have reached a club-to-club agreement with Colorado Rapids for 18-year-old Australian centre-back Lucas Herrington in a deal worth up to $23 million.",
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQvO7bUgSI57bGcOGEPJu3bGSl3itgWXKTFCR188aRkwtnbym0LCQCJef&s=10",
-  "link": "news/lucas-herrington-hull-city"
-},
+ 
    
 
  
