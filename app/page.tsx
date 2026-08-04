@@ -19,6 +19,14 @@ interface Post {
 const ACCENT = '#1d4ed8';
 
 const heroItems = [
+  {
+  "title": "Zavier Gozo Nears Crystal Palace Move",
+  "subtitle": "Real Salt Lake Homegrown and USMNT prospect close to $15M Premier League transfer",
+  "image": "https://assets.goal.com/images/v3/getty-2277148248/crop/MM5DENRSGQ5DCNBXGY5G433XMU5DCORU/GettyImages-2277148248.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/zavier-gozo-crystal-palace",
+  "external": false,
+  "cta": "Read the full story"
+},
 
  {
   "title": "Pochettino Stays Through 2030",
@@ -52,15 +60,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "MLS Matchday Roundup",
-  "subtitle": "Lewandowski brace in Chicago, Messi returns for Miami, Son and Müller share points in Vancouver",
-  "image": "https://assets.goal.com/images/v3/blt7d93faee2a6dac45/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-01T224940.165.png?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/mls-matchday-roundup-lewandowski-messi",
-  "external": false,
-  "cta": "Read the full story"
-},
-
+  
 
 
 
@@ -84,6 +84,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+    {
+  "id": 236,
+  "title": "Zavier Gozo Nears $15 Million Move to Crystal Palace as Real Salt Lake Star Eyes Premier League Leap",
+  "author": "Mio Ristić",
+  "date": "August 4, 2026",
+  "excerpt": "Crystal Palace are in advanced talks to sign Real Salt Lake and USMNT prospect Zavier Gozo for a fee in the region of $15 million.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2277148248/crop/MM5DENRSGQ5DCNBXGY5G433XMU5DCORU/GettyImages-2277148248.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/zavier-gozo-crystal-palace"
+},
   {
   "id": 235,
   "title": "Mauricio Pochettino Stays: USMNT Coach Signs New Deal Through 2030 World Cup",
@@ -102,15 +111,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/blt1c7bd4c8d2766389/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-02-20T134449.815.png?auto=webp&format=pjpg&width=2048&quality=60",
   "link": "news/gio-reyna-strasbourg"
 },
-{
-  "id": 234,
-  "title": "Six Goals, One City: Chicago Gets a Premier League Spectacle as Leeds Stun Liverpool",
-  "author": "Mio Ristić",
-  "date": "August 3, 2026",
-  "excerpt": "Leeds United came from 2-0 down to beat Liverpool 4-2 at Soldier Field in Chicago. A six-goal thriller entertained nearly 50,000 fans as the Whites ended their US tour in style.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2288808801/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2288808801.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "news/leeds-liverpool-chicago"
-},
+
  
    
 

@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 236,
+  "title": "Zavier Gozo Nears $15 Million Move to Crystal Palace as Real Salt Lake Star Eyes Premier League Leap",
+  "author": "Mio Ristić",
+  "date": "August 4, 2026",
+  "excerpt": "Crystal Palace are in advanced talks to sign Real Salt Lake and USMNT prospect Zavier Gozo for a fee in the region of $15 million.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2277148248/crop/MM5DENRSGQ5DCNBXGY5G433XMU5DCORU/GettyImages-2277148248.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "zavier-gozo-crystal-palace"
+},
+    {
   "id": 235,
   "title": "Mauricio Pochettino Stays: USMNT Coach Signs New Deal Through 2030 World Cup",
   "author": "Mio Ristić",
