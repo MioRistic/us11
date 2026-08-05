@@ -20,6 +20,22 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "USMNT Opens New Cycle Against Familiar Rivals",
+  "subtitle": "First four post-World Cup friendlies announced: Peru, Chile, Mexico and Canada",
+  "image": "https://assets.goal.com/images/v3/blt40b9a6a88c288b52/crop/MM5DEMZTGA5DCMZRGE5G433XMU5DAORSGMZQ====/GettyImages-2268813440.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/usmnt-fall-friendlies-2026",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
+  "title": "LA Galaxy Close In on Chucky Lozano Loan",
+  "subtitle": "Advanced talks under way for Mexican winger to join Galaxy on loan from San Diego FC",
+  "image": "https://assets.goal.com/images/v3/getty-2236485203/crop/MM5DGNBQGU5DCOJRGU5G433XMU5DAORSGEZA====/GettyImages-2236485203.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/chucky-lozano-galaxy-loan",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Zavier Gozo Nears Crystal Palace Move",
   "subtitle": "Real Salt Lake Homegrown and USMNT prospect close to $15M Premier League transfer",
   "image": "https://assets.goal.com/images/v3/getty-2277148248/crop/MM5DENRSGQ5DCNBXGY5G433XMU5DCORU/GettyImages-2277148248.jpg?auto=webp&format=pjpg&width=3840&quality=60",
@@ -44,23 +60,6 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-{
-  "title": "Leeds Stun Liverpool 4-2 in Chicago",
-  "subtitle": "Six-goal thriller at Soldier Field as the Whites complete a stunning comeback in front of 49,128 fans",
-  "image": "https://assets.goal.com/images/v3/getty-2288808801/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2288808801.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/leeds-liverpool-chicago",
-  "external": false,
-  "cta": "Read the full story"
-},
-{
-  "title": "Hull City Agree Deal for Lucas Herrington",
-  "subtitle": "Colorado Rapids starlet set for Premier League move in transfer worth up to $23 million",
-  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQvO7bUgSI57bGcOGEPJu3bGSl3itgWXKTFCR188aRkwtnbym0LCQCJef&s=10",
-  "link": "/news/lucas-herrington-hull-city",
-  "external": false,
-  "cta": "Read the full story"
-},
-  
 
 
 
@@ -84,6 +83,24 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+  {
+  "id": 238,
+  "title": "USMNT Opens New Cycle Against Familiar Rivals and Fresh Challenges",
+  "author": "Mio Ristić",
+  "date": "August 5, 2026",
+  "excerpt": "U.S. Soccer announces the first four friendlies of the 2030 cycle. USMNT will face Peru, Chile, Mexico and Canada in September and October — all on home soil.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt40b9a6a88c288b52/crop/MM5DEMZTGA5DCMZRGE5G433XMU5DAORSGMZQ====/GettyImages-2268813440.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/usmnt-fall-friendlies-2026"
+},
+  {
+  "id": 237,
+  "title": "LA Galaxy Close In on Chucky Lozano Loan — A California Lifeline for Both Sides",
+  "author": "Mio Ristić",
+  "date": "August 4, 2026",
+  "excerpt": "LA Galaxy are in advanced talks to sign Hirving “Chucky” Lozano on loan from San Diego FC. Full breakdown of the potential deal and what it means for both clubs.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2236485203/crop/MM5DGNBQGU5DCOJRGU5G433XMU5DAORSGEZA====/GettyImages-2236485203.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/chucky-lozano-galaxy-loan"
+},
     {
   "id": 236,
   "title": "Zavier Gozo Nears $15 Million Move to Crystal Palace as Real Salt Lake Star Eyes Premier League Leap",
@@ -92,24 +109,6 @@ const blogPosts: Post[] = [
   "excerpt": "Crystal Palace are in advanced talks to sign Real Salt Lake and USMNT prospect Zavier Gozo for a fee in the region of $15 million.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-2277148248/crop/MM5DENRSGQ5DCNBXGY5G433XMU5DCORU/GettyImages-2277148248.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/zavier-gozo-crystal-palace"
-},
-  {
-  "id": 235,
-  "title": "Mauricio Pochettino Stays: USMNT Coach Signs New Deal Through 2030 World Cup",
-  "author": "Mio Ristić",
-  "date": "August 3, 2026",
-  "excerpt": "U.S. Soccer announces Mauricio Pochettino has signed a new contract to remain as USMNT head coach through the 2030 World Cup after the home tournament.",
-  "imageUrl": "https://assets.goal.com/images/v3/bltdf32edd9113f7080/crop/MM5DGOJQGY5DEMJZG45G433XMU5DAORSGAZQ====/GettyImages-2280211150.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/pochettino-stays-2030"
-},
- {
-  "id": 233,
-  "title": "Gio Reyna Agrees Move to Strasbourg as Career Reset Continues in France",
-  "author": "Mio Ristić",
-  "date": "August 3, 2026",
-  "excerpt": "RC Strasbourg have agreed a deal worth around €3 million to sign USMNT attacking midfielder Gio Reyna from Borussia Mönchengladbach. Medical scheduled for Monday.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt1c7bd4c8d2766389/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-02-20T134449.815.png?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "news/gio-reyna-strasbourg"
 },
 
  

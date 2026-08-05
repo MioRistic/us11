@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 238,
+  "title": "USMNT Opens New Cycle Against Familiar Rivals and Fresh Challenges",
+  "author": "Mio Ristić",
+  "date": "August 5, 2026",
+  "excerpt": "U.S. Soccer announces the first four friendlies of the 2030 cycle. USMNT will face Peru, Chile, Mexico and Canada in September and October — all on home soil.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt40b9a6a88c288b52/crop/MM5DEMZTGA5DCMZRGE5G433XMU5DAORSGMZQ====/GettyImages-2268813440.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "usmnt-fall-friendlies-2026"
+},
+    {
+  "id": 237,
+  "title": "LA Galaxy Close In on Chucky Lozano Loan — A California Lifeline for Both Sides",
+  "author": "Mio Ristić",
+  "date": "August 4, 2026",
+  "excerpt": "LA Galaxy are in advanced talks to sign Hirving “Chucky” Lozano on loan from San Diego FC. Full breakdown of the potential deal and what it means for both clubs.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2236485203/crop/MM5DGNBQGU5DCOJRGU5G433XMU5DAORSGEZA====/GettyImages-2236485203.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "chucky-lozano-galaxy-loan"
+},
+    {
   "id": 236,
   "title": "Zavier Gozo Nears $15 Million Move to Crystal Palace as Real Salt Lake Star Eyes Premier League Leap",
   "author": "Mio Ristić",
