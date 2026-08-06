@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Columbus Crew Sign Gonzalo Tapia",
+  "subtitle": "Chilean forward joins on loan from São Paulo through the 2027 Sprint Season with a permanent option",
+  "image": "https://i.ibb.co/KzsYw3SH/Getty-Images-2279876069.webp",
+  "link": "/news/gonzalo-tapia-columbus-crew",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Larry Berg Takes Over MLS",
   "subtitle": "The new commissioner faces the league’s most important structural window — and a deadline he cannot miss",
   "image": "https://assets.goal.com/images/v3/bltc33c70b1ae46424b/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/Garber_Berg_Rosenthal%20at%20Press%20Conference.jpg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -51,14 +59,6 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Zavier Gozo Nears Crystal Palace Move",
-  "subtitle": "Real Salt Lake Homegrown and USMNT prospect close to $15M Premier League transfer",
-  "image": "https://assets.goal.com/images/v3/getty-2277148248/crop/MM5DENRSGQ5DCNBXGY5G433XMU5DCORU/GettyImages-2277148248.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/zavier-gozo-crystal-palace",
-  "external": false,
-  "cta": "Read the full story"
-},
 
 
  
@@ -84,6 +84,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 241,
+  "title": "Columbus Crew Add Chilean Forward Gonzalo Tapia on Loan from São Paulo",
+  "author": "Mio Ristić",
+  "date": "August 6, 2026",
+  "excerpt": "Columbus Crew have acquired Chilean forward Gonzalo Tapia on loan from São Paulo through the 2027 MLS Sprint Season, with an option to make the deal permanent.",
+  "imageUrl": "https://i.ibb.co/KzsYw3SH/Getty-Images-2279876069.webp",
+  "link": "news/gonzalo-tapia-columbus-crew"
+},
+  {
   "id": 240,
   "title": "Larry Berg and the One Opportunity MLS Cannot Afford to Miss",
   "author": "Mio Ristić",
@@ -100,15 +109,6 @@ const blogPosts: Post[] = [
   "excerpt": "Lionel Messi scored twice and became the all-time leading goalscorer in Leagues Cup history as Inter Miami defeated Atlético San Luis 4-2 in their tournament opener.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-2289259073/crop/MM5DGMJYGQ5DCNZZGE5G433XMU5DGOJRHI2DK===/GettyImages-2289259073.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   "link": "news/messi-leagues-cup-record"
-},
-  {
-  "id": 238,
-  "title": "USMNT Opens New Cycle Against Familiar Rivals and Fresh Challenges",
-  "author": "Mio Ristić",
-  "date": "August 5, 2026",
-  "excerpt": "U.S. Soccer announces the first four friendlies of the 2030 cycle. USMNT will face Peru, Chile, Mexico and Canada in September and October — all on home soil.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt40b9a6a88c288b52/crop/MM5DEMZTGA5DCMZRGE5G433XMU5DAORSGMZQ====/GettyImages-2268813440.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/usmnt-fall-friendlies-2026"
 },
 
 

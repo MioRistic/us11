@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 241,
+  "title": "Columbus Crew Add Chilean Forward Gonzalo Tapia on Loan from São Paulo",
+  "author": "Mio Ristić",
+  "date": "August 6, 2026",
+  "excerpt": "Columbus Crew have acquired Chilean forward Gonzalo Tapia on loan from São Paulo through the 2027 MLS Sprint Season, with an option to make the deal permanent.",
+  "imageUrl": "https://i.ibb.co/KzsYw3SH/Getty-Images-2279876069.webp",
+  "slug": "gonzalo-tapia-columbus-crew"
+},
+    {
   "id": 240,
   "title": "Larry Berg and the One Opportunity MLS Cannot Afford to Miss",
   "author": "Mio Ristić",
