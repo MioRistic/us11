@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Larry Berg Takes Over MLS",
+  "subtitle": "The new commissioner faces the league’s most important structural window — and a deadline he cannot miss",
+  "image": "https://assets.goal.com/images/v3/bltc33c70b1ae46424b/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/Garber_Berg_Rosenthal%20at%20Press%20Conference.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/larry-berg-mls-commissioner",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Messi Sets Leagues Cup Scoring Record",
   "subtitle": "Inter Miami open the tournament with a 4-2 win as Messi becomes the competition’s all-time top scorer",
   "image": "https://assets.goal.com/images/v3/getty-2289259073/crop/MM5DGMJYGQ5DCNZZGE5G433XMU5DGOJRHI2DK===/GettyImages-2289259073.jpg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -52,14 +60,7 @@ const heroItems = [
   "cta": "Read the full story"
 },
 
- {
-  "title": "Pochettino Stays Through 2030",
-  "subtitle": "USMNT coach signs new deal to remain in charge for the next World Cup cycle",
-  "image": "https://assets.goal.com/images/v3/bltdf32edd9113f7080/crop/MM5DGOJQGY5DEMJZG45G433XMU5DAORSGAZQ====/GettyImages-2280211150.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/pochettino-stays-2030",
-  "external": false,
-  "cta": "Read the full story"
-},
+
  
 
 
@@ -83,6 +84,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 240,
+  "title": "Larry Berg and the One Opportunity MLS Cannot Afford to Miss",
+  "author": "Mio Ristić",
+  "date": "August 6, 2026",
+  "excerpt": "New MLS commissioner Larry Berg takes over at the most pivotal moment in league history. The roster rules, CBA, and 2027 relaunch will define his tenure.",
+  "imageUrl": "https://assets.goal.com/images/v3/bltc33c70b1ae46424b/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/Garber_Berg_Rosenthal%20at%20Press%20Conference.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "news/larry-berg-mls-commissioner"
+},
+  {
   "id": 239,
   "title": "Messi Sets Leagues Cup Scoring Record as Inter Miami Open Tournament with 4-2 Win",
   "author": "Mio Ristić",
@@ -99,15 +109,6 @@ const blogPosts: Post[] = [
   "excerpt": "U.S. Soccer announces the first four friendlies of the 2030 cycle. USMNT will face Peru, Chile, Mexico and Canada in September and October — all on home soil.",
   "imageUrl": "https://assets.goal.com/images/v3/blt40b9a6a88c288b52/crop/MM5DEMZTGA5DCMZRGE5G433XMU5DAORSGMZQ====/GettyImages-2268813440.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/usmnt-fall-friendlies-2026"
-},
-  {
-  "id": 237,
-  "title": "LA Galaxy Close In on Chucky Lozano Loan — A California Lifeline for Both Sides",
-  "author": "Mio Ristić",
-  "date": "August 4, 2026",
-  "excerpt": "LA Galaxy are in advanced talks to sign Hirving “Chucky” Lozano on loan from San Diego FC. Full breakdown of the potential deal and what it means for both clubs.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2236485203/crop/MM5DGNBQGU5DCOJRGU5G433XMU5DAORSGEZA====/GettyImages-2236485203.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/chucky-lozano-galaxy-loan"
 },
 
 

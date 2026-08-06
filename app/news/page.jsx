@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 240,
+  "title": "Larry Berg and the One Opportunity MLS Cannot Afford to Miss",
+  "author": "Mio Ristić",
+  "date": "August 6, 2026",
+  "excerpt": "New MLS commissioner Larry Berg takes over at the most pivotal moment in league history. The roster rules, CBA, and 2027 relaunch will define his tenure.",
+  "imageUrl": "https://assets.goal.com/images/v3/bltc33c70b1ae46424b/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/Garber_Berg_Rosenthal%20at%20Press%20Conference.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "larry-berg-mls-commissioner"
+},
+    {
   "id": 239,
   "title": "Messi Sets Leagues Cup Scoring Record as Inter Miami Open Tournament with 4-2 Win",
   "author": "Mio Ristić",
