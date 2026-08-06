@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "LA Galaxy Finalizing Chucky Lozano Loan",
+  "subtitle": "Mexican winger set to join from San Diego FC as Designated Player after months of isolation",
+  "image": "https://assets.goal.com/images/v3/getty-2249117363/crop/MM5DGOJVHA5DEMRSGY5G433XMU5DAORSGA3A====/GettyImages-2249117363.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/la-galaxy-chucky-lozano-loan",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Columbus Crew Sign Gonzalo Tapia",
   "subtitle": "Chilean forward joins on loan from São Paulo through the 2027 Sprint Season with a permanent option",
   "image": "https://i.ibb.co/KzsYw3SH/Getty-Images-2279876069.webp",
@@ -51,14 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "LA Galaxy Close In on Chucky Lozano Loan",
-  "subtitle": "Advanced talks under way for Mexican winger to join Galaxy on loan from San Diego FC",
-  "image": "https://assets.goal.com/images/v3/getty-2236485203/crop/MM5DGNBQGU5DCOJRGU5G433XMU5DAORSGEZA====/GettyImages-2236485203.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/chucky-lozano-galaxy-loan",
-  "external": false,
-  "cta": "Read the full story"
-},
+
 
 
  
@@ -83,6 +84,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+      {
+  "id": 242,
+  "title": "LA Galaxy Finalizing Deal for Chucky Lozano on Loan from San Diego FC",
+  "author": "Mio Ristić",
+  "date": "August 6, 2026",
+  "excerpt": "The LA Galaxy are closing in on a loan deal for Hirving “Chucky” Lozano from San Diego FC. The Mexican winger is expected to join as a Designated Player.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2249117363/crop/MM5DGOJVHA5DEMRSGY5G433XMU5DAORSGA3A====/GettyImages-2249117363.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/la-galaxy-chucky-lozano-loan"
+},
   {
   "id": 241,
   "title": "Columbus Crew Add Chilean Forward Gonzalo Tapia on Loan from São Paulo",
@@ -101,15 +111,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/bltc33c70b1ae46424b/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/Garber_Berg_Rosenthal%20at%20Press%20Conference.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   "link": "news/larry-berg-mls-commissioner"
 },
-  {
-  "id": 239,
-  "title": "Messi Sets Leagues Cup Scoring Record as Inter Miami Open Tournament with 4-2 Win",
-  "author": "Mio Ristić",
-  "date": "August 6, 2026",
-  "excerpt": "Lionel Messi scored twice and became the all-time leading goalscorer in Leagues Cup history as Inter Miami defeated Atlético San Luis 4-2 in their tournament opener.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2289259073/crop/MM5DGMJYGQ5DCNZZGE5G433XMU5DGOJRHI2DK===/GettyImages-2289259073.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "news/messi-leagues-cup-record"
-},
+
 
 
  

@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 242,
+  "title": "LA Galaxy Finalizing Deal for Chucky Lozano on Loan from San Diego FC",
+  "author": "Mio Ristić",
+  "date": "August 6, 2026",
+  "excerpt": "The LA Galaxy are closing in on a loan deal for Hirving “Chucky” Lozano from San Diego FC. The Mexican winger is expected to join as a Designated Player.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2249117363/crop/MM5DGOJVHA5DEMRSGY5G433XMU5DAORSGA3A====/GettyImages-2249117363.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "la-galaxy-chucky-lozano-loan"
+},
+    {
   "id": 241,
   "title": "Columbus Crew Add Chilean Forward Gonzalo Tapia on Loan from São Paulo",
   "author": "Mio Ristić",
