@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Messi Sets Leagues Cup Scoring Record",
+  "subtitle": "Inter Miami open the tournament with a 4-2 win as Messi becomes the competition’s all-time top scorer",
+  "image": "https://assets.goal.com/images/v3/getty-2289259073/crop/MM5DGMJYGQ5DCNZZGE5G433XMU5DGOJRHI2DK===/GettyImages-2289259073.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/messi-leagues-cup-record",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "USMNT Opens New Cycle Against Familiar Rivals",
   "subtitle": "First four post-World Cup friendlies announced: Peru, Chile, Mexico and Canada",
   "image": "https://assets.goal.com/images/v3/blt40b9a6a88c288b52/crop/MM5DEMZTGA5DCMZRGE5G433XMU5DAORSGMZQ====/GettyImages-2268813440.jpg?auto=webp&format=pjpg&width=3840&quality=60",
@@ -52,16 +60,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
- {
-  "title": "Gio Reyna Agrees Move to Strasbourg",
-  "subtitle": "USMNT attacking midfielder set to join BlueCo project from Gladbach in €3m deal",
-  "image": "https://assets.goal.com/images/v3/blt1c7bd4c8d2766389/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-02-20T134449.815.png?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/gio-reyna-strasbourg",
-  "external": false,
-  "cta": "Read the full story"
-},
-
-
+ 
 
 
  
@@ -84,6 +83,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 239,
+  "title": "Messi Sets Leagues Cup Scoring Record as Inter Miami Open Tournament with 4-2 Win",
+  "author": "Mio Ristić",
+  "date": "August 6, 2026",
+  "excerpt": "Lionel Messi scored twice and became the all-time leading goalscorer in Leagues Cup history as Inter Miami defeated Atlético San Luis 4-2 in their tournament opener.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2289259073/crop/MM5DGMJYGQ5DCNZZGE5G433XMU5DGOJRHI2DK===/GettyImages-2289259073.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "news/messi-leagues-cup-record"
+},
+  {
   "id": 238,
   "title": "USMNT Opens New Cycle Against Familiar Rivals and Fresh Challenges",
   "author": "Mio Ristić",
@@ -101,15 +109,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2236485203/crop/MM5DGNBQGU5DCOJRGU5G433XMU5DAORSGEZA====/GettyImages-2236485203.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/chucky-lozano-galaxy-loan"
 },
-    {
-  "id": 236,
-  "title": "Zavier Gozo Nears $15 Million Move to Crystal Palace as Real Salt Lake Star Eyes Premier League Leap",
-  "author": "Mio Ristić",
-  "date": "August 4, 2026",
-  "excerpt": "Crystal Palace are in advanced talks to sign Real Salt Lake and USMNT prospect Zavier Gozo for a fee in the region of $15 million.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2277148248/crop/MM5DENRSGQ5DCNBXGY5G433XMU5DCORU/GettyImages-2277148248.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/zavier-gozo-crystal-palace"
-},
+
 
  
    

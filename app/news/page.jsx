@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 239,
+  "title": "Messi Sets Leagues Cup Scoring Record as Inter Miami Open Tournament with 4-2 Win",
+  "author": "Mio Ristić",
+  "date": "August 6, 2026",
+  "excerpt": "Lionel Messi scored twice and became the all-time leading goalscorer in Leagues Cup history as Inter Miami defeated Atlético San Luis 4-2 in their tournament opener.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2289259073/crop/MM5DGMJYGQ5DCNZZGE5G433XMU5DGOJRHI2DK===/GettyImages-2289259073.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "messi-leagues-cup-record"
+},
+    {
   "id": 238,
   "title": "USMNT Opens New Cycle Against Familiar Rivals and Fresh Challenges",
   "author": "Mio Ristić",
