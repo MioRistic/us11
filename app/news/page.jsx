@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 243,
+  "title": "LA Galaxy Sign Former Barcelona Captain Sergi Roberto: Leadership, Versatility and Winning DNA Arrive in Carson",
+  "author": "Mio Ristić",
+  "date": "August 9, 2026",
+  "excerpt": "The LA Galaxy have signed former Barcelona captain Sergi Roberto as a free agent through 2028. The 34-year-old brings leadership, versatility and Champions League experience to Carson.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2208662373/crop/MM5DINJSHA5DENJUG45G433XMU5DAORQ/GettyImages-2208662373.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "sergi-roberto-la-galaxy"
+},
+    {
   "id": 242,
   "title": "LA Galaxy Finalizing Deal for Chucky Lozano on Loan from San Diego FC",
   "author": "Mio Ristić",

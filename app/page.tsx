@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "LA Galaxy Sign Former Barcelona Captain Sergi Roberto",
+  "subtitle": "Leadership, versatility and winning DNA arrive in Carson as the 34-year-old joins as a free agent through 2028",
+  "image": "https://assets.goal.com/images/v3/getty-2208662373/crop/MM5DINJSHA5DENJUG45G433XMU5DAORQ/GettyImages-2208662373.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/sergi-roberto-la-galaxy",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "LA Galaxy Finalizing Chucky Lozano Loan",
   "subtitle": "Mexican winger set to join from San Diego FC as Designated Player after months of isolation",
   "image": "https://assets.goal.com/images/v3/getty-2249117363/crop/MM5DGOJVHA5DEMRSGY5G433XMU5DAORSGA3A====/GettyImages-2249117363.jpg?auto=webp&format=pjpg&width=3840&quality=60",
@@ -51,15 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "USMNT Opens New Cycle Against Familiar Rivals",
-  "subtitle": "First four post-World Cup friendlies announced: Peru, Chile, Mexico and Canada",
-  "image": "https://assets.goal.com/images/v3/blt40b9a6a88c288b52/crop/MM5DEMZTGA5DCMZRGE5G433XMU5DAORSGMZQ====/GettyImages-2268813440.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/usmnt-fall-friendlies-2026",
-  "external": false,
-  "cta": "Read the full story"
-},
-
+  
 
 
  
@@ -84,6 +84,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+  {
+  "id": 243,
+  "title": "LA Galaxy Sign Former Barcelona Captain Sergi Roberto: Leadership, Versatility and Winning DNA Arrive in Carson",
+  "author": "Mio Ristić",
+  "date": "August 9, 2026",
+  "excerpt": "The LA Galaxy have signed former Barcelona captain Sergi Roberto as a free agent through 2028. The 34-year-old brings leadership, versatility and Champions League experience to Carson.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2208662373/crop/MM5DINJSHA5DENJUG45G433XMU5DAORQ/GettyImages-2208662373.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/sergi-roberto-la-galaxy"
+},
       {
   "id": 242,
   "title": "LA Galaxy Finalizing Deal for Chucky Lozano on Loan from San Diego FC",
@@ -102,16 +111,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/KzsYw3SH/Getty-Images-2279876069.webp",
   "link": "news/gonzalo-tapia-columbus-crew"
 },
-  {
-  "id": 240,
-  "title": "Larry Berg and the One Opportunity MLS Cannot Afford to Miss",
-  "author": "Mio Ristić",
-  "date": "August 6, 2026",
-  "excerpt": "New MLS commissioner Larry Berg takes over at the most pivotal moment in league history. The roster rules, CBA, and 2027 relaunch will define his tenure.",
-  "imageUrl": "https://assets.goal.com/images/v3/bltc33c70b1ae46424b/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/Garber_Berg_Rosenthal%20at%20Press%20Conference.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "news/larry-berg-mls-commissioner"
-},
-
+  
 
 
  
