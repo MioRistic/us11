@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Crystal Palace Finalizing Deal for Zavier Gozo",
+  "subtitle": "Palace close in on $15m club-record signing of Real Salt Lake teenager. Medical underway in London.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMos2R5U1n5qF6NuXxo-ndVhZ3Z6ycwyk4jb6L_cvxg&s=10",
+  "link": "/news/gozo-palace-transfer",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "MLS x Hype and Vice Women’s Collection",
   "subtitle": "Finally, MLS gear designed for women who actually want to wear it — cropped tees, MVP tanks, denim jackets and more",
   "image": "https://www.mlsstore.com/content/ws/all/30b36d86-a697-404f-be84-66d333c8aafb__2400X900.jpg",
@@ -51,14 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "LA Galaxy Finalizing Chucky Lozano Loan",
-  "subtitle": "Mexican winger set to join from San Diego FC as Designated Player after months of isolation",
-  "image": "https://assets.goal.com/images/v3/getty-2249117363/crop/MM5DGOJVHA5DEMRSGY5G433XMU5DAORSGA3A====/GettyImages-2249117363.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/la-galaxy-chucky-lozano-loan",
-  "external": false,
-  "cta": "Read the full story"
-},
+
 
   
 
@@ -86,6 +87,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 247,
+  "title": "Crystal Palace Finalizing Club-Record Deal for Real Salt Lake Teenager Zavier Gozo",
+  "author": "Mio Ristić",
+  "date": "August 10, 2026",
+  "excerpt": "Crystal Palace are finalizing the signing of 19-year-old American Zavier Gozo from Real Salt Lake in a club-record $15 million deal. Medical underway in London.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMos2R5U1n5qF6NuXxo-ndVhZ3Z6ycwyk4jb6L_cvxg&s=10",
+  "link": "news/gozo-palace-transfer"
+},
+  {
   "id": 244,
   "title": "MLS Clubs Tighten Their Grip on Leagues Cup Progression as Sullivan Continues to Shine",
   "author": "Mio Ristić",
@@ -103,17 +113,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2208662373/crop/MM5DINJSHA5DENJUG45G433XMU5DAORQ/GettyImages-2208662373.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/sergi-roberto-la-galaxy"
 },
-      {
-  "id": 242,
-  "title": "LA Galaxy Finalizing Deal for Chucky Lozano on Loan from San Diego FC",
-  "author": "Mio Ristić",
-  "date": "August 6, 2026",
-  "excerpt": "The LA Galaxy are closing in on a loan deal for Hirving “Chucky” Lozano from San Diego FC. The Mexican winger is expected to join as a Designated Player.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2249117363/crop/MM5DGOJVHA5DEMRSGY5G433XMU5DAORSGA3A====/GettyImages-2249117363.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/la-galaxy-chucky-lozano-loan"
-},
-
-
+  
 
  
    

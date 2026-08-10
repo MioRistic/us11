@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 247,
+  "title": "Crystal Palace Finalizing Club-Record Deal for Real Salt Lake Teenager Zavier Gozo",
+  "author": "Mio Ristić",
+  "date": "August 10, 2026",
+  "excerpt": "Crystal Palace are finalizing the signing of 19-year-old American Zavier Gozo from Real Salt Lake in a club-record $15 million deal. Medical underway in London.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMos2R5U1n5qF6NuXxo-ndVhZ3Z6ycwyk4jb6L_cvxg&s=10",
+  "slug": "gozo-palace-transfer"
+},
+    {
   "id": 245,
   "title": "MLS x Hype and Vice: The Women’s Collection That Finally Treats Female Fans Like Fashion Consumers",
   "author": "Mio Ristić",
