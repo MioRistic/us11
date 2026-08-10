@@ -25,7 +25,7 @@ export default function LeaguesCupMLSResults() {
   };
 
   const articleTitle =
-    "MLS Clubs Tighten Their Grip on Leagues Cup Progression as Sullivan Continues to Shine";
+    "MLS Clubs Make Strong Statement in Leagues Cup as Inter Miami and Sullivan Feature";
 
   return (
     <article className="w-full min-h-screen bg-white text-[#020617]">
@@ -34,7 +34,7 @@ export default function LeaguesCupMLSResults() {
         {/* HEADER */}
         <header className="mb-8">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-3">
-            MLS Clubs Tighten Their Grip on Leagues Cup Progression as Sullivan Continues to Shine
+            MLS Clubs Make Strong Statement in Leagues Cup as Inter Miami and Sullivan Feature
           </h1>
 
           <div className="flex items-center gap-4 mt-2 text-sm text-gray-500">
@@ -96,22 +96,18 @@ export default function LeaguesCupMLSResults() {
         <section className="prose prose-lg max-w-none leading-relaxed space-y-6">
 
           <p>
-            The second round of Leagues Cup group-stage action produced a largely positive night for Major League Soccer. Six of the eight MLS sides in action on Sunday secured victories, several of them in convincing fashion, while a pair of higher-profile teams dropped points against strong Liga MX opposition.
+            The second round of Leagues Cup group-stage action produced a largely positive set of results for Major League Soccer. Six of the eight MLS sides in action on Sunday secured victories, while Inter Miami and several other clubs continue to navigate a competitive group stage against strong Liga MX opposition.
           </p>
 
           <p>
-            The standout individual performance once again belonged to Philadelphia Union’s 16-year-old midfielder <strong>Cavan Sullivan</strong>. In a 3-1 win over Necaxa at Subaru Park, Sullivan provided the assist for Nathan Harriel’s early opener and then scored himself in the 53rd minute — his first goal of the Leagues Cup and the latest demonstration of a player rapidly justifying the significant hype that has followed him since he committed to Manchester City.
+            The standout individual performance once again belonged to Philadelphia Union’s 16-year-old midfielder <strong>Cavan Sullivan</strong>. In a 3-1 win over Necaxa at Subaru Park, Sullivan provided the assist for Nathan Harriel’s early opener and then scored himself in the 53rd minute — his first goal of the Leagues Cup.
           </p>
 
           <p>
-            Sullivan has now started 10 of the Union’s last 11 matches across all competitions and has contributed two goals and four assists during that stretch. At an age when most prospects are still adjusting to the physical demands of senior football, he is already influencing games at both ends of the pitch.
+            Sullivan has now started 10 of the Union’s last 11 matches across all competitions and has contributed two goals and four assists during that stretch. At just 16, he is already influencing games at both ends of the pitch.
           </p>
 
-          <p>
-            Elsewhere, the results painted a clearer picture of which MLS clubs are currently best equipped to handle the unique demands of this competition.
-          </p>
-
-          <h3 className="text-2xl font-bold mt-10 mb-4">Leagues Cup Results – MLS Teams (August 9, 2026)</h3>
+          <h3 className="text-2xl font-bold mt-10 mb-4">Full MLS Results – Leagues Cup 2026 (Latest Round)</h3>
 
           <div className="overflow-x-auto my-8">
             <table className="w-full border-collapse text-sm">
@@ -176,28 +172,91 @@ export default function LeaguesCupMLSResults() {
             </table>
           </div>
 
+          <h3 className="text-2xl font-bold mt-10 mb-4">Previous Key Results (Round 1 & 2)</h3>
+
+          <div className="overflow-x-auto my-8">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="border-b-2 border-gray-300">
+                  <th className="text-left py-3 pr-4 font-semibold">MLS Team</th>
+                  <th className="text-left py-3 pr-4 font-semibold">Score</th>
+                  <th className="text-left py-3 pr-4 font-semibold">Opponent</th>
+                  <th className="text-left py-3 font-semibold">Result</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-medium">Inter Miami</td>
+                  <td className="py-3 pr-4">4-2</td>
+                  <td className="py-3 pr-4">Atlético San Luis</td>
+                  <td className="py-3 text-green-600 font-medium">Win</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-medium">Inter Miami</td>
+                  <td className="py-3 pr-4">1-2</td>
+                  <td className="py-3 pr-4">Monterrey</td>
+                  <td className="py-3 text-red-600 font-medium">Loss</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-medium">Charlotte FC</td>
+                  <td className="py-3 pr-4">3-0 / 2-0</td>
+                  <td className="py-3 pr-4">Pumas / Atlas</td>
+                  <td className="py-3 text-green-600 font-medium">2 Wins</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-medium">FC Cincinnati</td>
+                  <td className="py-3 pr-4">3-1 / 2-0</td>
+                  <td className="py-3 pr-4">Pachuca / Pumas</td>
+                  <td className="py-3 text-green-600 font-medium">2 Wins</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-medium">Columbus Crew</td>
+                  <td className="py-3 pr-4">3-1 / 2-1</td>
+                  <td className="py-3 pr-4">Atlas / Pachuca</td>
+                  <td className="py-3 text-green-600 font-medium">2 Wins</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-medium">FC Dallas</td>
+                  <td className="py-3 pr-4">2-0 / 1-0</td>
+                  <td className="py-3 pr-4">Querétaro / Chivas</td>
+                  <td className="py-3 text-green-600 font-medium">2 Wins</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-medium">LAFC</td>
+                  <td className="py-3 pr-4">1-1 (5-4 pens) / 1-0</td>
+                  <td className="py-3 pr-4">Chivas / Toluca</td>
+                  <td className="py-3 text-green-600 font-medium">Win + Draw</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-medium">Real Salt Lake</td>
+                  <td className="py-3 pr-4">1-1 / 4-0</td>
+                  <td className="py-3 pr-4">Tigres / Atlante</td>
+                  <td className="py-3 text-green-600 font-medium">Draw + Win</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="py-3 pr-4 font-medium">Orlando City</td>
+                  <td className="py-3 pr-4">2-1 / 1-2</td>
+                  <td className="py-3 pr-4">Monterrey / León</td>
+                  <td className="py-3 text-yellow-600 font-medium">Win + Loss</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
           <p>
-            Seattle Sounders produced one of the most complete performances of the night, dismantling Querétaro 3-0. Chicago Fire, buoyed by the recent arrival of Robert Lewandowski, also looked sharp in a 3-1 victory over Santos Laguna. Nashville SC and Austin FC were equally clinical, while San Diego FC ground out a hard-fought 1-0 win against Tijuana in what was effectively a California derby.
+            Inter Miami opened the tournament with a 4-2 victory over Atlético San Luis, in which Lionel Messi scored twice and became the all-time leading goalscorer in Leagues Cup history. They followed that up with a 1-2 defeat to Monterrey, leaving them on three points and still very much in the mix for qualification.
           </p>
 
           <p>
-            The two MLS defeats carried different weight. New York City FC fell 2-1 to Cruz Azul in a competitive match, while Portland Timbers were comprehensively beaten 3-1 by Club América. Both results leave those sides with work still to do if they hope to advance.
+            After two matchdays, a clear group of frontrunners has emerged. Charlotte FC, FC Cincinnati, Columbus Crew and FC Dallas all sit on six points. Real Salt Lake and LAFC are also well positioned, while Philadelphia Union’s recovery win on Sunday keeps them firmly in the conversation.
           </p>
 
           <p>
-            After two matchdays, a clear group of frontrunners has emerged. Charlotte FC, FC Cincinnati, Columbus Crew and FC Dallas all sit on six points and have already given themselves a significant buffer in the race for the four knockout-stage berths reserved for MLS clubs. Real Salt Lake and LAFC are also well positioned, while Philadelphia Union’s recovery win on Sunday keeps them very much in the conversation.
-          </p>
-
-          <p>
-            The next round of fixtures, which begins on Tuesday, will be decisive for several teams still sitting on three points or fewer. With only the top four MLS sides progressing, the margin for error is shrinking quickly.
-          </p>
-
-          <p>
-            What is already evident is that the clubs succeeding in this competition are those able to dictate tempo, press with intensity, and convert their chances efficiently. Those that have struggled have largely been the ones forced into deeper defensive shapes or unable to create consistent threat in the final third.
+            The next round of fixtures, beginning Tuesday, will be decisive for several teams still sitting on three points or fewer. With only the top four MLS sides progressing to the knockout stage, the margin for error is shrinking quickly.
           </p>
 
           <p className="font-bold text-xl mt-8">
-            Sullivan’s continued emergence is the most compelling individual storyline so far. Whether he can maintain this level of influence over the coming weeks will be one of the more intriguing subplots as the tournament heads toward the knockout stage.
+            Sullivan’s continued emergence remains the most compelling individual storyline. Whether Inter Miami can rediscover their early form and whether Sullivan can maintain this level of influence will be two of the key narratives as the tournament heads toward the decisive stage.
           </p>
 
         </section>
