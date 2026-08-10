@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 244,
+  "title": "MLS Clubs Tighten Their Grip on Leagues Cup Progression as Sullivan Continues to Shine",
+  "author": "Mio Ristić",
+  "date": "August 10, 2026",
+  "excerpt": "Six MLS teams won on Sunday in Leagues Cup. Cavan Sullivan scored and assisted as Philadelphia Union beat Necaxa 3-1. Full results and analysis of the latest round.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2289653969/crop/MM5DIMJUHA5DEMZTGM5G433XMU5DAORSGE3A====/GettyImages-2289653969.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "mls-leagues-cup-results-sullivan"
+},
+    {
   "id": 243,
   "title": "LA Galaxy Sign Former Barcelona Captain Sergi Roberto: Leadership, Versatility and Winning DNA Arrive in Carson",
   "author": "Mio Ristić",

@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "MLS Clubs Tighten Grip on Leagues Cup as Sullivan Shines",
+  "subtitle": "Six MLS wins on Sunday as 16-year-old Cavan Sullivan scores and assists in Philadelphia Union’s 3-1 victory over Necaxa",
+  "image": "https://assets.goal.com/images/v3/getty-2289653969/crop/MM5DIMJUHA5DEMZTGM5G433XMU5DAORSGE3A====/GettyImages-2289653969.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/mls-leagues-cup-results-sullivan",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "LA Galaxy Sign Former Barcelona Captain Sergi Roberto",
   "subtitle": "Leadership, versatility and winning DNA arrive in Carson as the 34-year-old joins as a free agent through 2028",
   "image": "https://assets.goal.com/images/v3/getty-2208662373/crop/MM5DINJSHA5DENJUG45G433XMU5DAORQ/GettyImages-2208662373.jpg?auto=webp&format=pjpg&width=3840&quality=60",
@@ -51,14 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Messi Sets Leagues Cup Scoring Record",
-  "subtitle": "Inter Miami open the tournament with a 4-2 win as Messi becomes the competition’s all-time top scorer",
-  "image": "https://assets.goal.com/images/v3/getty-2289259073/crop/MM5DGMJYGQ5DCNZZGE5G433XMU5DGOJRHI2DK===/GettyImages-2289259073.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/messi-leagues-cup-record",
-  "external": false,
-  "cta": "Read the full story"
-},
+
   
 
 
@@ -85,6 +86,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 244,
+  "title": "MLS Clubs Tighten Their Grip on Leagues Cup Progression as Sullivan Continues to Shine",
+  "author": "Mio Ristić",
+  "date": "August 10, 2026",
+  "excerpt": "Six MLS teams won on Sunday in Leagues Cup. Cavan Sullivan scored and assisted as Philadelphia Union beat Necaxa 3-1. Full results and analysis of the latest round.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2289653969/crop/MM5DIMJUHA5DEMZTGM5G433XMU5DAORSGE3A====/GettyImages-2289653969.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "news/mls-leagues-cup-results-sullivan"
+},
+  {
   "id": 243,
   "title": "LA Galaxy Sign Former Barcelona Captain Sergi Roberto: Leadership, Versatility and Winning DNA Arrive in Carson",
   "author": "Mio Ristić",
@@ -102,16 +112,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2249117363/crop/MM5DGOJVHA5DEMRSGY5G433XMU5DAORSGA3A====/GettyImages-2249117363.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/la-galaxy-chucky-lozano-loan"
 },
-  {
-  "id": 241,
-  "title": "Columbus Crew Add Chilean Forward Gonzalo Tapia on Loan from São Paulo",
-  "author": "Mio Ristić",
-  "date": "August 6, 2026",
-  "excerpt": "Columbus Crew have acquired Chilean forward Gonzalo Tapia on loan from São Paulo through the 2027 MLS Sprint Season, with an option to make the deal permanent.",
-  "imageUrl": "https://i.ibb.co/KzsYw3SH/Getty-Images-2279876069.webp",
-  "link": "news/gonzalo-tapia-columbus-crew"
-},
-  
+
 
 
  
