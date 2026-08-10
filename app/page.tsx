@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "EA Sports FC 27: Everything New",
+  "subtitle": "The Grounds, manual defending, dynamic corners, Career Mode rebuild and FUT Gallery – full breakdown of the biggest changes.",
+  "image": "https://i.ibb.co/7NXp1FqH/fc-27-ultimate-plus.avif",
+  "link": "/gaming/ea-sports-fc-27",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Crystal Palace Finalizing Deal for Zavier Gozo",
   "subtitle": "Palace close in on $15m club-record signing of Real Salt Lake teenager. Medical underway in London.",
   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMos2R5U1n5qF6NuXxo-ndVhZ3Z6ycwyk4jb6L_cvxg&s=10",
@@ -51,15 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Shop the collection"
 },
-  {
-  "title": "LA Galaxy Sign Former Barcelona Captain Sergi Roberto",
-  "subtitle": "Leadership, versatility and winning DNA arrive in Carson as the 34-year-old joins as a free agent through 2028",
-  "image": "https://assets.goal.com/images/v3/getty-2208662373/crop/MM5DINJSHA5DENJUG45G433XMU5DAORQ/GettyImages-2208662373.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/sergi-roberto-la-galaxy",
-  "external": false,
-  "cta": "Read the full story"
-},
-
+ 
 
   
 

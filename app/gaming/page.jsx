@@ -11,6 +11,15 @@ import Link from 'next/link';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 248,
+  "title": "EA Sports FC 27: Everything New – The Grounds, Manual Defending, Dynamic Corners & More",
+  "author": "Mio Ristić",
+  "date": "August 10, 2026",
+  "excerpt": "Full breakdown of EA Sports FC 27: new social mode The Grounds, major gameplay changes, Career Mode overhaul and Ultimate Team updates. Releases September 25, 2026.",
+  "imageUrl": "https://i.ibb.co/7NXp1FqH/fc-27-ultimate-plus.avif",
+  "slug": "ea-sports-fc-27"
+},
+    {
         id: 2,
         title: "Top MLS Players in EA SPORTS FC 26",
         author: "Mio Ristic",
