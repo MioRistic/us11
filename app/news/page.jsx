@@ -21,15 +21,6 @@ const Blog = () => {
   "slug": "gozo-palace-transfer"
 },
     {
-  "id": 245,
-  "title": "MLS x Hype and Vice: The Women’s Collection That Finally Treats Female Fans Like Fashion Consumers",
-  "author": "Mio Ristić",
-  "date": "August 10, 2026",
-  "excerpt": "Hype and Vice drops a full MLS women’s collection with cropped raglan tees, MVP tanks, denim jackets and more. Finally, gear designed for women who actually want to wear it.",
-  "imageUrl": "https://www.mlsstore.com/content/ws/all/30b36d86-a697-404f-be84-66d333c8aafb__2400X900.jpg",
-  "slug": "mls-hype-and-vice-womens-collection"
-},
-    {
   "id": 244,
   "title": "MLS Clubs Tighten Their Grip on Leagues Cup Progression as Sullivan Continues to Shine",
   "author": "Mio Ristić",
