@@ -11,6 +11,15 @@ import Link from 'next/link';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 249,
+  "title": "Tired of High Ping in EA FC and Online Games? Here’s How GearUP Booster Actually Helps",
+  "author": "Mio Ristić",
+  "date": "August 10, 2026",
+  "excerpt": "Lag is killing your EA FC matches? Learn how GearUP Booster reduces ping, packet loss and lag spikes for PC, console and mobile gaming.",
+  "imageUrl": "https://i.ibb.co/RGr8G6c7/images.png",
+  "slug": "gearup-booster"
+},
+    {
   "id": 248,
   "title": "EA Sports FC 27: Everything New – The Grounds, Manual Defending, Dynamic Corners & More",
   "author": "Mio Ristić",
