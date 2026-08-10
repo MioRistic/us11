@@ -49,6 +49,25 @@ const items: CategoryItem[] = [
 ];
 
 const blogPosts: BlogPost[] = [
+ 
+  {
+  "id": 1032,
+  "title": "MLS x Hype and Vice: The Women’s Collection That Finally Treats Female Fans Like Fashion Consumers",
+  "author": "Mio Ristić",
+  "date": "August 10, 2026",
+  "excerpt": "Hype and Vice drops a full MLS women’s collection with cropped raglan tees, MVP tanks, denim jackets and more. Finally, gear designed for women who actually want to wear it.",
+  "imageUrl": "https://www.mlsstore.com/content/ws/all/30b36d86-a697-404f-be84-66d333c8aafb__2400X900.jpg",
+  "slug": "mls-hype-and-vice-womens-collection"
+},
+ {
+  "id": 1033,
+  "title": "MLS x YETI 2026: Official Team Coolers & Ramblers That Actually Keep Ice for Days",
+  "author": "Mio Ristić",
+  "date": "August 10, 2026",
+  "excerpt": "Shop the official MLS x YETI collection. Roadie 15 and Tundra 45 coolers + Rambler tumblers with your team logo. Built for tailgates, matchdays and everyday use.",
+  "imageUrl": "https://www.mlsstore.com/content/ws/all/b5a4ef4c-bacc-413d-bef4-44b8c4a6efe3__2400X900.gif",
+  "slug": "mls-yeti-coolers-drinkware"
+},
   {
   "id": 1031,
   "title": "Inter Miami Cénit 2026 Third Jersey: Full Guide, Prices & Where to Buy",

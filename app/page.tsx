@@ -20,12 +20,28 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "MLS x Hype and Vice Women’s Collection",
+  "subtitle": "Finally, MLS gear designed for women who actually want to wear it — cropped tees, MVP tanks, denim jackets and more",
+  "image": "https://www.mlsstore.com/content/ws/all/30b36d86-a697-404f-be84-66d333c8aafb__2400X900.jpg",
+  "link": "/blog/mls-hype-and-vice-womens-collection",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "MLS Clubs Tighten Grip on Leagues Cup as Sullivan Shines",
   "subtitle": "Six MLS wins on Sunday as 16-year-old Cavan Sullivan scores and assists in Philadelphia Union’s 3-1 victory over Necaxa",
   "image": "https://assets.goal.com/images/v3/getty-2289653969/crop/MM5DIMJUHA5DEMZTGM5G433XMU5DAORSGE3A====/GettyImages-2289653969.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   "link": "/news/mls-leagues-cup-results-sullivan",
   "external": false,
   "cta": "Read the full story"
+},
+{
+  "title": "MLS x YETI Coolers & Drinkware",
+  "subtitle": "Official team coolers and Ramblers that actually keep ice for days — Roadie 15, Tundra 45 and more",
+  "image": "https://www.mlsstore.com/content/ws/all/b5a4ef4c-bacc-413d-bef4-44b8c4a6efe3__2400X900.gif",
+  "link": "/blog/mls-yeti-coolers-drinkware",
+  "external": false,
+  "cta": "Shop the collection"
 },
   {
   "title": "LA Galaxy Sign Former Barcelona Captain Sergi Roberto",
@@ -40,22 +56,6 @@ const heroItems = [
   "subtitle": "Mexican winger set to join from San Diego FC as Designated Player after months of isolation",
   "image": "https://assets.goal.com/images/v3/getty-2249117363/crop/MM5DGOJVHA5DEMRSGY5G433XMU5DAORSGA3A====/GettyImages-2249117363.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "/news/la-galaxy-chucky-lozano-loan",
-  "external": false,
-  "cta": "Read the full story"
-},
-  {
-  "title": "Columbus Crew Sign Gonzalo Tapia",
-  "subtitle": "Chilean forward joins on loan from São Paulo through the 2027 Sprint Season with a permanent option",
-  "image": "https://i.ibb.co/KzsYw3SH/Getty-Images-2279876069.webp",
-  "link": "/news/gonzalo-tapia-columbus-crew",
-  "external": false,
-  "cta": "Read the full story"
-},
-  {
-  "title": "Larry Berg Takes Over MLS",
-  "subtitle": "The new commissioner faces the league’s most important structural window — and a deadline he cannot miss",
-  "image": "https://assets.goal.com/images/v3/bltc33c70b1ae46424b/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/Garber_Berg_Rosenthal%20at%20Press%20Conference.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/larry-berg-mls-commissioner",
   "external": false,
   "cta": "Read the full story"
 },
