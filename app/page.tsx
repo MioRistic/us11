@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "CF Montréal Sign Alexis Sánchez as Designated Player",
+  "subtitle": "Chilean legend joins Montréal as a free agent after leaving Sevilla — deal runs through the 2027 Sprint Season.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNUx2mcZSv0C23oFnU7J4uT_jCAJ5y9KGMFw0_vn3vHQ&s=10",
+  "link": "/news/alexis-sanchez-cf-montreal",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "USMNT Trio Living Together at Middlesbrough",
   "subtitle": "Morris, Berhalter and Arfsten share a house and a Premier League dream in the Championship.",
   "image": "https://i.ibb.co/G4WV0yhL/images.jpg",
@@ -51,14 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "MLS Clubs Tighten Grip on Leagues Cup as Sullivan Shines",
-  "subtitle": "Six MLS wins on Sunday as 16-year-old Cavan Sullivan scores and assists in Philadelphia Union’s 3-1 victory over Necaxa",
-  "image": "https://assets.goal.com/images/v3/getty-2289653969/crop/MM5DIMJUHA5DEMZTGM5G433XMU5DAORSGE3A====/GettyImages-2289653969.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/mls-leagues-cup-results-sullivan",
-  "external": false,
-  "cta": "Read the full story"
-},
+
 
 
 
@@ -84,6 +85,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+  {
+  "id": 251,
+  "title": "CF Montréal Sign Chilean Great Alexis Sánchez as Designated Player",
+  "author": "Mio Ristić",
+  "date": "August 11, 2026",
+  "excerpt": "CF Montréal have signed Chilean legend Alexis Sánchez as a Designated Player through the 2027 MLS Sprint Season, with a club option for 2027-28.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNUx2mcZSv0C23oFnU7J4uT_jCAJ5y9KGMFw0_vn3vHQ&s=10",
+  "link": "news/alexis-sanchez-cf-montreal"
+},
 {
   "id": 250,
   "title": "USMNT Trio Living Together at Middlesbrough as Premier League Dream Takes Shape",
@@ -101,15 +111,6 @@ const blogPosts: Post[] = [
   "excerpt": "Crystal Palace are finalizing the signing of 19-year-old American Zavier Gozo from Real Salt Lake in a club-record $15 million deal. Medical underway in London.",
   "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMos2R5U1n5qF6NuXxo-ndVhZ3Z6ycwyk4jb6L_cvxg&s=10",
   "link": "news/gozo-palace-transfer"
-},
-  {
-  "id": 244,
-  "title": "MLS Clubs Tighten Their Grip on Leagues Cup Progression as Sullivan Continues to Shine",
-  "author": "Mio Ristić",
-  "date": "August 10, 2026",
-  "excerpt": "Six MLS teams won on Sunday in Leagues Cup. Cavan Sullivan scored and assisted as Philadelphia Union beat Necaxa 3-1. Full results and analysis of the latest round.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2289653969/crop/MM5DIMJUHA5DEMZTGM5G433XMU5DAORSGE3A====/GettyImages-2289653969.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "news/mls-leagues-cup-results-sullivan"
 },
 
 

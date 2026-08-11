@@ -11,6 +11,15 @@ import Us11 from '../../public/11.png';
 
 const Blog = () => {
   const blogPosts = [
+    {
+  "id": 251,
+  "title": "CF Montréal Sign Chilean Great Alexis Sánchez as Designated Player",
+  "author": "Mio Ristić",
+  "date": "August 11, 2026",
+  "excerpt": "CF Montréal have signed Chilean legend Alexis Sánchez as a Designated Player through the 2027 MLS Sprint Season, with a club option for 2027-28.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNUx2mcZSv0C23oFnU7J4uT_jCAJ5y9KGMFw0_vn3vHQ&s=10",
+  "slug": "alexis-sanchez-cf-montreal"
+},
   {
   "id": 250,
   "title": "USMNT Trio Living Together at Middlesbrough as Premier League Dream Takes Shape",
