@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "USMNT Trio Living Together at Middlesbrough",
+  "subtitle": "Morris, Berhalter and Arfsten share a house and a Premier League dream in the Championship.",
+  "image": "https://i.ibb.co/G4WV0yhL/images.jpg",
+  "link": "/news/middlesbrough-usmnt-trio",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "EA Sports FC 27: Everything New",
   "subtitle": "The Grounds, manual defending, dynamic corners, Career Mode rebuild and FUT Gallery – full breakdown of the biggest changes.",
   "image": "https://i.ibb.co/7NXp1FqH/fc-27-ultimate-plus.avif",
@@ -51,17 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-{
-  "title": "MLS x YETI Coolers & Drinkware",
-  "subtitle": "Official team coolers and Ramblers that actually keep ice for days — Roadie 15, Tundra 45 and more",
-  "image": "https://www.mlsstore.com/content/ws/all/b5a4ef4c-bacc-413d-bef4-44b8c4a6efe3__2400X900.gif",
-  "link": "/blog/mls-yeti-coolers-drinkware",
-  "external": false,
-  "cta": "Shop the collection"
-},
- 
 
-  
 
 
  
@@ -86,6 +84,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+{
+  "id": 250,
+  "title": "USMNT Trio Living Together at Middlesbrough as Premier League Dream Takes Shape",
+  "author": "Mio Ristić",
+  "date": "August 10, 2026",
+  "excerpt": "Aidan Morris, Sebastian Berhalter and Max Arfsten are sharing a house in Middlesbrough and chasing Premier League promotion together.",
+  "imageUrl": "https://i.ibb.co/G4WV0yhL/images.jpg",
+  "link": "news/middlesbrough-usmnt-trio"
+},
   {
   "id": 247,
   "title": "Crystal Palace Finalizing Club-Record Deal for Real Salt Lake Teenager Zavier Gozo",
@@ -104,16 +111,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2289653969/crop/MM5DIMJUHA5DEMZTGM5G433XMU5DAORSGE3A====/GettyImages-2289653969.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   "link": "news/mls-leagues-cup-results-sullivan"
 },
-  {
-  "id": 243,
-  "title": "LA Galaxy Sign Former Barcelona Captain Sergi Roberto: Leadership, Versatility and Winning DNA Arrive in Carson",
-  "author": "Mio Ristić",
-  "date": "August 9, 2026",
-  "excerpt": "The LA Galaxy have signed former Barcelona captain Sergi Roberto as a free agent through 2028. The 34-year-old brings leadership, versatility and Champions League experience to Carson.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2208662373/crop/MM5DINJSHA5DENJUG45G433XMU5DAORQ/GettyImages-2208662373.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/sergi-roberto-la-galaxy"
-},
-  
+
 
  
    

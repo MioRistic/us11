@@ -11,6 +11,15 @@ import Us11 from '../../public/11.png';
 
 const Blog = () => {
   const blogPosts = [
+  {
+  "id": 250,
+  "title": "USMNT Trio Living Together at Middlesbrough as Premier League Dream Takes Shape",
+  "author": "Mio Ristić",
+  "date": "August 10, 2026",
+  "excerpt": "Aidan Morris, Sebastian Berhalter and Max Arfsten are sharing a house in Middlesbrough and chasing Premier League promotion together.",
+  "imageUrl": "https://i.ibb.co/G4WV0yhL/images.jpg",
+  "slug": "middlesbrough-usmnt-trio"
+},
     {
   "id": 247,
   "title": "Crystal Palace Finalizing Club-Record Deal for Real Salt Lake Teenager Zavier Gozo",
