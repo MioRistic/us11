@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Rangers Submit ~$10m Bid for Kevin Kelsy",
+  "subtitle": "Portland Timbers striker is the subject of a formal bid from Rangers, but the club is not looking to sell.",
+  "image": "https://i.ibb.co/QvHNgtP7/images-3.jpg",
+  "link": "/news/kevin-kelsy-rangers-bid",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "CF Montréal Sign Alexis Sánchez as Designated Player",
   "subtitle": "Chilean legend joins Montréal as a free agent after leaving Sevilla — deal runs through the 2027 Sprint Season.",
   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNUx2mcZSv0C23oFnU7J4uT_jCAJ5y9KGMFw0_vn3vHQ&s=10",
@@ -51,14 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "MLS x Hype and Vice Women’s Collection",
-  "subtitle": "Finally, MLS gear designed for women who actually want to wear it — cropped tees, MVP tanks, denim jackets and more",
-  "image": "https://www.mlsstore.com/content/ws/all/30b36d86-a697-404f-be84-66d333c8aafb__2400X900.jpg",
-  "link": "/blog/mls-hype-and-vice-womens-collection",
-  "external": false,
-  "cta": "Read the full story"
-},
+ 
 
 
 
@@ -86,6 +87,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 252,
+  "title": "Rangers Submit ~$10m Bid for Portland Timbers Striker Kevin Kelsy",
+  "author": "Mio Ristić",
+  "date": "August 13, 2026",
+  "excerpt": "Rangers have submitted a bid in the region of $10 million for Portland Timbers forward Kevin Kelsy. The Timbers are not looking to sell and the player is not pushing to leave.",
+  "imageUrl": "https://i.ibb.co/QvHNgtP7/images-3.jpg",
+  "link": "news/kevin-kelsy-rangers-bid"
+},
+  {
   "id": 251,
   "title": "CF Montréal Sign Chilean Great Alexis Sánchez as Designated Player",
   "author": "Mio Ristić",
@@ -102,15 +112,6 @@ const blogPosts: Post[] = [
   "excerpt": "Aidan Morris, Sebastian Berhalter and Max Arfsten are sharing a house in Middlesbrough and chasing Premier League promotion together.",
   "imageUrl": "https://i.ibb.co/G4WV0yhL/images.jpg",
   "link": "news/middlesbrough-usmnt-trio"
-},
-  {
-  "id": 247,
-  "title": "Crystal Palace Finalizing Club-Record Deal for Real Salt Lake Teenager Zavier Gozo",
-  "author": "Mio Ristić",
-  "date": "August 10, 2026",
-  "excerpt": "Crystal Palace are finalizing the signing of 19-year-old American Zavier Gozo from Real Salt Lake in a club-record $15 million deal. Medical underway in London.",
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMos2R5U1n5qF6NuXxo-ndVhZ3Z6ycwyk4jb6L_cvxg&s=10",
-  "link": "news/gozo-palace-transfer"
 },
 
 

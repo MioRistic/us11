@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 252,
+  "title": "Rangers Submit ~$10m Bid for Portland Timbers Striker Kevin Kelsy",
+  "author": "Mio Ristić",
+  "date": "August 13, 2026",
+  "excerpt": "Rangers have submitted a bid in the region of $10 million for Portland Timbers forward Kevin Kelsy. The Timbers are not looking to sell and the player is not pushing to leave.",
+  "imageUrl": "https://i.ibb.co/QvHNgtP7/images-3.jpg",
+  "slug": "kevin-kelsy-rangers-bid"
+},
+    {
   "id": 251,
   "title": "CF Montréal Sign Chilean Great Alexis Sánchez as Designated Player",
   "author": "Mio Ristić",
