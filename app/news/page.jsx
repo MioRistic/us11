@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 254,
+  "title": "What Aleksa Cvetković Can Bring to the Vancouver Whitecaps",
+  "author": "Mio Ristić",
+  "date": "August 14, 2026",
+  "excerpt": "Vancouver Whitecaps have signed Serbian midfielder Aleksa Cvetković from OFK Beograd on a U22 Initiative deal. Here's what the high-motor box-to-box midfielder can bring to the club.",
+  "imageUrl": "https://i.ibb.co/LX5n48qD/images-4.jpg",
+  "slug": "aleksa-cvetkovic-whitecaps"
+},
+    {
+  "id": 253,
+  "title": "Atlanta United Finalizing $18m Deal for Switzerland Forward Breel Embolo",
+  "author": "Mio Ristić",
+  "date": "August 14, 2026",
+  "excerpt": "Atlanta United are finalizing a deal worth around $18 million to sign Switzerland international Breel Embolo from Stade Rennes — one of the top five most expensive transfers in MLS history.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwzV8zjhlrGysUyoFj63vuCBg-DpmwygmARa2ASDwTA&s=10",
+  "slug": "breel-embolo-atlanta-united"
+},
+    {
   "id": 252,
   "title": "Rangers Submit ~$10m Bid for Portland Timbers Striker Kevin Kelsy",
   "author": "Mio Ristić",

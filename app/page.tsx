@@ -20,6 +20,22 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "What Aleksa Cvetković Can Bring to the Whitecaps",
+  "subtitle": "Serbian box-to-box midfielder joins Vancouver on a U22 deal — analysis of his engine, role, and upside.",
+  "image": "https://i.ibb.co/LX5n48qD/images-4.jpg",
+  "link": "/news/aleksa-cvetkovic-whitecaps",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
+  "title": "Atlanta United Finalizing $18m Deal for Breel Embolo",
+  "subtitle": "Switzerland forward set to join from Rennes in one of the biggest transfers in MLS history.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwzV8zjhlrGysUyoFj63vuCBg-DpmwygmARa2ASDwTA&s=10",
+  "link": "/news/breel-embolo-atlanta-united",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Rangers Submit ~$10m Bid for Kevin Kelsy",
   "subtitle": "Portland Timbers striker is the subject of a formal bid from Rangers, but the club is not looking to sell.",
   "image": "https://i.ibb.co/QvHNgtP7/images-3.jpg",
@@ -43,24 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "EA Sports FC 27: Everything New",
-  "subtitle": "The Grounds, manual defending, dynamic corners, Career Mode rebuild and FUT Gallery – full breakdown of the biggest changes.",
-  "image": "https://i.ibb.co/7NXp1FqH/fc-27-ultimate-plus.avif",
-  "link": "/gaming/ea-sports-fc-27",
-  "external": false,
-  "cta": "Read the full story"
-},
-  {
-  "title": "Crystal Palace Finalizing Deal for Zavier Gozo",
-  "subtitle": "Palace close in on $15m club-record signing of Real Salt Lake teenager. Medical underway in London.",
-  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMos2R5U1n5qF6NuXxo-ndVhZ3Z6ycwyk4jb6L_cvxg&s=10",
-  "link": "/news/gozo-palace-transfer",
-  "external": false,
-  "cta": "Read the full story"
-},
- 
-
+  
 
 
 
@@ -87,6 +86,24 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 254,
+  "title": "What Aleksa Cvetković Can Bring to the Vancouver Whitecaps",
+  "author": "Mio Ristić",
+  "date": "August 14, 2026",
+  "excerpt": "Vancouver Whitecaps have signed Serbian midfielder Aleksa Cvetković from OFK Beograd on a U22 Initiative deal. Here's what the high-motor box-to-box midfielder can bring to the club.",
+  "imageUrl": "https://i.ibb.co/LX5n48qD/images-4.jpg",
+  "link": "news/aleksa-cvetkovic-whitecaps"
+},
+  {
+  "id": 253,
+  "title": "Atlanta United Finalizing $18m Deal for Switzerland Forward Breel Embolo",
+  "author": "Mio Ristić",
+  "date": "August 14, 2026",
+  "excerpt": "Atlanta United are finalizing a deal worth around $18 million to sign Switzerland international Breel Embolo from Stade Rennes — one of the top five most expensive transfers in MLS history.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwzV8zjhlrGysUyoFj63vuCBg-DpmwygmARa2ASDwTA&s=10",
+  "link": "news/breel-embolo-atlanta-united"
+},
+  {
   "id": 252,
   "title": "Rangers Submit ~$10m Bid for Portland Timbers Striker Kevin Kelsy",
   "author": "Mio Ristić",
@@ -95,25 +112,6 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/QvHNgtP7/images-3.jpg",
   "link": "news/kevin-kelsy-rangers-bid"
 },
-  {
-  "id": 251,
-  "title": "CF Montréal Sign Chilean Great Alexis Sánchez as Designated Player",
-  "author": "Mio Ristić",
-  "date": "August 11, 2026",
-  "excerpt": "CF Montréal have signed Chilean legend Alexis Sánchez as a Designated Player through the 2027 MLS Sprint Season, with a club option for 2027-28.",
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNUx2mcZSv0C23oFnU7J4uT_jCAJ5y9KGMFw0_vn3vHQ&s=10",
-  "link": "news/alexis-sanchez-cf-montreal"
-},
-{
-  "id": 250,
-  "title": "USMNT Trio Living Together at Middlesbrough as Premier League Dream Takes Shape",
-  "author": "Mio Ristić",
-  "date": "August 10, 2026",
-  "excerpt": "Aidan Morris, Sebastian Berhalter and Max Arfsten are sharing a house in Middlesbrough and chasing Premier League promotion together.",
-  "imageUrl": "https://i.ibb.co/G4WV0yhL/images.jpg",
-  "link": "news/middlesbrough-usmnt-trio"
-},
-
 
  
    
