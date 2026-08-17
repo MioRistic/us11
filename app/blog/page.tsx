@@ -49,7 +49,15 @@ const items: CategoryItem[] = [
 ];
 
 const blogPosts: BlogPost[] = [
- 
+  {
+  "id": 1033,
+  "title": "2026 MLS Archive Collection: Ranking the Retro Kits — From Grimace Purple to Mountain Power",
+  "author": "Mio Ristić",
+  "date": "August 17, 2026",
+  "excerpt": "Full ranking and review of the 2026 Adidas x MLS Archive Collection third kits. Mio’s top 3: CF Montréal, Real Salt Lake, Vancouver Whitecaps.",
+  "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/mls/rsyenouylj95wi8oeipx.jpg",
+  "slug": "mls-archive-collection-2026"
+},
   {
   "id": 1032,
   "title": "MLS x Hype and Vice: The Women’s Collection That Finally Treats Female Fans Like Fashion Consumers",

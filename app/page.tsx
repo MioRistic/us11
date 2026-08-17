@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "2026 MLS Archive Collection Kit Rankings",
+  "subtitle": "From Grimace purple to mountain power — full review of all eight Archive third kits.",
+  "image": "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/mls/rsyenouylj95wi8oeipx.jpg",
+  "link": "/blog/mls-archive-collection-2026",
+  "external": false,
+  "cta": "Read the full ranking"
+},
+  {
   "title": "What Aleksa Cvetković Can Bring to the Whitecaps",
   "subtitle": "Serbian box-to-box midfielder joins Vancouver on a U22 deal — analysis of his engine, role, and upside.",
   "image": "https://i.ibb.co/LX5n48qD/images-4.jpg",
@@ -51,14 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "USMNT Trio Living Together at Middlesbrough",
-  "subtitle": "Morris, Berhalter and Arfsten share a house and a Premier League dream in the Championship.",
-  "image": "https://i.ibb.co/G4WV0yhL/images.jpg",
-  "link": "/news/middlesbrough-usmnt-trio",
-  "external": false,
-  "cta": "Read the full story"
-},
+ 
   
 
 
@@ -121,6 +122,15 @@ const blogPosts: Post[] = [
 ];
 
 const jerseysBlogPosts: Post[] = [
+   {
+  "id": 1033,
+  "title": "2026 MLS Archive Collection: Ranking the Retro Kits — From Grimace Purple to Mountain Power",
+  "author": "Mio Ristić",
+  "date": "August 17, 2026",
+  "excerpt": "Full ranking and review of the 2026 Adidas x MLS Archive Collection third kits. Mio’s top 3: CF Montréal, Real Salt Lake, Vancouver Whitecaps.",
+  "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/mls/rsyenouylj95wi8oeipx.jpg",
+  "link": "/blog/mls-archive-collection-2026"
+},
   {
   "id": 1031,
   "title": "Inter Miami Cénit 2026 Third Jersey: Full Guide, Prices & Where to Buy",
@@ -139,7 +149,6 @@ const jerseysBlogPosts: Post[] = [
   "imageUrl": "https://www.mlsstore.com/content/ws/all/e4e8612e-2d5c-44f1-b65b-8d94751127eb__480X639.jpg?w=480",
   "link": "blog/2026-mls-all-star-jersey-where-to-buy"
 },
-  { id: 1029, title: "Why Argentina Are Wearing Their Navy Blue Kit Against England in the 2026 World Cup Semi-Final", author: "Mio Ristić", date: "July 15, 2026", excerpt: "Argentina will wear their navy blue away kit against England in the semi-final. The historic and symbolic reason behind the choice.", imageUrl: "https://i.ibb.co/Wbxt5X1/3-EWNH7-J-1-1024x536.jpg", link: "/blog/argentina-navy-blue-kit" },
  
  
 ];

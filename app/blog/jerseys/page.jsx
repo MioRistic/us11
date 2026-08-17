@@ -11,6 +11,15 @@ import Link from 'next/link';
 
 const Blog = () => {
   const blogPosts = [
+     {
+  "id": 1033,
+  "title": "2026 MLS Archive Collection: Ranking the Retro Kits — From Grimace Purple to Mountain Power",
+  "author": "Mio Ristić",
+  "date": "August 17, 2026",
+  "excerpt": "Full ranking and review of the 2026 Adidas x MLS Archive Collection third kits. Mio’s top 3: CF Montréal, Real Salt Lake, Vancouver Whitecaps.",
+  "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/mls/rsyenouylj95wi8oeipx.jpg",
+  "slug": "mls-archive-collection-2026"
+},
       {
   "id": 1031,
   "title": "Inter Miami Cénit 2026 Third Jersey: Full Guide, Prices & Where to Buy",

@@ -30,7 +30,7 @@ const nextConfig = {
       { protocol: 'https', hostname: 'encrypted-tbn0.gstatic.com' },
       { protocol: 'https', hostname: 'cdn1.intermiami.news' },
       { protocol: 'https', hostname: 'sports.mynorthwest.com' },
-      { protocol: 'https', hostname: 'cloudfront-us-east-1.images.arcpublishing.com' },
+      { protocol: 'https', hostname: 'static01.nyt.com' },
       { protocol: 'https', hostname: 'nbcsports.brightspotcdn.com' },
       { protocol: 'https', hostname: 'nypost.com' },
       { protocol: 'https', hostname: 'images.mlssoccer.com' },
