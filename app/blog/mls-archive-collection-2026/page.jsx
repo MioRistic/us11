@@ -88,8 +88,8 @@ export default function MlsArchiveCollection2026() {
       name: 'Austin FC — The Violet Crown',
       image:
         'https://images.mlssoccer.com/image/private/t_keep-aspect-ratio-e-desktop_2x/f_auto/mls/ju0ttcobcdloiwylc3ih.jpg',
-      fanaticsLink: 'https://fanatics.93n6tx.net/', // TODO: Austin Fanatics
-      mlsStoreLink: 'https://mlsstore.i8h2.net/enjYvO/', // TODO: Austin MLS Store
+      fanaticsLink: 'https://fanatics.93n6tx.net/R0E7D9', // TODO: Austin Fanatics
+      mlsStoreLink: 'https://mlsstore.i8h2.net/enjYvO', // TODO: Austin MLS Store
       text: (
         <>
           <p>
@@ -117,7 +117,7 @@ export default function MlsArchiveCollection2026() {
       image:
         'https://images.mlssoccer.com/image/private/t_keep-aspect-ratio-e-desktop_2x/f_auto/mls/ha4fqtacez5ebdcs0dno.jpg',
       fanaticsLink: 'https://fanatics.93n6tx.net/VOd7xR', // TODO: Montréal Fanatics
-      mlsStoreLink: 'https://mlsstore.i8h2.net/oNJYeO/', // TODO: Montréal MLS Store
+      mlsStoreLink: 'https://mlsstore.i8h2.net/oNJYeO', // TODO: Montréal MLS Store
       text: (
         <>
           <p>
@@ -138,7 +138,7 @@ export default function MlsArchiveCollection2026() {
       image:
         'https://images.mlssoccer.com/image/private/t_keep-aspect-ratio-e-desktop_2x/f_auto/mls/qqi40kpftiiabw0tn4pn.jpg',
       fanaticsLink: 'https://fanatics.93n6tx.net/QYE7KY', // TODO: Chicago Fanatics
-      mlsStoreLink: 'https://mlsstore.i8h2.net/R0E7yN/', // TODO: Chicago MLS Store
+      mlsStoreLink: 'https://mlsstore.i8h2.net/R0E7yN', // TODO: Chicago MLS Store
       text: (
         <>
           <p>
@@ -159,7 +159,7 @@ export default function MlsArchiveCollection2026() {
       image:
         'https://images.mlssoccer.com/image/private/t_keep-aspect-ratio-e-desktop_2x/f_auto/mls/weuxfww1juvw2xibnxst.jpg',
       fanaticsLink: 'https://fanatics.93n6tx.net/7XKzyO', // TODO: Houston Fanatics
-      mlsStoreLink: 'https://mlsstore.i8h2.net/L0E7PM/', // TODO: Houston MLS Store
+      mlsStoreLink: 'https://mlsstore.i8h2.net/L0E7PM', // TODO: Houston MLS Store
       text: (
         <>
           <p>
@@ -176,7 +176,7 @@ export default function MlsArchiveCollection2026() {
       image:
         'https://images.mlssoccer.com/image/private/t_keep-aspect-ratio-e-desktop_2x/f_auto/mls/boxzlez2yvgeqa9iypib.jpg',
       fanaticsLink: 'https://fanatics.93n6tx.net/DWa7Qq', // TODO: Orlando Fanatics
-      mlsStoreLink: 'https://mlsstore.i8h2.net/QYE7Oo/', // TODO: Orlando MLS Store
+      mlsStoreLink: 'https://mlsstore.i8h2.net/QYE7Oo', // TODO: Orlando MLS Store
       text: (
         <>
           <p>
@@ -198,7 +198,7 @@ export default function MlsArchiveCollection2026() {
       image:
         'https://images.mlssoccer.com/image/private/t_keep-aspect-ratio-e-desktop_2x/f_auto/mls/ehsjsdzr0nsmb7oz8y8g.jpg',
       fanaticsLink: 'https://fanatics.93n6tx.net/rEWYGB', // TODO: Philly Fanatics
-      mlsStoreLink: 'https://mlsstore.i8h2.net/', // TODO: Philly MLS Store
+      mlsStoreLink: 'https://mlsstore.i8h2.net/NGE7kV', // TODO: Philly MLS Store
       text: (
         <>
           <p>
@@ -239,8 +239,8 @@ export default function MlsArchiveCollection2026() {
       name: 'Vancouver Whitecaps — The Dogwood Standout',
       image:
         'https://images.mlssoccer.com/image/private/t_keep-aspect-ratio-e-desktop_2x/f_auto/mls/qz0cb2rnd46csb7pxvkt.jpg',
-      fanaticsLink: 'https://fanatics.93n6tx.net/2R7ZjG/', // TODO: Vancouver Fanatics
-      mlsStoreLink: 'https://mlsstore.i8h2.net/L0E7XM/', // TODO: Vancouver MLS Store
+      fanaticsLink: 'https://fanatics.93n6tx.net/yZoYxV', // TODO: Vancouver Fanatics
+      mlsStoreLink: 'https://mlsstore.i8h2.net/E0A7AP', // TODO: Vancouver MLS Store
       text: (
         <>
           <p>
