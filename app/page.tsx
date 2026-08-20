@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Brenden Aaronson Signs New Leeds Deal Until 2029",
+  "subtitle": "USMNT midfielder commits long-term future to Elland Road after strong Premier League campaign",
+  "image": "https://assets.goal.com/images/v3/getty-2237710051/crop/MM5DEMBRGQ5DCMJTGM5G433XMU5DKMBTHIZTE===/GettyImages-2237710051.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/brenden-aaronson-leeds-deal",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Messi’s Emotional Goal and Chaos at Subaru Park",
   "subtitle": "Union battle Inter Miami to 2-2 draw as Cavan Sullivan sees red in stoppage-time melee",
   "image": "https://i.ibb.co/15qZsXB/images-6.jpg",
@@ -51,16 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full ranking"
 },
-  {
-  "title": "What Aleksa Cvetković Can Bring to the Whitecaps",
-  "subtitle": "Serbian box-to-box midfielder joins Vancouver on a U22 deal — analysis of his engine, role, and upside.",
-  "image": "https://i.ibb.co/LX5n48qD/images-4.jpg",
-  "link": "/news/aleksa-cvetkovic-whitecaps",
-  "external": false,
-  "cta": "Read the full story"
-},
-
-
+ 
 
  
 
@@ -81,6 +80,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+   {
+  "id": 258,
+  "title": "Brenden Aaronson Signs New Leeds Deal Until 2029 as American Midfielder Commits to Elland Road Project",
+  "author": "Mio Ristić",
+  "date": "August 20, 2026",
+  "excerpt": "USMNT midfielder Brenden Aaronson has signed a new three-year contract with Leeds United, keeping him at Elland Road until 2029 after rebuilding his status under Daniel Farke.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2237710051/crop/MM5DEMBRGQ5DCMJTGM5G433XMU5DKMBTHIZTE===/GettyImages-2237710051.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/brenden-aaronson-leeds-deal"
+},
     {
   "id": 257,
   "title": "Battle Lines Drawn Again: Messi’s Emotional Goal and Stoppage-Time Chaos as Union Refuse to Yield to Inter Miami",
@@ -99,16 +107,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/imago-sport-1077615335/crop/MM5DEOJZGI5DCNRYGM5G433XMU5DAORRGIYA====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
   "link": "news/montreal-columbus-sanchez-debut"
 },
-     {
-  "id": 255,
-  "title": "When Giants Met in the Storm: Griezmann vs Lewandowski as Chicago Edge Orlando 2-1",
-  "author": "Mio Ristić",
-  "date": "August 20, 2026",
-  "excerpt": "Antoine Griezmann and Robert Lewandowski faced off for the first time in MLS as Chicago Fire beat Orlando City 2-1 after a nearly two-hour lightning delay — both sides in Archive Collection retro kits.",
-  "imageUrl": "https://i.ibb.co/xq4Z04Yy/images-5-1.jpg",
-  "link": "news/griezmann-lewandowski-orlando-chicago"
-},
- 
+   
  
    
 

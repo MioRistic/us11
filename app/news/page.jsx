@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 258,
+  "title": "Brenden Aaronson Signs New Leeds Deal Until 2029 as American Midfielder Commits to Elland Road Project",
+  "author": "Mio Ristić",
+  "date": "August 20, 2026",
+  "excerpt": "USMNT midfielder Brenden Aaronson has signed a new three-year contract with Leeds United, keeping him at Elland Road until 2029 after rebuilding his status under Daniel Farke.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2237710051/crop/MM5DEMBRGQ5DCMJTGM5G433XMU5DKMBTHIZTE===/GettyImages-2237710051.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "brenden-aaronson-leeds-deal"
+},
+    {
   "id": 257,
   "title": "Battle Lines Drawn Again: Messi’s Emotional Goal and Stoppage-Time Chaos as Union Refuse to Yield to Inter Miami",
   "author": "Mio Ristić",
