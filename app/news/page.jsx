@@ -12,6 +12,33 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 257,
+  "title": "Battle Lines Drawn Again: Messi’s Emotional Goal and Stoppage-Time Chaos as Union Refuse to Yield to Inter Miami",
+  "author": "Mio Ristić",
+  "date": "August 20, 2026",
+  "excerpt": "Lionel Messi scored his first goal since his father’s death as Philadelphia Union and Inter Miami drew 2-2 at Subaru Park. Cavan Sullivan impressed before a late red card, and stoppage-time chaos left Messi under investigation.",
+  "imageUrl": "https://i.ibb.co/15qZsXB/images-6.jpg",
+  "slug": "messi-union-miami-subaru-park"
+},
+    {
+  "id": 256,
+  "title": "CF Montréal Edge Columbus 2-1 as Streit’s Strike Seals a Much-Needed Road Win",
+  "author": "Mio Ristić",
+  "date": "August 20, 2026",
+  "excerpt": "Noah Streit scored a late winner as CF Montréal defeated Columbus Crew 2-1. Alexis Sánchez made his debut in the 79th minute but had limited time to influence the game.",
+  "imageUrl": "https://assets.goal.com/images/v3/imago-sport-1077615335/crop/MM5DEOJZGI5DCNRYGM5G433XMU5DAORRGIYA====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "montreal-columbus-sanchez-debut"
+},
+    {
+  "id": 255,
+  "title": "When Giants Met in the Storm: Griezmann vs Lewandowski as Chicago Edge Orlando 2-1",
+  "author": "Mio Ristić",
+  "date": "August 20, 2026",
+  "excerpt": "Antoine Griezmann and Robert Lewandowski faced off for the first time in MLS as Chicago Fire beat Orlando City 2-1 after a nearly two-hour lightning delay — both sides in Archive Collection retro kits.",
+  "imageUrl": "https://i.ibb.co/xq4Z04Yy/images-5-1.jpg",
+  "slug": "griezmann-lewandowski-orlando-chicago"
+},
+    {
   "id": 254,
   "title": "What Aleksa Cvetković Can Bring to the Vancouver Whitecaps",
   "author": "Mio Ristić",

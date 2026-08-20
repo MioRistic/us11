@@ -20,6 +20,30 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Messi’s Emotional Goal and Chaos at Subaru Park",
+  "subtitle": "Union battle Inter Miami to 2-2 draw as Cavan Sullivan sees red in stoppage-time melee",
+  "image": "https://i.ibb.co/15qZsXB/images-6.jpg",
+  "link": "/news/messi-union-miami-subaru-park",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
+  "title": "CF Montréal Edge Columbus 2-1",
+  "subtitle": "Streit’s late strike seals a vital road win as Alexis Sánchez makes his debut",
+  "image": "https://assets.goal.com/images/v3/imago-sport-1077615335/crop/MM5DEOJZGI5DCNRYGM5G433XMU5DAORRGIYA====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/montreal-columbus-sanchez-debut",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
+  "title": "Griezmann vs Lewandowski in the Storm",
+  "subtitle": "Chicago beat Orlando 2-1 after a lightning delay as two European greats faced off in Archive Collection retro kits",
+  "image": "https://i.ibb.co/xq4Z04Yy/images-5-1.jpg",
+  "link": "/news/griezmann-lewandowski-orlando-chicago",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "2026 MLS Archive Collection Kit Rankings",
   "subtitle": "From Grimace purple to mountain power — full review of all eight Archive third kits.",
   "image": "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/mls/rsyenouylj95wi8oeipx.jpg",
@@ -35,36 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Atlanta United Finalizing $18m Deal for Breel Embolo",
-  "subtitle": "Switzerland forward set to join from Rennes in one of the biggest transfers in MLS history.",
-  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwzV8zjhlrGysUyoFj63vuCBg-DpmwygmARa2ASDwTA&s=10",
-  "link": "/news/breel-embolo-atlanta-united",
-  "external": false,
-  "cta": "Read the full story"
-},
-  {
-  "title": "Rangers Submit ~$10m Bid for Kevin Kelsy",
-  "subtitle": "Portland Timbers striker is the subject of a formal bid from Rangers, but the club is not looking to sell.",
-  "image": "https://i.ibb.co/QvHNgtP7/images-3.jpg",
-  "link": "/news/kevin-kelsy-rangers-bid",
-  "external": false,
-  "cta": "Read the full story"
-},
-  {
-  "title": "CF Montréal Sign Alexis Sánchez as Designated Player",
-  "subtitle": "Chilean legend joins Montréal as a free agent after leaving Sevilla — deal runs through the 2027 Sprint Season.",
-  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNUx2mcZSv0C23oFnU7J4uT_jCAJ5y9KGMFw0_vn3vHQ&s=10",
-  "link": "/news/alexis-sanchez-cf-montreal",
-  "external": false,
-  "cta": "Read the full story"
-},
- 
-  
 
-
-
- 
 
 
  
@@ -86,34 +81,34 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
-  {
-  "id": 254,
-  "title": "What Aleksa Cvetković Can Bring to the Vancouver Whitecaps",
+    {
+  "id": 257,
+  "title": "Battle Lines Drawn Again: Messi’s Emotional Goal and Stoppage-Time Chaos as Union Refuse to Yield to Inter Miami",
   "author": "Mio Ristić",
-  "date": "August 14, 2026",
-  "excerpt": "Vancouver Whitecaps have signed Serbian midfielder Aleksa Cvetković from OFK Beograd on a U22 Initiative deal. Here's what the high-motor box-to-box midfielder can bring to the club.",
-  "imageUrl": "https://i.ibb.co/LX5n48qD/images-4.jpg",
-  "link": "news/aleksa-cvetkovic-whitecaps"
+  "date": "August 20, 2026",
+  "excerpt": "Lionel Messi scored his first goal since his father’s death as Philadelphia Union and Inter Miami drew 2-2 at Subaru Park. Cavan Sullivan impressed before a late red card, and stoppage-time chaos left Messi under investigation.",
+  "imageUrl": "https://i.ibb.co/15qZsXB/images-6.jpg",
+  "link": "news/messi-union-miami-subaru-park"
 },
-  {
-  "id": 253,
-  "title": "Atlanta United Finalizing $18m Deal for Switzerland Forward Breel Embolo",
+   {
+  "id": 256,
+  "title": "CF Montréal Edge Columbus 2-1 as Streit’s Strike Seals a Much-Needed Road Win",
   "author": "Mio Ristić",
-  "date": "August 14, 2026",
-  "excerpt": "Atlanta United are finalizing a deal worth around $18 million to sign Switzerland international Breel Embolo from Stade Rennes — one of the top five most expensive transfers in MLS history.",
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwzV8zjhlrGysUyoFj63vuCBg-DpmwygmARa2ASDwTA&s=10",
-  "link": "news/breel-embolo-atlanta-united"
+  "date": "August 20, 2026",
+  "excerpt": "Noah Streit scored a late winner as CF Montréal defeated Columbus Crew 2-1. Alexis Sánchez made his debut in the 79th minute but had limited time to influence the game.",
+  "imageUrl": "https://assets.goal.com/images/v3/imago-sport-1077615335/crop/MM5DEOJZGI5DCNRYGM5G433XMU5DAORRGIYA====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "news/montreal-columbus-sanchez-debut"
 },
-  {
-  "id": 252,
-  "title": "Rangers Submit ~$10m Bid for Portland Timbers Striker Kevin Kelsy",
+     {
+  "id": 255,
+  "title": "When Giants Met in the Storm: Griezmann vs Lewandowski as Chicago Edge Orlando 2-1",
   "author": "Mio Ristić",
-  "date": "August 13, 2026",
-  "excerpt": "Rangers have submitted a bid in the region of $10 million for Portland Timbers forward Kevin Kelsy. The Timbers are not looking to sell and the player is not pushing to leave.",
-  "imageUrl": "https://i.ibb.co/QvHNgtP7/images-3.jpg",
-  "link": "news/kevin-kelsy-rangers-bid"
+  "date": "August 20, 2026",
+  "excerpt": "Antoine Griezmann and Robert Lewandowski faced off for the first time in MLS as Chicago Fire beat Orlando City 2-1 after a nearly two-hour lightning delay — both sides in Archive Collection retro kits.",
+  "imageUrl": "https://i.ibb.co/xq4Z04Yy/images-5-1.jpg",
+  "link": "news/griezmann-lewandowski-orlando-chicago"
 },
-
+ 
  
    
 
