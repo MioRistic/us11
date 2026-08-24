@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Seattle Sounders Move for Dejan Joveljić",
+  "subtitle": "$6m deal from Sporting KC as Sounders address their attacking issues with a proven MLS goalscorer",
+  "image": "https://assets.goal.com/images/v3/blt05a9554c11af15cd/crop/MM5DINRWHE5DENRSGY5G433XMU5DAORSGYZA====/GettyImages-2266561485.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/joveljic-seattle-sounders",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Brenden Aaronson Signs New Leeds Deal Until 2029",
   "subtitle": "USMNT midfielder commits long-term future to Elland Road after strong Premier League campaign",
   "image": "https://assets.goal.com/images/v3/getty-2237710051/crop/MM5DEMBRGQ5DCMJTGM5G433XMU5DKMBTHIZTE===/GettyImages-2237710051.jpg?auto=webp&format=pjpg&width=3840&quality=60",
@@ -51,14 +59,6 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "2026 MLS Archive Collection Kit Rankings",
-  "subtitle": "From Grimace purple to mountain power — full review of all eight Archive third kits.",
-  "image": "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/mls/rsyenouylj95wi8oeipx.jpg",
-  "link": "/blog/mls-archive-collection-2026",
-  "external": false,
-  "cta": "Read the full ranking"
-},
  
 
  
@@ -80,6 +80,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+      {
+  "id": 259,
+  "title": "Seattle Sounders Move for Dejan Joveljić as Struggling Attack Forces Bold Summer Play",
+  "author": "Mio Ristić",
+  "date": "August 24, 2026",
+  "excerpt": "Seattle Sounders are finalizing a $6 million deal to acquire Designated Player Dejan Joveljić from Sporting Kansas City as injuries and low scoring force a major attack upgrade.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp1PSDRhOJodgMInN48AeYYVQicUXW4AArLkGkx_3fdDM6QePtOQbHzDyc&s=10",
+  "link": "news/joveljic-seattle-sounders"
+},
    {
   "id": 258,
   "title": "Brenden Aaronson Signs New Leeds Deal Until 2029 as American Midfielder Commits to Elland Road Project",
@@ -98,15 +107,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/15qZsXB/images-6.jpg",
   "link": "news/messi-union-miami-subaru-park"
 },
-   {
-  "id": 256,
-  "title": "CF Montréal Edge Columbus 2-1 as Streit’s Strike Seals a Much-Needed Road Win",
-  "author": "Mio Ristić",
-  "date": "August 20, 2026",
-  "excerpt": "Noah Streit scored a late winner as CF Montréal defeated Columbus Crew 2-1. Alexis Sánchez made his debut in the 79th minute but had limited time to influence the game.",
-  "imageUrl": "https://assets.goal.com/images/v3/imago-sport-1077615335/crop/MM5DEOJZGI5DCNRYGM5G433XMU5DAORRGIYA====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "news/montreal-columbus-sanchez-debut"
-},
+  
    
  
    

@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 259,
+  "title": "Seattle Sounders Move for Dejan Joveljić as Struggling Attack Forces Bold Summer Play",
+  "author": "Mio Ristić",
+  "date": "August 24, 2026",
+  "excerpt": "Seattle Sounders are finalizing a $6 million deal to acquire Designated Player Dejan Joveljić from Sporting Kansas City as injuries and low scoring force a major attack upgrade.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp1PSDRhOJodgMInN48AeYYVQicUXW4AArLkGkx_3fdDM6QePtOQbHzDyc&s=10",
+  "slug": "joveljic-seattle-sounders"
+},
+    {
   "id": 258,
   "title": "Brenden Aaronson Signs New Leeds Deal Until 2029 as American Midfielder Commits to Elland Road Project",
   "author": "Mio Ristić",
