@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 260,
+  "title": "Nashville Finds Another Gear, Vancouver Responds, and the Race Takes Shape",
+  "author": "Mio Ristić",
+  "date": "August 24, 2026",
+  "excerpt": "Nashville SC’s historic stoppage-time 3-2 comeback and Vancouver’s 5-0 thrashing of Dallas define Matchday 22 as the Shield and Western Conference races take shape.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt47978711340c869e/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-15T230033.321.png?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "mls-matchday-22-nashville-vancouver"
+},
+    {
   "id": 259,
   "title": "Seattle Sounders Move for Dejan Joveljić as Struggling Attack Forces Bold Summer Play",
   "author": "Mio Ristić",

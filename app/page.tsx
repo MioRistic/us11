@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Nashville Hits Another Gear, Vancouver Bounces Back",
+  "subtitle": "Historic 3-2 comeback for Nashville and a 5-0 statement from Vancouver define Matchday 22",
+  "image": "https://assets.goal.com/images/v3/blt47978711340c869e/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-15T230033.321.png?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/mls-matchday-22-nashville-vancouver",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Seattle Sounders Move for Dejan Joveljić",
   "subtitle": "$6m deal from Sporting KC as Sounders address their attacking issues with a proven MLS goalscorer",
   "image": "https://assets.goal.com/images/v3/blt05a9554c11af15cd/crop/MM5DINRWHE5DENRSGY5G433XMU5DAORSGYZA====/GettyImages-2266561485.jpg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -35,32 +43,9 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Messi’s Emotional Goal and Chaos at Subaru Park",
-  "subtitle": "Union battle Inter Miami to 2-2 draw as Cavan Sullivan sees red in stoppage-time melee",
-  "image": "https://i.ibb.co/15qZsXB/images-6.jpg",
-  "link": "/news/messi-union-miami-subaru-park",
-  "external": false,
-  "cta": "Read the full story"
-},
-  {
-  "title": "CF Montréal Edge Columbus 2-1",
-  "subtitle": "Streit’s late strike seals a vital road win as Alexis Sánchez makes his debut",
-  "image": "https://assets.goal.com/images/v3/imago-sport-1077615335/crop/MM5DEOJZGI5DCNRYGM5G433XMU5DAORRGIYA====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/montreal-columbus-sanchez-debut",
-  "external": false,
-  "cta": "Read the full story"
-},
-  {
-  "title": "Griezmann vs Lewandowski in the Storm",
-  "subtitle": "Chicago beat Orlando 2-1 after a lightning delay as two European greats faced off in Archive Collection retro kits",
-  "image": "https://i.ibb.co/xq4Z04Yy/images-5-1.jpg",
-  "link": "/news/griezmann-lewandowski-orlando-chicago",
-  "external": false,
-  "cta": "Read the full story"
-},
- 
 
+
+ 
  
 
 ];
@@ -80,6 +65,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+    {
+  "id": 260,
+  "title": "Nashville Finds Another Gear, Vancouver Responds, and the Race Takes Shape",
+  "author": "Mio Ristić",
+  "date": "August 24, 2026",
+  "excerpt": "Nashville SC’s historic stoppage-time 3-2 comeback and Vancouver’s 5-0 thrashing of Dallas define Matchday 22 as the Shield and Western Conference races take shape.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt47978711340c869e/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-15T230033.321.png?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "news/mls-matchday-22-nashville-vancouver"
+},
       {
   "id": 259,
   "title": "Seattle Sounders Move for Dejan Joveljić as Struggling Attack Forces Bold Summer Play",
@@ -98,20 +92,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2237710051/crop/MM5DEMBRGQ5DCMJTGM5G433XMU5DKMBTHIZTE===/GettyImages-2237710051.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/brenden-aaronson-leeds-deal"
 },
-    {
-  "id": 257,
-  "title": "Battle Lines Drawn Again: Messi’s Emotional Goal and Stoppage-Time Chaos as Union Refuse to Yield to Inter Miami",
-  "author": "Mio Ristić",
-  "date": "August 20, 2026",
-  "excerpt": "Lionel Messi scored his first goal since his father’s death as Philadelphia Union and Inter Miami drew 2-2 at Subaru Park. Cavan Sullivan impressed before a late red card, and stoppage-time chaos left Messi under investigation.",
-  "imageUrl": "https://i.ibb.co/15qZsXB/images-6.jpg",
-  "link": "news/messi-union-miami-subaru-park"
-},
-  
-   
- 
-   
-
+    
  
   
 ];
