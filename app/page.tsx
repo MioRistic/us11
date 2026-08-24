@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Folarin Balogun’s Next Move",
+  "subtitle": "Barcelona and Aston Villa join Tottenham in the race for the USMNT striker",
+  "image": "https://assets.goal.com/images/v3/getty-2264578389/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORSHA3A====/GettyImages-2264578389.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/folarin-balogun-transfer-race",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Nashville Hits Another Gear, Vancouver Bounces Back",
   "subtitle": "Historic 3-2 comeback for Nashville and a 5-0 statement from Vancouver define Matchday 22",
   "image": "https://assets.goal.com/images/v3/blt47978711340c869e/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-15T230033.321.png?auto=webp&format=pjpg&width=2048&quality=60",
@@ -66,6 +74,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
     {
+  "id": 261,
+  "title": "Folarin Balogun’s Next Move: Barcelona, Tottenham and the Race That Suddenly Got Serious",
+  "author": "Mio Ristić",
+  "date": "August 24, 2026",
+  "excerpt": "Barcelona and Aston Villa join Tottenham in the race for USMNT striker Folarin Balogun. Monaco seeking €50-60m as the window closes.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2264578389/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORSHA3A====/GettyImages-2264578389.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/folarin-balogun-transfer-race"
+},
+    {
   "id": 260,
   "title": "Nashville Finds Another Gear, Vancouver Responds, and the Race Takes Shape",
   "author": "Mio Ristić",
@@ -83,15 +100,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp1PSDRhOJodgMInN48AeYYVQicUXW4AArLkGkx_3fdDM6QePtOQbHzDyc&s=10",
   "link": "news/joveljic-seattle-sounders"
 },
-   {
-  "id": 258,
-  "title": "Brenden Aaronson Signs New Leeds Deal Until 2029 as American Midfielder Commits to Elland Road Project",
-  "author": "Mio Ristić",
-  "date": "August 20, 2026",
-  "excerpt": "USMNT midfielder Brenden Aaronson has signed a new three-year contract with Leeds United, keeping him at Elland Road until 2029 after rebuilding his status under Daniel Farke.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2237710051/crop/MM5DEMBRGQ5DCMJTGM5G433XMU5DKMBTHIZTE===/GettyImages-2237710051.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/brenden-aaronson-leeds-deal"
-},
+  
     
  
   

@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 261,
+  "title": "Folarin Balogun’s Next Move: Barcelona, Tottenham and the Race That Suddenly Got Serious",
+  "author": "Mio Ristić",
+  "date": "August 24, 2026",
+  "excerpt": "Barcelona and Aston Villa join Tottenham in the race for USMNT striker Folarin Balogun. Monaco seeking €50-60m as the window closes.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2264578389/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORSHA3A====/GettyImages-2264578389.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "folarin-balogun-transfer-race"
+},
+    {
   "id": 260,
   "title": "Nashville Finds Another Gear, Vancouver Responds, and the Race Takes Shape",
   "author": "Mio Ristić",
