@@ -19,6 +19,22 @@ interface Post {
 const ACCENT = '#1d4ed8';
 
 const heroItems = [
+  {
+  "title": "Sporting KC Sign Owen Wolff from Austin",
+  "subtitle": "$4.5m + $3.1m add-ons — largest U-22 cash trade in MLS history as club legend’s son returns home",
+  "image": "https://i.ibb.co/rG89HZj4/01jfvndt3mzgqws5t022.webp",
+  "link": "/news/owen-wolff-sporting-kc",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
+  "title": "Rangers Agree $13m Deal for Kevin Kelsy",
+  "subtitle": "Portland Timbers striker set for Ibrox in club-record sale — second-most expensive Rangers signing since 2000",
+  "image": "https://i.ibb.co/QvHNgtP7/images-3.jpg",
+  "link": "/news/rangers-agree-deal-timbers-kevin-kelsy",
+  "external": false,
+  "cta": "Read the full story"
+},
  {
   "title": "Seattle Sounders Acquire Dejan Joveljić",
   "subtitle": "Proven MLS goalscorer arrives from Sporting KC in $6 million cash trade as Designated Player",
@@ -32,14 +48,6 @@ const heroItems = [
   "subtitle": "Barcelona and Aston Villa join Tottenham in the race for the USMNT striker",
   "image": "https://assets.goal.com/images/v3/getty-2264578389/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORSHA3A====/GettyImages-2264578389.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "/news/folarin-balogun-transfer-race",
-  "external": false,
-  "cta": "Read the full story"
-},
-  {
-  "title": "Nashville Hits Another Gear, Vancouver Bounces Back",
-  "subtitle": "Historic 3-2 comeback for Nashville and a 5-0 statement from Vancouver define Matchday 22",
-  "image": "https://assets.goal.com/images/v3/blt47978711340c869e/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-15T230033.321.png?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/mls-matchday-22-nashville-vancouver",
   "external": false,
   "cta": "Read the full story"
 },
@@ -66,6 +74,24 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+    {
+  "id": 264,
+  "title": "Sporting KC Complete $4.5m Move for USYNT Midfielder Owen Wolff — Club Legend’s Son Comes Home",
+  "author": "Mio Ristić",
+  "date": "August 26, 2026",
+  "excerpt": "Sporting Kansas City acquire Owen Wolff from Austin FC for $4.5 million plus $3.1 million in add-ons — the largest U-22 cash trade in MLS history.",
+  "imageUrl": "https://i.ibb.co/rG89HZj4/01jfvndt3mzgqws5t022.webp",
+  "link": "news/owen-wolff-sporting-kc"
+},
+     {
+  "id": 263,
+  "title": "Rangers Agree $13 Million Deal for Portland Timbers Striker Kevin Kelsy",
+  "author": "Mio Ristić",
+  "date": "August 26, 2026",
+  "excerpt": "Rangers have agreed a $13 million plus add-ons deal to sign Venezuela international Kevin Kelsy from the Portland Timbers. Visa and medical still pending.",
+  "imageUrl": "https://i.ibb.co/QvHNgtP7/images-3.jpg",
+  "link": "news/rangers-agree-deal-timbers-kevin-kelsy"
+},
    {
   "id": 262,
  "title": "Seattle Sounders Acquire Dejan Joveljić in $6 Million Cash Trade — Proven Goalscorer Arrives as Designated Player",
@@ -75,25 +101,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/blt1f59038c75fb0191/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202024-11-30T215714.252.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   "link": "news/dejan-joveljic-seattle-arrival"
 },
-    {
-  "id": 261,
-  "title": "Folarin Balogun’s Next Move: Barcelona, Tottenham and the Race That Suddenly Got Serious",
-  "author": "Mio Ristić",
-  "date": "August 24, 2026",
-  "excerpt": "Barcelona and Aston Villa join Tottenham in the race for USMNT striker Folarin Balogun. Monaco seeking €50-60m as the window closes.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2264578389/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORSHA3A====/GettyImages-2264578389.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/folarin-balogun-transfer-race"
-},
-    {
-  "id": 260,
-  "title": "Nashville Finds Another Gear, Vancouver Responds, and the Race Takes Shape",
-  "author": "Mio Ristić",
-  "date": "August 24, 2026",
-  "excerpt": "Nashville SC’s historic stoppage-time 3-2 comeback and Vancouver’s 5-0 thrashing of Dallas define Matchday 22 as the Shield and Western Conference races take shape.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt47978711340c869e/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-15T230033.321.png?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "news/mls-matchday-22-nashville-vancouver"
-},
-      
+
   
     
  

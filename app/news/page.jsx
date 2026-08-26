@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 264,
+  "title": "Sporting KC Complete $4.5m Move for USYNT Midfielder Owen Wolff — Club Legend’s Son Comes Home",
+  "author": "Mio Ristić",
+  "date": "August 26, 2026",
+  "excerpt": "Sporting Kansas City acquire Owen Wolff from Austin FC for $4.5 million plus $3.1 million in add-ons — the largest U-22 cash trade in MLS history.",
+  "imageUrl": "https://i.ibb.co/rG89HZj4/01jfvndt3mzgqws5t022.webp",
+  "slug": "owen-wolff-sporting-kc"
+},
+    {
+  "id": 263,
+  "title": "Rangers Agree $13 Million Deal for Portland Timbers Striker Kevin Kelsy",
+  "author": "Mio Ristić",
+  "date": "August 26, 2026",
+  "excerpt": "Rangers have agreed a $13 million plus add-ons deal to sign Venezuela international Kevin Kelsy from the Portland Timbers. Visa and medical still pending.",
+  "imageUrl": "https://i.ibb.co/QvHNgtP7/images-3.jpg",
+  "slug": "rangers-agree-deal-timbers-kevin-kelsy"
+},
+    {
   "id": 262,
   "title": "Seattle Sounders Acquire Dejan Joveljić in $6 Million Cash Trade — Proven Goalscorer Arrives as Designated Player",
   "author": "Mio Ristić",
