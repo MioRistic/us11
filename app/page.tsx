@@ -43,23 +43,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-{
-  "title": "Seattle Sounders Acquire Dejan Joveljić",
-  "subtitle": "Proven MLS goalscorer arrives from Sporting KC in $6 million cash trade as Designated Player",
-  "image": "https://assets.goal.com/images/v3/getty-2264578389/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORSHA3A====/GettyImages-2264578389.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/dejan-joveljic-seattle-arrival",
-  "external": false,
-  "cta": "Read the full story"
-},
-{
-  "id": 250,
-  "title": "Seattle Sounders Acquire Dejan Joveljić in $6 Million Cash Trade — Proven Goalscorer Arrives as Designated Player",
-  "author": "Mio Ristić",
-  "date": "August 25, 2026",
-  "excerpt": "Seattle has acquired striker Dejan Joveljić from Sporting Kansas City in a $6 million cash-for-player trade. The Serbian international becomes a DP and signs through 2030 as SKC opens a roster spot and gains GAM for an aggressive rebuild.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2264578389/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORSHA3A====/GettyImages-2264578389.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "slug": "dejan-joveljic-seattle-arrival"
-},
+
 
 
  

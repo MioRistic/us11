@@ -68,7 +68,7 @@ const blogPosts: BlogPost[] = [
   "slug": "mls-hype-and-vice-womens-collection"
 },
  {
-  "id": 1033,
+  "id": 1030,
   "title": "MLS x YETI 2026: Official Team Coolers & Ramblers That Actually Keep Ice for Days",
   "author": "Mio Ristić",
   "date": "August 10, 2026",
