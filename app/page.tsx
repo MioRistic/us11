@@ -19,6 +19,14 @@ interface Post {
 const ACCENT = '#1d4ed8';
 
 const heroItems = [
+ {
+  "title": "Seattle Sounders Acquire Dejan Joveljić",
+  "subtitle": "Proven MLS goalscorer arrives from Sporting KC in $6 million cash trade as Designated Player",
+  "image": "https://assets.goal.com/images/v3/blt1f59038c75fb0191/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202024-11-30T215714.252.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/dejan-joveljic-seattle-arrival",
+  "external": false,
+  "cta": "Read the full story"
+},
   {
   "title": "Folarin Balogun’s Next Move",
   "subtitle": "Barcelona and Aston Villa join Tottenham in the race for the USMNT striker",
@@ -35,21 +43,22 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Seattle Sounders Move for Dejan Joveljić",
-  "subtitle": "$6m deal from Sporting KC as Sounders address their attacking issues with a proven MLS goalscorer",
-  "image": "https://assets.goal.com/images/v3/blt05a9554c11af15cd/crop/MM5DINRWHE5DENRSGY5G433XMU5DAORSGYZA====/GettyImages-2266561485.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/joveljic-seattle-sounders",
+{
+  "title": "Seattle Sounders Acquire Dejan Joveljić",
+  "subtitle": "Proven MLS goalscorer arrives from Sporting KC in $6 million cash trade as Designated Player",
+  "image": "https://assets.goal.com/images/v3/getty-2264578389/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORSHA3A====/GettyImages-2264578389.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/dejan-joveljic-seattle-arrival",
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Brenden Aaronson Signs New Leeds Deal Until 2029",
-  "subtitle": "USMNT midfielder commits long-term future to Elland Road after strong Premier League campaign",
-  "image": "https://assets.goal.com/images/v3/getty-2237710051/crop/MM5DEMBRGQ5DCMJTGM5G433XMU5DKMBTHIZTE===/GettyImages-2237710051.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/brenden-aaronson-leeds-deal",
-  "external": false,
-  "cta": "Read the full story"
+{
+  "id": 250,
+  "title": "Seattle Sounders Acquire Dejan Joveljić in $6 Million Cash Trade — Proven Goalscorer Arrives as Designated Player",
+  "author": "Mio Ristić",
+  "date": "August 25, 2026",
+  "excerpt": "Seattle has acquired striker Dejan Joveljić from Sporting Kansas City in a $6 million cash-for-player trade. The Serbian international becomes a DP and signs through 2030 as SKC opens a roster spot and gains GAM for an aggressive rebuild.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2264578389/crop/MM5DGNJQGA5DCOJWHE5G433XMU5DAORSHA3A====/GettyImages-2264578389.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "dejan-joveljic-seattle-arrival"
 },
 
 
@@ -73,6 +82,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+   {
+  "id": 262,
+ "title": "Seattle Sounders Acquire Dejan Joveljić in $6 Million Cash Trade — Proven Goalscorer Arrives as Designated Player",
+  "author": "Mio Ristić",
+  "date": "August 25, 2026",
+  "excerpt": "Seattle has acquired striker Dejan Joveljić from Sporting Kansas City in a $6 million cash-for-player trade. The Serbian international becomes a DP and signs through 2030 as SKC opens a roster spot and gains GAM for an aggressive rebuild.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt1f59038c75fb0191/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202024-11-30T215714.252.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "news/dejan-joveljic-seattle-arrival"
+},
     {
   "id": 261,
   "title": "Folarin Balogun’s Next Move: Barcelona, Tottenham and the Race That Suddenly Got Serious",
@@ -91,15 +109,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/blt47978711340c869e/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-15T230033.321.png?auto=webp&format=pjpg&width=2048&quality=60",
   "link": "news/mls-matchday-22-nashville-vancouver"
 },
-      {
-  "id": 259,
-  "title": "Seattle Sounders Move for Dejan Joveljić as Struggling Attack Forces Bold Summer Play",
-  "author": "Mio Ristić",
-  "date": "August 24, 2026",
-  "excerpt": "Seattle Sounders are finalizing a $6 million deal to acquire Designated Player Dejan Joveljić from Sporting Kansas City as injuries and low scoring force a major attack upgrade.",
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp1PSDRhOJodgMInN48AeYYVQicUXW4AArLkGkx_3fdDM6QePtOQbHzDyc&s=10",
-  "link": "news/joveljic-seattle-sounders"
-},
+      
   
     
  
@@ -107,6 +117,7 @@ const blogPosts: Post[] = [
 ];
 
 const jerseysBlogPosts: Post[] = [
+
    {
   "id": 1033,
   "title": "2026 MLS Archive Collection: Ranking the Retro Kits — From Grimace Purple to Mountain Power",
@@ -173,7 +184,7 @@ function HeroSlider() {
       <div className="absolute inset-0">
         {heroItems.map((s, i) => (
           <div key={i} className="absolute inset-0 transition-opacity duration-700" style={{ opacity: i === index ? 1 : 0 }}>
-            <Image src={s.image} alt={s.title} fill priority={i === 0} className="object-cover brightness-[0.62]" />
+            {s.image && <Image src={s.image} alt={s.title} fill priority={i === 0} className="object-cover brightness-[0.62]" />}
           </div>
         ))}
       </div>

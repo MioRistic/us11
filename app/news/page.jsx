@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 262,
+  "title": "Seattle Sounders Acquire Dejan Joveljić in $6 Million Cash Trade — Proven Goalscorer Arrives as Designated Player",
+  "author": "Mio Ristić",
+  "date": "August 25, 2026",
+  "excerpt": "Seattle has acquired striker Dejan Joveljić from Sporting Kansas City in a $6 million cash-for-player trade. The Serbian international becomes a DP and signs through 2030 as SKC opens a roster spot and gains GAM for an aggressive rebuild.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt1f59038c75fb0191/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202024-11-30T215714.252.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "dejan-joveljic-seattle-arrival"
+},
+    {
   "id": 261,
   "title": "Folarin Balogun’s Next Move: Barcelona, Tottenham and the Race That Suddenly Got Serious",
   "author": "Mio Ristić",
