@@ -11,6 +11,15 @@ import Us11 from '../../public/11.png';
 
 const Blog = () => {
   const blogPosts = [
+   {
+  "id": 266,
+  "title": "Red Bulls Lock Up Julian Hall — and Buy Time They Almost Ran Out Of",
+  "author": "Mio Ristić",
+  "date": "August 28, 2026",
+  "excerpt": "New York Red Bulls sign 18-year-old homegrown striker Julian Hall to a four-year U-22 Initiative deal through 2029-30 — protecting an asset they were about to lose for free.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt97d0b22debfc9406/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-27T141608.615.png?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "julian-hall-red-bulls-extension"
+},
     {
   "id": 265,
   "title": "Inter Miami Appoint Kily González — What the Rosario Connection Actually Brings",
