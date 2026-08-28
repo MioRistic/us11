@@ -11,6 +11,15 @@ import Us11 from '../../public/11.png';
 
 const Blog = () => {
   const blogPosts = [
+    {
+  "id": 267,
+  "title": "Columbus Bought Out Daniel Gazdag. New England Is Ready to Take the Version Philadelphia Used to Have.",
+  "author": "Mio Ristić",
+  "date": "August 28, 2026",
+  "excerpt": "The Crew bought out Gazdag’s DP contract. Sources say New England are finalizing a signing — without using a Designated Player slot.",
+  "imageUrl": "https://i.ibb.co/67G3qLs1/Getty-Images-2156665659-2048x1365.webp",
+  "slug": "daniel-gazdag-new-england"
+},
    {
   "id": 266,
   "title": "Red Bulls Lock Up Julian Hall — and Buy Time They Almost Ran Out Of",

@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Crew Buy Out Gazdag as Revolution Finalize Signing",
+  "subtitle": "Not a DP in New England — Columbus open a roster slot before the window closes",
+  "image": "https://i.ibb.co/67G3qLs1/Getty-Images-2156665659-2048x1365.webp",
+  "link": "/news/daniel-gazdag-new-england",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Julian Hall Signs Four-Year Red Bulls Extension",
   "subtitle": "Youngest American on a U-22 deal — New York just bought time and leverage",
   "image": "https://assets.goal.com/images/v3/blt97d0b22debfc9406/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-27T141608.615.png?auto=webp&format=pjpg&width=2048&quality=60",
@@ -51,15 +59,6 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
- {
-  "title": "Seattle Sounders Acquire Dejan Joveljić",
-  "subtitle": "Proven MLS goalscorer arrives from Sporting KC in $6 million cash trade as Designated Player",
-  "image": "https://assets.goal.com/images/v3/blt1f59038c75fb0191/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202024-11-30T215714.252.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/dejan-joveljic-seattle-arrival",
-  "external": false,
-  "cta": "Read the full story"
-},
-  
 
 
  
@@ -83,6 +82,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
    {
+  "id": 267,
+  "title": "Columbus Bought Out Daniel Gazdag. New England Is Ready to Take the Version Philadelphia Used to Have.",
+  "author": "Mio Ristić",
+  "date": "August 28, 2026",
+  "excerpt": "The Crew bought out Gazdag’s DP contract. Sources say New England are finalizing a signing — without using a Designated Player slot.",
+  "imageUrl": "https://i.ibb.co/67G3qLs1/Getty-Images-2156665659-2048x1365.webp",
+  "link": "news/daniel-gazdag-new-england"
+},
+   {
   "id": 266,
   "title": "Red Bulls Lock Up Julian Hall — and Buy Time They Almost Ran Out Of",
   "author": "Mio Ristić",
@@ -100,15 +108,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-1736243127/crop/MM5DGNZQGA5DEMBYGE5G433XMU5DAORUGI======/GettyImages-1736243127.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   "link": "news/kily-gonzalez-inter-miami"
 },
-    {
-  "id": 264,
-  "title": "Sporting KC Complete $4.5m Move for USYNT Midfielder Owen Wolff — Club Legend’s Son Comes Home",
-  "author": "Mio Ristić",
-  "date": "August 26, 2026",
-  "excerpt": "Sporting Kansas City acquire Owen Wolff from Austin FC for $4.5 million plus $3.1 million in add-ons — the largest U-22 cash trade in MLS history.",
-  "imageUrl": "https://i.ibb.co/rG89HZj4/01jfvndt3mzgqws5t022.webp",
-  "link": "news/owen-wolff-sporting-kc"
-},
+  
 
  
   
