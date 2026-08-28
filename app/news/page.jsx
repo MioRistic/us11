@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 265,
+  "title": "Inter Miami Appoint Kily González — What the Rosario Connection Actually Brings",
+  "author": "Mio Ristić",
+  "date": "August 28, 2026",
+  "excerpt": "Inter Miami have appointed Cristian “Kily” González as head coach. A look at his playing career, 32.5% coaching record, and what he actually brings a slumping Messi-led roster.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-1736243127/crop/MM5DGNZQGA5DEMBYGE5G433XMU5DAORUGI======/GettyImages-1736243127.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "kily-gonzalez-inter-miami"
+},
+    {
   "id": 264,
   "title": "Sporting KC Complete $4.5m Move for USYNT Midfielder Owen Wolff — Club Legend’s Son Comes Home",
   "author": "Mio Ristić",

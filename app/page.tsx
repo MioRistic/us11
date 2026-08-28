@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Inter Miami Appoint Kily González",
+  "subtitle": "Third Argentine coach of 2026 arrives mid-slump — what he actually brings Messi’s roster",
+  "image": "https://assets.goal.com/images/v3/getty-1736243127/crop/MM5DGNZQGA5DEMBYGE5G433XMU5DAORUGI======/GettyImages-1736243127.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/kily-gonzalez-inter-miami",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Sporting KC Sign Owen Wolff from Austin",
   "subtitle": "$4.5m + $3.1m add-ons — largest U-22 cash trade in MLS history as club legend’s son returns home",
   "image": "https://i.ibb.co/rG89HZj4/01jfvndt3mzgqws5t022.webp",
@@ -74,6 +82,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+     {
+  "id": 265,
+  "title": "Inter Miami Appoint Kily González — What the Rosario Connection Actually Brings",
+  "author": "Mio Ristić",
+  "date": "August 28, 2026",
+  "excerpt": "Inter Miami have appointed Cristian “Kily” González as head coach. A look at his playing career, 32.5% coaching record, and what he actually brings a slumping Messi-led roster.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-1736243127/crop/MM5DGNZQGA5DEMBYGE5G433XMU5DAORUGI======/GettyImages-1736243127.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "news/kily-gonzalez-inter-miami"
+},
     {
   "id": 264,
   "title": "Sporting KC Complete $4.5m Move for USYNT Midfielder Owen Wolff — Club Legend’s Son Comes Home",
@@ -92,17 +109,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/QvHNgtP7/images-3.jpg",
   "link": "news/rangers-agree-deal-timbers-kevin-kelsy"
 },
-   {
-  "id": 262,
- "title": "Seattle Sounders Acquire Dejan Joveljić in $6 Million Cash Trade — Proven Goalscorer Arrives as Designated Player",
-  "author": "Mio Ristić",
-  "date": "August 25, 2026",
-  "excerpt": "Seattle has acquired striker Dejan Joveljić from Sporting Kansas City in a $6 million cash-for-player trade. The Serbian international becomes a DP and signs through 2030 as SKC opens a roster spot and gains GAM for an aggressive rebuild.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt1f59038c75fb0191/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202024-11-30T215714.252.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "news/dejan-joveljic-seattle-arrival"
-},
-
-  
+   
     
  
   
