@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 269,
+  "title": "Lionel Messi Retires From Argentina, Continues at Inter Miami Through 2028",
+  "author": "Mio Ristić",
+  "date": "September 1, 2026",
+  "excerpt": "Messi has stepped away from the Argentina national team after the 2026 World Cup. His Inter Miami contract still runs through 2028 — Miami is now the only place left to watch him play.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt17f9a8f2fd6b8229/GOAL_-_Blank_WEB_-_Facebook_-_2023-08-31T080917.696.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  "slug": "messi-retires-argentina-inter-miami"
+},
+    {
   "id": 268,
   "title": "Everton Reach Agreement With Monaco for Folarin Balogun as Premier League Return Nears",
   "author": "Mio Ristić",

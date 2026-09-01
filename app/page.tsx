@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Messi Retires From Argentina",
+  "subtitle": "The international chapter is closed. Inter Miami through 2028 is now the only stage left",
+  "image": "https://assets.goal.com/images/v3/blt17f9a8f2fd6b8229/GOAL_-_Blank_WEB_-_Facebook_-_2023-08-31T080917.696.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  "link": "/news/messi-retires-argentina-inter-miami",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Everton Close In on Balogun",
   "subtitle": "USMNT striker agrees Premier League return from Monaco in a deal worth around €45m plus add-ons",
   "image": "https://assets.goal.com/images/v3/blt14fc8dda9e344682/crop/MM5DEMZYGQ5DCMZUGE5G433XMU5DGOBSHIYTGMA=/GettyImages-2279226293.jpg?auto=webp&format=pjpg&width=3840&quality=60",
@@ -51,16 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Sporting KC Sign Owen Wolff from Austin",
-  "subtitle": "$4.5m + $3.1m add-ons — largest U-22 cash trade in MLS history as club legend’s son returns home",
-  "image": "https://i.ibb.co/rG89HZj4/01jfvndt3mzgqws5t022.webp",
-  "link": "/news/owen-wolff-sporting-kc",
-  "external": false,
-  "cta": "Read the full story"
-},
   
- 
 
 ];
 
