@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 268,
+  "title": "Everton Reach Agreement With Monaco for Folarin Balogun as Premier League Return Nears",
+  "author": "Mio Ristić",
+  "date": "September 1, 2026",
+  "excerpt": "Everton and Monaco have agreed a deal for USMNT striker Folarin Balogun worth around €45 million plus add-ons. A medical is expected on deadline day.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt14fc8dda9e344682/crop/MM5DEMZYGQ5DCMZUGE5G433XMU5DGOBSHIYTGMA=/GettyImages-2279226293.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "balogun-everton-monaco"
+},
+    {
   "id": 267,
   "title": "Columbus Bought Out Daniel Gazdag. New England Is Ready to Take the Version Philadelphia Used to Have.",
   "author": "Mio Ristić",

@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Everton Close In on Balogun",
+  "subtitle": "USMNT striker agrees Premier League return from Monaco in a deal worth around €45m plus add-ons",
+  "image": "https://assets.goal.com/images/v3/blt14fc8dda9e344682/crop/MM5DEMZYGQ5DCMZUGE5G433XMU5DGOBSHIYTGMA=/GettyImages-2279226293.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/balogun-everton-monaco",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Crew Buy Out Gazdag as Revolution Finalize Signing",
   "subtitle": "Not a DP in New England — Columbus open a roster slot before the window closes",
   "image": "https://i.ibb.co/67G3qLs1/Getty-Images-2156665659-2048x1365.webp",
@@ -51,17 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Rangers Agree $13m Deal for Kevin Kelsy",
-  "subtitle": "Portland Timbers striker set for Ibrox in club-record sale — second-most expensive Rangers signing since 2000",
-  "image": "https://i.ibb.co/QvHNgtP7/images-3.jpg",
-  "link": "/news/rangers-agree-deal-timbers-kevin-kelsy",
-  "external": false,
-  "cta": "Read the full story"
-},
-
-
- 
+  
  
 
 ];
@@ -81,6 +79,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+    {
+  "id": 268,
+  "title": "Everton Reach Agreement With Monaco for Folarin Balogun as Premier League Return Nears",
+  "author": "Mio Ristić",
+  "date": "September 1, 2026",
+  "excerpt": "Everton and Monaco have agreed a deal for USMNT striker Folarin Balogun worth around €45 million plus add-ons. A medical is expected on deadline day.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt14fc8dda9e344682/crop/MM5DEMZYGQ5DCMZUGE5G433XMU5DGOBSHIYTGMA=/GettyImages-2279226293.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/balogun-everton-monaco"
+},
    {
   "id": 267,
   "title": "Columbus Bought Out Daniel Gazdag. New England Is Ready to Take the Version Philadelphia Used to Have.",
@@ -99,16 +106,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/blt97d0b22debfc9406/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-27T141608.615.png?auto=webp&format=pjpg&width=2048&quality=60",
   "link": "news/julian-hall-red-bulls-extension"
 },
-     {
-  "id": 265,
-  "title": "Inter Miami Appoint Kily González — What the Rosario Connection Actually Brings",
-  "author": "Mio Ristić",
-  "date": "August 28, 2026",
-  "excerpt": "Inter Miami have appointed Cristian “Kily” González as head coach. A look at his playing career, 32.5% coaching record, and what he actually brings a slumping Messi-led roster.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-1736243127/crop/MM5DGNZQGA5DEMBYGE5G433XMU5DAORUGI======/GettyImages-1736243127.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "news/kily-gonzalez-inter-miami"
-},
-  
+    
 
  
   
