@@ -50,6 +50,15 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 1034,
+  "title": "Claim Your Club. Claim Your City. Inside the MLS x Paper Planes x Vs. Everybody Drop",
+  "author": "Mio Ristić",
+  "date": "September 4, 2026",
+  "excerpt": "The limited City Is Mine collection is live with tees, hoodies, work jackets, hats and scarves for nine MLS clubs. Claim your club. Claim your city.",
+  "imageUrl": "https://www.mlsstore.com/content/ws/all/2fd26dec-bf1d-4dfc-89b3-0d678534ceee__2400X1200.jpg?w=2400",
+  "slug": "mls-city-is-mine-claim-your-club"
+},
+  {
   "id": 1033,
   "title": "2026 MLS Archive Collection: Ranking the Retro Kits — From Grimace Purple to Mountain Power",
   "author": "Mio Ristić",

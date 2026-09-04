@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Claim Your Club. Claim Your City.",
+  "subtitle": "Paper Planes x Vs. Everybody x MLS launch the City Is Mine collection for nine clubs",
+  "image": "https://www.mlsstore.com/content/ws/all/2fd26dec-bf1d-4dfc-89b3-0d678534ceee__2400X1200.jpg?w=2400",
+  "link": "/blog/mls-city-is-mine-claim-your-club",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Chicago Fire Sign Noah Allen",
   "subtitle": "Inter Miami homegrown joins the Fire on loan with a permanent option after European interest stalled",
   "image": "https://assets.goal.com/images/v3/getty-2231738550/crop/MM5DGNZVG45DEMJRGM5G433XMU5DAORRHE3A====/GettyImages-2231738550.jpg?auto=webp&format=pjpg&width=3840&quality=60",
@@ -48,14 +56,6 @@ const heroItems = [
   "subtitle": "Not a DP in New England — Columbus open a roster slot before the window closes",
   "image": "https://i.ibb.co/67G3qLs1/Getty-Images-2156665659-2048x1365.webp",
   "link": "/news/daniel-gazdag-new-england",
-  "external": false,
-  "cta": "Read the full story"
-},
-  {
-  "title": "Julian Hall Signs Four-Year Red Bulls Extension",
-  "subtitle": "Youngest American on a U-22 deal — New York just bought time and leverage",
-  "image": "https://assets.goal.com/images/v3/blt97d0b22debfc9406/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-27T141608.615.png?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/julian-hall-red-bulls-extension",
   "external": false,
   "cta": "Read the full story"
 },
@@ -110,8 +110,16 @@ const blogPosts: Post[] = [
 ];
 
 const jerseysBlogPosts: Post[] = [
-
-   {
+  {
+  "id": 1034,
+  "title": "Claim Your Club. Claim Your City. Inside the MLS x Paper Planes x Vs. Everybody Drop",
+  "author": "Mio Ristić",
+  "date": "September 4, 2026",
+  "excerpt": "The limited City Is Mine collection is live with tees, hoodies, work jackets, hats and scarves for nine MLS clubs. Claim your club. Claim your city.",
+  "imageUrl": "https://www.mlsstore.com/content/ws/all/2fd26dec-bf1d-4dfc-89b3-0d678534ceee__2400X1200.jpg?w=2400",
+  "link": "/blog/mls-city-is-mine-claim-your-club"
+},
+ {
   "id": 1033,
   "title": "2026 MLS Archive Collection: Ranking the Retro Kits — From Grimace Purple to Mountain Power",
   "author": "Mio Ristić",
@@ -129,16 +137,7 @@ const jerseysBlogPosts: Post[] = [
   "imageUrl": "https://www.mlsstore.com/content/ws/all/a92d7370-fdf2-438d-b9b8-2e35981037df__2055X750.jpg",
   "link": "blog/inter-miami-cenit-2026-third-jersey"
 },
-  {
-  "id": 228,
-  "title": "2026 MLS All-Star Jersey: What’s Selling and Where to Buy",
-  "author": "Mio Ristić",
-  "date": "July 30, 2026",
-  "excerpt": "The blue adidas Replica jersey is the clear best-seller after the All-Star Game in Charlotte. Full guide to prices, Replica vs Authentic, and where to buy.",
-  "imageUrl": "https://www.mlsstore.com/content/ws/all/e4e8612e-2d5c-44f1-b65b-8d94751127eb__480X639.jpg?w=480",
-  "link": "blog/2026-mls-all-star-jersey-where-to-buy"
-},
- 
+
  
 ];
 
