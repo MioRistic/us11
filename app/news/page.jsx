@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 270,
+  "title": "Chicago Fire Sign Noah Allen on Loan From Inter Miami as Europe Wait Continues",
+  "author": "Mio Ristić",
+  "date": "September 4, 2026",
+  "excerpt": "Inter Miami loan academy product Noah Allen to Chicago Fire through 2026, with a permanent option attached after European clubs monitored him for months.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2231738550/crop/MM5DGNZVG45DEMJRGM5G433XMU5DAORRHE3A====/GettyImages-2231738550.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "noah-allen-chicago-fire"
+},
+    {
   "id": 269,
   "title": "Lionel Messi Retires From Argentina, Continues at Inter Miami Through 2028",
   "author": "Mio Ristić",

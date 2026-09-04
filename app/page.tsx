@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Chicago Fire Sign Noah Allen",
+  "subtitle": "Inter Miami homegrown joins the Fire on loan with a permanent option after European interest stalled",
+  "image": "https://assets.goal.com/images/v3/getty-2231738550/crop/MM5DGNZVG45DEMJRGM5G433XMU5DAORRHE3A====/GettyImages-2231738550.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/noah-allen-chicago-fire",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Messi Retires From Argentina",
   "subtitle": "The international chapter is closed. Inter Miami through 2028 is now the only stage left",
   "image": "https://assets.goal.com/images/v3/blt17f9a8f2fd6b8229/GOAL_-_Blank_WEB_-_Facebook_-_2023-08-31T080917.696.jpg?quality=60&auto=webp&format=pjpg&width=1920",
@@ -51,16 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Inter Miami Appoint Kily González",
-  "subtitle": "Third Argentine coach of 2026 arrives mid-slump — what he actually brings Messi’s roster",
-  "image": "https://assets.goal.com/images/v3/getty-1736243127/crop/MM5DGNZQGA5DEMBYGE5G433XMU5DAORUGI======/GettyImages-1736243127.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/kily-gonzalez-inter-miami",
-  "external": false,
-  "cta": "Read the full story"
-},
-  
-
+ 
 ];
 
 const staffPicks = [
@@ -78,6 +77,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+   {
+  "id": 270,
+  "title": "Chicago Fire Sign Noah Allen on Loan From Inter Miami as Europe Wait Continues",
+  "author": "Mio Ristić",
+  "date": "September 4, 2026",
+  "excerpt": "Inter Miami loan academy product Noah Allen to Chicago Fire through 2026, with a permanent option attached after European clubs monitored him for months.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2231738550/crop/MM5DGNZVG45DEMJRGM5G433XMU5DAORRHE3A====/GettyImages-2231738550.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "news/noah-allen-chicago-fire"
+},
     {
   "id": 268,
   "title": "Everton Reach Agreement With Monaco for Folarin Balogun as Premier League Return Nears",
@@ -96,17 +104,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/67G3qLs1/Getty-Images-2156665659-2048x1365.webp",
   "link": "news/daniel-gazdag-new-england"
 },
-   {
-  "id": 266,
-  "title": "Red Bulls Lock Up Julian Hall — and Buy Time They Almost Ran Out Of",
-  "author": "Mio Ristić",
-  "date": "August 28, 2026",
-  "excerpt": "New York Red Bulls sign 18-year-old homegrown striker Julian Hall to a four-year U-22 Initiative deal through 2029-30 — protecting an asset they were about to lose for free.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt97d0b22debfc9406/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-27T141608.615.png?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "news/julian-hall-red-bulls-extension"
-},
-    
-
+   
  
   
 ];
