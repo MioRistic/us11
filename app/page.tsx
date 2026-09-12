@@ -20,6 +20,22 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "How Nashville SC Can Clinch.",
+  subtitle: "First in the East on 53 points is not a playoff berth. Here is what Saturday in Miami actually does.",
+  image: "https://assets.goal.com/images/v3/blt47978711340c869e/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-15T230033.321.png?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/nashville-sc-clinch-playoffs",
+  external: false,
+  cta: "Read the full story"
+},
+{
+  title: "AC Boise Jumps to USL Championship in 2027 After One League One Season",
+  subtitle: "Athletic Club Boise leaves USL League One after one sold-out season, joins the Championship in 2027, and adds 3,000 seats at Expo Idaho.",
+  image: "https://cdn1.sportngin.com/attachments/photo/6128-211830812/Crest-Reveal-Video-Thumbnail_large.png",
+  link: "/news/ac-boise-usl-championship-2027",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   "title": "Claim Your Club. Claim Your City.",
   "subtitle": "Paper Planes x Vs. Everybody x MLS launch the City Is Mine collection for nine clubs",
   "image": "https://www.mlsstore.com/content/ws/all/2fd26dec-bf1d-4dfc-89b3-0d678534ceee__2400X1200.jpg?w=2400",
@@ -43,22 +59,8 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Everton Close In on Balogun",
-  "subtitle": "USMNT striker agrees Premier League return from Monaco in a deal worth around €45m plus add-ons",
-  "image": "https://assets.goal.com/images/v3/blt14fc8dda9e344682/crop/MM5DEMZYGQ5DCMZUGE5G433XMU5DGOBSHIYTGMA=/GettyImages-2279226293.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/balogun-everton-monaco",
-  "external": false,
-  "cta": "Read the full story"
-},
-  {
-  "title": "Crew Buy Out Gazdag as Revolution Finalize Signing",
-  "subtitle": "Not a DP in New England — Columbus open a roster slot before the window closes",
-  "image": "https://i.ibb.co/67G3qLs1/Getty-Images-2156665659-2048x1365.webp",
-  "link": "/news/daniel-gazdag-new-england",
-  "external": false,
-  "cta": "Read the full story"
-},
+ 
+  
  
 ];
 
@@ -77,6 +79,24 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+  {
+  id: 1036,
+  title: "How Nashville SC Can Clinch an MLS Playoff Spot",
+  author: "Mio Ristic",
+  date: "September 12, 2026",
+  excerpt: "Nashville lead the East on 53 points with 10 games left. A win at Inter Miami gets them to 56 — not a locked berth. Here is the math.",
+  imageUrl: "https://assets.goal.com/images/v3/blt47978711340c869e/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-15T230033.321.png?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/nashville-sc-clinch-playoffs"
+},
+  {
+  "id": 271,
+  "title": "AC Boise Jumps to USL Championship in 2027 After One League One Season",
+  "author": "Mio Ristić",
+  "date": "September 9, 2026",
+  "excerpt": "Athletic Club Boise leaves USL League One after one sold-out season, joins the Championship in 2027, and adds 3,000 seats at Expo Idaho.",
+  "imageUrl": "https://cdn1.sportngin.com/attachments/photo/6128-211830812/Crest-Reveal-Video-Thumbnail_large.png",
+  "link": "/news/ac-boise-usl-championship-2027"
+},
    {
   "id": 270,
   "title": "Chicago Fire Sign Noah Allen on Loan From Inter Miami as Europe Wait Continues",
@@ -86,39 +106,22 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2231738550/crop/MM5DGNZVG45DEMJRGM5G433XMU5DAORRHE3A====/GettyImages-2231738550.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "news/noah-allen-chicago-fire"
 },
-    {
-  "id": 268,
-  "title": "Everton Reach Agreement With Monaco for Folarin Balogun as Premier League Return Nears",
-  "author": "Mio Ristić",
-  "date": "September 1, 2026",
-  "excerpt": "Everton and Monaco have agreed a deal for USMNT striker Folarin Balogun worth around €45 million plus add-ons. A medical is expected on deadline day.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt14fc8dda9e344682/crop/MM5DEMZYGQ5DCMZUGE5G433XMU5DGOBSHIYTGMA=/GettyImages-2279226293.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/balogun-everton-monaco"
-},
-   {
-  "id": 267,
-  "title": "Columbus Bought Out Daniel Gazdag. New England Is Ready to Take the Version Philadelphia Used to Have.",
-  "author": "Mio Ristić",
-  "date": "August 28, 2026",
-  "excerpt": "The Crew bought out Gazdag’s DP contract. Sources say New England are finalizing a signing — without using a Designated Player slot.",
-  "imageUrl": "https://i.ibb.co/67G3qLs1/Getty-Images-2156665659-2048x1365.webp",
-  "link": "news/daniel-gazdag-new-england"
-},
+   
    
  
   
 ];
 
 const jerseysBlogPosts: Post[] = [
-  {
-  "id": 1034,
-  "title": "Claim Your Club. Claim Your City. Inside the MLS x Paper Planes x Vs. Everybody Drop",
-  "author": "Mio Ristić",
-  "date": "September 4, 2026",
-  "excerpt": "The limited City Is Mine collection is live with tees, hoodies, work jackets, hats and scarves for nine MLS clubs. Claim your club. Claim your city.",
-  "imageUrl": "https://www.mlsstore.com/content/ws/all/2fd26dec-bf1d-4dfc-89b3-0d678534ceee__2400X1200.jpg?w=2400",
-  "link": "/blog/mls-city-is-mine-claim-your-club"
-},
+   {
+    "id": 1034,
+    "title": "Claim Your Club. Claim Your City. Inside the MLS x Paper Planes x Vs. Everybody Drop",
+    "author": "Mio Ristić",
+    "date": "September 4, 2026",
+    "excerpt": "The limited City Is Mine collection is live with tees, hoodies, work jackets, hats and scarves for nine MLS clubs. Claim your club. Claim your city.",
+    "imageUrl": "https://www.mlsstore.com/content/ws/all/2fd26dec-bf1d-4dfc-89b3-0d678534ceee__2400X1200.jpg?w=2400",
+    "link": "/blog/mls-city-is-mine-claim-your-club"
+  },
  {
   "id": 1033,
   "title": "2026 MLS Archive Collection: Ranking the Retro Kits — From Grimace Purple to Mountain Power",

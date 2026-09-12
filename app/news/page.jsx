@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  id: 272,
+  title: "How Nashville SC Can Clinch an MLS Playoff Spot",
+  author: "Mio Ristic",
+  date: "September 12, 2026",
+  excerpt: "Nashville lead the East on 53 points with 10 games left. A win at Inter Miami gets them to 56 — not a locked berth. Here is the math.",
+  imageUrl: "https://assets.goal.com/images/v3/blt47978711340c869e/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-15T230033.321.png?auto=webp&format=pjpg&width=2048&quality=60",
+  slug: "nashville-sc-clinch-playoffs"
+},
+    {
+  "id": 271,
+  "title": "AC Boise Jumps to USL Championship in 2027 After One League One Season",
+  "author": "Mio Ristić",
+  "date": "September 9, 2026",
+  "excerpt": "Athletic Club Boise leaves USL League One after one sold-out season, joins the Championship in 2027, and adds 3,000 seats at Expo Idaho.",
+  "imageUrl": "https://cdn1.sportngin.com/attachments/photo/6128-211830812/Crest-Reveal-Video-Thumbnail_large.png",
+  "slug": "ac-boise-usl-championship-2027"
+},
+    {
   "id": 270,
   "title": "Chicago Fire Sign Noah Allen on Loan From Inter Miami as Europe Wait Continues",
   "author": "Mio Ristić",
