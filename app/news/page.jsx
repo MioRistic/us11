@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  id: 273,
+  title: "Cavan Sullivan Stays Hot With Two Goals as a USMNT Call Beckons",
+  author: "Mio Ristic",
+  date: "September 14, 2026",
+  excerpt: "The 16-year-old scored twice in a 5-0 Union win at San Diego. First MLS brace. Pochettino names a roster this week.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2295138136/crop/MM5DGOJYGQ5DEMRUGE5G433XMU5DGNZRHIZDONI=/GettyImages-2295138136.jpg?quality=60&auto=webp&format=pjpg&width=1280",
+  slug: "cavan-sullivan-usmnt-call"
+},
+    {
   id: 272,
   title: "How Nashville SC Can Clinch an MLS Playoff Spot",
   author: "Mio Ristic",

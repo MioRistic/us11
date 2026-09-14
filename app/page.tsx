@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "Sullivan Keeps Scoring.",
+  subtitle: "A first MLS brace in San Diego, and a USMNT roster due this week",
+  image: "https://assets.goal.com/images/v3/getty-2295138136/crop/MM5DGOJYGQ5DEMRUGE5G433XMU5DGNZRHIZDONI=/GettyImages-2295138136.jpg?quality=60&auto=webp&format=pjpg&width=1280",
+  link: "/news/cavan-sullivan-usmnt-call",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "How Nashville SC Can Clinch.",
   subtitle: "First in the East on 53 points is not a playoff berth. Here is what Saturday in Miami actually does.",
   image: "https://assets.goal.com/images/v3/blt47978711340c869e/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-15T230033.321.png?auto=webp&format=pjpg&width=2048&quality=60",
@@ -51,15 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Messi Retires From Argentina",
-  "subtitle": "The international chapter is closed. Inter Miami through 2028 is now the only stage left",
-  "image": "https://assets.goal.com/images/v3/blt17f9a8f2fd6b8229/GOAL_-_Blank_WEB_-_Facebook_-_2023-08-31T080917.696.jpg?quality=60&auto=webp&format=pjpg&width=1920",
-  "link": "/news/messi-retires-argentina-inter-miami",
-  "external": false,
-  "cta": "Read the full story"
-},
- 
+
   
  
 ];
@@ -79,6 +79,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+    {
+  id: 273,
+  title: "Cavan Sullivan Stays Hot With Two Goals as a USMNT Call Beckons",
+  author: "Mio Ristic",
+  date: "September 14, 2026",
+  excerpt: "The 16-year-old scored twice in a 5-0 Union win at San Diego. First MLS brace. Pochettino names a roster this week.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2295138136/crop/MM5DGOJYGQ5DEMRUGE5G433XMU5DGNZRHIZDONI=/GettyImages-2295138136.jpg?quality=60&auto=webp&format=pjpg&width=1280",
+  link: "/news/cavan-sullivan-usmnt-call"
+},
   {
   id: 1036,
   title: "How Nashville SC Can Clinch an MLS Playoff Spot",
@@ -96,15 +105,6 @@ const blogPosts: Post[] = [
   "excerpt": "Athletic Club Boise leaves USL League One after one sold-out season, joins the Championship in 2027, and adds 3,000 seats at Expo Idaho.",
   "imageUrl": "https://cdn1.sportngin.com/attachments/photo/6128-211830812/Crest-Reveal-Video-Thumbnail_large.png",
   "link": "/news/ac-boise-usl-championship-2027"
-},
-   {
-  "id": 270,
-  "title": "Chicago Fire Sign Noah Allen on Loan From Inter Miami as Europe Wait Continues",
-  "author": "Mio Ristić",
-  "date": "September 4, 2026",
-  "excerpt": "Inter Miami loan academy product Noah Allen to Chicago Fire through 2026, with a permanent option attached after European clubs monitored him for months.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2231738550/crop/MM5DGNZVG45DEMJRGM5G433XMU5DAORRHE3A====/GettyImages-2231738550.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "news/noah-allen-chicago-fire"
 },
    
    
