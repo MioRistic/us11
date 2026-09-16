@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "Luna’s Season Is Over.",
+  subtitle: "Torn meniscus. Repair coming. The RSL creator says he will see the field next year.",
+  image: "https://assets.goal.com/images/v3/getty-2277148145/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2277148145.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/diego-luna-meniscus-rsl",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "Sullivan Keeps Scoring.",
   subtitle: "A first MLS brace in San Diego, and a USMNT roster due this week",
   image: "https://assets.goal.com/images/v3/getty-2295138136/crop/MM5DGOJYGQ5DEMRUGE5G433XMU5DGNZRHIZDONI=/GettyImages-2295138136.jpg?quality=60&auto=webp&format=pjpg&width=1280",
@@ -51,14 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Chicago Fire Sign Noah Allen",
-  "subtitle": "Inter Miami homegrown joins the Fire on loan with a permanent option after European interest stalled",
-  "image": "https://assets.goal.com/images/v3/getty-2231738550/crop/MM5DGNZVG45DEMJRGM5G433XMU5DAORRHE3A====/GettyImages-2231738550.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/noah-allen-chicago-fire",
-  "external": false,
-  "cta": "Read the full story"
-},
+
 
   
  
@@ -79,6 +80,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+  {
+  id: 274,
+  title: "Diego Luna Will Miss the Rest of the MLS Season With a Torn Meniscus",
+  author: "Mio Ristic",
+  date: "September 16, 2026",
+  excerpt: "The RSL and USMNT midfielder posted that a torn meniscus needs repair. His 2026 season is over. He says he will be back next year.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2277148145/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2277148145.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/diego-luna-meniscus-rsl"
+},
     {
   id: 273,
   title: "Cavan Sullivan Stays Hot With Two Goals as a USMNT Call Beckons",
@@ -97,17 +107,7 @@ const blogPosts: Post[] = [
   imageUrl: "https://assets.goal.com/images/v3/blt47978711340c869e/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-15T230033.321.png?auto=webp&format=pjpg&width=2048&quality=60",
   link: "/news/nashville-sc-clinch-playoffs"
 },
-  {
-  "id": 271,
-  "title": "AC Boise Jumps to USL Championship in 2027 After One League One Season",
-  "author": "Mio Ristić",
-  "date": "September 9, 2026",
-  "excerpt": "Athletic Club Boise leaves USL League One after one sold-out season, joins the Championship in 2027, and adds 3,000 seats at Expo Idaho.",
-  "imageUrl": "https://cdn1.sportngin.com/attachments/photo/6128-211830812/Crest-Reveal-Video-Thumbnail_large.png",
-  "link": "/news/ac-boise-usl-championship-2027"
-},
-   
-   
+
  
   
 ];
@@ -119,7 +119,7 @@ const jerseysBlogPosts: Post[] = [
     "author": "Mio Ristić",
     "date": "September 4, 2026",
     "excerpt": "The limited City Is Mine collection is live with tees, hoodies, work jackets, hats and scarves for nine MLS clubs. Claim your club. Claim your city.",
-    "imageUrl": "https://www.mlsstore.com/content/ws/all/2fd26dec-bf1d-4dfc-89b3-0d678534ceee__2400X1200.jpg?w=2400",
+    "imageUrl": "https://assets.goal.com/images/v3/getty-2277148145/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2277148145.jpg?auto=webp&format=pjpg&width=2048&quality=60",
     "link": "/blog/mls-city-is-mine-claim-your-club"
   },
  {

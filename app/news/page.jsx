@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  id: 274,
+  title: "Diego Luna Will Miss the Rest of the MLS Season With a Torn Meniscus",
+  author: "Mio Ristic",
+  date: "September 16, 2026",
+  excerpt: "The RSL and USMNT midfielder posted that a torn meniscus needs repair. His 2026 season is over. He says he will be back next year.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2277148145/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2277148145.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  slug: "diego-luna-meniscus-rsl"
+},
+    {
   id: 273,
   title: "Cavan Sullivan Stays Hot With Two Goals as a USMNT Call Beckons",
   author: "Mio Ristic",
