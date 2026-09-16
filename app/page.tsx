@@ -20,6 +20,22 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "Donovan Is Done With Miami’s Losing Act.",
+  subtitle: "Every time they tie or lose, he says, Inter Miami look for a fight.",
+  image: "https://assets.goal.com/images/v3/getty-2294428481/crop/MM5DEMRXGI5DCMRXHA5G433XMU5DQNRRHIYTSOA=/GettyImages-2294428481.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/donovan-inter-miami-attitude",
+  external: false,
+  cta: "Read the full story"
+},
+  {
+  title: "Moratti’s €500m Letter.",
+  subtitle: "He says Messi never opened it. The documented Inter bid is still 2006, and €250m.",
+  image: "https://assets.goal.com/images/v3/getty-2294966080/crop/MM5DIOBWGM5DENZTGU5G433XMU5DAORTG4ZA====/GettyImages-2294966080.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/moratti-messi-inter-500-million",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "Luna’s Season Is Over.",
   subtitle: "Torn meniscus. Repair coming. The RSL creator says he will see the field next year.",
   image: "https://assets.goal.com/images/v3/getty-2277148145/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2277148145.jpg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -43,22 +59,7 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-{
-  title: "AC Boise Jumps to USL Championship in 2027 After One League One Season",
-  subtitle: "Athletic Club Boise leaves USL League One after one sold-out season, joins the Championship in 2027, and adds 3,000 seats at Expo Idaho.",
-  image: "https://cdn1.sportngin.com/attachments/photo/6128-211830812/Crest-Reveal-Video-Thumbnail_large.png",
-  link: "/news/ac-boise-usl-championship-2027",
-  external: false,
-  cta: "Read the full story"
-},
-  {
-  "title": "Claim Your Club. Claim Your City.",
-  "subtitle": "Paper Planes x Vs. Everybody x MLS launch the City Is Mine collection for nine clubs",
-  "image": "https://www.mlsstore.com/content/ws/all/2fd26dec-bf1d-4dfc-89b3-0d678534ceee__2400X1200.jpg?w=2400",
-  "link": "/blog/mls-city-is-mine-claim-your-club",
-  "external": false,
-  "cta": "Read the full story"
-},
+
 
 
   
@@ -81,6 +82,24 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  id: 276,
+  title: "Donovan: Inter Miami Look for a Fight Every Time They Don’t Win",
+  author: "Mio Ristic",
+  date: "September 16, 2026",
+  excerpt: "On Unfiltered Soccer, Landon Donovan said Miami yell at refs and hunt a second game after every dropped point. Tim Howard still wants a villain.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2294428481/crop/MM5DEMRXGI5DCMRXHA5G433XMU5DQNRRHIYTSOA=/GettyImages-2294428481.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/donovan-inter-miami-attitude"
+},
+  {
+  id: 275,
+  title: "Moratti Says He Offered Messi €500m. Messi Never Opened the Letter.",
+  author: "Mio Ristic",
+  date: "September 16, 2026",
+  excerpt: "The former Inter president says a 2012 offer never reached negotiation. Messi wanted to retire at Barcelona. He left in 2021 anyway.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2294966080/crop/MM5DIOBWGM5DENZTGU5G433XMU5DAORTG4ZA====/GettyImages-2294966080.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/moratti-messi-inter-500-million"
+},
+  {
   id: 274,
   title: "Diego Luna Will Miss the Rest of the MLS Season With a Torn Meniscus",
   author: "Mio Ristic",
@@ -89,26 +108,7 @@ const blogPosts: Post[] = [
   imageUrl: "https://assets.goal.com/images/v3/getty-2277148145/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2277148145.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   link: "/news/diego-luna-meniscus-rsl"
 },
-    {
-  id: 273,
-  title: "Cavan Sullivan Stays Hot With Two Goals as a USMNT Call Beckons",
-  author: "Mio Ristic",
-  date: "September 14, 2026",
-  excerpt: "The 16-year-old scored twice in a 5-0 Union win at San Diego. First MLS brace. Pochettino names a roster this week.",
-  imageUrl: "https://assets.goal.com/images/v3/getty-2295138136/crop/MM5DGOJYGQ5DEMRUGE5G433XMU5DGNZRHIZDONI=/GettyImages-2295138136.jpg?quality=60&auto=webp&format=pjpg&width=1280",
-  link: "/news/cavan-sullivan-usmnt-call"
-},
-  {
-  id: 1036,
-  title: "How Nashville SC Can Clinch an MLS Playoff Spot",
-  author: "Mio Ristic",
-  date: "September 12, 2026",
-  excerpt: "Nashville lead the East on 53 points with 10 games left. A win at Inter Miami gets them to 56 — not a locked berth. Here is the math.",
-  imageUrl: "https://assets.goal.com/images/v3/blt47978711340c869e/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-15T230033.321.png?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/nashville-sc-clinch-playoffs"
-},
-
- 
+    
   
 ];
 

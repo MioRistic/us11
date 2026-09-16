@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  id: 276,
+  title: "Donovan: Inter Miami Look for a Fight Every Time They Don’t Win",
+  author: "Mio Ristic",
+  date: "September 16, 2026",
+  excerpt: "On Unfiltered Soccer, Landon Donovan said Miami yell at refs and hunt a second game after every dropped point. Tim Howard still wants a villain.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2294428481/crop/MM5DEMRXGI5DCMRXHA5G433XMU5DQNRRHIYTSOA=/GettyImages-2294428481.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  slug: "donovan-inter-miami-attitude"
+},
+    {
+  id: 275,
+  title: "Moratti Says He Offered Messi €500m. Messi Never Opened the Letter.",
+  author: "Mio Ristic",
+  date: "September 16, 2026",
+  excerpt: "The former Inter president says a 2012 offer never reached negotiation. Messi wanted to retire at Barcelona. He left in 2021 anyway.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2294966080/crop/MM5DIOBWGM5DENZTGU5G433XMU5DAORTG4ZA====/GettyImages-2294966080.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  slug: "moratti-messi-inter-500-million"
+},
+    {
   id: 274,
   title: "Diego Luna Will Miss the Rest of the MLS Season With a Torn Meniscus",
   author: "Mio Ristic",
