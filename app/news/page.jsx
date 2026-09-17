@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  id: 278,
+  title: "Pochettino Called the Kids. He Left Pulisic Off.",
+  author: "Mio Ristic",
+  date: "September 17, 2026",
+  excerpt: "Cavan Sullivan, 16, headlines the first post-World Cup USMNT roster. Pulisic, Balogun, McKennie and Luna were omitted.",
+  imageUrl: "https://assets.goal.com/images/v3/imago-sport-1079257579/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU4Q====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "usmnt-roster-sullivan-pulisic"
+},
+    {
+  id: 277,
+  title: "Messi Leads Inter Miami to Campeones Cup in Kily González’s First Match",
+  author: "Mio Ristic",
+  date: "September 17, 2026",
+  excerpt: "Messi headed in his 100th Miami goal and set up Casemiro as the Herons beat Cruz Azul 2-0. Kily González won a cup on debut.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2295673367/crop/MM5DGNRSGU5DEMBTHE5G433XMU5DAORQ/GettyImages-2295673367.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  slug: "messi-campeones-cup-kily-debut"
+},
+    {
   id: 276,
   title: "Donovan: Inter Miami Look for a Fight Every Time They Don’t Win",
   author: "Mio Ristic",

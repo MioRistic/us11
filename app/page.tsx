@@ -20,6 +20,22 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "Sullivan In. Pulisic Out.",
+  subtitle: "Pochettino’s first post-World Cup roster starts the 2030 cycle with a 16-year-old in the building.",
+  image: "https://assets.goal.com/images/v3/imago-sport-1079257579/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU4Q====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/usmnt-roster-sullivan-pulisic",
+  external: false,
+  cta: "Read the full story"
+},
+  {
+  title: "Messi Hits 100. Miami Lift the Cup.",
+  subtitle: "A header, a Casemiro finish, and a trophy on Kily González’s first night.",
+  image: "https://assets.goal.com/images/v3/getty-2295673367/crop/MM5DGNRSGU5DEMBTHE5G433XMU5DAORQ/GettyImages-2295673367.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/messi-campeones-cup-kily-debut",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "Donovan Is Done With Miami’s Losing Act.",
   subtitle: "Every time they tie or lose, he says, Inter Miami look for a fight.",
   image: "https://assets.goal.com/images/v3/getty-2294428481/crop/MM5DEMRXGI5DCMRXHA5G433XMU5DQNRRHIYTSOA=/GettyImages-2294428481.jpg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -43,22 +59,7 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "Sullivan Keeps Scoring.",
-  subtitle: "A first MLS brace in San Diego, and a USMNT roster due this week",
-  image: "https://assets.goal.com/images/v3/getty-2295138136/crop/MM5DGOJYGQ5DEMRUGE5G433XMU5DGNZRHIZDONI=/GettyImages-2295138136.jpg?quality=60&auto=webp&format=pjpg&width=1280",
-  link: "/news/cavan-sullivan-usmnt-call",
-  external: false,
-  cta: "Read the full story"
-},
-  {
-  title: "How Nashville SC Can Clinch.",
-  subtitle: "First in the East on 53 points is not a playoff berth. Here is what Saturday in Miami actually does.",
-  image: "https://assets.goal.com/images/v3/blt47978711340c869e/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-15T230033.321.png?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/nashville-sc-clinch-playoffs",
-  external: false,
-  cta: "Read the full story"
-},
+ 
 
 
 
@@ -82,6 +83,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  id: 277,
+  title: "Messi Leads Inter Miami to Campeones Cup in Kily González’s First Match",
+  author: "Mio Ristic",
+  date: "September 17, 2026",
+  excerpt: "Messi headed in his 100th Miami goal and set up Casemiro as the Herons beat Cruz Azul 2-0. Kily González won a cup on debut.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2295673367/crop/MM5DGNRSGU5DEMBTHE5G433XMU5DAORQ/GettyImages-2295673367.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/messi-campeones-cup-kily-debut"
+},
+  {
   id: 276,
   title: "Donovan: Inter Miami Look for a Fight Every Time They Don’t Win",
   author: "Mio Ristic",
@@ -99,15 +109,7 @@ const blogPosts: Post[] = [
   imageUrl: "https://assets.goal.com/images/v3/getty-2294966080/crop/MM5DIOBWGM5DENZTGU5G433XMU5DAORTG4ZA====/GettyImages-2294966080.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   link: "/news/moratti-messi-inter-500-million"
 },
-  {
-  id: 274,
-  title: "Diego Luna Will Miss the Rest of the MLS Season With a Torn Meniscus",
-  author: "Mio Ristic",
-  date: "September 16, 2026",
-  excerpt: "The RSL and USMNT midfielder posted that a torn meniscus needs repair. His 2026 season is over. He says he will be back next year.",
-  imageUrl: "https://assets.goal.com/images/v3/getty-2277148145/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2277148145.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/diego-luna-meniscus-rsl"
-},
+
     
   
 ];
