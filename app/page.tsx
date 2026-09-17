@@ -115,15 +115,15 @@ const blogPosts: Post[] = [
 ];
 
 const jerseysBlogPosts: Post[] = [
-   {
-    "id": 1034,
-    "title": "Claim Your Club. Claim Your City. Inside the MLS x Paper Planes x Vs. Everybody Drop",
-    "author": "Mio Ristić",
-    "date": "September 4, 2026",
-    "excerpt": "The limited City Is Mine collection is live with tees, hoodies, work jackets, hats and scarves for nine MLS clubs. Claim your club. Claim your city.",
-    "imageUrl": "https://assets.goal.com/images/v3/getty-2277148145/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2277148145.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-    "link": "/blog/mls-city-is-mine-claim-your-club"
-  },
+    {
+  "id": 1034,
+  "title": "Claim Your Club. Claim Your City. Inside the MLS x Paper Planes x Vs. Everybody Drop",
+  "author": "Mio Ristić",
+  "date": "September 4, 2026",
+  "excerpt": "The limited City Is Mine collection is live with tees, hoodies, work jackets, hats and scarves for nine MLS clubs. Claim your club. Claim your city.",
+  "imageUrl": "https://www.mlsstore.com/content/ws/all/2fd26dec-bf1d-4dfc-89b3-0d678534ceee__2400X1200.jpg?w=2400",
+  "link": "blog/mls-city-is-mine-claim-your-club"
+},
  {
   "id": 1033,
   "title": "2026 MLS Archive Collection: Ranking the Retro Kits — From Grimace Purple to Mountain Power",

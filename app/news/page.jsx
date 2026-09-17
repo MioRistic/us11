@@ -18,7 +18,7 @@ const Blog = () => {
   date: "September 17, 2026",
   excerpt: "Cavan Sullivan, 16, headlines the first post-World Cup USMNT roster. Pulisic, Balogun, McKennie and Luna were omitted.",
   imageUrl: "https://assets.goal.com/images/v3/imago-sport-1079257579/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU4Q====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "usmnt-roster-sullivan-pulisic"
+  slug: "usmnt-roster-sullivan-pulisic"
 },
     {
   id: 277,
