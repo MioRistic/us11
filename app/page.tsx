@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "Pepi Is Out. Downs Is In.",
+  subtitle: "Nine minutes in Enschede. A loan striker with 35 MLS minutes takes the No. 9 spot.",
+  image: "https://assets.goal.com/images/v3/getty-2187949160/crop/MM5DINJRGI5DENJTHA5G433XMU5DIMJXHIZDOMI=/GettyImages-2187949160.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/pepi-out-downs-usmnt",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "Sullivan In. Pulisic Out.",
   subtitle: "Pochettino’s first post-World Cup roster starts the 2030 cycle with a 16-year-old in the building.",
   image: "https://assets.goal.com/images/v3/imago-sport-1079257579/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU4Q====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -51,16 +59,6 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "Luna’s Season Is Over.",
-  subtitle: "Torn meniscus. Repair coming. The RSL creator says he will see the field next year.",
-  image: "https://assets.goal.com/images/v3/getty-2277148145/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2277148145.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/diego-luna-meniscus-rsl",
-  external: false,
-  cta: "Read the full story"
-},
- 
-
 
 
   
@@ -83,6 +81,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  id: 279,
+  title: "Pepi Lasted Nine Minutes. Downs Gets the Window.",
+  author: "Mio Ristic",
+  date: "September 22, 2026",
+  excerpt: "Ricardo Pepi withdrew after a muscle injury at Twente. Damion Downs replaces him for Peru, Chile, Mexico and Canada.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2187949160/crop/MM5DINJRGI5DENJTHA5G433XMU5DIMJXHIZDOMI=/GettyImages-2187949160.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/pepi-out-downs-usmnt"
+},
+  {
   id: 277,
   title: "Messi Leads Inter Miami to Campeones Cup in Kily González’s First Match",
   author: "Mio Ristic",
@@ -99,15 +106,6 @@ const blogPosts: Post[] = [
   excerpt: "On Unfiltered Soccer, Landon Donovan said Miami yell at refs and hunt a second game after every dropped point. Tim Howard still wants a villain.",
   imageUrl: "https://assets.goal.com/images/v3/getty-2294428481/crop/MM5DEMRXGI5DCMRXHA5G433XMU5DQNRRHIYTSOA=/GettyImages-2294428481.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   link: "/news/donovan-inter-miami-attitude"
-},
-  {
-  id: 275,
-  title: "Moratti Says He Offered Messi €500m. Messi Never Opened the Letter.",
-  author: "Mio Ristic",
-  date: "September 16, 2026",
-  excerpt: "The former Inter president says a 2012 offer never reached negotiation. Messi wanted to retire at Barcelona. He left in 2021 anyway.",
-  imageUrl: "https://assets.goal.com/images/v3/getty-2294966080/crop/MM5DIOBWGM5DENZTGU5G433XMU5DAORTG4ZA====/GettyImages-2294966080.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/moratti-messi-inter-500-million"
 },
 
     
@@ -154,6 +152,7 @@ const hallOfFamePosts: Post[] = [
 const trendingPlayers = [
   { name: 'Lionel Messi', image: 'https://en.nogomania.com/GetFile.ashx?id=271175', link: '/teams/inter-miami/messi' },
   { name: 'Robert Lewandowski', image: 'https://assets.goal.com/images/v3/getty-2285479115/crop/MM5DINJQGA5DENJTGE5G433XMU5DAORSGM2A====/GettyImages-2285479115.jpg?auto=webp&format=pjpg&width=3840&quality=60', link: '/teams/chicago-fire/lewandowski' },
+  { name: 'Antoine Griezmann', image: 'https://assets.goal.com/images/v3/getty-2294479946/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORRHA4A====/GettyImages-2294479946.jpg?auto=webp&format=pjpg&width=2048&quality=60',  link: '/teams/orlando-city/griezmann' },
   { name: 'Heung-Min Son', image: 'https://assets.goal.com/images/v3/getty-2229316055/crop/MM5DGNBTHA5DCOJTGQ5G433XMU5DAORRG44Q====/GettyImages-2229316055.jpg?auto=webp&format=pjpg&width=1920&quality=60', link: '/teams/lafc/son' },
   { name: 'Thomas Muller', image: 'https://assets.goal.com/images/v3/getty-2230148654/crop/MM5DIMRWGY5DENBQGA5G433XMU5DAORSGIZA====/GettyImages-2230148654.jpg?auto=webp&format=pjpg&width=1920&quality=60', link: '/teams/vancouver-whitecaps/muller' },
   { name: 'Luis Suarez', image: 'https://en.nogomania.com/GetFile.ashx?id=259742', link: '/teams/inter-miami/suarez' },

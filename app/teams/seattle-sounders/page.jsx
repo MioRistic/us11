@@ -19,10 +19,10 @@ const SeattleSoundersPage = () => {
       image: 'https://cdn.seattlesports.com/sea710/wp-content/uploads/2024/01/GettyImages-1291846531.jpg', 
       slug: 'delavega' 
     },
-    { 
-      name: 'Albert Rusnák', 
-      image: 'https://sports.mynorthwest.com/wp-content/uploads/2024/06/Seattle-Sounders-Albert-Rusnak-controls-ball-Getty-900.jpg', 
-      slug: 'rusnak' 
+   { 
+      name: 'Dejan Joveljić', 
+      image: 'https://assets.goal.com/images/v3/getty-2200737353/crop/MM5DEOBRGM5DCNJYGI5G433XMU5DAORRGQ3A====/GettyImages-2200737353.jpg', 
+      slug: 'joveljic' 
     },
     { 
       name: 'Cristian Roldan', 

@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  id: 279,
+  title: "Pepi Lasted Nine Minutes. Downs Gets the Window.",
+  author: "Mio Ristic",
+  date: "September 22, 2026",
+  excerpt: "Ricardo Pepi withdrew after a muscle injury at Twente. Damion Downs replaces him for Peru, Chile, Mexico and Canada.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2187949160/crop/MM5DINJRGI5DENJTHA5G433XMU5DIMJXHIZDOMI=/GettyImages-2187949160.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  slug: "pepi-out-downs-usmnt"
+},
+    {
   id: 278,
   title: "Pochettino Called the Kids. He Left Pulisic Off.",
   author: "Mio Ristic",

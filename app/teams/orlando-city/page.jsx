@@ -10,7 +10,7 @@ const OrlandoCityPage = () => {
 
   const trendingPlayers = [
     { name: 'Robin Jansson', image: 'https://cdn1.sheffieldwednesday.news/uploads/8/2024/07/GettyImages-2160330033-1024x683.jpg', slug: 'jansson' },
-    { name: 'Luis Muriel', image: 'https://icdn.sempremilan.com/wp-content/uploads/2021/12/ssc-napoli-v-atalanta-bc-serie-a-1.jpg', slug: 'muriel' },
+    { name: 'Antoine Griezmann', image: 'https://assets.goal.com/images/v3/getty-2294479946/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORRHA4A====/GettyImages-2294479946.jpg?auto=webp&format=pjpg&width=2048&quality=60', slug: 'griezmann' },
     // { name: 'Martín Ojeda', image: 'https://assets.goal.com/images/v3/getty-2150744981/crop/MM5DGOBYHA5DEMJYG45G433XMU5DOMBSHIYTANQ=/GettyImages-2150744981.jpg', slug: 'ojeda' },
   ];
 
