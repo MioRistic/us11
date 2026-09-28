@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  id: 280,
+  title: "USMNT's New Era Starts With a 4-1 Win Over Peru — and a Lot of Questions",
+  author: "Mio Ristic",
+  date: "September 28, 2026",
+  excerpt: "USMNT 4-1 Peru in Orlando. Ellis and Hall scored on debut. Sullivan started at 16. The questions start Tuesday in St. Louis.",
+  imageUrl: "https://assets.goal.com/images/v3/imago-sport-1083844060/crop/MM5DGNJYGA5DEMBRGQ5G433XMU5DAORRHA3Q====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
+  slug: "usmnt-peru-kids-debut"
+},
+    {
   id: 279,
   title: "Pepi Lasted Nine Minutes. Downs Gets the Window.",
   author: "Mio Ristic",

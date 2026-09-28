@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "USMNT's New Era Starts With a 4-1 Win Over Peru",
+  subtitle: "Eleven debuts, two teenage goals, and a lot of questions before Chile.",
+  image: "https://assets.goal.com/images/v3/imago-sport-1083844060/crop/MM5DGNJYGA5DEMBRGQ5G433XMU5DAORRHA3Q====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/usmnt-peru-kids-debut",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "Pepi Is Out. Downs Is In.",
   subtitle: "Nine minutes in Enschede. A loan striker with 35 MLS minutes takes the No. 9 spot.",
   image: "https://assets.goal.com/images/v3/getty-2187949160/crop/MM5DINJRGI5DENJTHA5G433XMU5DIMJXHIZDOMI=/GettyImages-2187949160.jpg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -51,14 +59,7 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "Moratti’s €500m Letter.",
-  subtitle: "He says Messi never opened it. The documented Inter bid is still 2006, and €250m.",
-  image: "https://assets.goal.com/images/v3/getty-2294966080/crop/MM5DIOBWGM5DENZTGU5G433XMU5DAORTG4ZA====/GettyImages-2294966080.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/moratti-messi-inter-500-million",
-  external: false,
-  cta: "Read the full story"
-},
+
 
 
   
@@ -81,6 +82,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  id: 280,
+  title: "USMNT's New Era Starts With a 4-1 Win Over Peru — and a Lot of Questions",
+  author: "Mio Ristic",
+  date: "September 28, 2026",
+  excerpt: "USMNT 4-1 Peru in Orlando. Ellis and Hall scored on debut. Sullivan started at 16. The questions start Tuesday in St. Louis.",
+  imageUrl: "https://assets.goal.com/images/v3/imago-sport-1083844060/crop/MM5DGNJYGA5DEMBRGQ5G433XMU5DAORRHA3Q====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/usmnt-peru-kids-debut"
+},
+  {
   id: 279,
   title: "Pepi Lasted Nine Minutes. Downs Gets the Window.",
   author: "Mio Ristic",
@@ -98,15 +108,7 @@ const blogPosts: Post[] = [
   imageUrl: "https://assets.goal.com/images/v3/getty-2295673367/crop/MM5DGNRSGU5DEMBTHE5G433XMU5DAORQ/GettyImages-2295673367.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   link: "/news/messi-campeones-cup-kily-debut"
 },
-  {
-  id: 276,
-  title: "Donovan: Inter Miami Look for a Fight Every Time They Don’t Win",
-  author: "Mio Ristic",
-  date: "September 16, 2026",
-  excerpt: "On Unfiltered Soccer, Landon Donovan said Miami yell at refs and hunt a second game after every dropped point. Tim Howard still wants a villain.",
-  imageUrl: "https://assets.goal.com/images/v3/getty-2294428481/crop/MM5DEMRXGI5DCMRXHA5G433XMU5DQNRRHIYTSOA=/GettyImages-2294428481.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/donovan-inter-miami-attitude"
-},
+ 
 
     
   
