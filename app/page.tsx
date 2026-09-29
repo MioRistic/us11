@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "St. Louis Honors Tim Ream While the Armband Stays Open",
+  subtitle: "A World Cup captain gets the tribute. Pochettino still has to name the next one.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2224128289/crop/MM5DENZUGE5DCNJUGI5G433XMU5DAORRGAZTI===/GettyImages-2224128289.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/usmnt-tim-ream-captaincy",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "USMNT's New Era Starts With a 4-1 Win Over Peru",
   subtitle: "Eleven debuts, two teenage goals, and a lot of questions before Chile.",
   image: "https://assets.goal.com/images/v3/imago-sport-1083844060/crop/MM5DGNJYGA5DEMBRGQ5G433XMU5DAORRHA3Q====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -51,14 +59,7 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "Donovan Is Done With Miami’s Losing Act.",
-  subtitle: "Every time they tie or lose, he says, Inter Miami look for a fight.",
-  image: "https://assets.goal.com/images/v3/getty-2294428481/crop/MM5DEMRXGI5DCMRXHA5G433XMU5DQNRRHIYTSOA=/GettyImages-2294428481.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/donovan-inter-miami-attitude",
-  external: false,
-  cta: "Read the full story"
-},
+
 
 
 
@@ -82,6 +83,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  id: 281,
+  title: "St. Louis Honors World Cup Captain Tim Ream While the USMNT Looks for the Next Armband",
+  author: "Mio Ristic",
+  date: "September 29, 2026",
+  excerpt: "Ream gets a hometown tribute before Chile. He is off the roster. Pochettino says a new captain may be named soon, with Tyler Adams in the mix.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2224128289/crop/MM5DENZUGE5DCNJUGI5G433XMU5DAORRGAZTI===/GettyImages-2224128289.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/usmnt-tim-ream-captaincy"
+},
+  {
   id: 280,
   title: "USMNT's New Era Starts With a 4-1 Win Over Peru — and a Lot of Questions",
   author: "Mio Ristic",
@@ -99,15 +109,7 @@ const blogPosts: Post[] = [
   imageUrl: "https://assets.goal.com/images/v3/getty-2187949160/crop/MM5DINJRGI5DENJTHA5G433XMU5DIMJXHIZDOMI=/GettyImages-2187949160.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   link: "/news/pepi-out-downs-usmnt"
 },
-  {
-  id: 277,
-  title: "Messi Leads Inter Miami to Campeones Cup in Kily González’s First Match",
-  author: "Mio Ristic",
-  date: "September 17, 2026",
-  excerpt: "Messi headed in his 100th Miami goal and set up Casemiro as the Herons beat Cruz Azul 2-0. Kily González won a cup on debut.",
-  imageUrl: "https://assets.goal.com/images/v3/getty-2295673367/crop/MM5DGNRSGU5DEMBTHE5G433XMU5DAORQ/GettyImages-2295673367.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/messi-campeones-cup-kily-debut"
-},
+
  
 
     

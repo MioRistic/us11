@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  id: 281,
+  title: "St. Louis Honors World Cup Captain Tim Ream While the USMNT Looks for the Next Armband",
+  author: "Mio Ristic",
+  date: "September 29, 2026",
+  excerpt: "Ream gets a hometown tribute before Chile. He is off the roster. Pochettino says a new captain may be named soon, with Tyler Adams in the mix.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2224128289/crop/MM5DENZUGE5DCNJUGI5G433XMU5DAORRGAZTI===/GettyImages-2224128289.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  slug: "usmnt-tim-ream-captaincy"
+},
+    {
   id: 280,
   title: "USMNT's New Era Starts With a 4-1 Win Over Peru — and a Lot of Questions",
   author: "Mio Ristic",
