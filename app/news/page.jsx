@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  id: 282,
+  title: "Müller Stays in Vancouver, but Only Through the Sprint",
+  author: "Mio Ristic",
+  date: "October 1, 2026",
+  excerpt: "Thomas Müller signed a DP extension through the 2027 MLS Sprint Season. June 30, not a full year. 19 goals and 12 assists since August 2025.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2296789253/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORRGE2Q====/GettyImages-2296789253.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  slug: "muller-whitecaps-extension"
+},
+    {
   id: 281,
   title: "St. Louis Honors World Cup Captain Tim Ream While the USMNT Looks for the Next Armband",
   author: "Mio Ristic",

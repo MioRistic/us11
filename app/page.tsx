@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "Müller Stays. Only Through the Sprint.",
+  subtitle: "A DP extension to June 30, 2027. The next conversation is already on the calendar.",
+  image: "https://assets.goal.com/images/v3/getty-2296789253/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORRGE2Q====/GettyImages-2296789253.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/muller-whitecaps-extension",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "St. Louis Honors Tim Ream While the Armband Stays Open",
   subtitle: "A World Cup captain gets the tribute. Pochettino still has to name the next one.",
   imageUrl: "https://assets.goal.com/images/v3/getty-2224128289/crop/MM5DENZUGE5DCNJUGI5G433XMU5DAORRGAZTI===/GettyImages-2224128289.jpg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -51,14 +59,7 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "Messi Hits 100. Miami Lift the Cup.",
-  subtitle: "A header, a Casemiro finish, and a trophy on Kily González’s first night.",
-  image: "https://assets.goal.com/images/v3/getty-2295673367/crop/MM5DGNRSGU5DEMBTHE5G433XMU5DAORQ/GettyImages-2295673367.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/messi-campeones-cup-kily-debut",
-  external: false,
-  cta: "Read the full story"
-},
+
 
 
 
@@ -83,6 +84,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  id: 282,
+  title: "Müller Stays in Vancouver, but Only Through the Sprint",
+  author: "Mio Ristic",
+  date: "October 1, 2026",
+  excerpt: "Thomas Müller signed a DP extension through the 2027 MLS Sprint Season. June 30, not a full year. 19 goals and 12 assists since August 2025.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2296789253/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORRGE2Q====/GettyImages-2296789253.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/muller-whitecaps-extension"
+},
+  {
   id: 281,
   title: "St. Louis Honors World Cup Captain Tim Ream While the USMNT Looks for the Next Armband",
   author: "Mio Ristic",
@@ -100,15 +110,7 @@ const blogPosts: Post[] = [
   imageUrl: "https://assets.goal.com/images/v3/imago-sport-1083844060/crop/MM5DGNJYGA5DEMBRGQ5G433XMU5DAORRHA3Q====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
   link: "/news/usmnt-peru-kids-debut"
 },
-  {
-  id: 279,
-  title: "Pepi Lasted Nine Minutes. Downs Gets the Window.",
-  author: "Mio Ristic",
-  date: "September 22, 2026",
-  excerpt: "Ricardo Pepi withdrew after a muscle injury at Twente. Damion Downs replaces him for Peru, Chile, Mexico and Canada.",
-  imageUrl: "https://assets.goal.com/images/v3/getty-2187949160/crop/MM5DINJRGI5DENJTHA5G433XMU5DIMJXHIZDOMI=/GettyImages-2187949160.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/pepi-out-downs-usmnt"
-},
+
 
  
 
