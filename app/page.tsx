@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "Milan Want Pulisic Through 2031",
+  subtitle: "He says he wants to stay. The contract is not signed.",
+  image: "https://assets.goal.com/images/v3/getty-2296411105/crop/MM5DCNRZGI5DSNJSHJXG653FHI2DGNR2GEZDC===/GettyImages-2296411105.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/pulisic-milan-2031",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "Müller Stays. Only Through the Sprint.",
   subtitle: "A DP extension to June 30, 2027. The next conversation is already on the calendar.",
   image: "https://assets.goal.com/images/v3/getty-2296789253/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORRGE2Q====/GettyImages-2296789253.jpg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -51,14 +59,6 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "Sullivan In. Pulisic Out.",
-  subtitle: "Pochettino’s first post-World Cup roster starts the 2030 cycle with a 16-year-old in the building.",
-  image: "https://assets.goal.com/images/v3/imago-sport-1079257579/crop/MM5DGMBQGA5DCNRYHA5G433XMU5DAORRGU4Q====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/usmnt-roster-sullivan-pulisic",
-  external: false,
-  cta: "Read the full story"
-},
 
 
 
@@ -84,6 +84,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  id: 283,
+  title: "Milan Want Christian Pulisic Through 2031. The Harder Part Is Getting There",
+  author: "Mio Ristic",
+  date: "October 2, 2026",
+  excerpt: "Gazzetta says Cardinale wants Pulisic until 2031 at around €5 million net. Pulisic says he wants to stay. The signature is not there.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2296411105/crop/MM5DCNRZGI5DSNJSHJXG653FHI2DGNR2GEZDC===/GettyImages-2296411105.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/pulisic-milan-2031"
+},
+  {
   id: 282,
   title: "Müller Stays in Vancouver, but Only Through the Sprint",
   author: "Mio Ristic",
@@ -101,15 +110,7 @@ const blogPosts: Post[] = [
   imageUrl: "https://assets.goal.com/images/v3/getty-2224128289/crop/MM5DENZUGE5DCNJUGI5G433XMU5DAORRGAZTI===/GettyImages-2224128289.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   link: "/news/usmnt-tim-ream-captaincy"
 },
-  {
-  id: 280,
-  title: "USMNT's New Era Starts With a 4-1 Win Over Peru — and a Lot of Questions",
-  author: "Mio Ristic",
-  date: "September 28, 2026",
-  excerpt: "USMNT 4-1 Peru in Orlando. Ellis and Hall scored on debut. Sullivan started at 16. The questions start Tuesday in St. Louis.",
-  imageUrl: "https://assets.goal.com/images/v3/imago-sport-1083844060/crop/MM5DGNJYGA5DEMBRGQ5G433XMU5DAORRHA3Q====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/usmnt-peru-kids-debut"
-},
+
 
 
  

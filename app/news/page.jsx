@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  id: 283,
+  title: "Milan Want Christian Pulisic Through 2031. The Harder Part Is Getting There",
+  author: "Mio Ristic",
+  date: "October 2, 2026",
+  excerpt: "Gazzetta says Cardinale wants Pulisic until 2031 at around €5 million net. Pulisic says he wants to stay. The signature is not there.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2296411105/crop/MM5DCNRZGI5DSNJSHJXG653FHI2DGNR2GEZDC===/GettyImages-2296411105.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  slug: "pulisic-milan-2031"
+},
+    {
   id: 282,
   title: "Müller Stays in Vancouver, but Only Through the Sprint",
   author: "Mio Ristic",
