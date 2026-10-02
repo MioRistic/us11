@@ -20,6 +20,22 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "Back in Spain. Not in a Shirt.",
+  subtitle: "Messi buys Eldense. The licence is pending. The farewell is in Buenos Aires.",
+  image: "https://assets.goal.com/images/v3/blt65bbc97697961dfd/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-09-04T132526.445.png?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/messi-eldense-owner",
+  external: false,
+  cta: "Read the full story"
+},
+  {
+  title: "The Friendly That Will Not Feel Like One",
+  subtitle: "USMNT vs Mexico in Glendale. Pulisic out. Sullivan a maybe. The tape matters more than the score.",
+  image: "https://assets.goal.com/images/v3/getty-2297307455/crop/MM5DINZZHA5DENRZHE5G433XMU5DAORQ/GettyImages-2297307455.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/usmnt-mexico-glendale-preview",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "Milan Want Pulisic Through 2031",
   subtitle: "He says he wants to stay. The contract is not signed.",
   image: "https://assets.goal.com/images/v3/getty-2296411105/crop/MM5DCNRZGI5DSNJSHJXG653FHI2DGNR2GEZDC===/GettyImages-2296411105.jpg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -43,22 +59,8 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "USMNT's New Era Starts With a 4-1 Win Over Peru",
-  subtitle: "Eleven debuts, two teenage goals, and a lot of questions before Chile.",
-  image: "https://assets.goal.com/images/v3/imago-sport-1083844060/crop/MM5DGNJYGA5DEMBRGQ5G433XMU5DAORRHA3Q====/imago-image.jpeg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/usmnt-peru-kids-debut",
-  external: false,
-  cta: "Read the full story"
-},
-  {
-  title: "Pepi Is Out. Downs Is In.",
-  subtitle: "Nine minutes in Enschede. A loan striker with 35 MLS minutes takes the No. 9 spot.",
-  image: "https://assets.goal.com/images/v3/getty-2187949160/crop/MM5DINJRGI5DENJTHA5G433XMU5DIMJXHIZDOMI=/GettyImages-2187949160.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/pepi-out-downs-usmnt",
-  external: false,
-  cta: "Read the full story"
-},
+
+
 
 
 
@@ -84,6 +86,24 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  id: 285,
+  title: "Messi Is Back in Spanish Football. Not in a Shirt.",
+  author: "Mio Ristic",
+  date: "October 2, 2026",
+  excerpt: "Eldense say Messi has bought the Segunda club. The CSD licence is still open. He plays for Inter Miami, and says goodbye to Argentina on Tuesday.",
+  imageUrl: "https://assets.goal.com/images/v3/blt65bbc97697961dfd/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-09-04T132526.445.png?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/messi-eldense-owner"
+},
+  {
+  id: 284,
+  title: "USMNT vs Mexico: The Friendly That Will Not Feel Like One",
+  author: "Mio Ristic",
+  date: "October 2, 2026",
+  excerpt: "Saturday in Glendale, 10 p.m. ET. Pulisic is out. Sullivan is a maybe. The crowd will not sound like home.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2297307455/crop/MM5DINZZHA5DENRZHE5G433XMU5DAORQ/GettyImages-2297307455.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/usmnt-mexico-glendale-preview"
+},
+  {
   id: 283,
   title: "Milan Want Christian Pulisic Through 2031. The Harder Part Is Getting There",
   author: "Mio Ristic",
@@ -92,24 +112,7 @@ const blogPosts: Post[] = [
   imageUrl: "https://assets.goal.com/images/v3/getty-2296411105/crop/MM5DCNRZGI5DSNJSHJXG653FHI2DGNR2GEZDC===/GettyImages-2296411105.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   link: "/news/pulisic-milan-2031"
 },
-  {
-  id: 282,
-  title: "Müller Stays in Vancouver, but Only Through the Sprint",
-  author: "Mio Ristic",
-  date: "October 1, 2026",
-  excerpt: "Thomas Müller signed a DP extension through the 2027 MLS Sprint Season. June 30, not a full year. 19 goals and 12 assists since August 2025.",
-  imageUrl: "https://assets.goal.com/images/v3/getty-2296789253/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORRGE2Q====/GettyImages-2296789253.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/muller-whitecaps-extension"
-},
-  {
-  id: 281,
-  title: "St. Louis Honors World Cup Captain Tim Ream While the USMNT Looks for the Next Armband",
-  author: "Mio Ristic",
-  date: "September 29, 2026",
-  excerpt: "Ream gets a hometown tribute before Chile. He is off the roster. Pochettino says a new captain may be named soon, with Tyler Adams in the mix.",
-  imageUrl: "https://assets.goal.com/images/v3/getty-2224128289/crop/MM5DENZUGE5DCNJUGI5G433XMU5DAORRGAZTI===/GettyImages-2224128289.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/usmnt-tim-ream-captaincy"
-},
+
 
 
 

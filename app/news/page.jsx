@@ -7,10 +7,29 @@ import Image from 'next/image';
 import Link from 'next/link';
 import SanDiegoLogo from '../../public/logos/San_Diego_FC_logo.svg.png';
 import Us11 from '../../public/11.png';
+import { SlUserFollowing } from 'react-icons/sl';
  
 
 const Blog = () => {
   const blogPosts = [
+    {
+  id: 285,
+  title: "Messi Is Back in Spanish Football. Not in a Shirt.",
+  author: "Mio Ristic",
+  date: "October 2, 2026",
+  excerpt: "Eldense say Messi has bought the Segunda club. The CSD licence is still open. He plays for Inter Miami, and says goodbye to Argentina on Tuesday.",
+  imageUrl: "https://assets.goal.com/images/v3/blt65bbc97697961dfd/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-09-04T132526.445.png?auto=webp&format=pjpg&width=2048&quality=60",
+  slug: "messi-eldense-owner"
+},
+    {
+  id: 284,
+  title: "USMNT vs Mexico: The Friendly That Will Not Feel Like One",
+  author: "Mio Ristic",
+  date: "October 2, 2026",
+  excerpt: "Saturday in Glendale, 10 p.m. ET. Pulisic is out. Sullivan is a maybe. The crowd will not sound like home.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2297307455/crop/MM5DINZZHA5DENRZHE5G433XMU5DAORQ/GettyImages-2297307455.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  slug: "usmnt-mexico-glendale-preview"
+},
     {
   id: 283,
   title: "Milan Want Christian Pulisic Through 2031. The Harder Part Is Getting There",
