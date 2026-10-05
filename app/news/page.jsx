@@ -13,6 +13,15 @@ import { SlUserFollowing } from 'react-icons/sl';
 const Blog = () => {
   const blogPosts = [
     {
+  id: 286,
+  title: "Cavan Sullivan Made History Against Mexico. The Next Goal Will Have to Be Harder.",
+  author: "Mio Ristic",
+  date: "October 5, 2026",
+  excerpt: "At 17 years and five days, Sullivan became the youngest USMNT scorer in a 3-0 win over Mexico. The chip was his. The loose ball was Rangel's.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2298472764/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2298472764.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  slug: "sullivan-mexico-record"
+},
+    {
   id: 285,
   title: "Messi Is Back in Spanish Football. Not in a Shirt.",
   author: "Mio Ristic",

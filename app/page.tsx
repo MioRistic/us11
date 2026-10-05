@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "History Against Mexico. The Next One Has to Be Harder.",
+  subtitle: "Sullivan, 17 years and five days, chipped Rangel. The record is real. The giveaway is part of the goal.",
+  image: "https://assets.goal.com/images/v3/getty-2298472764/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2298472764.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  link: "/news/sullivan-mexico-record",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "Back in Spain. Not in a Shirt.",
   subtitle: "Messi buys Eldense. The licence is pending. The farewell is in Buenos Aires.",
   image: "https://assets.goal.com/images/v3/blt65bbc97697961dfd/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-09-04T132526.445.png?auto=webp&format=pjpg&width=2048&quality=60",
@@ -51,14 +59,6 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "St. Louis Honors Tim Ream While the Armband Stays Open",
-  subtitle: "A World Cup captain gets the tribute. Pochettino still has to name the next one.",
-  imageUrl: "https://assets.goal.com/images/v3/getty-2224128289/crop/MM5DENZUGE5DCNJUGI5G433XMU5DAORRGAZTI===/GettyImages-2224128289.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/usmnt-tim-ream-captaincy",
-  external: false,
-  cta: "Read the full story"
-},
 
 
 
@@ -86,6 +86,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  id: 286,
+  title: "Cavan Sullivan Made History Against Mexico. The Next Goal Will Have to Be Harder.",
+  author: "Mio Ristic",
+  date: "October 5, 2026",
+  excerpt: "At 17 years and five days, Sullivan became the youngest USMNT scorer in a 3-0 win over Mexico. The chip was his. The loose ball was Rangel's.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2298472764/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2298472764.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  link: "/news/sullivan-mexico-record"
+},
+  {
   id: 285,
   title: "Messi Is Back in Spanish Football. Not in a Shirt.",
   author: "Mio Ristic",
@@ -103,15 +112,7 @@ const blogPosts: Post[] = [
   imageUrl: "https://assets.goal.com/images/v3/getty-2297307455/crop/MM5DINZZHA5DENRZHE5G433XMU5DAORQ/GettyImages-2297307455.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   link: "/news/usmnt-mexico-glendale-preview"
 },
-  {
-  id: 283,
-  title: "Milan Want Christian Pulisic Through 2031. The Harder Part Is Getting There",
-  author: "Mio Ristic",
-  date: "October 2, 2026",
-  excerpt: "Gazzetta says Cardinale wants Pulisic until 2031 at around €5 million net. Pulisic says he wants to stay. The signature is not there.",
-  imageUrl: "https://assets.goal.com/images/v3/getty-2296411105/crop/MM5DCNRZGI5DSNJSHJXG653FHI2DGNR2GEZDC===/GettyImages-2296411105.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/pulisic-milan-2031"
-},
+
 
 
 
