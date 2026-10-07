@@ -13,6 +13,15 @@ import { SlUserFollowing } from 'react-icons/sl';
 const Blog = () => {
   const blogPosts = [
     {
+  id: 287,
+  title: "USMNT Beat Canada 1-0 as Justin Ellis Caps a 4-0 Window",
+  author: "Mio Ristic",
+  date: "October 7, 2026",
+  excerpt: "Ellis scored the first goal of the window and the last. A 1-0 in St. Paul, one shot on target, four wins since the World Cup.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2298472055/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2298472055.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  slug: "usmnt-canada-ellis-window"
+},
+    {
   id: 286,
   title: "Cavan Sullivan Made History Against Mexico. The Next Goal Will Have to Be Harder.",
   author: "Mio Ristic",

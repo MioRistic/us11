@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "Ellis Caps a 4-0 Window",
+  subtitle: "USMNT beat Canada 1-0 in St. Paul. One shot on target. The streak is real. The match was smaller.",
+  image: "https://assets.goal.com/images/v3/getty-2298472055/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2298472055.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  link: "/news/usmnt-canada-ellis-window",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "History Against Mexico. The Next One Has to Be Harder.",
   subtitle: "Sullivan, 17 years and five days, chipped Rangel. The record is real. The giveaway is part of the goal.",
   image: "https://assets.goal.com/images/v3/getty-2298472764/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2298472764.jpg?quality=60&auto=webp&format=pjpg&width=1920",
@@ -51,14 +59,7 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "Müller Stays. Only Through the Sprint.",
-  subtitle: "A DP extension to June 30, 2027. The next conversation is already on the calendar.",
-  image: "https://assets.goal.com/images/v3/getty-2296789253/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORRGE2Q====/GettyImages-2296789253.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/muller-whitecaps-extension",
-  external: false,
-  cta: "Read the full story"
-},
+
 
 
 
@@ -86,6 +87,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  id: 287,
+  title: "USMNT Beat Canada 1-0 as Justin Ellis Caps a 4-0 Window",
+  author: "Mio Ristic",
+  date: "October 7, 2026",
+  excerpt: "Ellis scored the first goal of the window and the last. A 1-0 in St. Paul, one shot on target, four wins since the World Cup.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2298472055/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2298472055.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  link: "/news/usmnt-canada-ellis-window"
+},
+  {
   id: 286,
   title: "Cavan Sullivan Made History Against Mexico. The Next Goal Will Have to Be Harder.",
   author: "Mio Ristic",
@@ -102,15 +112,6 @@ const blogPosts: Post[] = [
   excerpt: "Eldense say Messi has bought the Segunda club. The CSD licence is still open. He plays for Inter Miami, and says goodbye to Argentina on Tuesday.",
   imageUrl: "https://assets.goal.com/images/v3/blt65bbc97697961dfd/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-09-04T132526.445.png?auto=webp&format=pjpg&width=2048&quality=60",
   link: "/news/messi-eldense-owner"
-},
-  {
-  id: 284,
-  title: "USMNT vs Mexico: The Friendly That Will Not Feel Like One",
-  author: "Mio Ristic",
-  date: "October 2, 2026",
-  excerpt: "Saturday in Glendale, 10 p.m. ET. Pulisic is out. Sullivan is a maybe. The crowd will not sound like home.",
-  imageUrl: "https://assets.goal.com/images/v3/getty-2297307455/crop/MM5DINZZHA5DENRZHE5G433XMU5DAORQ/GettyImages-2297307455.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/usmnt-mexico-glendale-preview"
 },
 
 
