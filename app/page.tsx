@@ -20,6 +20,22 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "No MLS Player in the American Top 10",
+  subtitle: "Pulisic leads FC 27’s American men at 83. The rest of the ten play in Europe.",
+  image: "https://assets.goal.com/images/v3/getty-2267704044/crop/MM5DENRQHA5DCNBWG45G433XMU5DEORRGQ3Q====/GettyImages-2267704044.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/gaming/fc-27-american-men-ratings",
+  external: false,
+  cta: "Read the full story"
+},
+  {
+  title: "Who Is Actually Here to Stay?",
+  subtitle: "Hall, three in three. Ellis, first and last. Sullivan has the camera. November brings the veterans back.",
+  image: "https://assets.goal.com/images/v3/imago-sport-1083944903/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
+  link: "/news/pochettino-kids-here-to-stay",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "Ellis Caps a 4-0 Window",
   subtitle: "USMNT beat Canada 1-0 in St. Paul. One shot on target. The streak is real. The match was smaller.",
   image: "https://assets.goal.com/images/v3/getty-2298472055/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2298472055.jpg?quality=60&auto=webp&format=pjpg&width=1920",
@@ -43,23 +59,7 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "The Friendly That Will Not Feel Like One",
-  subtitle: "USMNT vs Mexico in Glendale. Pulisic out. Sullivan a maybe. The tape matters more than the score.",
-  image: "https://assets.goal.com/images/v3/getty-2297307455/crop/MM5DINZZHA5DENRZHE5G433XMU5DAORQ/GettyImages-2297307455.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/usmnt-mexico-glendale-preview",
-  external: false,
-  cta: "Read the full story"
-},
-  {
-  title: "Milan Want Pulisic Through 2031",
-  subtitle: "He says he wants to stay. The contract is not signed.",
-  image: "https://assets.goal.com/images/v3/getty-2296411105/crop/MM5DCNRZGI5DSNJSHJXG653FHI2DGNR2GEZDC===/GettyImages-2296411105.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/pulisic-milan-2031",
-  external: false,
-  cta: "Read the full story"
-},
-
+ 
 
 
 
@@ -87,6 +87,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  id: 288,
+  title: "Which of Pochettino’s New USMNT Kids Are Actually Here to Stay?",
+  author: "Mio Ristic",
+  date: "October 9, 2026",
+  excerpt: "Hall scored three in three. Ellis opened and closed the window. Sullivan has the record. The Nations League is the filter.",
+  imageUrl: "https://assets.goal.com/images/v3/imago-sport-1083944903/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
+  link: "/news/pochettino-kids-here-to-stay"
+},
+  {
   id: 287,
   title: "USMNT Beat Canada 1-0 as Justin Ellis Caps a 4-0 Window",
   author: "Mio Ristic",
@@ -104,16 +113,7 @@ const blogPosts: Post[] = [
   imageUrl: "https://assets.goal.com/images/v3/getty-2298472764/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2298472764.jpg?quality=60&auto=webp&format=pjpg&width=1920",
   link: "/news/sullivan-mexico-record"
 },
-  {
-  id: 285,
-  title: "Messi Is Back in Spanish Football. Not in a Shirt.",
-  author: "Mio Ristic",
-  date: "October 2, 2026",
-  excerpt: "Eldense say Messi has bought the Segunda club. The CSD licence is still open. He plays for Inter Miami, and says goodbye to Argentina on Tuesday.",
-  imageUrl: "https://assets.goal.com/images/v3/blt65bbc97697961dfd/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-09-04T132526.445.png?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/messi-eldense-owner"
-},
-
+  
 
 
 

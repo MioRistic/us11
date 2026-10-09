@@ -13,6 +13,15 @@ import { SlUserFollowing } from 'react-icons/sl';
 const Blog = () => {
   const blogPosts = [
     {
+  id: 288,
+  title: "Which of Pochettino’s New USMNT Kids Are Actually Here to Stay?",
+  author: "Mio Ristic",
+  date: "October 9, 2026",
+  excerpt: "Hall scored three in three. Ellis opened and closed the window. Sullivan has the record. The Nations League is the filter.",
+  imageUrl: "https://assets.goal.com/images/v3/imago-sport-1083944903/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
+  slug: "pochettino-kids-here-to-stay"
+},
+    {
   id: 287,
   title: "USMNT Beat Canada 1-0 as Justin Ellis Caps a 4-0 Window",
   author: "Mio Ristic",

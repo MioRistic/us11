@@ -11,6 +11,15 @@ import Link from 'next/link';
 const Blog = () => {
   const blogPosts = [
     {
+  id: 289,
+  title: "The 10 Highest-Rated American Men in FC 27. None of Them Play in MLS.",
+  author: "Mio Ristic",
+  date: "October 9, 2026",
+  excerpt: "Pulisic is 83. Five Americans are stuck on 80. The highest MLS American on the board is Cristian Roldan, at 77.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2267704044/crop/MM5DENRQHA5DCNBWG45G433XMU5DEORRGQ3Q====/GettyImages-2267704044.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  slug: "fc-27-american-men-ratings"
+},
+    {
   "id": 249,
   "title": "Tired of High Ping in EA FC and Online Games? Here’s How GearUP Booster Actually Helps",
   "author": "Mio Ristić",
