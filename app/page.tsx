@@ -20,6 +20,22 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "Minutes Are Promised. The Bid Is Not.",
+  subtitle: "Kovac said Albert will play more. The City approach is still a Goal report.",
+  image: "https://assets.goal.com/images/v3/bltddddd4716914a103/Albert.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/albert-kovac-city-minutes",
+  external: false,
+  cta: "Read the full story"
+},
+  {
+  title: "Doucouré Signed. The Debut Can Wait.",
+  subtitle: "Charlotte added the former Everton midfielder before the freeze. Visa and fitness decide the rest.",
+  image: "https://assets.goal.com/images/v3/getty-2197194714/crop/MM5DCOBQHA5DCMBRG45G433XMU5DCMBZG45DGMZV/GettyImages-2197194714.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/doucoure-charlotte-freeze",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "No MLS Player in the American Top 10",
   subtitle: "Pulisic leads FC 27’s American men at 83. The rest of the ten play in Europe.",
   image: "https://assets.goal.com/images/v3/getty-2267704044/crop/MM5DENRQHA5DCNBWG45G433XMU5DEORRGQ3Q====/GettyImages-2267704044.jpg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -43,22 +59,7 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "History Against Mexico. The Next One Has to Be Harder.",
-  subtitle: "Sullivan, 17 years and five days, chipped Rangel. The record is real. The giveaway is part of the goal.",
-  image: "https://assets.goal.com/images/v3/getty-2298472764/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2298472764.jpg?quality=60&auto=webp&format=pjpg&width=1920",
-  link: "/news/sullivan-mexico-record",
-  external: false,
-  cta: "Read the full story"
-},
-  {
-  title: "Back in Spain. Not in a Shirt.",
-  subtitle: "Messi buys Eldense. The licence is pending. The farewell is in Buenos Aires.",
-  image: "https://assets.goal.com/images/v3/blt65bbc97697961dfd/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-09-04T132526.445.png?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/messi-eldense-owner",
-  external: false,
-  cta: "Read the full story"
-},
+
  
 
 
@@ -87,6 +88,24 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  id: 291,
+  title: "Kovac Promised Albert Minutes. The City Interest Is Still a Report.",
+  author: "Mio Ristic",
+  date: "October 13, 2026",
+  excerpt: "The Dortmund coach said the minutes are coming. Goal reported a rejected summer approach from City. Only one of those is on the record.",
+  imageUrl: "https://assets.goal.com/images/v3/bltddddd4716914a103/Albert.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/albert-kovac-city-minutes"
+},
+  {
+  id: 290,
+  title: "Charlotte Signed Doucouré Before the Freeze. The Debut Can Wait.",
+  author: "Mio Ristic",
+  date: "October 13, 2026",
+  excerpt: "The former Everton midfielder is signed through the end of 2026. Dean Smith says visa and fitness come before minutes.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2197194714/crop/MM5DCOBQHA5DCMBRG45G433XMU5DCMBZG45DGMZV/GettyImages-2197194714.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  link: "/news/doucoure-charlotte-freeze"
+},
+  {
   id: 288,
   title: "Which of Pochettino’s New USMNT Kids Are Actually Here to Stay?",
   author: "Mio Ristic",
@@ -95,27 +114,6 @@ const blogPosts: Post[] = [
   imageUrl: "https://assets.goal.com/images/v3/imago-sport-1083944903/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
   link: "/news/pochettino-kids-here-to-stay"
 },
-  {
-  id: 287,
-  title: "USMNT Beat Canada 1-0 as Justin Ellis Caps a 4-0 Window",
-  author: "Mio Ristic",
-  date: "October 7, 2026",
-  excerpt: "Ellis scored the first goal of the window and the last. A 1-0 in St. Paul, one shot on target, four wins since the World Cup.",
-  imageUrl: "https://assets.goal.com/images/v3/getty-2298472055/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2298472055.jpg?quality=60&auto=webp&format=pjpg&width=1920",
-  link: "/news/usmnt-canada-ellis-window"
-},
-  {
-  id: 286,
-  title: "Cavan Sullivan Made History Against Mexico. The Next Goal Will Have to Be Harder.",
-  author: "Mio Ristic",
-  date: "October 5, 2026",
-  excerpt: "At 17 years and five days, Sullivan became the youngest USMNT scorer in a 3-0 win over Mexico. The chip was his. The loose ball was Rangel's.",
-  imageUrl: "https://assets.goal.com/images/v3/getty-2298472764/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2298472764.jpg?quality=60&auto=webp&format=pjpg&width=1920",
-  link: "/news/sullivan-mexico-record"
-},
-  
-
-
 
 
  

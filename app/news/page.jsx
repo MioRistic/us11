@@ -13,6 +13,24 @@ import { SlUserFollowing } from 'react-icons/sl';
 const Blog = () => {
   const blogPosts = [
     {
+  id: 291,
+  title: "Kovac Promised Albert Minutes. The City Interest Is Still a Report.",
+  author: "Mio Ristic",
+  date: "October 13, 2026",
+  excerpt: "The Dortmund coach said the minutes are coming. Goal reported a rejected summer approach from City. Only one of those is on the record.",
+  imageUrl: "https://assets.goal.com/images/v3/bltddddd4716914a103/Albert.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  slug: "albert-kovac-city-minutes"
+},
+    {
+  id: 290,
+  title: "Charlotte Signed Doucouré Before the Freeze. The Debut Can Wait.",
+  author: "Mio Ristic",
+  date: "October 13, 2026",
+  excerpt: "The former Everton midfielder is signed through the end of 2026. Dean Smith says visa and fitness come before minutes.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2197194714/crop/MM5DCOBQHA5DCMBRG45G433XMU5DCMBZG45DGMZV/GettyImages-2197194714.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  slug: "doucoure-charlotte-freeze"
+},
+    {
   id: 288,
   title: "Which of Pochettino’s New USMNT Kids Are Actually Here to Stay?",
   author: "Mio Ristic",
