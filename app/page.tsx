@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "A Case. Not the Award.",
+  subtitle: "Ojeda’s backheel off Griezmann is the clip of the night. Goal of the Year comes later.",
+  image: "https://i.ibb.co/hRTtz0wp/01ke6zvb0dqtawf59r90.webp",
+  link: "/news/ojeda-backheel-goal-of-the-year",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "Minutes Are Promised. The Bid Is Not.",
   subtitle: "Kovac said Albert will play more. The City approach is still a Goal report.",
   image: "https://assets.goal.com/images/v3/bltddddd4716914a103/Albert.jpg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -51,14 +59,7 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "Ellis Caps a 4-0 Window",
-  subtitle: "USMNT beat Canada 1-0 in St. Paul. One shot on target. The streak is real. The match was smaller.",
-  image: "https://assets.goal.com/images/v3/getty-2298472055/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2298472055.jpg?quality=60&auto=webp&format=pjpg&width=1920",
-  link: "/news/usmnt-canada-ellis-window",
-  external: false,
-  cta: "Read the full story"
-},
+
 
  
 
@@ -88,6 +89,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  id: 292,
+  title: "Ojeda’s Backheel Is a Goal of the Year Case. It Is Not the Award.",
+  author: "Mio Ristic",
+  date: "October 18, 2026",
+  excerpt: "A scorpion finish off Griezmann in the 22nd minute. MLS said potentially. The award is still open.",
+  imageUrl: "https://i.ibb.co/hRTtz0wp/01ke6zvb0dqtawf59r90.webp",
+  link: "/news/ojeda-backheel-goal-of-the-year"
+},
+  {
   id: 291,
   title: "Kovac Promised Albert Minutes. The City Interest Is Still a Report.",
   author: "Mio Ristic",
@@ -105,17 +115,7 @@ const blogPosts: Post[] = [
   imageUrl: "https://assets.goal.com/images/v3/getty-2197194714/crop/MM5DCOBQHA5DCMBRG45G433XMU5DCMBZG45DGMZV/GettyImages-2197194714.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   link: "/news/doucoure-charlotte-freeze"
 },
-  {
-  id: 288,
-  title: "Which of Pochettino’s New USMNT Kids Are Actually Here to Stay?",
-  author: "Mio Ristic",
-  date: "October 9, 2026",
-  excerpt: "Hall scored three in three. Ellis opened and closed the window. Sullivan has the record. The Nations League is the filter.",
-  imageUrl: "https://assets.goal.com/images/v3/imago-sport-1083944903/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
-  link: "/news/pochettino-kids-here-to-stay"
-},
-
-
+ 
  
 
     

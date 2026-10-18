@@ -13,6 +13,15 @@ import { SlUserFollowing } from 'react-icons/sl';
 const Blog = () => {
   const blogPosts = [
     {
+  id: 292,
+  title: "Ojeda’s Backheel Is a Goal of the Year Case. It Is Not the Award.",
+  author: "Mio Ristic",
+  date: "October 18, 2026",
+  excerpt: "A scorpion finish off Griezmann in the 22nd minute. MLS said potentially. The award is still open.",
+  imageUrl: "https://i.ibb.co/hRTtz0wp/01ke6zvb0dqtawf59r90.webp",
+  slug: "ojeda-backheel-goal-of-the-year"
+},
+    {
   id: 291,
   title: "Kovac Promised Albert Minutes. The City Interest Is Still a Report.",
   author: "Mio Ristic",
