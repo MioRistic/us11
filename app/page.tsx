@@ -19,6 +19,22 @@ interface Post {
 const ACCENT = '#1d4ed8';
 
 const heroItems = [
+{
+  title: "Four Weekends. Four Outcomes.",
+  subtitle: "Reyna scored. Pulisic started. McKennie lost. Aaronson sat.",
+  image: "https://assets.goal.com/images/v3/getty-2300107618/crop/MM5DENZWGM5DCNJVGQ5G433XMU5DAORRGQ2A====/GettyImages-2300107618.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  link: "/news/americans-abroad-reyna-pulisic-mckennie-aaronson",
+  external: false,
+  cta: "Read the full story"
+},
+  {
+  title: "One Game From a Trophy",
+  subtitle: "Damet is 36 and in his first permanent job. St. Louis is 21 unbeaten and in the Open Cup final.",
+  image: "https://assets.goal.com/images/v3/blt577ca013fa3871fc/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-03-10T122830.270.png?quality=60&auto=webp&format=pjpg&width=1920",
+  link: "/news/damet-st-louis-first-job",
+  external: false,
+  cta: "Read the full story"
+},
   {
   title: "A Case. Not the Award.",
   subtitle: "Ojeda’s backheel off Griezmann is the clip of the night. Goal of the Year comes later.",
@@ -43,24 +59,7 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "No MLS Player in the American Top 10",
-  subtitle: "Pulisic leads FC 27’s American men at 83. The rest of the ten play in Europe.",
-  image: "https://assets.goal.com/images/v3/getty-2267704044/crop/MM5DENRQHA5DCNBWG45G433XMU5DEORRGQ3Q====/GettyImages-2267704044.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/gaming/fc-27-american-men-ratings",
-  external: false,
-  cta: "Read the full story"
-},
-  {
-  title: "Who Is Actually Here to Stay?",
-  subtitle: "Hall, three in three. Ellis, first and last. Sullivan has the camera. November brings the veterans back.",
-  image: "https://assets.goal.com/images/v3/imago-sport-1083944903/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
-  link: "/news/pochettino-kids-here-to-stay",
-  external: false,
-  cta: "Read the full story"
-},
-
-
+ 
  
 
 
@@ -88,6 +87,24 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+{
+  id: 294,
+  title: "Reyna Scored Against PSG. Pulisic Is Finding His Feet. McKennie Started in a Collapse. Aaronson Watched From the Bench.",
+  author: "Mio Ristic",
+  date: "October 20, 2026",
+  excerpt: "Four USMNT players, four different weekends. A goal, a start, a collapse, and a place on the bench.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2300107618/crop/MM5DENZWGM5DCNJVGQ5G433XMU5DAORRGQ2A====/GettyImages-2300107618.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  link: "/news/americans-abroad-reyna-pulisic-mckennie-aaronson"
+},
+{
+  id: 293,
+  title: "Damet Is 36 and in His First Job. St. Louis Is One Game From a Trophy.",
+  author: "Mio Ristic",
+  date: "October 20, 2026",
+  excerpt: "MLS’s youngest coach has a record 21-game unbeaten run and a U.S. Open Cup final. The trophy has not been won.",
+  imageUrl: "https://assets.goal.com/images/v3/blt577ca013fa3871fc/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-03-10T122830.270.png?quality=60&auto=webp&format=pjpg&width=1920",
+  link: "/news/damet-st-louis-first-job"
+},
   {
   id: 292,
   title: "Ojeda’s Backheel Is a Goal of the Year Case. It Is Not the Award.",
@@ -97,27 +114,7 @@ const blogPosts: Post[] = [
   imageUrl: "https://i.ibb.co/hRTtz0wp/01ke6zvb0dqtawf59r90.webp",
   link: "/news/ojeda-backheel-goal-of-the-year"
 },
-  {
-  id: 291,
-  title: "Kovac Promised Albert Minutes. The City Interest Is Still a Report.",
-  author: "Mio Ristic",
-  date: "October 13, 2026",
-  excerpt: "The Dortmund coach said the minutes are coming. Goal reported a rejected summer approach from City. Only one of those is on the record.",
-  imageUrl: "https://assets.goal.com/images/v3/bltddddd4716914a103/Albert.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/albert-kovac-city-minutes"
-},
-  {
-  id: 290,
-  title: "Charlotte Signed Doucouré Before the Freeze. The Debut Can Wait.",
-  author: "Mio Ristic",
-  date: "October 13, 2026",
-  excerpt: "The former Everton midfielder is signed through the end of 2026. Dean Smith says visa and fitness come before minutes.",
-  imageUrl: "https://assets.goal.com/images/v3/getty-2197194714/crop/MM5DCOBQHA5DCMBRG45G433XMU5DCMBZG45DGMZV/GettyImages-2197194714.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/doucoure-charlotte-freeze"
-},
- 
- 
-
+  
     
   
 ];

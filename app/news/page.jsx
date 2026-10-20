@@ -12,6 +12,25 @@ import { SlUserFollowing } from 'react-icons/sl';
 
 const Blog = () => {
   const blogPosts = [
+    
+{
+  id: 294,
+  title: "Reyna Scored Against PSG. Pulisic Is Finding His Feet. McKennie Started in a Collapse. Aaronson Watched From the Bench.",
+  author: "Mio Ristic",
+  date: "October 20, 2026",
+  excerpt: "Four USMNT players, four different weekends. A goal, a start, a collapse, and a place on the bench.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2300107618/crop/MM5DENZWGM5DCNJVGQ5G433XMU5DAORRGQ2A====/GettyImages-2300107618.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  slug: "americans-abroad-reyna-pulisic-mckennie-aaronson"
+},
+    {
+  id: 293,
+  title: "Damet Is 36 and in His First Job. St. Louis Is One Game From a Trophy.",
+  author: "Mio Ristic",
+  date: "October 20, 2026",
+  excerpt: "MLS’s youngest coach has a record 21-game unbeaten run and a U.S. Open Cup final. The trophy has not been won.",
+  imageUrl: "https://assets.goal.com/images/v3/blt577ca013fa3871fc/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-03-10T122830.270.png?quality=60&auto=webp&format=pjpg&width=1920",
+  slug: "damet-st-louis-first-job"
+},
     {
   id: 292,
   title: "Ojeda’s Backheel Is a Goal of the Year Case. It Is Not the Award.",
