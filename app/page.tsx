@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  title: "Griezmann x Peace Collective x Street Fighter",
+  subtitle: "Orlando City’s limited drop is live. Here’s what’s worth buying.",
+  image: "https://www.mlsstore.com/content/ws/all/71cebf47-8fc9-46ab-b6e7-971b9dc298f2__480X639.jpg?w=480",
+  link: "/blog/griezmann-peace-collective-street-fighter",
+  external: false,
+  cta: "Read the full story"
+},
+  {
   title: "Lewandowski Has Fear of What Comes Next",
   subtitle: "He is backing Yamal. He rates Olise. He does not know what happens after football.",
   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKikJ--39TDT1sM0AWUeA0grnRGIrjoWTuDl-wuz5MXkbmHJ1dxSRnamxI&s=10",
@@ -48,14 +56,6 @@ const heroItems = [
   subtitle: "Ojeda’s backheel off Griezmann is the clip of the night. Goal of the Year comes later.",
   image: "https://i.ibb.co/hRTtz0wp/01ke6zvb0dqtawf59r90.webp",
   link: "/news/ojeda-backheel-goal-of-the-year",
-  external: false,
-  cta: "Read the full story"
-},
-  {
-  title: "Minutes Are Promised. The Bid Is Not.",
-  subtitle: "Kovac said Albert will play more. The City approach is still a Goal report.",
-  image: "https://assets.goal.com/images/v3/bltddddd4716914a103/Albert.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/albert-kovac-city-minutes",
   external: false,
   cta: "Read the full story"
 },
@@ -120,6 +120,15 @@ const blogPosts: Post[] = [
 ];
 
 const jerseysBlogPosts: Post[] = [
+  {
+  id: 296,
+  title: "Orlando City Just Dropped a Peace Collective x Street Fighter Collection With Griezmann. Here’s What’s Worth Buying.",
+  author: "Mio Ristic",
+  date: "October 22, 2026",
+  excerpt: "Limited Peace Collective drop with Griezmann graphics and Street Fighter mash-ups. Tees, hoodies and jackets now available.",
+  imageUrl: "https://www.mlsstore.com/content/ws/all/71cebf47-8fc9-46ab-b6e7-971b9dc298f2__480X639.jpg?w=480",
+  link: "/blog/griezmann-peace-collective-street-fighter"
+},
     {
   "id": 1034,
   "title": "Claim Your Club. Claim Your City. Inside the MLS x Paper Planes x Vs. Everybody Drop",
@@ -137,15 +146,6 @@ const jerseysBlogPosts: Post[] = [
   "excerpt": "Full ranking and review of the 2026 Adidas x MLS Archive Collection third kits. Mio’s top 3: CF Montréal, Real Salt Lake, Vancouver Whitecaps.",
   "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/mls/rsyenouylj95wi8oeipx.jpg",
   "link": "/blog/mls-archive-collection-2026"
-},
-  {
-  "id": 1031,
-  "title": "Inter Miami Cénit 2026 Third Jersey: Full Guide, Prices & Where to Buy",
-  "author": "Mio Ristić",
-  "date": "July 30, 2026",
-  "excerpt": "Inter Miami’s new white Cénit third jersey is live. Full prices for Messi Replica ($130), plain Replica ($100), Authentic ($205) and where to buy on MLS Store & Fanatics.",
-  "imageUrl": "https://www.mlsstore.com/content/ws/all/a92d7370-fdf2-438d-b9b8-2e35981037df__2055X750.jpg",
-  "link": "blog/inter-miami-cenit-2026-third-jersey"
 },
 
  

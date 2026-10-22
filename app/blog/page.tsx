@@ -50,6 +50,15 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  id: 296,
+  title: "Orlando City Just Dropped a Peace Collective x Street Fighter Collection With Griezmann. Here’s What’s Worth Buying.",
+  author: "Mio Ristic",
+  date: "October 22, 2026",
+  excerpt: "Limited Peace Collective drop with Griezmann graphics and Street Fighter mash-ups. Tees, hoodies and jackets now available.",
+  imageUrl: "https://www.mlsstore.com/content/ws/all/71cebf47-8fc9-46ab-b6e7-971b9dc298f2__480X639.jpg?w=480",
+  slug: "griezmann-peace-collective-street-fighter"
+},
+  {
   "id": 1034,
   "title": "Claim Your Club. Claim Your City. Inside the MLS x Paper Planes x Vs. Everybody Drop",
   "author": "Mio Ristić",
