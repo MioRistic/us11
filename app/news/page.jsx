@@ -12,7 +12,15 @@ import { SlUserFollowing } from 'react-icons/sl';
 
 const Blog = () => {
   const blogPosts = [
-    
+    {
+  id: 295,
+  title: "Lewandowski Has Fear of Life After Football. He Also Thinks Olise Should Be in the Ballon d’Or Conversation.",
+  author: "Mio Ristic",
+  date: "October 22, 2026",
+  excerpt: "The Chicago Fire striker admits he has questions about what comes next. He is backing Yamal and rates Olise as a game-changer.",
+  imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKikJ--39TDT1sM0AWUeA0grnRGIrjoWTuDl-wuz5MXkbmHJ1dxSRnamxI&s=10",
+  slug: "lewandowski-fear-after-football"
+},
 {
   id: 294,
   title: "Reyna Scored Against PSG. Pulisic Is Finding His Feet. McKennie Started in a Collapse. Aaronson Watched From the Bench.",

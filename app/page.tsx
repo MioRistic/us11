@@ -19,6 +19,14 @@ interface Post {
 const ACCENT = '#1d4ed8';
 
 const heroItems = [
+  {
+  title: "Lewandowski Has Fear of What Comes Next",
+  subtitle: "He is backing Yamal. He rates Olise. He does not know what happens after football.",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKikJ--39TDT1sM0AWUeA0grnRGIrjoWTuDl-wuz5MXkbmHJ1dxSRnamxI&s=10",
+  link: "/news/lewandowski-fear-after-football",
+  external: false,
+  cta: "Read the full story"
+},
 {
   title: "Four Weekends. Four Outcomes.",
   subtitle: "Reyna scored. Pulisic started. McKennie lost. Aaronson sat.",
@@ -51,16 +59,7 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "Doucouré Signed. The Debut Can Wait.",
-  subtitle: "Charlotte added the former Everton midfielder before the freeze. Visa and fitness decide the rest.",
-  image: "https://assets.goal.com/images/v3/getty-2197194714/crop/MM5DCOBQHA5DCMBRG45G433XMU5DCMBZG45DGMZV/GettyImages-2197194714.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  link: "/news/doucoure-charlotte-freeze",
-  external: false,
-  cta: "Read the full story"
-},
- 
- 
+
 
 
 
@@ -87,6 +86,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+  {
+  id: 295,
+  title: "Lewandowski Has Fear of Life After Football. He Also Thinks Olise Should Be in the Ballon d’Or Conversation.",
+  author: "Mio Ristic",
+  date: "October 22, 2026",
+  excerpt: "The Chicago Fire striker admits he has questions about what comes next. He is backing Yamal and rates Olise as a game-changer.",
+  imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKikJ--39TDT1sM0AWUeA0grnRGIrjoWTuDl-wuz5MXkbmHJ1dxSRnamxI&s=10",
+  link: "/news/lewandowski-fear-after-football"
+},
 {
   id: 294,
   title: "Reyna Scored Against PSG. Pulisic Is Finding His Feet. McKennie Started in a Collapse. Aaronson Watched From the Bench.",
@@ -105,15 +113,7 @@ const blogPosts: Post[] = [
   imageUrl: "https://assets.goal.com/images/v3/blt577ca013fa3871fc/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-03-10T122830.270.png?quality=60&auto=webp&format=pjpg&width=1920",
   link: "/news/damet-st-louis-first-job"
 },
-  {
-  id: 292,
-  title: "Ojeda’s Backheel Is a Goal of the Year Case. It Is Not the Award.",
-  author: "Mio Ristic",
-  date: "October 18, 2026",
-  excerpt: "A scorpion finish off Griezmann in the 22nd minute. MLS said potentially. The award is still open.",
-  imageUrl: "https://i.ibb.co/hRTtz0wp/01ke6zvb0dqtawf59r90.webp",
-  link: "/news/ojeda-backheel-goal-of-the-year"
-},
+
   
     
   
