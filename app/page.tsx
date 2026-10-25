@@ -27,6 +27,14 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
+{
+  title: "Kily Gonzalez Benched Messi After Spain Trip",
+  subtitle: "Miami lost 2-0. The decision was planned to protect him.",
+  image: "https://assets.goal.com/images/v3/getty-2301840320/crop/MM5DEOBUHA5DCNRQGI5G433XMU5DCNJUHE5DCMRR/GettyImages-2301840320.jpg?quality=60&auto=webp&format=pjpg&width=2160",
+  link: "/news/kily-gonzalez-benched-messi-spain-trip",
+  external: false,
+  cta: "Read the full story"
+},
   {
   title: "Lewandowski Has Fear of What Comes Next",
   subtitle: "He is backing Yamal. He rates Olise. He does not know what happens after football.",
@@ -87,6 +95,16 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+id: 298,
+title: "Nashville SC Won the 2026 Supporters’ Shield. They Did It the Old-Fashioned Way.",
+author: "Mio Ristić",
+date: "October 25, 2026",
+excerpt: "Nashville SC made club history by winning the 2026 MLS Supporters’ Shield. A disciplined defense, an efficient attack and remarkable consistency powered their historic season.",
+imageUrl: "https://assets.goal.com/images/v3/blt0733c3edcfb41a40/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-03-22T213603.222.png?quality=60&auto=webp&format=pjpg&width=1920",
+link: "news/nashville-sc-2026-supporters-shield"
+},
+
+  {
   id: 295,
   title: "Lewandowski Has Fear of Life After Football. He Also Thinks Olise Should Be in the Ballon d’Or Conversation.",
   author: "Mio Ristic",
@@ -104,15 +122,7 @@ const blogPosts: Post[] = [
   imageUrl: "https://assets.goal.com/images/v3/getty-2300107618/crop/MM5DENZWGM5DCNJVGQ5G433XMU5DAORRGQ2A====/GettyImages-2300107618.jpg?quality=60&auto=webp&format=pjpg&width=1920",
   link: "/news/americans-abroad-reyna-pulisic-mckennie-aaronson"
 },
-{
-  id: 293,
-  title: "Damet Is 36 and in His First Job. St. Louis Is One Game From a Trophy.",
-  author: "Mio Ristic",
-  date: "October 20, 2026",
-  excerpt: "MLS’s youngest coach has a record 21-game unbeaten run and a U.S. Open Cup final. The trophy has not been won.",
-  imageUrl: "https://assets.goal.com/images/v3/blt577ca013fa3871fc/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-03-10T122830.270.png?quality=60&auto=webp&format=pjpg&width=1920",
-  link: "/news/damet-st-louis-first-job"
-},
+
 
   
     

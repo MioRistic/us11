@@ -13,6 +13,25 @@ import { SlUserFollowing } from 'react-icons/sl';
 const Blog = () => {
   const blogPosts = [
     {
+id: 298,
+title: "Nashville SC Won the 2026 Supporters’ Shield. They Did It the Old-Fashioned Way.",
+author: "Mio Ristić",
+date: "October 25, 2026",
+excerpt: "Nashville SC made club history by winning the 2026 MLS Supporters’ Shield. A disciplined defense, an efficient attack and remarkable consistency powered their historic season.",
+imageUrl: "https://assets.goal.com/images/v3/blt0733c3edcfb41a40/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-03-22T213603.222.png?quality=60&auto=webp&format=pjpg&width=1920",
+slug: "nashville-sc-2026-supporters-shield"
+},
+
+    {
+  id: 297,
+  title: "Kily Gonzalez Benched Messi After a Trip to Spain. Miami Lost 2-0. This Is Why It Happened.",
+  author: "Mio Ristić",
+  date: "October 25, 2026",
+  excerpt: "Gonzalez planned the benching after Messi's trip to Oviedo for the Princess of Asturias Award. Miami lost 2-0 and the streak ended.",
+  imageUrl: "https://assets.goal.com/images/v3/getty-2301840320/crop/MM5DEOBUHA5DCNRQGI5G433XMU5DCNJUHE5DCMRR/GettyImages-2301840320.jpg?quality=60&auto=webp&format=pjpg&width=2160",
+  slug: "kily-gonzalez-benched-messi-spain-trip"
+},
+    {
   id: 295,
   title: "Lewandowski Has Fear of Life After Football. He Also Thinks Olise Should Be in the Ballon d’Or Conversation.",
   author: "Mio Ristic",
