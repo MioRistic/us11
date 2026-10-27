@@ -13,6 +13,15 @@ import { SlUserFollowing } from 'react-icons/sl';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 299,
+  "title": "Messi Finished Fifth in the Ballon d’Or. At 39. In MLS.",
+  "author": "Mio Ristić",
+  "date": "October 28, 2026",
+  "excerpt": "At 39 and playing in MLS, Lionel Messi still finished fifth in the 2026 Ballon d’Or rankings, ahead of Haaland, Dembélé and others.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2301135796/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2301135796.jpg?quality=60&auto=webp&format=pjpg&width=2160",
+  slug: "messi-fifth-ballon-dor-2026"
+},
+    {
 id: 298,
 title: "Nashville SC Won the 2026 Supporters’ Shield. They Did It the Old-Fashioned Way.",
 author: "Mio Ristić",

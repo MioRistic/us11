@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Messi Finished Fifth in the Ballon d’Or. At 39. In MLS.",
+  "subtitle": "The 39-year-old Inter Miami forward still placed ahead of Haaland, Dembélé and Kvaratskhelia",
+  "image": "https://assets.goal.com/images/v3/getty-2301135796/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2301135796.jpg?quality=60&auto=webp&format=pjpg&width=2160",
+  "link": "/news/messi-fifth-ballon-dor-2026",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   title: "Griezmann x Peace Collective x Street Fighter",
   subtitle: "Orlando City’s limited drop is live. Here’s what’s worth buying.",
   image: "https://www.mlsstore.com/content/ws/all/71cebf47-8fc9-46ab-b6e7-971b9dc298f2__480X639.jpg?w=480",
@@ -51,14 +59,6 @@ image: "https://assets.goal.com/images/v3/blt0733c3edcfb41a40/GOAL%20-%20Blank%2
   external: false,
   cta: "Read the full story"
 },
-{
-  title: "Four Weekends. Four Outcomes.",
-  subtitle: "Reyna scored. Pulisic started. McKennie lost. Aaronson sat.",
-  image: "https://assets.goal.com/images/v3/getty-2300107618/crop/MM5DENZWGM5DCNJVGQ5G433XMU5DAORRGQ2A====/GettyImages-2300107618.jpg?quality=60&auto=webp&format=pjpg&width=1920",
-  link: "/news/americans-abroad-reyna-pulisic-mckennie-aaronson",
-  external: false,
-  cta: "Read the full story"
-},
 
 
 
@@ -84,7 +84,16 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
-id: 298,
+  "id": 298,
+  "title": "Messi Finished Fifth in the Ballon d’Or. At 39. In MLS.",
+  "author": "Mio Ristić",
+  "date": "October 28, 2026",
+  "excerpt": "At 39 and playing in MLS, Lionel Messi still finished fifth in the 2026 Ballon d’Or rankings, ahead of Haaland, Dembélé and others.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2301135796/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2301135796.jpg?quality=60&auto=webp&format=pjpg&width=2160",
+  "link": "/news/messi-fifth-ballon-dor-2026"
+},
+  {     
+id: 299,
 title: "Nashville SC Won the 2026 Supporters’ Shield. They Did It the Old-Fashioned Way.",
 author: "Mio Ristić",
 date: "October 25, 2026",
@@ -101,15 +110,6 @@ link: "news/nashville-sc-2026-supporters-shield"
   imageUrl: "https://assets.goal.com/images/v3/getty-2301840320/crop/MM5DEOBUHA5DCNRQGI5G433XMU5DCNJUHE5DCMRR/GettyImages-2301840320.jpg?quality=60&auto=webp&format=pjpg&width=2160",
   link: "news/kily-gonzalez-benched-messi-spain-trip"
   },
-  {
-  id: 295,
-  title: "Lewandowski Has Fear of Life After Football. He Also Thinks Olise Should Be in the Ballon d’Or Conversation.",
-  author: "Mio Ristic",
-  date: "October 22, 2026",
-  excerpt: "The Chicago Fire striker admits he has questions about what comes next. He is backing Yamal and rates Olise as a game-changer.",
-  imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKikJ--39TDT1sM0AWUeA0grnRGIrjoWTuDl-wuz5MXkbmHJ1dxSRnamxI&s=10",
-  link: "/news/lewandowski-fear-after-football"
-},
 
 
 
