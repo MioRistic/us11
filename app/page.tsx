@@ -82,7 +82,7 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
-  "id": 299,
+  "id": 300,
   "title": "Pulisic and Milan Have Agreed a Deal in Principle Until 2031. The Signature Is Still Missing.",
   "author": "Mio Ristić",
   "date": "October 28, 2026",

@@ -57,11 +57,11 @@ export default function PulisicMilanDeal2031() {
             Christian Pulisic is close to a new contract that would keep him at AC Milan through 2031. Multiple Italian outlets report an agreement in principle. The final signature has not been announced.
           </p>
 
-          {/* Share buttons */}
+          {/* Share buttons - black & white */}
           <div className="flex flex-wrap items-center gap-3 mb-8">
             <button
               onClick={handleCopyLink}
-              className="flex items-center gap-2 bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 rounded-full text-sm font-medium transition"
+              className="flex items-center gap-2 border border-gray-300 hover:bg-gray-50 text-gray-800 px-4 py-2 rounded-full text-sm font-medium transition"
             >
               <FiCopy className="w-4 h-4" />
               {copied ? 'Copied!' : 'Copy link'}
@@ -71,7 +71,7 @@ export default function PulisicMilanDeal2031() {
               href={facebookShare}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-[#1877F2] hover:bg-[#166FE5] text-white px-4 py-2 rounded-full text-sm font-medium transition"
+              className="flex items-center gap-2 border border-gray-300 hover:bg-gray-50 text-gray-800 px-4 py-2 rounded-full text-sm font-medium transition"
             >
               <FaFacebookF className="w-4 h-4" />
               Facebook
@@ -81,7 +81,7 @@ export default function PulisicMilanDeal2031() {
               href={twitterShare}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-black hover:bg-gray-800 text-white px-4 py-2 rounded-full text-sm font-medium transition"
+              className="flex items-center gap-2 border border-gray-300 hover:bg-gray-50 text-gray-800 px-4 py-2 rounded-full text-sm font-medium transition"
             >
               <FaTwitter className="w-4 h-4" />
               X
@@ -91,7 +91,7 @@ export default function PulisicMilanDeal2031() {
               href={whatsappShare}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-[#25D366] hover:bg-[#20BD5A] text-white px-4 py-2 rounded-full text-sm font-medium transition"
+              className="flex items-center gap-2 border border-gray-300 hover:bg-gray-50 text-gray-800 px-4 py-2 rounded-full text-sm font-medium transition"
             >
               <FaWhatsapp className="w-4 h-4" />
               WhatsApp
@@ -115,54 +115,60 @@ export default function PulisicMilanDeal2031() {
         </figure>
 
         {/* Article content */}
-        <div className="prose prose-lg max-w-none">
-          <p>
+        <div className="max-w-none text-lg leading-relaxed">
+          <p className="mb-6">
             Christian Pulisic is close to signing a new contract with AC Milan that would keep him at the club until June 2031.
           </p>
 
-          <p>
+          <p className="mb-6">
             The agreement is not yet official. Multiple Italian outlets, including <em>Gazzetta dello Sport</em> and Sky Italia, reported on October 27 that Milan and Pulisic’s camp have reached an agreement in principle. The final details are still being completed, and an announcement is expected in the coming days. Until the paperwork is signed and published by the club, it remains a report rather than a completed transaction.
           </p>
 
-          <p>
+          <p className="mb-6">
             Pulisic’s current deal expires on June 30, 2027. Milan also held a unilateral option to extend it by one more season at the same salary. Instead of exercising that option, the club pushed for a longer agreement. According to the reporting, the new contract would run until 2031 and include a raise to roughly €5 million net per season plus bonuses, up from his current €4 million base.
           </p>
 
-          <h2>Why the timing makes sense for both sides</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mt-10 mb-6">
+            Why the timing makes sense for both sides
+          </h2>
 
-          <p>
+          <p className="mb-6">
             Pulisic joined Milan from Chelsea in the summer of 2023. He has scored 44 goals in 141 appearances for the club and was the team’s top scorer in the 2024-25 season. After a difficult stretch that included a long goal drought and an injury sustained at the World Cup, he has shown improved form in recent weeks. He scored against Lecce on September 20 and again in the 2-0 win over Udinese on October 25.
           </p>
 
-          <p>
+          <p className="mb-6">
             Owner Gerry Cardinale has made clear for months that he wants to keep Pulisic. Milan turned down interest from MLS clubs earlier in the summer. The club also recently extended center-back Strahinja Pavlović until 2031, signaling a broader effort to secure key players beyond their current contracts.
           </p>
 
-          <p>
+          <p className="mb-6">
             For Pulisic, the new deal would remove any near-term uncertainty about his future and place him among Milan’s highest earners. At 28, he would remain under contract through his early thirties. The reported structure also suggests the club views him as more than a short-term contributor under new coach Ruben Amorim.
           </p>
 
-          <h2>What is still unclear</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mt-10 mb-6">
+            What is still unclear
+          </h2>
 
-          <p>
+          <p className="mb-6">
             The reports are consistent across several outlets, but they all describe the same stage: an agreement in principle, not a signed contract. There is no official statement from Milan or Pulisic’s representatives yet. Salary figures and exact length are based on Italian media reporting and have not been confirmed by either party.
           </p>
 
-          <p>
+          <p className="mb-6">
             It is also not yet known whether the deal includes any performance-related clauses beyond the base salary and bonuses, or how Pulisic’s role will be defined under Amorim once the contract is finalized. Those details typically emerge only after the announcement.
           </p>
 
-          <h2>The practical reality</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mt-10 mb-6">
+            The practical reality
+          </h2>
 
-          <p>
+          <p className="mb-6">
             Milan could have simply triggered the one-year option and deferred a longer conversation until next summer. Choosing to negotiate a multi-year deal now indicates the club preferred certainty over flexibility. Pulisic’s recent goals have strengthened his position at a moment when the team is dealing with several injuries, but the renewal has been under discussion for some time.
           </p>
 
-          <p>
+          <p className="mb-6">
             Until Milan publishes the contract, the situation remains one step short of complete. The direction of travel is clear from the reporting. The signature is not.
           </p>
 
-          <p>
+          <p className="mb-6">
             Pulisic is expected to stay at San Siro. How long that stays a report rather than a fact is now a matter of days, not months.
           </p>
         </div>
