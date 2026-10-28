@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Pulisic and Milan Have Agreed a Deal in Principle Until 2031",
+  "subtitle": "Italian reports say an agreement is in place. The official signature is still missing.",
+  "image": "https://assets.goal.com/images/v3/getty-2302080837/crop/MM5DIOBTGI5DENZRHA5G433XMU5DAORQ/GettyImages-2302080837.jpg?quality=60&auto=webp&format=pjpg&width=2160",
+  "link": "/news/pulisic-milan-deal-2031",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Messi Finished Fifth in the Ballon d’Or. At 39. In MLS.",
   "subtitle": "The 39-year-old Inter Miami forward still placed ahead of Haaland, Dembélé and Kvaratskhelia",
   "image": "https://assets.goal.com/images/v3/getty-2301135796/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2301135796.jpg?quality=60&auto=webp&format=pjpg&width=2160",
@@ -51,17 +59,7 @@ image: "https://assets.goal.com/images/v3/blt0733c3edcfb41a40/GOAL%20-%20Blank%2
   external: false,
   cta: "Read the full story"
 },
-  {
-  title: "Lewandowski Has Fear of What Comes Next",
-  subtitle: "He is backing Yamal. He rates Olise. He does not know what happens after football.",
-  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKikJ--39TDT1sM0AWUeA0grnRGIrjoWTuDl-wuz5MXkbmHJ1dxSRnamxI&s=10",
-  link: "/news/lewandowski-fear-after-football",
-  external: false,
-  cta: "Read the full story"
-},
-
-
-
+  
 
 
   
@@ -84,6 +82,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 299,
+  "title": "Pulisic and Milan Have Agreed a Deal in Principle Until 2031. The Signature Is Still Missing.",
+  "author": "Mio Ristić",
+  "date": "October 28, 2026",
+  "excerpt": "Christian Pulisic is close to signing a new contract with AC Milan until June 2031. Italian media report an agreement in principle worth around €5 million net per season. The deal has not been officially announced.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2302080837/crop/MM5DIOBTGI5DENZRHA5G433XMU5DAORQ/GettyImages-2302080837.jpg?quality=60&auto=webp&format=pjpg&width=2160",
+  "link": "/news/pulisic-milan-deal-2031"
+},
+  {
   "id": 298,
   "title": "Messi Finished Fifth in the Ballon d’Or. At 39. In MLS.",
   "author": "Mio Ristić",
@@ -101,17 +108,7 @@ excerpt: "Nashville SC made club history by winning the 2026 MLS Supporters’ S
 imageUrl: "https://assets.goal.com/images/v3/blt0733c3edcfb41a40/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-03-22T213603.222.png?quality=60&auto=webp&format=pjpg&width=1920",
 link: "news/nashville-sc-2026-supporters-shield"
 },
-  {
-  id: 297,
-  title: "Kily Gonzalez Benched Messi After a Trip to Spain. Miami Lost 2-0. This Is Why It Happened.",
-  author: "Mio Ristić",
-  date: "October 25, 2026",
-  excerpt: "Gonzalez planned the benching after Messi's trip to Oviedo for the Princess of Asturias Award. Miami lost 2-0 and the streak ended.",
-  imageUrl: "https://assets.goal.com/images/v3/getty-2301840320/crop/MM5DEOBUHA5DCNRQGI5G433XMU5DCNJUHE5DCMRR/GettyImages-2301840320.jpg?quality=60&auto=webp&format=pjpg&width=2160",
-  link: "news/kily-gonzalez-benched-messi-spain-trip"
-  },
-
-
+  
 
   
     

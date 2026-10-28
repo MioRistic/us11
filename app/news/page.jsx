@@ -14,6 +14,15 @@ const Blog = () => {
   const blogPosts = [
     {
   "id": 299,
+  "title": "Pulisic and Milan Have Agreed a Deal in Principle Until 2031. The Signature Is Still Missing.",
+  "author": "Mio Ristić",
+  "date": "October 28, 2026",
+  "excerpt": "Christian Pulisic is close to signing a new contract with AC Milan until June 2031. Italian media report an agreement in principle worth around €5 million net per season. The deal has not been officially announced.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2302080837/crop/MM5DIOBTGI5DENZRHA5G433XMU5DAORQ/GettyImages-2302080837.jpg?quality=60&auto=webp&format=pjpg&width=2160",
+  "slug": "/pulisic-milan-deal-2031"
+},
+    {
+  "id": 299,
   "title": "Messi Finished Fifth in the Ballon d’Or. At 39. In MLS.",
   "author": "Mio Ristić",
   "date": "October 28, 2026",
