@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Orlando Blew a 2-0 Lead in Chicago",
+  "subtitle": "Griezmann starred, Lewandowski hit the post, and Charlotte and Philly clinched playoff spots",
+  "image": "https://assets.goal.com/images/v3/getty-2294480138/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORWGY======/GettyImages-2294480138.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/orlando-chicago-griezmann-playoff-race",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Peace Collective x Street Fighter x MLS",
   "subtitle": "The crossover collection that turns MLS stars into streetwear. Shop Griezmann, Son, Lewandowski and more.",
   "image": "https://i.postimg.cc/jSgdw8JN/Screenshot-2026-10-29-at-5-04-00-PM.png",
@@ -51,14 +59,6 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  title: "Griezmann x Peace Collective x Street Fighter",
-  subtitle: "Orlando City’s limited drop is live. Here’s what’s worth buying.",
-  image: "https://www.mlsstore.com/content/ws/all/71cebf47-8fc9-46ab-b6e7-971b9dc298f2__480X639.jpg?w=480",
-  link: "/blog/griezmann-peace-collective-street-fighter",
-  external: false,
-  cta: "Read the full story"
-},
 
   
  
@@ -79,6 +79,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+   {
+  "id": 302,
+  "title": "Orlando Blew a 2-0 Lead in Chicago. Griezmann Still Shined. Charlotte and Philly Clinched on the Same Night.",
+  "author": "Mio Ristić",
+  "date": "October 29, 2026",
+  "excerpt": "Griezmann scored and assisted in Orlando’s 2-2 draw at Chicago as the Lions dropped a two-goal lead. Charlotte and Philadelphia clinched playoff berths on the same night.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2294480138/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORWGY======/GettyImages-2294480138.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/orlando-chicago-griezmann-playoff-race"
+},
   {
   "id": 301,
   "title": "Aleksa Cvetković Scored His First MLS Goal. Vancouver Looked Like a Team That Has One.",
@@ -97,15 +106,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2302080837/crop/MM5DIOBTGI5DENZRHA5G433XMU5DAORQ/GettyImages-2302080837.jpg?quality=60&auto=webp&format=pjpg&width=2160",
   "link": "/news/pulisic-milan-deal-2031"
 },
-  {
-  "id": 298,
-  "title": "Messi Finished Fifth in the Ballon d’Or. At 39. In MLS.",
-  "author": "Mio Ristić",
-  "date": "October 28, 2026",
-  "excerpt": "At 39 and playing in MLS, Lionel Messi still finished fifth in the 2026 Ballon d’Or rankings, ahead of Haaland, Dembélé and others.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2301135796/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2301135796.jpg?quality=60&auto=webp&format=pjpg&width=2160",
-  "link": "/news/messi-fifth-ballon-dor-2026"
-},
+
 
   
 

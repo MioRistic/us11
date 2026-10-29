@@ -13,6 +13,16 @@ import { SlUserFollowing } from 'react-icons/sl';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 302,
+  "title": "Orlando Blew a 2-0 Lead in Chicago. Griezmann Still Shined. Charlotte and Philly Clinched on the Same Night.",
+  "author": "Mio Ristić",
+  "date": "October 29, 2026",
+  "excerpt": "Griezmann scored and assisted in Orlando’s 2-2 draw at Chicago as the Lions dropped a two-goal lead. Charlotte and Philadelphia clinched playoff berths on the same night.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2294480138/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORWGY======/GettyImages-2294480138.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "orlando-chicago-griezmann-playoff-race"
+},
+
+    {
   "id": 301,
   "title": "Aleksa Cvetković Scored His First MLS Goal. Vancouver Looked Like a Team That Has One.",
   "author": "Mio Ristić",
