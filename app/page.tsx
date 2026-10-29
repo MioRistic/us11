@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Peace Collective x Street Fighter x MLS",
+  "subtitle": "The crossover collection that turns MLS stars into streetwear. Shop Griezmann, Son, Lewandowski and more.",
+  "image": "https://i.postimg.cc/jSgdw8JN/Screenshot-2026-10-29-at-5-04-00-PM.png",
+  "link": "/blog/peace-collective-street-fighter-mls",
+  "external": false,
+  "cta": "Shop the collection"
+},
+  {
   "title": "Aleksa Cvetković Scored His First MLS Goal",
   "subtitle": "The 21-year-old Serbian midfielder opened the scoring in Vancouver’s 4-1 win and was named Man of the Match.",
   "image": "https://xdn.tf.rs/2026/10/29/profimedia-1147414591-930594-830x553.webp",
@@ -51,15 +59,6 @@ const heroItems = [
   external: false,
   cta: "Read the full story"
 },
-{
-  title: "Nashville SC Won the 2026 Supporters’ Shield. They Did It the Old-Fashioned Way.",
-  subtitle: "Miami lost 2-0. The decision was planned to protect him.",
-image: "https://assets.goal.com/images/v3/blt0733c3edcfb41a40/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-03-22T213603.222.png?quality=60&auto=webp&format=pjpg&width=1920",
-  link: "/news/nashville-sc-won-supporters-shield",
-  external: false,
-  cta: "Read the full story"
-},
-
 
   
  
@@ -117,6 +116,15 @@ const blogPosts: Post[] = [
 
 const jerseysBlogPosts: Post[] = [
   {
+  "id": 1035,
+  "title": "Peace Collective x Street Fighter x MLS: The Crossover Collection Worth Buying",
+  "author": "Mio Ristić",
+  "date": "October 29, 2026",
+  "excerpt": "Peace Collective teamed up with Street Fighter for an MLS lifestyle collection featuring Griezmann, Son Heung-min, Lewandowski and club designs. Tees, hoodies and more available now.",
+  "imageUrl": "https://i.postimg.cc/jSgdw8JN/Screenshot-2026-10-29-at-5-04-00-PM.png",
+  "link": "/blog/peace-collective-street-fighter-mls"
+},
+  {
   id: 296,
   title: "Orlando City Just Dropped a Peace Collective x Street Fighter Collection With Griezmann. Here’s What’s Worth Buying.",
   author: "Mio Ristic",
@@ -133,15 +141,6 @@ const jerseysBlogPosts: Post[] = [
   "excerpt": "The limited City Is Mine collection is live with tees, hoodies, work jackets, hats and scarves for nine MLS clubs. Claim your club. Claim your city.",
   "imageUrl": "https://www.mlsstore.com/content/ws/all/2fd26dec-bf1d-4dfc-89b3-0d678534ceee__2400X1200.jpg?w=2400",
   "link": "blog/mls-city-is-mine-claim-your-club"
-},
- {
-  "id": 1033,
-  "title": "2026 MLS Archive Collection: Ranking the Retro Kits — From Grimace Purple to Mountain Power",
-  "author": "Mio Ristić",
-  "date": "August 17, 2026",
-  "excerpt": "Full ranking and review of the 2026 Adidas x MLS Archive Collection third kits. Mio’s top 3: CF Montréal, Real Salt Lake, Vancouver Whitecaps.",
-  "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop_2x/f_auto/mls/rsyenouylj95wi8oeipx.jpg",
-  "link": "/blog/mls-archive-collection-2026"
 },
 
  

@@ -287,4 +287,4 @@ export default function GriezmannPeaceCollective() {
       </div>
     </article>
   );
-}
+} 

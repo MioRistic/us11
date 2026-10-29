@@ -50,6 +50,15 @@ const items: CategoryItem[] = [
 
 const blogPosts: BlogPost[] = [
   {
+  "id": 1035,
+  "title": "Peace Collective x Street Fighter x MLS: The Crossover Collection Worth Buying",
+  "author": "Mio Ristić",
+  "date": "October 29, 2026",
+  "excerpt": "Peace Collective teamed up with Street Fighter for an MLS lifestyle collection featuring Griezmann, Son Heung-min, Lewandowski and club designs. Tees, hoodies and more available now.",
+  "imageUrl": "https://i.postimg.cc/jSgdw8JN/Screenshot-2026-10-29-at-5-04-00-PM.png",
+  "slug": "peace-collective-street-fighter-mls"
+},
+  {
   id: 296,
   title: "Orlando City Just Dropped a Peace Collective x Street Fighter Collection With Griezmann. Here’s What’s Worth Buying.",
   author: "Mio Ristic",
