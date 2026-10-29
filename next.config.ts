@@ -19,7 +19,7 @@ const nextConfig = {
       { protocol: 'https', hostname: 'i.pinimg.com' },
       { protocol: 'https', hostname: 'images.unsplash.com' },
       { protocol: 'https', hostname: 'www.mlssoccer.com' },
-      { protocol: 'https', hostname: 'phantom-marca.unidadeditorial.es' },
+      { protocol: 'https', hostname: 'xdn.tf.rs' },
       { protocol: 'https', hostname: 'assets.bundesliga.com' },
       { protocol: 'https', hostname: 'www.telegram.hr' },
       { protocol: 'https', hostname: 'www.amazon.com' },

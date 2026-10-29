@@ -13,6 +13,15 @@ import { SlUserFollowing } from 'react-icons/sl';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 301,
+  "title": "Aleksa Cvetković Scored His First MLS Goal. Vancouver Looked Like a Team That Has One.",
+  "author": "Mio Ristić",
+  "date": "October 29, 2026",
+  "excerpt": "Aleksa Cvetković scored his first MLS goal in Vancouver Whitecaps’ 4-1 win over San Diego. The 21-year-old Serbian midfielder was named Man of the Match in only his fourth start.",
+  "imageUrl": "https://xdn.tf.rs/2026/10/29/profimedia-1147414591-930594-830x553.webp",
+  "slug": "cvetkovic-whitecaps-first-mls-goal"
+},
+    {
   "id": 300,
   "title": "Pulisic and Milan Have Agreed a Deal in Principle Until 2031. The Signature Is Still Missing.",
   "author": "Mio Ristić",

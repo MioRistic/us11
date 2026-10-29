@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Aleksa Cvetković Scored His First MLS Goal",
+  "subtitle": "The 21-year-old Serbian midfielder opened the scoring in Vancouver’s 4-1 win and was named Man of the Match.",
+  "image": "https://xdn.tf.rs/2026/10/29/profimedia-1147414591-930594-830x553.webp",
+  "link": "/news/cvetkovic-whitecaps-first-mls-goal",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Pulisic and Milan Have Agreed a Deal in Principle Until 2031",
   "subtitle": "Italian reports say an agreement is in place. The official signature is still missing.",
   "image": "https://assets.goal.com/images/v3/getty-2302080837/crop/MM5DIOBTGI5DENZRHA5G433XMU5DAORQ/GettyImages-2302080837.jpg?quality=60&auto=webp&format=pjpg&width=2160",
@@ -51,15 +59,6 @@ image: "https://assets.goal.com/images/v3/blt0733c3edcfb41a40/GOAL%20-%20Blank%2
   external: false,
   cta: "Read the full story"
 },
-{
-  title: "Kily Gonzalez Benched Messi After Spain Trip",
-  subtitle: "Miami lost 2-0. The decision was planned to protect him.",
-  image: "https://assets.goal.com/images/v3/getty-2301840320/crop/MM5DEOBUHA5DCNRQGI5G433XMU5DCNJUHE5DCMRR/GettyImages-2301840320.jpg?quality=60&auto=webp&format=pjpg&width=2160",
-  link: "/news/kily-gonzalez-benched-messi-spain-trip",
-  external: false,
-  cta: "Read the full story"
-},
-  
 
 
   
@@ -82,6 +81,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 301,
+  "title": "Aleksa Cvetković Scored His First MLS Goal. Vancouver Looked Like a Team That Has One.",
+  "author": "Mio Ristić",
+  "date": "October 29, 2026",
+  "excerpt": "Aleksa Cvetković scored his first MLS goal in Vancouver Whitecaps’ 4-1 win over San Diego. The 21-year-old Serbian midfielder was named Man of the Match in only his fourth start.",
+  "imageUrl": "https://xdn.tf.rs/2026/10/29/profimedia-1147414591-930594-830x553.webp",
+  "link": "/news/cvetkovic-whitecaps-first-mls-goal"
+},
+  {
   "id": 300,
   "title": "Pulisic and Milan Have Agreed a Deal in Principle Until 2031. The Signature Is Still Missing.",
   "author": "Mio Ristić",
@@ -99,15 +107,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2301135796/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2301135796.jpg?quality=60&auto=webp&format=pjpg&width=2160",
   "link": "/news/messi-fifth-ballon-dor-2026"
 },
-  {     
-id: 299,
-title: "Nashville SC Won the 2026 Supporters’ Shield. They Did It the Old-Fashioned Way.",
-author: "Mio Ristić",
-date: "October 25, 2026",
-excerpt: "Nashville SC made club history by winning the 2026 MLS Supporters’ Shield. A disciplined defense, an efficient attack and remarkable consistency powered their historic season.",
-imageUrl: "https://assets.goal.com/images/v3/blt0733c3edcfb41a40/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-03-22T213603.222.png?quality=60&auto=webp&format=pjpg&width=1920",
-link: "news/nashville-sc-2026-supporters-shield"
-},
+
   
 
   
