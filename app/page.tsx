@@ -27,13 +27,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Orlando Blew a 2-0 Lead in Chicago",
-  "subtitle": "Inter Miami needed a late equaliser from Fillipi to escape with a 2-2 draw against Cincinnati",
-  "image": "https://assets.goal.com/images/v3/getty-2302465844/crop/MM5DGNRRGY5DEMBTGQ5G433XMU5DAORRHA4Q====/GettyImages-2302465844.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/messi-inter-miami-cincinnati-draw",
-  "external": false,
-  "cta": "Read the full story"},
+  
 
   {
   "title": "Orlando Blew a 2-0 Lead in Chicago",
