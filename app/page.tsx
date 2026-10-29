@@ -20,6 +20,22 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Messi Didn’t Score or Assist",
+  "subtitle": "Inter Miami needed a late equaliser from Fillipi to escape with a 2-2 draw against Cincinnati",
+  "image": "https://assets.goal.com/images/v3/getty-2302465844/crop/MM5DGNRRGY5DEMBTGQ5G433XMU5DAORRHA4Q====/GettyImages-2302465844.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/messi-inter-miami-cincinnati-draw",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
+  "title": "Orlando Blew a 2-0 Lead in Chicago",
+  "subtitle": "Inter Miami needed a late equaliser from Fillipi to escape with a 2-2 draw against Cincinnati",
+  "image": "https://assets.goal.com/images/v3/getty-2302465844/crop/MM5DGNRRGY5DEMBTGQ5G433XMU5DAORRHA4Q====/GettyImages-2302465844.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/messi-inter-miami-cincinnati-draw",
+  "external": false,
+  "cta": "Read the full story"},
+
+  {
   "title": "Orlando Blew a 2-0 Lead in Chicago",
   "subtitle": "Griezmann starred, Lewandowski hit the post, and Charlotte and Philly clinched playoff spots",
   "image": "https://assets.goal.com/images/v3/getty-2294480138/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORWGY======/GettyImages-2294480138.jpg?auto=webp&format=pjpg&width=3840&quality=60",
@@ -51,14 +67,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Messi Finished Fifth in the Ballon d’Or. At 39. In MLS.",
-  "subtitle": "The 39-year-old Inter Miami forward still placed ahead of Haaland, Dembélé and Kvaratskhelia",
-  "image": "https://assets.goal.com/images/v3/getty-2301135796/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2301135796.jpg?quality=60&auto=webp&format=pjpg&width=2160",
-  "link": "/news/messi-fifth-ballon-dor-2026",
-  "external": false,
-  "cta": "Read the full story"
-},
+
 
   
  
@@ -79,6 +88,15 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+  {
+  "id": 303,
+  "title": "Messi Didn’t Score or Assist. Inter Miami Still Escaped With a Late Draw Against Cincinnati.",
+  "author": "Mio Ristić",
+  "date": "October 29, 2026",
+  "excerpt": "Messi played nearly the full match without a goal or assist. Riquelme Fillipi’s 90th-minute goal rescued a 2-2 draw for Inter Miami against Cincinnati.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2302465844/crop/MM5DGNRRGY5DEMBTGQ5G433XMU5DAORRHA4Q====/GettyImages-2302465844.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/messi-inter-miami-cincinnati-draw"
+},
    {
   "id": 302,
   "title": "Orlando Blew a 2-0 Lead in Chicago. Griezmann Still Shined. Charlotte and Philly Clinched on the Same Night.",
@@ -97,19 +115,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://xdn.tf.rs/2026/10/29/profimedia-1147414591-930594-830x553.webp",
   "link": "/news/cvetkovic-whitecaps-first-mls-goal"
 },
-  {
-  "id": 300,
-  "title": "Pulisic and Milan Have Agreed a Deal in Principle Until 2031. The Signature Is Still Missing.",
-  "author": "Mio Ristić",
-  "date": "October 28, 2026",
-  "excerpt": "Christian Pulisic is close to signing a new contract with AC Milan until June 2031. Italian media report an agreement in principle worth around €5 million net per season. The deal has not been officially announced.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2302080837/crop/MM5DIOBTGI5DENZRHA5G433XMU5DAORQ/GettyImages-2302080837.jpg?quality=60&auto=webp&format=pjpg&width=2160",
-  "link": "/news/pulisic-milan-deal-2031"
-},
-
-
   
-
   
     
   

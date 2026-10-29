@@ -13,6 +13,15 @@ import { SlUserFollowing } from 'react-icons/sl';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 303,
+  "title": "Messi Didn’t Score or Assist. Inter Miami Still Escaped With a Late Draw Against Cincinnati.",
+  "author": "Mio Ristić",
+  "date": "October 29, 2026",
+  "excerpt": "Messi played nearly the full match without a goal or assist. Riquelme Fillipi’s 90th-minute goal rescued a 2-2 draw for Inter Miami against Cincinnati.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2302465844/crop/MM5DGNRRGY5DEMBTGQ5G433XMU5DAORRHA4Q====/GettyImages-2302465844.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "messi-inter-miami-cincinnati-draw"
+},
+    {
   "id": 302,
   "title": "Orlando Blew a 2-0 Lead in Chicago. Griezmann Still Shined. Charlotte and Philly Clinched on the Same Night.",
   "author": "Mio Ristić",
