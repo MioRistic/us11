@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "MLS Is Averaging 3.25 Goals a Game",
+  "subtitle": "Higher than the completed 2025-26 Bundesliga season. The league has already broken its goals record.",
+  "image": "https://assets.goal.com/images/v3/imago-sport-1085015807/crop/MM5DCOJUGU5DCMBZGQ5G433XMU5DAORRGAYQ====/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
+  "link": "/news/mls-averaging-3-25-goals-higher-than-bundesliga",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Messi Didn’t Score or Assist",
   "subtitle": "Inter Miami needed a late equaliser from Fillipi to escape with a 2-2 draw against Cincinnati",
   "image": "https://assets.goal.com/images/v3/getty-2302465844/crop/MM5DGNRRGY5DEMBTGQ5G433XMU5DAORRHA4Q====/GettyImages-2302465844.jpg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -53,15 +61,6 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Pulisic and Milan Have Agreed a Deal in Principle Until 2031",
-  "subtitle": "Italian reports say an agreement is in place. The official signature is still missing.",
-  "image": "https://assets.goal.com/images/v3/getty-2302080837/crop/MM5DIOBTGI5DENZRHA5G433XMU5DAORQ/GettyImages-2302080837.jpg?quality=60&auto=webp&format=pjpg&width=2160",
-  "link": "/news/pulisic-milan-deal-2031",
-  "external": false,
-  "cta": "Read the full story"
-},
-
 
   
  
@@ -83,6 +82,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 304,
+  "title": "MLS Is Averaging 3.25 Goals a Game. That Is Higher Than the Bundesliga.",
+  "author": "Mio Ristić",
+  "date": "October 30, 2026",
+  "excerpt": "After 480 games, Major League Soccer is averaging 3.25 goals per match — higher than the completed 2025-26 Bundesliga season and most other major leagues.",
+  "imageUrl": "https://assets.goal.com/images/v3/imago-sport-1085015807/crop/MM5DCOJUGU5DCMBZGQ5G433XMU5DAORRGAYQ====/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
+  "link": "/news/mls-averaging-3-25-goals-higher-than-bundesliga"
+},
+  {
   "id": 303,
   "title": "Messi Didn’t Score or Assist. Inter Miami Still Escaped With a Late Draw Against Cincinnati.",
   "author": "Mio Ristić",
@@ -100,17 +108,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2294480138/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORWGY======/GettyImages-2294480138.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "/news/orlando-chicago-griezmann-playoff-race"
 },
-  {
-  "id": 301,
-  "title": "Aleksa Cvetković Scored His First MLS Goal. Vancouver Looked Like a Team That Has One.",
-  "author": "Mio Ristić",
-  "date": "October 29, 2026",
-  "excerpt": "Aleksa Cvetković scored his first MLS goal in Vancouver Whitecaps’ 4-1 win over San Diego. The 21-year-old Serbian midfielder was named Man of the Match in only his fourth start.",
-  "imageUrl": "https://xdn.tf.rs/2026/10/29/profimedia-1147414591-930594-830x553.webp",
-  "link": "/news/cvetkovic-whitecaps-first-mls-goal"
-},
-  
-  
+
     
   
 ];

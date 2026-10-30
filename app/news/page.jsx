@@ -13,6 +13,15 @@ import { SlUserFollowing } from 'react-icons/sl';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 304,
+  "title": "MLS Is Averaging 3.25 Goals a Game. That Is Higher Than the Bundesliga.",
+  "author": "Mio Ristić",
+  "date": "October 30, 2026",
+  "excerpt": "After 480 games, Major League Soccer is averaging 3.25 goals per match — higher than the completed 2025-26 Bundesliga season and most other major leagues.",
+  "imageUrl": "https://assets.goal.com/images/v3/imago-sport-1085015807/crop/MM5DCOJUGU5DCMBZGQ5G433XMU5DAORRGAYQ====/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
+  "slug": "/mls-averaging-3-25-goals-higher-than-bundesliga"
+},
+    {
   "id": 303,
   "title": "Messi Didn’t Score or Assist. Inter Miami Still Escaped With a Late Draw Against Cincinnati.",
   "author": "Mio Ristić",
