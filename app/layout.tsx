@@ -1,26 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";   
 import Script from "next/script";
 import "./globals.css";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
-// Fonts
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["400", "500", "600", "700"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["400", "500", "700"],
-});
 
 // Metadata
 export const metadata: Metadata = {
@@ -38,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en">
       <body className="antialiased flex flex-col min-h-screen">
         <Navbar />
 
