@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Allan Saint-Maximin Sent Off After VAR Review in Charlotte FC’s 4-0 Win",
+  "subtitle": "The French winger scored against Orlando City before an obscene gesture resulted in a late red card following a VAR review.",
+  "image": "https://assets.goal.com/images/v3/getty-2299592124/crop/MM5DINBRGE5DENBYGE5G433XMU5DAORSGMYA====/GettyImages-2299592124.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/allan-saint-maximin-sent-off-charlotte-orlando",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Is New York City FC at Risk From Manchester City’s Financial Case?",
   "subtitle": "MLS has drawn a line between Manchester City’s financial case in England and New York City FC’s position in the United States.",
   "image": "https://i.ibb.co/VY2ZwGRb/1793544865808.jpg",
@@ -43,16 +51,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  
 
-  {
-  "title": "Orlando Blew a 2-0 Lead in Chicago",
-  "subtitle": "Griezmann starred, Lewandowski hit the post, and Charlotte and Philly clinched playoff spots",
-  "image": "https://assets.goal.com/images/v3/getty-2294480138/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORWGY======/GettyImages-2294480138.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/orlando-chicago-griezmann-playoff-race",
-  "external": false,
-  "cta": "Read the full story"
-},
   {
   "title": "Peace Collective x Street Fighter x MLS",
   "subtitle": "The crossover collection that turns MLS stars into streetwear. Shop Griezmann, Son, Lewandowski and more.",
@@ -79,7 +78,17 @@ const staffPicks = [
   { name: "Marco Reus - LA Galaxy", image: "https://fanatics.frgimages.com/la-galaxy/mens-adidas-marco-reus-white-la-galaxy-2026-the-velocity-kit-replica-jersey_ss5_p-203844369+u-ybmznn0anpqtcfobwzyl+v-yvewnw1vxaoj2m4lz3gg.png?_hv=2&w=600", link: "https://fanatics.93n6tx.net/1G7rXa" },
 ];
 
-const blogPosts: Post[] = [{
+const blogPosts: Post[] = [
+  {
+  "id": 306,
+  "title": "Allan Saint-Maximin Sent Off After VAR Review in Charlotte FC’s 4-0 Win",
+  "author": "Mio Ristić",
+  "date": "November 1, 2026",
+  "excerpt": "Allan Saint-Maximin scored before being sent off following a VAR review as Charlotte FC defeated Orlando City 4-0. The French winger’s late dismissal overshadowed an otherwise impressive performance.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2299592124/crop/MM5DINBRGE5DENBYGE5G433XMU5DAORSGMYA====/GettyImages-2299592124.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/allan-saint-maximin-sent-off-charlotte-orlando"
+},
+  {
   "id": 305,
   "title": "Is New York City FC at Risk From Manchester City’s Financial Case?",
   "author": "Mio Ristić",
@@ -97,17 +106,7 @@ const blogPosts: Post[] = [{
   "imageUrl": "https://assets.goal.com/images/v3/imago-sport-1085015807/crop/MM5DCOJUGU5DCMBZGQ5G433XMU5DAORRGAYQ====/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
   "link": "/news/mls-averaging-3-25-goals-higher-than-bundesliga"
 },
-  {
-  "id": 303,
-  "title": "Messi Didn’t Score or Assist. Inter Miami Still Escaped With a Late Draw Against Cincinnati.",
-  "author": "Mio Ristić",
-  "date": "October 29, 2026",
-  "excerpt": "Messi played nearly the full match without a goal or assist. Riquelme Fillipi’s 90th-minute goal rescued a 2-2 draw for Inter Miami against Cincinnati.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2302465844/crop/MM5DGNRRGY5DEMBTGQ5G433XMU5DAORRHA4Q====/GettyImages-2302465844.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/messi-inter-miami-cincinnati-draw"
-},
-  
-    
+
   
 ];
 

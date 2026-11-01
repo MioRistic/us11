@@ -12,6 +12,24 @@ import { SlUserFollowing } from 'react-icons/sl';
 
 const Blog = () => {
   const blogPosts = [
+      {
+  "id": 306,
+  "title": "Allan Saint-Maximin Sent Off After VAR Review in Charlotte FC’s 4-0 Win",
+  "author": "Mio Ristić",
+  "date": "November 1, 2026",
+  "excerpt": "Allan Saint-Maximin scored before being sent off following a VAR review as Charlotte FC defeated Orlando City 4-0. The French winger’s late dismissal overshadowed an otherwise impressive performance.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2299592124/crop/MM5DINBRGE5DENBYGE5G433XMU5DAORSGMYA====/GettyImages-2299592124.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "allan-saint-maximin-sent-off-charlotte-orlando"
+},
+  {
+  "id": 305,
+  "title": "Is New York City FC at Risk From Manchester City’s Financial Case?",
+  "author": "Mio Ristić",
+  "date": "November 1, 2026",
+  "excerpt": "Manchester City’s financial case has raised questions about City Football Group. Here is what MLS has said about New York City FC and the potential implications for the American club.",
+  "imageUrl": "https://i.ibb.co/VY2ZwGRb/1793544865808.jpg",
+  "slug": "nycfc-manchester-city-financial-case"
+},
     {
   "id": 304,
   "title": "MLS Is Averaging 3.25 Goals a Game. That Is Higher Than the Bundesliga.",
