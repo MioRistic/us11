@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Is New York City FC at Risk From Manchester City’s Financial Case?",
+  "subtitle": "MLS has drawn a line between Manchester City’s financial case in England and New York City FC’s position in the United States.",
+  "image": "https://i.ibb.co/VY2ZwGRb/1793544865808.jpg",
+  "link": "/news/nycfc-manchester-city-financial-case",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "MLS Is Averaging 3.25 Goals a Game",
   "subtitle": "Higher than the completed 2025-26 Bundesliga season. The league has already broken its goals record.",
   "image": "https://assets.goal.com/images/v3/imago-sport-1085015807/crop/MM5DCOJUGU5DCMBZGQ5G433XMU5DAORRGAYQ====/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
@@ -53,16 +61,7 @@ const heroItems = [
   "external": false,
   "cta": "Shop the collection"
 },
-  {
-  "title": "Aleksa Cvetković Scored His First MLS Goal",
-  "subtitle": "The 21-year-old Serbian midfielder opened the scoring in Vancouver’s 4-1 win and was named Man of the Match.",
-  "image": "https://xdn.tf.rs/2026/10/29/profimedia-1147414591-930594-830x553.webp",
-  "link": "/news/cvetkovic-whitecaps-first-mls-goal",
-  "external": false,
-  "cta": "Read the full story"
-},
-
-  
+ 
  
 ];
 
@@ -80,7 +79,15 @@ const staffPicks = [
   { name: "Marco Reus - LA Galaxy", image: "https://fanatics.frgimages.com/la-galaxy/mens-adidas-marco-reus-white-la-galaxy-2026-the-velocity-kit-replica-jersey_ss5_p-203844369+u-ybmznn0anpqtcfobwzyl+v-yvewnw1vxaoj2m4lz3gg.png?_hv=2&w=600", link: "https://fanatics.93n6tx.net/1G7rXa" },
 ];
 
-const blogPosts: Post[] = [
+const blogPosts: Post[] = [{
+  "id": 305,
+  "title": "Is New York City FC at Risk From Manchester City’s Financial Case?",
+  "author": "Mio Ristić",
+  "date": "November 1, 2026",
+  "excerpt": "Manchester City’s financial case has raised questions about City Football Group. Here is what MLS has said about New York City FC and the potential implications for the American club.",
+  "imageUrl": "https://i.ibb.co/VY2ZwGRb/1793544865808.jpg",
+  "link": "/news/nycfc-manchester-city-financial-case"
+},
   {
   "id": 304,
   "title": "MLS Is Averaging 3.25 Goals a Game. That Is Higher Than the Bundesliga.",
@@ -99,16 +106,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2302465844/crop/MM5DGNRRGY5DEMBTGQ5G433XMU5DAORRHA4Q====/GettyImages-2302465844.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   "link": "/news/messi-inter-miami-cincinnati-draw"
 },
-   {
-  "id": 302,
-  "title": "Orlando Blew a 2-0 Lead in Chicago. Griezmann Still Shined. Charlotte and Philly Clinched on the Same Night.",
-  "author": "Mio Ristić",
-  "date": "October 29, 2026",
-  "excerpt": "Griezmann scored and assisted in Orlando’s 2-2 draw at Chicago as the Lions dropped a two-goal lead. Charlotte and Philadelphia clinched playoff berths on the same night.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2294480138/crop/MM5DGNRQGA5DEMBSGU5G433XMU5DAORWGY======/GettyImages-2294480138.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/orlando-chicago-griezmann-playoff-race"
-},
-
+  
     
   
 ];

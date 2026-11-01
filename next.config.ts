@@ -32,7 +32,7 @@ const nextConfig = {
       { protocol: 'https', hostname: 'sports.mynorthwest.com' },
       { protocol: 'https', hostname: 'static01.nyt.com' },
       { protocol: 'https', hostname: 'nbcsports.brightspotcdn.com' },
-      { protocol: 'https', hostname: 'nypost.com' },
+      { protocol: 'https', hostname: 'ibb.co' },
       { protocol: 'https', hostname: 'images.mlssoccer.com' },
       { protocol: 'https', hostname: 'media.freemalaysiatoday.com' },
       { protocol: 'https', hostname: 'motorcyclesports.net' },
