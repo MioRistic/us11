@@ -12,6 +12,15 @@ import { SlUserFollowing } from 'react-icons/sl';
 
 const Blog = () => {
   const blogPosts = [
+    {
+  "id": 307,
+  "title": "Christian Pulisic Delivers as AC Milan Take Control of the Derby",
+  "author": "Mio Ristić",
+  "date": "November 1, 2026",
+  "excerpt": "Christian Pulisic opened the scoring as AC Milan defeated Inter 3-1 at San Siro. Diego Moreira contributed two assists and a goal, while Milan's disciplined defensive display exposed the weaknesses in Cristian Chivu's side.",
+  "imageUrl": "https://assets.goal.com/images/v3/imago-sport-1085165753/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORQ/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
+  "slug": "christian-pulisic-ac-milan-inter-derby"
+},
       {
   "id": 306,
   "title": "Allan Saint-Maximin Sent Off After VAR Review in Charlotte FC’s 4-0 Win",

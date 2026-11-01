@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Christian Pulisic Delivers as AC Milan Take Control of the Derby",
+  "subtitle": "Pulisic opened the scoring in Milan's 3-1 victory over Inter, but Diego Moreira's outstanding performance and a disciplined collective display proved equally decisive.",
+  "image": "https://assets.goal.com/images/v3/imago-sport-1085165753/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORQ/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
+  "link": "/news/christian-pulisic-ac-milan-inter-derby",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Allan Saint-Maximin Sent Off After VAR Review in Charlotte FC’s 4-0 Win",
   "subtitle": "The French winger scored against Orlando City before an obscene gesture resulted in a late red card following a VAR review.",
   "image": "https://assets.goal.com/images/v3/getty-2299592124/crop/MM5DINBRGE5DENBYGE5G433XMU5DAORSGMYA====/GettyImages-2299592124.jpg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -40,14 +48,6 @@ const heroItems = [
   "subtitle": "Higher than the completed 2025-26 Bundesliga season. The league has already broken its goals record.",
   "image": "https://assets.goal.com/images/v3/imago-sport-1085015807/crop/MM5DCOJUGU5DCMBZGQ5G433XMU5DAORRGAYQ====/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
   "link": "/news/mls-averaging-3-25-goals-higher-than-bundesliga",
-  "external": false,
-  "cta": "Read the full story"
-},
-  {
-  "title": "Messi Didn’t Score or Assist",
-  "subtitle": "Inter Miami needed a late equaliser from Fillipi to escape with a 2-2 draw against Cincinnati",
-  "image": "https://assets.goal.com/images/v3/getty-2302465844/crop/MM5DGNRRGY5DEMBTGQ5G433XMU5DAORRHA4Q====/GettyImages-2302465844.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/messi-inter-miami-cincinnati-draw",
   "external": false,
   "cta": "Read the full story"
 },
@@ -80,6 +80,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 307,
+  "title": "Christian Pulisic Delivers as AC Milan Take Control of the Derby",
+  "author": "Mio Ristić",
+  "date": "November 1, 2026",
+  "excerpt": "Christian Pulisic opened the scoring as AC Milan defeated Inter 3-1 at San Siro. Diego Moreira contributed two assists and a goal, while Milan's disciplined defensive display exposed the weaknesses in Cristian Chivu's side.",
+  "imageUrl": "https://assets.goal.com/images/v3/imago-sport-1085165753/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORQ/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
+  "link": "/news/christian-pulisic-ac-milan-inter-derby"
+},
+  {
   "id": 306,
   "title": "Allan Saint-Maximin Sent Off After VAR Review in Charlotte FC’s 4-0 Win",
   "author": "Mio Ristić",
@@ -97,15 +106,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://i.ibb.co/VY2ZwGRb/1793544865808.jpg",
   "link": "/news/nycfc-manchester-city-financial-case"
 },
-  {
-  "id": 304,
-  "title": "MLS Is Averaging 3.25 Goals a Game. That Is Higher Than the Bundesliga.",
-  "author": "Mio Ristić",
-  "date": "October 30, 2026",
-  "excerpt": "After 480 games, Major League Soccer is averaging 3.25 goals per match — higher than the completed 2025-26 Bundesliga season and most other major leagues.",
-  "imageUrl": "https://assets.goal.com/images/v3/imago-sport-1085015807/crop/MM5DCOJUGU5DCMBZGQ5G433XMU5DAORRGAYQ====/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
-  "link": "/news/mls-averaging-3-25-goals-higher-than-bundesliga"
-},
+
 
   
 ];
