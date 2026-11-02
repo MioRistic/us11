@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Pochettino’s Next Roster Will Tell Us Whether the Youth Experiment Was Real",
+  "subtitle": "The USMNT’s first competitive squad since the World Cup will reveal whether the teenagers who impressed in the fall friendlies have earned a place when the results start to count.",
+  "image": "https://assets.goal.com/images/v3/getty-2284795056/crop/MM5DGNZUGQ5DEMJQGY5G433XMU5DAORRHE2Q====/GettyImages-2284795056.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/pochettino-next-roster-youth-experiment",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Christian Pulisic Delivers as AC Milan Take Control of the Derby",
   "subtitle": "Pulisic opened the scoring in Milan's 3-1 victory over Inter, but Diego Moreira's outstanding performance and a disciplined collective display proved equally decisive.",
   "image": "https://assets.goal.com/images/v3/imago-sport-1085165753/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORQ/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
@@ -43,15 +51,6 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "MLS Is Averaging 3.25 Goals a Game",
-  "subtitle": "Higher than the completed 2025-26 Bundesliga season. The league has already broken its goals record.",
-  "image": "https://assets.goal.com/images/v3/imago-sport-1085015807/crop/MM5DCOJUGU5DCMBZGQ5G433XMU5DAORRGAYQ====/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
-  "link": "/news/mls-averaging-3-25-goals-higher-than-bundesliga",
-  "external": false,
-  "cta": "Read the full story"
-},
-
   {
   "title": "Peace Collective x Street Fighter x MLS",
   "subtitle": "The crossover collection that turns MLS stars into streetwear. Shop Griezmann, Son, Lewandowski and more.",
@@ -80,6 +79,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 308,
+  "title": "Pochettino’s Next Roster Will Tell Us Whether the Youth Experiment Was Real",
+  "author": "Mio Ristić",
+  "date": "November 2, 2026",
+  "excerpt": "Mauricio Pochettino’s first competitive USMNT squad since the World Cup will reveal whether the young players who impressed in the fall friendlies have earned a place when the results start to count.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2284795056/crop/MM5DGNZUGQ5DEMJQGY5G433XMU5DAORRHE2Q====/GettyImages-2284795056.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/pochettino-next-roster-youth-experiment"
+},
+  {
   "id": 307,
   "title": "Christian Pulisic Delivers as AC Milan Take Control of the Derby",
   "author": "Mio Ristić",
@@ -97,15 +105,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2299592124/crop/MM5DINBRGE5DENBYGE5G433XMU5DAORSGMYA====/GettyImages-2299592124.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   "link": "/news/allan-saint-maximin-sent-off-charlotte-orlando"
 },
-  {
-  "id": 305,
-  "title": "Is New York City FC at Risk From Manchester City’s Financial Case?",
-  "author": "Mio Ristić",
-  "date": "November 1, 2026",
-  "excerpt": "Manchester City’s financial case has raised questions about City Football Group. Here is what MLS has said about New York City FC and the potential implications for the American club.",
-  "imageUrl": "https://i.ibb.co/VY2ZwGRb/1793544865808.jpg",
-  "link": "/news/nycfc-manchester-city-financial-case"
-},
+ 
 
 
   

@@ -12,6 +12,15 @@ import { SlUserFollowing } from 'react-icons/sl';
 
 const Blog = () => {
   const blogPosts = [
+     {
+  "id": 308,
+  "title": "Pochettino’s Next Roster Will Tell Us Whether the Youth Experiment Was Real",
+  "author": "Mio Ristić",
+  "date": "November 2, 2026",
+  "excerpt": "Mauricio Pochettino’s first competitive USMNT squad since the World Cup will reveal whether the young players who impressed in the fall friendlies have earned a place when the results start to count.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2284795056/crop/MM5DGNZUGQ5DEMJQGY5G433XMU5DAORRHE2Q====/GettyImages-2284795056.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "pochettino-next-roster-youth-experiment"
+},
     {
   "id": 307,
   "title": "Christian Pulisic Delivers as AC Milan Take Control of the Derby",
