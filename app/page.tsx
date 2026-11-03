@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Messi Is Going to Win MVP Again. The Real Question Is What Happens When He Stops.",
+  "subtitle": "Lionel Messi is expected to win the 2026 MLS MVP award. With his Inter Miami contract running through 2028, the bigger question is what the league will look like when he is gone.",
+  "image": "https://assets.goal.com/images/v3/getty-2302624989/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2302624989.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  "link": "/news/messi-2026-mls-mvp-future",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Pochettino’s Next Roster Will Tell Us Whether the Youth Experiment Was Real",
   "subtitle": "The USMNT’s first competitive squad since the World Cup will reveal whether the teenagers who impressed in the fall friendlies have earned a place when the results start to count.",
   "image": "https://assets.goal.com/images/v3/getty-2284795056/crop/MM5DGNZUGQ5DEMJQGY5G433XMU5DAORRHE2Q====/GettyImages-2284795056.jpg?auto=webp&format=pjpg&width=2048&quality=60",
@@ -43,14 +51,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Is New York City FC at Risk From Manchester City’s Financial Case?",
-  "subtitle": "MLS has drawn a line between Manchester City’s financial case in England and New York City FC’s position in the United States.",
-  "image": "https://i.ibb.co/VY2ZwGRb/1793544865808.jpg",
-  "link": "/news/nycfc-manchester-city-financial-case",
-  "external": false,
-  "cta": "Read the full story"
-},
+
   {
   "title": "Peace Collective x Street Fighter x MLS",
   "subtitle": "The crossover collection that turns MLS stars into streetwear. Shop Griezmann, Son, Lewandowski and more.",
@@ -79,6 +80,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 309,
+  "title": "Messi Is Going to Win MVP Again. The Real Question Is What Happens When He Stops.",
+  "author": "Mio Ristić",
+  "date": "November 3, 2026",
+  "excerpt": "Lionel Messi is expected to win another MLS MVP award after a dominant 2026 season. But with his Inter Miami contract running through 2028, the bigger question is what the league's individual awards will mean after his departure.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2302624989/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2302624989.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  "link": "/news/messi-2026-mls-mvp-future"
+},
+  {
   "id": 308,
   "title": "Pochettino’s Next Roster Will Tell Us Whether the Youth Experiment Was Real",
   "author": "Mio Ristić",
@@ -96,15 +106,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/imago-sport-1085165753/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORQ/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
   "link": "/news/christian-pulisic-ac-milan-inter-derby"
 },
-  {
-  "id": 306,
-  "title": "Allan Saint-Maximin Sent Off After VAR Review in Charlotte FC’s 4-0 Win",
-  "author": "Mio Ristić",
-  "date": "November 1, 2026",
-  "excerpt": "Allan Saint-Maximin scored before being sent off following a VAR review as Charlotte FC defeated Orlando City 4-0. The French winger’s late dismissal overshadowed an otherwise impressive performance.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2299592124/crop/MM5DINBRGE5DENBYGE5G433XMU5DAORSGMYA====/GettyImages-2299592124.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/allan-saint-maximin-sent-off-charlotte-orlando"
-},
+
  
 
 

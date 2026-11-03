@@ -12,6 +12,15 @@ import { SlUserFollowing } from 'react-icons/sl';
 
 const Blog = () => {
   const blogPosts = [
+    {
+  "id": 309,
+  "title": "Messi Is Going to Win MVP Again. The Real Question Is What Happens When He Stops.",
+  "author": "Mio Ristić",
+  "date": "November 3, 2026",
+  "excerpt": "Lionel Messi is expected to win another MLS MVP award after a dominant 2026 season. But with his Inter Miami contract running through 2028, the bigger question is what the league's individual awards will mean after his departure.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2302624989/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2302624989.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  "slug": "messi-2026-mls-mvp-future"
+},
      {
   "id": 308,
   "title": "Pochettino’s Next Roster Will Tell Us Whether the Youth Experiment Was Real",
