@@ -49,6 +49,16 @@ const items: CategoryItem[] = [
 ];
 
 const blogPosts: BlogPost[] = [
+
+  {
+  "id": 1046,
+  "title": "The 10 Best-Selling MLS Jerseys of 2026, Ranked From 10 to 1",
+  "author": "Mio Ristić",
+  "date": "November 4, 2026",
+  "excerpt": "MLS released its official 2026 jersey sales ranking. Messi finished first for the fourth straight year, followed by Son Heung-Min and Thomas Müller. Full list from 10 to 1.",
+  "imageUrl": "https://www.mlsstore.com/content/ws/all/55bfdb35-a7c7-406b-9192-649a14ae0501__2400X1350.jpg",
+  "slug": "best-selling-mls-jerseys-2026"
+},
   {
   "id": 1035,
   "title": "Peace Collective x Street Fighter x MLS: The Crossover Collection Worth Buying",

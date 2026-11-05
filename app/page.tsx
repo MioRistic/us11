@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "The 10 Best-Selling MLS Jerseys of 2026, Ranked From 10 to 1",
+  "subtitle": "Messi still No. 1. Son, Müller, Lewandowski and Griezmann also make the top five.",
+  "image": "https://www.mlsstore.com/content/ws/all/55bfdb35-a7c7-406b-9192-649a14ae0501__2400X1350.jpg",
+  "link": "/blog/best-selling-mls-jerseys-2026",
+  "external": false,
+  "cta": "Read the full ranking"
+},
+  {
   "title": "Messi Is Going to Win MVP Again. The Real Question Is What Happens When He Stops.",
   "subtitle": "Lionel Messi is expected to win the 2026 MLS MVP award. With his Inter Miami contract running through 2028, the bigger question is what the league will look like when he is gone.",
   "image": "https://assets.goal.com/images/v3/getty-2302624989/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2302624989.jpg?quality=60&auto=webp&format=pjpg&width=1920",
@@ -52,14 +60,6 @@ const heroItems = [
   "cta": "Read the full story"
 },
 
-  {
-  "title": "Peace Collective x Street Fighter x MLS",
-  "subtitle": "The crossover collection that turns MLS stars into streetwear. Shop Griezmann, Son, Lewandowski and more.",
-  "image": "https://i.postimg.cc/jSgdw8JN/Screenshot-2026-10-29-at-5-04-00-PM.png",
-  "link": "/blog/peace-collective-street-fighter-mls",
-  "external": false,
-  "cta": "Shop the collection"
-},
  
  
 ];
@@ -115,6 +115,15 @@ const blogPosts: Post[] = [
 
 const jerseysBlogPosts: Post[] = [
   {
+  "id": 1046,
+  "title": "The 10 Best-Selling MLS Jerseys of 2026, Ranked From 10 to 1",
+  "author": "Mio Ristić",
+  "date": "November 4, 2026",
+  "excerpt": "MLS released its official 2026 jersey sales ranking. Messi finished first for the fourth straight year, followed by Son Heung-Min and Thomas Müller. Full list from 10 to 1.",
+  "imageUrl": "https://www.mlsstore.com/content/ws/all/55bfdb35-a7c7-406b-9192-649a14ae0501__2400X1350.jpg",
+  "link": "/blog/best-selling-mls-jerseys-2026"
+},
+  {
   "id": 1035,
   "title": "Peace Collective x Street Fighter x MLS: The Crossover Collection Worth Buying",
   "author": "Mio Ristić",
@@ -132,16 +141,7 @@ const jerseysBlogPosts: Post[] = [
   imageUrl: "https://www.mlsstore.com/content/ws/all/71cebf47-8fc9-46ab-b6e7-971b9dc298f2__480X639.jpg?w=480",
   link: "/blog/griezmann-peace-collective-street-fighter"
 },
-    {
-  "id": 1034,
-  "title": "Claim Your Club. Claim Your City. Inside the MLS x Paper Planes x Vs. Everybody Drop",
-  "author": "Mio Ristić",
-  "date": "September 4, 2026",
-  "excerpt": "The limited City Is Mine collection is live with tees, hoodies, work jackets, hats and scarves for nine MLS clubs. Claim your club. Claim your city.",
-  "imageUrl": "https://www.mlsstore.com/content/ws/all/2fd26dec-bf1d-4dfc-89b3-0d678534ceee__2400X1200.jpg?w=2400",
-  "link": "blog/mls-city-is-mine-claim-your-club"
-},
-
+  
  
 ];
 
