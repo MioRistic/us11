@@ -20,6 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "Pochettino’s Nations League Roster Blends Experience and Youth",
+  "subtitle": "The 25-man squad for Haiti restores key seniors and retains the young players from the last camp",
+  "image": "https://assets.goal.com/images/v3/getty-2284795056/crop/MM5DGNZUGQ5DEMJQGY5G433XMU5DAORRHE2Q====/GettyImages-2284795056.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/pochettino-nations-league-roster-haiti",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "The 10 Best-Selling MLS Jerseys of 2026, Ranked From 10 to 1",
   "subtitle": "Messi still No. 1. Son, Müller, Lewandowski and Griezmann also make the top five.",
   "image": "https://www.mlsstore.com/content/ws/all/55bfdb35-a7c7-406b-9192-649a14ae0501__2400X1350.jpg",
@@ -51,14 +59,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Allan Saint-Maximin Sent Off After VAR Review in Charlotte FC’s 4-0 Win",
-  "subtitle": "The French winger scored against Orlando City before an obscene gesture resulted in a late red card following a VAR review.",
-  "image": "https://assets.goal.com/images/v3/getty-2299592124/crop/MM5DINBRGE5DENBYGE5G433XMU5DAORSGMYA====/GettyImages-2299592124.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/allan-saint-maximin-sent-off-charlotte-orlando",
-  "external": false,
-  "cta": "Read the full story"
-},
+
 
  
  
@@ -80,6 +81,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
   {
+  "id": 310,
+  "title": "Pochettino’s Nations League Roster Blends Experience and Youth. The Questions Are Clearer Than the Answers.",
+  "author": "Mio Ristić",
+  "date": "November 6, 2026",
+  "excerpt": "Pochettino’s 25-man roster for the Haiti quarterfinals restores Pulisic, McKennie and Balogun while keeping the young players who stood out in the last window. The balance is clear. The risks are too.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2284795056/crop/MM5DGNZUGQ5DEMJQGY5G433XMU5DAORRHE2Q====/GettyImages-2284795056.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/pochettino-nations-league-roster-haiti"
+},
+  {
   "id": 309,
   "title": "Messi Is Going to Win MVP Again. The Real Question Is What Happens When He Stops.",
   "author": "Mio Ristić",
@@ -97,16 +107,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2284795056/crop/MM5DGNZUGQ5DEMJQGY5G433XMU5DAORRHE2Q====/GettyImages-2284795056.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   "link": "/news/pochettino-next-roster-youth-experiment"
 },
-  {
-  "id": 307,
-  "title": "Christian Pulisic Delivers as AC Milan Take Control of the Derby",
-  "author": "Mio Ristić",
-  "date": "November 1, 2026",
-  "excerpt": "Christian Pulisic opened the scoring as AC Milan defeated Inter 3-1 at San Siro. Diego Moreira contributed two assists and a goal, while Milan's disciplined defensive display exposed the weaknesses in Cristian Chivu's side.",
-  "imageUrl": "https://assets.goal.com/images/v3/imago-sport-1085165753/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORQ/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
-  "link": "/news/christian-pulisic-ac-milan-inter-derby"
-},
-
+  
  
 
 

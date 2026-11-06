@@ -11,6 +11,24 @@ import Link from 'next/link';
 
 const Blog = () => {
   const blogPosts = [
+      {
+  "id": 1046,
+  "title": "The 10 Best-Selling MLS Jerseys of 2026, Ranked From 10 to 1",
+  "author": "Mio Ristić",
+  "date": "November 4, 2026",
+  "excerpt": "MLS released its official 2026 jersey sales ranking. Messi finished first for the fourth straight year, followed by Son Heung-Min and Thomas Müller. Full list from 10 to 1.",
+  "imageUrl": "https://www.mlsstore.com/content/ws/all/55bfdb35-a7c7-406b-9192-649a14ae0501__2400X1350.jpg",
+  "slug": "best-selling-mls-jerseys-2026"
+},
+  {
+  "id": 1035,
+  "title": "Peace Collective x Street Fighter x MLS: The Crossover Collection Worth Buying",
+  "author": "Mio Ristić",
+  "date": "October 29, 2026",
+  "excerpt": "Peace Collective teamed up with Street Fighter for an MLS lifestyle collection featuring Griezmann, Son Heung-min, Lewandowski and club designs. Tees, hoodies and more available now.",
+  "imageUrl": "https://i.postimg.cc/jSgdw8JN/Screenshot-2026-10-29-at-5-04-00-PM.png",
+  "slug": "peace-collective-street-fighter-mls"
+},
      {
   "id": 1033,
   "title": "2026 MLS Archive Collection: Ranking the Retro Kits — From Grimace Purple to Mountain Power",

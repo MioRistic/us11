@@ -52,7 +52,7 @@ const nextConfig = {
       { protocol: 'https', hostname: 'mlsnews.s3.amazonaws.com' },
       { protocol: 'https', hostname: 'www.adnradio.cl' },
       { protocol: 'https', hostname: 'www.750thegame.com' },
-      { protocol: 'https', hostname: 'cyprus-mail.com' },
+      { protocol: 'https', hostname: 'nypost.com' },
       { protocol: 'https', hostname: 'brobible.com' },
       { protocol: 'https', hostname: 'images.squarespace-cdn.com' },
       { protocol: 'https', hostname: 'www.audif1.com' },

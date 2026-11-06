@@ -13,6 +13,15 @@ import { SlUserFollowing } from 'react-icons/sl';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 310,
+  "title": "Pochettino’s Nations League Roster Blends Experience and Youth. The Questions Are Clearer Than the Answers.",
+  "author": "Mio Ristić",
+  "date": "November 6, 2026",
+  "excerpt": "Pochettino’s 25-man roster for the Haiti quarterfinals restores Pulisic, McKennie and Balogun while keeping the young players who stood out in the last window. The balance is clear. The risks are too.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2284795056/crop/MM5DGNZUGQ5DEMJQGY5G433XMU5DAORRHE2Q====/GettyImages-2284795056.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "pochettino-nations-league-roster-haiti"
+},
+    {
   "id": 309,
   "title": "Messi Is Going to Win MVP Again. The Real Question Is What Happens When He Stops.",
   "author": "Mio Ristić",
