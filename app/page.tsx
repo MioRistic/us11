@@ -349,6 +349,117 @@ function Newsletter() {
   );
 }
 
+
+/* ============== FEATURED COLLECTIBLE ============== */
+
+function FeaturedCollectible() {
+  return (
+    <section className="bg-white py-16 px-4">
+      <div className="max-w-7xl mx-auto">
+
+        <div className="mb-8">
+          <p className="text-blue-700 font-mono text-xs font-bold uppercase tracking-[0.25em]">
+            US11 Featured Collectible
+          </p>
+          <h2 className="text-3xl md:text-4xl font-black tracking-tight text-[#020617] mt-2">
+            For the Ultimate Football Collector
+          </h2>
+          <div className="h-px w-full bg-gray-200 mt-6" />
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+
+          {/* Product Image */}
+          <a
+            href="https://fanatics.93n6tx.net/AgGKd1"
+            target="_blank"
+            rel="sponsored noopener noreferrer"
+            className="group relative bg-[#f8f8f8] rounded-2xl overflow-hidden flex items-center justify-center p-5 md:p-10"
+          >
+            <img
+              src="https://fanatics.frgimages.com/inter-miami-cf/lionel-messi-inter-miami-cf-autographed-framed-2025-mls-cup-champions-alternate-blue-adidas-jersey-collage_ss5_p-203695693+u-g0ynztkycvquexeqpzs5+v-hd0tbagaymu0i8eyic0m.jpg?_hv=2&w=1018"
+              alt="Lionel Messi autographed Inter Miami 2025 MLS Cup Champions framed jersey collage"
+              className="w-full max-w-[650px] h-auto object-contain transition-transform duration-700 group-hover:scale-[1.03]"
+            />
+            <span className="absolute top-5 left-5 bg-[#020617] text-white text-[10px] font-bold uppercase tracking-widest px-4 py-2 rounded-full">
+              Exclusive Collectible
+            </span>
+          </a>
+
+          {/* Product Information */}
+          <div className="flex flex-col">
+
+            <p className="text-sm font-semibold text-blue-700 uppercase tracking-widest mb-3">
+              Inter Miami CF · Lionel Messi
+            </p>
+
+            <h3 className="text-2xl md:text-3xl font-black text-[#020617] leading-tight">
+              Lionel Messi Inter Miami CF Autographed Fanatics Authentic Framed 2025 MLS Cup Champions Alternate Blue adidas Jersey Collage
+            </h3>
+
+            <div className="flex items-center gap-2 mt-5">
+              <span className="h-2.5 w-2.5 rounded-full bg-green-500" />
+              <span className="text-sm font-semibold text-green-700">
+                In Stock
+              </span>
+              <span className="text-sm text-gray-500">
+                – Ships within 3 business days
+              </span>
+            </div>
+
+            <div className="mt-7">
+              <p className="text-4xl font-black text-[#020617]">
+                $4,999.99
+              </p>
+              <p className="text-sm text-gray-500 mt-2">
+                Or 4 interest-free payments of $1,249.99 with Affirm.
+              </p>
+            </div>
+
+            <div className="border-t border-gray-200 mt-7 pt-6">
+              <h4 className="text-lg font-bold text-[#020617] mb-3">
+                Description
+              </h4>
+
+              <p className="text-gray-600 text-sm md:text-base leading-relaxed">
+                Celebrate the historic Inter Miami CF 2025 MLS Cup victory
+                and honor Lionel Messi with this exceptional autographed
+                framed jersey collage.
+
+                Messi's personally signed alternate blue adidas jersey is
+                showcased alongside commemorative imagery, creating a
+                premium centerpiece for any football memorabilia collection.
+
+                Each piece is individually numbered and authenticated
+                with FanSecure technology, providing confidence in its
+                provenance and collectible value.
+              </p>
+            </div>
+
+            <a
+              href="https://fanatics.93n6tx.net/jR7xJZ"
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              className="mt-8 inline-flex items-center justify-center gap-3 bg-[#020617] text-white px-8 py-5 rounded-xl font-bold text-sm uppercase tracking-widest transition-all duration-300 hover:bg-blue-700 hover:scale-[1.02] shadow-lg"
+            >
+              View Collectible at Fanatics
+              <span className="text-lg">→</span>
+            </a>
+
+            <p className="text-xs text-gray-400 mt-4 leading-relaxed">
+              US11 may earn a commission from qualifying purchases made
+              through this affiliate link, at no additional cost to you.
+              Product availability and pricing are subject to change.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
 /* ===================== HOME ===================== */
 export default function Home() {
   return (
@@ -374,6 +485,8 @@ export default function Home() {
       <Newsletter />
 
       <NewsGrid posts={jerseysBlogPosts} title="Jersey blog" moreLink="/blog/jerseys" />
+
+      <FeaturedCollectible />
 
       <NewsGrid posts={hallOfFamePosts} title="Let's talk about Legends" moreLink="/blog/mls-hall-of-fame" />
 
