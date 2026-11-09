@@ -12,6 +12,33 @@ import { SlUserFollowing } from 'react-icons/sl';
 
 const Blog = () => {
   const blogPosts = [
+{
+  "id": 313,
+  "title": "Have You Heard of This MLS Club? They Finished First in the League 30 Years Ago, but No Longer Exist.",
+  "author": "Mio Ristić",
+  "date": "November 9, 2026",
+  "excerpt": "Tampa Bay Mutiny finished first in MLS's inaugural 1996 regular season. Discover the story of Carlos Valderrama, Roy Lassiter and the club that helped shape the league's early history.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-279134/crop/MM5DGMBXGI5DEMBZGY5G433XMU5DAORQ/GettyImages-279134.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "slug": "tampa-bay-mutiny-first-mls-regular-season-1996"
+},
+{
+  "id": 312,
+  "title": "NYCFC Fired Pascal Jansen the Morning After the Season Ended. The Timing Says Everything.",
+  "author": "Mio Ristić",
+  "date": "November 9, 2026",
+  "excerpt": "NYCFC have parted ways with Pascal Jansen after an 11th-place finish in the Eastern Conference. With Etihad Park opening in 2027, Todd Dunivant faces a crucial decision over the club's next head coach.",
+  "imageUrl": "https://i.ibb.co/m5FqrF2W/01jx98d9kfv5dsvj3xey.webp",
+  "slug": "nycfc-fires-pascal-jansen-after-2026-season"
+},
+    {
+  "id": 311,
+  "title": "Concacaf Has Rewritten the Gold Cup. The 2027 Tournament Will Look Different From the Start.",
+  "author": "Mio Ristić",
+  "date": "November 7, 2026",
+  "excerpt": "Concacaf is moving to two groups of eight for the 2027 Gold Cup. Every team will play four matches in a new Swiss-style format built to create stronger early fixtures.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2223851504/crop/MM5DINJVGM5DENJWGE5G433XMU5DAORRGM4Q====/GettyImages-2223851504.jpg?quality=60&auto=webp&format=pjpg&width=2160",
+  "slug": "gold-cup-2027-format-change"
+},
     {
   "id": 310,
   "title": "Pochettino’s Nations League Roster Blends Experience and Youth. The Questions Are Clearer Than the Answers.",

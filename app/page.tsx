@@ -20,6 +20,22 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
   {
+  "title": "The Forgotten Club That Finished First in MLS 30 Years Ago",
+  "subtitle": "Remembering Tampa Bay Mutiny, Carlos Valderrama, Roy Lassiter and the team that topped the league's inaugural regular season.",
+  "image": "https://assets.goal.com/images/v3/getty-279134/crop/MM5DGMBXGI5DEMBZGY5G433XMU5DAORQ/GettyImages-279134.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/tampa-bay-mutiny-first-mls-regular-season-1996",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
+  "title": "Concacaf Has Rewritten the Gold Cup",
+  "subtitle": "Two groups of eight and a Swiss-style format are coming in 2027",
+  "image": "https://assets.goal.com/images/v3/getty-2223851504/crop/MM5DINJVGM5DENJWGE5G433XMU5DAORRGM4Q====/GettyImages-2223851504.jpg?quality=60&auto=webp&format=pjpg&width=2160",
+  "link": "/news/gold-cup-2027-format-change",
+  "external": false,
+  "cta": "Read the full story"
+},
+  {
   "title": "Pochettino’s Nations League Roster Blends Experience and Youth",
   "subtitle": "The 25-man squad for Haiti restores key seniors and retains the young players from the last camp",
   "image": "https://assets.goal.com/images/v3/getty-2284795056/crop/MM5DGNZUGQ5DEMJQGY5G433XMU5DAORRHE2Q====/GettyImages-2284795056.jpg?auto=webp&format=pjpg&width=3840&quality=60",
@@ -40,22 +56,6 @@ const heroItems = [
   "subtitle": "Lionel Messi is expected to win the 2026 MLS MVP award. With his Inter Miami contract running through 2028, the bigger question is what the league will look like when he is gone.",
   "image": "https://assets.goal.com/images/v3/getty-2302624989/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2302624989.jpg?quality=60&auto=webp&format=pjpg&width=1920",
   "link": "/news/messi-2026-mls-mvp-future",
-  "external": false,
-  "cta": "Read the full story"
-},
-  {
-  "title": "Pochettino’s Next Roster Will Tell Us Whether the Youth Experiment Was Real",
-  "subtitle": "The USMNT’s first competitive squad since the World Cup will reveal whether the teenagers who impressed in the fall friendlies have earned a place when the results start to count.",
-  "image": "https://assets.goal.com/images/v3/getty-2284795056/crop/MM5DGNZUGQ5DEMJQGY5G433XMU5DAORRHE2Q====/GettyImages-2284795056.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/pochettino-next-roster-youth-experiment",
-  "external": false,
-  "cta": "Read the full story"
-},
-  {
-  "title": "Christian Pulisic Delivers as AC Milan Take Control of the Derby",
-  "subtitle": "Pulisic opened the scoring in Milan's 3-1 victory over Inter, but Diego Moreira's outstanding performance and a disciplined collective display proved equally decisive.",
-  "image": "https://assets.goal.com/images/v3/imago-sport-1085165753/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORQ/imago-image.jpeg?quality=60&auto=webp&format=pjpg&width=1920",
-  "link": "/news/christian-pulisic-ac-milan-inter-derby",
   "external": false,
   "cta": "Read the full story"
 },
@@ -80,33 +80,35 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
-  {
-  "id": 310,
-  "title": "Pochettino’s Nations League Roster Blends Experience and Youth. The Questions Are Clearer Than the Answers.",
+{
+  "id": 1044,
+  "title": "Have You Heard of This MLS Club? They Finished First in the League 30 Years Ago, but No Longer Exist.",
   "author": "Mio Ristić",
-  "date": "November 6, 2026",
-  "excerpt": "Pochettino’s 25-man roster for the Haiti quarterfinals restores Pulisic, McKennie and Balogun while keeping the young players who stood out in the last window. The balance is clear. The risks are too.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2284795056/crop/MM5DGNZUGQ5DEMJQGY5G433XMU5DAORRHE2Q====/GettyImages-2284795056.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/pochettino-nations-league-roster-haiti"
+  "date": "November 9, 2026",
+  "excerpt": "Tampa Bay Mutiny finished first in MLS's inaugural 1996 regular season. Discover the story of Carlos Valderrama, Roy Lassiter and the club that helped shape the league's early history.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-279134/crop/MM5DGMBXGI5DEMBZGY5G433XMU5DAORQ/GettyImages-279134.jpg?auto=webp&format=pjpg&width=2048&quality=60",
+  "link": "/news/tampa-bay-mutiny-first-mls-regular-season-1996"
+},
+{
+  "id": 312,
+  "title": "NYCFC Fired Pascal Jansen the Morning After the Season Ended. The Timing Says Everything.",
+  "author": "Mio Ristić",
+  "date": "November 9, 2026",
+  "excerpt": "NYCFC have parted ways with Pascal Jansen after an 11th-place finish in the Eastern Conference. With Etihad Park opening in 2027, Todd Dunivant faces a crucial decision over the club's next head coach.",
+  "imageUrl": "https://i.ibb.co/m5FqrF2W/01jx98d9kfv5dsvj3xey.webp",
+  "link": "/news/nycfc-fires-pascal-jansen-after-2026-season"
 },
   {
-  "id": 309,
-  "title": "Messi Is Going to Win MVP Again. The Real Question Is What Happens When He Stops.",
+  "id": 311,
+  "title": "Concacaf Has Rewritten the Gold Cup. The 2027 Tournament Will Look Different From the Start.",
   "author": "Mio Ristić",
-  "date": "November 3, 2026",
-  "excerpt": "Lionel Messi is expected to win another MLS MVP award after a dominant 2026 season. But with his Inter Miami contract running through 2028, the bigger question is what the league's individual awards will mean after his departure.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2302624989/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2302624989.jpg?quality=60&auto=webp&format=pjpg&width=1920",
-  "link": "/news/messi-2026-mls-mvp-future"
+  "date": "November 7, 2026",
+  "excerpt": "Concacaf is moving to two groups of eight for the 2027 Gold Cup. Every team will play four matches in a new Swiss-style format built to create stronger early fixtures.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2223851504/crop/MM5DINJVGM5DENJWGE5G433XMU5DAORRGM4Q====/GettyImages-2223851504.jpg?quality=60&auto=webp&format=pjpg&width=2160",
+  "link": "/news/gold-cup-2027-format-change"
 },
-  {
-  "id": 308,
-  "title": "Pochettino’s Next Roster Will Tell Us Whether the Youth Experiment Was Real",
-  "author": "Mio Ristić",
-  "date": "November 2, 2026",
-  "excerpt": "Mauricio Pochettino’s first competitive USMNT squad since the World Cup will reveal whether the young players who impressed in the fall friendlies have earned a place when the results start to count.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2284795056/crop/MM5DGNZUGQ5DEMJQGY5G433XMU5DAORRHE2Q====/GettyImages-2284795056.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/pochettino-next-roster-youth-experiment"
-},
+
+
   
  
 
