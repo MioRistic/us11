@@ -12,6 +12,16 @@ import { SlUserFollowing } from 'react-icons/sl';
 
 const Blog = () => {
   const blogPosts = [
+
+{
+  "id": 314,
+  "title": "Pochettino’s Manchester United Interest Is Real. What It Means for the USMNT Is Less Clear.",
+  "author": "Mio Ristić",
+  "date": "November 10, 2026",
+  "excerpt": "Mauricio Pochettino’s reported interest in Manchester United raises questions about his future with the USMNT, but the implications for the national team remain uncertain.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1at_ZooB46OwJF3ESZJDSlpbxSHObJBzA7amwquJj3zXxdgIhVSPmrHsN&s=10",
+  "slug": "pochettino-manchester-united-usmnt-2026"
+},
 {
   "id": 313,
   "title": "Have You Heard of This MLS Club? They Finished First in the League 30 Years Ago, but No Longer Exist.",

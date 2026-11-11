@@ -19,6 +19,16 @@ interface Post {
 const ACCENT = '#1d4ed8';
 
 const heroItems = [
+
+{
+  "title": "Pochettino’s Manchester United Interest Is Real. What It Means for the USMNT Is Less Clear.",
+  "subtitle": "Manchester United’s interest in Mauricio Pochettino could have major implications for the USMNT as the national team prepares for the next stage of its development.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1at_ZooB46OwJF3ESZJDSlpbxSHObJBzA7amwquJj3zXxdgIhVSPmrHsN&s=10",
+  "link": "/news/pochettino-manchester-united-usmnt-2026",
+  "external": false,
+  "cta": "Read the full story"
+}
+,
   {
   "title": "The Forgotten Club That Finished First in MLS 30 Years Ago",
   "subtitle": "Remembering Tampa Bay Mutiny, Carlos Valderrama, Roy Lassiter and the team that topped the league's inaugural regular season.",
@@ -51,14 +61,6 @@ const heroItems = [
   "external": false,
   "cta": "Read the full ranking"
 },
-  {
-  "title": "Messi Is Going to Win MVP Again. The Real Question Is What Happens When He Stops.",
-  "subtitle": "Lionel Messi is expected to win the 2026 MLS MVP award. With his Inter Miami contract running through 2028, the bigger question is what the league will look like when he is gone.",
-  "image": "https://assets.goal.com/images/v3/getty-2302624989/crop/MM5DKMBQGQ5DEOBRGU5G433XMU5DAORSGYYQ====/GettyImages-2302624989.jpg?quality=60&auto=webp&format=pjpg&width=1920",
-  "link": "/news/messi-2026-mls-mvp-future",
-  "external": false,
-  "cta": "Read the full story"
-},
 
 
  
@@ -80,6 +82,16 @@ const staffPicks = [
 ];
 
 const blogPosts: Post[] = [
+
+{
+  "id": 1045,
+  "title": "Pochettino’s Manchester United Interest Is Real. What It Means for the USMNT Is Less Clear.",
+  "author": "Mio Ristić",
+  "date": "November 10, 2026",
+  "excerpt": "Mauricio Pochettino’s reported interest in Manchester United raises questions about his future with the USMNT, but the implications for the national team remain uncertain.",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1at_ZooB46OwJF3ESZJDSlpbxSHObJBzA7amwquJj3zXxdgIhVSPmrHsN&s=10",
+  "link": "/news/pochettino-manchester-united-usmnt-2026"
+},
 {
   "id": 1044,
   "title": "Have You Heard of This MLS Club? They Finished First in the League 30 Years Ago, but No Longer Exist.",
@@ -97,15 +109,6 @@ const blogPosts: Post[] = [
   "excerpt": "NYCFC have parted ways with Pascal Jansen after an 11th-place finish in the Eastern Conference. With Etihad Park opening in 2027, Todd Dunivant faces a crucial decision over the club's next head coach.",
   "imageUrl": "https://i.ibb.co/m5FqrF2W/01jx98d9kfv5dsvj3xey.webp",
   "link": "/news/nycfc-fires-pascal-jansen-after-2026-season"
-},
-  {
-  "id": 311,
-  "title": "Concacaf Has Rewritten the Gold Cup. The 2027 Tournament Will Look Different From the Start.",
-  "author": "Mio Ristić",
-  "date": "November 7, 2026",
-  "excerpt": "Concacaf is moving to two groups of eight for the 2027 Gold Cup. Every team will play four matches in a new Swiss-style format built to create stronger early fixtures.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2223851504/crop/MM5DINJVGM5DENJWGE5G433XMU5DAORRGM4Q====/GettyImages-2223851504.jpg?quality=60&auto=webp&format=pjpg&width=2160",
-  "link": "/news/gold-cup-2027-format-change"
 },
 
 
