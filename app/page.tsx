@@ -21,6 +21,14 @@ const ACCENT = '#1d4ed8';
 const heroItems = [
 
 {
+  "title": "The Guardiola-to-USMNT Idea Is Real on One Side. It Is Still a Long Shot on the Other.",
+  "subtitle": "U.S. Soccer has identified Pep Guardiola as a leading candidate if Mauricio Pochettino leaves for Manchester United. The bigger question is whether Guardiola is ready to return to management.",
+  "image": "https://assets.goal.com/images/v3/getty-2277167485/crop/MM5DCMJTGY5DMMZZHJXG653FHI2TUMJQGY======/GettyImages-2277167485.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/pep-guardiola-usmnt-manager-pochettino-manchester-united-2026",
+  "external": false,
+  "cta": "Read the full story"
+},
+{
   "title": "Pochettino’s Manchester United Interest Is Real. What It Means for the USMNT Is Less Clear.",
   "subtitle": "Manchester United’s interest in Mauricio Pochettino could have major implications for the USMNT as the national team prepares for the next stage of its development.",
   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1at_ZooB46OwJF3ESZJDSlpbxSHObJBzA7amwquJj3zXxdgIhVSPmrHsN&s=10",
@@ -45,14 +53,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Pochettino’s Nations League Roster Blends Experience and Youth",
-  "subtitle": "The 25-man squad for Haiti restores key seniors and retains the young players from the last camp",
-  "image": "https://assets.goal.com/images/v3/getty-2284795056/crop/MM5DGNZUGQ5DEMJQGY5G433XMU5DAORRHE2Q====/GettyImages-2284795056.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/pochettino-nations-league-roster-haiti",
-  "external": false,
-  "cta": "Read the full story"
-},
+  
   {
   "title": "The 10 Best-Selling MLS Jerseys of 2026, Ranked From 10 to 1",
   "subtitle": "Messi still No. 1. Son, Müller, Lewandowski and Griezmann also make the top five.",
@@ -83,6 +84,16 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
 
+  
+{
+  "id": 1046,
+  "title": "The Guardiola-to-USMNT Idea Is Real on One Side. It Is Still a Long Shot on the Other.",
+  "author": "Mio Ristić",
+  "date": "November 12, 2026",
+  "excerpt": "U.S. Soccer is prepared to pursue Pep Guardiola if Mauricio Pochettino leaves for Manchester United. But convincing the former Manchester City manager to return from his sabbatical is another challenge entirely.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2277167485/crop/MM5DCMJTGY5DMMZZHJXG653FHI2TUMJQGY======/GettyImages-2277167485.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "/news/pep-guardiola-usmnt-manager-pochettino-manchester-united-2026"
+},
 {
   "id": 1045,
   "title": "Pochettino’s Manchester United Interest Is Real. What It Means for the USMNT Is Less Clear.",
@@ -101,15 +112,7 @@ const blogPosts: Post[] = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-279134/crop/MM5DGMBXGI5DEMBZGY5G433XMU5DAORQ/GettyImages-279134.jpg?auto=webp&format=pjpg&width=2048&quality=60",
   "link": "/news/tampa-bay-mutiny-first-mls-regular-season-1996"
 },
-{
-  "id": 312,
-  "title": "NYCFC Fired Pascal Jansen the Morning After the Season Ended. The Timing Says Everything.",
-  "author": "Mio Ristić",
-  "date": "November 9, 2026",
-  "excerpt": "NYCFC have parted ways with Pascal Jansen after an 11th-place finish in the Eastern Conference. With Etihad Park opening in 2027, Todd Dunivant faces a crucial decision over the club's next head coach.",
-  "imageUrl": "https://i.ibb.co/m5FqrF2W/01jx98d9kfv5dsvj3xey.webp",
-  "link": "/news/nycfc-fires-pascal-jansen-after-2026-season"
-},
+
 
 
   

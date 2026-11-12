@@ -14,6 +14,15 @@ const Blog = () => {
   const blogPosts = [
 
 {
+  "id": 315,
+  "title": "The Guardiola-to-USMNT Idea Is Real on One Side. It Is Still a Long Shot on the Other.",
+  "author": "Mio Ristić",
+  "date": "November 12, 2026",
+  "excerpt": "U.S. Soccer is prepared to pursue Pep Guardiola if Mauricio Pochettino leaves for Manchester United. But convincing the former Manchester City manager to return from his sabbatical is another challenge entirely.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2277167485/crop/MM5DCMJTGY5DMMZZHJXG653FHI2TUMJQGY======/GettyImages-2277167485.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "pep-guardiola-usmnt-manager-pochettino-manchester-united-2026"
+},
+{
   "id": 314,
   "title": "Pochettino’s Manchester United Interest Is Real. What It Means for the USMNT Is Less Clear.",
   "author": "Mio Ristić",
