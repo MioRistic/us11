@@ -14,6 +14,15 @@ const Blog = () => {
   const blogPosts = [
 
 {
+  "id": 316,
+  "title": "Pochettino Cried When He Left the USMNT. Most People Didn’t.",
+  "author": "Mio Ristić",
+  "date": "November 14, 2026",
+  "excerpt": "Mauricio Pochettino became emotional as he explained his decision to leave the USMNT for Manchester United. His departure brings an unexpected end to a project originally planned through the 2030 World Cup.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2304964763/crop/MM5DGOJTGY5DEMRRGQ5G433XMU5DGOBYHI4DK===/GettyImages-2304964763.jpg",
+  "slug": "pochettino-cried-usmnt-manchester-united-departure-2026"
+},
+{
   "id": 315,
   "title": "The Guardiola-to-USMNT Idea Is Real on One Side. It Is Still a Long Shot on the Other.",
   "author": "Mio Ristić",

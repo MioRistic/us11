@@ -21,6 +21,14 @@ const ACCENT = '#1d4ed8';
 const heroItems = [
 
 {
+  "title": "Pochettino Cried When He Left the USMNT. Most People Didn’t.",
+  "subtitle": "An emotional farewell brought Mauricio Pochettino’s USMNT tenure to an unexpected end, as Manchester United offered him a new challenge at Old Trafford.",
+  "image": "https://assets.goal.com/images/v3/getty-2304964763/crop/MM5DGOJTGY5DEMRRGQ5G433XMU5DGOBYHI4DK===/GettyImages-2304964763.jpg",
+  "link": "/news/pochettino-cried-usmnt-manchester-united-departure-2026",
+  "external": false,
+  "cta": "Read the full story"
+},
+{
   "title": "The Guardiola-to-USMNT Idea Is Real on One Side. It Is Still a Long Shot on the Other.",
   "subtitle": "U.S. Soccer has identified Pep Guardiola as a leading candidate if Mauricio Pochettino leaves for Manchester United. The bigger question is whether Guardiola is ready to return to management.",
   "image": "https://assets.goal.com/images/v3/getty-2277167485/crop/MM5DCMJTGY5DMMZZHJXG653FHI2TUMJQGY======/GettyImages-2277167485.jpg?auto=webp&format=pjpg&width=3840&quality=60",
@@ -45,14 +53,7 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-  {
-  "title": "Concacaf Has Rewritten the Gold Cup",
-  "subtitle": "Two groups of eight and a Swiss-style format are coming in 2027",
-  "image": "https://assets.goal.com/images/v3/getty-2223851504/crop/MM5DINJVGM5DENJWGE5G433XMU5DAORRGM4Q====/GettyImages-2223851504.jpg?quality=60&auto=webp&format=pjpg&width=2160",
-  "link": "/news/gold-cup-2027-format-change",
-  "external": false,
-  "cta": "Read the full story"
-},
+
   
   {
   "title": "The 10 Best-Selling MLS Jerseys of 2026, Ranked From 10 to 1",
@@ -86,6 +87,16 @@ const blogPosts: Post[] = [
 
   
 {
+  "id": 1047,
+  "title": "Pochettino Cried When He Left the USMNT. Most People Didn’t.",
+  "author": "Mio Ristić",
+  "date": "November 14, 2026",
+  "excerpt": "Mauricio Pochettino became emotional as he explained his decision to leave the USMNT for Manchester United. His departure brings an unexpected end to a project originally planned through the 2030 World Cup.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2304964763/crop/MM5DGOJTGY5DEMRRGQ5G433XMU5DGOBYHI4DK===/GettyImages-2304964763.jpg",
+  "link": "/news/pochettino-cried-usmnt-manchester-united-departure-2026"
+}
+,
+{
   "id": 1046,
   "title": "The Guardiola-to-USMNT Idea Is Real on One Side. It Is Still a Long Shot on the Other.",
   "author": "Mio Ristić",
@@ -103,16 +114,6 @@ const blogPosts: Post[] = [
   "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1at_ZooB46OwJF3ESZJDSlpbxSHObJBzA7amwquJj3zXxdgIhVSPmrHsN&s=10",
   "link": "/news/pochettino-manchester-united-usmnt-2026"
 },
-{
-  "id": 1044,
-  "title": "Have You Heard of This MLS Club? They Finished First in the League 30 Years Ago, but No Longer Exist.",
-  "author": "Mio Ristić",
-  "date": "November 9, 2026",
-  "excerpt": "Tampa Bay Mutiny finished first in MLS's inaugural 1996 regular season. Discover the story of Carlos Valderrama, Roy Lassiter and the club that helped shape the league's early history.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-279134/crop/MM5DGMBXGI5DEMBZGY5G433XMU5DAORQ/GettyImages-279134.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/tampa-bay-mutiny-first-mls-regular-season-1996"
-},
-
 
 
   
