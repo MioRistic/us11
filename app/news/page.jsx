@@ -14,6 +14,15 @@ const Blog = () => {
   const blogPosts = [
 
 {
+  "id": 1048,
+  "title": "Pulisic and Hall Lead a Dominant USMNT as Pochettino’s Exit Begins",
+  "author": "Mio Ristić",
+  "date": "November 15, 2026",
+  "excerpt": "Christian Pulisic scored twice and Julian Hall continued his impressive rise as the USMNT defeated Haiti 6-0 in the first leg of their Concacaf Nations League quarterfinal, in Mauricio Pochettino’s penultimate match in charge.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2305143539/crop/MM5DIOBSGY5DGMRRG45G433XMU5DAORQ/GettyImages-2305143539.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  "slug": "pulisic-hall-usmnt-haiti-6-0-pochettino-2026"
+},
+{
   "id": 316,
   "title": "Pochettino Cried When He Left the USMNT. Most People Didn’t.",
   "author": "Mio Ristić",

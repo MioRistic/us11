@@ -20,6 +20,15 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
 
+
+{
+  "title": "Pulisic and Hall Lead a Dominant USMNT as Pochettino’s Exit Begins",
+  "subtitle": "Christian Pulisic delivered a brace, Julian Hall continued his breakthrough run, and the United States moved closer to the Nations League semifinals with a commanding 6-0 win over Haiti.",
+  "image": "https://assets.goal.com/images/v3/getty-2305143539/crop/MM5DIOBSGY5DGMRRG45G433XMU5DAORQ/GettyImages-2305143539.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  "link": "/news/pulisic-hall-usmnt-haiti-6-0-pochettino-2026",
+  "external": false,
+  "cta": "Read the full story"
+},
 {
   "title": "Pochettino Cried When He Left the USMNT. Most People Didn’t.",
   "subtitle": "An emotional farewell brought Mauricio Pochettino’s USMNT tenure to an unexpected end, as Manchester United offered him a new challenge at Old Trafford.",
@@ -45,14 +54,7 @@ const heroItems = [
   "cta": "Read the full story"
 }
 ,
-  {
-  "title": "The Forgotten Club That Finished First in MLS 30 Years Ago",
-  "subtitle": "Remembering Tampa Bay Mutiny, Carlos Valderrama, Roy Lassiter and the team that topped the league's inaugural regular season.",
-  "image": "https://assets.goal.com/images/v3/getty-279134/crop/MM5DGMBXGI5DEMBZGY5G433XMU5DAORQ/GettyImages-279134.jpg?auto=webp&format=pjpg&width=2048&quality=60",
-  "link": "/news/tampa-bay-mutiny-first-mls-regular-season-1996",
-  "external": false,
-  "cta": "Read the full story"
-},
+  
 
   
   {
@@ -87,6 +89,16 @@ const blogPosts: Post[] = [
 
   
 {
+  "id": 1048,
+  "title": "Pulisic and Hall Lead a Dominant USMNT as Pochettino’s Exit Begins",
+  "author": "Mio Ristić",
+  "date": "November 15, 2026",
+  "excerpt": "Christian Pulisic scored twice and Julian Hall continued his impressive rise as the USMNT defeated Haiti 6-0 in the first leg of their Concacaf Nations League quarterfinal, in Mauricio Pochettino’s penultimate match in charge.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2305143539/crop/MM5DIOBSGY5DGMRRG45G433XMU5DAORQ/GettyImages-2305143539.jpg?quality=60&auto=webp&format=pjpg&width=1920",
+  "link": "/news/pulisic-hall-usmnt-haiti-6-0-pochettino-2026"
+}
+,
+{
   "id": 1047,
   "title": "Pochettino Cried When He Left the USMNT. Most People Didn’t.",
   "author": "Mio Ristić",
@@ -104,15 +116,6 @@ const blogPosts: Post[] = [
   "excerpt": "U.S. Soccer is prepared to pursue Pep Guardiola if Mauricio Pochettino leaves for Manchester United. But convincing the former Manchester City manager to return from his sabbatical is another challenge entirely.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-2277167485/crop/MM5DCMJTGY5DMMZZHJXG653FHI2TUMJQGY======/GettyImages-2277167485.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "/news/pep-guardiola-usmnt-manager-pochettino-manchester-united-2026"
-},
-{
-  "id": 1045,
-  "title": "Pochettino’s Manchester United Interest Is Real. What It Means for the USMNT Is Less Clear.",
-  "author": "Mio Ristić",
-  "date": "November 10, 2026",
-  "excerpt": "Mauricio Pochettino’s reported interest in Manchester United raises questions about his future with the USMNT, but the implications for the national team remain uncertain.",
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1at_ZooB46OwJF3ESZJDSlpbxSHObJBzA7amwquJj3zXxdgIhVSPmrHsN&s=10",
-  "link": "/news/pochettino-manchester-united-usmnt-2026"
 },
 
 
