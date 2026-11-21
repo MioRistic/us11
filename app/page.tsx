@@ -20,7 +20,14 @@ const ACCENT = '#1d4ed8';
 
 const heroItems = [
 
-
+{
+  "title": "Is Seattle the Biggest Disappointment of the 2026 MLS Season?",
+  "subtitle": "Seattle's season began with contender ambitions and ended in a Wild Card exit. US11 examines the gap between expectations and reality.",
+  "image": "https://assets.goal.com/images/v3/bltbe57792fa91330a8/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-29T225717.954.png?quality=60&auto=webp&format=pjpg&width=1920",
+  "link": "/news/seattle-sounders-biggest-disappointment-2026",
+  "external": false,
+  "cta": "Read the full story"
+},
 {
   "title": "Pulisic and Hall Lead a Dominant USMNT as Pochettino’s Exit Begins",
   "subtitle": "Christian Pulisic delivered a brace, Julian Hall continued his breakthrough run, and the United States moved closer to the Nations League semifinals with a commanding 6-0 win over Haiti.",
@@ -45,18 +52,6 @@ const heroItems = [
   "external": false,
   "cta": "Read the full story"
 },
-{
-  "title": "Pochettino’s Manchester United Interest Is Real. What It Means for the USMNT Is Less Clear.",
-  "subtitle": "Manchester United’s interest in Mauricio Pochettino could have major implications for the USMNT as the national team prepares for the next stage of its development.",
-  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1at_ZooB46OwJF3ESZJDSlpbxSHObJBzA7amwquJj3zXxdgIhVSPmrHsN&s=10",
-  "link": "/news/pochettino-manchester-united-usmnt-2026",
-  "external": false,
-  "cta": "Read the full story"
-}
-,
-  
-
-  
   {
   "title": "The 10 Best-Selling MLS Jerseys of 2026, Ranked From 10 to 1",
   "subtitle": "Messi still No. 1. Son, Müller, Lewandowski and Griezmann also make the top five.",
@@ -87,7 +82,15 @@ const staffPicks = [
 
 const blogPosts: Post[] = [
 
-  
+  {
+  "id": 1049,
+  "title": "Is Seattle the Biggest Disappointment of the 2026 MLS Season?",
+  "author": "Mio Ristić",
+  "date": "2026-11-21",
+  "excerpt": "Seattle Sounders finished eighth in the Western Conference and exited the 2026 MLS Cup Playoffs in the Wild Card. Was their season the biggest disappointment in MLS?",
+  "imageUrl": "https://assets.goal.com/images/v3/bltbe57792fa91330a8/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-29T225717.954.png?quality=60&auto=webp&format=pjpg&width=1920",
+  "link": "/news/seattle-sounders-biggest-disappointment-2026"
+},
 {
   "id": 1048,
   "title": "Pulisic and Hall Lead a Dominant USMNT as Pochettino’s Exit Begins",
@@ -108,15 +111,6 @@ const blogPosts: Post[] = [
   "link": "/news/pochettino-cried-usmnt-manchester-united-departure-2026"
 }
 ,
-{
-  "id": 1046,
-  "title": "The Guardiola-to-USMNT Idea Is Real on One Side. It Is Still a Long Shot on the Other.",
-  "author": "Mio Ristić",
-  "date": "November 12, 2026",
-  "excerpt": "U.S. Soccer is prepared to pursue Pep Guardiola if Mauricio Pochettino leaves for Manchester United. But convincing the former Manchester City manager to return from his sabbatical is another challenge entirely.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2277167485/crop/MM5DCMJTGY5DMMZZHJXG653FHI2TUMJQGY======/GettyImages-2277167485.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "/news/pep-guardiola-usmnt-manager-pochettino-manchester-united-2026"
-},
 
 
   

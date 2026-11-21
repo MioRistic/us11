@@ -12,7 +12,15 @@ import { SlUserFollowing } from 'react-icons/sl';
 
 const Blog = () => {
   const blogPosts = [
-
+{
+  "id": 1049,
+  "title": "Is Seattle the Biggest Disappointment of the 2026 MLS Season?",
+  "author": "Mio Ristić",
+  "date": "2026-11-21",
+  "excerpt": "Seattle Sounders finished eighth in the Western Conference and exited the 2026 MLS Cup Playoffs in the Wild Card. Was their season the biggest disappointment in MLS?",
+  "imageUrl": "https://assets.goal.com/images/v3/bltbe57792fa91330a8/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202026-08-29T225717.954.png?quality=60&auto=webp&format=pjpg&width=1920",
+  "slug": "seattle-sounders-biggest-disappointment-2026"
+},
 {
   "id": 1048,
   "title": "Pulisic and Hall Lead a Dominant USMNT as Pochettino’s Exit Begins",
